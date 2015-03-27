@@ -4,7 +4,7 @@
   <!-- Use this file to override the styles in Styles.xml -->
 
   <!-- enable these lines to suppress Mediaroom Branding-->
- <style class="WelcomeFlipper" visible="false" />
+  <!--<style class="WelcomeFlipper" visible="false" />-->
   <style class="ScreenSaverFlipper" visible="false" />
 
 
