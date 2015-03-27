@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ConnectionTroubleshootingPage class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.ChannelScanning.MoreInfo.Title</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" href="action:back">#Done</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsSubtitle">#Settings.Troubleshoot.Title</Text>
+      <Text class="Text.SettingsDescription" id="_description">#Settings.Troubleshoot.Description.Online</Text>
+    </VerticalFlowPanel>
+
+    </ConnectionTroubleshootingPage>
+</uidescription>

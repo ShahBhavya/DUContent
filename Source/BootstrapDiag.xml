@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+    <BootstrapDiag class="Page.Animated.Diagnostics">
+      <Text class="Text.Clock">{Time}</Text>
+      <Text class="Text.HeaderTitle" id="_header">#Diag.Header</Text>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.Diagnostics" id="_diagInfo" />
+
+      <Panel top="425" left="32" width="576">
+        <Button class="Button.Diagnostics" left="88" id="_refreshButton" onClick="OnClick_Refresh">#Diag.Refresh</Button>
+        <Button class="Button.Diagnostics" left="332" id="_rebootButton" onClick="OnClick_RebootButton">#Diag.Reboot</Button>
+      </Panel>
+    </BootstrapDiag>
+</uidescription>

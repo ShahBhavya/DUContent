@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <UIPerfDiagnostics class="Page.Monkey" height="150">
+        <VerticalFlowPanel left="30" id="_runTimePanel" visible="true">
+            <Text class="Text.PerfDiagnostics" id="_systemInfo1" width="480" visible="true"></Text>
+            <Text class="Text.PerfDiagnostics" id="_systemInfo2" width="480" visible="true"></Text>
+            <Text class="Text.PerfDiagnostics" id="_objectIds" width="480" visible="true"/>
+            <Text class="Text.PerfDiagnostics" id="_perfStats" width="480" height="100" visible="true"/>
+        </VerticalFlowPanel>
+    </UIPerfDiagnostics>
+</uidescription>

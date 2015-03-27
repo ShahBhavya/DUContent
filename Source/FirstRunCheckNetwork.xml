@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <FirstRunCheckNetwork class="Page.Animated.FirstRun">
+    <Text class="Text.HeaderTitle.FirstRun" id="_header">#FirstRunSelectLanguage.Header</Text>
+    <Text class="Text.SubheaderTitle.FirstRun">#FirstRunCheckNetwork.SubHeader</Text>
+
+    <Image id="_img1" class="Image.Checkmark.FirstRun" visible="false" left="210" top="175"/>
+    <Image id="_failImg1" class="Image.Failed.FirstRun" visible="false" left="210" top="175"/>
+    <Image id="_img2" class="Image.Checkmark.FirstRun" visible="false" left="210" top="207"/>
+    <Image id="_failImg2" class="Image.Failed.FirstRun" visible="false" left="210" top="207"/>
+    <!-- <Image id="_img3" class="Image.Checkmark.FirstRun" visible="false" left="210" top="240"/>
+    <Image id="_failImg3" class="Image.Failed.FirstRun" visible="false" left="210" top="240"/>-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.FirstRunSelectLanguage">
+      <Text class="Text.FirstRunCheckNetwork.ListHeader">#FirstRunCheckNetwork.Attempting</Text>
+      <Text id="_step1" class="Text.FirstRunCheckNetwork.Active">#FirstRunCheckNetwork.ConnectToHomeNetwork</Text>
+      <Text id="_step2" class="Text.FirstRunCheckNetwork.Inactive">#FirstRunCheckNetwork.GetIP</Text>
+      <!-- <Text id="_step3" class="Text.FirstRunCheckNetwork.Inactive">#FirstRunCheckNetwork.GetInternetConnection</Text> -->
+      <Image id="_spinner" class="Image.Busy.Indicator.FirstRunCheckNetwork" left="320"/>
+    </VerticalFlowPanel>
+  </FirstRunCheckNetwork>
+</uidescription>

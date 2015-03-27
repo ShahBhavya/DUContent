@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_MenuPage class="Page.Animated" initialFocus="_doneButton">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Title.ParentalLocking</Text>
+		<Image class="Image.PCon.State.Settings" id="_pconImage"/>
+		<Text class="Text.Clock">{Time}</Text>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_doneButton" onClick="OnClick_Done">#ParentalControl.MenuItemText.Lock</Button>
+			<Button class="Button.Vertical" id="_offPCon" onClick="OnClick_OffPCon">#ParentalControl.MenuItemText.TurnOffPCon</Button>
+			<Button class="Button.Vertical" id="_changePin" onClick="OnClick_ChangePin">#ParentalControl.MenuItemText.ChangePIN</Button>
+		</VerticalFlowPanel>
+		
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.List">
+            <List class="List.ParentalControls" id="_list" listCounterId="_listCounter" />
+    	</VerticalFlowPanel>
+    	<Text class="Text.ListCounter.Settings" id="_listCounter" />
+		        
+    </ParentalControl_MenuPage>
+</uidescription>

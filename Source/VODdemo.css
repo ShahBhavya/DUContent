@@ -1,0 +1,57 @@
+body
+{
+	position: absolute;
+	width: 640px;
+	height: 480px;
+	margin: 0;
+	padding: 0;
+	background: #000 url("images/HOTSHOWS_Background.jpg") no-repeat;
+	font-family: "Segoe", sans-serif;
+	font-size: 16px;
+	color: #f2f2f2;
+}
+
+.visibleScreen
+{
+	margin: 36px 0 0 36px;
+	padding: 0;
+	position: absolute;
+	width: 576px;
+}
+
+.mainTitle
+{
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 40px;
+	font-size: 32px;
+	color: #7495F0;
+}
+
+.subTitle
+{
+	margin: 0;
+	position: absolute;
+	top: 10px;
+	right: 60px;
+	font-size: 18px;
+	color: #7495F0;
+}
+
+.mosaic
+{
+	margin: 40px 0 0 0;
+}
+
+.anchor
+{
+	color: white;
+}
+
+
+.description
+{
+	font-family: "Segoe", sans-serif;
+	font-size: 24px;
+}

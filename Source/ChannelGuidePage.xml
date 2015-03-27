@@ -1,0 +1,105 @@
+<uidescription version="3.0">
+  <ChannelGuidePage id="ChannelGuidePage" class="Page.Animated" TestId="ChannelGuidePage" PageLayout="ntsc" background="@Transparent" Limoline="3000">
+    <Panel class="Panel.Masthead" height="107" />
+    <PanelFlipper class="PanelFlipper" id="_flipper" IntervalMilliseconds="2500" PanelOutAnimation="SlowFadeOut" Circular="false">
+      <Image class="Image.Branding" id="_branding" />
+      <Text class="Text.HeaderTitle" id="_headerTitle" showAnimations="SlowFadeIn">#Guide.Guide</Text>
+    </PanelFlipper>
+    <Text class="Text.Clock">{Time}</Text>
+    <Text id="_menuFilterHint" class="Text.FilterHint.ChannelGuide">#Guide.Filter.Hint</Text>
+    <Panel class="Panel.MenuBackground" id="_menuBackground">
+      <!--Bound Menu for channel list-->
+      <BoundMenu class="Menu.Top" id="ChannelsBoundMenu" istemplated="true" numvisibleitems="10" prefetchamount="5" prefetchthreshold="5" Circular="true">
+        <MenuItemTemplate TemplateName="channel" ValuePath="@displaychannelheader" class="MenuItem.Small" DataStorePaths="@channelNumber;@shortName" ImageFollowsText="true">
+        </MenuItemTemplate>
+        <MenuItemTemplate TemplateName="channelWithLogo" ValuePath="@displayedChannel" class="MenuItem.Small" DataStorePaths="@channelNumber;@shortName" ImageFollowsText="true">
+          <Image class="Image.ColumnHeaderChannelLogos" dataPath="@sd480LogoUrl">
+          </Image>
+        </MenuItemTemplate>
+      </BoundMenu>
+    </Panel>
+    <!--Bound List for programs-->
+    <BoundList id="ChannelsBoundList1" class="List.ChannelGuide" istemplated="true" numvisibleitems="6" prefetchamount="6" UseValueBasedChunk="true" AllowPartialUpdate="true" HasHeaders="true" PrefetchThreshold="3" DataSourceSemantics="relativeAsync">
+      <Text id="StickyHeader" class="Text.ChannelGuideHeader"/>
+      <ListItemTemplate TemplateName="program" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithPromotion" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime;@background">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Record" />
+        <Image class="Image.Promotional" dataPath="@stateIndicatorUri" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithRecord" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Record" />
+        <Image class="Image.Record" dataPath="@stateIndicatorUri" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithSeriesRecord" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Record.Series" dataPath="@stateIndicatorUri" left="560" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithTimeShift" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Timeshift" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithTimeShiftColor" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem.TimeShift" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Timeshift" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithHD" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.HD" left="562" top="5" />
+      </ListItemTemplate>
+    </BoundList>
+    <BoundList id="ChannelsBoundList2" class="List.ChannelGuide" istemplated="true" numvisibleitems="6" prefetchamount="6" UseValueBasedChunk="true" AllowPartialUpdate="true" HasHeaders="true" PrefetchThreshold="3" DataSourceSemantics="relativeAsync">
+      <Text id="StickyHeader2" class="Text.ChannelGuideHeader">
+      </Text>
+      <ListItemTemplate TemplateName="program" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithPromotion" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime;@background">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Record" />
+        <Image class="Image.Promotional" dataPath="@stateIndicatorUri" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithRecord" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Record" />
+        <Image class="Image.Record" dataPath="@stateIndicatorUri" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithSeriesRecord" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Record.Series" dataPath="@stateIndicatorUri" left="560" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithTimeShift" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Timeshift" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithTimeShiftColor" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem.TimeShift" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.Timeshift" left="575" top="5" />
+      </ListItemTemplate>
+      <ListItemTemplate TemplateName="programWithHD" ValuePath="@formattedStartTime" SelectedPath="@isCurrentlyFocused" HeaderPath="@header" class="Button.ChannelGuideItem" DataStorePaths="@startTime;@endTime;@formattedStartTime;@displayEndTime">
+        <Text datapath="@displayStartTime" class="Text.ChannelGuideRowHeader" />
+        <Text datapath="@title" class="Text.ChannelGuideTitle.Big" />
+        <Image class="Image.HD" left="562" top="5" />
+      </ListItemTemplate>
+    </BoundList>
+    <Panel class="Panel.RolloverContainer" id="_rolloverContainer"></Panel>
+    <Text class="Text.GuideNoData.ChannelGuide" id="_noInfo">#Guide.NoGuideData</Text>
+    <EditText class="EditText.Channel.ChannelGuide" id="_channelEntry" digitsonly="true" visible="false" />
+    <!--DataSource-->
+    <DataSource autoload="false" id="TVChannelMapDataSource1" uri="local://channel-map/guideview" />
+    <DataSource autoload="false" id="TVEpgDataSource1" uri="local://epg" />
+    <DataSource autoload="false" id="TVEpgDataSource2" uri="local://epg" />
+  </ChannelGuidePage>
+</uidescription>

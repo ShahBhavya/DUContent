@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <Diagnostics2 class="Page.Diagnostic.Alternate">
+	    <Text class="Text.Dialog" left="33">Multi-Room Diagnostics</Text>
+        <VerticalFlowPanel top="30" class="VerticalFlowPanel" left="10" id="_multiRoomContainer">
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">DvrManager state: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_dvrMultiRoomState">MultiRoomNotEnabled</Text>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">RemoteConnectionManager: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_remoteConnectionManagerState"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">Zone: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_zone"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">Dynamic Master Switching: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_dynamicMasterSwitching"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">My IP address: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_myIPAddress"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">Master IP address: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_masterIPAddress"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">Virtual tuner count: </Text>
+                <Text class="Text.MultiRoomDiagnostic" left="200" top="-2" id="_tunerCount"/>
+		    </Panel>
+            <Panel height="20" left="30">
+                <Text class="Text.Diagnostic">Connected to service: </Text>
+                <Text class="Text.MultiRoomDiagnostic.SmallFont" left="200" id="_serviceName"/>
+		    </Panel>
+            <Panel height="100" left="30">
+                <Text class="Text.Diagnostic">Tokens: </Text>
+                <Text class="Text.MultiRoomDiagnostic.Tokens" left="200" id="_tokens"/>
+		    </Panel>
+            <Panel height="100" left="30">
+                <Text class="Text.Diagnostic">Satellites: </Text>
+                <Text class="Text.MultiRoomDiagnostic.Tokens" left="200" id="_networkTopo"/>
+		    </Panel>
+            <Panel height="100" left="30">
+                <Text class="Text.Diagnostic">Last received message: </Text>
+                <Text class="Text.MultiRoomDiagnostic.Tokens" left="200" id="_lastMessages"/>
+		    </Panel>
+		</VerticalFlowPanel>
+    </Diagnostics2>
+</uidescription>

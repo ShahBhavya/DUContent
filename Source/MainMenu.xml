@@ -1,0 +1,8 @@
+<MainMenu class="Panel.MainMenu.Root" useDynamicScreenModeStyles="true">
+  <Panel class="Logo.Menu" clipchildren="false"/>
+  <Panel class="BrandService.Menu" clipchildren="false"/>
+  <Panel class="Panel.PeekMainMenu" id="_mainMenuBackground">
+      <SimpleList class="SimpleList.PeekMainMenu" id="_mainMenu"/>
+  </Panel>
+</MainMenu>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <MessagesMenuPage class="Page.AnimatedNavBar">
+
+        <Text class="Text.HeaderTitle">#Messages.HeaderText</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+		
+		<Panel class="Panel.MenuBackground" clipchildren="true">
+		    <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+		        <MenuItem class="MenuItem" subMenuPath="MessagesSub.xml" Tag="ByDate">#Messages.Menu.ByDate</MenuItem>
+		        <MenuItem class="MenuItem" subMenuPath="MessagesSub.xml" Tag="ByName">#Messages.Menu.ByName</MenuItem>
+		    </Menu> 
+		</Panel>		
+
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer"/>
+
+    </MessagesMenuPage>
+</uidescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <TrickControls class="Page">
+    <Panel id="_seekBarPanel" class="Panel.VideoFullScreen.SeekBar"/>
+    <Panel id="_skipIconsPanel" class="Panel.VideoFullScreen.SkipIcons"/>
+  </TrickControls>
+</uidescription>

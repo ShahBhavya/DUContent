@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ManualTransponderScanWizardAdd class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ManualTransponderScanWizard.Add</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Menu">
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Next" id="_next" nextRight="_frequency">#Settings.ManualTransponderScanWizard.Add.Next</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Back" id="_back" nextRight="_frequency">#Settings.ManualTransponderScanWizard.Add.Back</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Cancel" id="_cancel" nextRight="_frequency">#Settings.ManualTransponderScanWizard.Add.Cancel</Button>
+    </VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Content">
+
+        <Text class="Text.ManualTransponderScanWizard.Description" id="_description">#Settings.ManualTransponderScanWizard.Add.Description</Text>
+
+        <HorizontalFlowPanel class="HorizontalFlowPanel.ManualTransponderScanWizard.Add">
+         
+          <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.AddLabels">
+            <Text class="Text.ManualTransponderScanWizardAdd.Label" id="_frequencyLabel">#Settings.ManualTransponderScanWizard.Add.FrequencyLabel</Text>
+            <Text class="Text.ManualTransponderScanWizardAdd.Label" id="_symbolRateLabel">#Settings.ManualTransponderScanWizard.Add.SymbolRateLabel</Text>
+            <Text class="Text.ManualTransponderScanWizardAdd.PolarizationLabel" id="_polarizationLabel">#Settings.ManualTransponderScanWizard.Add.PolarizationLabel</Text>
+            <RadioButtonGroup id="_polarization" class="RadioButtonGroup">
+              <RadioButton id="_polarizationHorizontal" class="RadioButton.Spaced" nextLeft="_next">#Settings.ManualTransponderScanWizard.Add.PolarizationHorizontal</RadioButton>
+              <RadioButton id="_polarizationVerical" class="RadioButton.Spaced" nextLeft="_next">#Settings.ManualTransponderScanWizard.Add.PolarizationVertical</RadioButton>
+            </RadioButtonGroup>
+          </VerticalFlowPanel>
+
+          <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.AddValues">
+            <EditText class="EditText.ManualTransponderScanWizardAdd" id="_frequency" nextLeft="_next"></EditText>
+            <Panel height="15" />
+            <EditText class="EditText.ManualTransponderScanWizardAdd" id="_symbolRate" nextLeft="_next"></EditText>
+          </VerticalFlowPanel>
+
+          <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.AddUnits">
+            <Text class="Text.ManualTransponderScanWizardAdd.Label" id="_frequencyUnits">#Settings.ManualTransponderScanWizard.Add.FrequencyUnits</Text>
+            <Text class="Text.ManualTransponderScanWizardAdd.Label" id="_symbolRateUnits">#Settings.ManualTransponderScanWizard.Add.SymbolRateUnits</Text>
+          </VerticalFlowPanel>
+          
+        </HorizontalFlowPanel>
+ 
+      </VerticalFlowPanel>
+      
+  </ManualTransponderScanWizardAdd>
+</uidescription>

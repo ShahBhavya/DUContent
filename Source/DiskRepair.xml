@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<DiskRepairPage class="Page">
+		<Panel top="0" left="0" width="640" height="480" clipchildren="true">
+			<Image url="UpgradeBackground.jpg" KeepAspectRatio="false" width="640" height="480"/>
+		</Panel> 
+		<Panel class="Panel.VideoOverlay">
+			<Text class="Text.DiskRepairTitle">#DiskRepair.Title</Text>
+			<Text class="Text.DiskRepairDescription" top="139">#DiskRepair.InProgress</Text>
+			<Text class="Text.DiskRepairDescription" top="190">#DiskRepair.Description</Text>
+			<ProgressBar id="_diskRepairProgress" top="266" left="97" width="284" height="20" borderwidth="2" background="@Darkbackground" foreground="@Secondary" />
+			<Text class="Text.DiskRepairProgress" id="_progress" top="317"/>
+			<Text class="Text.DiskRepairProgress" top="352">#DiskRepair.TimeLeftLabel</Text>
+			<Text class="Text.DiskRepairProgress" id="_timeLeft" top="372"/>
+		</Panel> 
+	</DiskRepairPage>
+</uidescription>

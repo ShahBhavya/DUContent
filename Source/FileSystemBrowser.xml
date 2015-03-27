@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<FileSystemBrowserPage class="Page.Animated">
+		<VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage">
+		    <Text class="Text.Diagnostic" background="@Background" layout="center" id="_currentDirectoryText"></Text>
+		    <Panel height="10"/>
+			<HorizontalFlowPanel>
+				<SimpleList class="SimpleList" id="_fileSystemList" background="@Background" left="0" top="0" width="250" height="300" visibleitemcount="9" origin="0"/>
+			    <Panel width="30"/>
+				<VerticalFlowPanel>
+					<TextBox class="TextBox" id="_fileContentsTextBox" background="@Background" width="280" height="275"/>
+					<HorizontalFlowPanel>
+						<!--Button class="Button" id="_viewFileButton" onClick="OnClick_ViewFile" width="140" justification="center">View File</Button-->
+						<Button class="Button" id="_deleteFileButton" onClick="OnClick_DeleteFile" width="140" justification="center">Delete File</Button>
+					</HorizontalFlowPanel>
+				</VerticalFlowPanel>
+			</HorizontalFlowPanel>
+		</VerticalFlowPanel>
+	</FileSystemBrowserPage>
+</uidescription>

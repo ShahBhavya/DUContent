@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.0">
+  <MrmlPage id="OrapaPlaybackPage" class="MrmlPage.ChannelTV.HD" Extensions="fsTVControls"
+            BackgroundContent="DvrPlaybackBackgroundHD.xml" TestId="VideoFullScreen">
+
+    <!-- The Video gadget is declared in the BackgroundContent page.  It's id is referenced in the -->
+    <!-- "video" param of the "fsTVControls" extension below. -->
+
+    <Extensions>
+      <Extension name="fsTVControls" type="urn:microsoft:mediaroom:extension:fullscreentvcontrols:1">
+        <Param name="video" value="dvrPlaybackVideo" />
+        <Param name="browsebar" value="on" />
+        <Param name="channelbar" value="on" />
+        <Param name="externaltune" value="on" />
+        <Param name="channelentry" value="on" />
+        <Param name="optionspanel" value="on" />
+        <Param name="recentpanel" value="on" />
+        <Param name="rosette" value="on" />
+        <Param name="seekbar" value="on" />
+        <Param name="stoppedpanel" value="on" />
+      </Extension>
+    </Extensions>
+
+    <Actions>
+      <!-- Invoke jscript function to get mdid from args and pass it to the tune action. -->
+      <Event type="onenter" action="onEntryAction" target="OrapaPlaybackPage"/>
+      <Action name="onEntryAction" type="script" function="onEntry"/>
+      
+      <!-- Data for tune action was set in the onEntry() jscript function. -->
+      <Action name="TuneToNothing" type="tune" data="-1"/>
+      <Action name="TuneToRecording" type="tune" target="#FULLSCREEN"/>
+
+      <!-- Handle the channelup/down keys. -->
+      <Event type="onkey:channelup" action="channelKeyAction" target="OrapaPlaybackPage" />
+      <Event type="onkey:channeldown" action="channelKeyAction" target="OrapaPlaybackPage" />
+
+      <Action name="channelKeyAction" type="navigate" data="channeltv" />
+
+    </Actions>
+    <Scripts>
+      <Script>
+        //<![CDATA[
+
+        function onEntry()
+        {
+          alert("OrapaPlaybackPage -- onEntry");
+
+          var tuneUrl = getProperty("OrapaPlaybackPage", "params/tuneUrl");
+          if (tuneUrl != "")
+          {
+              invokeAction(null, "TuneToNothing", null);
+              invokeAction(null, "TuneToRecording", tuneUrl);
+          }
+        }
+//]]>
+      </Script>
+    </Scripts>
+
+  </MrmlPage>
+</uidescription>

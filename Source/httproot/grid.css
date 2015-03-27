@@ -1,0 +1,8 @@
+body, p, h1, h2, h3, table, td, th, ul, ol, textarea, input { font-family: verdana,helvetica,arial,sans-serif; }
+b {font-size: 16;}
+em {font-size: 10;}
+div {font-size: 9; font-weight:lighter}
+col.col0 { width: 60; text-align: right}
+table { background-color: #C0C0E0; }
+td { font-size: 10; font-weight:bold; padding: 4; }
+tr { font-size: 10; }

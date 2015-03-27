@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.0">
+  <MrmlPage id="DvrPlaybackBackground" class="MrmlPage.ChannelTV" >
+
+    <!-- This Video gadget is referenced in the foreground page (DvrPlayback.xml) extension definition ("fsTVControls").  -->
+    <Video class="Video.FullScreen" id="dvrPlaybackVideo" pipe="FULLSCREEN" ispip="false"/>
+    
+    <Panel id="scrimTop" class="Panel.VideoOverlayTop" />
+    <Panel id="scrimMotif" class="Panel.VideoOverlayMotif" />
+    <Panel id="scrim" class="Panel.VideoOverlay" />
+
+    <Actions>
+      <!-- Background scrim event handling. -->
+      <Event type="onshowbackgroundscrim" action="showVideoScrim" target="DvrPlaybackBackground"/>
+      <Event type="onhidebackgroundscrim" action="hideVideoScrim" target="DvrPlaybackBackground"/>
+      <Action name="showVideoScrim" type ="show" target="scrim scrimTop scrimMotif"/>
+      <Action name="hideVideoScrim" type ="hide" target="scrim scrimTop scrimMotif"/>
+    </Actions>
+  </MrmlPage>
+</uidescription>

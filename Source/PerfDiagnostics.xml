@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <PerfDiagnostics class="Page.Monkey">
+    <VerticalFlowPanel left="30" id="_runTimePanel" height="100" visible="true">
+      <HorizontalFlowPanel>
+        <Text class="Text.PerfDiagnostics.Short.Yellow" id="_keyDownName" width="200" visible="true"></Text>
+        <Text class="Text.PerfDiagnostics.Short" id="_duration" visible="true"></Text>        
+        <Text class="Text.PerfDiagnostics" id="_label" visible="true"></Text>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel>
+        <Text class="Text.PerfDiagnostics.Short" id="_startTime" width="200" visible="true"></Text>
+        <Text class="Text.PerfDiagnostics.Short" id="_upTime" visible="true"></Text>
+        <Text class="Text.PerfDiagnostics" id="_cpuUsage" visible="true"></Text>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel>
+       <Text class="Text.PerfDiagnostics.Short" id="_frameRate" width="80" visible="true"></Text>
+       <Text class="Text.PerfDiagnostics" id="_memory" visible="true"></Text>
+      </HorizontalFlowPanel>
+    </VerticalFlowPanel>
+  </PerfDiagnostics>
+</uidescription>

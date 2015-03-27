@@ -1,0 +1,2126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringtable culture="pa-IN" locale="pa-IN" description="India Punjabi">
+  <string id="StringFormatDefault" value="&#8226;"/>
+  <string id="TripleTap.0" value=" 0"/>
+  <string id="TripleTap.1" value="1"/>
+  <string id="TripleTap.2" value="ABC2"/>
+  <string id="TripleTap.3" value="DEF3"/>
+  <string id="TripleTap.4" value="GHI4"/>
+  <string id="TripleTap.5" value="JKL5"/>
+  <string id="TripleTap.6" value="MNO6"/>
+  <string id="TripleTap.7" value="PQRS7"/>
+  <string id="TripleTap.8" value="TUV8"/>
+  <string id="TripleTap.9" value="WXYZ9"/>
+  <string id="TripleTapExtended.0" value=" 0)"/>
+  <string id="TripleTapExtended.1" value="1!"/>
+  <string id="TripleTapExtended.2" value="ABCabc2@"/>
+  <string id="TripleTapExtended.3" value="DEFdef3#"/>
+  <string id="TripleTapExtended.4" value="GHIghi4$"/>
+  <string id="TripleTapExtended.5" value="JKLjkl5%"/>
+  <string id="TripleTapExtended.6" value="MNOmno6^"/>
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&#038;"/>
+  <string id="TripleTapExtended.8" value="TUVtuv8*"/>
+  <string id="TripleTapExtended.9" value="WXYZwxyz9("/>
+
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="ਮੀਨੂ"/>
+  <string id="Start.Television" value="ਲਾਈਵ ਟੀਵੀ"/>
+  <string id="Start.Videos" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="Start.RecordedTV" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="Start.Search" value="ਖੋਜੋ"/>
+  <string id="Start.Extras" value="ਵਾਧੂ"/>
+  <string id="Start.Settings" value="ਸੈਟਿੰਗਾਂ"/>
+  <string id="Start.Videos.BrowseVideos" value="ਵੀਡੀਓ ਬ੍ਰਾਊਜ਼ ਕਰੋ"/>
+  <string id="Start.Videos.CurrentRentals" value="ਮੌਜੂਦਾ ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="Start.Videos.Downloads" value="ਡਾਊਨਲੋਡ"/>
+  <string id="Start.Videos.Search" value="ਖੋਜੋ"/>
+  <string id="Start.Television.WatchTV" value="ਟੀਵੀ ਦੇਖੋ"/>
+  <string id="Start.Television.Guide" value="ਗਾਈਡ"/>
+  <string id="Start.Television.RecordedTV" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="Start.Television.VideoStore" value="ਵੀਡੀਓ ਸਟੋਰ"/>
+  <string id="Start.Television.Favorites" value="ਮਨਪਸੰਦ"/>
+  <string id="Start.Television.Mosaic" value="ਮੋਜ਼ੇਕ"/>
+  <string id="Start.Television.Teletext" value="ਟੈਲੀਟੈਕਸਟ"/>
+  <string id="Start.Television.CreditLimit" value="ਕ੍ਰੇਡਿਟ ਸੀਮਾ"/>
+  <string id="Start.Television.Search" value="ਖੋਜੋ"/>
+  <string id="Start.Television.SearchTitle" value="ਖੋਜੋ"/>
+  <string id="Start.Television.SearchPeople" value="ਲੋਕ ਖੋਜੋ"/>
+  <string id="Start.Television.Movies" value="ਫਿਲਮਾਂ"/>
+  <string id="Start.Television.Sports" value="ਖੇਡਾਂ"/>
+  <string id="Start.Television.Kids" value="ਬੱਚੇ"/>
+  <string id="Start.Television.Categories" value="ਸ਼੍ਰੇਣੀਆਂ"/>
+  <string id="Start.Search.Categories" value="ਸ਼੍ਰੇਣੀਆਂ"/>
+  <string id="Start.Search.Sports" value="ਖੇਡਾਂ"/>
+  <string id="Start.Search.Kids" value="ਬੱਚੇ"/>
+  <string id="Start.Extras.BrowseExtras" value="ਵਾਧੂ ਬ੍ਰਾਊਜ਼ ਕਰੋ"/>
+  <string id="Start.Extras.OnlineSpot" value="ਆਨਲਾਈਨ ਸਪੋਟਲਾਈਟ"/>
+  <string id="Start.Extras.MosaicApps" value="ਮੋਜ਼ੇਕ ਅਨੁਪ੍ਰਯੋਗ"/>
+  <string id="Start.Extras.MediaSharing" value="ਫ਼ੋਟੋ ਅਤੇ ਸੰਗੀਤ"/><!-- photos and music (eventually videos as well) -->
+  <string id="Start.Extras.Messages" value="ਸੁਨੇਹੇ"/>
+  <string id="Start.RecordedTV.BrowseRecordings" value="ਰਿਕਾਰਡਿੰਗਾਂ ਦੇਖੋ"/>
+  <string id="Start.RecordedTV.Scheduled" value="ਅਨੁਸੂਚਿਤ"/>
+  <string id="Start.RecordedTV.AddRecording" value="ਰਿਕਾਰਡਿੰਗ ਜੋੜੋ"/>
+  <string id="Start.Settings.General" value="ਆਮ"/>
+  <string id="Start.Settings.Television" value="ਟੈਲੀਵਿਜ਼ਨ"/>
+  <string id="Start.Settings.ParentalControl" value="ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ"/>
+  <string id="Start.Settings.Account" value="ਅਕਾਉਂਟ"/>
+  <string id="Start.Settings.PowerOff" value="ਪਾਵਰ ਬੰਦ"/>
+  <string id="Start.Settings.Restart" value="ਸਿਸਟਮ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="Start.Settings.Hibernate" value="ਹਾਈਬਰਨੇਟ"/>
+  <string id="Start.MenuForButtons" value="ਮੀਨੂ"/>
+
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="ProgramInfo.RecordingStopped" value="ਇਹ ਰਿਕਾਰਡਿੰਗ ਰੋਕ ਦਿੱਤੀ ਗਈ ਹੈ"/>
+  <string id="ProgramInfo.Watch" value="ਦੇਖੋ"/>
+  <string id="ProgramInfo.CancelRental" value="ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ ਰੱਦ ਕਰੋ"/>
+  <string id="ProgramInfo.RecordProgram" value="ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="ProgramInfo.Erase" value="ਮਿਟਾਓ"/>
+  <string id="ProgramInfo.KeepUntil" value="ਇਸ ਤਕ ਰੱਖੋ"/>
+  <string id="ProgramInfo.StopRecording" value="ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ"/>
+  <string id="ProgramInfo.RecordSeries" value="ਲੜੀ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="ProgramInfo.CancelSeries" value="ਲੜੀ ਰੱਦ ਕਰੋ"/>
+  <string id="ProgramInfo.RecordEpisode" value="ਐਪੀਸੋਡ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="ProgramInfo.OtherShowings" value="ਹੋਰ ਸ਼ੋ ਦੇ ਸਮੇਂ"/>
+  <string id="ProgramInfo.AudioLanguages" value="ਵਿਕਲਪਕ ਆਡੀਓ"/>
+  <!-- {0}: the audio language we are now displaying-->
+  <string id="ProgramInfo.AudioLanguages.Changed" value="ਆਡੀਓ ਭਾਸ਼ਾ ਨੂੰ ਬਦਲ ਕੇ {0} ਕਰ ਦਿੱਤਾ"/>
+  <string id="ProgramInfo.SubtitleLanguages" value="ਸਬਟਾਈਟਲ"/>
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="ਸਬਟਾਈਟਲ ਭਾਸ਼ਾ ਨੂੰ ਬਦਲ ਕੇ {0} ਕਰ ਦਿੱਤਾ"/>
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="ਸਬਟਾਈਟਲ ਬੰਦ ਕਰ ਦਿੱਤੇ ਗਏ ਹਨ"/>
+  <string id="ProgramInfo.SecondaryAudio" value="ਵਿਕਲਪਕ ਆਡੀਓ"/>
+  <string id="ProgramInfo.RecordSetting" value="ਸੈਟਿੰਗਾਂ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="ProgramInfo.SeriesSetting" value="ਲੜੀ ਸੈਟਿੰਗਾਂ"/>
+  <string id="ProgramInfo.SeriesInfo" value="ਲੜੀ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="ProgramInfo.DontRecord" value="ਰਿਕਾਰਡ ਨਾ ਕਰੋ"/>
+  <string id="ProgramInfo.ResolveConflict" value="ਭਿੜੰਤ ਹੱਲ ਕਰੋ"/>
+  <string id="ProgramInfo.RecordingDeleted" value="ਰਿਕਾਰਡਿੰਗ ਮਿਟਾ ਦਿੱਤੀ"/>
+  <!-- {0}, {1}, {2}, {3} are the same thing. It is just a setting in TV2Config to show the long description.
+  It is currently set to show the description of the program four times. -->
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}"/>
+  <!-- This is used in several places. {0} is the channel. {1} is always the string "Bullet" listed above in here
+  {2} is the time in text form-->
+  <string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}"/>
+  <!-- {0}: channel information. {1}:call letters of the channel. -->
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}"/>
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}"/>
+  <!-- Doesn't seem to be used -->
+  <string id="ProgramInfo.Series.Time" value="{0}, {1}"/>
+    <string id="ProgramInfo.Series.RecordingScheduledZeroCanceled" value="ਉਪਯੋਗਕਰਤਾ ਦੀ ਬੇਨਤੀ ਦੇ ਅਨੁਸਾਰ ਲੜੀ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਸੀ"/>
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="0 ਨੀਯਤ"/>
+  <string id="ProgramInfo.Series.RecordingConflictedOne" value=" (1 ਭਿੜਦਾ)"/>
+  <!-- {0}: the number of recordings conflicted. -->
+  <string id="ProgramInfo.Series.RecordingConflictedMany" value=" ({0} ਭਿੜਦੇ)"/>
+  <string id="ProgramInfo.Series.RecordingConflictedAll" value="{0} ਭਿੜਦੇ"/>
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="1 ਨੀਯਤ"/>
+  <!-- {0}: the number of recordings scheduled. -->
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value="{0} ਨੀਯਤ"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsZero" value="0 ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsOne" value="1 ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ"/>
+  <!-- {0}: the number of existings recordings. -->
+  <string id="ProgramInfo.Series.ExistingRecordingsMany" value="{0} ਰਿਕਾਰਡ ਕੀਤੇ ਹੋਏ"/>
+  <string id="ProgramInfo.Play" value="ਚਲਾਓ"/>
+  <string id="ProgramInfo.Pending" value="ਲੰਬਤ..."/>
+  <string id="ProgramInfo.PendingAppendage" value="   (ਲੰਬਤ)"/>
+  <string id="ProgramInfo.Rent" value="ਕਿਰਾਇਆ"/>
+  <string id="ProgramInfo.PurchaseInfo" value="ਖ਼ਰੀਦ ਜਾਣਕਾਰੀ"/>
+  <string id="ProgramInfo.StartOver" value="ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="ProgramInfo.ResumePlay" value="ਮੁੜ ਚਲਾਓ"/>
+  <string id="ProgramInfo.MoreLikeThis" value="ਇਸ ਵਰਗਾ ਹੋਰ"/>
+  <string id="ProgramInfo.WatchPreview" value="ਪੂਰਵਦਿੱਖ ਦੇਖੋ"/>
+  <string id="ProgramInfo.UnlockAdult" value="ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ProgramInfo.NoCastInfomation" value="ਪਾਤਰ ਬਾਰੇ ਕੋਈ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ"/>
+<string id="ProgramInfo.ProgramDateFormatString" value="ddd d/M, " /> 
+<string id="ProgramInfo.ProgramDateNoDayFormatString" value="d/M, " /> 
+<string id="ProgramInfo.StartTimeFormatString" value="t" /> 
+<string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t" /> 
+<string id="ProgramInfo.EndTimeFormatString" value="t" /> 
+<string id="ProgramInfo.AirDateFormatString" value="dd MMMM yyyy dddd" /> 
+<string id="ProgramInfo.VODAvailableDate" value="dd/MM/yy tt hh:mm" /> 
+  <string id="ProgramInfo.VODAvailableUntil" value=" {0} ਤਕ ਉਪਲਬਧ"/>
+  <!-- {0}: the extra text information and {1} is the duration-->
+  <string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}."/>
+  <string id="ProgramInfo.SeriesString" value="ਲੜੀ"/><!-- add \ if using general category -->
+  <string id="ProgramInfo.MovieString" value="ਫਿਲਮ"/><!-- add \ if using general category -->
+  <!-- ProgramInfo.GeneralCategory is optional (you can replace it with an empty string). If you do, also remove backslash from ProgramInfo.SeriesString and ProgramInfo.MovieString. -->
+  <string id="ProgramInfo.GeneralCategory" value=""/>
+  <string id="ProgramInfo.OriginalAirDateString" value="ਮੂਲ ਪ੍ਰਸਾਰਣ ਤਾਰੀਖ਼: {0}"/>
+  <string id="ProgramInfo.OriginalTitle" value="ਮੂਲ ਸਿਰਲੇਖ: "/>
+  <!-- {0}: the release year-->
+  <string id="ProgramInfo.ReleasedString" value="ਰਿਲੀਜ਼ ਹੋਈ {0}"/>
+
+  <string id="ProgramInfo.ClosedCaptioning" value="CC"/>
+  <string id="ProgramInfo.Waiting" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ"/>
+  <string id="ProgramInfo.AcceptOffer" value="ਕਿਰਾਇਆ"/>
+  <string id="ProgramInfo.MoreInfo" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="ProgramInfo.DeclineOffer" value="ਕਿਰਾਏ 'ਤੇ ਨਾ ਦਿਓ"/>
+  <string id="ProgramInfo.DeclineOffer.Free" value="ਨਾ ਚਲਾਓ"/>
+  <string id="ProgramInfo.DeclineSubscription" value="ਇਸਦੇ ਗਾਹਕ ਨਾ ਬਣੋ"/>
+  <string id="ProgramInfo.Unavailable" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਇਸ ਸਮੇਂ ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="ਐਪੀਸੋਡ ਉਪਯੋਗਕਰਤਾ ਦੀ ਬੇਨਤੀ ਦੇ ਅਨੁਸਾਰ ਰਿਕਾਰਡ ਨਹੀਂ ਹੋ ਰਹੀ ਹੈ।"/>
+  <string id="ProgramInfo.CanceledInstance" value="ਐਪੀਸੋਡ ਉਪਯੋਗਕਰਤਾ ਦੀ ਬੇਨਤੀ ਦੇ ਅਨੁਸਾਰ ਰਿਕਾਰਡ ਨਹੀਂ ਹੋਵੇਗੀ।"/>
+  <string id="ProgramInfo.DirectedBy" value="ਨਿਰਦੇਸ਼ਕ "/>
+  <string id="ProgramInfo.Menu.Summary" value="ਸਾਰ"/>
+  <string id="ProgramInfo.Menu.Details" value="ਬਿਓਰਾ"/>
+  <string id="ProgramInfo.Menu.Cast" value="ਲੋਕਾਂ ਦੀ ਖੋਜ"/>
+  <string id="ProgramInfo.Cast.Cast" value="ਅਦਾਕਾਰ"/>
+  <string id="ProgramInfo.Cast.Hosts" value="ਮੇਜ਼ਬਾਨ"/>
+  <string id="ProgramInfo.Cast.GuestStars" value="ਮਹਿਮਾਨ ਕਲਾਕਾਰ"/>
+  <string id="ProgramInfo.Cast.Directors" value="ਨਿਰਦੇਸ਼ਕ"/>
+  <string id="ProgramInfo.Cast.Writers" value="ਲੇਖਕ"/>
+  <string id="ProgramInfo.Cast.Producers" value="ਨਿਰਮਾਤਾ"/>
+  <string id="ProgramInfo.Download" value="ਡਾਊਨਲੋਡ"/>
+  <string id="ProgramInfo.Download.Message" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ProgramInfo.Download.Message.Yes" value="ਡਾਊਨਲੋਡ ਕਰੋ"/>
+  <string id="ProgramInfo.Download.Message.No" value="ਡਾਊਨਲੋਡ ਨਾ ਕਰੋ"/>
+  <string id="ProgramInfo.CancelDownload" value="ਡਾਊਨਲੋਡ ਨਾ ਕਰੋ"/>
+  <string id="ProgramInfo.CancelDownload.Message" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨਾ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ProgramInfo.CancelDownload.Message.Yes" value="ਡਾਊਨਲੋਡ ਰੱਦ ਕਰੋ"/>
+  <string id="ProgramInfo.CancelDownload.Message.No" value="ਰੱਦ ਨਾ ਕਰੋ"/>
+  <string id="ProgramInfo.EraseDownload" value="ਮਿਟਾਓ"/>
+  <string id="ProgramInfo.EraseDownload.Message" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ProgramInfo.EraseDownload.Message.Yes" value="ਮਿਟਾਓ"/>
+  <string id="ProgramInfo.EraseDownload.Message.No" value="ਨਾ ਮਿਟਾਓ"/>
+  <string id="ProgramInfo.MoveToTop" value="ਪਹਿਲਾਂ ਡਾਊਨਲੋਡ ਕਰੋ"/>
+  <string id="ProgramInfo.MoveToTop.Message" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਨੂੰ ਪਹਿਲਾਂ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ProgramInfo.MoveToTop.Message.Yes" value="ਪਹਿਲਾਂ ਡਾਊਨਲੋਡ ਕਰੋ"/>
+  <string id="ProgramInfo.MoveToTop.Message.No" value="ਪਹਿਲਾਂ ਡਾਊਨਲੋਡ ਨਾ ਕਰੋ"/>  
+  <string id="ProgramInfo.PlayLocal" value="ਸਥਾਨਕ ਚਲਾਓ"/>
+  <string id="ProgramInfo.DownloadUntil" value=" {0} ਤਕ ਉਪਲਬਧ" />
+  <string id="ProgramInfo.AvailableUntil" value=" {0} ਤਕ ਉਪਲਬਧ" />
+  <string id="ProgramInfo.AvailableAt" value="{0} 'ਤੇ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ" />  
+  <string id="ProgramInfo.RentedUntil" value="ਕਿਰਾਏਦਾਰੀ {0} ਨੂੰ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ" />
+  <string id="ProgramInfo.DownloadStatus.Scheduled" value="ਡਾਊਨਲੋਡ ਲਈ ਨੀਯਤ।" />
+  <string id="ProgramInfo.DownloadStatus.Downloading" value="ਇਸ ਸਮੇਂ ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ।" />
+  <string id="ProgramInfo.DownloadStatus.Percent" value=" {0}% ਪ੍ਰਤਿਸ਼ਤ ਪੂਰਾ।" />
+  <string id="ProgramInfo.DownloadStatus.Failed" value="ਉਪਲਬਧ ਹੋਣ 'ਤੇ ਦੁਬਾਰਾ ਚਾਲੂ ਹੋਵੇਗਾ।" />
+  <string id="ProgramInfo.DownloadStatus.Downloaded" value="ਡਾਊਨਲੋਡ ਕੀਤੇ।" />
+  <string id="ProgramInfo.DownloadMissing" value="ਕਿਰਾਏ 'ਤੇ ਲਈਆਂ ਚੀਜ਼ਾਂ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ।" />
+  
+  <string id="SeriesInfo.Menu.Summary" value="ਸੈਟਿੰਗਾਂ"/>
+  <string id="SeriesInfo.ChangeSettings" value="ਸੈਟਿੰਗਾਂ ਬਦਲੋ"/>
+
+  <!-- Parental Control -->
+  <string id="ParentalControl.ForbiddenPinMessage" value="ਇਸ ਪਿਨ ਦੀ ਆਗਿਆ ਨਹੀਂ। ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਹੋਰ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <!-- {0}: the list of unallowed pins-->
+  <string id="ParentalControl.ForbiddenPinListMessage" value="ਇਹਨਾਂ ਪਿਨਜ਼ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ: {0}."/>
+  <string id="ParentalControl.IncorrectPinMessage" value="ਜੋ ਪਿਨ ਤੁਸੀਂ ਦਾਖ਼ਲ ਕੀਤਾ ਹੈ ਉਹ ਸਹੀ ਨਹੀਂ ਹੈ। ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦੁਬਾਰਾ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded" value="ਤੁਸੀਂ ਆਪਣੀਆਂ ਪਿਨ ਦਾਖ਼ਲ ਕਰਨ ਦੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਸੀਮਾ ਪੂਰੀ ਕਰ ਲਈ ਹੈ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.Adult" value="ਤੁਸੀਂ ਆਪਣੀਆਂ ਬਾਲਗ ਪਿਨ ਦਾਖ਼ਲ ਕਰਨ ਦੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਸੀਮਾ ਪੂਰੀ ਕਰ ਲਈ ਹੈ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="ਕਿਰਪਾ ਕਰਕੇ  {0} ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater.Ambiguous" value="ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="ਦੁਬਾਰਾ ਸੈਟ ਕਰਨ ਲਈ 1-800-555-1212 'ਤੇ ਫੋਨ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator.Adult" value="ਦੁਬਾਰਾ ਸੈਟ ਕਰਨ ਲਈ 1-800-555-1212 'ਤੇ ਫੋਨ ਕਰੋ।" />
+  <string id="ParentalControl.ForgotPinMessage" value="ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਿਨ ਭੁੱਲ ਗਏ ਹੋ, ਤਾਂ ਇਸਨੂੰ ਦੁਬਾਰਾ ਸੈਟ ਕਰਨ ਲਈ 1-800-555-1212 'ਤੇ ਫ਼ੋਨ ਕਰੋ।"/>
+  <string id="ParentalControl.NoPresetPinMessage" value="ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਤੋਂ ਸੈਟ ਕੀਤਾ ਹੋਇਆ ਪਿਨ ਨਹੀਂ ਹੈ। ਇਸਨੂੰ ਸੈਟ ਕਰਨ ਲਈ 1-800-555-1212 'ਤੇ ਫ਼ੋਨ ਕਰੋ।"/>
+  <!-- {0}: the time that your pin has been disabled until (short time)-->
+  <string id="ParentalControl.PinDisabledMessage" value="ਤੁਹਾਡਾ ਪਿਨ {0} ਤਕ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।"/>
+  <!-- {0}: (day) , {1}: the time your pin has been disabled (day and time)-->
+  <string id="ParentalControl.PinDisabledMessage.Later" value="ਤੁਹਾਡਾ ਪਿਨ {0} {1} ਤਕ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।"/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="ਤੁਹਾਡਾ ਪਿਨ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਗਾਹਕ ਦੇਖਭਾਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite.Adult" value="ਤੁਹਾਡਾ ਬਾਲਗ ਪਿਨ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਗਾਹਕ ਦੇਖਭਾਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।" />  
+  <string id="ParentalControl.ChoosePinMessage" value="ਚੁਣੇ ਹੋਏ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਦੇਖੇ ਜਾਣ ਤੋਂ ਰੋਕਣ ਲਈ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਚੁਣੋ।"/>
+  <string id="ParentalControl.PinsDoNotMatch" value="ਦੋ ਪਿਨ ਆਪਸ ਵਿੱਚ ਨਹੀਂ ਮਿਲਦੇ ਹਨ।  ਕਿਰਪਾ ਕਰਕੇ ਦੋਵੇਂ ਪਿਨ ਦੁਬਾਰਾ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPinMessage" value="ਮਾਤਾ-ਪਿਤਾ ਤਾਲਾਬੰਦੀ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="ਪਿਨ ਦੀ ਲੰਬਾਈ ਬਦਲ ਕੇ {0} ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।&#13;ਆਪਣਾ {1}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ ਅਤੇ ਫੇਰ {0}-ਅੰਕਾਂ ਦਾ ਨਵਾਂ ਪਿਨ ਦਾਖ਼ਲ ਕਰਨ ਲਈ ਅੱਗੇ ਵਧੋ।"/>
+  <string id="ParentalControl.ChooseANewPin" value="ਕੋਈ ਨਵਾਂ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਚੁਣੋ।"/>
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="ਅਵਰੋਧਿਤ ਪ੍ਰੋਗਰਾਮ ਦੇਖਣ ਲਈ ਤੁਹਾਨੂੰ ਪਿਨ ਦਾਖ਼ਲ ਕਰਨਾ ਪਵੇਗਾ।"/>
+  <string id="ParentalControl.EnterPinFirstTime" value="ਆਪਣਾ ਰਿਮੋਟ ਵਰਤਦੇ ਹੋਏ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin" value="ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ"/>
+  <!-- unused? -->
+  <string id="ParentalControl.EnterPin.Purchase" value="ਖ਼ਰੀਦ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇਣ ਲਈ ਆਪਣਾ{0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.Unlock" value="ਤਾਲਾ ਖੋਲ੍ਹਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="ਬਾਲਗ ਸਮੱਗਰੀ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <!-- unused?-->
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਪ੍ਰਵਾਹ ‘ਤੇ ਨਿਯੰਤ੍ਰਣ ਹਾਸਲ ਕਰਨ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="ਖ਼ਰੀਦ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਕਿਰਾਏਦਾਰੀ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="ਖ਼ਰੀਦ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="ਖ਼ਰੀਦ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="ਖ਼ਰੀਦ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="ਗਲਤ ਪਿਨ। ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="ਗਲਤ ਪਿਨ। ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਬਾਲਗ ਪਿਨ ਦਾਖਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="ਗਲਤ ਪਿਨ। ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਕਿਰਾਏਦਾਰੀ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="ਗਲਤ ਪਿਨ। ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <!-- This string doesn't seem to be used/displayed-->
+  <string id="ParentalControl.EnterPin.RetryCount" value="{0} ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ।"/>
+  <string id="ParentalControl.ConfirmPin" value="ਆਪਣੇ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"/>
+  <string id="ParentalControl.PConServiceUnavailable" value="ਪਿਨ ਸੈਟਿੰਗਾਂ ਉਪਲਬਧ ਨਹੀਂ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="ParentalControl.PConPinUnavailable" value="ਅਜੇ ਕੋਈ ਪਿਨ ਸੈਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸਨੂੰ ਸੈਟ ਕਰਨ ਲਈ ਆਪਣੇ ਸੈਟਿੰਗਾਂ ਮੀਨੂ 'ਤੇ ਜਾਓ।"/>
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="ਅਜੇ ਕੋਈ ਬਾਲਗ ਪਿਨ ਸੈਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸਨੂੰ ਸੈਟ ਕਰਨ ਲਈ ਆਪਣੇ ਸੈਟਿੰਗਾਂ ਮੀਨੂ 'ਤੇ ਜਾਓ।"/>
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="ਅਜੇ ਤਕ ਕੋਈ ਕਿਰਾਏਦਾਰੀ ਪਿਨ ਸੈਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸਨੂੰ ਸੈਟ ਕਰਨ ਲਈ ਆਪਣੇ ਸੈਟਿੰਗਾਂ ਮੀਨੂ 'ਤੇ ਜਾਓ।"/>
+  <string id="ParentalControl.PConPinLengthChanged" value="ਪਿਨ ਦੀ ਲੰਬਾਈ ਬਦਲ ਕੇ {0} ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ। ਨਵਾਂ ਪਿਨ ਸੈਟ ਕਰਨ ਲਈ ਆਪਣੇ ਸੈਟਿੰਗਾਂ ਮੀਨੂ 'ਤੇ ਜਾਓ।"/>
+  <string id="EditText.SampleCharacter" value="0"/>
+  <!-- unused? -->
+  <string id="ParentalControl.GotoParentalControlSettings" value="ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾਣ ਲਈ ਆਪਣਾ {0}-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਾਖ਼ਲ ਕਰੋ।"/>
+  <string id="ParentalControl.Title.ChangePin" value="ਪਿਨ ਬਦਲੋ"/>
+  <string id="ParentalControl.Title.UnlockPCon" value="ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Title.ParentalLocking" value="ਮਾਤਾ-ਪਿਤਾ ਤਾਲਾਬੰਦੀ"/>
+  <string id="ParentalControl.Title.PurchaseLocking" value="ਕਿਰਾਏਦਾਰੀ ਤਾਲਾਬੰਦੀ"/>
+  <string id="ParentalControl.Title.AdultLocking" value="ਬਾਲਗ ਤਾਲਾਬੰਦੀ"/>
+  <string id="ParentalControl.Title.BlockMovieRatings" value="ਫਿਲਮ ਦਰਜਾਬੰਦੀਆਂ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Title.MainMenu" value="ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ"/>
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="ਫਿਲਮ ਦਰਜਾਬੰਦੀਆਂ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Blocked" value="ਤਾਲਾਬੰਦ: "/>
+  <string id="ParentalControl.Selected" value="ਚੁਣੀਆਂ: "/>
+  <string id="ParentalControl.NonBlocked" value="ਗੈਰ-ਤਾਲਾਬੰਦ"/>
+  <string id="ParentalControl.AndAbove" value=" ਅਤੇ ਇਸ ਤੋਂ ਉੱਪਰ"/>
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="ਫਿਲਮ/ਟੀਵੀ ਦਰਜਾਬੰਦੀਆਂ"/>
+  <!-- {0}: the Presentable name in the rating sytem is placed here. The presentable name string uses the actual ratingSystemName-->
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value="{0}"/>
+  <!-- {0}: the rating's long name and {1} is the rating's description-->
+  <string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0}&#13;{1}"/>
+  <string id="ParentalControl.RatingSystems.Unrated" value="ਗੈਰ-ਦਰਜਾਬੰਦ ਟੀਵੀ"/>
+  <string id="ParentalControl.Purchasing.PinRequired" value="ਪਿਨ ਦੀ ਲੋੜ ਹੈ"/>
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="ਪਿਨ ਦੀ ਲੋੜ ਨਹੀਂ"/>
+  <string id="ParentalControl.Applications.PinRequired" value="ਪਿਨ ਦੀ ਲੋੜ ਹੈ"/>
+  <string id="ParentalControl.Applications.PinNotRequired" value="ਪਿਨ ਦੀ ਲੋੜ ਨਹੀਂ"/>
+  <string id="ParentalControl.Dialog.SaveSettings" value="ਇਹਨਾਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਤੁਸੀਂ ਜੋ ਪਰਿਵਰਤਨ ਕੀਤੇ ਹਨ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="ਰੱਖਿਅਤ ਕਰੋ"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="ਰੱਖਿਅਤ ਨਾ ਕਰੋ"/>
+  <string id="ParentalControl.Dialog.ResetPCon" value="ਕੀ ਤੁਸੀਂ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਨੂੰ ਦੁਬਾਰਾ ਸੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਮਾਤਾ-ਪਿਤਾ ਤਾਲੇ ਵਰਤਣਾ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="ਦੁਬਾਰਾ ਸੈਟ ਕਰੋ"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="ਦੁਬਾਰਾ ਸੈਟ ਨਾ ਕਰੋ"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="ਕੀ ਤੁਸੀਂ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਕਿਰਾਏਦਾਰੀ ਤਾਲੇ ਵਰਤਣਾ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="ਦੁਬਾਰਾ ਸੈਟ ਕਰੋ"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="ਦੁਬਾਰਾ ਸੈਟ ਨਾ ਕਰੋ"/>
+  <string id="ParentalControl.Notification.PinChanged" value="ਤੁਹਾਡਾ ਪਿਨ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ।"/>
+  <!-- {0}: A timespan,-->
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="{0} ਲਈ ਤਾਲਾ ਖੋਲ੍ਹਿਆ"/>
+  <!-- {0}: a timespan that is formatted by period and culture-->
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="ਸਾਰੇ ਟੀਵੀਆਂ ਦਾ {0} ਲਈ ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.RatingPageInstruction" value="ਦਰਜਾਬੰਦੀ ਤਾਲੇ ਵੀਡੀਓ ਸਟੋਰ ਤੋਂ ਕਿਰਾਏ 'ਤੇ ਲਏ ਵੀਡੀਓ, ਲਾਈਵ ਟੀਵੀ ਅਤੇ ਰਿਕਾਰਡ ਕੀਤੇ ਗਏ ਪ੍ਰੋਗਰਾਮਾਂ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ। ਕੋਈ ਦਰਜਾਬੰਦੀ ਉਪਲਬਧ ਨਹੀਂ, ਸ਼ੋ ਨੂੰ ਅਵਰੋਧਿਤ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ।"/>
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="ਸਾਰੇ ਮਾਤਾ-ਪਿਤਾ ਤਾਲੇ ਦੁਬਾਰਾ ਸੈਟ ਕਰੀਏ?"/>
+  <string id="ParentalControl.MenuItemText.DoNothing" value="ਦੁਬਾਰਾ ਸੈਟ ਨਾ ਕਰੋ"/>
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="ਪਿਨ ਬਦਲੋ"/>
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="ਤਾਲਾਬੰਦੀ ਬੰਦ ਕਰੋ"/>
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="ਕਿਰਾਏਦਾਰੀ ਪਿਨ ਹਟਾਓ"/>
+  <string id="ParentalControl.MenuItemText.Ratings" value="ਦਰਜਾਬੰਦੀਆਂ"/>
+  <string id="ParentalControl.MenuItemText.MovieRating" value="ਫਿਲਮ ਦਰਜਾਬੰਦੀਆਂ"/>
+  <string id="ParentalControl.MenuItemText.Done" value="ਹੋ ਗਿਆ"/>
+  <string id="ParentalControl.MenuItemText.Lock" value="ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.ListItemText.UnratedContent" value="ਗੈਰ-ਦਰਜਾਬੰਦ ਸਮੱਗਰੀ"/>
+  <string id="ParentalControl.ListItemText.Purchasing" value="ਕਿਰਾਏਦਾਰੀਆਂ"/>
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="ਬਾਲਗ ਪ੍ਰੋਗਰਾਮ"/>
+  <string id="ParentalControl.ListItemText.Applications" value="ਅਨੁਪ੍ਰਯੋਗ"/>
+  <string id="ParentalControl.ListItemText.Edit" value="ਬਦਲੋ"/>
+  <!-- {0} is the channel number. {1] is the call letter. {2] is the number of other blocked channels
+  Applies to the following 3 strings-->
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value="{0} {1} ਅਤੇ {2} ਦੂਸਰੇ"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value="{0} {1} ਅਤੇ ਇੱਕ ਦੂਸਰਾ"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}"/>
+  <string id="ParentalControl.ListItemText.Channels" value="ਚੈਨਲ"/>
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="ਤਾਲਾ ਖੋਲ੍ਹਣ ਲਈ ਠੀਕ ਦਬਾਓ।"/>
+  <!-- {0}: the program name. Applies to next two strings. -->
+  <string id="ParentalControl.Dialog.UnlockChoice" value="ਚੁਣੋ ਕਿ {0} ਦਾ ਤਾਲਾ ਕਿਵੇਂ ਖੋਲ੍ਹਣਾ ਹੈ "/>
+  <string id="ParentalControl.Dialog.UnlockChannel" value="ਚੈਨਲ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੀਏ?"/>
+  <string id="ParentalControl.Dialog.UnlockProgram" value="{0} ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੀਏ?"/>
+  <string id="ParentalControl.Dialog.ThisProgram" value="ਇਹ ਪ੍ਰੋਗਰਾਮ"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="ਇਸ ਚੈਨਲ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Dialog.DontUnlock" value="ਤਾਲਾ ਨਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Dialog.Unlock" value="ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Dialog.GoToSettings" value="ਸੈਟਿੰਗਾਂ"/>
+  <string id="ParentalControl.LockedPIP.Text" value="ਪ੍ਰੋਗਰਾਮ 'ਤੇ ਤਾਲਾ ਲਗਾਇਆ"/>
+  <string id="ParentalControl.Settings.LockChannels" value="ਚੈਨਲਾਂ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.UnlockAll" value="ਸਾਰਿਆਂ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="ਸਿਰਫ਼ ਤਾਲਾਬੰਦ ਦੇਖੋ"/>
+  <string id="ParentalControl.Settings.ViewAllChannels" value="ਸਾਰੇ ਚੈਨਲ ਦੇਖੋ"/>
+  <string id="ParentalControl.Settings.LockPurchasing" value="ਕਿਰਾਏਦਾਰੀਆਂ ‘ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="ਤਾਲਾ ਬੰਦ ਹੋਣ 'ਤੇ ਕੋਈ ਚੀਜ਼ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"/>
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="ਬਾਲਗ ਪ੍ਰੋਗਰਾਮਾਂ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="ਤਾਲਾ ਬੰਦ ਹੋਣ 'ਤੇ ਬਾਲਗ ਪ੍ਰੋਗਰਾਮ ਦੇਖਣ ਲਈ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"/>
+  <string id="ParentalControl.Settings.LockApplications" value="ਅਨੁਪ੍ਰਯੋਗਾਂ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="ਅਨੁਪ੍ਰਯੋਗਾਂ ਲਈ ਕਿਸੇ ਪਿਨ ਦੀ ਲੋੜ ਨਹੀਂ।"/>
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="ਚੁਣੇ ਜਾਣ 'ਤੇ, ਕਿਸੇ ਅਨੁਪ੍ਰਯੋਗ ਨੂੰ ਸ਼ੁਰੂ ਕੀਤੇ ਜਾ ਸਕਣ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡੇ {0}-ਅੰਕਾਂ ਦੇ ਪਿਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"/>
+  <string id="ParentalControl.Settings.LockUnratedContent" value="ਗੈਰ-ਦਰਜਾਬੰਦ ਨੂੰ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="ਗੈਰ-ਦਰਜਾਬੰਦ ਪ੍ਰੋਗਰਾਮਿੰਗ 'ਤੇ ਤਾਲਾ ਲਗਾਓ"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="ਕੁਝ ਪ੍ਰੋਗਰਾਮ, ਜਿਵੇਂ ਕਿ ਵਿਦਿਅਕ ਟੀਵੀ ਸ਼ੋ ਅਤੇ 1960 ਤੋਂ ਪਹਿਲਾਂ ਰਿਲੀਜ਼ ਹੋਈਆਂ ਫਿਲਮਾਂ, ਦੀ ਦਰਜਾਬੰਦੀ ਨਹੀਂ ਹੁੰਦੀ।"/>
+  <string id="ParentalControl.Adult.ContentBlocked" value="ਤਾਲਾਬੰਦ ਬਾਲਗ ਸਮੱਗਰੀ"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.Adult.Unlocked" value="ਬਾਲਗ ਸਮੱਗਰੀ {0} ਲਈ ਤਾਲਾਬੰਦ"/>
+  <string id="ParentalControl.Adult.UnlockExpired" value="ਬਾਲਗ ਸਮੱਗਰੀ 'ਤੇ ਦੁਬਾਰਾ ਤਾਲਾ ਲਗਾ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="ਬਾਲਗ ਤਾਲਾਬੰਦੀ ਸਮਰੱਥ"/>
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="ਬਾਲਗ ਤਾਲਾਬੰਦੀ ਅਸਮਰੱਥ"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.PinRetry.Disabled" value="ਪਿਨ {0} ਲਈ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  <string id="ParentalControl.PinRetry.Disabled.Adult" value="ਬਾਲਗ ਪਿਨ {0} ਲਈ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="ਤੁਹਾਡਾ ਪਿਨ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਗਾਹਕ ਦੇਖਭਾਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite.Adult" value="ਤੁਹਾਡਾ ਬਾਲਗ ਪਿਨ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਗਾਹਕ ਦੇਖਭਾਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"/>
+  <string id="ParentalControl.PinRetry.Enabled" value="ਪਿਨ ਦੁਬਾਰਾ ਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  <string id="ParentalControl.PinRetry.Enabled.Adult" value="ਬਾਲਗ ਪਿਨ ਦੁਬਾਰਾ ਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+
+    <!-- Settings Menu -->
+  <string id="Settings.Menu" value="ਸੈਟਿੰਗਾਂ"/>
+  <string id="Settings.General" value="ਆਮ"/>
+  <string id="Settings.Television" value="ਟੈਲੀਵਿਜ਼ਨ"/>
+  <string id="Settings.ParentalControl" value="ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ"/>
+  <string id="Settings.Account" value="ਅਕਾਉਂਟ"/>
+  <string id="Settings.General.ParentalControl" value="ਮਾਤਾ-ਪਿਤਾ ਤਾਲਾਬੰਦੀ"/>
+  <string id="Settings.General.PurchaseLocking" value="ਕਿਰਾਏਦਾਰੀ ਤਾਲਾਬੰਦੀ"/>
+  <string id="Settings.General.AdultLocking" value="ਬਾਲਗ ਤਾਲਾਬੰਦੀ"/>
+  <string id="Settings.General.SystemSounds" value="ਸਿਸਟਮ ਆਵਾਜ਼ ਪ੍ਰਭਾਵ"/>
+  <string id="Settings.General.Language" value="ਸਕ੍ਰੀਨ 'ਤੇ ਭਾਸ਼ਾ"/>
+  <string id="Settings.General.SystemInformation" value="ਸਿਸਟਮ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="Settings.General.AudioLanguage" value="ਆਡਿਓ ਭਾਸ਼ਾ"/>
+  <string id="Settings.General.RFOutputChannel" value="RF ਆਊਟਪੁਟ ਚੈਨਲ"/>
+  <string id="Settings.General.SecondaryAudio" value="ਸੈਕੰਡਰੀ ਆਡੀਓ"/>
+  <string id="Settings.General.EnhancedHdmiSecurity" value="ਸੁਰੱਖਿਆ"/>
+  <string id="Settings.Television.CustomizeChannels" value="ਚੈਨਲ ਗਾਈਡ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਓ"/>
+  <string id="Settings.Television.ChannelReordering" value="ਚੈਨਲਾਂ ਨੂੰ ਦੁਬਾਰਾ ਕ੍ਰਮ ਦੇਣਾ"/>
+  <string id="Settings.Television.FavoriteChannels" value="ਮਨਪਸੰਦ ਸੈਟ ਕਰੋ"/>
+  <string id="Settings.Television.GuideStyle" value="ਗਾਈਡ ਸਟਾਈਲ"/>
+  <string id="Settings.Television.DttAutomaticChannelUpdate" value="DTT ਸਵੈਚਲ ਚੈਨਲ ਅਪਡੇਟ"/>
+  <string id="Settings.Television.GeneralRecording" value="ਜਨਰਲ ਰਿਕਾਰਡਿੰਗ ਸੈਟਿੰਗਾਂ"/>
+  <string id="Settings.Television.SeriesRecording" value="ਲੜੀ ਰਿਕਾਰਡਿੰਗ ਸੈਟਿੰਗਾਂ"/>
+  <string id="Settings.Television.ChannelScanning" value="DTT ਚੈਨਲਾਂ ਲਈ ਸਕੈਨ ਕਰੋ" />
+  <string id="Settings.Television.SignalStrength" value="DTT ਸਿਗਨਲ ਸ਼ਕਤੀ" />
+  <string id="Settings.Television.SignalStrength.Check" value="ਜਾਰੀ ਰੱਖੋ" />
+  <string id="Settings.Television.SignalStrength.Cancel" value="ਰੱਦ ਕਰੋ" />
+  <string id="Settings.Television.SignalStrength.Description" value="ਆਪਣੇ DTT ਚੈਨਲਾਂ ਲਈ ਸਿਗਨਲ ਦੀ ਸ਼ਕਤੀ ਜਾਂਚੋ।  ਸਿਗਨਲ ਦੀ ਸ਼ਕਤੀ ਜਾਂਚਦੇ ਸਮੇਂ ਚੱਲ ਰਹੀ ਕੋਈ ਵੀ DVR ਰਿਕਾਰਡਿੰਗ ਰੋਕ ਦਿੱਤੀ ਜਾਵੇਗੀ ਅਤੇ ਨੀਯਤ ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਵੇਗੀ।&#13;&#13;ਇਸਦੇ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ DVR ਰਿਕਾਰਡਿੰਗ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਹੋਵੇਗੀ।" />
+  <string id="Settings.Television.AspectRatio" value="ਸਕ੍ਰੀਨ ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਅਤੇ ਉੱਚ ਲੱਛਣ"/>
+  <string id="Settings.Television.ClosedCaption" value="ਬੰਦ ਸਿਰਲੇਖ ਦੇਣੇ"/>
+  <string id="Settings.Television.Overscan" value="ਸਕਰੀਨ 'ਤੇ ਪ੍ਰਦਰਸ਼ਨ ਦਾ ਅਕਾਰ"/>
+  <string id="Settings.Account.BillPresentment" value="ਬਿਲ ਬਣਾਉਣ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="Settings.Account.SelfProvisioning" value="ਚੈਨਲ ਅਤੇ ਪੈਕੇਜ"/>
+  
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="ਗਾਹਕ ਸ਼ੁਰੂਆਤੀਕਰਣ ਤਰੁਟੀ"/>
+  <string id="ClientAccountUnavailableString" value="ਅਕਾਉਂਟ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <!-- Account Disabled notification dialog, {0}: reboot timeout in seconds -->
+  <string id="Account.Disabled.NotificationDialogString" value="ਤੁਹਾਡਾ ਅਕਾਉਂਟ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ ਅਤੇ ਤੁਹਾਡਾ ਟੀਵੀ {0} ਸਕਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਬੂਟ ਹੋਵੇਗਾ।  ਕਿਰਪਾ ਕਰਕੇ ਗਾਹਕ ਸਮਰਥਨ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"/>
+  <string id="Account.Disabled.RebootNowButton" value="ਦੁਬਾਰਾ ਬੂਟ ਕਰੋ"/>
+  <!-- {0}: the Bootstrap host-->
+  <string id="ClientUnprovisionedString" value="ਗਾਹਕ ਦਾ ਪ੍ਰਬੰਧ {0} ਨੂੰ ਸਮਾਪਤ ਕੀਤਾ।"/>
+  <string id="QuitClientString" value="ਗਾਹਕ ਛੱਡੋ"/>
+  <string id="BootStrapError" value="ਸੇਵਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੋ ਰਹੀ ਹੈ।"/>
+  <string id="SelfProvisioningAppName" value="http://__selfProvisioning"/>
+  <string id="SelfProvisioningLoadingText" value="ਪੰਜੀਕਰਨ ਸਰਵਰ ਨਾਲ ਸੰਪਰਕ ਜੋੜ ਰਿਹਾ।"/>
+  
+  <!-- Guide -->
+  <string id="Guide.Guide" value="ਗਾਈਡ"/>
+  <string id="Guide.NoInfo" value="ਕੋਈ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="Guide.Loading" value="ਜਾਣਕਾਰੀ ਲੈਣੀ"/>
+  <string id="Guide.Upcoming" value="ਆ ਰਹੇ: {0}"/>
+  <!-- {0}: the program title-->
+  <string id="Guide.PPV" value="PPV: {0}"/>
+  <string id="Guide.NoDescription" value=""/>
+  <string id="Guide.NoGuideData" value="ਇਸ ਸਮੇਂ ਗਾਈਡ ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="Guide.ShowEnded" value="ਸ਼ੋ ਸਮਾਪਤ ਹੋ ਗਿਆ ਹੈ"/>
+  <string id="Guide.ShowOnInOneMinute" value="1 ਮਿੰਟ ਵਿੱਚ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <!-- {0}: the integer in minutes-->
+  <string id="Guide.ShowOnSoon" value="{0} ਮਿੰਟਾਂ ਵਿੱਚ ਸ਼ੁਰੂ ਹੋਵੇਗਾ"/>
+  <!-- {0}: the start time (utc datetime) of the program formatted properly-->
+  <string id="Guide.ShowOnLaterToday" value="{0} ਵਜੇ ਸ਼ੁਰੂ ਹੋਵੇਗਾ "/>
+  <string id="Guide.ShowOnTomorrow" value="ਕੱਲ੍ਹ ਸ਼ੁਰੂ ਹੋਵੇਗਾ"/>
+  <!-- {0}: the integer number of days. -->
+  <string id="Guide.ShowOnDaysLater" value="{0} ਦਿਨਾਂ ਵਿੱਚ ਸ਼ੁਰੂ ਹੋਵੇਗਾ"/>
+  <!--{0}: the start time (utc datetime) of the program formatted propery -->
+  <string id="Guide.ShowStarted" value="{0} ਵਜੇ ਸ਼ੁਰੂ ਹੋਇਆ"/>
+  <string id="Guide.VodGroup" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="Guide.RdpGroup" value="ਅਨੁਪ੍ਰਯੋਗ"/>
+  <string id="Guide.SVodGroup" value="ਪ੍ਰਿਮੀਅਮ ਚੈਨਲ"/>
+  <string id="Guide.UrlGroup" value="ਅਨੁਪ੍ਰਯੋਗ"/>
+  <!-- {0}, {1} are channel numbers (ChannelNumber.ToString())-->
+  <string id="Guide.ChannelRange" value="{0}-{1}"/>
+  <string id="Guide.Options.Title" value="ਚੈਨਲ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ"/>
+  <string id="Guide.Options.ShowAll" value="ਸਾਰੇ ਚੈਨਲ"/>
+  <string id="Guide.Options.ShowFavorites" value="ਮਨਪਸੰਦ ਚੈਨਲ"/>
+  <string id="Guide.Options.EditFavorites" value="ਮਨਪਸੰਦ ਬਦਲੋ"/>
+  <string id="Guide.Options.GuideStyle" value="ਗਾਈਡ ਸਟਾਈਲ"/>
+  <string id="Guide.Options.Jump" value="'ਤੇ ਛਲਾਂਗ ਲਗਾਓ"/>
+  <string id="Guide.Options.NextWeek" value="ਅਗਲੇ ਹਫ਼ਤੇ"/>
+  <string id="Guide.Options.Tonight" value="ਅੱਜ ਰਾਤ"/>
+  <string id="Guide.Options.Tomorrow" value="ਕੱਲ੍ਹ"/>
+<string id="Guide.Options.JumpFormatString" value="dddd" />
+  <string id="Guide.ListGuideInstructions" value="ਇਸ ਚੈਨਲ ਲਈ ਸੂਚੀ ਗਾਈਡ ਦੇਖਣ ਲਈ ਠੀਕ ਦਬਾਓ।"/>
+  
+  <!-- Favorites -->
+  <string id="Favorites.Favorites" value="ਮਨਪਸੰਦ"/>
+  <string id="Settings.FavoriteChannels" value="ਮਨਪਸੰਦ ਚੈਨਲ"/>
+  <string id="Settings.FavoriteChannels.Description" value="ਤੁਹਾਡੀ ਮਨਪਸੰਦ ਗਾਈਡ ਵਿੱਚ ਚੈਨਲ ਜੋੜਨ ਜਾਂ ਹਟਾਉਣ ਲਈ ਠੀਕ ਦਬਾਓ।"/>
+  <string id="Settings.FavoriteChannels.ClearAll" value="ਸਾਰਿਆਂ ਤੋਂ ਸਹੀ ਹਟਾਓ"/>
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="ਸਹੀ ਵਾਲੇ ਦੇਖੋ"/>
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="ਸਾਰੇ ਦੇਖੋ"/>
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="ਤੁਸੀਂ ਅਜੇ ਮਨਪਸੰਦ ਚੈਨਲਾਂ ਦੀ ਸੂਚੀ ਸੈਟ ਨਹੀਂ ਕੀਤੀ ਹੈ।"/>
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="ਪਨਪਸੰਦ ਚੈਨਲ ਇੱਕ ਸੁਵਿਧਾਜਨਕ ਤਰੀਕਾ ਹੈ ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਸਿਰਫ਼ ਉਹਨਾਂ ਚੈਨਲਾਂ ਨੂੰ ਦੇਖ ਅਤੇ ਛਾਣ ਸਕਦੇ ਹੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਜ਼ਿਆਦਾਤਰ ਦੇਖਦੇ ਹੋ।"/>
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="ਪਨਪਸੰਦ ਚੈਨਲ ਸੂਚੀ ਸੈਟ ਕਰੋ"/>
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="ਸੂਚੀ ਸੈਟ ਨਾ ਕਰੋ"/>
+  
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase.Info" value="ਕਿਰਾਏ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <!-- {0}: the price formatted and {1}: rental time from minute formatted properly-->
+  <string id="VideoFullScreen.CanPurchase.Price" value="{1} ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ {0} "/>
+  <!-- {0}: slide show title, and {1}: current image title of the slide show. -->
+  <string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}"/>
+  <!-- {0}: current seek position of the seek bar. {1}: max seek position-->
+  <string id="VideoFullScreen.SeekPositionXofY" value="{1} ਦਾ {0}"/>
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="ਵੀਡੀਓ ਦੀ ਸੂਚੀ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="ਅਨੁਪ੍ਰਯੋਗਾਂ ਦੀ ਸੂਚੀ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="ਰਿਕਾਰਡਿੰਗਾਂ ਦੀ ਸੂਚੀ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="ਚਲਾਉਣਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ {0}"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="{0} ਲਈ ਪੂਰਵਦਿਖ ਚਲਾਉਣ ਲਈ ਚਲਾਓ ਦਬਾਓ"/>
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="ਦੂਸਰੀ ਪ੍ਰੋਗਰਾਮਿੰਗ ਦੇਖਣ ਲਈ ਚੈਨਲ ਬਦਲੋ"/>
+  <string id="VideoFullScreen.StatusBar.Photos" value="ਸਲਾਈਡ ਸ਼ੋ ਦੇਖਣ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.SVOD" value="{0} ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="VideoFullScreen.OnNow" value="ਹੁਣ ਚਾਲੂ"/>
+  <string id="VideoFullScreen.OnNext" value="ਅਗਲਾ ਚਾਲੂ"/>
+  <string id="VideoFullScreen.OnLater" value="ਬਾਅਦ ਵਿੱਚ ਚਾਲੂ"/>
+  <string id="VideoFullScreen.ThankYou" value="ਤਹਾਡੇ ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ"/>
+  <string id="PleaseWait" value="ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ ..."/>
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="ਪ੍ਰੋਗਰਾਮ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ 'ਤੇ ਉਪਲਬਧ ਹੈ"/>
+  <string id="VideoFullScreen.Options.AspectRatio" value="ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="ਸਧਾਰਨ"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="ਖਿੱਚੋ"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="ਜ਼ੂਮ 1"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="ਜ਼ੂਮ 2"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="ਜ਼ੂਮ 3"/>
+  <string id="VideoFullScreen.Options.AudioLanguages" value="ਆਡਿਓ ਭਾਸ਼ਾਵਾਂ"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="ਸਬਟਾਈਟਲ"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="ਕੋਈ ਨਹੀਂ"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="ਆਡੀਓ ਪ੍ਰੋਗਰਾਮ"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="ਪ੍ਰਾਥਮਿਕ"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="ਦੂਜੇ ਦਰਜੇ ਦਾ"/>
+  <string id="VideoFullScreen.TrickNotAvailable.Part1" value="ਇਹ ਟੀਵੀ ਰਿਸੀਵਰ ਨਹੀਂ ਕਰ ਸਕਦਾ " />
+  <string id="VideoFullScreen.TrickNotAvailable.Part2" value=" ਲਾਈਵ ਟੀਵੀ।" />
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਰੱਖੋ"/>
+  <string id="ZoomControl.ZoomText.Normal" value="ਸਧਾਰਨ"/>
+  <string id="ZoomControl.ZoomText.Stretch" value="ਖਿੱਚੋ"/>
+  <string id="ZoomControl.ZoomText.Zoom1" value="ਜ਼ੂਮ 1"/>
+  <string id="ZoomControl.ZoomText.Zoom2" value="ਜ਼ੂਮ 2"/>
+  <string id="ZoomControl.ZoomText.Zoom3" value="ਜ਼ੂਮ 3"/>
+  <!-- The custom zoom values: Zoom X, Zoom Y, Shift X, Shift Y (all floats)-->
+  <string id="ZoomControl.ZoomText.CustomZoom" value="ਲੋੜ ਅਨੁਸਾਰ ਜ਼ੂਮ ({0},{1},{2},{3})"/>
+<string id="SeekBar.TimeFormat" value="tt hh:mm" /> 
+<string id="SeekBar.TimeFormatCurrent" value="hh:mm:ss" /> 
+<string id="SeekBar.DVRTimeFormat" value="hh:mm" /> 
+<string id="SeekBar.DVRCurrentPositionFormat" value="hh:mm:ss" /> 
+  <string id="StopPage.Play" value="ਮੁੜ ਚਲਾਓ"/>
+  <string id="StopPage.StartOver" value="ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="StopPage.Erase" value="ਮਿਟਾਓ"/>
+  <string id="StopPage.KeepUntil" value="ਤਕ ਰੱਖੋ"/>
+  <string id="StopPage.RecordedTV" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="StopPage.VideoStore" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="StopPage.LiveTV" value="ਲਾਈਵ ਟੀਵੀ ਦੇਖੋ"/>
+  <string id="StopPage.Done" value="ਹੋ ਗਿਆ"/>
+  <string id="StopPage.Done.Vod" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="StopPage.Done.Recorded" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <!-- Browse Bar -->
+  <string id="BrowseBar.Next" value="ਅਗਲਾ:" />
+  <string id="BrowseBar.Summary.Ratings" value="{0} &#0183; " /><!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) " /><!-- second part of summary, eg: {0} replaced with 2005 -->
+
+  <!-- Generic Strings -->
+  <string id="DVR.FastForward" value="ਤੇਜ਼ੀ ਨਾਲ ਅੱਗੇ" />
+  <string id="DVR.Pause" value="ਅਸਥਾਈ ਰੋਕ" />
+  <string id="DVR.Rewind" value="ਪਿੱਛੇ ਲਿਜਾਓ" />
+  <string id="DVR.Skip" value="ਛੱਡੋ" />
+  <string id="DVR.Replay" value="ਦੁਬਾਰਾ ਚਲਾਓ" />
+  <string id="DVR.Play" value="ਚਲਾਓ" />
+  <string id="DVR.Stop" value="ਰੋਕੋ" />
+
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording" value="ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਜਾ ਰਿਹਾ ਹੈ"/>
+  <!-- {0]: program. {1}: channel information-->
+  <string id="DVR.AboutToRecord" value="ਚੈਨਲ {1} 'ਤੇ {0} ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਜਾ ਰਿਹਾ ਹੈ"/>
+  <string id="DVR.AboutToRecord.Record" value="ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.AboutToRecord.DontRecord" value="ਰਿਕਾਰਡ ਨਾ ਕਰੋ"/>
+  <string id="DVR.AboutToStartRecording_disabled" value="ਰਿਕਾਰਡਿੰਗ ਛੱਡ ਦਿੱਤੀ ਜਾਵੇਗੀ ਕਿਉਂਕਿ ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰ ਕੀਤੀ ਹੋਈ ਹੈ"/>
+  <string id="DVR.CannotRecordProgram" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"/>
+  <string id="DVR.CannotRecordProgramNow" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ, ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ"/>
+  <string id="DVR.CannotChangeSettingsNoEPG" value="ਇਸ ਰਿਕਾਰਡਿੰਗ ਲਈ ਸੈਟਿੰਗਾਂ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="DVR.OK" value="ਠੀਕ"/>
+  <string id="DVR.Cancel" value="ਰੱਦ ਕਰੋ"/>
+  <!-- {0}: program. -->
+  <string id="DVR.StopRecording" value="{0} ਦੀ ਰਿਕਾਰਡਿੰਗ ਰੋਕੀਏ?"/>
+  <string id="DVR.DoStopRecording" value="ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ"/>
+  <string id="DVR.DoContinueRecording" value="ਰਿਕਾਰਡਿੰਗ ਕਰਦੇ ਰਹੋ"/>
+  <string id="DVR.ViewingConflict" value="ਇਸ ਸਮੇਂ ਤੁਸੀਂ ਕਿਸੇ ਦੂਸਰੇ ਟੀਵੀ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹੋ ਅਤੇ ਇਸ ਸਮੇਂ ਚੈਨਲ ਬਦਲ ਨਹੀਂ ਸਕਦੇ ਹੋ time."/>
+  <string id="DVR.ViewingConflict.Choose" value="ਹੋਰ ਚੋਣਾਂ ਦੇਖੋ"/>
+  <string id="DVR.ViewingConflict.AskTakeControl" value="ਪੁੱਛੋ ਕਿ ਕੀ ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ"/>
+  <string id="DVR.ViewingConflict.Exit" value="ਨਿਕਲ ਕੇ ਟੈਲੀਵਿੲਨ ‘ਤੇ ਜਾਓ"/>
+  <string id="DVR.IsTVInUse" value="ਕੀ ਇਹ ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ? ਦੇਖਣਾ ਜਾਰੀ ਰੱਖਣ ਲਈ {Seconds} ਦੇ ਅੰਦਰ ਜਵਾਬ ਦਿਓ।"/>
+  <!-- {0} integer of seconds for dialog -->
+  <string id="DVR.IsTVInUse.Seconds" value="{0} ਸਕਿੰਟ"/>
+  <!-- Same as above, just used if there is 1 second left (pluralization)-->
+  <string id="DVR.IsTVInUse.Second" value="{0} ਸਕਿੰਟ"/>
+  <string id="DVR.IsTVInUse.InUse" value="ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ"/>
+  <string id="DVR.IsTVInUse.NotInUse" value="ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਨਹੀਂ ਹੈ"/>
+  <string id="DVR.OtherTVInUse" value="ਦੂਸਰਾ ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ।"/>
+  <string id="DVR.AskingIfOtherTVInUse" value="ਹੁਣ ਪੁੱਛ ਰਿਹਾ ਹੈ ਕਿ ਕੀ ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ। {Seconds} ਬਾਕੀ।"/>
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="ਬੇਨਤੀ ਰੱਦ ਕਰੋ"/>
+  <string id="DVR.WholeHomeRecordButton" value="ਰਿਕਾਰਡਿੰਗਾਂ ਸਿਰਫ਼ DVR ਰਿਸੀਵਰ 'ਤੇ ਨੀਯਤ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ।"/>
+  <string id="DVR.WholeHomeDeleteButton" value="ਰਿਕਾਰਡਿੰਗਾਂ ਸਿਰਫ਼ DVR ਰਿਸੀਵਰ 'ਤੇ ਮਿਟਾਈਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ।"/>
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="ਪੁੱਛੋ ਕਿ ਕੀ ਟੀਵੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ"/>
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="ਪਿੱਛੇ ਜਾਓ"/>
+  <string id="DVR.MultiRoomProgramInfo.Join" value="ਇਸ ਸ਼ੋ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਜਾਓ"/>
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="ਰੱਦ ਕਰੋ"/>
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="ਬੇਨਤੀ ਨਿਯੰਤ੍ਰਣ"/>
+  <!-- exit from program info when recording is deleted -->
+  <string id="DVR.RecordingWasDeleted" value="ਰਿਕਾਰਡਿੰਗ ਚਲਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।"/>
+  <string id="DVR.UpcomingHeader" value="ਨੀਯਤ"/>
+  <string id="DVR.UpcomingSubHeader" value="ਆਉਣ ਵਾਲੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.SeriesSubHeader" value="ਲੜੀ"/>
+  <string id="DVR.RecordedHeader" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="DVR.ManualRecordHeader" value="ਹੱਥੀਂ ਰਿਕਾਰਡ"/>
+  <string id="DVR.RecordSettings" value="ਸੈਟਿੰਗਾਂ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.ManualRecordSubHeader" value="ਚੈਨਲ ਅਤੇ ਸਮਾਂ"/>
+  <string id="DVR.KeepUntilHeader" value="ਇਸ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.ConflictHeader" value="ਰਿਕਾਰਡਿੰਗ ਭਿੜੰਤ"/>
+  <string id="DVR.SeriesSettingsHeader" value="ਲੜੀ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.OneTimeProgramSettingsHeader" value="ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="ਐਪੀਸੋਡ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.ManualRecord.InvalidTime" value="ਸ਼ੁਰੂਆਤ ਸਮਾਂ ਅਪ੍ਰਵਾਨਿਤ"/>
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="ਰੋਕੋ ਸਮਾਂ ਅਪ੍ਰਵਾਨਿਤ"/>
+  <string id="DVR.ManualRecordCannotBeForThePast" value="ਰਿਕਾਰਡਿੰਗਾਂ ਬੀਤੇ ਸਮੇਂ ਲਈ ਨੀਯਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ"/>
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="ਰੋਕੋ ਸਮਾਂ ਸ਼ੁਰੂ ਕਰੋ ਸਮਾਂ ਤੋਂ ਬਾਅਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"/>
+  <string id="DVR.ManualRecordDurationTooLong" value="ਰਿਕਾਰਡਿੰਗ ਦੀ ਮਿਆਦ 12 ਘੰਟੇ ਤੋਂ ਵੱਧ ਨਹੀਂ ਸਕਦੀ"/>
+  <string id="DVR.ManualRecordInvalidChannel" value="ਇਹ ਚੈਨਲ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"/>
+  <string id="DVR.ManualRecord.InvalidDuration" value="ਰਿਕਾਰਡਿੰਗ ਦੀ ਮਿਆਦ ਜ਼ੀਰੋ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ"/>
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="ਰਿਕਾਡਰਿੰਗ ਮਿਆਦ ਦੇ ਮਿੰਟ 0 ਅਤੇ 59 ਦੇ ਵਿਚਕਾਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ"/>
+  <string id="DVR.StreamChooser.Instructions" value="ਇਸ ਟੀਵੀ ਦੇ ਅਨੁਸਾਰ ਚੱਲਣ, ਜਾਂ ਟੈਲੀਵਿਜ਼ਨ ਦੇਖਣ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।"/>
+  <!-- {0}: the number of tuner activities-->
+  <string id="DVR.StreamChooser.Header.Plural" value="{0} ਪ੍ਰੋਗਰਾਮ ਸਕ੍ਰਿਅ"/>
+  <string id="DVR.StreamChooser.Header.Single" value="{0} ਪ੍ਰੋਗਰਾਮ ਸਕ੍ਰਿਅ"/>
+  <string id="DVR.StreamChooser.NowPlaying" value="ਹੁਣ ਚੱਲ ਰਿਹਾ"/>
+  <string id="DVR.StreamChooser.WatchRecording" value="ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਦੇਖੋ"/>
+  <string id="DVR.ChangeStream.Title" value="ਪ੍ਰੋਗਰਾਮ ਬਦਲੋ"/>
+  <string id="DVR.ChangeStream.Button.Follow" value="ਆਪਣੇ ਟੀਵੀ ਦੇ ਅਨੁਸਾਰ ਚੱਲੋ"/>
+  <string id="DVR.ChangeStream.Button.Take" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਰੋਕੋ"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.LastActivity" value="ਇਹ ਟੈਲੀਵਿਜ਼ਨ ਪਿਛਲੇ {0} ਵਿੱਚ ਸਕ੍ਰਿਅ ਰਿਹਾ ਹੈ"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.Uptime" value="ਇਹ ਟੈਲੀਵਿਜ਼ਨ {0} ਲਈ ਚਾਲੂ ਰਿਹਾ ਹੈ"/>
+  <string id="DVR.OneRecordingFromOtherClient" value="ਸਿਸਟਮ ਨੂੰ 1 ਰਿਕਾਰਡਿੰਗ ਦਾ ਪਤਾ ਲੱਗਾ ਜੋ ਕਿਸੇ ਹੋਰ ਗਾਹਕ ਨਾਲ ਸੰਬੰਧ ਰੱਖਦੀ ਹੈ। ਉਹ ਰਿਕਾਰਡਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੋਵੇਗੀ।"/>
+  <string id="DVR.ManyRecordingFromOtherClient" value="ਕੁਝ ਰਿਕਾਰਡਿੰਗਾ ਕਿਸੇ ਵੱਖਰੇ ਖਾਤੇ ਨਾਲ ਸੰਬੰਧ ਰਖਦੀਆਂ ਹਨ ਅਤੇ ਇਹਨਾਂ ਨੂੰ ਚਲਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"/>
+  <string id="DVR.Today" value="ਅੱਜ"/>
+  <string id="DVR.Tomorrow" value="ਕੱਲ੍ਹ"/>
+<string id="DVR.UpcomingDateFormatString" value="ddd d/M" /> 
+<string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd d/M)" /> 
+<string id="DVR.BucketRecordedDateFormatString" value="(ddd d/M)" /> 
+<string id="DVR.RecordedDateFormatString" value="d/M" /> 
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="ਦੇਖਣ ਲ਼ਈ ਕੋਈ ਵੀ ਪ੍ਰੋਗਰਾਮ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਵਾਸਤੇ ਨੀਯਤ ਕਰਨ ਲਈ, ਰਿਕਾਰਡਿੰਗ ਜੋੜੋ 'ਤੇ ਜਾਓ।"/>
+  <string id="Dvr.NoProgramsNode1" value="ਦੇਖਣ ਲ਼ਈ ਕੋਈ ਵੀ ਰਿਕਾਰਡਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"/>
+  <string id="Dvr.NoProgramsNode2" value="ਇਸ ਟੀਵੀ ਤੋਂ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਨੀਯਤ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ।  ਰਿਕਾਰਡਿੰਗਾਂ ਨੀਯਤ ਕਰਨ ਲਈ, DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾਓ।"/>
+  <string id="DVR.NoUpcomingList1.Remote" value="ਇਸ ਟੀਵੀ ਤੋਂ ਤੁਸੀਂ ਰਿਕਾਰਡਿੰਗਾਂ ਦੀ ਸੂਚੀ ਨਹੀਂ ਦੇਖ ਸਕਦੇ।  ਸੂਚੀ ਦੇਖਣ ਲਈ, ਕਿਸੇ ਰਿਕਾਰਡਿੰਗ ਦੀ ਸੈਟਿੰਗ ਬਦਲਣ ਲਈ ਜਾਂ ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰਨ ਲਈ, DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾਣਾ ਜ਼ਰੂਰੀ ਹੈ।"/>
+  <string id="Dvr.NoProgramsCanBeAdded.Remote" value="ਇਸ ਟੀਵੀ ਤੋਂ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਨੀਯਤ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ। ਰਿਕਾਰਡਿੰਗਾਂ ਨੀਯਤ ਕਰਨ ਲਈ, DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾਣਾ ਜ਼ਰੂਰੀ ਹੈ।"/>
+  <string id="DVR.NoProgramsHaveBeenRecorded1.Remote" value="ਰਿਕਾਰਡ ਕੀਤੇ ਹੋਏ ਟੀਵੀ ਦੀ ਸੂਚੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2.Remote" value="ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਟੀਵੀ ਰਿਸੀਵਰ ਅਤੇ DVR ਰਿਸੀਵਰ ਨੈਟਵਰਕ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹਨ।"/>
+  <string id="DVR.NoEpisodesOfSeriesAreScheduled1" value="ਇਸ ਲੜੀ ਦੀ ਕੋਈ ਵੀ ਐਪੀਸੋਡ ਰਿਕਾਰਡ ਕੀਤੇ ਜਾਣ ਲਈ ਨੀਯਤ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.SeriesCanceledNoUpcomingEpisodes" value="ਇਹ ਲੜੀ ਹੁਣ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰ ਰਹੀ ਹੈ ਕਿਉਂਕਿ ਉਪਯੋਗਕਰਤਾ ਦੀ ਬੇਨਤੀ ਅਨੁਸਾਰ ਇਸਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਸੀ।"/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded1" value="ਇਸ ਸਮੇਂ ਇਸ ਲੜੀ ਦੀ ਕੋਈ ਵੀ ਐਪੀਸੋਡ ਰਿਕਾਰਡ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded2" value="ਇਹ ਦੇਖਣ ਲਈ ਕਿ ਕੀ ਕੋਈ ਐਪੀਸੋਡ ਆ ਰਹੇ ਹਨ ਨੀਯਤ ਸੂਚੀ ਦੇਖੋ।"/>
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕੀਤੇ ਜਾਣ ਲਈ ਨੀਯਤ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.NoSeriesShown1.Remote" value="ਇਸ ਟੀਵੀ ਤੋਂ ਤੁਸੀਂ ਲੜੀ ਦੀ ਸੂਚੀ ਨਹੀਂ ਦੇਖ ਸਕਦੇ। ਸੂਚੀ ਦੇਖਣ ਲਈ, ਕਿਸੇ ਲੜੀ ਦੀ ਸੈਟਿੰਗ ਬਦਲਣ ਲਈ ਜਾਂ ਕੋਈ ਲੜੀ ਰੱਦ ਕਰਨ ਲਈ, DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾਣਾ ਜ਼ਰੂਰੀ ਹੈ।"/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="ਕਿਸੇ ਲੜੀ ਦੀ ਰਿਕਾਰਡਿੰਗ ਨੀਯਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।"/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="ਹਰ ਵਾਰ ਜਦੋਂ ਲੜੀ ਵਿੱਚ ਪ੍ਰੋਗਰਾਮ ਆਉਂਦਾ ਹੈ ਤਾਂ ਤੁਸੀਂ ਆਪਣੀ ਮਨਪਸੰਦ ਲੜੀ ਦੀ ਰਿਕਾਰਡਿੰਗ ਕਰ ਸਕਦੇ ਹੋ।  ਨਵੀਂਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਨੀਯਤ ਕਰਨ ਲਈ, ਰਿਕਾਰਡਿੰਗਾਂ ਜੋੜੋ'ਤੇ ਜਾਓ।"/>
+  <string id="DVR.RemoteUnavailable" value="ਰਿਕਾਰਡਿੰਗਾਂ ਚਲਾਉਣਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।  ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਟੀਵੀ ਰਿਸੀਵਰ ਅਤੇ DVR ਰਿਸੀਵਰ ਨੈਟਵਰਕ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹਨ।"/>
+  <string id="DVR.RecordedBucketTitleFormat" value="{0} ({1})"/>
+    <string id="DVR.RecordedBucketCountFormat" value="({0})"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOne" value="{0} ਰਿਕਾਰਡਿੰਗ"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormat" value="{0} ਰਿਕਾਰਡਿੰਗਾਂ"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOneWithTitle" value="{0} {1} ਰਿਕਾਰਡਿੰਗ"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatWithTitle" value="{0} {1} ਰਿਕਾਰਡਿੰਗਾਂ"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormat" value="&#8220;{0}&#8221; {1}"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0}"/>
+    <!--<string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0} {1}"/>-->
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeConcatFormat" value="{0} &#0183; {1}"/>
+
+    <string id="DVR.MoreButtonText" value="ਹੋਰ..."/>
+  <string id="DVR.Record" value="ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.DontRecord" value="ਰਿਕਾਰਡ ਨਾ ਕਰੋ"/>
+  <string id="DVR.Save" value="ਤਬਦੀਲੀਆਂ ਰੱਖਿਅਤ ਕਰੋ"/>
+  <string id="DVR.DontSave" value="ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੋ"/>
+  <string id="DVR.Keep.DontChange" value="ਨਾ ਬਦਲੋ"/>
+  <string id="DVR.Keep.SpaceNeeded" value="ਜਗ੍ਹਾ ਦੀ ਲੋੜ ਹੋਣ ਤਕ ਰੱਖੋ"/>
+  <!-- This string doesn't seem to be used-->
+  <string id="DVR.Keep.Date" value="{0} ਤਕ ਰੱਖੋ"/>
+<string id="DVR.Keep.Date.Format" value="ddd d/M" /> 
+  <string id="DVR.Keep.Watch" value="ਮੈਂ ਦੇਖਦਾ/ਦੇਖਦੀ ਹਾਂ"/>
+  <string id="DVR.Keep.Delete" value="ਮੇਰੇ ਦੁਆਰਾ ਮਿਟਾਏ ਜਾਣ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.ChannelLabel" value="ਚੈਨਲ"/>
+  <string id="DVR.FrequencyLabel" value="ਸਮਾਂ"/>
+  <string id="DVR.RecordDateLabel" value="ਤਾਰੀਖ਼"/>
+  <string id="DVR.KeepUntilLabel" value="ਇਸ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.KeepAtMostLabel" value="ਵੱਧ ਤੋਂ ਵੱਧ ਇਸ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.StartLabel" value="ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="DVR.StopLabel" value="ਰੋਕੋ"/>
+  <string id="DVR.TimeLabel" value="ਸਮਾਂ"/>
+  <string id="DVR.DurationLabel" value="ਮਿਆਦ"/>
+  <string id="DVR.StopRecordingLabel" value="ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ"/>
+  <string id="DVR.SeriesFrequencyLabel" value="ਚੈਨਲ"/>
+  <string id="DVR.Time.AM" value="ਸਵੇਰ"/>
+  <string id="DVR.Time.PM" value="ਸ਼ਾਮ"/>
+  <string id="DVR.SeriesRecordOnLabel" value="'ਤੇ ਰਿਕਾਰਡ ਕਰੋ:"/>
+  <string id="DVR.SeriesShowTypeLabel" value="ਸ਼ੋ ਦੀ ਕਿਸਮ"/>
+  <string id="DVR.SeriesKeepUpToLabel" value="ਇਸ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.Settings.More" value="| ਬਦਲੋ"/>
+  <string id="DVR.Settings.Padding.OnTime" value="ਨੀਯਤ ਸਮਾਪਤੀ ਸਮੇਂ 'ਤੇ"/>
+  <!-- {0}: Integer of minutes (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XMinutesLate" value="{0} ਮਿੰਟਾਂ ਬਾਅਦ"/>
+  <string id="DVR.Settings.Padding.OneHourLate" value="1 ਘੰਟੇ ਬਾਅਦ"/>
+  <!-- {0}: Integer of hours (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XHoursLate" value="{0} ਘੰਟਿਆਂ ਬਾਅਦ"/>
+  <string id="DVR.Settings.Fork" value="ਲਈ ਸੈਟਿੰਗਾਂ"/>
+  <string id="DVR.Settings.Fork.Episode" value="ਸਿਰਫ਼ ਇਹ ਐਪੀਸੋਡ"/>
+  <string id="DVR.Settings.Fork.Series" value="ਪੂਰੀ ਲੜੀ"/>
+  <string id="DVR.Station.AnyChannel" value="ਕੋਈ ਵੀ ਚੈਨਲ"/>
+  <!-- {0}: time-->
+  <string id="DVR.Time.ThisTime" value="ਕੋਈ ਵੀ ਦਿਨ, {0} ਦੇ ਆਸਪਾਸ"/>
+  <string id="DVR.Time.AnyTime" value="ਕਿਸੇ ਵੀ ਦਿਨ, ਕਿਸੇ ਵੀ ਸਮੇਂ"/>
+  <string id="DVR.Time.AnyTimeOnce" value="ਕਿਸੇ ਵੀ ਦਿਨ, ਕਿਸੇ ਵੀ ਸਮੇਂ, ਹਰ ਰੋਜ਼ ਇੱਕ ਵਾਰ"/>
+  <string id="DVR.ShowType.FirstRun" value="ਪਹਿਲੀ ਵਾਰ ਚਲਾਏ ਜਾਣ 'ਤੇ"/>
+  <string id="DVR.ShowType.Live" value="ਲਾਈਵ"/>
+  <string id="DVR.KeepUpTo.One" value="1 ਸਭ ਤੋਂ ਨਵੀਂ ਰਿਕਾਰਡਿੰਗ"/>
+  <!-- {0}: Integer of number of recordings to keep-->
+  <string id="DVR.KeepUpTo.XRecordings" value="{0} ਸਭ ਤੋਂ ਨਵੀਂਆਂ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.KeepUpTo.Many" value="ਜਿੰਨੀਆਂ ਸੰਭਵ ਹੋ ਸਕਣ"/>
+  <string id="DVR.Frequency.Once" value="ਇੱਕ ਵਾਰ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.Frequency.EveryDay" value="ਹਰ ਰੋਜ਼"/>
+  <string id="DVR.Frequency.EveryWeekDay" value="ਹਫ਼ਤੇ ਦੇ ਹਰ ਕੰਮਕਾਜੀ ਦਿਨ"/>
+  <string id="DVR.Frequency.EveryWeekend" value="ਹਰ ਸ਼ਨੀਵਾਰ-ਐਤਵਾਰ"/>
+  <string id="DVR.Frequency.EveryMon" value="ਹਰ ਸੋਮਵਾਰ"/>
+  <string id="DVR.Frequency.EveryTue" value="ਹਰ ਮੰਗਲਵਾਰ"/>
+  <string id="DVR.Frequency.EveryWed" value="ਹਰ ਬੁੱਧਵਾਰ"/>
+  <string id="DVR.Frequency.EveryThu" value="ਹਰ ਵੀਰਵਾਰ"/>
+  <string id="DVR.Frequency.EveryFri" value="ਹਰ ਸ਼ੁੱਕਰਵਾਰ"/>
+  <string id="DVR.Frequency.EverySat" value="ਹਰ ਸ਼ਨੀਵਾਰ"/>
+  <string id="DVR.Frequency.EverySun" value="ਹਰ ਐਤਵਾਰ"/>
+<string id="DVR.RecordDate.Format" value="ddd d/M" /> 
+<string id="DVR.Number.Format" value="D02" /> 
+<string id="DVR.Number.Format12Hour" value="" /> 
+  <string id="DVR.KeepUntil.Space" value="ਜਗ੍ਹਾ ਦੀ ਲੋੜ ਹੈ"/>
+  <string id="DVR.KeepUntil.Watch" value="ਪ੍ਰੋਗਰਾਮ ਦੇਖਿਆ"/>
+  <string id="DVR.KeepUntil.Delete" value="ਪ੍ਰੋਗਰਾਮ ਮਿਟਾਇਆ"/>
+  <string id="DVR.KeepUntil.Space.Full" value="ਜਗ੍ਹਾ ਦੀ ਲੋੜ ਹੋਣ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.KeepUntil.Watch.Full" value="ਮੇਰੇ ਦੁਆਰਾ ਦੇਖੇ ਜਾਣ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.KeepUntil.Delete.Full" value="ਮੇਰੇ ਦੁਆਰਾ ਮਿਟਾਏ ਜਾਣ ਤਕ ਰੱਖੋ"/>
+  <!-- Below two strings are not used-->
+  <string id="DVR.KeepAtMost.FormatSingular" value="{0} ਨਵੀਨਤਮ ਰਿਕਾਰਡਿੰਗ"/>
+  <string id="DVR.KeepAtMost.FormatPlural" value="{0} ਨਵੀਨਤਮ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.KeepAtMost.Max" value="ਜਿੰਨੀਆਂ ਸੰਭਵ ਹੋ ਸਕਣ"/>
+  <string id="DVR.KeepUntil.AM" value="ਸਵੇਰ"/>
+  <string id="DVR.KeepUntil.PM" value="ਸ਼ਾਮ"/>
+<string id="DVR.Preview.StartTimeFormat" value="ddd d/M" /> 
+  <!-- {0}: Duration of the DVR program (uses integers). This is hours or minutes as appropriate-->
+  <string id="DVR.Preview.DurationFormat.Day" value="{0}&#0160;ਦਿਨ"/>
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0}&#0160;ਦਿਨ"/>
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0}&#0160;ਦਿਨ"/>
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0}&#0160;ਘੰਟੇ"/>
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0}&#0160;ਮਿੰਟ"/>
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0}&#0160;ਘੰਟਾ"/>
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0}&#0160;ਘੰਟੇ"/>
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0}&#0160;ਮਿੰਟ"/>
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0}&#0160;ਮਿੰਟ"/>
+  <!-- {0}: Program time start; {1}: spacer string; {2}: ; {3}:duration in hours string ; {4}:during in minutes string ; {5}:space string ;-->
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}"/>
+  <string id="DVR.Preview.SpacerString" value="   "/>
+  <!-- String not used-->
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0}  &#0183;  {1}"/>
+  <!-- String not used (commented out)-->
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}"/>
+  <!-- {0}: Channel info (text); {1} Time info (text)-->
+  <string id="DVR.Rollover.ChannelAndTime" value="{0}  &#0183;  {1}"/>
+  <string id="DVR.Menu.ByDate" value="ਤਾਰੀਖ਼ ਦੁਆਰਾ"/>
+  <string id="DVR.Menu.ByTitle" value="ਸਿਰਲੇਖ ਦੁਆਰਾ"/>
+  <string id="DVR.Menu.ByDateGrouped" value=" ਰਿਕਾਰਡ ਕੀਤੇ ਹੋਏ"/>
+  <string id="DVR.Menu.ByStatus" value="ਦਰਜੇ ਦੁਆਰਾ"/>
+  <string id="DVR.Menu.AddRecording" value="ਰਿਕਾਰਡਿੰਗ ਜੋੜੋ"/>
+  <string id="DVR.Menu.Scheduled" value="ਨੀਯਤ"/>
+  <string id="DVR.Menu.Recorded" value="ਰਿਕਾਰਡ ਕੀਤੇ ਹੋਏ"/>
+  <string id="DVR.Menu.Upcoming" value="ਆ ਰਹੇ"/>
+  <string id="DVR.Menu.Series" value="ਲੜੀ"/>
+  <string id="DVR.MediaItem.Title" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="DVR.MediaItem.NoPrograms" value="ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕੀਤੇ ਜਾਣ ਲਈ ਨੀਯਤ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.MediaItem.Upcoming" value="ਆਉਣ ਵਾਲੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ:  "/>
+  <string id="DVR.MediaItem.Pip.Text" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="DVR.MediaItem.Separator" value=" &#0183; "/>
+  <string id="DVR.MediaItem.LongDescription1" value="ਆਪਣੇ ਮਨਪਸੰਦ ਸ਼ੋ ਨੂੰ ਰਿਕਾਰਡ ਕਰਨਾ ਨੀਯਤ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਜਦੋਂ ਚਾਹੋ ਦੇਖ ਸਕੋ।"/>
+  <string id="DVR.MediaItem.LongDescription2" value="ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਜੋੜਣ ਲਈ ਰਿਕਾਰਡ ਕਿਤੇ ਟੀਵੀ 'ਤੇ ਜਾਓ ਜਾਂ ਆਪਣੇ ਰਿਮੋਟ ਕੰਟ੍ਰੋਲ 'ਤੇ ਰਿਕਾਰਡ ਦਬਾਓ   "/>
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="ਸਾਰੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.ChannelGuide.RecentRecordings" value="ਹਾਲ ਦੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.Count.None" value="ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਨਹੀਂ"/>
+  <string id="DVR.Count.One" value="1 ਰਿਕਾਰਡਿੰਗ"/>
+  <string id="DVR.Count.Many" value="{0} ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.Stopped.Finished" value="ਖ਼ਤਮ"/>
+  <string id="DVR.Stopped.Stopped" value="ਰੋਕਿਆ"/>
+  <string id="DVR.Stopped.ErrorMessage" value="ਨੈਟਵਰਕ ਸਮੱਸਿਆਵਾਂ ਨੇ ਇਸ ਪ੍ਰਵਾਹ ਨੂੰ ਰੋਕ ਦਿੱਤਾ ਹੈ   ਇਹ ਪ੍ਰੋਗਰਾਮ ਇਸ ਸਮੇਂ ਚਲਾਏ ਜਾਣ ਵਾਸਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"/>
+  <string id="DVR.Stopped.KeepMessage" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਜਗ੍ਹਾ ਦੀ ਲੋੜ ਪੈਣ ਤਕ ਰੱਖਿਆ ਜਾਵੇਗਾ"/>
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਮਿਟਾਏ ਜਾਣ ਤਕ ਰੱਖਿਆ ਜਾਵੇਗਾ"/>
+  <string id="DVR.MultiRoom.DontChangeChannels" value="ਚੈਨਲ ਨਾ ਬਦਲੋ"/>
+  <!-- Not currently used (maybe when multi room is finished?)-->
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="{1} ਨੂੰ {2} 'ਤੇ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਚੈਨਲ  {0} ਬਦਲ ਰਿਹਾ"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Preamble" value="{0} ਨੂੰ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰੇਗਾ ਕਿਉਂਕਿ ਉਸੇ ਸਮੇਂ 'ਤੇ ਬਹੁਤ ਸਾਰੀਆਂ ਹੋਰ ਰਿਕਾਰਡਿੰਗਾਂ ਨੀਯਤ ਹਨ।"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice2" value="{0} ਨੂੰ ਰਿਕਾਰਡ ਨਾ ਕਰੋ"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble1" value="{0} ਦੀ 1 ਐਪੀਸੋਡ ਦੂਜੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਦੇ ਸਮੇਂ 'ਤੇ ਹੀ ਨੀਯਤ ਹੈ।"/>
+  <!-- {0}: Number of conflicts; {1}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble2" value="{1} ਦੀਆਂ {0} ਐਪੀਸੋਡਾਂ ਦੂਜੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਦੇ ਸਮੇਂ 'ਤੇ ਹੀ ਨੀਯਤ ਹਨ।"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Choice1" value="{0} ਦੀਆਂ ਸਾਰੀਆਂ ਐਪੀਸੋਡਾਂ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.Conflict.Series.Choice2" value="ਇਸ ਲੜੀ ਨੂੰ ਸਿਰਫ਼ ਉਸ ਸਮੇਂ ਰਿਕਾਰਡ ਕਰੋ ਜਦੋਂ ਕੋਈ ਭਿੜੰਤ ਨਾ ਹੋਵੇ"/>
+  <string id="DVR.Conflict.Series.Choice3" value="ਚੁਣੋ ਕਿ ਕਿਹੜਾ ਸ਼ੋ ਰਿਕਾਰਡ ਕਰਨਾ ਹੈ"/>
+  <string id="DVR.Conflict.TryAgain" value="ਭਿੜੰਤ ਨੂੰ ਹੱਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="DVR.Conflict.SubTitle" value="ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਲਾਲ ਬਿੰਦੀ ਤੋਂ ਬਿਨਾਂ ਵਾਲਾ ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।"/>
+  <!-- {0}: Number of conflict slices(?)-->
+  <string id="DVR.Conflict.MultiSubTitle" value="{0} ਭਿੜੰਤ ਮੌਜੂਦ। "/>
+  <string id="DVR.Conflict.HDSubTitle" value="ਦੋ HD ਪ੍ਰੋਗਰਾਮ ਇੱਕੋ ਸਮੇਂ 'ਤੇ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ। ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।"/>
+  <!-- {0}: Column number; empty if only 1 column-->
+  <string id="DVR.Conflict.GridHeader" value="ਭਿੜੰਤ {0}&#13;{1}"/>
+  <!-- {0}: Program title; {1} Conflict summary description. Same for following string-->
+  <string id="DVR.Conflict.Summary" value="{0}, {1}.ਨਾਲ ਭਿੜਦਾ ਹੈ।"/>
+  <string id="DVR.Conflict.Series.Summary" value="ਲੜੀ {0}, {1} ਨਾਲ ਭਿੜਦੀ ਹੈ।"/>
+  <!-- Next few strings don't seem to be used.-->
+  <string id="DVR.Conflict.2Conflicts" value="{0} ਅਤੇ {1}"/>
+  <string id="DVR.Conflict.3Conflicts" value="{0}, {1}, ਅਤੇ {2}"/>
+  <string id="DVR.Conflict.4Conflicts" value="{0}, {1}, {2}, ਅਤੇ {3}"/>
+  <string id="DVR.Conflict.5Conflicts" value="{0}, {1}, {2}, {3}, ਅਤੇ ਹੋਰ"/>
+  <!-- {0}: Formatting of title and episode title-->
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="ਰਿਕਾਰਡਿੰਗ ਭਿੜੰਤ: {0}"/>
+  <!-- {0}: Title of program-->
+  <string id="DVR.Conflict.InitSeries.SubTitle" value="ਲੜੀ ਭਿੜੰਤ: {0}"/>
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="ਇਸ ਤੋਂ ਲੜੀ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਕਰੋ:"/>
+  <string id="DVR.AddRecording.CreateCustom" value="ਇਸ ਨਾਲ ਹੱਥੀਂ ਰਿਕਾਰਡਿੰਗ ਤਿਆਰ ਕਰੋ:"/>
+  <string id="DVR.AddRecording.ManualRecordLabel" value="ਚੈਨਲ ਅਤੇ ਸਮਾਂ"/>
+  <string id="DVR.ManualRecordLabel" value="ਹੱਥੀਂ ਰਿਕਾਰਡ"/>
+  <!-- {0}: title of parent program-->
+  <string id="DVR.ManualLabel" value="ਹੱਥੀਂ: {0}"/>
+  <string id="DVR.DisabledNotification" value="DVR ਅਸਮਰਥ ਹੈ"/>
+  <string id="DVR.NotReadyNotification" value="DVR ਪ੍ਰਣਾਲੀ ਸ਼ੁਰੂ ਹੋ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ।"/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabledNotification" value="{0} {1} 'ਤੇ ਰਿਕਾਰਡਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ।"/>
+  <string id="DVR.ChannelDisabledNotification2" value="ਇਸ ਚੈਨਲ 'ਤੇ ਰਿਕਾਰਡਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ।"/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelPauseDisabledNotification" value="{0} {1} ਸਿੱਧੇ ਟੀਵੀ ਦੇ ਨਿਯੰਤ੍ਰਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਦਿੰਦਾ"/>
+  <string id="DVR.ChannelPauseDisabledNotification2" value="ਇਹ ਚੈਨਲ ਸਿੱਧੇ ਟੀਵੀ ਦੇ ਨਿਯੰਤ੍ਰਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਦਿੰਦਾ"/>
+  <string id="DVR.ManualRecordDisabledNotification" value="ਇਸ ਚੈਨਲ 'ਤੇ ਹੱਥੀਂ ਰਿਕਾਰਡਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ।"/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabled" value="ਚੈਨਲ {0} {1} ਰਿਕਾਰਡਿੰਗ ਨਹੀਂ ਕਰਨ ਦਿੰਦਾ।"/>
+  <string id="DVR.SeriesRecordingScheduled" value="ਲੜੀ ਦੀ ਰਿਕਾਰਡਿੰਗ ਨੀਯਤ"/>
+  <string id="DVR.SeriesRecordingUpdated" value="ਲੜੀ ਰਿਕਾਰਡਿੰਗ ਅਪਡੇਟ ਕੀਤੀ"/>
+  <string id="DVR.SeriesRecordingCanceled" value="ਲੜੀ ਦੀ ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕੀਤੀ" />
+  <string id="DVR.RecordingScheduled" value="ਰਿਕਾਰਡਿੰਗ ਨੀਯਤ"/>
+  <string id="DVR.RecordingUpdated" value="ਰਿਕਾਰਡਿੰਗ ਅਪਡੇਟ ਕੀਤੀ"/>
+  <string id="DVR.RecordingStopped" value="ਰਿਕਾਰਡਿੰਗ ਰੋਕੀ"/>
+  <string id="DVR.RecordingCanceled" value="ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕੀਤੀ" />
+  <string id="DVR.Recording" value=" ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ"/>
+  <string id="DVR.SlowScheduling" value="ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰ ਰਿਹਾ"/>
+  <string id="DVR.SlowSchedulingComplete" value="ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕੀਤੀ"/>
+  <string id="DVR.PostGoLiveInstructions" value="ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਰਿਕਾਰਡ ਦਬਾਓ।"/>
+  <string id="DVR.GuideInstructions" value="ਪ੍ਰੋਗਰਾਮ ਹਾਈਲਾਈਟ ਕਰੋ, ਫਿਰ ਰਿਕਾਰਡ ਦਬਾਓ।"/>
+  <string id="DVR.SearchInstructions" value="ਕੋਈ ਪ੍ਰੋਗਰਾਮ ਖੋਜੋ, ਫਿਰ ਰਿਕਾਰਡ ਦਬਾਓ।"/>
+  <string id="DVR.GroupeditemsInstructions" value="ਪ੍ਰੋਗਰਾਮ ਹਾਈਲਾਈਟ ਕਰੋ, ਫਿਰ ਰਿਕਾਰਡ ਦਬਾਓ।"/>
+  <string id="DVR.GuideInstructionsButton" value="ਤਿਆਰ"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelSeries" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਲੜੀ ਦੀ ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="DVR.ConfirmCancelSeries" value="ਲੜੀ ਰੱਦ ਕਰੋ"/>
+  <string id="DVR.CancelCancel" value="ਰੱਦ ਨਾ ਕਰੋ"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.QueryCancelProgram" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="DVR.ConfirmCancelProgram" value="ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelEpisode" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਲੜੀ ਰਿਕਾਰਡਿੰਗ ਦੀ ਇਹ ਐਪੀਸੋਡ ਰੱਦ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="DVR.ConfirmCancelEpisode" value="ਐਪੀਸੋਡ ਰੱਦ ਕਰੋ"/>
+  <!-- {0}: Metadata (Program) title-->
+  <string id="DVR.CantErase" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਕਿਸੇ ਦੁਸਰੇ ਟੀਵੀ 'ਤੇ ਦੇਖਿਆ ਜਾ ਰਿਹਾ ਹੈ ਅਤੇ ਇਸ ਸਮੇਂ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"/>
+  <string id="DVR.EraseFailed" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।  ਸ਼ਾਇਦ ਇਹ ਕਿਸੇ ਹੋਰ ਬਾਕਸ 'ਤੇ ਚੱਲ ਰਿਹਾ ਹੋਵੇ।"/>
+  <string id="DVR.QueryErase" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ {0} ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="DVR.ConfirmErase" value="ਮਿਟਾਓ"/>
+  <string id="DVR.CancelErase" value="ਨਾ ਮਿਟਾਓ"/>
+  <string id="DVR.AlreadyRecording" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਪਹਿਲਾਂ ਹੀ ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ ਹੈ।"/>
+  <string id="DVR.ShowOver" value="ਇਹ ਸ਼ੋ ਪਹਿਲਾਂ ਹੀ ਸਮਾਪਤ ਹੋ ਗਿਆ ਹੈ"/>
+  <string id="DVR.NotEnoughSpaceToRecord" value="ਰਿਕਾਰਡ ਨਹੀਂ ਕਰ ਸਕਦਾ ਕਿਉਂਕਿ ਬਹੁਤ ਜ਼ਿਆਦਾ ਰਿਕਾਰਡਿੰਗਾਂ ਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ।  Erase some recordings."/>
+  <string id="DVR.NotASeries" value="ਕਿਸੇ ਅਜਿਹੇ ਪ੍ਰੋਗਰਾਮ ਲਈ ਲੜੀ ਰਿਕਾਰਡਿੰਗ ਨੀਯਤ ਨਹੀਂ ਕਰ ਸਕਦਾ ਜੋ ਲੜੀ ਨਹੀਂ ਹੈ"/>
+  <string id="DVR.WSException.Unknown" value="ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="DVR.WSException.NetworkNA" value="ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="DVR.WSException.Timeout" value="ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="DVR.WSException.ConnectionLost" value="ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="DVR.WSException.TryAgain" value="ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="DVR.UpcomingRecordingsButton" value="ਆਉਣ ਵਾਲੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.SeriesRecordingsButton" value="ਲੜੀ ਰਿਕਾਰਡਿੰਗਾਂ"/>
+  <string id="DVR.PrioritySettingsButton" value="ਪ੍ਰਾਥਮਿਕਤਾ ਸੈਟਿੰਗਾਂ ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ"/>
+  <string id="DVR.History" value="ਇਤਿਹਾਸ"/>
+  <string id="DVR.ViewUpcomingRecordingsButton" value="ਆਉਣ ਵਾਲੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਦੇਖੋ"/>
+  <string id="DVR.ChangeSeriesSettingsButton" value="ਲੜੀ ਸੈਟਿੰਗਾਂ ਬਦਲੋ"/>
+  <string id="DVR.CancelSeriesButton" value="ਲੜੀ ਰੱਦ ਕਰੋ"/>
+  <string id="DVR.SeriesHeader" value="ਲੜੀ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}"/>
+  <!-- A format string: {0} is the format for the string. {1} is a value.-->
+  <string id="DVR.SeriesInfoSummaryFormat" value="{0}: {1}"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}"/>
+  <string id="DVR.UntilSpaceIsNeeded" value="ਜਗ੍ਹਾ ਦੀ ਲੋੜ ਹੋਣ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.FirstRunAndRerun" value="ਪਹਿਲਾਂ &#0038; ਚਲਾਓ  ਦੁਬਾਰਾ ਚਲਾਓ"/>
+<string id="DVR.SeriesTimeFormat" value="tt hh:mm" /> 
+<string id="DVR.SeriesTimeFormat24" value="HH:mm" /> 
+  <string id="DVR.SeriesTimeAnyTime" value="ਕਿਸੇ ਵੀ ਸਮੇਂ"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}"/>
+  <!-- {0}: Date; {1}: Time-->
+  <string id="DVR.OneTimeSettingTimeFormat" value="{0}, {1}"/>
+  <string id="DVR.MustGoLiveToRecord" value="ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਲਾਈਵ ਹੋਣਾ ਜ਼ਰੂਰੀ"/>
+  <string id="DVR.GoLive" value="ਲਾਈਵ ਹੋ ਜਾਓ"/>
+  <string id="DVR.Unknown" value="ਅਗਿਆਤ"/>
+  <string id="DVR.Dot.Conflict" value="ਰਿਕਾਰਡਿੰਗ ਨਹੀਂ ਕਰੇਗਾ"/>
+  <string id="DVR.Dot.RecordingDelay" value="ਰਿਕਾਰਡਿੰਗ ਵਿੱਚ ਦੇਰੀ"/>
+  <string id="DVR.Dot.Series" value="ਲੜੀ ਰਿਕਾਰਡ"/>
+  <string id="DVR.Dot.Series.HD" value="HD ਵਿੱਚ ਲੜੀ ਰਿਕਾਰਡ"/>
+  <string id="DVR.Dot.Record" value="ਰਿਕਾਰਡ ਕਰੇਗਾ"/>
+  <string id="DVR.Dot.Record.HD" value="HD ਵਿੱਚ ਰਿਕਾਰਡ ਕਰੇਗਾ"/>
+  <string id="DVR.Dot.Recording" value="ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ"/>
+  <string id="DVR.Dot.Recording.HD" value="HD ਵਿੱਚ ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ"/>
+  <string id="DVR.Dot.Keep" value="ਮੇਰੇ ਦੁਆਰਾ ਮਿਟਾਏ ਜਾਣ ਤਕ ਰੱਖੋ"/>
+  <string id="DVR.Dot.Delete" value="ਜਲਦੀ ਮਿਟਾਏ ਜਾਣ ਲਈ"/>
+  <string id="DVR.DefaultState.Message1" value="ਆਪਣੇ ਮਨਪਸੰਦ ਸ਼ੋ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.DefaultState.Message2" value="ਹਰ ਇੱਕ ਐਪੀਸੋਡ ਆਪਣੇ ਆਪ ਰਿਕਾਰਡ ਕਰੋ"/>
+  <string id="DVR.DefaultState.Message3" value="ਅਸਥਾਈ ਰੋਕੋ, ਪਿੱਛੇ ਲਿਜਾਓ, ਅਤੇ ਤੇਜ਼ੀ ਨਾਲ ਅੱਗੇ"/>
+  <string id="DVR.AlreadyScheduled" value="ਇਹ ਪ੍ਰੋਗਰਾਮ ਪਹਿਲਾਂ ਹੀ ਰਿਕਾਰਡ ਕੀਤੇ ਜਾਣ ਲਈ ਨੀਯਤ ਹੈ"/>
+  <string id="DVR.EITVPS.Incorrect" value="ਰਿਕਾਰਡਿੰਗ ਗਲਤ ਹੋ ਸਕਦੀ ਹੈ"/>
+  <string id="DVR.EITVPS.DidNotAir" value="ਨੀਯਤ ਸਮੇਂ ਦੇ ਅੰਦਰ ਪ੍ਰੋਗਰਾਮ ਚਾਲੂ ਨਹੀਂ ਹੋਇਆ"/>
+  <string id="DVR.EITVPS.DueToChanges" value="ਆਖ਼ਰੀ ਮਿੰਟ 'ਤੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਦੇ ਕਾਰਨ"/>
+  <!-- {0} Currently recording title: {1}: Upcoming Recording title-->
+  <string id="DVR.EITVPS.AboutToExtend" value="'{0}' ਕਾਰਜਕ੍ਰਮ ਦੇ ਅਨੁਸਾਰ ਸਮਾਪਤ ਨਹੀਂ ਹੋਇਆ। '{1}' ਨੂੰ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਹੁਣ ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੀਏ?"/>
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="ਰਿਕਾਰਡਿੰਗ ਕਰਦੇ ਰਹੋ"/>
+  <string id="DVR.EITVPS.AboutToExtend.End" value="ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੋ"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.EITVPS.Recording" value="ਹੁਣ '{0}' ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ"/>
+  <!-- {0}: Recording program title-->
+  <string id="DVR.EITVPS.Delayed" value="ਰਿਕਾਰਡਿੰਗ ਵਿੱਚ {0} ਮਿੰਟ ਦੀ ਦੇਰੀ ਹੋਈ"/>
+  <string id="DVR.EITVPS.ManualRecord" value="ਕਾਰਜਕ੍ਰਮ ਵਿੱਚ ਆਖ਼ਰੀ ਮਿੰਟ 'ਤੇ ਤਬਦੀਲੀਆਂ ਦੇ ਕਾਰਨ, ਇਹ ਪ੍ਰੋਗਰਾਮ ਹੱਥੀ ਰਿਕਾਰਡ ਕੀਤਾ ਜਾਣਾ ਜ਼ਰੂਰੀ ਹੈ।"/>
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="ਹੱਥੀਂ ਰਿਕਾਰਡ ਕਰੋ"/>
+  
+  <!-- SmartCard related dialogs/diagnostics -->
+  <string id="SmartCard.Ready.Message" value="Smart card ready"/>
+  <string id="SmartCard.Unknown.Message" value="Smart card is invalid. Call customer support: 1-800-000-0000"/>
+  <string id="SmartCard.Unknown.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Bad.Message" value="Smart card is invalid. Ensure your smart card is inserted properly and try again."/>
+  <string id="SmartCard.Bad.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Extract.Message" value="Smart card extracted"/>
+  <string id="SmartCard.Extract.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Diagnostics.CardReady" value="Ready" />
+<string id="SmartCard.Diagnostics.CardReadyDateFormat" value="dd/MM/yy" /> 
+  <string id="SmartCard.Diagnostics.CardUnknown" value="Unrecognized card" />
+  <string id="SmartCard.Diagnostics.CardBad" value="Bad card" />
+  <string id="SmartCard.Diagnostics.CardExtracted" value="Card extracted or not found" />
+  
+  <!-- Stream contention dialogs-->
+  <!-- {0}: Channel num and call station (channel info text)-->
+  <string id="Stream.StayOnChannel" value="{0} 'ਤੇ ਰਹੋ"/>
+  <string id="Stream.StayOnChannel.Unknown" value="ਇੱਥੇ ਰਹੋ"/>
+  <string id="Stream.RecordedTVButton" value="ਰਿਕਾਰਡ ਕੀਤਾ ਹੋਇਆ ਟੀਵੀ"/>
+  <string id="Stream.RecordedTVButton.Player" value="ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਦੇਖੋ"/>
+  <string id="Stream.InterruptTVButton" value="ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ"/>
+  <string id="Stream.DontInterruptTVButton" value="ਨਾ ਰੋਕੋ"/>
+  <string id="Stream.ContinueButton" value="ਜਾਰੀ ਰੱਖੋ"/>
+  <string id="Stream.ChangeChannelButton" value="ਚੈਨਲ ਬਦਲੋ"/>
+  <string id="Stream.DontChangeChannelButton" value="ਨਾ ਬਦਲੋ"/>
+  <string id="Stream.TryAgainButton" value="ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ"/>
+  
+  <!--  Stream panel strings usage: 
+        AllServicesInUse        - "Optimistic Tune" panel with interrupt
+        AllStreamsRecording     - "Optimistic Tune" panel with no interrupt
+        AllStreamsUsedByVOD     - "Optimistic Tune" panel with no interrupt AND all streams are VOD
+        AllServicesInUseNoTV    - "Power On" panel with interrupt
+        AllStreamsRecordingNoTV - "Power On" panel with no interrupt
+        AllStreamsUsedByVODNoTV - "Power On" panel with no interrupt AND all streams are VOD
+  -->
+  <string id="Stream.AllServicesInUse" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ, ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ, ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUse.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUse.NoDvr" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ, ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ, ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUse.NoDvr.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUseNoTV" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ, ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ, ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUseNoTV.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ, ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ, ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕੋ।"/>
+  <string id="Stream.AllServicesInUseNoTV.Player" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਤੁਸੀਂ ਕਿਸੇ ਟੀਵੀ ਨੂੰ ਰੋਕ ਸਕਦੇ ਹੋ ਜਾਂ DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾ ਕੇ ਰਿਕਾਰਡਿੰਗ ਰੋਕ ਸਕਦੇ ਹੋ।"/>
+  <string id="Stream.AllStreamsRecording" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ ਜਾਂ ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecording.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecording.NoDvr" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ ਜਾਂ ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecording.NoDvr.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecording.Player.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, DVR ਰਿਸੀਵਰ 'ਤੇ ਜਾ ਕੇ ਰਿਕਾਰਡਿੰਗ ਰੋਕਣਾ ਜ਼ਰੂਰੀ ਹੈ।"/>
+  <string id="Stream.AllStreamsRecordingNoTV" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ ਜਾਂ ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecordingNoTV.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ ਜਾਂ ਕੋਈ ਹੋਰ ਟੀਵੀ ਰਿਸੀਵਰ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। HD ਚੈਨਲ ਦੇਖਣ ਲਈ, HD ਰਿਕਾਰਡਿੰਗ ਜਾਂ ਕਿਸੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ HD ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsUsedByVOD" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਚਲਾ ਰਹੀਆਂ ਹਨ। ਅੱਗੇ ਵਧਣ ਲਈ, ਕਿਸੇ ਦੂਸਰੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+  <string id="Stream.AllStreamsUsedByVODNoTV" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਚਲਾ ਰਹੀਆਂ ਹਨ। ਟੀਵੀ ਦੇਖਣ ਲਈ, ਕਿਸੇ ਦੂਸਰੇ ਟੀਵੀ ਰਿਸੀਵਰ 'ਤੇ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਦੇਖਣਾ ਬੰਦ ਕਰੋ।"/>
+
+  <string id="Stream.ConfirmInterrupt" value="ਰੋਕਣਾ ਚੁਣਨ ਨਾਲ ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕਿਸੇ ਹੋਰ ਟੀਵੀ 'ਤੇ ਟੀਵੀ ਦੇਖਣਾ ਰੁਕ ਜਾਵੇਗਾ"/>
+  <string id="Stream.TVInterrupted" value="ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕਿਸੇ ਹੋਰ ਟੀਵੀ 'ਤੇ ਰਿਕਾਰਡਿੰਗ ਕਰਨ ਜਾਂ ਦੇਖਣ ਲਈ ਇਸ ਟੀਵੀ ਨੂੰ ਰੋਕ ਦਿੱਤਾ ਗਿਆ"/>
+  <string id="Stream.TVInterrupted.NoDvr" value="ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕਿਸੇ ਹੋਰ ਟੀਵੀ 'ਤੇ ਰਿਕਾਰਡਿੰਗ ਕਰਨ ਜਾਂ ਦੇਖਣ ਲਈ ਇਸ ਟੀਵੀ ਨੂੰ ਰੋਕ ਦਿੱਤਾ ਗਿਆ"/>
+  <string id="Stream.UpcomingRecording" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਵਿੱਚ ਹਨ।  {1} ਨੂੰ {2} ਵਜੇ {0} ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਚੈਨਲ ਬਦਲਣਾ ਜ਼ਰੂਰੀ ਹੈ"/>
+  <string id="Stream.NoPlaybackStreams" value="ਚਲਾਉਣਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਇਸ ਟੀਵੀ 'ਤੇ ਪ੍ਰੋਗਰਾਮ ਚਲਾਉਣ ਲਈ ਦੂਜੇ ਟੀਵੀ 'ਤੇ ਰੋਕਣਾ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.NoPlaybackStreams.HD" value="HD ਚਲਾਉਣਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਇਸ ਟੀਵੀ 'ਤੇ ਕੋਈ HD ਪ੍ਰੋਗਰਾਮ ਚਲਾਉਣ ਲਈ ਦੂਜੇ ਟੀਵੀ 'ਤੇ HD ਰੋਕਣਾ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.NoPlaybackBandwidth" value="ਚਲਾਉਣ ਦੀ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ। ਇਸ ਟੀਵੀ 'ਤੇ ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਚਲਾਉਣ ਲਈ, ਘੱਟ ਤੋਂ ਘੱਟ ਕਿਸੇ ਇੱਕ ਦੂਸਰੇ ਟੀਵੀ 'ਤੇ ਰਿਕਾਰਡਿੰਗਾਂ ਚਲਾਉਣਾ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.LiveTuneNoIngressStream" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਇਸ ਰਿਸੀਵਰ 'ਤੇ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਚੈਨਲ ਬਦਲਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕਣੀ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.LiveTuneNoIngressStream.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਇਸ ਰਿਸੀਵਰ 'ਤੇ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਬਦਲ ਕੇ ਕੋਈ HD ਚੈਨਲ ਲਗਾਉਣ ਲਈ, ਕੋਈ HD ਰਿਕਾਰਡਿੰਗ ਰੋਕਣੀ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.TuneNoIngressStream" value="ਸਾਰੀਆਂ ਟੀਵੀ ਸੇਵਾਵਾਂ ਇਸ ਰਿਸੀਵਰ 'ਤੇ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਆਪਣੀ ਬੇਨਤੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕਣੀ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.TuneNoIngressStream.HD" value="ਸਾਰੀਆਂ HD ਟੀਵੀ ਸੇਵਾਵਾਂ ਇਸ ਰਿਸੀਵਰ 'ਤੇ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਆਪਣੀ ਬੇਨਤੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਲਈ, ਕੋਈ HD ਰਿਕਾਰਡਿੰਗ ਰੋਕਣੀ ਜ਼ਰੂਰੀ ਹੈ।" />
+  <string id="Stream.IngressDialogStopRecording" value="ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ" />
+  <string id="Stream.IngressDialogTryAgain" value="ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ" />
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="ਗਾਈਡ ਸਟਾਈਲ"/>
+  <string id="Settings.GuideStyle.GridGuide" value="ਗ੍ਰਿਡ ਗਾਈਡ"/>
+  <string id="Settings.GuideStyle.GridGuideDescription" value="ਕਈ ਚੈਨਲ ਇਕੱਠੇ ਦਿਖਾ ਰਿਹਾ"/>
+  <string id="Settings.GuideStyle.ListGuide" value="ਚੈਨਲ ਲਾਈਨਅਪ"/>
+  <string id="Settings.GuideStyle.ListGuideDescription" value="ਪ੍ਰੋਗਰਾਮ ਇਕਹਿਰੇ ਚੈਨਲ ਲਈ ਨੀਯਤ"/>
+  <string id="Settings.DttAutomaticChannelUpdate" value="DTT ਸਵੈਚਲ ਚੈਨਲ ਅਪਡੇਟ"/>
+  <string id="Settings.DttAutomaticChannelUpdate.On" value="ਸਵੈਚਲ ਚੈਨਲ ਅਪਡੇਟ ਚਾਲੂ"/>
+  <string id="Settings.DttAutomaticChannelUpdate.OnDescription" value="DTT ਚੈਨਲ ਆਪਣੇ-ਆਪ ਅਪਡੇਟ ਹੋ ਜਾਣਗੇ"/>
+  <string id="Settings.DttAutomaticChannelUpdate.Off" value="ਸਵੈਚਲ ਚੈਨਲ ਅਪਡੇਟ ਬੰਦ"/>
+  <string id="Settings.DttAutomaticChannelUpdate.OffDescription" value="DTT ਚੈਨਲ ਆਪਣੇ-ਆਪ ਅਪਡੇਟ ਨਹੀਂ ਹੋਣਗੇ"/>
+  <string id="Settings.Save" value="ਰੱਖਿਅਤ ਕਰੋ"/>
+  <string id="Settings.Save.Ask" value="ਇਹਨਾਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਤੁਸੀਂ ਜੋ ਪਰਿਵਰਤਨ ਕੀਤੇ ਹਨ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="Settings.DontSave" value="ਰੱਖਿਅਤ ਨਾ ਕਰੋ"/>
+  <string id="Settings.AllOn" value="ਸਾਰੇ ਚਾਲੂ"/>
+  <string id="Settings.AllOff" value="ਸਾਰੇ ਬੰਦ"/>
+  <string id="Settings.Continue" value="ਜਾਰੀ ਰੱਖੋ"/>
+  <string id="Settings.CancelChanges" value="ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੋ"/>
+  <string id="Settings.Cancel" value="ਰੱਦ ਕਰੋ"/>
+
+  <!-- aspect ratio -->
+  <string id="Settings.AspectRatio.Description" value="ਅਪਣੇ ਟੀਵੀ ਲਈ ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਅਤੇ ਰੈਜੋਲੂਸ਼ਨ ਚੁਣੋ, ਫੇਰ ਜਾਰੀ ਰੱਖੋ ਚੁਣੋ।"/>
+  <string id="Settings.AspectRatio.Resizing" value="ਸਕ੍ਰੀਨ ਦਾ ਆਕਾਰ ਬਦਲ ਰਿਹਾ"/>
+
+  <!-- {0}: Screen mode-->
+  <string id="Settings.AspectRatio.NowViewing" value="ਹੁਣ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ {0}"/>
+  <string id="Settings.AspectRatio.0" value="4:3 ਮਿਆਰੀ ਲੱਛਣ"/>
+  <string id="Settings.AspectRatio.1" value="ਚੌੜੀ-ਸਕ੍ਰੀਨ ਮਿਆਰੀ ਲੱਛਣ"/>
+  <string id="Settings.AspectRatio.2" value="ਉੱਚ ਲੱਛਣ ਸਕ੍ਰੀਨਾਂ 'ਤੇ 720p"/>
+  <string id="Settings.AspectRatio.3" value="ਉੱਚ ਲੱਛਣ ਸਕ੍ਰੀਨਾਂ 'ਤੇ 1080i"/>
+
+  <string id="Settings.AspectRatio.NowViewing0" value="ਹੁਣ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ 4:3 ਮਿਆਰੀ ਲੱਛਣ"/>
+  <string id="Settings.AspectRatio.NowViewing1" value="ਹੁਣ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ 4:3 ਚੌੜੀ-ਸਕਰੀਨ ਮਿਆਰੀ ਲੱਛਣ"/>
+  <string id="Settings.AspectRatio.NowViewing2" value="ਹੁਣ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ ਉੱਚ ਲੱਛਣ ਸਕ੍ਰੀਨਾਂ 'ਤੇ 720p"/>
+  <string id="Settings.AspectRatio.NowViewing3" value="ਹੁਣ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ ਉੱਚ ਲੱਛਣ ਸਕ੍ਰੀਨਾਂ 'ਤੇ 1080i"/>
+
+  <string id="Settings.AspectRatioWizard.Step1" value="ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਅਤੇ ਉੱਚ ਲੱਛਣ (ਕਦਮ 1)"/>
+  <string id="Settings.AspectRatioWizard.Step2" value="ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਅਤੇ ਉੱਚ ਲੱਛਣ (ਕਦਮ 2)"/>
+  <string id="Settings.AspectRatioWizard.Step3" value="ਰੰਗ-ਰੂਪ ਅਨੁਪਾਤ ਅਤੇ ਉੱਚ ਲੱਛਣ (ਕਦਮ 3)"/>
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="ਸ਼ਾਇਦ ਤੁਹਾਡਾ ਟੀਵੀ {Mode}.ਨਾ ਦਿਖਾ ਸਕਦਾ ਹੋਵੇ। ਇਹ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਿ ਕੀ ਇਹ ਤੁਹਾਡੇ ਟੀਵੀ ਲਈ ਸਹੀ ਸੈਟਿੰਗ ਹੈ, ਜਾਂਚ ਸ਼ੁਰੂ ਕਰੋ ਚੁਣੋ। ਜੇ ਜਾਂਚ ਦੇ ਦੌਰਾਨ ਤੁਹਾਨੂੰ ਕੁਝ ਵਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ ਹੈ, ਤਾਂ 15 ਸਕਿੰਟ ਤਕ ਉਡੀਕ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਈ ਹੋਰ ਸੈਟਿੰਗ ਚੁਣੋ।"/>
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="ਜੇ ਤੁਸੀਂ ਇਹ ਸਕਰੀਨ ਦੇਖ ਸਕਦੇ ਹੋ, ਤਆ ਤੁਹਾਡਾ ਟੀਵੀ {Mode} ਦਿਖਾ ਸਕਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਸੈਟਿੰਗ ਰੱਖੋ ਚੁਣੋ।&#13;&#13;ਇਹ ਟੈਸਟ {Countdown} ਸਕਿੰਟਾਂ ਵਿੱਚ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ।"/>
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="ਜੇ ਜਾਂਚ ਦੇ ਦੌਰਾਨ ਤੁਹਾਨੂੰ ਕਾਲੀ ਸਕ੍ਰੀਨ ਦਿਖਾਈ ਦਿੱਤੀ ਸੀ, ਤਾਂ ਸ਼ਾਇਦ ਤੁਹਾਡਾ ਟੀਵੀ ਉੱਚ ਲੱਛਣ ਵਾਲਾ ਵੀਡੀਓ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਕਰ ਸਕਦਾ ਹੈ, ਜਾਂ ਸ਼ਾਇਦ ਤੁਹਾਡਾ ਟੀਵੀ ਸੈਟ-ਟੌਪ ਬਾਕਸ ਨਾਲ ਸਹੀ ਤਰ੍ਹਾਂ ਨਾਲ ਨਹੀਂ ਜੁੜਿਆ ਹੋਇਆ ਹੈ। ਕੋਈ ਹੋਰ ਸੈਟਿੰਗ ਚੁਣੋ ਜਾਂ ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਤੁਹਾਡਾ HDTV ਸਹੀ ਤਰ੍ਹਾ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ ਆਪਣੀਆਂ ਤਾਰਾਂ ਜਾਂਚੋ।&#13;&#13;ਜੇ ਜਾਂਚ ਦੇ ਦੌਰਾਨ ਤੁਸੀਂ ਕੋਈ ਆਕ੍ਰਿਤੀ ਦੇਖੀ ਸੀ, ਤਾਂ ਜਾਂਚ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ ਚੁਣੋ।"/>
+  <string id="Settings.AspectRatioWizard.StartTest" value="ਜਾਂਚ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="ਸੈਟਿੰਗ ਰੱਖੋ"/>
+  <string id="Settings.AspectRatioWizard.StartAgain" value="ਜਾਂਚ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="Settings.AspectRatioWizard.SawNothing" value="ਮੈਂ ਇੱਕ ਕਾਲੀ ਸਕ੍ਰੀਨ ਦੇਖੀ। ਕੋਈ ਹੋਰ ਸੈਟਿੰਗ ਚੁਣੋ।"/>
+  <string id="Settings.AspectRatio.ChangeSettings" value="ਕੀ ਤੁਸੀਂ ਆਪਣੀਆਂ ਵਿਡੀਓ ਸੈਟਿੰਗਾਂ ਬਦਲਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value="{0} ਸਾਰੇ ਟੈਲੀਵਿਜ਼ਨਾਂ ਦੇ ਨਾਲ ਅਨੁਰੂਪ ਨਹੀਂ ਹੈ। ਜੇ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਤੁਹਾਨੂੰ ਕੁਝ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ ਹੈ, ਤਾਂ 10 ਸਕਿੰਟ ਉਡੀਕ ਕਰੋ ਜਾਂ ਸੈਟ-ਟੌਪ ਬਾਕਸ ਦਾ ਪਲੱਗ ਹਟਾਓ।"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="ਇਹ ਵੀਡੀਓ ਪਿਛਲੀ ਵਾਰ {0} ਤੇ ਸੈਟ ਕੀਤਾ ਗਿਆ ਸੀ। ਕੀ ਤੁਸੀਂ ਬਦਲ ਕੇ ਵਾਪਸ ਇਸ 'ਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਜੇ ਨਹੀਂ, ਤਾਂ ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾ ਸਕਦੇ ਹੋ, ਜਾਂ ਤੁਸੀਂ ਮੌਜੂਦਾ ਸੈਟਿੰਗਾਂ ਰੱਖ ਸਕਦੇ ਹੋ।"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangeTo" value="{0} 'ਤੇ ਬਦਲੋ"/>
+  <string id="Settings.AspectRatio.DontChange" value="ਨਾ ਬਦਲੋ"/>
+  <string id="Settings.AspectRatio.GoToSettings" value="ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾਓ"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="ਵੀਡੀਓ ਹੁਣ {0} ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਤਬਦੀਲੀ ਨੂੰ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ? 10 ਸਕਿੰਟਾਂ ਵਿੱਚ ਵਾਪਸ ਬਦਲ ਰਿਹਾ।"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="ਇਹ ਵੀਡੀਓ ਪਿਛਲੀ ਵਾਰ {0} ਤੇ ਸੈਟ ਕੀਤਾ ਗਿਆ ਸੀ। ਕੀ ਤੁਸੀਂ ਬਦਲ ਕੇ ਵਾਪਸ ਇਸ 'ਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਜੇ ਨਹੀਂ, ਤਾਂ ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾ ਸਕਦੇ ਹੋ, ਜਾਂ ਮੌਜੂਦਾ ਵੀਡੀਓ ਸੈਟਿੰਗਾਂ ਰੱਖ ਸਕਦੇ ਹੋ।"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.KeepHighDef" value="{0} ਰੱਖੋ"/>
+  <string id="Settings.AspectRatio.ChangeBack" value="ਵਾਪਸ ਬਦਲੋ"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="ਵੀਡੀਓ ਬਦਲ ਕੇ {0} ਉੱਚ ਲੱਛਣ ਕਰ ਦਿਓ"/>
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="ਵੀਡੀਓ ਬਦਲ ਕੇ ਵਾਪਸ 4:3 ਮਿਆਰੀ ਲੱਛਣ ਕਰ ਦਿਓ"/>
+  <string id="Settings.AspectRatio.ModeNotSupported" value="ਇਹ ਵੀਡੀਓ ਮੋਡ ਇਸ ਸੈਟ-ਟੌਪ ਬਾਕਸ ਦੁਆਰਾ ਸਮਰਥਿਤ ਨਹੀਂ"/>
+
+  <!-- 
+      this key sequence will reset the settop to standard def 
+      if it's currently running in high definition mode. the
+      sequence can include any standard numeric keys as well as
+      up, down, left, etc... 
+  -->
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="menu123456789" />
+
+  <!-- connection troubleshooting settings page -->
+  <string id="Settings.Troubleshoot" value="ਆਪਣੇ ਬ੍ਰੌਡਬੈਂਡ ਸੰਪਰਕ ਦੀ ਮੁਸ਼ਕਲ ਦੂਰ ਕਰੋ"/>
+  <string id="Settings.Troubleshoot.Title" value="ਸਮੱਸਿਆਵਾਂ ਆ ਰਹੀਆਂ ਹਨ?"/>
+  <string id="Settings.Troubleshoot.Description.Online" value="ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਨੈਟਵਰਕ ਜੁੜਿਆ ਹੋਇਆ ਹੈ। ਇੱਥੇ ਨੈਟਵਰਕ ਸੰਪਰਕ ਨਾਲ ਸੰਬੰਧਿਤ ਮੁੱਦਿਆਂ ਦੀ ਵਿਆਖਿਆ ਕਰੋ।&#13;&#13;ਜੇ ਤੁਹਾਨੂੰ ਹੋਰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ 000 000 0000 'ਤੇ ਫ਼ੋਨ ਕਰੋ।"/>
+  <string id="Settings.Troubleshoot.Description.Offline" value="ਇਸ ਸਮੇਂ ਤੁਹਾਡਾ ਸੰਪਰਕ ਟੁੱਟਿਆ ਹੋਇਆ ਹੈ। ਇੱਥੇ ਨੈਟਵਰਕ ਸੰਪਰਕ ਨਾਲ ਸੰਬੰਧਿਤ ਮੁੱਦਿਆਂ ਦੀ ਵਿਆਖਿਆ ਕਰੋ।&#13;&#13;ਜੇ ਤੁਹਾਨੂੰ ਹੋਰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ 000 000 0000 'ਤੇ ਫ਼ੋਨ ਕਰੋ।"/>
+
+  <!-- begin of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.DvrWarning" value="DVR recording will be unavailable while scanning DTT channels. All recordings will be stopped." />
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="Continue" />
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="Cancel" />
+  
+  <string id="Settings.ChannelScanningWizard.Step1" value="Scan for DTT channels (Step 1)"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="Thank you for using Microsoft TV, the most advanced way to watch television!&#13; &#13;You can for new DTT channels to add to your program guide or cancel scanning and use Microsoft TV now."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="To start watching television, scan for DTT channels to add to your program guide.&#13; &#13;Select Find out more about the Microsoft TV service to get more information on subscribing to more channels and video on demand."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="Scan for DTT channels"/>
+  <string id="Settings.ChannelScanningWizard.Step1.MoreInfo" value="Find out more about Microsoft TV"/>
+
+  <string id="Settings.ChannelScanningWizard.Step2" value="Scan for DTT channels (Step 2)"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="Scanning {Percentage}% complete..."/>
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="{Video} television channels found"/>
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="{Music} music channels found"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="Cancel Channel Scan"/>
+
+  <string id="Settings.ChannelScanningWizard.Step3" value="Scan for DTT channels (Step 3)"/>
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="Scanning is complete.&#13;&#13;{Video} television channels were found.&#13;{Music} music channels were found.&#13;&#13;To see the added channels go to the program guide. To see all available services, go to the menu."/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="Go to the Program Guide"/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="Go to the Menu"/>
+  <!-- end of channel scanning for digital terrestrial/offline experience -->
+
+  <string id="Settings.ChannelScanning.MoreInfo" value="More information on Microsoft TV" />
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="Title" />
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="Description" />
+
+  <string id="Settings.Overscan" value="ਸਕਰੀਨ 'ਤੇ ਪ੍ਰਦਰਸ਼ਨ ਦਾ ਅਕਾਰ"/>
+  <string id="Settings.Overscan.GeneralInstruction" value="ਸਕ੍ਰੀਨ 'ਤੇ ਪ੍ਰਦਰਸ਼ਨ ਦਾ ਉਹ ਆਕਾਰ ਚੁਣੋ ਜੋ ਤੁਹਾਡੇ ਟੀਵੀ 'ਤੇ ਸਭ ਤੋਂ ਸਹੀ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।"/>
+  <string id="Settings.Overscan.Large" value="ਵੱਡਾ"/>
+  <string id="Settings.Overscan.Large.Description" value="(ਚੌੜੀ ਸਕ੍ਰੀਨ ਵਾਲੇ ਟੀਵੀ ਲਈ ਸਭ ਤੋਂ ਸਹੀ)"/>
+  <string id="Settings.Overscan.Medium" value="ਦਰਮਿਆਨਾ"/>
+  <string id="Settings.Overscan.Medium.Description" value="(ਮਿਆਰੀ ਟੀਵੀ ਲਈ ਸਭ ਤੋਂ ਸਹੀ)"/>
+  <string id="Settings.Overscan.Small" value="ਛੋਟਾ"/>
+  <string id="Settings.Overscan.Notification" value="ਸਕ੍ਰੀਨ ਦਾ ਆਕਾਰ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  
+  <string id="Settings.About.SystemInfoMenuItem" value="ਸਿਸਟਮ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="Settings.About.SmartCardInfoMenuItem" value="Smart card info"/>
+  <string id="Settings.About.NetworkInfoMenuItem" value="ਨੈਟਵਰਕ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="Settings.About.ResourcesInfoMenuItem" value="ਸਿਸਟਮ ਸ੍ਰੋਤ"/>
+  <string id="Settings.About.WebServicesMenuItem" value="ਵੈਬ ਸੇਵਾਵਾਂ"/>
+  <string id="Settings.About.DiskRepairMenuItem" value="ਡਿਸਕ ਮੁਰੰਮਤ"/>
+  <string id="Settings.About.CopyrightMenuItem" value="ਕਾਪੀਰਾਈਟ"/>
+  <string id="Settings.About.PrivacyMenuItem" value="ਏਕਾਂਤ"/>
+  <string id="Settings.About.SubscriptionsMenuItem" value="ਗਾਹਕੀਆਂ"/>
+  <string id="Settings.About.Go" value="ਜਾਓ"/>
+  
+  <!--
+
+    The system information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+  
+    {ClientTime}              9/15/2006 11:39:00 AM
+    {SessionTime}             01:08:45
+    
+    {ClientVersion}           1.2.2449.0 (debug)
+    {BootRomVersion}
+
+    {OSPlatform}              Win32NT
+    {OSVersion}               5.1.2600.131072
+
+    {SettopVendor}            vendor name
+    {SettopType}              model name
+    {SettopCPUSpeed}          speed in MHz
+    {SettopSerial}            serial number
+    
+    {AccountID}               guid
+    {ClientID}                guid
+    {MacAddress}              00-12-3F-54-28-11
+    
+    {ContentDirectory}        path
+  
+  -->
+  <string id="Settings.About.SystemInfo.Data" value="Time: {ClientTime} (session: {SessionTime})&#13;TV2 client version: {ClientVersion}&#13;Platform OS/Version: {OSPlatform}/{OSVersion}&#13;Bootstrap ROM version: {BootRomVersion}&#13;Set-Top Box / CPU: {SettopVendor} {SettopType} / {SettopCPUSpeed}&#13;Set-Top Box serial number: {SettopSerial}&#13;MAC ID: {MacAddress}&#13;Client ID: {ClientID}" />
+
+  <!--
+
+    The smart card information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+    
+    {CaCoreLibVersion}        MG Core Library Release 1.4.11
+    {CaSwLockLibVersion}      MG SW Lock Library Release 1.0.5
+    
+    {SettopVendor}            vendor name
+    {CaHwSerialNumber}        0a704405640a0000
+    
+    {SmartCardStatus}         Ready
+    {SmartCardNumber}         1  07.108.837.460  77
+    {TUTVCaNumber}            nn nnnn nnnn nn
+    {OPIName0}                first operator name
+    {CaExpiryDate0}           first operator expiry date
+    {CaOffers0}               first operator offers value
+  -->
+  <string id="Settings.About.SmartCardInfo.Data" value="Mediaguard Kernel Library version: {CaCoreLibVersion}&#13;SoftLock Library version: {CaSwLockLibVersion}&#13;HW Serial Number: {CaHwSerialNumber}&#13;TUTV CAN: {TUTVCaNumber}&#13;Smart card status: {SmartCardStatus}&#13;Smart card number: {SmartCardNumber}&#13;Operator 0: {OPIName0}  Expiry: {CaExpiryDate0}  Offers: {CaOffers0}&#13;Operator 1: {OPIName1}  Expiry: {CaExpiryDate1}  Offers: {CaOffers1}&#13;Operator 2: {OPIName2}  Expiry: {CaExpiryDate2}  Offers: {CaOffers2}" />
+  <string id="Settings.About.NotAvailable" value="N/A" />
+
+  <!--
+
+    The network information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {IPName}                  host name
+    {IPAddress}               single IP or comma separated list of IPs
+    {IPGateway}               IP gateway address
+    {Bps}                     bits per second
+    {IPTVStatus}              connected/disconnected
+  
+  -->
+  <string id="Settings.About.NetworkInfo.Data" value="Host name: {IPName}&#13;IP address: {IPAddress}&#13;Default gateway: {IPGateway}&#13;Bps: {Bps}&#13;IPTV status: {IPTVStatus}" />
+  <string id="Settings.About.NetworkInfo.Connected" value="Connected" />
+  <string id="Settings.About.NetworkInfo.Disconnected" value="Disconnected" />
+
+  <!--
+
+    The system resources information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {SDStreams}               number of standard definition streams available
+    {HDStreams}               number of high definition streams available
+    {DTTTuners}               number of tuners available
+    {BandwidthCap}            maximum bandwidth available
+    
+    {AllocatedManagedMemory}  in KB
+    {AllocatedPhysicalMemory} in KB
+    {AvailableVirtualMemory}  in KB
+    {MemoryLoad}              in %
+    
+    {IngressBandwdith}        maximum bandwidth for the Ingress Profile
+    {IngressSDStreams}        number of standard definition streams available in the Ingress Profile
+    {IngressHDStreams}        number of high definition streams available in the Ingress Profile 
+    
+    {EgressBandwdith}         maximum bandwidth for the Egress Profile
+    {EgressStreams}           number of standard and high definition streams available in the Egress Profile
+  
+    {DiskStatus}              present/not present
+    {DiskUsage}               20% remaining  
+  -->
+  <string id="Settings.About.SystemResources.Data" value="Streams: {SDStreams} SD/{HDStreams} HD (WAN); {IngressSDStreams} SD/{IngressHDStreams} HD (Dev)&#13;Bandwidth cap: {BandwidthCap} (WAN); {IngressBandwidth} (Dev)&#13;Remote Playback: {EgressBandwidth} {EgressStreams}&#13;Number of DTT tuners: {DTTTuners}&#13;Allocated managed memory: {AllocatedManagedMemory}&#13;Allocated physical memory: {AllocatedPhysicalMemory}&#13;Available virtual memory: {AvailableVirtualMemory}&#13;Memory load: {MemoryLoad}&#13;Disk status: {DiskStatus}&#13;Disk usage: {DiskUsage}" />
+  <string id="Settings.About.SystemResources.Present" value="Present" />
+  <string id="Settings.About.SystemResources.NotPresent" value="Not Present" />
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="{0:#,###} KB" />
+  <string id="Settings.About.SystemResources.DiskUsage" value="{0} of {1}"/>
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value="{0}% remaining"/>
+  <string id="Settings.About.SystemResources.EgressDisabled" value="Not enabled"/>
+  <string id="Settings.About.SystemResources.EgressSD" value="SD"/>
+  <string id="Settings.About.SystemResources.EgressHD" value="HD"/>
+  <string id="Settings.About.SystemResources.EgressSDHDSeparator" value="/"/>
+  <string id="Settings.About.SystemResources.EgressBandwidthSeparator" value=","/>
+
+  <string id="Settings.About.CheckHardDisk" value="Check hard disk"/>
+  <string id="Settings.About.CheckHardDisk.Instructions" value="If you're told by a service technician to repair the hard disk choose Check Hard Disk.&#13;The system will restart and you will be unable to watch TV for 10 to 15 minutes while the hard disk is being checked. No recordings will happen during this time."/>
+  <string id="Settings.About.CheckHardDisk.Prompt" value="To check the hard disk the system will need to restart"/>
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="Don't restart"/>
+  <string id="Settings.About.CheckHardDisk.Restart" value="Restart"/>
+  <string id="Settings.About.PrivacyStatement" value="Privacy policy statement will appear here"/>
+  <string id="Settings.About.CopyrightStatement" value="Copyright information will appear here"/>
+  <string id="Settings.About.SubscriptionInfo" value="Subscription information will appear here"/>
+  <string id="Settings.Language" value="On-screen language"/>
+  <string id="Settings.Sounds" value="System sound effects"/>
+  <string id="Settings.Sounds.Play" value="Play sound effects"/>
+  <string id="Settings.Sounds.Mute" value="Mute sound effects"/>
+  <string id="Settings.HiddenChannels" value="Customize channels"/>
+  <string id="Settings.HiddenChannels.Description" value="Press OK to add or remove channels from the Guide and while channel changing."/>
+  <string id="Settings.HiddenChannels.ShowAll" value="Check all"/>
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="View unchecked"/>
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="Show all"/>
+  <string id="Settings.HiddenChannels.ChangeOrder" value="Change order"/>
+  <string id="Settings.SignalStrength.Description" value="Select a channel to check its strength." />
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="There are no channels at the moment." />
+  <string id="Settings.SignalStrength.Labels" value="Carrier Frequency:&#13;Signal Strength:&#13;Signal Quality:" />
+  <string id="Settings.SignalStrength.Values" value="{Frequency}&#13;{Strength}%&#13;{Quality}%" />
+  <string id="Settings.SignalStrength.NoValue" value="N/A" />
+
+  <!-- Strings for Secondary Audio settings page -->
+  <string id="Settings.SecondaryAudio" value="ਸੈਕੰਡਰੀ ਆਡੀਓ"/>
+  <string id="Settings.SecondaryAudio.Description" value="ਕੁਝ ਟੀਵੀ ਪ੍ਰੋਗਰਾਮਾਂ ਵਿੱਚ ਵੈਕਲਪਿਕ ਭਾਸ਼ਾਵਾਂ ਵਾਸਤੇ ਸੈਕੰਡਰੀ ਆਵਾਜ਼ ਹੁੰਦੀ ਹੈ"/>
+  <string id="Settings.SecondaryAudio.Primary" value="ਮੁੱਖ ਆਡੀਓ ਵਰਤੋ"/>
+  <string id="Settings.SecondaryAudio.Secondary" value="ਜੇ ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਸੈਕੰਡਰੀ ਆਡੀਓ ਵਰਤੋ"/>
+  
+  <string id="Settings.SecondaryAudio.PrimarySet" value="ਮੁੱਖ ਆਡੀਓ ਪ੍ਰੋਗਰਾਮ ਸੈਟ ਕੀਤਾ"/>
+  <string id="Settings.SecondaryAudio.SecondarySet" value="ਸੈਕੰਡਰੀ ਆਡੀਓ ਪ੍ਰੋਗਰਾਮ ਸੈਟ ਕੀਤਾ"/>
+
+  <!-- {0}: String for current Cc Channel-->
+  <string id="Settings.CcChannels.Changed" value="ਬੰਦ ਸਿਰਲੇਖ ਬਦਲ ਕੇ {0} ਕਰ ਦਿੱਤਾ"/>
+  <string id="Settings.CcChannels.Off" value="ਬੰਦ ਸਿਰਲੇਖ ਬੰਦ ਕਰ ਦਿੱਤੇ"/>
+
+  <string id="Settings.ClosedCaption.Heading" value="ਬੰਦ ਸਿਰਲੇਖ ਦੇਣੇ"/>
+  <string id="Settings.ClosedCaption.ChangeButton" value="ਬਦਲੋ"/>
+
+  <string id="Settings.ClosedCaption.Digital.Description" value="ਚੁਣੋ ਕਿ ਜਦੋਂ ਡਿਜੀਟਲ ਬੰਦ ਸਿਰਲੇਖ ਉਪਲਬਧ ਹੋਣ ਤਾਂ ਕੀ ਦਿਖਾਉਣਾ ਹੈ।"/>
+
+  <string id="Settings.ClosedCaption.Digital.Heading" value="ਡਿਜੀਟਲ ਬੰਦ ਸਿਰਲੇਖ ਦੇਣੇ"/>
+  <string id="Settings.ClosedCaption.Digital.Off" value="ਬੰਦ"/>
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="ਬੰਦ ਸਿਰਲੇਖ 1"/>
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="ਬੰਦ ਸਿਰਲੇਖ 2"/>
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="ਬੰਦ ਸਿਰਲੇਖ 3"/>
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="ਬੰਦ ਸਿਰਲੇਖ 4"/>
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="ਬੰਦ ਸਿਰਲੇਖ 5"/>
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="ਬੰਦ ਸਿਰਲੇਖ 6"/>
+
+  <string id="Settings.ClosedCaption.Standard.Description" value="ਚੁਣੋ ਕਿ ਜਦੋਂ ਮਿਆਰੀ ਬੰਦ ਸਿਰਲੇਖ ਉਪਲਬਧ ਹੋਣ ਤਾਂ ਕੀ ਦਿਖਾਉਣਾ ਹੈ।"/>
+
+  <string id="Settings.ClosedCaption.Standard.Heading" value="ਮਿਆਰੀ ਬੰਦ ਸਿਰਲੇਖ ਦੇਣੇ"/>
+  <string id="Settings.ClosedCaption.Standard.Off" value="ਬੰਦ"/>
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="ਬੰਦ ਸਿਰਲੇਖ 1"/>
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="ਬੰਦ ਸਿਰਲੇਖ 2"/>
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="ਬੰਦ ਸਿਰਲੇਖ 3"/>
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="ਬੰਦ ਸਿਰਲੇਖ 4"/>
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="ਟੈਕਸਟ 1"/>
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="ਟੈਕਸਟ 2"/>
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="ਟੈਕਸਟ 3"/>
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="ਟੈਕਸਟ 4"/>
+
+  <string id="Settings.Save.Succeeded" value="ਸੈਟਿੰਗਾਂ ਰੱਖਿਅਤ ਕੀਤੀਆਂ"/>
+  <string id="Settings.Save.Failed" value="ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਹਾਲ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਚਲੀਆਂ ਗਈਆਂ ਹਨ। ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇਹਨਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"/>
+  <string id="Settings.Save.Failed.PCon" value="ਮਾਤਾ-ਪਿਤਾ ਨਿਯੰਤ੍ਰਣ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਹਾਲ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਚਲੀਆਂ ਗਈਆਂ ਹਨ। ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇਹਨਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"/>
+
+  <!-- Channel Reordering -->
+  <string id="Settings.ChannelReordering" value="ਚੈਨਲ ਕ੍ਰਮ ਬਦਲੋ"/>
+  <string id="Settings.ChannelReordering.RestoreDefault" value="ਪ੍ਰਾਥਮਿਕ ਕ੍ਰਮ"/>
+  <string id="Settings.ChannelReordering.Description" value="ਕਿਸੇ ਚੈਨਲ ਦਾ ਕ੍ਰਮ ਬਦਲਣ ਲਈ, ਸੰਬੰਧਿਤ ਤੀਰ ਨੂੰ ਹਾਈਲਾਈਟ ਕਰੋ ਅਤੇ ਠੀਕ ਦਬਾਓ।"/>
+  <string id="Settings.AudioLanguage" value="ਆਡਿਓ ਭਾਸ਼ਾ"/>
+  <string id="Settings.AudioLanguage.Description" value="ਆਪਣੀ ਪਸੰਦ ਦੀ ਆਡੀਓ ਭਾਸ਼ਾ ਚੁਣੋ"/>
+  
+  <!-- RF output channel -->
+  <string id="Settings.RFOutputChannel" value="RF output channel"/>
+  <string id="Settings.RFOutputChannel.TurnOff" value="Turn off RF output"/>
+  <string id="Settings.RFOutputChannel.Description" value="If you change the RF output channel you must also change to the same channel on your television."/>
+  <string id="Settings.RFOutputChannel.Confirm" value="You will lose video until you change to channel {0} on your television."/>
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="You will lose video on the RF output."/>
+
+  <!-- 
+      The list of languages and the default setting used in the Audio Language Settings page.  These are optional
+      and are used if the UserStore AudioLanguages and/or PreferredAudioLanguage values are not set.  Ensure
+      that no 2 codes in the preference list will result in duplicate language names. Duplicate language names
+      are ignored.  Languages are displayed in the Audio Language Settings page in the order that they appear in
+      this list.
+  -->
+  <string id="Settings.AudioLanguage.Preference.List" value="ar,bg,ca,zh,cs,da,de,el,en,es,fi,fr,gd,he,hu,is,it,ja,ko,nl,no,pl,pt,ro,ru,hr,sk,sq,sv,th,tr,ur,id,uk,be,sl,et,lv,lt,fa,vi,hy,az,eu,mk,af,ka,fo,hi,ms,kk,ky,sw,uz,tt,pa,gu,ta,te,kn,mr,sa,mn,gl,sr,cy"/>
+  <string id="Settings.AudioLanguage.Preference.Default" value="en"/>
+
+  <!-- Strings for Security settings page -->
+  <string id="SettingsEnhancedHdmiSecurity" value="ਸੁਰੱਖਿਆ"/>
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="ਜੇ HDMI ਇੰਟਰਫੇਸ ਨੂੰ ਵਰਤਦੇ ਸਮੇਂ ਤੁਹਾਨੂੰ ਟਿਊਨਿੰਗ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਆ ਰਹੀਆਂ ਹਨ ਤਾਂ ਵਧਾਈ ਗਈ ਸੁਰੱਖਿਆ ਚੁਣੋ।"/>
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="ਵਧਾਈ ਗਈ ਸੁਰੱਖਿਆ"/>
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="ਮਿਆਰੀ ਸੁਰੱਖਿਆ"/>
+
+  <string id="AudioProgram.AudioType.1" value="ਸਾਫ਼ ਪ੍ਰਭਾਵ"/>
+  <string id="AudioProgram.AudioType.2" value="ਸੁਣਨ ਵਿੱਚ ਮੁਸ਼ਕਲ"/>
+  <string id="AudioProgram.AudioType.3" value="ਦੇਖਣ ਵਿੱਚ ਮੁਸ਼ਕਲਾਂ ਵਾਲਿਆਂ ਲਈ ਕਮੈਂਟਰੀ"/>
+
+  <string id="AudioProgram.NoLanguage.Primary" value="ਪ੍ਰਾਥਮਿਕ"/>
+  <string id="AudioProgram.NoLanguage.Secondary" value="ਦੂਜੇ ਦਰਜੇ ਦਾ"/>
+  <string id="AudioProgram.NoLanguage.Additional" value="ਆਡੀਓ"/>
+
+  <!-- Subtitling types as defined in the DVB standard. -->
+  <!-- normal -->
+  <string id="SubtitleProgram.SubtitleType.16" value=""/>
+  <string id="SubtitleProgram.SubtitleType.17" value="4:3"/>
+  <string id="SubtitleProgram.SubtitleType.18" value="16:9"/>
+  <string id="SubtitleProgram.SubtitleType.19" value="2.21:1"/>
+  
+  <!-- hard of hearing -->
+  <string id="SubtitleProgram.SubtitleType.32" value="hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.33" value="4:3, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.34" value="16:9, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.35" value="2.21:1, hard of hearing"/>
+
+  <string id="ElementaryStream.DescriptionFormat" value=" {0}"/>
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}"/>
+
+  <string id="AudioProgram.DescriptionFormat" value=" {0}"/>
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}"/>
+
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="VOD.MediaItem.Description" value="ਇੱਥੇ ਫਿਲਮਾਂ ਕਿਰਾਏ 'ਤੇ ਲਵੋ"/>
+  <string id="VOD.CurrentRentals.Title" value="ਮੌਜੂਦਾ ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="VOD.CurrentRentals" value="ਮੌਜੂਦਾ ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="VOD.NoCurrentRentals" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਨਾਲ ਤੁਸੀਂ ਬਹੁਤ ਸਾਰੀਆਂ ਫਿਲਮਾਂ ਅਤੇ ਟੀਵੀ ਸ਼ੋ ਜਦੋਂ ਤੁਸੀਂ ਚਾਹੋ ਦੇਖ ਸਕਦੇ ਹੋ। ਤੁਸੀਂ ਕਿਸੇ ਵੀਡੀਓ ਨੂੰ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਰੋਕ ਸਕਦੇ ਹੋ, ਪਿੱਛੇ ਲਿਜਾ ਸਕਦੇ ਹੋ, ਅੱਗੇ ਲਿਜਾ ਸਕਦੇ ਹੋ ਜਾਂ ਫੇਰ ਬਾਅਦ ਵਿੱਚ ਦੇਖਣ ਲਈ ਛੱਡ ਵੀ ਸਕਦੇ ਹੋ। ਵੀਡੀਓ ਦੀਆਂ ਚੋਣਾਂ ਬਹੁਤ ਜਲਦ ਬਦਲਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਹਮੇਸ਼ਾਂ ਦੇਖਣ ਲਈ ਕੁਝ ਨਵਾਂ ਮਿਲ ਸਕਦਾ ਹੈ।&#13;&#13;ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਰਾਏ 'ਤੇ ਲਈਆਂ ਕੋਈ ਚੀਜ਼ਾਂ ਨਹੀਂ ਹਨ। ਉਪਲਬਧ ਵੀਡੀਓ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਆਪਣੇ ਰਿਮੋਟ 'ਤੇ ਸੱਜਾ ਤੀਰ ਦਬਾਓ।"/>
+  <string id="VOD.Count.None" value="ਕੋਈ ਕਿਰਾਏ 'ਤੇ ਲਿਆ ਵੀਡੀਓ ਨਹੀਂ"/>
+  <string id="VOD.Count.One" value="ਕਿਰਾਏ 'ਤੇ ਲਿਆ 1 ਵੀਡੀਓ"/>
+  <string id="VOD.Count.Many" value="ਕਿਰਾਏ 'ਤੇ ਲਏ {0} ਵੀਡੀਓ"/>
+  <!-- DownloadAndPlay -->
+  <string id="VOD.Downloads.Title" value="ਡਾਊਨਲੋਡ"/>
+  <string id="VOD.Downloads.Subcategory.Downloaded" value="ਡਾਊਨਲੋਡ ਕੀਤੇ"/>
+  <string id="VOD.Downloads.Subcategory.Scheduled" value="ਨੀਯਤ"/>
+  <string id="VOD.Downloads.Downloaded.NoItems" value="ਇਸ ਸਮੇਂ ਕੋਈ ਮੁਕੰਮਲ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹਨ।  ਚੱਲ ਰਹੇ ਡਾਊਨਲੋਡ ਦੀ ਸਥਿਤੀ ਦੇਖਣ ਲਈ ਆਪਣੇ ਰਿਮੋਟ 'ਤੇ ਸੱਜਾ ਤੀਰ ਦਬਾਓ।" />
+  <string id="VOD.Downloads.Scheduled.NoItems" value="ਇਸ ਸਮੇਂ ਤੁਸੀਂ ਕੋਈ ਡਾਊਨਲੋਡ ਅਤੇ ਚਲਾਉਣ ਵਾਲੀ ਸਮੱਗਰੀ ਦੀਆਂ ਆਈਟਮਾਂ ਨੀਯਤ ਨਹੀਂ ਕੀਤੀਆਂ ਹਨ।" />
+  <string id="VOD.Downloads.State.WaitingToStart" value="" />
+  <string id="VOD.Downloads.State.Downloading" value="ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ" />
+  <string id="VOD.Downloads.State.Failed" value="ਫੇਲ ਹੋਈਆਂ" />
+  <string id="VOD.Downloads.State.Incomplete" value="ਅਧੂਰੀਆਂ" />
+  <string id="VOD.Downloads.Unavailable" value="ਡਾਊਨਲੋਡ ਕੀਤੀ ਆਈਟਮ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।&#13;ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="ProgramInfo.Downloads.AddConfirmation" value="ਨੀਯਤ ਡਾਊਨਲੋਡਾਂ ਵਿੱਚ ਜੋੜਿਆ। ਤੁਹਾਡੇ ਤੋਂ ਉਸ ਸਮੇਂ ਤਕ ਮੁੱਲ ਨਹੀਂ ਲਿਆ ਜਾਵੇਗਾ ਜਦੋਂ ਤਕ ਤੁਸੀਂ ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਨਹੀਂ ਲੈਂਦੇ ਹੋ" />
+  <string id="ProgramInfo.Downloads.AddConfirmationFree" value="ਨੀਯਤ ਡਾਊਨਲੋਡਾਂ ਵਿੱਚ ਜੋੜਿਆ" />
+  <string id="ProgramInfo.Downloads.CancelConfirmation" value="ਡਾਊਨਲੋਡ ਬੇਨਤੀ ਰੱਦ ਕੀਤੀ" />
+  <string id="ProgramInfo.Downloads.DeleteConfirmation" value="ਡਾਊਨਲੋਡ ਕੀਤੀ ਆਈਟਮ ਮਿਟਾਈ" />
+  <string id="ProgramInfo.Downloads.MoveToTopConfirmation" value="ਡਾਊਨਲੋਡ ਬੇਨਤੀ 'ਤੇ ਪਹਿਲਾਂ ਕਾਰਵਾਈ ਕੀਤੀ ਜਾਵੇਗੀ" />
+  <string id="VOD.Downloads.Downloaded.State.Viewable" value="ਦੇਖਣ ਲਈ ਉਪਲਬਧ" />
+  <string id="VOD.Downloads.Downloaded.State.NotPurchased" value="ਅਜੇ ਤਕ ਖ਼ਰੀਦੀ ਨਹੀਂ" />
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.None" value="ਕੋਈ ਵੀਡੀਓ ਨਹੀਂ"/>
+  <string id="VOD.Category.Count.One" value="1 ਵੀਡੀਓ"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.Many" value="{0} ਵੀਡੀਓ"/>
+  <string id="VOD.Storefront.LongDescription1" value="ਸੈਂਕੜੇ ਆਨ-ਡਿਮਾਂਡ ਵੀਡੀਓ ਵਿੱਚੋਂ ਚੁਣੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਚਲਾ ਸਕਦੇ ਹੋ, ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਰੋਕ ਸਕਦੇ ਹੋ ਅਤੇ ਪਿੱਛੇ ਲਿਜਾ ਸਕਦੇ ਹੋ।"/>
+  <string id="VOD.Storefront.LongDescription2" value="ਵੀਡੀਓ ਦੀ ਸੂਚੀ ਲਈ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ 'ਤੇ ਜਾਓ ਜਾਂ ਆਪਣੇ ਰਿਮੋਟ ਕੰਟ੍ਰੋਲ 'ਤੇ ਵੀਡੀਓ ਦਬਾਓ।"/>
+  <string id="VOD.Storefront.ShortDescription" value="ਮੁਫ਼ਤ ਅਤੇ ਕਿਰਾਏ 'ਤੇ ਲਏ ਜਾ ਸਕਣ ਵਾਲੇ ਵੀਡੀਓ"/>
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="VOD.ChannelGuide.CurrentRentals" value="ਮੌਜੂਦਾ ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="VOD.Expired" value="ਤੁਹਾਡੀ ਵੀਡੀਓ ਕਿਰਾਏਦਾਰੀ ਦੀ ਮਿਆਦ ਸਮਾਪਤ ਹੋ ਗਈ ਹੈ "/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresToday" value="ਕਿਰਾਏਦਾਰੀ {0} ਨੂੰ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: Day; {1}: time-->
+  <string id="VOD.ExpiresInAWeek" value="ਕਿਰਾਏਦਾਰੀ {0}&#0160;{1} ਨੂੰ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: Date -->
+  <string id="VOD.ExpiresLater" value="ਕਿਰਾਏਦਾਰੀ {0} ਨੂੰ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongToday" value="ਕਿਰਾਏਦਾਰੀ ਅੱਜ {0} ਵਜੇ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongTomorrow" value="ਕਿਰਾਏਦਾਰੀ ਕੱਲ੍ਹ {0} ਵਜੇ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: day; {1}: time-->
+  <string id="VOD.ExpiresLongInAWeek" value="ਕਿਰਾਏਦਾਰੀ {1} ਨੂੰ {0} ਵਜੇ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: date; {1}: time-->
+  <string id="VOD.ExpiresLongLater" value="ਕਿਰਾਏਦਾਰੀ {1} ਨੂੰ {0} ਵਜੇ ਸਮਾਪਤ ਹੁੰਦੀ ਹੈ"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ  {0} ਲਏ ਜਾਣਗੇ"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Adult" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ  {0} ਲਏ ਜਾਣਗੇ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package.Adult" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free" value="{1} ਲਈ {0} ਮੁਫ਼ਤ ਹੈ"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Adult" value="{0} ਬਾਲਗ ਸਮੱਗਰੀ {1} ਲਈ ਮੁਫ਼ਤ ਹੈ"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package" value="{0} ਪੈਕੇਜ {1} ਲਈ ਮੁਫ਼ਤ ਹੈ"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="{0} ਬਾਲਗ ਪੈਕੇਜ {1} ਲਈ ਮੁਫ਼ਤ ਹੈ"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value="{0} ਮੁਫ਼ਤ ਹੈ"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value="{0} ਮੁਫ਼ਤ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value="{0} ਮੁਫ਼ਤ ਪੈਕੇਜ ਹੈ"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value="{0} ਮੁਫਤ ਬਾਲਗ ਪੈਕੇਜ ਹੈ"/>
+
+  <string id="VOD.CreditLimitExceeded" value="ਖ਼ਰੀਦ ਤੁਹਾਡੀ ਕ੍ਰੇਡਿਟ ਸੀਮਾ ਤੋਂ ਉੱਪਰ ਚਲੀ ਗਈ ਹੈ।"/>
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="ਖ਼ਰੀਦ ਤੁਹਾਡੀ ਕ੍ਰੇਡਿਟ ਸੀਮਾ ਤੋਂ ਉੱਪਰ ਚਲੀ ਗਈ ਹੈ। ਅੱਗੇ ਵਧਣ ਲਈ '{0}' ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੀ ਕ੍ਰੇਡਿਟ ਸੀਮਾ ਵਧਾ ਸਕਦੇ ਹੋ।"/>
+  <string id="VOD.CreditLimitChange" value="ਸੀਮਾ ਬਦਲੋ"/>
+  <string id="VOD.CreditLimitDontChange" value="ਨਾ ਬਦਲੋ"/>
+  <string id="VOD.CouldNotPurchase" value="ਖ਼ਰੀਦ ਪੂਰੀ ਨਹੀਂ ਕਰ ਸਕੇ"/>
+  <string id="VOD.VideoStore.Banner" value="Banner_VOD.png"/>
+  <string id="VOD.VideoStore" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="VOD.StoreFront" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="VOD.DisabledNotification" value="ਵੀਡੀਓ ਸਟੋਰ ਅਸਮਰਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"/>
+  <string id="VOD.Unavailable" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।&#13;ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="VOD.PleaseWait" value="ਵੀਡੀਓ ਹਾਸਲ ਕਰ ਰਿਹਾ"/>
+  <string id="VOD.Package" value="ਪੈਕੇਜ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+  <string id="VOD.RentAllPackage" value="ਸਾਰੇ {0} ਕਿਰਾਏ 'ਤੇ ਲਵੋ"/>
+  <string id="VOD.RentAll1Package" value="ਪੈਕੇਜ ਕਿਰਾਏ 'ਤੇ ਲਵੋ"/>
+  <string id="VOD.RentAll2Package" value="ਦੋਵੇਂ ਕਿਰਾਏ 'ਤੇ ਲਵੋ"/>
+  <string id="VOD.RentOne" value="ਵੱਖ-ਵੱਖ ਕਿਰਾਏ 'ਤੇ ਲਵੋ"/>
+  <string id="VOD.AlreadyRented" value="ਉਪਲਬਧ ਵਿਡੀਓ"/>
+  <string id="VOD.SubcategoryIndicator" value="&#8226;&#8226;&#8226;"/>
+  <string id="VOD.Rented" value="ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="VOD.Rent" value="ਵੀਡੀਓ"/>
+  <string id="VOD.NotRented" value="ਕਿਰਾਏ 'ਤੇ ਨਹੀਂ ਲਏ"/>
+  <string id="VOD.Debarred" value="ਪਹੁੰਚ ਲਈ ਗਾਹਕ ਸਮਰਥਨ ਨੂੰ ਫ਼ੋਨ ਕਰੋ"/>    
+  <string id="VOD.Renting" value="ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ"/>
+  <!-- {0}: VOD program title-->
+  <string id="VOD.Preview" value="ਪੂਰਵਦਿੱਖ: {0}"/>
+  <string id="VOD.CannotRecord" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਪ੍ਰੋਗਰਾਮ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ"/>
+  <string id="VOD.CannotRecord.Available" value="ਪ੍ਰੋਗਰਾਮ ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ 'ਤੇ ਉਪਲਬਧ ਹੈ"/>
+  <string id="VOD.Unlock" value="ਬਾਲਗ ਸਮੱਗਰੀ ਦਾ ਤਾਲਾ ਖੋਲ੍ਹੋ"/>
+  <string id="VOD.PlaybackError" value="ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਚਲਾਉਣ ਵਿੱਚ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਅਸਮਰੱਥ।"/>
+  <!-- {3}: ?-->
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। (3)"/>
+  <string id="VOD.VodKeyringTrouble1" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਚਲਾਉਣ ਵਿੱਚ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਅਸਮਰੱਥ।"/>
+  <!-- {2}: ?-->
+  <string id="VOD.VodKeyringTrouble2" value="ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। (2)"/>
+  <string id="VOD.SessionUnavailable1" value="ਇਸ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਚਲਾਉਣ ਵਿੱਚ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਅਸਮਰੱਥ।"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.SessionUnavailable2" value="ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। (1)"/>
+  <string id="VOD.DefaultState.Message1" value="ਸੈਂਕੜੇ ਵੀਡੀਓ ਵਿੱਚੋਂ ਚੁਣੋ"/>
+  <string id="VOD.DefaultState.Message2" value="ਕਿਸੇ ਵੀ ਸਮੇਂ ਦੇਖੋ"/>
+  <string id="VOD.DefaultState.Message3" value="ਅਸਥਾਈ ਰੋਕੋ, ਪਿੱਛੇ ਲਿਜਾਓ, ਅਤੇ ਤੇਜ਼ੀ ਨਾਲ ਅੱਗੇ"/>
+  <string id="SVOD.Browse" value="ਵੀਡੀਓ ਬ੍ਰਾਊਜ਼ ਕਰੋ"/>
+  <string id="SVOD.Subscribed" value="ਗਾਹਕੀ ਬਣਾਏ"/>
+  <string id="SVOD.SubscriptionInfo" value="ਗਾਹਕੀ ਬਾਰੇ ਜਾਣਕਾਰੀ"/>
+ 
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="ਲਾਈਵ ਟੀਵੀ ਦਿਖਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"/>
+
+  <!-- Purchasable -->
+  <!-- {0}: title -->
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="ਕਿਰਾਏ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="VOD.StatusBar.PressOK.RentalInfo" value="ਕਿਰਾਏ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="SVOD.StatusBar.PressOK.RentalInfo" value="{0} ਦੇ ਗਾਹਕ ਬਣਨ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="Default.StatusBar.PressOK.RentalInfo" value="ਕਿਰਾਏ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+  <string id="VOD.StatusBar.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+  <string id="SVOD.StatusBar.Purchasable" value="ਗਾਹਕੀ ਲਈ ਉਪਲਬਧ"/>
+  <string id="Default.StatusBar.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+
+  <!-- displayed on program info page and guide rollover -->
+  <string id="PPV.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+  <string id="VOD.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+  <string id="SVOD.Purchasable" value="ਗਾਹਕੀ ਲਈ ਉਪਲਬਧ"/>
+  <string id="Default.Purchasable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ"/>
+
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਜਾਣਕਾਰੀ ਦਬਾਓ"/>
+  <string id="VOD.StatusBar.PressInfo.ProgramInfo" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਜਾਣਕਾਰੀ ਦਬਾਓ"/>
+  <string id="SVOD.StatusBar.PressInfo.ProgramInfo" value="ਪੈਕੇਜ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਜਾਣਕਾਰੀ ਦਬਾਓ"/>
+  <string id="Default.StatusBar.PressInfo.ProgramInfo" value="ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਜਾਣਕਾਰੀ ਦਬਾਓ"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.RentedText" value="ਕਿਰਾਏ 'ਤੇ ਲਏ {0} ਦਿਖਾ ਰਿਹਾ"/>
+  <string id="VOD.StatusBar.RentedText" value="ਕਿਰਾਏ 'ਤੇ ਲਏ {0} ਦਿਖਾ ਰਿਹਾ"/>
+  <string id="SVOD.StatusBar.RentedText" value="ਗਾਹਕੀ ਬਣਾਏ"/>
+  <string id="Default.StatusBar.RentedText" value="ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+
+  <string id="PPV.ProgramInfo.Rented" value="ਕਿਰਾਏ 'ਤੇ ਲਏ: ਇੱਕ ਵਾਰ ਦਿਖਾਏ ਜਾਣ ਵਾਲੇ"/>
+  <string id="VOD.ProgramInfo.Rented" value="ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+  <string id="SVOD.ProgramInfo.Rented" value="ਗਾਹਕੀ ਬਣਾਏ"/>
+  <string id="Default.ProgramInfo.Rented" value="ਕਿਰਾਏ 'ਤੇ ਲਏ"/>
+
+  <string id="PPV.OfferPending" value="ਅਜੇ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="VOD.OfferPending" value="ਅਜੇ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="SVOD.OfferPending" value="ਅਜੇ ਗਾਹਕੀ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="Default.OfferPending" value="ਅਜੇ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+
+  <string id="PPV.OfferExpired" value="ਹੁਣ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="VOD.OfferExpired" value="ਹੁਣ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="SVOD.OfferExpired" value="ਹੁਣ ਗਾਹਕੀ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="Default.OfferExpired" value="ਹੁਣ ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+
+  <string id="PPV.NotAvailable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="VOD.NotAvailable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="SVOD.NotAvailable" value="ਗਾਹਕੀ ਲਈ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="Default.NotAvailable" value="ਕਿਰਾਏ ਲਈ ਉਪਲਬਧ ਨਹੀਂ"/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.StatusBar.PurchaseText" value="{1} ਦਿਖਾਏ ਜਾ ਰਹੇ ਲਈ {0}"/>
+  <string id="VOD.StatusBar.PurchaseText" value="{1} ਦਿਖਾਏ ਜਾ ਰਹੇ ਲਈ {0}"/>
+  <string id="SVOD.StatusBar.PurchaseText" value="ਪ੍ਰਤਿ ਮਹੀਨਾ {0}"/>
+  <string id="Default.StatusBar.PurchaseText" value="{1} ਦਿਖਾਏ ਜਾ ਰਹੇ ਲਈ {0}"/>
+
+  <!-- {0}: title; {1}: price-->
+  <string id="URL.OkToRent" value="{1} ਨੂੰ {0} ਲਈ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+
+  <!-- {0}: price {1} -->
+  <string id="PPV.ProgramInfo.AcceptOffer" value="{0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer" value="{0}"/>
+  <!-- {0}: price -->
+  <string id="SVOD.ProgramInfo.AcceptOffer" value="ਪ੍ਰਤਿ ਮਹੀਨਾ {0}"/>
+  <!-- {0}: duration -->
+  <string id="Default.ProgramInfo.AcceptOffer" value="ਕਿਰਾਇਆ"/>
+
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.AcceptOffer.Button" value="{0} ਲਈ ਕਿਰਾਇਆ"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button" value="{0} ਲਈ ਕਿਰਾਇਆ"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button" value="ਗਾਹਕ ਬਣੋ"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button" value="{0} ਲਈ ਕਿਰਾਇਆ"/>
+
+  <string id="PPV.ProgramInfo.AcceptOffer.Button.Free" value="ਚਲਾਓ"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button.Free" value="ਚਲਾਓ"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button.Free" value="ਚਲਾਓ"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button.Free" value="ਚਲਾਓ"/>
+
+  <!-- {0}: title-->
+  <string id="Default.PurchaseOffer.Free" value="{0} ਦੇਖਣ ਲਈ ਚਲਾਓ ਦਬਾਓ"/>
+  <string id="Default.PurchaseOffer.Free.Adult" value="{0} ਦੇਖਣ ਲਈ ਚਲਾਓ ਦਬਾਓ.&#13;ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ  {0} ਲਏ ਜਾਣਗੇ"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer.Adult" value="{2} ਦੀ {1} ਕਿਰਾਏਦਾਰੀ ਲਈ ਤੁਹਾਡੇ ਤੋਂ  {0} ਲਏ ਜਾਣਗੇ। ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+    
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="ਕਿਰਾਇਆ"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Extern" value="ਕਿਰਾਇਆ"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Extern" value="ਗਾਹਕ ਬਣੋ"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Extern" value="ਕਿਰਾਇਆ"/>
+  
+  <string id="PPV.GettingPrice" value="ਕਿਰਾਏ ਦੀ ਕੀਮਤ ਹਾਸਲ ਕਰ ਰਿਹਾ..."/>
+  <string id="VOD.GettingPrice" value="ਕਿਰਾਏ ਦੀ ਕੀਮਤ ਹਾਸਲ ਕਰ ਰਿਹਾ..."/>
+  <string id="SVOD.GettingPrice" value="ਗਾਹਕੀ ਦੀ ਕੀਮਤ ਹਾਸਲ ਕਰ ਰਿਹਾ ..."/>
+  <string id="Default.GettingPrice" value="ਕਿਰਾਏ ਦੀ ਕੀਮਤ ਹਾਸਲ ਕਰ ਰਿਹਾ..."/>
+  <string id="Default.GettingPrice.Short" value="$$"/>
+
+  <!-- {0}: Price; {1}: Rental minutes -->
+  <string id="PPV.Rental.PriceAndExpiration" value="{0}  &#0183;  {1} ਲਈ ਕਿਰਾਇਆ"/>
+  <string id="VOD.Rental.PriceAndExpiration" value="{0}  &#0183;  {1} ਲਈ ਕਿਰਾਇਆ"/>
+  <string id="SVOD.Rental.PriceAndExpiration" value="{0}  &#0183;  ਮਹੀਨਾਵਾਰ ਗਾਹਕੀ"/>
+  <string id="Default.Rental.PriceAndExpiration" value="{0}  &#0183;  ਕਿਰਾਇਆ"/>
+
+  <string id="PPV.Rental.PriceAndExpiration.Extern" value="ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਾਇਆ ਬਟਨ ਦਬਾਓ"/>
+  <string id="VOD.Rental.PriceAndExpiration.Extern" value="ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਾਇਆ ਬਟਨ ਦਬਾਓ"/>
+  <string id="SVOD.Rental.PriceAndExpiration.Extern" value="ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਗਾਹਕੀ ਬਟਨ ਦਬਾਓ"/>
+  <string id="Default.Rental.PriceAndExpiration.Extern" value="ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਾਇਆ ਬਟਨ ਦਬਾਓ"/>
+
+  <string id="Free" value="ਮੁਫ਼ਤ"/>
+  <string id="Free.Debarred" value=""/>
+
+  <!-- PPV TV -->
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer" value="{2} ਦੇ {1} ਦਿਖਾਵੇ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ।"/>
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer.Adult" value="{2} ਦੇ {1} ਦਿਖਾਵੇ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ।&#13;ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: title-->
+  <string id="PPV.PurchaseOffer.Free" value="{0} ਦੇਖਣ ਲਈ ਚਲਾਓ ਦਬਾਓ"/>
+  <string id="PPV.PurchaseOffer.Free.Adult" value="{0} ਦੇਖਣ ਲਈ ਚਲਾਓ ਦਬਾਓ.&#13;ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.PriceAndTime" value="{0} &#8226; {1}"/>
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.Purchase" value="{0} &#8226; ਇੱਕ ਵਾਰ ਦਿਖਾਏ ਜਾਣ ਲਈ"/>
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="ਇੱਕ ਵਾਰ ਦਿਖਾਏ ਜਾਣ ਵਾਲੇ"/>
+
+  <!-- URL/Mosaic/Image  -->
+  <!-- {0}: title-->
+  <string id="URL.OkToLaunch" value="{0} ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="URL.PurchaseOffer" value="{2} ਦੇ {1} ਦਿਖਾਵੇ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ।"/>
+  <string id="URL.PurchaseOffer.Adult" value="{2} ਦੇ {1} ਦਿਖਾਵੇ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ।&#13;ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: price; {1}: name-->
+  <string id="URL.PurchaseOffer.NoWindow" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ"/>
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="{1} ਨੂੰ ਕਿਰਾਏ 'ਤੇ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ {0} ਲਏ ਜਾਣਗੇ ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+
+  <!-- SVOD  -->
+  <!-- {0}: price; {2}: title-->
+  <string id="SVOD.PurchaseOffer" value="{2} ਦੀ ਗਾਹਕੀ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ ਹਰ ਮਹੀਨੇ {0} ਲਏ ਜਾਣਗੇ"/>
+  <string id="SVOD.PurchaseOffer.Adult" value="{2} ਦੀ ਗਾਹਕੀ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਤੋਂ ਹਰ ਮਹੀਨੇ {0} ਲਏ ਜਾਣਗੇ.&#13;ਇਹ ਬਾਲਗ ਸਮੱਗਰੀ ਹੈ।"/>
+  <!-- {0}: title-->
+  <string id="SVOD.PurchaseOffer.Free" value="{0} ਮੁਫ਼ਤ ਹੈ"/>
+  <string id="SVOD.PurchaseOffer.Free.Adult" value="{0} ਬਾਲਗ ਸਮੱਗਰੀ ਮੁਫ਼ਤ ਹੈ"/>
+
+  <!-- Messages -->
+  <string id="Messages.HeaderText" value="MESSAGES"/>
+  <string id="Messages.NoMessages" value="You have no messages."/>
+  <string id="Messages.Menu.ByDate" value="by date"/>
+  <string id="Messages.Menu.ByName" value="by name"/>
+  <string id="Messages.Dismiss" value="Dismiss"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Called" value="CALLED: {0}"/>
+  <!-- {0}: Sender name information-->
+  <string id="Messages.From" value="FROM: {0}"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Received" value="RECEIVED: {0}"/>
+  <string id="Messages.MessageHeader" value="MESSAGE"/>
+  <string id="Messages.PictureHeader" value="PICTURES"/>
+  <string id="Messages.CallerIdHeader" value="CALLER ID"/>
+  <string id="Messages.PlaySlideShow" value="Play slide show"/>
+
+  <!-- PHOTOS -->
+  <!-- {0}: Earliest date of photos in slideshow: {1}: Latest date of photos in slideshow-->
+  <string id="Photos.DateRangeFormat" value="{0} to {1}"/>
+  <!-- {0}: Number of albums-->
+  <string id="Photos.AlbumCountFormat" value="{0} albums"/>
+  <string id="Photos.Count.None" value="NO PHOTOS"/>
+  <string id="Photos.Count.One" value="1 PHOTO"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Photos.Count.Many" value="{0} PHOTOS"/>
+  <!-- {0}: Number of subfolders-->
+  <string id="Photos.Count.SubFolders" value="{0} subfolders"/>
+
+
+
+  <!-- PICTURES & MUSIC: MEDIA SHARING -->
+  
+  <string id="MediaSharing.Title" value="ਫ਼ੋਟੋ ਅਤੇ ਸੰਗੀਤ" />
+  <string id="MediaSharing.Subtitle" value="ਸੰਗੀਤ ਵਜਾਓ, ਤਸਵੀਰਾਂ ਦੇਖੋ, ਅਤੇ ਸੰਗੀਤ ਦੇ ਨਾਲ ਸਲਾਈਡ ਸ਼ੋ ਤਿਆਰ ਕਰੋ।" />
+
+  <string id="MediaSharing.ServerAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerAuthorized.Details" value="ਹੇਠਾਂ ਦਿੱਤੇ ਪੀਸੀ ਤੁਹਾਡੇ ਹੋਮ ਨੈਟਵਰਕ 'ਤੇ ਸਥਿਤ ਸਨ।&#13;&#13;ਸੰਗੀਤ ਵਜਾਉਣ, ਤਸਵੀਰਾਂ ਦੇਖਣ, ਅਤੇ ਸਲਾਈਡ ਸ਼ੋ ਤਿਆਰ ਕਰਨ ਲਈ ਇਹ ਪੀਸੀ ਚੁਣੋ।" />
+
+  <string id="MediaSharing.ServerNotAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="ਹੇਠਾਂ ਦਿੱਤੇ ਪੀਸੀ ਤੁਹਾਡੇ ਹੋਮ ਨੈਟਵਰਕ 'ਤੇ ਸਥਿਤ ਸਨ।&#13;&#13;ਮਾਈਕ੍ਰੋਸੋਫ਼ਟ ਟੀਵੀ ਇਸ ਪੀਸੀ 'ਤੇ ਤਸਵੀਰਾਂ ਅਤੇ ਸੰਗੀਤ ਤਕ ਪਹੁੰਚ ਨਹੀਂ ਸਕਦਾ।  ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਪੀਸੀ 'ਤੇ ਅਧਿਕ੍ਰਿਤ ਮਾਈਕ੍ਰੋਸੋਫ਼ਟ ਟੀਵੀ ਐਕਸੈਸ ਹੈ।" />
+
+  <string id="MediaSharing.Empty" value="0 ਆਈਟਮਾਂ" />
+  <string id="MediaSharing.SingleItemFormat" value="1 ਆਈਟਮ" />
+  <string id="MediaSharing.MultipleItemsFormat" value="{0} ਆਈਟਮਾਂ" />
+  
+  <!-- following panel with a single button is shown while looking for media servers on the network... -->
+  <string id="MediaSharing.NoServersYet.Description" value="ਮਾਈਕ੍ਰੋਸੋਫ਼ਟ ਟੀਵੀ ਤੁਹਾਡੇ ਹੋਮ ਨੈਟਵਰਕ 'ਤੇ ਤਸਵੀਰਾਂ ਅਤੇ ਸੰਗੀਤ ਲੱਭ ਰਿਹਾ ਹੈ।  ਇਸ ਵਿੱਚ ਕੁਝ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ।&#13;&#13;ਸੰਗਿਤ ਵਜਾਓ, ਤਸਵੀਰਾਂ ਦੇਖੋ ਅਤੇ ਸੰਗੀਤ ਦੇ ਨਾਲ ਸਲਾਈਡ ਸ਼ੋ ਤਿਆਰ ਕਰੋ।  ਤੁਹਾਨੂੰ ਅਜਿਹੇ ਪੀਸੀ ਦੀ ਲੋੜ ਹੋਵੇਗੀ ਜਿਸ 'ਤੇ Windows Media Player 11 ਚੱਲ ਰਿਹਾ ਹੋਵੇ ਅਤੇ ਮੀਡੀਆ ਸ਼ੇਅਰਿੰਗ ਸਮਰੱਥ ਹੋਵੇ।" />
+  <string id="MediaSharing.NoServersYet.Button" value="ਤਸਵੀਰਾਂ ਅਤੇ ਸੰਗੀਤ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਵੋ" />
+
+  <!-- same panel as string above is shown after a minute looking for servers if nothing was found so far -->
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="45" /><!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="ਮਾਈਕ੍ਰੋਸੋਫ਼ਟ ਟੀਵੀ ਨੂੰ ਤੁਹਾਡੇ ਨੈਟਵਰਕ 'ਤੇ ਕੋਈ ਸਾਂਝੀਆਂ ਤਸਵੀਰਾਂ ਜਾਂ ਸੰਗੀਤ ਨਹੀਂ ਮਿਲਿਆ ਹੈ ਪਰ ਇਹ ਖੋਜ ਜਾਰੀ ਰੱਖੇਗਾ। . .&#13;&#13;ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਹਾਡੇ ਪੀਸੀ 'ਤੇ ਤੁਸੀਂ Windows Media Player ਵਿੱਚ ਮੀਡੀਆ ਸ਼ੇਅਰਿੰਗ ਸਮਰਥ ਬਣਾਈ ਹੋਈ ਹੈ।" />
+  <string id="MediaSharing.NoServersFound.Button" value="" />
+
+  <!-- error messages shown when playback fails. Optional: {0} windows media server error code (a number), {1} error description (a string) -->
+  <!-- specific error messages can be used for specific error codes as shown using {0}, just affix the code number to the key name -->
+  <string id="MediaSharing.Error.MusicPlaybackFailed" value="ਸੰਗੀਤ ਵਜਾਉਂਦੇ ਸਮੇਂ ਕੋਈ ਸਮੱਸਿਆ ਆਈ। ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਹਾਡਾ ਪੀਸੀ ਚਾਲੂ ਹੈ ਅਤੇ ਨੈਟਵਰਕ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ। [{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value="ਇਹ ਸੰਗੀਤ ਫ਼ਾਈਲ ਕਾਪੀਰਾਈਟ ਸੁਰੱਖਿਅਤ ਹੈ, ਅਤੇ ਇਸਨੂੰ ਵਜਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="ਇਸ ਫਾਰਮੇਟ ਦੀਆਂ ਸੰਗੀਤ ਫਾਈਲਾਂ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ। WMA ਜਾਂ MP3 ਫ਼ਾਈਲਾਂ ਵਜਾਉਣ ਜਾਂ ਆਪਣੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਫ਼ਾਰਮੇਟ ਵਿੱਚ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। [{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="ਇਸ ਫਾਰਮੇਟ ਦੀਆਂ ਸੰਗੀਤ ਫਾਈਲਾਂ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ। WMA ਜਾਂ MP3 ਫ਼ਾਈਲਾਂ ਵਜਾਉਣ ਜਾਂ ਆਪਣੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਫ਼ਾਰਮੇਟ ਵਿੱਚ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। [{0}]" />
+
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="ਤਸਵੀਰਾਂ ਚਲਾਉਂਦੇ ਸਮੇਂ ਕੋਈ ਸਮੱਸਿਆ ਆਈ। ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਹਾਡਾ ਪੀਸੀ ਚਾਲੂ ਹੈ ਅਤੇ ਨੈਟਵਰਕ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।" />
+
+  <!-- 
+      When media sharing finds a UPnP device, like a Windows Media Player media sharing node,
+      it asks the device to present music and photos organized in different ways. music can 
+      be organized by album, artist, genre, playlists, composers, etc... photos can be organized
+      by folder, keywords, date taken, ratings, etc... 
+      
+      You can customize which media is shown and how by adding/removing strings from the list
+      below. the complete description of the container hierarchy for windows media player is described
+      in "How to build a network device compatible with Windows Media player sharing service".
+
+      The strings below contain four fields 1|2|3|4. The first is the localized name of your search,
+      the second is * for all type of nodes or the kind of node that should be shown (for example
+      object.container.audioItem or object.container.album.photoAlbum). The third field is the
+      subcontainer ID (see docs). The fourth field is the legend that is shown next to the button
+      when the user selects it.
+      
+      You can have up to 20 entries (although we wouldn't suggest using too many).
+  -->
+
+  <!-- list of menu items (UPnP containers) shown -->  
+  <string id="UPnP.MenuContainer.0" value="ਸੰਗੀਤ|*|1|ਆਪਣਾ ਸਾਰਾ ਸੰਗੀਤ ਬ੍ਰਾਊਜ਼ ਕਰੋ।&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ, ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.1" value="   ਐਲਬਮ ਵਾਰ ਸੰਗੀਤ|object.container.album.musicAlbum|7|ਆਪਣਾ ਸੰਗੀਤ ਐਲਬਮ ਵਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.2" value="   ਕਲਾਕਾਰ ਵਾਰ ਸੰਗੀਤ|*|6|ਆਪਣਾ ਸੰਗੀਤ ਕਲਾਲਾਰ ਵਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ।&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ, ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.3" value="   ਪਲੇਲਿਸਟ ਵਾਰ ਸੰਗੀਤ|music.container.playlistContainer|F|ਸੰਗੀਤ ਦੀਆਂ ਉਹ ਪਲੇਲਿਸਟਾਂ ਬ੍ਰਾਊਜ਼ ਕਰੋ ਜੋ ਤੁਸੀਂ Windows Media Player ਨਾਲ ਤਿਆਰ ਕੀਤੀਆਂ ਹਨ।&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ, ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.4" value="ਤਸਵੀਰਾਂ|object.container.album.photoAlbum|3|ਆਪਣੀਆਂ ਤਸਵੀਰਾਂ ਬ੍ਰਾਊਜ਼ ਕਰੋ&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.5" value="   ਫ਼ੋਲਡਰ ਵਾਰ ਤਸਵੀਰਾਂ|object.container.album.photoAlbum|16|ਆਪਣੀਆਂ ਤਸਵੀਰਾਂ ਫ਼ੋਲਡਰ ਵਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <string id="UPnP.MenuContainer.6" value="   ਖਿੱਚਣ ਦੀ ਤਾਰੀਖ਼ ਵਾਰ ਤਸਵੀਰਾਂ|object.container.album.photoAlbum|C|ਆਪਣੀਆਂ ਤਸਵੀਰਾਂ ਕਿਸੇ ਖ਼ਾਸ ਤਾਰੀਖ਼ ਵਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+  <!-- photos can be seen organized by keywords only when you connect to a Windows Vista client. if you don't have Vista clients, you may want to comment this line out -->
+  <string id="UPnP.MenuContainer.7" value="   ਮੁੱਖ ਸ਼ਬਦ ਵਾਰ ਤਸਵੀਰਾਂ|object.container.album.photoAlbum|D2|ਆਪਣੀਆਂ ਤਸਵੀਰਾਂ ਮੁੱਖ ਸ਼ਬਦ ਵਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ&#13;&#13;ਆਪਣਾ ਸੰਗੀਤ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੇ ਸਲਾਈਡ ਸ਼ੋ ਵਿੱਚ ਤਸਵੀਰਾਂ ਜੋੜਣ ਲਈ ਪਿੱਛੇ ਬਟਨ ਦਬਾਓ।  ਆਪਣਾ ਸਲਾਈਡ-ਸ਼ੋ ਹਟਾਉਣ ਲਈ ਮੀਨੂ ਬਟਨ ਵਰਤੋ।" />
+
+  <!-- video is not supported yet but here's how you would enable it... -->
+  <!-- <string id="UPnP.MenuContainer.8" value="All Videos (beta)|*|8|Play home videos stored on your PC." /> -->
+
+  <!-- Upgrade -->
+  <string id="Upgrade.Required" value="ਤੁਹਾਡੀ ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਲਈ ਇੱਕ ਅਪਡੇਟ ਉਪਲਬਧ ਹੈ। ਅਪਡੇਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਠੀਕ ਦਬਾਓ।"/>
+  <string id="Upgrade.Title" value="ਅਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ"/>
+  <string id="Upgrade.InProgress" value="ਤੁਹਾਡੀ ਟੈਲੀਵਿਜ਼ਨ ਸੇਵਾ ਅਪਡੇਟ ਹੋ ਰਹੀ ਹੈ।"/>
+  <string id="Upgrade.Description" value="ਇਸ ਪ੍ਰਕਿਰਿਆ ਦੇ ਦੌਰਾਨ ਪਾਵਰ ਨਾ ਜਾਂ ਨੈਟਵਰਕ ਸੰਪਰਕ ਨਾ ਹਟਾਓ।"/>
+  <string id="Upgrade.Failed" value="ਕੋਈ ਤਰੁਟੀ ਹੋਣ ਕਰਕੇ ਅਪਡੇਟ ਫੇਲ ਹੋ ਗਿਆ: "/>
+  <!-- {0}: percentage number completed-->
+  <string id="Upgrade.Progress" value="ਅਪਡੇਟ {0}% ਮੁਕੰਮਲ"/>
+  <string id="Upgrade.TimeLeftLabel" value="ਅਨੁਮਾਨਤ ਬਚਿਆ ਸਮਾਂ:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="Upgrade.TimeLeft" value="{0} ਮਿੰਟ"/>
+  <string id="Upgrade.TimeLeftOneMinute" value="1 ਮਿੰਟ"/>
+  <!-- {0}: File name-->
+  <string id="Upgrade.FileNotInList" value="ਅਪਡੇਟ ਫ਼ਾਈਲ ਸੂਚੀ ਵਿੱਚ ਫ਼ਾਈਲ {0} ਨਹੀਂ ਮਿਲੀ।"/>
+  <string id="Upgrade.DirSigMismatch" value="ਡਾਇਰੈਕਟਰੀ ਦਸਤਖਤ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ।"/>
+  <string id="Upgrade.ParseDirLineFailed" value="ਪਾਰਸਿੰਗ ਡਾਇਰੈਟਰੀ ਲਾਈਨ ਫੇਲ ਹੋ ਗਈ।"/>
+  <string id="Upgrade.PartMD5Mismatch" value="ਭਾਗ MD5 ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।"/>
+  <string id="Upgrade.NoDigest" value="ਡਾਈਜੈਸਟ ਨਾਲ ਟਕਰਾਏ ਬਿਨਾਂ ਅੰਤ 'ਤੇ ਪਹੁੰਚ ਗਿਆ।"/>
+  <!-- {0}: Part name; {1}: Part length-->
+  <string id="Upgrade.PartTooBig" value="ਭਾਗ {0} ਬਹੁਤ ਵੱਡਾ ({1})"/>
+  <!-- {0}: Part length; {1}: Expected part length-->
+  <string id="Upgrade.PartSizeMismatch" value="ਭਾਗ ਦਾ ਆਕਾਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ ({0} ਦੀ ਉਮੀਦ, {1} ਮਿਲਿਆ)"/>
+  <!-- {0}: Decompressed Part length; {1}: Expected decrompressed part length-->
+  <string id="Upgrade.DecompPartSizeMismatch" value="ਡੀਕੰਪ੍ਰੈਸ ਭਾਗ ਆਕਾਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ ({0} ਦੀ ਉਮੀਦ, {1} ਮਿਲਿਆ)"/>
+  <string id="Upgrade.BadPackageCRC" value="ਡਾਊਨਲੋਡ ਕੀਤੇ ਪੈਕੇਜ 'ਤੇ ਗਲਤ CRC."/>
+  <string id="Upgrade.BogusPackage" value="ਜੂਟਾ ਪੈਕੇਜ।"/>
+  <!-- {0}: Package size; {1}: Expected package size-->
+  <string id="Upgrade.PackageSizeMismatch" value="ਪੈਕੇਜ ਦਾ ਆਕਾਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ ({0} ਦੀ ਉਮੀਦ, {1} ਮਿਲਿਆ)"/>
+  <!-- {0}: Package size; {1}: Max allowed package size-->
+  <string id="Upgrade.PackageTooBig" value="ਪੈਕੇਜ ਦੀ ਲੰਬਾਈ {0} ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰਵਾਨਿਤ ਆਕਾਰ {1} ਤੋਂ ਵੱਡੀ।"/>
+  <!-- {0}: Number of files in package; {1}: Max allowed files-->
+  <string id="Upgrade.PackageTooManyFiles" value="ਪੈਕੇਜ ਵਿੱਚ {0} ਫ਼ਾਈਲਾਂ ਹਨ, ਜੋ ਕਿ ਪ੍ਰਵਾਨਿਤ {1} ਤੋਂ ਵੱਧ ਹਨ।"/>
+  <string id="Upgrade.ReadError" value="ਪੜ੍ਹਨ ਤਰੁਟੀ।"/>
+  <string id="Upgrade.OK" value="ਠੀਕ"/>
+  <string id="Upgrade.Snooze" value="ਮੈਨੂੰ 3 ਘੰਟਿਆਂ ਵਿੱਚ ਯਾਦ ਦਿਲਾਓ"/>
+
+  <!-- number of seconds before we propose to upgrade again (3 hours) -->
+  <string id="Upgrade.SnoozeTimer" value="10800" />
+  <!-- number of seconds before we auto confirm the upgrade dialog -->
+  <string id="Upgrade.SnoozeDialogTimeout" value="60" />
+  
+  <!-- Disk Repair -->
+  <string id="DiskRepair.Title" value="ਡਿਸਕ ਜਾਂਚ ਚੱਲ ਰਹੀ ਹੈ"/>
+  <string id="DiskRepair.InProgress" value="ਹਾਰਡ ਡਿਸਕ ਡ੍ਰਾਈਵ 'ਤੇ ਪੜਤਾਲੀਆ ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।"/>
+  <string id="DiskRepair.Description" value="ਇਸ ਪ੍ਰਕਿਰਿਆ ਦੇ ਦੌਰਾਨ ਪਾਵਰ ਕਨੈਕਸ਼ਨ ਨਾ ਹਟਾਓ।"/>
+  <!-- {0}: percentage number completed-->
+  <string id="DiskRepair.Progress" value="{0}% ਮੁਕੰਮਲ"/>
+  <string id="DiskRepair.TimeLeftLabel" value="ਅਨੁਮਾਨਤ ਬਚਿਆ ਸਮਾਂ:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="DiskRepair.TimeLeft" value="{0} ਮਿੰਟ"/>
+  <string id="DiskRepair.TimeLeftOneMinute" value="1 ਮਿੰਟ"/>
+
+  <!-- Search -->
+  <string id="Search.Header" value="ਖੋਜੋ"/>
+  <string id="Search.Header.Titles" value="ਸਿਰਲੇਖ ਖੋਜੋ"/>
+  <string id="Search.Header.People" value="ਲੋਕ ਖੋਜੋ"/>
+  <string id="Search.Header.Videos" value="ਵੀਡੀਓ ਖੋਜੋ"/>
+  <string id="Search.PeopleResultPageMenu.ByDate" value="ਤਾਰੀਖ਼ ਦੁਆਰਾ"/>
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="ਸਿਰਲੇਖ ਦੁਆਰਾ"/>
+  <string id="Search.PeopleResultPageMenu.ByRental" value="ਕਿਰਾਏਦਾਰੀ ਦੁਆਰਾ"/>
+  <string id="Search.PeopleResultPageMenu.ByStar" value="* ਵਾਰ"/>
+  <string id="Search.NoRentals" value="ਕੋਈ ਕਿਰਾਏਦਾਰੀਆਂ ਨਹੀਂ"/>
+  
+  <!-- {0}: integer number of grouped search results -->
+  <string id="Search.Grouped.Shows" value="({0} ਸ਼ੋ)"/>
+
+  <string id="Search.NoShows" value="ਕੋਈ ਸ਼ੋ ਨਹੀਂ"/>
+  <string id="Search.ErrorMsg" value="ਇਸ ਸਮੇਂ ਖੋਜ ਉਪਲਬਧ ਨਹੀਂ, ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"/>
+  <string id="Search.Today" value="ਅੱਜ"/>
+  <string id="Search.Tomorrow" value="ਕੱਲ੍ਹ"/>
+<string id="Search.UpcomingDateFormatString" value="ddd d/M" /> 
+  <!-- {0}: person {1}: NoSearchResultForPeople-->
+  <string id="Search.NoResultForPeopleFormat" value="{0} - {1}"/>
+  <string id="Search.NoResultForPeople" value="ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ।"/>
+  <string id="Search.NoResultForGroup" value="ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ।"/>
+  <!-- {0}: Search query string-->
+  <string id="Search.NoResultsLine1" value="{0} ਨਾਲ ਕੋਈ ਮੇਲ ਨਹੀਂ"/>
+  <string id="Search.NoResultsLine2" value="ਕੋਈ ਅੱਖਰ ਮਿਟਾਉਣ ਲਈ ਮਿਟਾਓ ਦਬਾਓ।"/>
+  <!-- {0}: persons {1}: string-->
+  <string id="Search.ByDateHeaderFormat" value="{0} - {1}"/>
+  <string id="Search.MoreButtonText" value="ਹੋਰ..."/>
+<string id="Search.TimeNotTodayFormat" value="d/M" /> 
+<string id="Search.TimeTodayFormat" value="tt hh:mm" /> 
+  <string id="Search.Waiting" value="ਖੋਜ ਦੇ ਨਤੀਜੇ ਹਾਸਲ ਕਰਨੇ"/>
+  <string id="Search.NullScreen.Title.TitleSearch" value="ਖੋਜਣ ਲਈ ਪ੍ਰੋਗਰਾਮ ਦਾ ਸਿਰਲੇਖ ਟਾਈਪ ਕਰੋ।"/>
+  <string id="Search.NullScreen.Title.Options" value="ਖੋਜ ਦੇ ਵਧੇਰੇ ਵਿਕਲਪਾਂ ਅਤੇ ਵਾਧੂ ਕੀਬੋਰਡ ਵਰਣਾਂ ਲਈ ਵਿਕਲਪ ਚੁਣੋ।"/>
+  <string id="Search.NullScreen.Title.VideoSearch" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ ਕਿਰਾਏਦਾਰੀਆਂ ਖੋਜਣ ਲਈ ਪ੍ਰੋਗਰਾਮ ਦਾ ਸਿਰਲੇਖ ਟਾਈਪ ਕਰੋ।"/>
+  <string id="Search.NullScreen.People.NameSearch" value="ਖੋਜਣ ਲਈ ਵਿਅਕਤੀ ਦਾ ਨਾਮ ਟਾਈਪ ਕਰੋ।"/>
+  <string id="Search.NullScreen.People.Options" value="ਖੋਜ ਦੇ ਵਧੇਰੇ ਵਿਕਲਪਾਂ ਅਤੇ ਵਾਧੂ ਕੀਬੋਰਡ ਵਰਣਾਂ ਲਈ ਵਿਕਲਪ ਚੁਣੋ।"/>
+  <string id="Search.NullScreen.AllSearch" value="ਖੋਜਣ ਲਈ ਸਿਰਲੇਖ ਜਾਂ ਨਾਮ ਟਾਈਪ ਕਰੋ।"/>
+  <string id="Search.NullScreen.AllSearch.Options" value="ਖੋਜ ਦੇ ਵਧੇਰੇ ਵਿਕਲਪਾਂ ਅਤੇ ਵਾਧੂ ਕੀਬੋਰਡ ਵਰਣਾਂ ਲਈ ਵਿਕਲਪ ਚੁਣੋ।"/>
+  <string id="Search.Options.Keyboard" value="ਕੀਬੋਰਡ"/>
+  <string id="Search.Options.FilterResults" value="ਨਤੀਜੇ ਫਿਲਟਰ ਕਰੋ"/>
+  <string id="Search.Options.FilterResults.All" value="ਸਾਰੇ ਨਤੀਜੇ"/>
+  <string id="Search.Options.FilterResults.Titles" value="ਸਿਰਲੇਖ"/>
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="ਵੀਡੀਓ ਆਨ ਡਿਮਾਂਡ"/>
+  <string id="Search.Options.FilterResults.People" value="ਲੋਕ"/>
+  <string id="Search.Options.FilterResults.CallLetters" value="ਕਾਲ ਲੈਟਰ"/>
+  <!-- {0}: integer number of search results-->
+  <string id="Search.ListCounter" value="{0} ਮਿਲੇ"/>
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="ਮੌਨ"/>
+
+  <!-- error message (please add new error messages in this section) -->
+  <!-- CantPlayVideoError used in error dialog when we can't play wms file, you can add: {0} strWmsErrorDesc, {1} strWmsErrorCode, {2} strWmsErrorUrl -->
+  <string id="CannotPlayVideoError" value="ਇਹ ਵੀਡੀਓ ਚਲਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਮ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਨਾਲ 800-555-5555 'ਤੇ ਸੰਪਰਕ ਕਰੋ।" />
+
+  <!-- Common -->
+  <string id="Yes" value="ਹਾਂ"/>
+  <string id="No" value="ਨਹੀਂ"/>
+  <string id="OK" value="ਠੀਕ"/>
+  <string id="Done" value="ਹੋ ਗਿਆ" />
+  <!-- {0}: Program date; {1}: Program time-->
+  <string id="ProgramDateAndTime" value="{0}, {1}"/>
+  <!-- {0}: Program start time; {1}: Program end time-->
+  <string id="ProgramTime" value="{0}&#8211;{1}"/>
+  <!-- {0}: Program start time; {1}: Program end time ? Why doesn't this use rating?-->
+  <string id="ProgramTimeAndRating" value="{0}&#8211;{1}"/>
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+<string id="MiniTimeFormat" value="hh:mm" /> 
+
+  <!-- The ShortTime format pattern is used on pages that display the {Time} variable.  Leave empty for default behavior. -->
+  <!-- See datetimeformatinfoclasstopic.asp link above for more info. -->
+<string id="ShortTimeFormat" value=""/>
+<string id="ShortTimeFormat.AmDesignator" value=""/>
+<string id="ShortTimeFormat.PmDesignator" value=""/>
+
+<string id="MicroDateFormat" value="d/M" /> 
+<string id="MiniDateFormat" value="ddd d/M" /> 
+<string id="ShortDateFormat" value="dddd d/M" /> 
+<string id="DayFormat" value="ddd" /> 
+  <string id="Today" value="ਅੱਜ"/>
+  <string id="Tomorrow" value="ਕੱਲ੍ਹ"/>
+  <string id="TimeLeft" value="{0} ਖੱਬੇ"/>
+  <string id="Past" value="ਬੀਤੇ"/>
+  <string id="Rental.Expired" value="ਤੁਹਾਡੀ ਕਿਰਾਏਦਾਰੀ ਦੀ ਮਿਆਦ ਸਮਾਪਤ ਹੋ ਗਈ ਹੈ।"/>
+  <!-- {0}: Days (int)-->
+  <string id="Rental.Day" value="1&#0160;ਦਿਨ"/>
+  <string id="Rental.Days" value="{0}&#0160;ਦਿਨ"/>
+  <string id="Rental.Days.Confirm" value="{0}&#0160;DAY"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Rental.Hour" value="1&#0160;ਘੰਟੇ"/>
+  <string id="Rental.Hours" value="{0}&#0160;ਘੰਟੇ"/>
+  <string id="Rental.Hours.Confirm" value="{0}&#0160;ਘੰਟੇ"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Rental.Minute" value="1&#0160;ਮਿੰਟ"/>
+  <string id="Rental.Minutes" value="{0}&#0160;ਮਿੰਟ"/>
+  <string id="Rental.Minutes.Confirm" value="{0}&#0160;ਮਿੰਟ"/>
+  <!-- {0} seconds (int)-->
+  <string id="Duration.Seconds" value="{0} ਸਕਿੰਟ"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Duration.Minutes" value="{0}ਮਿੰਟ"/>
+  <!-- {0}: Minutes (int) {1}: Seconds (int)-->
+  <string id="Duration.MinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Duration.Hours" value="{0} ਘੰਟੇ"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int) -->
+  <string id="Duration.HoursMinutes" value="{0} {1}"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int); {2}: Seconds -->
+  <string id="Duration.HoursMinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Days (int)-->
+  <string id="Duration.Days" value="{0}ਦਿਨ"/>
+  <!-- {0}: Timespan-->
+  <string id="Duration.TimeLeft" value="{0} ਖੱਬੇ"/>
+  <!-- {0}: Episode title; {1}: Episode description-->
+  <string id="EpisodeTitleAndDescription" value="&#8220;{0}&#8221; - {1}"/>
+  <!-- {0}: Episode title-->
+  <string id="EpisodeTitle" value="&#8220;{0}&#8221;"/>
+  <!-- {0} program title; {1} episode title-->
+  <string id="TitleAndEpisodeTitle" value="{0} - &#8220;{1}&#8221;"/>
+  <!-- {0} program title-->
+  <string id="TitleSansEpisode" value="{0}"/>
+  <string id="Ellipsis" value="..."/>
+  <!-- {0}: Episode title-->
+  <string id="Episode" value="&#8220;{0}&#8221;"/>
+  <string id="Comma" value=","/>
+  <string id="Space" value=" "/>
+  <string id="Period" value="."/>
+  <string id="Slash" value="\"/>
+  <string id="Bullet" value="  &#0183;  "/>
+  <!-- {0} Current index; {1}: Total index-->
+  <string id="ListCounter" value="{1} ਦਾ {0}"/>
+  <!-- {0}: Rating-->
+  <string id="ParenthesizedString" value="({0})"/>
+  <string id="SettingsString" value="ਸੈਟਿੰਗਾਂ"/>
+  <string id="WatchTV" value="ਟੀਵੀ ਦੇਖੋ"/>
+  <string id="OperationFailed" value="ਕਾਰਵਾਈ ਪੂਰੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"/>
+  <string id="Shutdown.Reboot" value="ਸਿਸਟਮ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <!-- {0}: Timespan -->
+  <string id="Shutdown.Reboot.CountDown" value="{0} ਸਕਿੰਟਾਂ ਵਿੱਚ ਸਿਸਟਮ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਹੋਵੇਗਾ।"/>
+  <string id="Shutdown.Cancel" value="ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਨਾ ਕਰੋ"/>
+  <string id="Shutdown.Prompt" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ ਸਿਸਟਮ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="PowerOff" value="ਪਾਵਰ ਬੰਦ"/>
+  <string id="PowerOff.Prompt" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ ਸਿਸਟਮ ਨੂੰ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="PowerOff.Yes" value="ਬੰਦ ਕਰੋ"/>
+  <string id="PowerOff.No" value="ਬੰਦ ਨਾ ਕਰੋ"/>
+  <string id="Restart.Prompt" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ ਸਿਸਟਮ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="Restart.Yes" value="ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ"/>
+  <string id="Restart.No" value="ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਨਾ ਕਰੋ"/>
+  <string id="Hibernate.Prompt" value="ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ ਸਿਸਟਮ ਨੂੰ ਹਾਈਬਰਨੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"/>
+  <string id="Hibernate.Yes" value="ਹਾਈਬਰਨੇਟ ਕਰੋ"/>
+  <string id="Hibernate.No" value="ਹਾਈਬਰਨੇਟ ਨਾ ਕਰੋ"/>
+  <string id="StandBy.WatchTV" value="ਟੀਵੀ ਦੇਖਣ ਲਈ ਠੀਕ ਦਬਾਓ"/>
+  <string id="TryAgain" value="ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ"/>
+  <string id="Content.Unavailable.AutoDetuned" value="{0} ਵਿਹਲੇ ਸਮੇਂ ਤੋਂ ਬਾਅਦ ਵੀਡੀਓ ਡੀਟਿਊਨ ਕਰ ਦਿੱਤਾ"/>
+  <string id="Content.Unavailable.DRM" value="ਸਮੱਗਰੀ ਦੇਖਣ ਵਿੱਚ ਅਸਮਰੱਥ"/>
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="ਇਸ ਚੈਨਲ ਨੂੰ ਦੇਖਣ ਲਈ ਵਾਧੂ ਹਾਰਡਵੇਅਰ ਦੀ ਲੋੜ ਹੈ"/>
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"/>
+  <string id="Content.Unavailable.HDMI" value="HDMI ਸਮੱਗਰੀ ਦੇਖਣ ਵਿੱਚ ਅਸਮਰੱਥ"/>
+  <string id="Content.Unavailable.Service" value="ਸਮੱਗਰੀ ਉਪਲਬਧ ਨਹੀਂ।"/>
+  <string id="Content.Unavailable.Service.Initializing" value="ਜਾਣਕਾਰੀ ਲੈਣੀ।  ਸਮੱਗਰੀ ਕੁਝ ਪਲਾਂ ਵਿੱਚ ਉਪਲਬਧ ਹੋਵੇਗੀ।"/>
+  <string id="Content.Unavailable.VOD" value="ਵੀਡੀਓ ਚਲਾਉਣ ਵਿੱਚ ਅਸਮਰਥ"/>
+  <string id="Content.Unavailable.PlaybackDisabled" value="ਇਸ ਸਮੇਂ ਚਲਾਉਣ ਦੀ ਆਗਿਆ ਨਹੀਂ।"/>
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="{0} ਤਕ ਚਲਾਉਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ।"/>
+  <string id="Content.Unavailable.ChangeChannels" value="ਦੂਸਰੀ ਪ੍ਰੋਗਰਾਮਿੰਗ ਦੇਖਣ ਲਈ ਚੈਨਲ ਬਦਲੋ"/>
+  <string id="Content.Unavailable.CA" value="ਤੁਸੀਂ ਇਸ ਪੈਕੇਜ ਦੀ ਗਾਹਕੀ ਨਹੀਂ ਲਈ ਹੈ"/>  
+  <string id="Content.Unavailable.CA.Message1" value="ਆਪਣੇ ਬਾਕਸ 'ਤੇ ਕੋਨਟੋਸੋ ਸਪੋਰਟਸ ਲਈ 1-800-000-0000 'ਤੇ ਫ਼ੋਨ ਕਰੋ"/>
+  <string id="Content.Unavailable.CA.Message2" value="ਸਿਰਫ਼ $0 ਪ੍ਰਤਿ ਮਹੀਨਾ ਵਿੱਚ"/>
+  <string id="Diagnostic" value="ਪੜਤਾਲੀਆ ਜਾਣਕਾਰੀ"/>
+  <string id="Diag.Header" value="ਪੜਤਾਲੀਆ ਜਾਣਕਾਰੀ" />
+  <string id="Diag.NotAvail" value="ਉਪਲਬਧ ਨਹੀਂ"/>
+  <string id="Diag.Status" value="    ਦਰਜਾ : "/>
+  <string id="Diag.Available" value="ਉਪਲਬਧ"/>
+  <string id="Diag.Unreach" value="ਪਹੁਣਚਯੋਗ ਨਹੀਂ"/>
+  <string id="Diag.Unknown" value="ਅਗਿਆਤ"/>
+  <string id="Diag.Bootstrap" value="ਬੂਟਸਟ੍ਰੈਪ"/>
+  <string id="Diag.BootstrapIP" value="ਬੂਟਸਟ੍ਰੈਪ IP #"/>
+  <string id="Diag.BoxID" value="ਬਾਕਸ ID"/>
+  <string id="Diag.BoxIP" value="ਬਾਕਸ IP"/>
+  <string id="Diag.DHCP" value="DHCP IP"/>
+  <string id="Diag.Gateway" value="ਗੇਟਵੇ IP"/>
+  <string id="Diag.DNSServer" value="DNS ਸਰਵਰ IP #"/>
+  <string id="ConfigurableMenu.UpdateNotification" value="ਤੁਹਾਡਾ ਮੀਨੂ ਅਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"/>
+  <string id="PPPoE.Setting" value="PPPOE Setting"/>
+  <string id="PPPoE.Setting.UserName" value="UserName:"/>
+  <string id="PPPoE.Setting.Password" value="Password:"/>
+  <string id="PPPoE.Setting.Connect" value="Connect"/>
+  <string id="PPPoE.Setting.Reboot" value="Reboot"/>
+  <string id="PPPoE.Setting.Disconnect" value="Disconnect"/>
+  <string id="PPPoE.Setting.Advanced" value="Advanced..."/>
+  <string id="PPPoE.Setting.Save" value="Save"/>
+  <string id="PPPoE.Setting.Back" value="Back"/>
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="Automatically use my Windows logon name and password"/>
+  <string id="PPPoE.Setting.Advanced.CHAP" value="Challenge Handshake Password Authentication Protocol (CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="Microsoft CHAP (MS-CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="Microsoft CHAP Version 2 (MS-CHAP v2)"/>
+  <string id="PPPoE.Setting.Advanced.Shiva" value="Shiva's Password Authentication Protocol"/>
+  <string id="PPPoE.Setting.Advanced.PAP" value="Unencrypted password (PAP)"/>
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="Use data encrytion"/>
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="Use software compression"/>
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="Use IP header compression"/>
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="Use Default Gateway"/>
+  <string id="PPPoE.Setting.Advanced.Save" value="Save"/>
+  <string id="PPPoE.Setting.Advanced.Back" value="Back"/>
+  <string id="PPPoE.Connect" value="Dialing... please wait"/>
+  <string id="PPPoE.Connect.Status" value="Status:"/>
+  <!-- {0}: Dead state message; {1}: Dead state status-->
+  <string id="DeadState.MessageFormat" value="{0} (Error# {1})"/>
+  <string id="DeadState.DeadStateMessage" value="Television is not currently available. Choose Restart to try connecting again. If this problem continues, contact customer service."/>
+  <string id="NetworkWizard.Setting" value="Network Wizard"/>
+  <string id="NetworkWizard.Setting.DHCP" value="DHCP"/>
+  <string id="NetworkWizard.Setting.PPPoE" value="PPPoE"/>
+  <string id="NetworkWizard.Setting.StaticIP" value="Static IP"/>
+  <string id="NetworkWizard.Setting.Next" value="Next"/>
+  <string id="NetworkWizard.Setting.Tips" value="Choose connection type, then press Next button to proceed with configuration."/>
+  <string id="DHCP.Setting" value="DHCP Setting"/>
+  <string id="DHCP.Setting.Desc" value="Press reboot button to set DHCP."/>
+  <string id="DHCP.Setting.Reboot" value="Reboot"/>
+  <string id="DHCP.Setting.Back" value="Back"/>
+  <string id="StaticIP.Setting" value="Static IP Setting"/>
+  <string id="StaticIP.Setting.IPAddr" value="IP Addr:"/>
+  <string id="StaticIP.Setting.Mask" value="Mask:"/>
+  <string id="StaticIP.Setting.Gate" value="Gate:"/>
+  <string id="StaticIP.Setting.DNS" value="DNS:"/>
+  <string id="StaticIP.Setting.WINS" value="WINS:"/>
+  <string id="StaticIP.Setting.Reboot" value="Reboot"/>
+  <string id="StaticIP.Setting.Back" value="Back"/>
+  <!-- {0}: Timespan -->
+  <string id="BootstrapRetry.CountDown" value="The connection will be retried in {0}."/>
+  <string id="BootstrapRetry.TryAgain" value="Try again now"/>
+  <string id="BootstrapRetry.Message" value="Your TV receiver is temporarily unable to connect to the EricssonTV service." />
+  <string id="BootstrapRetry.Header" value="Service connection error" />
+  <string id="BootstrapRetry.Diagnostics" value="Diagnostics" />
+
+  <!-- HDMI cable connected or disconnected, HDCP (video encryption) errors -->
+  <string id="HDMI.Plugged" value="HDMI ਆਊਟਪੁਟ ਹੁਣ ਸਮਰਥ ਹੈ।" />
+  <string id="HDMI.Unplugged" value="HDMI ਆਊਟਪੁਟ ਅਸਮਰਥ ਹੈ (H1000)" />
+  <string id="HDMI.HDCP.Unsupported" value="ਤੁਹਾਡਾ ਟੈਲੀਵਿਜ਼ਨ ਤੁਹਾਡੇ ਉੱਚ ਲਛਣਾਂ ਵਾਲੇ ਕਨੈਕਸ਼ਨ 'ਤੇ HDCP ਵੀਡੀਓ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰ ਸਕਦਾ। (H1001)" />
+  <string id="HDMI.HDCP.Revoked" value="ਤੁਹਾਡਾ ਟੈਲੀਵਿਜ਼ਨ HDMI 'ਤੇ ਇਹ ਵੀਡੀਓ ਸਰਵਿਸ ਨਹੀਂ ਦਿਖਾ ਸਕਦਾ। ਮੋਨਿਟਰ HDCP ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ। (H1002)" />
+  <string id="HDMI.HDCP.LevelExceeded" value="ਤੁਹਾਡਾ ਟੈਲੀਵਿਜ਼ਨ HDMI 'ਤੇ ਇਹ ਵੀਡੀਓ ਸਰਵਿਸ ਨਹੀਂ ਦਿਖਾ ਸਕਦਾ। ਬਹੁਤ ਜ਼ਿਆਦਾ ਉਪਕਰਨ ਜੁੜੇ ਹੋਏ ਹਨ। (H1003)" />
+  <string id="HDMI.HDCP.StbNoKeys" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਸੈਟ ਟੌਪ ਬਾਕਸ ਵਿੱਚ ਕੋਈ HDCP ਕੁੰਜੀਆਂ ਹਨ। (H1004)" />
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। HDCP ਲਿੰਕ ਪੂਰਣਤਾ ਜਾਂਚ ਫੇਲ ਹੋਈ। (H1005)" />
+  <string id="HDMI.HDCP.NoReceiverConnected" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਕੋਈ ਰਿਸੀਵਰ ਜੁੜਿਆ ਨਹੀਂ ਹੋਇਆ। (H1006)" />
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। TX AN ਲਿਖਤ ਅਸਫਲ। (H1007)" />
+  <string id="HDMI.HDCP.TxAnReadFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। TX AN ਪੜ੍ਹਨਾ ਅਸਫਲ। (H1008)" />
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। RX AN ਲਿਖਤ ਅਸਫਲ। (H1009)" />
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਅਪ੍ਰਵਾਨਿਤ AKSV ਫਾਰਮੇਟ। (H1010)" />
+  <string id="HDMI.HDCP.AksvWriteFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। AKSV ਲਿਖਣਾ ਅਸਫਲ। (H1011)" />
+  <string id="HDMI.HDCP.BksvWriteFailed" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। BKSV ਲਿਖਣਾ ਅਸਫਲ। (H1012)" />
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="HDMI 'ਤੇ ਵੀਡੀਓ ਸਰਵਿਸ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਅਪ੍ਰਵਾਨਿਤ BKSV ਫਾਰਮੇਟ। (H1013)" />
+
+  <!-- DTT/offline experience -->
+  <string id="DTT.Reconnected" value="Broadband connection reestablished" />
+  <string id="DTT.Disconnected" value="You are not currently connected to broadband. Some channels and features may be disabled." />
+  <string id="DTT.Troubleshoot" value="Troubleshoot" />
+  
+  <!-- XHTML Browser -->
+  <string id="Browser.LoadingPage" value="ਇਹ ਪੰਨ੍ਹਾ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ..." />
+
+  <!-- MHEG5 error reporting -->
+  <string id="MHEG.Unavailable" value="Interactive features temporarily unavailable. Please try again later" />
+
+ <!-- localized image names -->
+  <string id="Image.Icon.HD" value="Icon.HD.png" />
+  <string id="Image.Logo.VideoOnDemand" value="Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="Brand_Service_Banner.png"/>
+  <string id="Image.ScreenSaverLogo" value="ScreenSaverLogo.png"/>
+  <string id="Image.BrowseButton.OKlabel" value="BrowseButton.OKlabel.png"/>
+  <string id="Image.VideoStill.Future" value="VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.CA" value="VideoStill.Locked.CA.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="VideoStill.Locked.jpg"/>
+
+  <!-- ISO 639-1 language code to display name map. -->
+  <string id="ISO.af" value="Afrikaans"/>
+  <string id="ISO.ar" value="Arabic"/>
+  <string id="ISO.az" value="Azeri"/>
+  <string id="ISO.be" value="Belarusian"/>
+  <string id="ISO.bg" value="Bulgarian"/>
+  <string id="ISO.ca" value="Catalan"/>
+  <string id="ISO.cs" value="Czech"/>
+  <string id="ISO.cy" value="Welsh"/>
+  <string id="ISO.da" value="Danish"/>
+  <string id="ISO.de" value="German"/>
+  <string id="ISO.el" value="Greek"/>
+  <string id="ISO.en" value="English"/>
+  <string id="ISO.es" value="Spanish"/>
+  <string id="ISO.et" value="Estonian"/>
+  <string id="ISO.eu" value="Basque"/>
+  <string id="ISO.fa" value="Persian"/>
+  <string id="ISO.fi" value="Finnish"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.fr" value="French"/>
+  <string id="ISO.gd" value="Gaelic"/>
+  <string id="ISO.gl" value="Galician"/>
+  <string id="ISO.gu" value="Gujarati"/>
+  <string id="ISO.he" value="Hebrew"/>
+  <string id="ISO.hi" value="Hindi"/>
+  <string id="ISO.hr" value="Croatian"/>
+  <string id="ISO.hu" value="Hungarian"/>
+  <string id="ISO.hy" value="Armenian"/>
+  <string id="ISO.id" value="Indonesian"/>
+  <string id="ISO.is" value="Icelandic"/>
+  <string id="ISO.it" value="Italian"/>
+  <string id="ISO.ja" value="Japanese"/>
+  <string id="ISO.ka" value="Georgian"/>
+  <string id="ISO.kk" value="Kazakh"/>
+  <string id="ISO.kn" value="Kannada"/>
+  <string id="ISO.ko" value="Korean"/>
+  <string id="ISO.ky" value="Kyrgyz"/>
+  <string id="ISO.lt" value="Lithuanian"/>
+  <string id="ISO.lv" value="Latvian"/>
+  <string id="ISO.mk" value="Macedonian"/>
+  <string id="ISO.mn" value="Mongolian"/>
+  <string id="ISO.mr" value="Marathi"/>
+  <string id="ISO.ms" value="Malay"/>
+  <string id="ISO.nl" value="Dutch"/>
+  <string id="ISO.no" value="Norwegian"/>
+  <string id="ISO.pa" value="Punjabi"/>
+  <string id="ISO.pl" value="Polish"/>
+  <string id="ISO.pt" value="Portuguese"/>
+  <string id="ISO.ro" value="Romanian"/>
+  <string id="ISO.ru" value="Russian"/>
+  <string id="ISO.sa" value="Sanskrit"/>
+  <string id="ISO.sk" value="Slovak"/>
+  <string id="ISO.sl" value="Slovenian"/>
+  <string id="ISO.sq" value="Albanian"/>
+  <string id="ISO.sr" value="Serbian"/>
+  <string id="ISO.sv" value="Swedish"/>
+  <string id="ISO.sw" value="Swahili"/>
+  <string id="ISO.ta" value="Tamil"/>
+  <string id="ISO.te" value="Telugu"/>
+  <string id="ISO.th" value="Thai"/>
+  <string id="ISO.tr" value="Turkish"/>
+  <string id="ISO.tt" value="Tatar"/>
+  <string id="ISO.uk" value="Ukrainian"/>
+  <string id="ISO.ur" value="Urdu"/>
+  <string id="ISO.uz" value="Uzbek"/>
+  <string id="ISO.vi" value="Vietnamese"/>
+  <string id="ISO.zh" value="Chinese"/>
+
+  <!-- Unit testing strings are used for debugging builds only -->
+  <string id="UnitTestingPipTuning.Description" value="This page measures PIPs performance by tuning to all available live channels over and over again using Video.TuneToChannel." />
+  <string id="UnitTestingPipTuning.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingScreenModeSwitching.Description" value="This page tests screen mode switching code by changing mode over and over again. Please make sure your TV is connected using component or HDMI/DVI cables or you won't be able to see the screen when in high definition mode." />
+  <string id="UnitTestingScreenModeSwitching.Stats" value="We're currently running in {Mode} mode (waiting for Compositor.Status event? {Switching}). This test has run {Times} times and will run again in {Seconds} seconds." />
+  <string id="UnitTestingRightsPCON.Description" value="This page measures rights/PCON performance by scanning all channels and checkin user's rights to them." />
+  <string id="UnitTestingRightsPCON.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingPageLoading.Description" value="This page will be reloaded 50 times to measure page creation and loading performance, please wait..." />
+  <string id="UnitTestingPageLoading.Statistics" value="Loaded {TimesLoaded} times&#13;Last loading delay {LastDelay} ms&#13;Average {AvgDelay} ms" />
+
+  <!-- Emergency Alert System Strings -->  
+  <string id="EAS.Level1" value="*** ਰਾਸ਼ਟਰੀ ਸੰਕਟਕਾਲ ***"/>
+  <string id="EAS.Warning" value="*** ਚਿਤਾਵਨੀ ***"/>
+  <string id="EAS.Watch" value="*** ਦੇਖੋ ***"/>
+  <string id="EAS.Emergency" value="*** ਸੰਕਟਕਾਲ ***"/>
+  <string id="EAS.Statement" value="*** ਬਿਆਨ ***"/>
+  <string id="EAS.Dismiss" value="ਚਿਤਾਵਨੀ ਨੂੰ ਬਰਖ਼ਾਸਤ ਕਰਨ ਲਈ ਬਾਹਰ ਦਬਾਓ" />
+
+  <string id="ExternPrice" value=" " />
+</stringtable>

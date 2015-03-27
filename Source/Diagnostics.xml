@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <Diagnostics class="Page.Diagnostic">
+	    <Text class="Text.Dialog">Diagnostics</Text>
+        <VerticalFlowPanel class="VerticalFlowPanel.Diagnostics" id="_container">
+		</VerticalFlowPanel>
+    </Diagnostics>
+</uidescription>

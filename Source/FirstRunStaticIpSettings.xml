@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="1.1">
+  <FirstRunStaticIpSettings class="Page.Animated.FirstRun" initialFocus="_preboot">
+    
+    <Panel class="Panel.FirstRunStaticIpSettings.KeyboardBackgroundPanel">
+      <Panel class="Panel.FirstRunStaticIpSettings.KeyboardPanel">
+        <Keyboard class="VerticalFlowPanel.FirstRunStaticIpSettings.Keyboard" id="_keyboard"/>
+      </Panel>
+    </Panel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.FirstRunStaticIpSettings.IpPanel">
+      <HorizontalFlowPanel class="HorizontalFlowPanel.FirstRunStaticIpSettings.IpFields">
+        
+        <VerticalFlowPanel class="VerticalFlowPanel.FirstRunStaticIpSettings.LabelPanel">
+          <Text class="Text.FirstRunStaticIpSettings.Label">#StaticIP.Setting.IPAddress</Text>
+          <Text class="Text.FirstRunStaticIpSettings.Label">#StaticIP.Setting.Subnet</Text>
+          <Text class="Text.FirstRunStaticIpSettings.Label">#StaticIP.Setting.Gateway</Text>
+          <Text class="Text.FirstRunStaticIpSettings.Label">#StaticIP.Setting.DNS</Text>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.FirstRunStaticIpSettings.IpAddressBackground">
+          <HorizontalFlowPanel class="HorizontalFlowPanel.FirstRunStaticIpSettings.IpAddress">
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_ipaddr1"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_ipaddr2"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_ipaddr3"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_ipaddr4"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel class="HorizontalFlowPanel.FirstRunStaticIpSettings.IpAddress">
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_mask1"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_mask2"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_mask3"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_mask4"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel class="HorizontalFlowPanel.FirstRunStaticIpSettings.IpAddress">
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_gate1"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_gate2"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_gate3"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_gate4"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel class="HorizontalFlowPanel.FirstRunStaticIpSettings.IpAddress">
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_dns1"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_dns2"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_dns3"/>
+            <Text class="Text.FirstRunStaticIpSettings.IpDot">#StaticIP.Setting.IPDot</Text>
+            <EditText class="EditText.FirstRunStaticIpSettings.IPField" id="_dns4"/>
+          </HorizontalFlowPanel>
+
+        </VerticalFlowPanel>
+      </HorizontalFlowPanel>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.FirstRunStaticIPSettings.ButtonPanel">
+        <Panel class="Panel.FirstRunStaticIpSettings.ButtonSeparator"/>
+        <Button id="_preboot" class="Button.FirstRunStaticIpSettings" onClick="OnClick_Connect">#StaticIP.Setting.Connect</Button>
+        <Panel class="Panel.FirstRunStaticIpSettings.ButtonSeparator"/>
+        <Button id="_back" class="Button.FirstRunStaticIpSettings" onClick="OnClick_Back">#StaticIP.Setting.Back</Button>
+      </VerticalFlowPanel>
+
+    </VerticalFlowPanel>
+  
+</FirstRunStaticIpSettings>
+</uidescription>

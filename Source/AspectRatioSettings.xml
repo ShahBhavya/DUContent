@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <AspectRatioSettingsPage class="Page.Animated">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#Settings.Television.AspectRatio</Text>
+		<Text class="Text.Clock">{Time}</Text>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_continueButton" onClick="OnClick_Continue">#Settings.Continue</Button>
+			<Button class="Button.Vertical" id="_cancelChangesButton" onClick="OnClick_CancelChanges">#Settings.CancelChanges</Button>
+		</VerticalFlowPanel>
+		
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings" id="_contentPanel">
+			<Text class="Text.SettingsDescription" id="_description">#Settings.AspectRatio.Description</Text>
+			<RadioButtonGroup id="_screenType" class="RadioButtonGroup">
+				  <RadioButton class="RadioButton" id="_radioButton0" width="400">#Settings.AspectRatio.0</RadioButton>
+          <Panel height="10"/>
+          <RadioButton class="RadioButton" id="_radioButton1" width="400">#Settings.AspectRatio.1</RadioButton>
+          <Panel height="10"/>
+          <RadioButton class="RadioButton" id="_radioButton2" width="400">#Settings.AspectRatio.2</RadioButton>
+          <Panel height="10"/>
+          <RadioButton class="RadioButton" id="_radioButton3" width="400">#Settings.AspectRatio.3</RadioButton>
+          <Panel height="10"/>
+          <RadioButton class="RadioButton" id="_radioButton4" width="400">#Settings.AspectRatio.4</RadioButton>
+			</RadioButtonGroup>	    
+    </VerticalFlowPanel>
+    	
+    <Panel id="_screenResizeNotice" left="0" top="0" width="854" height="480" background="ARGB(255,0,0,0)" visible="false" showanimations="QuickFadeIn">
+		   <Text class="Text.SettingsDescription" width="640" height="480" layout="center" justification="center">#Settings.AspectRatio.Resizing</Text>
+    </Panel>
+		        
+  </AspectRatioSettingsPage>
+</uidescription>

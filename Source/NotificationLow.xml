@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <NotificationDialog class="Page.Notification" inanimations="QuickFadeIn">
+        <TextFlipper class="TextFlipper.NotificationLow" id="_message" />
+    </NotificationDialog>    
+</uidescription>

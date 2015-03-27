@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Styles.xml">
+  <!-- Use this file to override the styles in Styles.xml -->
+
+  <!-- enable these lines to suppress Mediaroom Branding-->
+  <style class="WelcomeFlipper" visible="false" />
+  <style class="ScreenSaverFlipper" visible="false" />
+
+
+  <!-- Main Menu-->
+  <style class="Logo.Menu" top="0" left="0" width="234" height="114" background="@Transparent">
+    <style class="Logo.Menu.HD" width="340" height="170" />
+  </style>
+
+  <style class="Panel.PeekMainMenu" top="0" left="0" width="234" height="480" background="image(file:///MainMenu_Background.png)">
+    <style class="Panel.PeekMainMenu.HD" top="170" width="340" height="550"/>
+  </style>
+
+  <style class="SimpleList" scrollUpArrowUrl="Arrow_Scroll_up.png" scrollDownArrowUrl="Arrow_Scroll_Down.png" arrowHeight="13" arrowWidth="25" arrowVOffset="5">
+    <style class="SimpleList.OptionsPanel" width="100" numvisibleitems="6" left="0"/>
+    <style class="SimpleList.PeekMainMenu" numvisibleitems="2" top="164" left="0" width="224" background="@Transparent" scrollUpArrowUrl="Carat_Up.png" scrollDownArrowUrl="Carat_Down.png" arrowHeight="30" arrowWidth="185">
+      <style class="SimpleList.PeekMainMenu.HD" top="80" width="340" arrowHeight="49" arrowWidth="280"/>
+    </style>
+  </style>
+
+  <style class="ListButton.PeekMainMenu" width="234" height="30" background="@Transparent" foreground="@TextPrimary" focusBackground="metaimage(MenuSelectbox)" focusGlow="@Transparent" pressed="@Transparent" fontStyle="Bold18" padding="rect(84,2,0,0)" margin="rect(0,0,0,0)" ellipsis="disallowed" clipchildren="true">
+    <style class="ListButton.PeekMainMenu.HD" width="340" height="46" fontStyle="Bold22" padding="rect(130,6,0,0)"/>
+  </style>
+  
+  <!-- Main Menu-->
+
+
+  <!--Options Panel-->
+  
+  <style class="VerticalFlowPanel.OptionsPanel" width="265" height="480" background="image(file:///MainMenu_Background.png)">
+    <style class="VerticalFlowPanel.OptionsPanel.HD" height="720" width="360"/>
+  </style>
+
+  <!--Options Panel-->
+
+</styles>

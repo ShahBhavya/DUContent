@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+  <ChannelProgramBrowseBar class="Panel.BrowseBar">
+
+    <!-- current time's location varies if showing/hiding PIP -->
+    <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+
+    <!-- channel name and number do not animate -->
+    <TextFlipper class="TextFlipper.ChannelNames" id="_channelNames" />
+    
+    <Text class="Text.BrowseBar.ChannelNumber" id="_channelNumber"/>
+
+    <!-- everything here animates vertically when you channel up/down -->
+    <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+
+      <!-- everything here animates horizontally when you channel left/right -->
+      <Panel class="Panel.BrowseBar.MainContentContainer" id="_horizontalAnimated">
+
+        <Text class="Text.BrowseBar.Name" id="_channelTitle"/>
+        <Text class="Text.BrowseBar.Extra" id="_channelInfo"></Text>
+        <Text class="Text.ChannelBrowseBar.Description" id="_channelDescription"/>        
+        
+      </Panel>
+
+    </Panel>
+  </ChannelProgramBrowseBar>
+</uidescription>

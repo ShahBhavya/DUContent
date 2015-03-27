@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <WelcomeSplash class="Page">
+    <Panel id="_splashPanel" clipchildren="true">
+      <Image id="_splashImage" KeepAspectRatio="true"/>
+    </Panel>
+    <PanelFlipper id="_welcomeFlipper" class="WelcomeFlipper">
+      <Panel width="640" height="480" background="@PitchBlack">
+        <!-- the id attribute on the image element below must be set first to identify it for the early splash code -->
+        <Image id="_logoImage" url="Logo_MediaRoom.png" top="120" left="130" KeepAspectRatio="true" width="400" height="200"/>
+      </Panel>
+      <Panel background="@Transparent" width="640" height="480"/>
+    </PanelFlipper>
+  </WelcomeSplash>
+</uidescription>

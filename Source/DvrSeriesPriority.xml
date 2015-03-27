@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <DvrSeriesPriority class="Page.Animated.DvrSeriesPrioritySettings" initialFocus="_saveButton">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.DvrSeriesPriority</Text>
+    <Text class="Text.Clock">{Time}</Text>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+      <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+      <Button class="Button.Vertical" onClick="OnClick_Continue" id="_continueButton">#Settings.Continue</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content">
+      <Text class="Text.DvrSeriesPriorityDescription" id="_description">#Settings.DvrSeriesPriority.Description</Text>
+      <Text class="Text.DvrSeriesPriorityDescription" id="_noSeriesRecordingsDescription">#Settings.DvrSeriesPriority.Description.NoSeriesRecordings</Text>
+      <List class="List.DvrSeriesPriority" id="_list" listCounterId="_listCounter"/>
+    </VerticalFlowPanel>
+    <Text class="Text.ListCounter.DvrSeriesPriority" id="_listCounter" />
+  </DvrSeriesPriority>
+</uidescription>

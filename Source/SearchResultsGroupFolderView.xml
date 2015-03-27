@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <SearchResultsGroupedFolderPage class="Page.AnimatedNavBar">
+    <Text class="Text.HeaderTitle"  id="_title">#Search.Header</Text>
+    <Text class="Text.SubheaderTitle" id="_pageHeader"></Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <Text class="Text.Search.Waiting" id="_waiting">#Search.Waiting</Text>
+    <Text class="Text.Search.ErrorMessage2" id="_errorMsg" visible="false">#Search.ErrorMsg</Text>
+    <Panel class="Panel.WholePage" id="_content">
+      <List class="List.SearchResultsGroupView" id="_list" />
+      <Panel class="Panel.RolloverContainer.SearchPages" top="319" id="_rolloverContainer"/>
+    </Panel>
+  </SearchResultsGroupedFolderPage>
+</uidescription>

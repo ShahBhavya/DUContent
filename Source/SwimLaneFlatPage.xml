@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.5">
+  <SwimLaneFlatPage id="SwimLaneFlatPage" useDynamicScreenModeStyles="true" class="Page.SwimLaneMenu">
+    <DataSource id="_menuDataSource" />
+
+    <!-- Panel to slide the swimlanes and flatlist left and right as the menu expands and collapses -->
+    <Panel class="Panel.SwimLaneFlatPage.AnimationClipPanel" id="_animationPanel">
+
+      <!-- Flat list view -->
+      <Panel class="Panel.SwimLaneMenuPage.ViewAll" id="_flatPanel">
+
+        <!-- Flat List Header -->
+        <Text class="Text.SwimLane.FlatList.Header" id="_flatHeader"/>
+
+        <Panel class="Panel.SwimLaneMenu.FlatList" >
+          
+          <!-- Flat List -->
+          <PhysicsTable class="SwimLaneMenuPage.FlatListTable" id="_flatList" datasource="{Binding Source=_menuDataSource,Path=}"
+                        nextLeft="_flatList" nextUp="_flatList" nextDown="_flatList" nextRight="_flatList">
+
+            <PhysicsRowTemplate templatename="row" class="SwimLaneMenuPage.FlatListRow">
+
+              <PhysicsCursor class="SwimLaneMenuPage.FlatListCursor" /> 
+
+              <PhysicsTemplate templatename="item" class="SwimLaneMenuPage.FlatListItem">
+                <PhysicsImageTemplate class="Image.SwimLaneMenuItem" url="$(@image)" usecache="true"/>
+                <PhysicsTemplate class="Text.SwimLaneMenuItem.Title">$(@name)</PhysicsTemplate>
+
+                <Actions>
+                  <Event type="onclick" action="clickitem"/>
+                  <Action name="clickitem" type="invoke" data="@item_onclick"/>
+                </Actions>
+
+              </PhysicsTemplate>
+            </PhysicsRowTemplate>
+          </PhysicsTable>
+
+        </Panel>
+      </Panel>
+    </Panel>
+    <Actions>
+      <Event type="onready" action="pageReady"/>
+      <Action name="pageReady" type="invoke" data="@pageReady"/>
+    </Actions>
+
+  </SwimLaneFlatPage>
+</uidescription>

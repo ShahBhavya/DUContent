@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<Page class="Page.Animated">
+	    <Text class="Text.HeaderTitle">Desktop</Text>
+		<DesktopView
+			alpha="0.6"
+			noAnimations="false"
+			left="0"
+			top="0"
+			width="640"
+			height="480"
+			background="@Transparent"
+			pipe="_desktop_0"
+		/>
+    </Page>
+</uidescription>
+

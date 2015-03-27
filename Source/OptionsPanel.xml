@@ -1,0 +1,9 @@
+<OptionsPanel class="Panel.OptionsPanelRoot" peekappid="urn:microsoft:mediaroom:application:panel:options" UseDynamicScreenModeStyles="true">
+  <VerticalFlowPanel id="_rootPanel" class="VerticalFlowPanel.OptionsPanel">
+    <Text class="Text.HeaderTitle.OptionsPanel" id="_headerTitle">#OptionsPanel.Default</Text>
+    <VerticalFlowPanel class="VerticalFlowPanel.OptionsPanelButtons" id="_verticalFlowPanel">
+      <List class="List.OptionsPanel" id="_list" />
+    </VerticalFlowPanel>
+  </VerticalFlowPanel>
+</OptionsPanel>
+

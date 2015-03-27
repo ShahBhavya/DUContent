@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <GridGuide class="Page.Animated.Guide" id="_gridGuide">
+    <Panel class="Panel.Masthead.Guide" />
+    <Image class="Image.Branding" id="_branding" hideAnimations="SlowFadeOut" />
+    <Text class="Text.HeaderTitle" id="_headerTitle" showAnimations="SlowFadeIn" visible="false"></Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <GuideGadget class="Panel.GuideGadget" id="_grid" />
+
+    <Text id="_menuFilterHint" class="Text.FilterHint.GridGuide">#Guide.Filter.Hint</Text>
+    <EditText class="EditText.Channel.Guide" id="_channelEntry" OnTextEnter="ChannelEntered" visible="false"/>
+
+    <Panel class="Panel.RolloverContainer" id="_rolloverContainer" />
+    <Text class="Text.GuideNoData.ChannelGuide" id="_noInfo">#Guide.NoGuideData</Text>
+  </GridGuide>
+</uidescription>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<AboutPage class="Page.AnimatedNavBar">
+
+    <Panel class="Panel.Masthead" height="110" />
+    <Text class="Text.HeaderTitle">#Settings.General.SystemInformation</Text>		
+    <Text class="Text.Clock">{Time}</Text>
+
+		<Panel class="Panel.MenuBackground" clipchildren="true">
+			<Menu class="Menu.Top" id="_aboutMenu" >
+        
+        <MenuItem class="MenuItem" onSelect="OnSelect_SystemInfo" submenuID="_systemInfoMenu">#Settings.About.SystemInfoMenuItem</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_SmartCardInfo" id="_smartCardMenuLink" visible="false" submenuID="_smartCardInfoMenu">#Settings.About.SmartCardInfoMenuItem</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_NetworkInfo" submenuID="_networkInfoMenu">#Settings.About.NetworkInfoMenuItem</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_ResourcesInfo" submenuID="_resourcesInfoMenu">#Settings.About.ResourcesInfoMenuItem</MenuItem>
+        <MenuItem class="MenuItem" onselect="OnSelect_ListingsInfo" submenuID="_listingsInfoMenu">#Settings.About.ListingsInfoMenuItem</MenuItem>
+        <MenuItem class="MenuItem" onselect="OnSelect_WHDvrInfo" submenuID="_whDvrInfoMenu">#Settings.About.WHDvrInfoMenuItem</MenuItem>
+
+        <!-- disk repair feature is disabled in 1.1 as it is not working -->
+        <!-- <MenuItem class="MenuItem" submenuID="_diskRepair">#Settings.About.DiskRepairMenuItem</MenuItem> -->
+
+        <MenuItem class="MenuItem" submenuID="_copyrightInfoMenu" visible="false">#Settings.About.CopyrightMenuItem</MenuItem>
+				<MenuItem class="MenuItem" submenuID="_privacyInfoMenu" visible="false">#Settings.About.PrivacyMenuItem</MenuItem>
+				<MenuItem class="MenuItem" submenuID="_subscriptionInfoMenu" visible="false">#Settings.About.SubscriptionsMenuItem</MenuItem>
+				<MenuItem class="MenuItem" submenuID="_goMenu" visible="false">#Settings.About.Go</MenuItem>
+			
+      </Menu> 
+		</Panel>
+
+    <!-- System info page-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_systemInfoMenu" visible="false">
+      <TextBox class="TextBox.AboutPageData" id="_systemInfoTextBox">#Settings.About.SystemInfo.Data</TextBox>
+    </VerticalFlowPanel>
+
+    <!-- Smart card info page-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_smartCardInfoMenu" visible="false">      
+      <TextBox class="TextBox.AboutPageData" id="_smartCardInfoTextBox"></TextBox>
+    </VerticalFlowPanel>
+    
+    <!-- Network info page-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_networkInfoMenu" visible="false">
+      <TextBox class="TextBox.AboutPageData" id="_networkInfoTextBox">#Settings.About.NetworkInfo.Data</TextBox>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_resourcesInfoMenu" visible="false">
+      <TextBox class="TextBox.AboutPageData" id="_resourcesInfoTextBox">#Settings.About.SystemResources.Data</TextBox>
+    </VerticalFlowPanel>
+
+    <!-- Listings info page-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_listingsInfoMenu" visible="false">
+      <TextBox class="TextBox.AboutPageData" id="_resourcesInfoTextBox">#Settings.About.ListingsInfo.Data</TextBox>
+    </VerticalFlowPanel>
+
+    <!-- WHDVR info page-->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_whDvrInfoMenu" visible="false">
+      <TextBox class="TextBox.AboutPageData" id="_resourcesInfoTextBox">#Settings.About.WHDvrInfo.Data</TextBox>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_diskRepair" visible="false">
+			<Button class="Button.Menu.ParentalControl" id="_checkHardDisk" onClick="OnClick_ScanDisk" width="200">#Settings.About.CheckHardDisk</Button>
+			<Panel height="20"/>
+		  <TextBox class="TextBox.AboutPage" fontStyle="Reg20" width="440">#Settings.About.CheckHardDisk.Instructions</TextBox>
+		</VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_copyrightInfoMenu" visible="false">
+		  <TextBox class="TextBox.AboutPage">#Settings.About.CopyrightStatement</TextBox>
+		</VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_privacyInfoMenu" visible="false">
+		  <TextBox class="TextBox.AboutPage">#Settings.About.PrivacyStatement</TextBox>
+		</VerticalFlowPanel>
+		
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.AboutPage" id="_subscriptionInfoMenu" visible="false">
+		  <TextBox class="TextBox.AboutPage">#Settings.About.SubscriptionInfo</TextBox>
+		</VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_goMenu" visible="false">
+			<Button class="Button.Menu" id="_watchTV" onClick="OnClick_WatchTV">#WatchTV</Button>
+      <Button class="Button.Menu" id="_mainMenu" href="Start">#Start.MenuForButtons</Button>
+			<Button class="Button.Menu" id="_guide" href="guide">#Start.Television.Guide</Button>
+		</VerticalFlowPanel>
+
+	</AboutPage>
+</uidescription>

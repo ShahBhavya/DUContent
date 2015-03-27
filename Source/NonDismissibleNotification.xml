@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <NonDismissibleNotificationDialog class="Page.Notification" inanimations="NotificationIn">
+        <TextFlipper class="TextFlipper.Notification" id="_message" />
+    </NonDismissibleNotificationDialog>    
+</uidescription>

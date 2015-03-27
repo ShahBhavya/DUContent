@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <GroupedDvrMediaItemRollover class="Subpage.RolloverInfo">
+        <VerticalFlowPanel class="Panel.RolloverInfo.GroupDvr" id="_animatedArea">
+            <Text class="Text.GroupDvrRolloverInfo.ProgramName" id="_programName"/>
+            <Text class="Text.GroupDvrRolloverInfo.ProgramTime" id="_programTime"/>
+            <Text class="Text.GroupDvrRolloverInfo.EITVPSInfo" id="_errorMessage" visible="false" />
+            <Text class="Text.GroupDvrRolloverInfo.Description" id="_programDescription"/>
+         </VerticalFlowPanel>
+    </GroupedDvrMediaItemRollover>
+</uidescription>

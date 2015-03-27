@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TunerConfig  xmlns="http://www.microsoft.com/iptv/broadcast/sat-config/V1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	    xsi:schemaLocation="http://www.microsoft.com/iptv/broadcast/sat-config file:../../../../../inc/SatConfig.xsd">
+	<Tuner  Id="urn:mediaroom:bcast:tuner:0" Type="DVB-S2">
+		<Input Id="Tuner0In">
+			<ConnectedTo>Dish0LNB0Out</ConnectedTo>
+		</Input>
+	</Tuner>
+	<Tuner  Id="urn:mediaroom:bcast:tuner:1" Type="DVB-S2">
+		<Input Id="Tuner1In">
+			<ConnectedTo>Dish0LNB1Out</ConnectedTo>
+		</Input>
+	</Tuner>
+	<SatelliteDish Name="Sat0" Id="Dish0" xsi:type="FixedDish.eltype">
+    		<LNB Id="Dish0LNB0" Protocol="Tone,Voltage">
+			<Polarization>Configurable</Polarization>
+			<CurrentOrbitalPosition>Agnostic</CurrentOrbitalPosition>
+			<Band>
+				<Name>Low</Name>
+				<EndFrequency>11750000000</EndFrequency>
+				<LOFrequency>9750000000</LOFrequency>
+			</Band>
+			<Band>
+				<Name>High</Name>
+				<StartFrequency>11750000000</StartFrequency>
+				<LOFrequency>10600000000</LOFrequency>
+			</Band>
+			<Output Id="Dish0LNB0Out">
+				<ConnectedTo>Tuner0In</ConnectedTo>
+			</Output>
+		</LNB>
+		<LNB Id="Dish0LNB1" Protocol="Tone,Voltage">
+			<Polarization>Configurable</Polarization>
+			<CurrentOrbitalPosition>Agnostic</CurrentOrbitalPosition>
+			<Band>
+				<Name>Low</Name>
+			        <EndFrequency>11750000000</EndFrequency>
+				<LOFrequency>9750000000</LOFrequency>
+			</Band>
+			<Band>
+				<Name>High</Name>
+			        <StartFrequency>11750000000</StartFrequency>
+				<LOFrequency>10600000000</LOFrequency>
+			</Band>
+      			<Output Id="Dish0LNB1Out">
+        			<ConnectedTo>Tuner1In</ConnectedTo>
+			</Output>
+		</LNB>
+	</SatelliteDish>
+</TunerConfig>

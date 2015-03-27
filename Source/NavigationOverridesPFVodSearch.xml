@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+  <target name="search" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/Search/?__MPFMDSTKNAPPID=microsoft.mediaroom.search/1.0" /> 
+  <target name="searchresultsforaperson" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/Search/Search/?ClientType=People" /> 
+  <target name="othershowingsseries" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Series/OtherShowings" /> 
+  <target name="othershowingsprogram" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Asset/OtherShowings" /> 
+  <target name="searchpeople" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Search/?ClientType=People" /> 
+  <target name="searchchannels" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Search/?ClientType=CallLetters" /> 
+  <target name="searchtitles" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Search/?ClientType=Title" /> 
+  <target name="searchvod" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/search/Search/?ClientType=VOD" /> 
+  <target name="vodstore" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main" /> 
+  <target name="searchvod" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/home/index/search" /> 
+  <target name="vodprograminfo" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/asset/item" /> 
+  <target name="svodinfo" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/asset/item" /> 
+  <target name="vodpackage" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/asset/item" /> 
+  <target name="vodcurrentrentals" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/home/index/mycontent" /> 
+  <target name="vodstoredownloads" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main/home/index/mycontent" /> 
+</mappings>

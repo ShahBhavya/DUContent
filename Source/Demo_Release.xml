@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <DemoPage class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_demoHeader">Demo</Text>		
+	  <Text class="Text.Clock">{Time}</Text>		
+
+	  <Panel class="Panel.MenuBackground.Start" clipchildren="true">
+		  <ConfigurableMenu class="Menu.Start" id="_startMenu" containerID="_configurableMenuContainer">
+      </ConfigurableMenu> 
+	  </Panel>
+
+  </DemoPage>
+</uidescription>

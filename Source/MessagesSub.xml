@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <MessagesSub>
+		<List class="List.Messages" id="_list" />
+		<Text class="Text.Messages.NoMessage" id="_nomsg">#Messages.NoMessages</Text>
+    </MessagesSub>
+</uidescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrSettingsForkPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#ProgramInfo.RecordSetting</Text>
+        <Text class="Text.SubheaderTitle" id="_title"></Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Fork">
+            <Text class="Text.SpinnerHeader">#DVR.Settings.Fork</Text>
+            <Button class="Button.Fork" id="_episode" onClick="OnClick_Episode">#DVR.Settings.Fork.Episode</Button>
+            <Button class="Button.Fork" id="_series" onClick="OnClick_Series">#DVR.Settings.Fork.Series</Button>
+        </VerticalFlowPanel>
+
+    </DvrSettingsForkPage>
+</uidescription>

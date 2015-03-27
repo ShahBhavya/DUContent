@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.0">
+  <MrmlPage id="ChannelTVPage" class="MrmlPage.ChannelTV.HD" Extensions="fsTVControls"
+            BackgroundContent="ChannelTVBackgroundHD.xml" TestId="VideoFullScreen">
+
+    <!-- The Video gadget is declared in the BackgroundContent page.  It's id is referenced in the -->
+    <!-- "video" param of the "fsTVControls" extension below. -->
+
+    <Extensions>
+      <Extension name="fsTVControls" type="urn:microsoft:mediaroom:extension:fullscreentvcontrols:1">
+        <Param name="video" value="channelTVVideo" />
+        <Param name="browsebar" value="on" />
+        <Param name="channelbar" value="on" />
+        <Param name="channelentry" value="on" />
+        <Param name="channeltune" value="on" />
+        <Param name="externaltune" value="on" />
+        <Param name="optionspanel" value="on" />
+        <Param name="recentpanel" value="on" />
+        <Param name="rosette" value="on" />
+        <Param name="seekbar" value="on" />
+        <Param name="stoppedpanel" value="on" />
+      </Extension>
+    </Extensions>
+
+  </MrmlPage>
+</uidescription>

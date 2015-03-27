@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <PeekHostPage class="Page.PeekHost" useDynamicScreenModeStyles="true" pagelayout="ntsc">
+    <DataSource id="_contentDs" iscontentds="true" />
+    <Subpage id="_mainSubpage" visible="true" datasource="{Binding Source=_contentDs,Path=*}" />
+  </PeekHostPage>
+</uidescription>

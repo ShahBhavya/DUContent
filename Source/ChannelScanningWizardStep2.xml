@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ChannelScanningWizardStep2 class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ChannelScanningWizard.Step2</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <!-- Scanning {Percentage}% completed... -->
+      <Text class="Text.WizardDescription">#Settings.ChannelScanningWizard.Step2.Scanning</Text>
+      <Panel height="10" />
+      
+      <ProgressBar class="ProgressBar.ChannelScanningWizard" id="_progress" />
+      <Panel height="10" />
+
+      <!-- number of television and music channels found so far -->
+      <Text class="Text.WizardDescription" margin="rect(0,0,0,0)" id="_videoChannels">#Settings.ChannelScanningWizard.Step2.VideoChannels</Text>
+      <Text class="Text.WizardDescription" margin="rect(0,0,0,0)" id="_musicChannels">#Settings.ChannelScanningWizard.Step2.MusicChannels</Text>
+      <Panel height="40" />
+
+      <!-- cancel button visible only if old channel map available already -->
+      <Button class="Button.Menu.Wizard" onClick="OnClick_Cancel" id="_cancel" width="240">#Settings.ChannelScanningWizard.Step2.Cancel</Button>
+      
+    </VerticalFlowPanel>
+
+  </ChannelScanningWizardStep2>
+</uidescription>

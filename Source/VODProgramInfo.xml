@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <!-- from the store, this page will have the category theme of its parent,
+        (using the ImageFlipper).
+        from other parts of the system (like search results), there is no known theme
+        so the background here will be blue!
+    -->
+    <VodProgramInfoPage class="Page.Animated" BackgroundContent="Background_Blue.xml">
+        <ImageFlipper class="ImageFlipper.VodBackground" id="_overlay"/>
+        <Panel class="Panel.Masthead.VodProgramInfo" />
+        <!-- Skin developers can use specific styles to turn banner/heading on/off -->
+        <Image class="Image.VodBranding.VodProgramInfo" id="_watermark" />  
+        <Text class="Text.HeaderTitle.VodProgramInfo" visible="false" id="_headerTitle">#ProgramInfo.ProgramInfo</Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <Text class="Text.ProgramInfo.Waiting.VOD" id="_waiting">#ProgramInfo.Waiting</Text>
+
+		<Panel class="Panel.WholePage" id="_content">
+
+        <Panel class="Panel.MenuBackground.VodProgramInfo" clipchildren="true">
+            <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                <MenuItem class="MenuItem" id="_summaryMenuItem" submenuID="_summaryPane">#ProgramInfo.Menu.Summary</MenuItem>
+                <MenuItem class="MenuItem" id="_detailsMenuItem" submenuID="_detailsPane" Visible="false">#ProgramInfo.Menu.Details</MenuItem>
+                <MenuItem class="MenuItem" submenuPath="CastListSub.xml">#ProgramInfo.Menu.Cast</MenuItem>
+            </Menu> 
+        </Panel>
+   
+        <!-- this panel is the buttons, pip and poster -->
+        <Panel id="_summaryPane" class="Panel.VODProgramInfo" visible="true">
+            <VerticalFlowPanel>
+                <Button class="Button.Vertical" id="_play" onClick="OnClick_Watch" visible="false">#ProgramInfo.Play</Button>
+                <Button class="Button.Vertical" id="_subscribe" onClick="OnClick_Subscribe" visible="false">#SVOD.SubscriptionInfo</Button>			    
+                <Button class="Button.Vertical" id="_rent" onClick="OnClick_Rent" visible="false">#ProgramInfo.Rent</Button>
+                <Button class="Button.Vertical" id="_startOver" onClick="OnClick_StartOver" visible="false">#ProgramInfo.StartOver</Button>
+                <Button class="Button.Vertical" id="_resumePlay" onClick="OnClick_ResumePlay" visible="false">#ProgramInfo.ResumePlay</Button>
+                <Button class="Button.Vertical" id="_download" onClick="OnClick_Download" visible="false">#ProgramInfo.Download</Button>
+                <Button class="Button.Vertical" id="_playLocal" onClick="OnClick_PlayLocal" visible="false">#ProgramInfo.PlayLocal</Button>
+                <Button class="Button.Vertical" id="_cancelDownload" onClick="OnClick_CancelDownload" visible="false">#ProgramInfo.CancelDownload</Button>
+                <Button class="Button.Vertical" id="_deleteDownload" onClick="OnClick_DeleteDownload" visible="false">#ProgramInfo.EraseDownload</Button>
+                <Button class="Button.Vertical" id="_moveToTop" onClick="OnClick_MoveToTop" visible="false">#ProgramInfo.MoveToTop</Button>
+                <Button class="Button.Vertical" id="_watchPreview" onClick="OnClick_WatchPreview" visible="false">#ProgramInfo.WatchPreview</Button>            
+                <Button class="Button.Vertical" id="_unlock" href="action:unlock_adult" visible="false">#ProgramInfo.UnlockAdult</Button>
+            </VerticalFlowPanel>
+           
+            <Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true"/>
+            <Image class="Image.Poster.VodProgramInfo" id="_poster"/>
+
+            <Text class="Text.ChannelInfo" id="_channelInfo" />
+
+            <!-- 
+                ideally, there would be a better "layout manager" here and 
+                the visibility of the group could be controlled.
+                (maybe like <span>)
+            -->
+            <VerticalFlowPanel class="VerticalFlowPanel.Content.VODProgramInfo" id="_proginfopanel" visible="false">
+                <Text class="Text.ProgramInfo.ProgramTitle.Logo" id="_programTitle"/>
+                <Text class="Text.ProgramInfo.TimeAndRating.Logo" id="_duration"/>
+                <Text class="Text.ProgramInfo.TimeAndRating.Details.Vod"  id="_rentalInfo"/>
+                <Text class="Text.ProgramInfo.DownloadStatus"  id="_downloadStatus" visible="false"/>
+                <Text class="Text.Expiration" id="_expiration"/>
+                <Text class="Text.ProgramInfo.Description.Vod" id="_description" />
+                <Text class="Text.ProgramInfo.Cast.Vod" id="_cast" />
+                <Text class="Text.ProgramInfo.ExtraInfo.Vod" id="_extraInfo" />
+            </VerticalFlowPanel>
+            </Panel>
+                         
+            <Panel class="Panel.Root" id="_detailsPane" visible="false">
+                <VerticalFlowPanel class="VerticalFlowPanel.ProgramInfoDetails" id="_proginfopanel2">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Details.Vod" id="_programTitle2" />
+                    <Text class="Text.Expiration" id="_expiration2"/>
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details.Vod" id="_rentalInfo2" />
+                    <TextBox class="TextBox.ProgramInfo" id="_description2" />
+                </VerticalFlowPanel>
+            </Panel>
+            
+            <Panel class="Panel.SubpageContainer.VODProgramInfo" id="_subpageContainer" visible="false"/>
+        </Panel>
+            
+    </VodProgramInfoPage>
+</uidescription>

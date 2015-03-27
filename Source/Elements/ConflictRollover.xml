@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <UpcomingRecordingRollover class="Subpage.RolloverInfo">
+        <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+            <Text class="Text.RolloverInfo.ProgramName" id="_programName"/>
+            <Text class="Text.RolloverInfo.ProgramTime" id="_programTime"/>
+            <Text class="Text.RolloverInfo.ProgramTime.Wide.Error" id="_errorMessage" visible="false"/>
+            <PanelFlipper class="PanelFlipper" id="_flipper">
+                <Text class="Text.RolloverInfo.Description" id="_programDescription"/>
+                <Text class="Text.RolloverInfo.Description" id="_programDetails"/>
+                <Text class="Text.RolloverInfo.Description" id="_cast"/>	
+            </PanelFlipper>
+            <Text class="Text.RolloverInfo.ChannelInfo" id="_channelInfo" visible="false"/> <!-- visible='false' set by v-mgreg JIC we want it agian, Didn't want to remove it from the code just yet-->
+            <Panel class="Panel.ChannelBarNetworkLogo" id="_image"/>
+        </Panel>
+    </UpcomingRecordingRollover>
+</uidescription>

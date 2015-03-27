@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="RetryConfigurations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="RetryAlgorithm">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" />
+                            <xs:element minOccurs="0" name="BackOffDelay" type="xs:unsignedInt" />
+                            <xs:element minOccurs="0" name="BackOffCoefficient" type="xs:decimal" />
+                            <xs:element minOccurs="0" name="SpreadRatio" type="xs:decimal" />
+                            <xs:element minOccurs="0" name="MaxDelay" type="xs:unsignedInt" />
+                            <xs:element minOccurs="0" name="MaxRetries" type="xs:unsignedInt" />
+                            <xs:element minOccurs="0" name="RetryExceptions">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence minOccurs="0">
+                                        <xs:element maxOccurs="unbounded" name="Exception" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="class" type="xs:string" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

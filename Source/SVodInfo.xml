@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SVodInfo class="Page.Animated" BackgroundContent="Background_Blue.xml" limoLine="350">
+<!--
+		<Video class="Video.FullScreen" pipe="FULLSCREEN" ispip="false"/>
+-->
+
+		<ImageFlipper class="ImageFlipper.VodBackground" id="_overlay"/>
+	 
+        <Text class="Text.HeaderTitle.VodStore" id="_title">#VOD.StoreFront</Text>	
+		<Image class="Image.VodBranding" id="_watermark" />
+
+            <Panel class="Panel.VODProgramInfo">
+		        <VerticalFlowPanel>
+			        <Button class="Button.Vertical" id="_browse" onClick="OnClick_Browse">#SVOD.Browse</Button>
+			        <Button class="Button.Vertical" id="_subscribe" onClick="OnClick_Subscribe"/>		    
+		        </VerticalFlowPanel>
+		                		                	        		
+                <VerticalFlowPanel class="VerticalFlowPanel.Content.VODProgramInfo">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Logo" id="_subTitle"/>
+                    <Text class="Text.Expiration" id="_subscribed">#SVOD.Subscribed</Text>
+			        <Text class="Text.ProgramInfo.TimeAndRating.Logo" id="_subscriptionInfo"/>
+                    <Text class="Text.ProgramInfo.Description" id="_description" />
+		        </VerticalFlowPanel>
+            </Panel>
+
+
+    </SVodInfo>
+</uidescription>

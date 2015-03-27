@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ChannelScanningWizardStep3 class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ChannelScanningWizard.Step3</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <!-- gives number of channels found, etc -->
+      <Text class="Text.WizardDescription" id="_description">#Settings.ChannelScanningWizard.Step3.Description</Text>
+      <Panel height="10" />
+
+      <Button class="Button.Menu.Wizard" href="action:guide">#Settings.ChannelScanningWizard.Step3.GoGuide</Button>
+      <Button class="Button.Menu.Wizard" href="action:menu">#Settings.ChannelScanningWizard.Step3.GoMenu</Button>
+    </VerticalFlowPanel>
+
+  </ChannelScanningWizardStep3>
+</uidescription>

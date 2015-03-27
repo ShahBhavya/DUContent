@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <WiFiSettingsNetworkSelectionPage class="Page.Animated" initialFocus="_list">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.WiFi.NetworkSelection.Title</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Cancel" id="_cancel">#Settings.Cancel</Button>
+	  <Button class="Button.Vertical" onClick="OnClick_Back" id="_cancel">#Settings.Back</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription" id="_heading">#Settings.WiFi.NetworkSelection.Heading</Text>
+      <List class="List.WiFi.Networks" id="_list" listCounterId="_listCounter" />
+    </VerticalFlowPanel>
+
+    <Text class="Text.ListCounter.Settings.WiFi" id="_listCounter" />
+	<Text class="Text.Settings.WiFi.NetworkDetail" id="_networkDetail"></Text>
+
+    <Image class="Image.Settings.WiFi.NetworkSelection"/>
+
+  </WiFiSettingsNetworkSelectionPage>
+</uidescription>

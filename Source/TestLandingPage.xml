@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="2.5">
+   <MrmlPage class="Page.Animated" appid="SantaFeLandingPage" id="RealPage" BackgroundContent="Background_Blue.xml" inForwardAnimations="QuickFadeIn" TestId="LandingPage">
+   <Panel id="TVPanel1" top="0">
+      <Text class="Text.HeaderTitle" left="50" top="14">Featured (Home)</Text>
+      <VerticalFlowPanel left="10" top="100">
+         <Button id="vodStoreButton" top="500" left="1" width="100" class="Button" image="Logo_VideoOnDemand.png" href="vodstore">VOD</Button>
+         <!--<Button id="settingsButton" top="1000" left="1" width="100" class="Button" href="page:http://172.29.50.50/Aurash/Settings.xml">Settings</Button>-->
+      </VerticalFlowPanel>
+      <VerticalFlowPanel left="120" top="100">
+         <Button id="errorButton" top="10" left="10" width="200" class="Button" href="start">Error Landing</Button>
+      </VerticalFlowPanel>
+      </Panel>
+      <!-- Animations -->
+      <Animations>
+         <Animation name="OffsetContainer">
+            <Pan from="0" dx="215" dy="0" autoreverse="false" loop="false" duration="0" index="1" /> 
+         </Animation>
+         <Animation name="AnimationContainer0">
+            <Pan from="0" dx="215" dy="0" autoreverse="false" loop="false" duration=".5" index="1" /> 
+         </Animation>
+         <Animation name="AnimationContainer1">
+            <Pan from="215" dx="-215" dy="0" autoreverse="false" loop="false" duration=".5" index="1" /> 
+         </Animation>
+      </Animations>
+      
+      <!-- Actions & Events -->
+      <Actions>
+         <!-- onEnter actions... ping to see if the menu is active. If so, offset the page. -->
+         <Event type="onenter" action="OnEnterPingAction" />
+         <Action name="OnEnterPingAction" type="ping" data="SantaFeMenu" onsucceed="OffsetPage" />
+         <Action name="OffsetPage" type="animation" target="RealPage" data="OffsetContainer" />
+
+         <!-- logic to show the menu on key left -->
+         <Event type="onkey:left" target="RealPage" action="ShowMenu" />
+         <Action name="ShowMenu" type="navigate" data="start" />
+   
+         <!-- listen for & handle the global events -->
+         <Event type="#menuShown" action="ShowAction" />
+         <Event type="#menuHide" action="HideAction" />
+         <Action name="ShowAction" type="animation" target="RealPage" data="AnimationContainer0" /> 
+         <Action name="HideAction" type="animation" target="RealPage" data="AnimationContainer1" /> 
+      </Actions>
+   </MrmlPage>
+</uidescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- _localBinding --><!-- _lcid="2055" _version="" --><stringtable culture="fr-FR" basedOn="en-US" locale="fr-FR" description="French - France">
+	
+    <string id="TripleTap.0" value=" 0"/>
+    <string id="TripleTap.1" value="1"/>
+    <string id="TripleTap.2" value="ABCÀÂÇ2"/>
+    <string id="TripleTap.3" value="DEFÈÉÊË3"/>
+    <string id="TripleTap.4" value="GHIÎÏ4"/>
+    <string id="TripleTap.5" value="JKL5"/>
+    <string id="TripleTap.6" value="MNOÔ6"/>
+    <string id="TripleTap.7" value="PQRS7"/>
+    <string id="TripleTap.8" value="TUVÙÛÜ8"/>
+    <string id="TripleTap.9" value="WXYZ9"/>
+
+</stringtable>
+

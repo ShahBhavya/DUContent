@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ParentalControl_UserTimeLockingDayPage class="Page.Animated" initialFocus="_userTimeLockOption">
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#ParentalControl.Settings.UserTimeLock</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" id="_saveButton" onClick="OnClick_Save">#Settings.Save</Button>
+      <Button class="Button.Vertical" id="_dontSaveButton" onClick="OnClick_DontSave">#Settings.DontSave</Button>
+      <Button class="Button.Vertical" id="_lockAllButton" onClick="OnClick_LockOrUnlockAll">#ParentalControl.Settings.LockAll</Button>
+      <Button class="Button.Vertical" id="_unlockAllButton" onClick="OnClick_LockOrUnlockAll">#ParentalControl.Settings.UnlockAll</Button>
+      <Button class="Button.Vertical" id="_viewLockedOnlyButton" onClick="OnClick_ViewLockedOnly">#Settings.ViewLockedOnly</Button>
+      <Button class="Button.Vertical" id="_viewAllButton" onClick="OnClick_ViewLockedOnly">#Settings.ViewAll</Button>
+      <Button class="Button.Vertical" id="_applyToAllDaysButton" onClick="OnClick_ApplyToAllDays">#Settings.ApplyToAllDays</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.LockedChannelList">
+      <Text class="Text.TimeLock.SelectHoursDescription">#ParentalControl.Settings.UserTimeLock.SelectHours</Text>
+      <List class="List.ParentalControls.TimeLockDayList" id="_list" listCounterId="_listCounter"/>
+    </VerticalFlowPanel>
+    <Text class="Text.ListCounter.Settings" id="_listCounter" />
+    
+    </ParentalControl_UserTimeLockingDayPage>
+</uidescription>

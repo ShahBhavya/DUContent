@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SearchPeopleSub>
+    
+		<EditTextForSearch class="EditText.Search" id="_queryText"/>	
+	
+		<VerticalFlowPanel class="VerticalFlowPanel.Search.Null" id="_nullScreen" visible="true">
+			<Text class="Text.Search.NullScreenFirstSentence">#Search.NullScreen.People.NameSearch</Text>
+			<Text class="Text.Search.NullScreenSecondSentence">#Search.NullScreen.People.Options</Text>
+		</VerticalFlowPanel>
+		
+		<Keyboard class="VerticalFlowPanel.Keyboard" id="_keyboard"/>
+		<List class="List.SearchResults" id="_list" />
+        <Text class="Text.ListCounter.SearchResults" id="_listCounter" />
+        <Text class="Text.Search.ErrorMessage1" id="_errorMsg" visible="false">#Search.ErrorMsg</Text>
+		<Text class="Text.Search.WaitingSub" id="_waiting">#Search.Waiting</Text>
+
+    </SearchPeopleSub>    
+</uidescription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RFProgramRemoteWizard4 class="Page.Animated">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.RfProgramRemote.Wizard4</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription.Title">#Settings.RfProgramRemote.Wizard4.Title</Text>
+      <Text class="Text.SettingsDescription.Body.RFRemote">#Settings.RfProgramRemote.Wizard4.Description.Part1</Text>
+      <HorizontalFlowPanel height="auto" class="Text.SettingsDescription.Body.Indent">
+        <Text class="Text.Settings.RFNumbers">{RandomCode1}</Text>
+        <Text class="Text.Settings.RFNumbers">{RandomCode2}</Text>
+        <Text class="Text.Settings.RFNumbers">{RandomCode3}</Text>
+      </HorizontalFlowPanel>
+      <Text class="Text.SettingsDescription.Body">#Settings.RfProgramRemote.Wizard4.Description.Part2</Text>
+      <HorizontalFlowPanel height="auto">
+        <Text class="Text.SettingsDescription.Body.RFRemote.Short">#Settings.RfProgramRemote.Wizard4.Description.Part3</Text>
+        <Image class="Image.RfProgramRemote.Enter"/>
+      </HorizontalFlowPanel>
+    </VerticalFlowPanel>
+    <Text class="Text.SettingsDescription.RFFooter">#Settings.RfProgramRemote.Wizard.Footer</Text>
+    <Image class="Image.RfProgramRemote.Stop"/>
+  </RFProgramRemoteWizard4>
+</uidescription>

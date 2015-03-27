@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <FirstRunSelectLanguage class="Page.Animated.FirstRun">
+      <Text class="Text.HeaderTitle.FirstRun" id="_header">#FirstRunSelectLanguage.Header</Text>
+      <Text class="Text.SubheaderTitle.FirstRun">#FirstRunSelectLanguage.SubHeader</Text>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.Content.FirstRunSelectLanguage">
+        <Text class="Text.FirstRunSelectLanguage.ListHeader">#FirstRunSelectLanguage.ListHeader</Text>
+        <List class="List.FirstRunSelectLanguage" id="_list"/>
+      </VerticalFlowPanel> 
+    </FirstRunSelectLanguage>
+</uidescription>

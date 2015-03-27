@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <VodCategoryRollover class="Subpage.RolloverInfo">
+	    <Video class="Video.PIP.Guide" id="_pip" pipe="PIP" ispip="true"/>
+		<SlideShow class="SlideShow.PIP" id="_poster"/>
+	    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName.VOD" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime.VOD" id="_programTime"/>
+			<Text class="Text.RolloverInfo.Description.VOD" id="_programDescription"/>
+		</Panel>
+    </VodCategoryRollover>
+</uidescription>

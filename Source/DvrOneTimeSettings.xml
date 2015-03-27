@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrOneTimeSettingsPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle" id="_pagetitle" />
+        <Text class="Text.SubheaderTitle" id="_title">#</Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.DvrManualRecordPage">
+            <Button class="Button.Vertical" onClick="OnClick_Record" visible="false" id="_record" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.Record</Button>
+            <Button class="Button.Vertical" onClick="OnClick_Save" visible="false" id="_save" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.Save</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontSave" visible="false" href="action:back" id="_dontSave" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.DontSave</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontRecord" visible="false" id="_dontRecord" href="action:back" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.DontRecord</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontChange" visible="false" id="_dontChange" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#VOD.CreditLimitDontChange</Button>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.DvrManualRecordPage">
+
+            <Panel class="" id="_changePanel" visible="false" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader" id="_listTitle" />
+                <SimpleRadioList class="List.RecordSettings" id="_list" listCounterId="_listCounter" />
+                <Text class="Text.ListCounter.DvrSettings" id="_listCounter" />
+            </Panel>
+
+            <Panel class="" id="_stationPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.ChannelLabel</Text>
+                <Text class="Text.NoSpinner" id="_station" />
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_timePanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.TimeLabel</Text>
+                <Text class="Text.NoSpinner" id="_time" />
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_stopPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.StopRecordingLabel</Text>
+                <Text class="Text.NoSpinner" id="_stopTime" visible="false" />
+                <Button class="Button.RecordSettings" id="_hardEndPaddingButton" onClick="OnClick_Padding" OnValueChange="HardEndPaddingChanged" />
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_keepUntilPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.KeepUntilLabel</Text>
+                <Button class="Button.RecordSettings" id="_keepUntilButton" onClick="OnClick_Keep" OnValueChange="KeepUntilChanged" />
+            </Panel>
+
+        </VerticalFlowPanel>
+
+    </DvrOneTimeSettingsPage>
+</uidescription>

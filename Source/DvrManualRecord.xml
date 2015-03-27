@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrManualRecordPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle" id="_header">#DVR.ManualRecordHeader</Text>
+        <Text class="Text.SubheaderTitle">#DVR.ManualRecordSubHeader</Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.DvrManualRecordPage">
+            <Button class="Button.Vertical.DvrManualAdd" onClick="OnClick_Record" visible="false" id="_record" >#DVR.Record</Button>
+            <Button class="Button.Vertical.DvrManualAdd" onClick="OnClick_Save" visible="false" id="_save" >#DVR.Save</Button>
+            <Button class="Button.Vertical.DvrManualAdd" onClick="OnClick_DontSave" visible="false" id="_dontSave" href="action:back" >#DVR.DontSave</Button>
+            <Button class="Button.Vertical.DvrManualAdd" onClick="OnClick_DontRecord" visible="false" id="_dontRecord" href="action:back" >#DVR.DontRecord</Button>
+            <Button class="Button.Vertical.DvrManualAdd" onClick="OnClick_DontChange" visible="false" id="_dontChange" >#VOD.CreditLimitDontChange</Button>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.DvrManualRecordPage">
+
+            <Panel class="" id="_changePanel" visible="false" showAnimations="QuickFadeIn" hideAnimations="QuickFadeOut">
+                <Text class="Text.SpinnerHeader" id="_listTitle" />
+                <SimpleRadioList class="List.RecordSettings" id="_list" listCounterId="_listCounter" />
+                <Text class="Text.ListCounter.DvrSettings" id="_listCounter" />
+            </Panel>
+
+            <Panel class="" id="_stationPanel" showAnimations="QuickFadeIn" hideAnimations="QuickFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.ChannelLabel</Text>
+                <EditText class="EditText.ManualRecordingPage.Channel"  digitsonly="true" maxchars="5" id="_channel" OnValueChange="ChannelTextChanged" nextDown="_dateButton" />
+                <Text class="Text.NoSpinner" left="105" width="251" id="_channelCallsign" />
+            </Panel>
+
+            <Panel height="16" id="_spacePanel1"/>
+
+            <!--<Panel class="Panel.SpinnerBackground">
+                <Text class="Text.SpinnerHeader">#DVR.FrequencyLabel</Text>
+                <Spinner class="Spinner.ManualRecordingPage" id="_frequencySpinner" OnValueChange="FrequencyChanged">
+                </Spinner>
+            </Panel>-->
+
+            <Panel class="" id="_datePanel" showAnimations="QuickFadeIn" hideAnimations="QuickFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.RecordDateLabel</Text>
+                <Button class="Button.RecordSettings" id="_dateButton" onClick="OnClick_Date" OnValueChange="DateChanged" nextDown="_startHour" />
+            </Panel>
+
+            <Panel height="16" id="_spacePanel2"/>
+
+            <Panel class="" id="_timePanel" showAnimations="QuickFadeIn" hideAnimations="QuickFadeOut">
+                <HorizontalFlowPanel>
+                    <Text class="Text.SpinnerHeader" margin="rect(5,0,0,0)" width="182" id="_startLabel">#DVR.StartLabel</Text>
+                    <Text class="Text.SpinnerHeader" margin="rect(5,0,0,0)">#DVR.StopLabel</Text>
+                </HorizontalFlowPanel>
+
+                <HorizontalFlowPanel>
+                    <Panel id="_startPanel" width="187" >
+                        <EditText class="EditText.ManualRecordingPage.Hour" justification="right" digitsonly="true" maxchars="2" id="_startHour" nextUp="_dateButton" />
+                        <Text class="Text.Dvr.ManualRecord.TimePanel">:</Text>
+                        <EditText class="EditText.ManualRecordingPage.Mins" digitsonly="true" maxchars="2" id="_startMinute" nextUp="_dateButton" />
+                        <Button class="Button.AMPM" onClick="OnClick_StartAMPM" visible="true" id="_startAmPm">#DVR.Time.AM</Button>
+                    </Panel>
+
+                    <Panel width="170">
+                      <EditText class="EditText.ManualRecordingPage.Hour" justification="right" digitsonly="true" maxchars="2" id="_stopHour" />
+                      <Text class="Text.Dvr.ManualRecord.TimePanel">:</Text>
+                      <EditText class="EditText.ManualRecordingPage.Mins" digitsonly="true" maxchars="2" id="_stopMinute" />
+                      <Button class="Button.AMPM" onClick="OnClick_StopAMPM" visible="true" id="_stopAmPm">#DVR.Time.AM</Button>
+                    </Panel>
+                </HorizontalFlowPanel>
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_keepUntilPanel" showAnimations="QuickFadeIn" hideAnimations="QuickFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.KeepUntilLabel</Text>
+                <Button class="Button.RecordSettings" id="_keepUntilButton" onClick="OnClick_Keep" OnValueChange="KeepUntilChanged" nextUp="_startHour" />
+            </Panel>
+
+        </VerticalFlowPanel>
+    </DvrManualRecordPage>
+</uidescription>

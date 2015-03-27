@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<VodStoreListSub>
+		<Text class="Text.VodStorePleaseWait" id="_pleaseWait">#VOD.PleaseWait</Text>
+		<Text class="Text.VodStorePleaseWait" id="_unavailable" visible="false">#VOD.Unavailable</Text>
+		<List class="List.VodStore.ListView" id="_list" listCounterId="_listCounter" />
+    	<Panel class="Panel.RolloverContainer.DvrRollover" id="_rolloverContainer" />
+    	<Text class="Text.ListCounter.VodListWide" id="_listCounter" />
+	</VodStoreListSub>
+</uidescription>

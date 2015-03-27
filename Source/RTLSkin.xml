@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Skin.xml">
+
+  <!-- Menu styles -->
+  <style class="Menu" top="59" left="0" leftBracketURL="Arrow_NavMenu_Right.png" rightBracketURL="Arrow_NavMenu_Left.png" bracketheight="25" bracketWidth="25" spaceAfterLeftBracket="12" spaceBeforeRightBracket="12" spaceBetweenBracketAndNonSelectItem="18" spaceBetweenTwoNonSelectItem="27" background="@Transparent" leftInAnimation="MenuInLeft" leftOutAnimation="MenuOutLeft" rightInAnimation="MenuInRight" rightOutAnimation="MenuOutRight">
+    <style class="Menu.Start" selectedItemVOffset="-6" unselectedItemVOffset="-6" top="8" left="102"/>
+    <style class="Menu.BrowseBar" top="0" left="200" scale="78"/>
+    <style class="Menu.Top" top="5" left="70" bracketheight="21" bracketWidth="21" spaceAfterLeftBracket="8" spaceBeforeRightBracket="8" spaceBetweenBracketAndNonSelectItem="19" spaceBetweenTwoNonSelectItem="25" selectedItemVOffset="-7" unselectedItemVOffset="-6">
+      <style class="Menu.Top.VodStore" selectedItemVOffset="-5" leftBracketURL="Arrow_Nav_Right.png" rightBracketURL="Arrow_Nav_Left.png"/>
+    </style>
+    <style class="Menu.OptionsPanel" leftBracketURL="Arrow_Nav_Right.png" rightBracketURL="Arrow_Nav_Left.png" bracketHeight="21" bracketWidth="21" spaceAfterLeftBracket="5" spaceBeforeRightBracket="5" spaceBetweenBracketAndNonSelectItem="10" spaceBetweenTwoNonSelectItem="10" selectedItemVOffset="-4" unselectedItemVOffset="-4" margin="rect(0,48,0,0)" width="236" left="47" clipchildren="true"/>
+  </style>
+
+
+  <style class="Image.LeftGuideArrow" url="Arrow_Guide_Right.png" top="0" height="31" width="17"/>
+  <style class="Image.RightGuideArrow" url="Arrow_Guide_Left.png" top="0" height="31" width="17"/>
+
+  <!-- styles controling the up/down/left/right arrows that appear on the Now/Next bar -->
+  <style class="Image.Rosette" height="27" width="27">
+    <style class="Image.Rosette.UpArrow" url="BrowseArrow.Up.png" top="8" left="558"/>
+    <style class="Image.Rosette.DownArrow" url="BrowseArrow.Down.png" top="60" left="558"/>
+    <style class="Image.Rosette.LeftArrow" url="BrowseArrow.Right.png" top="34" left="30"/>
+    <style class="Image.Rosette.RightArrow" url="BrowseArrow.Left.png" top="34" left="583"/>
+  </style>
+
+</styles>

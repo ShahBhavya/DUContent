@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrRecordedMenuPage class="Page.AnimatedNavBar">
+      <Panel class="Panel.Masthead" height="110" />
+        <Text class="Text.HeaderTitle">#DVR.RecordedHeader</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+		
+		<Panel class="Panel.MenuBackground" clipchildren="true">
+		    <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                
+                <!-- operator can pick/choose the UX on the Recorded TV page. Simple set the 'visible' flag to true or false as desired -->
+
+                <!-- The following 2 items keep both "by date" and "by title" where both list are bucketed -->
+                <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" id="_bydategrouped2" Tag="ByDateGrouped" visible="true">#DVR.Menu.ByDate</MenuItem>
+                <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" id="_bytitlegrouped" Tag="ByTitleGrouped" visible="true">#DVR.Menu.ByTitle</MenuItem>
+
+                <!-- The simple, elegant single recording list solution. A single bucketed list ordered by date with a title "Recorded" -->
+                <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" id="_bydategrouped" Tag="ByDateGrouped" visible="false">#DVR.Menu.ByDateGrouped</MenuItem>
+
+                <!-- The following 2 items maintain old flat list UX -->
+                <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" id="_bydate" Tag="ByDate" visible="false">#DVR.Menu.ByDate</MenuItem>
+                <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" id="_bytitle" Tag="ByTitle" visible="false">#DVR.Menu.ByTitle</MenuItem>
+                
+                <!-- end of configurable section -->
+                
+                <MenuItem class="MenuItem" subMenuPath="DvrAddRecordingSub.xml" id="_addrecording" Tag="AddRecording">#DVR.Menu.AddRecording</MenuItem>
+                <MenuItem class="MenuItem" subMenuPath="DvrUpcomingSub.xml" id="_scheduled" Tag="Scheduled">#DVR.Menu.Scheduled</MenuItem>
+                <MenuItem class="MenuItem" subMenuPath="DvrSeries.xml" id="_series" Tag="Series">#DVR.Menu.Series</MenuItem>
+            </Menu> 
+		</Panel>		
+
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer"/>
+
+    </DvrRecordedMenuPage>
+</uidescription>

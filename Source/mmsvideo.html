@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Moving Images Demo</title>
+    <!-- load the CSS style sheet -->
+    <link rel="stylesheet" type="text/css" href="video.css" />
+    <!-- load the script that will control the animation -->
+    <script type="text/ecmascript" src="video.js"></script>
+</head>
+<body onload="init();">
+  <!-- this is the container that will be moved -->
+  <div id="box" class="movingBox">
+    <!-- if the browser supports the Windows Media Player this
+         will initialize it and load the streaming video       -->
+    <a href="">
+    <object id="video" class="tvpip" type="video/x-ms-iptv">  <!-- -->
+      <param name="url" value="wms:http://wm.microsoft.com/ms/msnse/0605/27723/carnegie_mellon_robotics_tour_2006_MBR.wmv" />
+      <img id="image" src="images/colorbar.png" class="altImage" alt="Colorbar"/>
+    </object>
+    </a>
+    <div>Moving Images</div>
+  </div>
+</body>
+</html>

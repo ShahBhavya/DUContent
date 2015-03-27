@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ManualTransponderScanWizardStep1 class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ManualTransponderScanWizard.Step1</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Menu">
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Scan" id="_scan">#Settings.ManualTransponderScanWizard.Step1.Scan</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Add" id="_add">#Settings.ManualTransponderScanWizard.Step1.Add</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Remove" id="_remove">#Settings.ManualTransponderScanWizard.Step1.Remove</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Cancel" id="_cancel">#Settings.ManualTransponderScanWizard.Step1.Cancel</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Content">
+      <Text class="Text.ManualTransponderScanWizard.Description" id="_description1">#Settings.ManualTransponderScanWizard.Step1.Description1</Text>
+      <Text class="Text.ManualTransponderScanWizard.Description" id="_description2">#Settings.ManualTransponderScanWizard.Step1.Description2</Text>
+      <List class="List.ManualTransponderScanWizard.Transponder" id="_list"/>
+    </VerticalFlowPanel>
+  
+  </ManualTransponderScanWizardStep1>
+</uidescription>

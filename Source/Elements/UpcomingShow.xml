@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <Panel class="Panel.MultiShow">
+	    <Text class="Text.RolloverInfo.MultiStartTime"/>
+        <Text class="Text.RolloverInfo.MultiProgramName"/>
+		<Panel class="Panel.RolloverInfo.RecordingIcon" background="image(Record.png)"/>
+		<Panel class="Panel.RolloverInfo.RecordingIcon" background="image(Record_Conflict.png)"/>
+    </Panel>
+</uidescription>

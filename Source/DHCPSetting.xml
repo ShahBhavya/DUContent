@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DHCPSetting class="Page.Background">
+        <Text class="Text.HeaderTitle">#DHCP.Setting</Text>	
+		<Text class="Text.ProgramInfo.ProgramTitle" id="_desc" left="100" top="202" width="400" >#DHCP.Setting.Desc</Text>			
+		<HorizontalFlowPanel width="640" left="140" top="400">
+			<Button class="Button.Dialog" left="100" width="120"  layout="center" id="_Reboot" onClick="OnClick_Reboot">#DHCP.Setting.Reboot</Button>
+			<Button class="Button.Dialog" width="120"  layout="center" id="_Back" onClick="OnClick_Back">#DHCP.Setting.Back</Button>                                
+		</HorizontalFlowPanel>
+    </DHCPSetting>
+</uidescription>

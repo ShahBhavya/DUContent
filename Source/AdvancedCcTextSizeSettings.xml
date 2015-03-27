@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<uidescription>
+  <AdvancedCcTextSizeSettingsPage class="Page.Animated" initialFocus="_saveButton">
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_ccSubHeader">#Settings.ClosedCaption.Advanced.TextSize.Heading</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+        <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+        <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+    </VerticalFlowPanel>
+
+    <Video class="Video.PIP.ProgramInfo" id="_preview" pipe="pipcc" ispip="false" background="@Transparent"/>
+      
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+        <Text class="Text.ClosedCaptionDescription" >#Settings.ClosedCaption.Advanced.TextSize.Description</Text>
+        <List class="List.CCSettings" id="_list" listCounterId="_listCounter"/>
+    </VerticalFlowPanel>
+    <Text class="Text.ListCounter.Settings" id="_listCounter" />
+  </AdvancedCcTextSizeSettingsPage>
+</uidescription>

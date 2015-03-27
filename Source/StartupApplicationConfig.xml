@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StartupApplications>
+  <!--
+   Applications added to this file will be started during the startup of the client.
+   Multiple applications may be defined.
+   
+   If one of the applications targets the page layer the default behavior (staring video in fullscreen)
+   will be overwritten and the defined application will get launched instead.
+   
+   If multiple applications target the same layer, the last in the list will get displayed.
+  -->
+  <!-- <App url="page:http://server.com/Mediaroom/default.aspx?__MPFLayer=page/1" /> -->
+</StartupApplications>

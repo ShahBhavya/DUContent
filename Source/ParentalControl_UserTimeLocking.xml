@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<ParentalControl_UserTimeLockingPage class="Page.Animated" initialFocus="_userTimeLockOption">
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.UserTimeLock</Text>
+		<Text class="Text.Clock">{Time}</Text>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_saveButton" onClick="OnClick_Save">#Settings.Save</Button>
+			<Button class="Button.Vertical" id="_dontSaveButton" onClick="OnClick_DontSave">#Settings.DontSave</Button>
+		</VerticalFlowPanel>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.SingleCheckboxSmall">
+			<Checkbox class="Lockbox.Settings.ParentalControl" onClick="OnClick_ToggleLock" id="_userTimeLockOption">#ParentalControl.Settings.UserTimeLock</Checkbox>
+			<Text class="Text.UserTimeLock.Description" id="_description">#ParentalControl.Settings.UserTimeLock.Description</Text>
+		</VerticalFlowPanel>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Content.TimeLockList">
+			<Text class="Text.TimeLock.SelectDescription">#ParentalControl.Settings.UserTimeLock.SelectDay</Text>
+			<List class="List.ParentalControls.TimeLockList" id="_list" listCounterId="_listCounter" />
+		</VerticalFlowPanel>
+		<Text class="Text.ListCounter.Settings" id="_listCounter" />
+
+	</ParentalControl_UserTimeLockingPage>
+</uidescription>

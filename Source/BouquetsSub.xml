@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <BouquetSubpage>
+    <VerticalFlowPanel class="VerticalFlowPanel.Bouquet.LeafBouqetList">
+      <List class="List.Bouquets" id="_list" listCounterId="_listCounter"/>
+    </VerticalFlowPanel>
+    
+    <Text class="Text.ListCounter.LeafBouquetList" id="_listCounter"/>
+    
+  </BouquetSubpage>
+</uidescription>

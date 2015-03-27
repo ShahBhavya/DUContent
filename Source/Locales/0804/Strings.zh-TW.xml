@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringtable culture="zh-TW" basedOn="en-US" locale="zh-TW" description="中文（繁體）">
+  <string id="StringFormatDefault" value="•" />
+  <string id="TripleTap.0" value=" 0" />
+  <string id="TripleTap.1" value="1" />
+  <string id="TripleTap.2" value="ABC2" />
+  <string id="TripleTap.3" value="DEF3" />
+  <string id="TripleTap.4" value="GHI4" />
+  <string id="TripleTap.5" value="JKL5" />
+  <string id="TripleTap.6" value="MNO6" />
+  <string id="TripleTap.7" value="PQRS7" />
+  <string id="TripleTap.8" value="TUV8" />
+  <string id="TripleTap.9" value="WXYZ9" />
+  <string id="TripleTapExtended.0" value="0)" />
+  <string id="TripleTapExtended.1" value="1!" />
+  <string id="TripleTapExtended.2" value="ABCabc2@" />
+  <string id="TripleTapExtended.3" value="DEFdef3#" />
+  <string id="TripleTapExtended.4" value="GHIghi4$" />
+  <string id="TripleTapExtended.5" value="JKLjkl5%" />
+  <string id="TripleTapExtended.6" value="MNOmno6^" />
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&amp;" />
+  <string id="TripleTapExtended.8" value="TUVtuv8*" />
+  <string id="TripleTapExtended.9" value="WXYZwxyz9(" />
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="選單" />
+  <string id="Start.Television" value="電視頻道" />
+  <string id="Start.Videos" value="隨選影片" />
+  <string id="Start.RecordedTV" value="錄製節目" />
+  <string id="Start.Search" value="搜尋" />
+  <string id="Start.Extras" value="其他" />
+  <string id="Start.Settings" value="設定" />
+  <string id="Start.Videos.BrowseVideos" value="瀏覽影片選單" />
+  <string id="Start.Videos.CurrentRentals" value="租期影片" />
+  <string id="Start.Videos.Downloads" value="節目下載" />
+  <string id="Start.Videos.Search" value="搜尋" />
+  <string id="Start.Television.WatchTV" value="收看電視" />
+  <string id="Start.Television.Bouquets" value="分類"/>
+  <string id="Start.Television.Guide" value="節目表" />
+  <string id="Start.Television.RecordedTV" value="錄製節目" />
+  <string id="Start.Television.VideoStore" value="隨選影片" />
+  <string id="Start.Television.Favorites" value="最愛" />
+  <string id="Start.Television.Mosaic" value="多角度視訊" />
+  <string id="Start.Television.Teletext" value="電傳視訊" />
+  <string id="Start.Television.CreditLimit" value="消費上限" />
+  <string id="Start.Television.Search" value="搜尋" />
+  <string id="Start.Television.SearchTitle" value="搜尋標題" />
+  <string id="Start.Television.SearchPeople" value="搜尋人名" />
+  <string id="Start.Television.Movies" value="電影" />
+  <string id="Start.Television.Sports" value="體育" />
+  <string id="Start.Television.Kids" value="兒童" />
+  <string id="Start.Television.Categories" value="分類" />
+  <string id="Start.Search.Categories" value="分類" />
+  <string id="Start.Search.Sports" value="體育" />
+  <string id="Start.Search.Kids" value="兒童" />
+  <string id="Start.Extras.BrowseExtras" value="瀏覽應用服務" />
+  <string id="Start.Extras.OnlineSpot" value="線上焦點" />
+  <string id="Start.Extras.MosaicApps" value="多角度視訊應用服務" />
+  <string id="Start.Extras.MediaSharing" value="照片和音樂" />
+  <!-- photos and music (eventually videos as well) -->
+  <string id="Start.Extras.Messages" value="消息" />
+  <string id="Start.RecordedTV.BrowseRecordings" value="檢視已錄節目" />
+  <string id="Start.RecordedTV.Scheduled" value="預約錄影" />
+  <string id="Start.RecordedTV.AddRecording" value="新增錄影" />
+  <string id="Start.Settings.General" value="一般" />
+  <string id="Start.Settings.Television" value="電視" />
+  <string id="Start.Settings.ParentalControl" value="密碼設定" />
+  <string id="Start.Settings.Account" value="帳號" />
+  <string id="Start.Settings.PowerOff" value="關機" />
+  <string id="Start.Settings.Restart" value="重新啟動" />
+  <string id="Start.Settings.Hibernate" value="休眠" />
+  <string id="Start.MenuForButtons" value="主選單" />
+  
+  <!-- Bouquets -->
+  <string id="Bouquets.ChannelsIndicator.Singular" value="頻道" />
+  <string id="Bouquets.ChannelsIndicator.Plural" value="頻道" />
+  <string id="Bouquets.GroupIndicator" value="更多..." />
+  <string id="Bouquets.Page.Title" value="分類" />
+
+  <!-- Xbox360 unsupported message. Seen when we go to an unsupport feature on the Xbox -->
+  <string id="Start.Extras.Xbox360.Unsupported" value="This feature is not available on the Xbox 360 system."/>
+
+  <!-- Xbox360 Start Menu Help Button -->
+  <string id="Start.Settings.Help" value="Help"/>
+
+  <!-- Xbox360 Start Menu -->
+  <string id="Start.Settings.ExitTv" value="Xbox Dashboard"/>
+  
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="節目資訊" />
+  <string id="ProgramInfo.RecordingStopped" value="錄影已被中止" />
+  <string id="ProgramInfo.Watch" value="觀看" />
+  <string id="ProgramInfo.CancelRental" value="取消訂閱" />
+  <string id="ProgramInfo.RecordProgram" value="錄製節目" />
+  <string id="ProgramInfo.Erase" value="刪除" />
+  <string id="ProgramInfo.KeepUntil" value="保留到" />
+  <string id="ProgramInfo.StopRecording" value="停止錄影" />
+  <string id="ProgramInfo.RecordSeries" value="預錄連續劇或系列節目" />
+  <string id="ProgramInfo.CancelSeries" value="取消預錄連續劇或系列節目" />
+  <string id="ProgramInfo.RecordEpisode" value="預錄章節或單集連續劇" />
+  <string id="ProgramInfo.OtherShowings" value="其他時間" />
+  <string id="ProgramInfo.AudioLanguages" value="切換聲道" />
+  <!-- {0}: the audio language we are now displaying-->
+  <string id="ProgramInfo.AudioLanguages.Changed" value="聲道切換為{0}" />
+  <string id="ProgramInfo.SubtitleLanguages" value="字幕" />
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="字幕切換為{0}" />
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="關閉字幕" />
+  <string id="ProgramInfo.SecondaryAudio" value="第二聲道" />
+  <string id="ProgramInfo.RecordSetting" value="預錄設定" />
+  <string id="ProgramInfo.SeriesSetting" value="預錄連續劇或系列節目設定" />
+  <string id="ProgramInfo.SeriesInfo" value="連續劇及系列節目資訊" />
+  <string id="ProgramInfo.DontRecord" value="不錄製" />
+  <string id="ProgramInfo.ResolveConflict" value="解決衝突" />
+  <string id="ProgramInfo.RecordingDeleted" value="刪除預錄節目" />
+  <!-- {0}, {1}, {2}, {3} are the same thing. It is just a setting in TV2Config to show the long description.
+  It is currently set to show the description of the program four times. -->
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}" />
+  <!-- This is used in several places. {0} is the channel. {1} is always the string "Bullet" listed above in here
+  {2} is the time in text form-->
+  <string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}" />
+  <!-- {0}: channel information. {1}:call letters of the channel. -->
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}" />
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}" />
+  <!-- Doesn't seem to be used -->
+  <string id="ProgramInfo.Series.Time" value="{0}, {1}" />
+  <string id="ProgramInfo.Series.RecordingScheduledZeroCanceled" value="已被用戶取消預錄連續劇或系列節目" />
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="沒有預約錄影" />
+  <string id="ProgramInfo.Series.RecordingConflictedOne" value=" (1 CONFLICTED)" />
+  <!-- {0}: the number of recordings conflicted. -->
+  <string id="ProgramInfo.Series.RecordingConflictedMany" value=" ({0} CONFLICTED)" />
+  <string id="ProgramInfo.Series.RecordingConflictedAll" value="{0} CONFLICTED" />
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="1 個預約錄影" />
+  <!-- {0}: the number of recordings scheduled. -->
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value="{0} 個預約錄影" />
+  <string id="ProgramInfo.Series.ExistingRecordingsZero" value="0 個已錄節目" />
+  <string id="ProgramInfo.Series.ExistingRecordingsOne" value="1 個已錄節目" />
+  <!-- {0}: the number of existings recordings. -->
+  <string id="ProgramInfo.Series.ExistingRecordingsMany" value="{0} 個已錄節目" />
+  <string id="ProgramInfo.Done" value="完成"/>
+  <string id="ProgramInfo.Play" value="播放" />
+  <string id="ProgramInfo.Pending" value="暫停..." />
+  <string id="ProgramInfo.PendingAppendage" value="(暫停) " />
+  <string id="ProgramInfo.Rent" value="訂閱" />
+  <string id="ProgramInfo.PurchaseInfo" value="訂閱資訊" />
+  <string id="ProgramInfo.StartOver" value="從頭開始播放" />
+  <string id="ProgramInfo.ResumePlay" value="繼續播放" />
+  <string id="ProgramInfo.MoreLikeThis" value="更多類似節目" />
+  <string id="ProgramInfo.WatchPreview" value="預覽" />
+  <string id="ProgramInfo.UnlockAdult" value="解除鎖定" />
+  <string id="ProgramInfo.NoCastInfomation" value="沒有節目資訊" />
+  <string id="ProgramInfo.ProgramDateFormatString" value="ddd M/d, " />
+  <string id="ProgramInfo.ProgramDateNoDayFormatString" value="M/d," />
+  <string id="ProgramInfo.StartTimeFormatString" value="t" />
+  <string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t" />
+  <string id="ProgramInfo.EndTimeFormatString" value="t" />
+  <string id="ProgramInfo.AirDateFormatString" value="yyyy/MM/dd" />
+  <string id="ProgramInfo.VODAvailableDate" value="yyyy/MM/dd h:mmtt" />
+  <string id="ProgramInfo.VODAvailableUntil" value="{0}之前可訂閱" />
+  <!-- {0}: the extra text information and {1} is the duration-->
+  <string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}." />
+  <string id="ProgramInfo.SeriesString" value="連續劇與系列節目" />
+  <!-- add \ if using general category -->
+  <string id="ProgramInfo.MovieString" value="電影" />
+  <!-- add \ if using general category -->
+  <!-- ProgramInfo.GeneralCategory is optional (you can replace it with an empty string). If you do, also remove backslash from ProgramInfo.SeriesString and ProgramInfo.MovieString. -->
+  <string id="ProgramInfo.GeneralCategory" value="一般" />
+  <string id="ProgramInfo.OriginalAirDateString" value="， 原公佈日期： {0}" />
+  <string id="ProgramInfo.OriginalTitle" value="原標題：{0}" />
+  <!-- {0}: the release year-->
+  <string id="ProgramInfo.ReleasedString" value="發佈于: {0}" />
+  <string id="ProgramInfo.ClosedCaptioning" value="CC" />
+  <string id="ProgramInfo.Waiting" value="節目資訊下載中" />
+  <string id="ProgramInfo.AcceptOffer" value="訂閱" />
+  <string id="ProgramInfo.MoreInfo" value="節目資訊" />
+  <string id="ProgramInfo.DeclineOffer" value="不訂閱" />
+  <string id="ProgramInfo.DeclineOffer.Free" value="不播放" />
+  <string id="ProgramInfo.DeclineSubscription" value="不訂閱" />
+  <string id="ProgramInfo.Unavailable" value="目前無法提供節目資訊" />
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="用戶取消錄製此章節。" />
+  <string id="ProgramInfo.CanceledInstance" value="根據用戶要求此章節將不被錄製。" />
+  <string id="ProgramInfo.DirectedBy" value="導演" />
+  <string id="ProgramInfo.Menu.Summary" value="簡介" />
+  <string id="ProgramInfo.Menu.Details" value="內容介紹" />
+  <string id="ProgramInfo.Menu.Cast" value="角色及劇組" />
+  <string id="ProgramInfo.Cast.Cast" value="演員" />
+  <string id="ProgramInfo.Cast.Hosts" value="主演" />
+  <string id="ProgramInfo.Cast.GuestStars" value="客串演員" />
+  <string id="ProgramInfo.Cast.Directors" value="導演" />
+  <string id="ProgramInfo.Cast.Writers" value="編劇" />
+  <string id="ProgramInfo.Cast.Producers" value="製片商" />
+  <string id="ProgramInfo.Download" value="下載" />
+  <string id="ProgramInfo.Download.Message" value="您確定要下載[{0}]嗎?" />
+  <string id="ProgramInfo.Download.Message.Yes" value="下載" />
+  <string id="ProgramInfo.Download.Message.No" value="不要下載" />
+  <string id="ProgramInfo.CancelDownload" value="不要下載" />
+  <string id="ProgramInfo.CancelDownload.Message" value="您確定您要取消下載[{0}]嗎?" />
+  <string id="ProgramInfo.CancelDownload.Message.Yes" value="取消下載" />
+  <string id="ProgramInfo.CancelDownload.Message.No" value="繼續下載" />
+  <string id="ProgramInfo.EraseDownload" value="刪除" />
+  <string id="ProgramInfo.EraseDownload.Message" value="您確定您要刪除[{0}]嗎?" />
+  <string id="ProgramInfo.EraseDownload.Message.Yes" value="刪除" />
+  <string id="ProgramInfo.EraseDownload.Message.No" value="不刪除" />
+  <string id="ProgramInfo.MoveToTop" value="優先下載" />
+  <string id="ProgramInfo.MoveToTop.Message" value="您確定您要優先下載[{0}]嗎?" />
+  <string id="ProgramInfo.MoveToTop.Message.Yes" value="優先下載" />
+  <string id="ProgramInfo.MoveToTop.Message.No" value="不優先下載" />
+  <string id="ProgramInfo.PlayLocal" value="本機播放" />
+  <string id="ProgramInfo.DownloadUntil" value="保留到 {0}" />
+  <string id="ProgramInfo.AvailableUntil" value="保留到 {0}" />
+  <string id="ProgramInfo.AvailableAt" value="保留到可租看期限 {0}" />
+  <string id="ProgramInfo.RentedUntil" value="租期結束 {0}" />
+  <string id="ProgramInfo.DownloadStatus.Scheduled" value="已預約下載" />
+  <string id="ProgramInfo.DownloadStatus.Downloading" value="節目下載中" />
+  <string id="ProgramInfo.DownloadStatus.Percent" value="下載完成 {0}%" />
+  <string id="ProgramInfo.DownloadStatus.Failed" value="當可以下載時自動繼續" />
+  <string id="ProgramInfo.DownloadStatus.Downloaded" value="已下載" />
+  <string id="ProgramInfo.DownloadMissing" value="尚未下載可租看的影片" />
+  <string id="SeriesInfo.Menu.Summary" value="設定" />
+  <string id="SeriesInfo.ChangeSettings" value="更改設定" />
+  <!-- Parental Control -->
+  <string id="ParentalControl.ForbiddenPinMessage" value="密碼不符，請重新輸入。" />
+  <!-- {0}: the list of unallowed pins-->
+  <string id="ParentalControl.ForbiddenPinListMessage" value="後列密碼不符: {0}." />
+  <string id="ParentalControl.IncorrectPinMessage" value="您輸入的密碼不正確，請重新輸入 {0} 位數的密碼。" />
+  <string id="ParentalControl.PinRetryLimitExceeded" value="您重試密碼的次數超過限制 。" />
+  <string id="ParentalControl.PinRetryLimitExceeded.Adult" value="您重試成人節目密碼的次數超過限制 。" />
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="請 {0} 之後再試。" />
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater.Ambiguous" value="請稍候再試" />
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="撥打客服電話以重設密碼。" />
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator.Adult" value="請撥 0800-080-128 以重設密碼。" />
+  <string id="ParentalControl.ForgotPinMessage" value="若您忘記密碼，請撥打客服電話進行密碼重設。" />
+  <string id="ParentalControl.NoPresetPinMessage" value="您目前沒有密碼，請撥打客服電話&#xD;進行密碼的設定。" />
+  <!-- {0}: the time that your pin has been disabled until (short time)-->
+  <string id="ParentalControl.PinDisabledMessage" value="您的密碼己在{0}時被禁用。" />
+  <!-- {0}: (day) , {1}: the time your pin has been disabled (day and time)-->
+  <string id="ParentalControl.PinDisabledMessage.Later" value="您的密碼己在 {0} {1}時被禁用。" />
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="您的密碼已被禁用，請撥打客服電話。" />
+  <string id="ParentalControl.PinDisabledMessage.Indefinite.Adult" value="您的成人節目密碼已被禁用，請撥打客服電話。" />
+  <string id="ParentalControl.ChoosePinMessage" value="請輸入 {0} 位數字的密碼，來針對您所選擇的節目進行鎖碼。" />
+  <string id="ParentalControl.PinsDoNotMatch" value="再次輸入的密碼不符，請重新輸入。" />
+  <string id="ParentalControl.EnterPinMessage" value="要改變密碼設定，請輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="密碼長度更改為{0}。&#xD;請輸入您的{1}-位數密碼 進而產生出新的 {0}位數字的新密碼。" />
+  <string id="ParentalControl.ChooseANewPin" value="請輸入新的 {0} 位數字密碼。" />
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="要觀看被禁止的節目，請輸入密碼。" />
+  <string id="ParentalControl.EnterPinFirstTime" value="請輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.EnterPin" value="請輸入 {0} 位數字的密碼。" />
+  <!-- unused? -->
+  <string id="ParentalControl.EnterPin.Purchase" value="請輸入 {0} 位數字的密碼允許購買。" />
+  <string id="ParentalControl.EnterPin.Unlock" value="請輸入 {0} 位數字的密碼以解鎖。" />
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="請輸入 {0} 位數字的密碼解開成人節目。" />
+  <!-- unused?-->
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="請輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="請輸入 {0} 位數字的密碼允許購買。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="請輸入 {0} 位數字的密碼允許購買。這是成人節目。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="請輸入 {0} 位數字的密碼解鎖。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="請輸入 {0} 位數字的密碼解鎖。這是成人節目。" />
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="輸入 {0} 位數字的密碼，才能錄製本節目。" />
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="錯誤的密碼。請重新輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="錯誤的密碼。請重新輸入 {0} 位數字的成人節目密碼。" />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="錯誤的密碼。請重新輸入 {0} 位數字的購買密碼。" />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="錯誤的密碼。請重新輸入 {0} 位數字的密碼。" />
+  <!-- This string doesn't seem to be used/displayed-->
+  <string id="ParentalControl.EnterPin.RetryCount" value="可以再試{0}次" />
+  <string id="ParentalControl.ConfirmPin" value="請確認 {0} 位數字的密碼。" />
+  <string id="ParentalControl.PConServiceUnavailable" value="密碼設定無效。請稍後重試。" />
+  <string id="ParentalControl.PConPinUnavailable" value="尚未設定密碼，請到[選單]的[設定]選項中進行設定。" />
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="您尚未設定成人節目鎖，請到[選單]的[設定]選項中進行設定。" />
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="您尚未設定訂閱鎖，請到[選單]的[設定]選項中進行設定。" />
+  <string id="ParentalControl.PConPinLengthChanged" value="密碼長度變更為{0}, 請到[選單]的[設定]項中重新設定。" />
+  <string id="EditText.SampleCharacter" value="0" />
+  <!-- unused? -->
+  <string id="ParentalControl.GotoParentalControlSettings" value="請在密碼設定畫面設定您的 {0} 位數密碼。" />
+  <string id="ParentalControl.Title.ChangePin" value="更改密碼" />
+  <string id="ParentalControl.Title.UnlockPCon" value="解鎖" />
+  <string id="ParentalControl.Title.ParentalLocking" value="親子鎖" />
+  <string id="ParentalControl.Title.PurchaseLocking" value="訂閲鎖" />
+  <string id="ParentalControl.Title.AdultLocking" value="成人節目鎖" />
+  <string id="ParentalControl.Title.BlockMovieRatings" value="電影分級鎖" />
+  <string id="ParentalControl.Title.MainMenu" value="密碼設定" />
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="電影分級鎖" />
+  <string id="ParentalControl.Blocked" value="鎖定：" />
+  <string id="ParentalControl.Selected" value="選擇：" />
+  <string id="ParentalControl.NonBlocked" value="未鎖定" />
+  <string id="ParentalControl.AndAbove" value="和以上" />
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="電影/電視分級" />
+  <!-- {0}: the Presentable name in the rating sytem is placed here. The presentable name string uses the actual ratingSystemName-->
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value="{0}" />
+  <!-- {0}: the rating's long name and {1} is the rating's description-->
+  <string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0} {1}" />
+  <string id="ParentalControl.RatingSystems.Unrated" value="沒有分級的電視" />
+  <string id="ParentalControl.Purchasing.PinRequired" value="需要密碼" />
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="不需要密碼" />
+  <string id="ParentalControl.Applications.PinRequired" value="需要密碼" />
+  <string id="ParentalControl.Applications.PinNotRequired" value="不需要密碼" />
+  <string id="ParentalControl.Dialog.SaveSettings" value="您想儲存設定嗎？" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="儲存" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="不儲存" />
+  <string id="ParentalControl.Dialog.ResetPCon" value="您想重新設定 {0} 位數的密碼並停止使用密碼嗎？" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="重設" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="不重設" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="您想清除 {0} 位數字的密碼並停止使用訂閲鎖嗎？" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="清除" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="不清除" />
+  <string id="ParentalControl.Notification.PinChanged" value="您的密碼更改成功。" />
+  <!-- {0}: A timespan,-->
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="解鎖 {0}" />
+  <!-- {0}: a timespan that is formatted by period and culture-->
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="所有節目解鎖{0}" />
+  <string id="ParentalControl.RatingPageInstruction" value="您可以將分級鎖應用到從隨選影片中所有的影片、直播電視節目和錄製的節目。如果沒有可用的分級，播放將不會受到影響。" />
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="重設所有密碼" />
+  <string id="ParentalControl.MenuItemText.DoNothing" value="不重設" />
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="變更密碼" />
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="關閉" />
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="清除訂閲鎖" />
+  <string id="ParentalControl.MenuItemText.Ratings" value="分級" />
+  <string id="ParentalControl.MenuItemText.MovieRating" value="電影分級" />
+  <string id="ParentalControl.MenuItemText.Done" value="完成" />
+  <string id="ParentalControl.MenuItemText.Lock" value="鎖定" />
+  <string id="ParentalControl.ListItemText.UnratedContent" value="未分級內容" />
+  <string id="ParentalControl.ListItemText.Purchasing" value="訂閲" />
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="成人節目" />
+  <string id="ParentalControl.ListItemText.Applications" value="應用服務" />
+  <string id="ParentalControl.ListItemText.Edit" value="編輯" />
+  <!-- {0} is the channel number. {1] is the call letter. {2] is the number of other blocked channels
+  Applies to the following 3 strings-->
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value="{0} {1} 和 {2} 個其他" />
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value="{0} {1} 和 1 個其他" />
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}" />
+  <string id="ParentalControl.ListItemText.Channels" value="頻道" />
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="按OK鍵解鎖" />
+  <!-- {0}: the program name. Applies to next two strings. -->
+  <string id="ParentalControl.Dialog.UnlockChoice" value="選擇如何解鎖 {0}" />
+  <string id="ParentalControl.Dialog.UnlockChannel" value="解除鎖定嗎?" />
+  <string id="ParentalControl.Dialog.UnlockProgram" value="解鎖 {0}?" />
+  <string id="ParentalControl.Dialog.ThisProgram" value="本節目" />
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="為這個節目解鎖" />
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="為這個頻道解鎖" />
+  <string id="ParentalControl.Dialog.DontUnlock" value="不解鎖" />
+  <string id="ParentalControl.Dialog.Unlock" value="解鎖" />
+  <string id="ParentalControl.Dialog.GoToSettings" value="設定" />
+  <string id="ParentalControl.LockedPIP.Text" value="節目鎖定" />
+  <string id="ParentalControl.Settings.LockChannels" value="鎖定頻道" />
+  <string id="ParentalControl.Settings.UnlockAll" value="全部解鎖" />
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="僅查看鎖定節目" />
+  <string id="ParentalControl.Settings.ViewAllChannels" value="查看所有頻道" />
+  <string id="ParentalControl.Settings.LockPurchasing" value="訂閲鎖" />
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="一旦鎖定，將在每次訂閲時要求輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="鎖定成人節目" />
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="一旦鎖定，將在每次觀看成人節目時要求輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.Settings.LockApplications" value="鎖定應用服務" />
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="應用服務不需要密碼" />
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="一旦選擇鎖定，將在每次啟動應用服務時要求輸入 {0} 位數字的密碼。" />
+  <string id="ParentalControl.Settings.LockUnratedContent" value="鎖定未分級內容" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="鎖定沒有分級的節目" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="發佈早於 1960的一些節目，如教育、電視表演和電影沒有被分級。" />
+  <string id="ParentalControl.Adult.ContentBlocked" value="鎖定成人節目" />
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.Adult.Unlocked" value="成人節目解除鎖定 {0}" />
+  <string id="ParentalControl.Adult.UnlockExpired" value="成人節目被重新鎖定" />
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="啟動成人節目鎖" />
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="解除成人節目鎖" />
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.PinRetry.Disabled" value="密碼已被禁用 {0}" />
+  <string id="ParentalControl.PinRetry.Disabled.Adult" value="成人節目密碼已被禁用 {0}" />
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="您的密碼已被禁用，請聯絡客服人員。" />
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite.Adult" value="您的成人節目密碼已被禁用，請聯絡客服人員。" />
+  <string id="ParentalControl.PinRetry.Enabled" value="密碼已被重新啟用。" />
+  <string id="ParentalControl.PinRetry.Enabled.Adult" value="成人節目密碼已被重新啟用。" />
+  
+  <string id="ParentalControl.UserTimeLocking.DayFormat" value="{0}"/>
+  
+  <!-- Settings Menu -->
+  <string id="Settings.Menu" value="設定" />
+  <string id="Settings.General" value="一般" />
+  <string id="Settings.Television" value="電視" />
+  <string id="Settings.ParentalControl" value="密碼設定" />
+  <string id="Settings.Account" value="帳號" />
+  <string id="Settings.General.ParentalControl" value="親子鎖" />
+  <string id="Settings.General.PurchaseLocking" value="訂閱鎖" />
+  <string id="Settings.General.AdultLocking" value="成人節目鎖" />
+  <string id="Settings.General.SystemSounds" value="系統音效" />
+  <string id="Settings.General.Language" value="顯示語言" />
+  <string id="Settings.General.SystemInformation" value="系統資訊" />
+  <string id="Settings.General.AudioLanguage" value="切換聲道" />
+  <string id="Settings.General.RFOutputChannel" value="RF 輸出頻道" />
+  <string id="Settings.General.SecondaryAudio" value="第二聲道" />
+  <string id="Settings.General.EnhancedHdmiSecurity" value="安全" />
+  <string id="Settings.Television.CustomizeChannels" value="自訂頻道" />
+  <string id="Settings.Television.ChannelReordering" value="頻道重新排序" />
+  <string id="Settings.Television.FavoriteChannels" value="設定最愛頻道" />
+  <string id="Settings.Television.GuideStyle" value="節目表形式" />
+  <string id="Settings.Television.DttAutomaticChannelUpdate" value="DTT 自動頻道更新" />
+  <string id="Settings.Television.GeneralRecording" value="一般錄製設定" />
+  <string id="Settings.Television.SeriesRecording" value="預錄連續劇或系列節目設定" />
+  <string id="Settings.Television.ChannelScanning" value="搜尋 DTT 頻道" />
+  <string id="Settings.Television.SignalStrength" value="DTT 信號強度" />
+  <string id="Settings.Television.SignalStrength.Check" value="繼續" />
+  <string id="Settings.Television.SignalStrength.Cancel" value="取消" />
+  <string id="Settings.Television.SignalStrength.Description" value="检查 DTT 频道的信号强弱。在检查这期间，所有的正在录制的节目都会停掉，到期的预约录制也不会开始。" />
+  <string id="Settings.Television.AspectRatio" value="螢幕寬高比" />
+  <string id="Settings.Television.ClosedCaption" value="關閉字幕" />
+  <string id="Settings.Television.Overscan" value="螢幕顯示尺寸" />
+  <string id="Settings.Account.BillPresentment" value="計費資訊" />
+  <string id="Settings.Account.SelfProvisioning" value="頻道和封包" />
+
+  <!-- Xbox360 Settings Menu Help Button -->
+  <string id="Settings.Help" value="Help"/>
+
+  <!-- Xbox360 controller information button text -->
+  <string id="Settings.Help.Xbox360.Controller" value="Controller information"/>
+
+  <!-- Xbox360 unsupported setting. This appears when attempting to set an unsupported setting on the Xbox. -->
+  <string id="Settings.Xbox360.Unsupported" value="This setting is not accessible on the Xbox 360 system while TV is running. This setting is accessible under the Xbox 360 system's dashboard."/>
+
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="用戶端初始化錯誤。" />
+  <string id="ClientAccountUnavailableString" value="帳號無法使用。" />
+  <!-- Account Disabled notification dialog, {0}: reboot timeout in seconds -->
+  <string id="Account.Disabled.NotificationDialogString" value="您的帳號被停用了，機上盒將會在 {0} 秒後重新啟動，請與您的服務供應商聯繫。" />
+  <string id="Account.Disabled.RebootNowButton" value="重新啟動" />
+
+  <!-- Xbox360 incorrect time zone. This message appears when the time zone is incorrect. -->
+  <string id="TimeZoneIncorrect.Xbox360" value="Please correct your time zone from the Xbox Dashboard."/>
+
+  <!-- {0}: the Bootstrap host-->
+  <string id="ClientUnprovisionedString" value="用戶端在 {0}上沒有被開通服務。" />
+  <string id="QuitClientString" value="退出用戶端" />
+  <string id="BootStrapError" value="連接服務故障。" />
+  <string id="SelfProvisioningAppName" value="http://provision.vho.mstv.cht:5896/defult.aspx" />
+  <string id="SelfProvisioningLoadingText" value="連接註冊伺服器。" />
+  <!-- Guide -->
+  <string id="Guide.Guide" value="節目表" />
+  <string id="Guide.NoInfo" value="無節目資訊" />
+  <string id="Guide.Loading" value="資訊載入中..." />
+  <string id="Guide.Upcoming" value="即將開始： {0}" />
+  <!-- {0}: the program title-->
+  <string id="Guide.PPV" value="PPV: {0}" />
+  <string id="Guide.NoDescription" value="" />
+  <string id="Guide.NoGuideData" value="暫無節目表資料" />
+  <string id="Guide.ShowEnded" value="播放完畢" />
+  <string id="Guide.ShowOnInOneMinute" value="一分鐘內播放" />
+  <!-- {0}: the integer in minutes-->
+  <string id="Guide.ShowOnSoon" value="{0} 分鐘內播放" />
+  <!-- {0}: the start time (utc datetime) of the program formatted properly-->
+  <string id="Guide.ShowOnLaterToday" value="在 {0} 時播放" />
+  <string id="Guide.ShowOnTomorrow" value="明天播放" />
+  <!-- {0}: the integer number of days. -->
+  <string id="Guide.ShowOnDaysLater" value="在{0}天內播放" />
+  <!--{0}: the start time (utc datetime) of the program formatted propery -->
+  <string id="Guide.ShowStarted" value="在 {0} 播放" />
+  <string id="Guide.VodGroup" value="隨選影片" />
+  <string id="Guide.SVodGroup" value="SVOD頻道" />
+  <string id="Guide.UrlGroup" value="URL應用服務" />
+  <!-- {0}, {1} are channel numbers (ChannelNumber.ToString())-->
+  <string id="Guide.ChannelRange" value="{0}-{1}" />
+  <string id="Guide.Options.Title" value="顯示頻道" />
+  <string id="Guide.Options.ShowAll" value="所有頻道" />
+  <string id="Guide.Options.ShowFavorites" value="最愛頻道" />
+  <string id="Guide.Options.EditFavorites" value="變更最愛頻道" />
+  <string id="Guide.Options.GuideStyle" value="節目表形式" />
+  <string id="Guide.Options.Jump" value="跳到" />
+  <string id="Guide.Options.NextWeek" value="下週" />
+  <string id="Guide.Options.Tonight" value="今晚" />
+  <string id="Guide.Options.Tomorrow" value="明天" />
+  <string id="Guide.Options.JumpFormatString" value="ddd M/d" />
+  <string id="Guide.ListGuideInstructions" value="按 OK 鍵查看此頻道的列表型節目表。" />
+  <!-- Favorites -->
+  <string id="Favorites.Favorites" value="最愛" />
+  <string id="Settings.FavoriteChannels" value="最愛頻道" />
+  <string id="Settings.FavoriteChannels.Description" value="選擇要在最愛頻道中出現的頻道。" />
+  <string id="Settings.FavoriteChannels.ClearAll" value="全部不選" />
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="查看選擇" />
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="全部查看" />
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="您還沒有建立最愛頻道表。" />
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="您可以用「最愛頻道」建立一個篩選過的常看頻道表。" />
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="設定最愛頻道表" />
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="不設定列表" />
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase.Info" value="按 OK 鍵查看訂閱資訊" />
+  <!-- {0}: the price formatted and {1}: rental time from minute formatted properly-->
+  <string id="VideoFullScreen.CanPurchase.Price" value="{0} 可訂閱 {1} 分鐘" />
+  <!-- {0}: slide show title, and {1}: current image title of the slide show. -->
+  <string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}" />
+  <!-- {0}: current seek position of the seek bar. {1}: max seek position-->
+  <string id="VideoFullScreen.SeekPositionXofY" value="{0} / {1}" />
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="按OK鍵查看影片列表" />
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="按OK鍵查看應用服務列表" />
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="按OK鍵查看錄製列表" />
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="按OK鍵開始播放 {0}" />
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="按播放鍵觀賞 {0} 的預覽" />
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="切換頻道查看其他節目" />
+  <string id="VideoFullScreen.StatusBar.Photos" value="按 OK 開始以幻燈片方式播放" />
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.SVOD" value="按 OK 鍵以取得{0}的更多資訊。" />
+  <string id="VideoFullScreen.OnNow" value="目前" />
+  <string id="VideoFullScreen.OnNext" value="下一個" />
+  <string id="VideoFullScreen.OnLater" value="隨後" />
+  <string id="VideoFullScreen.ThankYou" value="謝謝您的訂閱" />
+  <string id="PleaseWait" value="請等待..." />
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="隨選影片稍後將自動播放" />
+  <string id="VideoFullScreen.Options.AspectRatio" value="螢幕寬高比" />
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="一般" />
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="全螢幕" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="放大 1" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="放大 2" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="放大 3" />
+  <string id="VideoFullScreen.Options.AudioLanguages" value="聲道" />
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="字幕" />
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="無" />
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="切換聲道" />
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="主聲道" />
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="第二聲道" />
+  <string id="VideoFullScreen.TrickNotAvailable.Part1" value="這個電視接收器無法收看" />
+  <string id="VideoFullScreen.TrickNotAvailable.Part2" value="直播電視" />
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="保持寬高比例" />
+  <string id="ZoomControl.ZoomText.Normal" value="一般" />
+  <string id="ZoomControl.ZoomText.Stretch" value="全螢幕" />
+  <string id="ZoomControl.ZoomText.Zoom1" value="放大 1" />
+  <string id="ZoomControl.ZoomText.Zoom2" value="放大 2" />
+  <string id="ZoomControl.ZoomText.Zoom3" value="放大 3" />
+  <!-- The custom zoom values: Zoom X, Zoom Y, Shift X, Shift Y (all floats)-->
+  <string id="ZoomControl.ZoomText.CustomZoom" value="自定縮放 ({0},{1},{2},{3})" />
+  <string id="SeekBar.TimeFormat" value="tt h:mm" />
+  <string id="SeekBar.TimeFormatCurrent" value="h:mm:ss" />
+  <string id="SeekBar.DVRTimeFormat" value="H:mm" />
+  <string id="SeekBar.DVRCurrentPositionFormat" value="H:mm:ss" />
+  <string id="StopPage.Play" value="繼續播放" />
+  <string id="StopPage.StartOver" value="從頭開始播放" />
+  <string id="StopPage.Erase" value="刪除" />
+  <string id="StopPage.KeepUntil" value="保留到" />
+  <string id="StopPage.RecordedTV" value="錄製節目" />
+  <string id="StopPage.VideoStore" value="隨選影片" />
+  <string id="StopPage.LiveTV" value="收看電視" />
+  <string id="StopPage.Done" value="完成" />
+  <string id="StopPage.Done.Vod" value="隨選影片" />
+  <string id="StopPage.Done.Recorded" value="錄製節目" />
+  <!-- Browse Bar -->
+  <string id="BrowseBar.Next" value="下一個:" />
+  <string id="BrowseBar.Summary.Ratings" value="{0} · " />
+  <!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) " />
+  <!-- second part of summary, eg: {0} replaced with 2005 -->
+  <!-- Generic Strings -->
+  <string id="DVR.FastForward" value="快轉" />
+  <string id="DVR.Pause" value="暫停" />
+  <string id="DVR.Rewind" value="倒轉" />
+  <string id="DVR.Skip" value="快播" />
+  <string id="DVR.Replay" value="重新播放" />
+  <string id="DVR.Play" value="播放" />
+  <string id="DVR.Stop" value="停止" />
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording" value="關於開始錄製" />
+  <!-- {0]: program. {1}: channel information-->
+  <string id="DVR.AboutToRecord" value="在頻道 {1}上開始{0}的錄製" />
+  <string id="DVR.AboutToRecord.Record" value="錄製" />
+  <string id="DVR.AboutToRecord.DontRecord" value="不錄製" />
+  <string id="DVR.AboutToStartRecording_disabled" value="若錄製被關閉將會取消錄製。" />
+  <string id="DVR.CannotRecordProgram" value="本節目不能被錄製" />
+  <string id="DVR.CannotRecordProgramNow" value="本節目不能被錄製，請稍後再試。" />
+  <string id="DVR.CannotChangeSettingsNoEPG" value="暫時無法錄製，請稍後再試。" />
+  <string id="DVR.OK" value="確定" />
+  <string id="DVR.Cancel" value="取消" />
+  <!-- {0}: program. -->
+  <string id="DVR.StopRecording" value="停止錄製 {0}?" />
+  <string id="DVR.DoStopRecording" value="停止錄製" />
+  <string id="DVR.DoContinueRecording" value="繼續錄製" />
+  <string id="DVR.ViewingConflict" value="您目前在和另一台電視共享同一個頻道，暫時不能切換頻道。" />
+  <string id="DVR.ViewingConflict.Choose" value="其他選擇" />
+  <string id="DVR.ViewingConflict.AskTakeControl" value="詢問另一台電視是否使用中。" />
+  <string id="DVR.ViewingConflict.Exit" value="退回到電視" />
+  <string id="DVR.IsTVInUse" value="這台電視有人在看嗎? 如果在看, 請在 {Seconds}秒內回覆。" />
+  <!-- {0} integer of seconds for dialog -->
+  <string id="DVR.IsTVInUse.Seconds" value="{0} 秒" />
+  <!-- Same as above, just used if there is 1 second left (pluralization)-->
+  <string id="DVR.IsTVInUse.Second" value="{0} 秒" />
+  <string id="DVR.IsTVInUse.InUse" value="在收看" />
+  <string id="DVR.IsTVInUse.NotInUse" value="未在收看" />
+  <string id="DVR.OtherTVInUse" value="另一台電視使用中。" />
+  <string id="DVR.AskingIfOtherTVInUse" value="現在詢問另一台電視是否使用中。倒數 {Seconds} 秒。" />
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="取消查詢" />
+  <string id="DVR.WholeHomeRecordButton" value="您只能在有DVR功能的機上盒上進行預約錄影。" />
+  <string id="DVR.WholeHomeDeleteButton" value="您只能在有DVR功能的機上盒上刪除已錄節目。" />
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="詢問另一台電視是否使用中。" />
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="返回" />
+  <string id="DVR.MultiRoomProgramInfo.Join" value="一起收看這個節目" />
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="取消" />
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="查詢控制" />
+  <!-- exit from program info when recording is deleted -->
+  <string id="DVR.RecordingWasDeleted" value="無法播放已錄製的節目。" />
+  <string id="DVR.UpcomingHeader" value="預約排程" />
+  <string id="DVR.UpcomingSubHeader" value="即將開始的錄製" />
+  <string id="DVR.SeriesSubHeader" value="系列節目" />
+  <string id="DVR.RecordedHeader" value="錄製節目" />
+  <string id="DVR.ManualRecordHeader" value="新增錄製" />
+  <string id="DVR.RecordSettings" value="錄製設定" />
+  <string id="DVR.ManualRecordSubHeader" value="頻道和時間" />
+  <string id="DVR.KeepUntilHeader" value="保留到" />
+  <string id="DVR.ConflictHeader" value="排程衝突" />
+  <string id="DVR.SeriesSettingsHeader" value="錄製系列節目" />
+  <string id="DVR.OneTimeProgramSettingsHeader" value="錄製" />
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="錄製章節" />
+  <string id="DVR.ManualRecord.InvalidTime" value="開始時間無效" />
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="停止時間無效" />
+  <string id="DVR.ManualRecordCannotBeForThePast" value="不能在過去預約排程" />
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="停止時間必須晚於開始時間" />
+  <string id="DVR.ManualRecordDurationTooLong" value="錄製不能超過12小時的間隔" />
+  <string id="DVR.ManualRecordInvalidChannel" value="本頻道不能被錄製" />
+  <string id="DVR.ManualRecord.InvalidDuration" value="錄製間隔時間必須大於零" />
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="錄製間隔分鐘必須在0和59之間" />
+  <string id="DVR.StreamChooser.Instructions" value="選擇和另外一台電視同看一個節目，或收看或錄製其他直播節目。" />
+  <!-- {0}: the number of tuner activities-->
+  <string id="DVR.StreamChooser.Header.Plural" value="{0} 個節目被使用" />
+  <string id="DVR.StreamChooser.Header.Single" value="{0} 個節目被使用" />
+  <string id="DVR.StreamChooser.NowPlaying" value="現在播放" />
+  <string id="DVR.StreamChooser.WatchRecording" value="收看錄製節目" />
+  <string id="DVR.ChangeStream.Title" value="更改節目" />
+  <string id="DVR.ChangeStream.Button.Follow" value="跟隨其他電視機一起看" />
+  <string id="DVR.ChangeStream.Button.Take" value="中斷這個節目" />
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.LastActivity" value="這台電視機在過去的{0}内處於使用狀態。" />
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.Uptime" value="這台電視機已經打開了 {0}" />
+  <string id="DVR.OneRecordingFromOtherClient" value="系統檢測到一個屬於另一個用戶端的錄製。那個錄製將無效。" />
+  <string id="DVR.ManyRecordingFromOtherClient" value="系統檢測到 {0} 個 屬於另一個用戶端的錄製。 那些錄製將無效" />
+  <string id="DVR.Today" value="今天" />
+  <string id="DVR.Tomorrow" value="明天" />
+  <string id="DVR.UpcomingDateFormatString" value="ddd M/d" />
+  <string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd M/d)" />
+  <string id="DVR.BucketRecordedDateFormatString" value="(ddd M/d)" />
+  <string id="DVR.RecordedDateFormatString" value="M/d" />
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="沒有錄製的節目。" />
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="您可以錄製喜愛的節目，以便在今後任何時間觀看，請進入[新增錄製]。" />
+  <string id="Dvr.NoProgramsNode1" value="沒有任何已錄製的節目可供觀賞。" />
+  <string id="Dvr.NoProgramsNode2" value="您無法使用這個機上盒進行預約錄影，若您需要預錄節目，請利用家中有DVR功能的機上盒進行錄影。" />
+  <string id="DVR.NoUpcomingList1.Remote" value="您無法使用這個機上盒來檢視預錄時間表，若您需要更改預錄時間，或其他預錄設定，請利用家中有DVR功能的機上盒進行更改。" />
+  <string id="Dvr.NoProgramsCanBeAdded.Remote" value="您無法使用這個機上盒進行預約錄影，若您需要預錄節目，請利用家中有DVR功能的機上盒進行錄影。" />
+  <string id="DVR.NoProgramsHaveBeenRecorded1.Remote" value="無法檢視已錄製的節目列表。" />
+  <string id="DVR.NoProgramsHaveBeenRecorded2.Remote" value="請確認這台電視接收器與DVR裝置的網路連結為正常的。" />
+  <string id="DVR.NoEpisodesOfSeriesAreScheduled1" value="此連續劇或系列節目的任何一集或章節並未被安排預約錄影。" />
+  <string id="DVR.SeriesCanceledNoUpcomingEpisodes" value="此連續劇或系列節目將不再被錄製，因為用戶已經要求取消。" />
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded1" value="此連續劇或系列節目的任何一集或章節並未被錄影。" />
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded2" value="查看[預約錄製]列表，檢視是否有即將開始錄製的單集連續劇或章節。" />
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="沒有預約錄製。" />
+  <string id="DVR.NoSeriesShown1.Remote" value="您無法使用這個機上盒檢視連續劇或系列節目的預錄列表，要更改連續劇或系列節目的設定或取消預約錄影，您必須使用有DVR功能的機上盒進行修改。" />
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="沒有系列節目錄製排程。" />
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="您可以錄製系列節目，這檔節目每次播出時都會錄製，請進入[新增錄製]。" />
+  <string id="DVR.RemoteUnavailable" value="已錄製的節目無法撥放，請確認這台電視接收器和DVR裝置的網路連接是否正常。" />
+  <string id="DVR.RecordedBucketTitleFormat" value="{0} ({1})" />
+  <string id="DVR.RecordedBucketCountFormat" value="({0})" />
+  <string id="DVR.RecordedGroup.RecordingCountFormatOne" value="{0} 預錄節目" />
+  <string id="DVR.RecordedGroup.RecordingCountFormat" value="{0} 預錄節目" />
+  <string id="DVR.RecordedGroup.RecordingCountFormatOneWithTitle" value="{0} {1} 預錄節目" />
+  <string id="DVR.RecordedGroup.RecordingCountFormatWithTitle" value="{0} {1} 預錄節目" />
+  <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormat" value="“{0}” {1}" />
+  <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0}" />
+  <!--<string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0} {1}"/>-->
+  <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeConcatFormat" value="{0} · {1}" />
+  <string id="DVR.MoreButtonText" value="更多..." />
+  <string id="DVR.Record" value="錄影" />
+  <string id="DVR.DontRecord" value="不錄影" />
+  <string id="DVR.Save" value="保存" />
+  <string id="DVR.DontSave" value="不保存" />
+  <string id="DVR.Keep.DontChange" value="不變更" />
+  <string id="DVR.Keep.SpaceNeeded" value="一直保留直到空間不足" />
+  <!-- This string doesn't seem to be used-->
+  <string id="DVR.Keep.Date" value="保留到 {0}" />
+  <string id="DVR.Keep.Date.Format" value="ddd M/d" />
+  <string id="DVR.Keep.Watch" value="保留到我看過之後" />
+  <string id="DVR.Keep.Delete" value="保留到我來刪除" />
+  <string id="DVR.ChannelLabel" value="頻道" />
+  <string id="DVR.FrequencyLabel" value="時間" />
+  <string id="DVR.RecordDateLabel" value="日期" />
+  <string id="DVR.KeepUntilLabel" value="保留到" />
+  <string id="DVR.KeepAtMostLabel" value="能保留多少則都保留" />
+  <string id="DVR.StartLabel" value="開始" />
+  <string id="DVR.StopLabel" value="停止" />
+  <string id="DVR.TimeLabel" value="時間" />
+  <string id="DVR.DurationLabel" value="錄製間隔" />
+  <string id="DVR.StopRecordingLabel" value="停止錄製" />
+  <string id="DVR.SeriesFrequencyLabel" value="頻道" />
+  <string id="DVR.Time.AM" value="AM" />
+  <string id="DVR.Time.PM" value="PM" />
+  <string id="DVR.SeriesRecordOnLabel" value="錄製到：" />
+  <string id="DVR.SeriesShowTypeLabel" value="播放類型" />
+  <string id="DVR.SeriesKeepUpToLabel" value="保留到" />
+  <string id="DVR.Settings.More" value="| 更改" />
+  <string id="DVR.Settings.Padding.OnTime" value="按節目表時間" />
+  <!-- {0}: Integer of minutes (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XMinutesLate" value="{0} 分鐘後" />
+  <string id="DVR.Settings.Padding.OneHourLate" value="1 小時後" />
+  <!-- {0}: Integer of hours (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XHoursLate" value="{0} 小時後" />
+  <string id="DVR.Settings.Fork" value="設定" />
+  <string id="DVR.Settings.Fork.Episode" value="僅本章節" />
+  <string id="DVR.Settings.Fork.Series" value="整個系列" />
+  <string id="DVR.Station.AnyChannel" value="任何頻道" />
+  <!-- {0}: time-->
+  <string id="DVR.Time.ThisTime" value="任何一天，大約 {0}" />
+  <string id="DVR.Time.AnyTime" value="任何一天，任何時間" />
+  <string id="DVR.Time.AnyTimeOnce" value="任何一天，任何時間，一天一次" />
+  <string id="DVR.ShowType.FirstRun" value="僅在第一次" />
+  <string id="DVR.ShowType.Live" value="直播" />
+  <string id="DVR.KeepUpTo.One" value="1 個最新錄製" />
+  <!-- {0}: Integer of number of recordings to keep-->
+  <string id="DVR.KeepUpTo.XRecordings" value="{0} 個最新錄製" />
+  <string id="DVR.KeepUpTo.Many" value="盡可能多" />
+  <string id="DVR.Frequency.Once" value="錄製一次" />
+  <string id="DVR.Frequency.EveryDay" value="每天" />
+  <string id="DVR.Frequency.EveryWeekDay" value="每個工作日" />
+  <string id="DVR.Frequency.EveryWeekend" value="每個週末" />
+  <string id="DVR.Frequency.EveryMon" value="每星期一" />
+  <string id="DVR.Frequency.EveryTue" value="每星期二" />
+  <string id="DVR.Frequency.EveryWed" value="每星期三" />
+  <string id="DVR.Frequency.EveryThu" value="每星期四" />
+  <string id="DVR.Frequency.EveryFri" value="每星期五" />
+  <string id="DVR.Frequency.EverySat" value="每星期六" />
+  <string id="DVR.Frequency.EverySun" value="每星期日" />
+  <string id="DVR.RecordDate.Format" value="ddd M/d" />
+  <string id="DVR.Number.Format" value="D02" />
+  <string id="DVR.Number.Format12Hour" value="" />
+  <string id="DVR.KeepUntil.Space" value="需要空間" />
+  <string id="DVR.KeepUntil.Watch" value="節目被觀看" />
+  <string id="DVR.KeepUntil.Delete" value="節目被刪除" />
+  <string id="DVR.KeepUntil.Space.Full" value="保留到空間不足" />
+  <string id="DVR.KeepUntil.Watch.Full" value="保留到我看過" />
+  <string id="DVR.KeepUntil.Delete.Full" value="保留到我來刪除" />
+  <!-- Below two strings are not used-->
+  <string id="DVR.KeepAtMost.FormatSingular" value="{0} 最後的錄製" />
+  <string id="DVR.KeepAtMost.FormatPlural" value="{0} 最後的錄製" />
+  <string id="DVR.KeepAtMost.Max" value="盡可能的多" />
+  <string id="DVR.KeepUntil.AM" value="AM" />
+  <string id="DVR.KeepUntil.PM" value="PM" />
+  <string id="DVR.Preview.StartTimeFormat" value="ddd M/d" />
+  <!-- {0}: Duration of the DVR program (uses integers). This is hours or minutes as appropriate-->
+  <string id="DVR.Preview.DurationFormat.Day" value="{0} DAY" />
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0} day" />
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0} days" />
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0} 小時" />
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0} 分鐘" />
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0} 小時" />
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0} 小時" />
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0} 分鐘" />
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0} 分鐘" />
+  <!-- {0}: Program time start; {1}: spacer string; {2}: ; {3}:duration in hours string ; {4}:during in minutes string ; {5}:space string ;-->
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}" />
+  <string id="DVR.Preview.SpacerString" value="" />
+  <!-- String not used-->
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0} • {1}" />
+  <!-- String not used (commented out)-->
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}" />
+  <!-- {0}: Channel info (text); {1} Time info (text)-->
+  <string id="DVR.Rollover.ChannelAndTime" value="{0} • {1}" />
+  <string id="DVR.Menu.ByDate" value="按日期" />
+  <string id="DVR.Menu.ByTitle" value="按標題" />
+  <string id="DVR.Menu.ByDateGrouped" value="已錄製" />
+  <string id="DVR.Menu.ByStatus" value="按狀態" />
+  <string id="DVR.Menu.AddRecording" value="新增錄製" />
+  <string id="DVR.Menu.Scheduled" value="預約排程" />
+  <string id="DVR.Menu.Recorded" value="已錄製" />
+  <string id="DVR.Menu.Upcoming" value="即將" />
+  <string id="DVR.Menu.Series" value="系列節目" />
+  <string id="DVR.MediaItem.Title" value="錄製電視" />
+  <string id="DVR.MediaItem.NoPrograms" value="沒有預約錄製" />
+  <string id="DVR.MediaItem.Upcoming" value="即將開始的錄製：" />
+  <string id="DVR.MediaItem.Pip.Text" value="Recorded TV" />
+  <string id="DVR.MediaItem.Separator" value="•" />
+  <string id="DVR.MediaItem.LongDescription1" value="預約錄製您喜愛節目，以便您今後隨時觀看。" />
+  <string id="DVR.MediaItem.LongDescription2" value="進入[錄製電視]來新增錄製或按遙控器上的RECORD鍵。" />
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="全部的錄製" />
+  <string id="DVR.ChannelGuide.RecentRecordings" value="最近的錄製" />
+  <string id="DVR.Count.None" value="沒有錄製的節目" />
+  <string id="DVR.Count.One" value="1 錄製節目" />
+  <string id="DVR.Count.Many" value="{0} 錄製節目" />
+  <string id="DVR.Stopped.Finished" value="完成" />
+  <string id="DVR.Stopped.Stopped" value="停止" />
+  <string id="DVR.Stopped.ErrorMessage" value="此節目因網路問題造成無法正常播放" />
+  <string id="DVR.Stopped.KeepMessage" value="節目將保留到空間不足。" />
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="這個節目將一直保留到您刪除它" />
+  <string id="DVR.MultiRoom.DontChangeChannels" value="不要切換頻道" />
+  <!-- Not currently used (maybe when multi room is finished?)-->
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="換到頻道 {0} 以在 {2} 錄製 {1}" />
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Preamble" value="不能錄製{0}，因為已經有多個節目設定在這個時段錄製。" />
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice2" value="不錄製{0}" />
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble1" value="{0} 的 1 個章節已有預約錄製" />
+  <!-- {0}: Number of conflicts; {1}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble2" value="{1} 的 {0} 章節己有預約錄製" />
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Choice1" value="錄製新系列節目的所有章節" />
+  <string id="DVR.Conflict.Series.Choice2" value="僅當沒有衝突時錄製" />
+  <string id="DVR.Conflict.Series.Choice3" value="請選擇要錄製哪一個節目" />
+  <string id="DVR.Conflict.TryAgain" value="衝突不能被解決，請重試" />
+  <string id="DVR.Conflict.SubTitle" value="請選擇一個沒有紅點的節目來錄製。" />
+  <!-- {0}: Number of conflict slices(?)-->
+  <string id="DVR.Conflict.MultiSubTitle" value="有 {0} 個錄製衝突" />
+  <string id="DVR.Conflict.HDSubTitle" value="不能同時錄製兩個 HD 節目，請選擇一個。" />
+  <!-- {0}: Column number; empty if only 1 column-->
+  <string id="DVR.Conflict.GridHeader" value="衝突 {0}&#xD;{1}" />
+  <!-- {0}: Program title; {1} Conflict summary description. Same for following string-->
+  <string id="DVR.Conflict.Summary" value="節目 {0} 有 {1} 個衝突。" />
+  <string id="DVR.Conflict.Series.Summary" value="章節 {0} 有 {1} 個衝突。" />
+  <!-- Next few strings don't seem to be used.-->
+  <string id="DVR.Conflict.2Conflicts" value="{0} 和 {1}" />
+  <string id="DVR.Conflict.3Conflicts" value="{0}, {1} 和 {2}" />
+  <string id="DVR.Conflict.4Conflicts" value="{0}, {1}, {2} 和 {3}" />
+  <string id="DVR.Conflict.5Conflicts" value="{0}, {1}, {2}, {3} 及更多" />
+  <!-- {0}: Formatting of title and episode title-->
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="錄製衝突: {0}" />
+  <!-- {0}: Title of program-->
+  <string id="DVR.Conflict.InitSeries.SubTitle" value="章節衝突: {0}" />
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="錄製節目或系列節目，從這裡選擇：" />
+  <string id="DVR.AddRecording.CreateCustom" value="建立某個頻道在特定時段的錄製：" />
+  <string id="DVR.AddRecording.ManualRecordLabel" value="頻道和時間" />
+  <string id="DVR.ManualRecordLabel" value="按時段錄製" />
+  <!-- {0}: title of parent program-->
+  <string id="DVR.ManualLabel" value="按時段錄製的節目: {0}" />
+  <string id="DVR.DisabledNotification" value="DVR被禁用" />
+  <string id="DVR.NotReadyNotification" value="DVR系統正在啟動，請稍待。" />
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabledNotification" value="不允許 {0} {1} 的錄製" />
+  <string id="DVR.ChannelDisabledNotification2" value="不允許此頻道的錄製" />
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelPauseDisabledNotification" value="{0} {1} 不允許操控直播電視" />
+  <string id="DVR.ChannelPauseDisabledNotification2" value="此頻道不允許操控直播電視" />
+  <string id="DVR.ManualRecordDisabledNotification" value="此頻道不允許手動錄製" />
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabled" value="頻道 {0} {1} 不允許錄製" />
+  <string id="DVR.SeriesRecordingScheduled" value="系列節目錄製排程" />
+  <string id="DVR.SeriesRecordingUpdated" value="系列節目錄製排程更新" />
+  <string id="DVR.SeriesRecordingCanceled" value="系列節目錄製取消" />
+  <string id="DVR.RecordingScheduled" value="錄製排程" />
+  <string id="DVR.RecordingUpdated" value="錄製更新" />
+  <string id="DVR.RecordingStopped" value="停止的錄製" />
+  <string id="DVR.RecordingCanceled" value="取消的錄製" />
+  <string id="DVR.Recording" value="錄製" />
+  <string id="DVR.SlowScheduling" value="開始錄製" />
+  <string id="DVR.SlowSchedulingComplete" value="開始的錄製" />
+  <string id="DVR.PostGoLiveInstructions" value="按RECORD開始錄製。" />
+  <string id="DVR.GuideInstructions" value="選中一個節目，然後按RECORD。" />
+  <string id="DVR.SearchInstructions" value="搜尋一個節目，然後按RECORD。" />
+  <string id="DVR.GroupeditemsInstructions" value="選中一個節目，然後按RECORD。" />
+  <string id="DVR.GuideInstructionsButton" value="就緒" />
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelSeries" value="您確定要取消{0}系列節目的錄製嗎？" />
+  <string id="DVR.ConfirmCancelSeries" value="取消系列節目的錄製" />
+  <string id="DVR.CancelCancel" value="不取消" />
+  <!-- {0}: Program title-->
+  <string id="DVR.QueryCancelProgram" value="您確定要取消{0}的錄製嗎？" />
+  <string id="DVR.ConfirmCancelProgram" value="取消錄製" />
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelEpisode" value="您確定要取消{0}系列節目中這個章節的錄製嗎？" />
+  <string id="DVR.ConfirmCancelEpisode" value="取消章節" />
+  <!-- {0}: Metadata (Program) title-->
+  <string id="DVR.CantErase" value="另一台電視正在播放這個節目，暫時無法刪除。" />
+  <string id="DVR.EraseFailed" value="這個節目無法被刪除，可能是另一台機上盒正在播放此節目。" />
+  <string id="DVR.QueryErase" value="您想刪除 {0}嗎？" />
+  <string id="DVR.ConfirmErase" value="刪除" />
+  <string id="DVR.CancelErase" value="不刪除" />
+  <string id="DVR.AlreadyRecording" value="本頻道正在被錄製" />
+  <string id="DVR.ShowOver" value="本次播放已經結束" />
+  <string id="DVR.NotEnoughSpaceToRecord" value="無法錄製這個節目，因為您保存的節目太多了，請先刪除一部分。" />
+  <string id="DVR.NotASeries" value="不能為非系列節目設定系列節目錄製排程" />
+  <string id="DVR.WSException.Unknown" value="電視服務暫時無法使用。" />
+  <string id="DVR.WSException.NetworkNA" value="電視服務暫時無法使用。" />
+  <string id="DVR.WSException.Timeout" value="電視服務暫時無法使用。" />
+  <string id="DVR.WSException.ConnectionLost" value="電視服務暫時無法使用。" />
+  <string id="DVR.WSException.TryAgain" value="請稍後再試。" />
+  <string id="DVR.UpcomingRecordingsButton" value="即將開始的錄製" />
+  <string id="DVR.SeriesRecordingsButton" value="系列節目錄製" />
+  <string id="DVR.PrioritySettingsButton" value="錄製優先順序設定" />
+  <string id="DVR.History" value="歷史記錄" />
+  <string id="DVR.ViewUpcomingRecordingsButton" value="查看即將開始的錄製" />
+  <string id="DVR.ChangeSeriesSettingsButton" value="變更系列節目設定" />
+  <string id="DVR.CancelSeriesButton" value="取消系列" />
+  <string id="DVR.SeriesHeader" value="系列節目資訊" />
+  <!-- Not used in code-->
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}" />
+  <!-- A format string: {0} is the format for the string. {1} is a value.-->
+  <string id="DVR.SeriesInfoSummaryFormat" value="{0}: {1}" />
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}" />
+  <!-- Not used in code-->
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}" />
+  <string id="DVR.UntilSpaceIsNeeded" value="保留到空間不足" />
+  <string id="DVR.FirstRunAndRerun" value="首次運行並再次運行" />
+  <string id="DVR.SeriesTimeFormat" value="h:mm tt" />
+  <string id="DVR.SeriesTimeFormat24" value="H:mm" />
+  <string id="DVR.SeriesTimeAnyTime" value="任何時間" />
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}" />
+  <!-- {0}: Date; {1}: Time-->
+  <string id="DVR.OneTimeSettingTimeFormat" value="{0}, {1}" />
+  <string id="DVR.MustGoLiveToRecord" value="您必須轉到直播才能錄製" />
+  <string id="DVR.GoLive" value="轉到直播" />
+  <string id="DVR.Unknown" value="未知" />
+  <string id="DVR.Dot.Conflict" value="衝突" />
+  <string id="DVR.Dot.RecordingDelay" value="錄製延遲" />
+  <string id="DVR.Dot.Series" value="系列節目錄製" />
+  <string id="DVR.Dot.Series.HD" value="系列節目錄製為 HD" />
+  <string id="DVR.Dot.Record" value="錄製" />
+  <string id="DVR.Dot.Record.HD" value="將錄製為 HD" />
+  <string id="DVR.Dot.Recording" value="錄製" />
+  <string id="DVR.Dot.Recording.HD" value="錄製為 HD" />
+  <string id="DVR.Dot.Keep" value="保留到被我刪除" />
+  <string id="DVR.Dot.Delete" value="將要被刪除" />
+  <string id="DVR.DefaultState.Message1" value="錄製您喜歡的節目" />
+  <string id="DVR.DefaultState.Message2" value="自動錄製節目片斷" />
+  <string id="DVR.DefaultState.Message3" value="暫停, 倒轉及快轉" />
+  <string id="DVR.AlreadyScheduled" value="本節目已設定預約錄製" />
+  <string id="DVR.EITVPS.Incorrect" value="錄製不正確" />
+  <string id="DVR.EITVPS.DidNotAir" value="節目沒有在預定時間內播出" />
+  <string id="DVR.EITVPS.DueToChanges" value="由於最後時間內播出的節目更改" />
+  <!-- {0} Currently recording title: {1}: Upcoming Recording title-->
+  <string id="DVR.EITVPS.AboutToExtend" value="'{0}'沒有按排程結束，要停止這個節目的錄製，以開始'{1}'的錄製嗎？" />
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="繼續錄製" />
+  <string id="DVR.EITVPS.AboutToExtend.End" value="停止錄製" />
+  <!-- {0}: Program title-->
+  <string id="DVR.EITVPS.Recording" value="現在錄製 '{0}'" />
+  <!-- {0}: Recording program title-->
+  <string id="DVR.EITVPS.Delayed" value="錄製有 {0} 分鐘延遲" />
+  <string id="DVR.EITVPS.ManualRecord" value="由於最後時間內節目表的變化，您必須手動錄製這個節目。" />
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="手動錄製" />
+
+  <string id="DVR.KeyringTrouble1" value="暫時無法播放這個節目。"/>
+  <string id="DVR.KeyringTrouble2" value="請稍後再試。(2)"/>
+
+  
+  <!-- Nagra strings -->
+  <string id="Nagra.OnlyViewable" value="Only available on a DVR receiver with viewing card"/>
+  <string id="Nagra.SomeOnlyViewable" value="Some available only on a DVR receiver with viewing card"/>
+  <string id="Nagra.ProgramInfo.NotAvailable" value="Available on DVR receiver with viewing card"/>
+  <string id="Nagra.ErrorText" value="This recording can be played only on a DVR receiver with viewing card."/>
+
+
+  <!-- SmartCard related dialogs/diagnostics -->
+  <string id="SmartCard.Ready.Message" value="Smart card 就緒" />
+  <string id="SmartCard.Unknown.Message" value="Smart card 無效。請聯絡系統服務商: 0800-080-128" />
+  <string id="SmartCard.Unknown.Dismiss" value="Dismiss" />
+  <string id="SmartCard.Bad.Message" value="Smart card 無效。請重新插入Smart Card再試一次。" />
+  <string id="SmartCard.Bad.Dismiss" value="Dismiss" />
+  <string id="SmartCard.Extract.Message" value="Smart card 退出" />
+  <string id="SmartCard.Extract.Dismiss" value="Dismiss" />
+  <string id="SmartCard.Diagnostics.CardReady" value="Smart Card就緒" />
+  <string id="SmartCard.Diagnostics.CardReadyDateFormat" value="dd/MM/yy" />
+  <string id="SmartCard.Diagnostics.CardUnknown" value="無法識別的Smard Card" />
+  <string id="SmartCard.Diagnostics.CardBad" value="Smart Card損壞" />
+  <string id="SmartCard.Diagnostics.CardExtracted" value="Smart Card退出或未插入" />
+  <!-- Stream contention dialogs-->
+  <!-- {0}: Channel num and call station (channel info text)-->
+  <string id="Stream.StayOnChannel" value="繼續 {0}" />
+  <string id="Stream.StayOnChannel.Unknown" value="繼續在這裡" />
+  <string id="Stream.RecordedTVButton" value="錄製電視" />
+  <string id="Stream.RecordedTVButton.Player" value="收看錄製節目" />
+  <string id="Stream.InterruptTVButton" value="中斷電視" />
+  <string id="Stream.DontInterruptTVButton" value="不要中斷電視" />
+  <string id="Stream.ContinueButton" value="繼續" />
+  <string id="Stream.ChangeChannelButton" value="切換頻道" />
+  <string id="Stream.DontChangeChannelButton" value="不切換頻道" />
+  <string id="Stream.TryAgainButton" value="再試一次" />
+  <!--  Stream panel strings usage: 
+        AllServicesInUse        - "Optimistic Tune" panel with interrupt
+        AllStreamsRecording     - "Optimistic Tune" panel with no interrupt
+        AllStreamsUsedByVOD     - "Optimistic Tune" panel with no interrupt AND all streams are VOD
+        AllServicesInUseNoTV    - "Power On" panel with interrupt
+        AllStreamsRecordingNoTV - "Power On" panel with no interrupt
+        AllStreamsUsedByVODNoTV - "Power On" panel with no interrupt AND all streams are VOD
+  -->
+  <string id="Stream.AllServicesInUse" value="您的電視服務限額已用完，可以收看正在錄製的節目、終止正在錄製的節目或者家裡的另外一台電視。" />
+  <string id="Stream.AllServicesInUse.HD" value="您的 HD 電視服務限額已用完，可以收看正在錄製的 HD 節目、終止正在錄製的 HD 節目或者家裡的另外一台電視。" />
+  <string id="Stream.AllServicesInUse.NoDvr" value="您的電視服務限額已用完，可以關掉另外一台電視機的機上盒或者中斷另外一個電視節目。" />
+  <string id="Stream.AllServicesInUse.NoDvr.HD" value="您的 HD 電視服務限額已用完，要切換至另外一個 HD 頻道，您必須中斷家裡的另外一台電視。" />
+  <string id="Stream.AllServicesInUseNoTV" value="您的電視服務限額已用完，要看電視您需要關掉另外一個機上盒後重試，或者收看已經錄製的節目。" />
+  <string id="Stream.AllServicesInUseNoTV.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道，停止電視接收器上 HD 頻道的錄製或收看，或中斷另外一台電視的收看。" />
+  <string id="Stream.AllServicesInUseNoTV.NoDvr" value="您的電視服務限額已用完，要看電視您需要關掉另外一個機上盒後重試" />
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道，停止電視接收器上 HD 頻道的錄製或收看，或中斷另外一台電視的收看。" />
+  <string id="Stream.AllServicesInUseNoTV.Player" value="您的電視服務限額已用完，要繼續收看，可以停止一個節目的錄製或關掉一台電視。" />
+  <string id="Stream.AllStreamsRecording" value="您的電視服務限額已用完，可以停止節目的錄製，或者收看已經錄製的節目。" />
+  <string id="Stream.AllStreamsRecording.HD" value="您的 HD 電視服務限額正在用於錄製。可以收看正在錄製的節目或已經錄製的節目。" />
+  <string id="Stream.AllStreamsRecording.NoDvr" value="您的所有電視服務限額正在用於錄製。可以去正在錄製的盒子上中斷錄製。" />
+  <string id="Stream.AllStreamsRecording.NoDvr.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道，去正在錄製的盒子上中斷 HD 的錄製。" />
+  <string id="Stream.AllStreamsRecording.Player.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道, 請在 DVR 接收器上停止一路節目的錄製" />
+  <string id="Stream.AllStreamsRecordingNoTV" value="您的電視服務限額已用完，要收看電視，可以停止一個節目的錄製或關掉一台電視接收器。" />
+  <string id="Stream.AllStreamsRecordingNoTV.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道, 停止一個電視接收器上 HD 的錄製或者收看。" />
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr" value="您的電視服務限額已用完，要收看電視，可以停止一個節目的錄製或關掉一個電視接收器。" />
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="您的 HD 電視服務限額已用完，要收看 HD 頻道, 停止一個電視接收器上 HD 的錄製或者收看。" />
+  <string id="Stream.AllStreamsUsedByVOD" value="您的所有電視服務限額都用於VOD。可以去另外一個電視機終止 VOD。" />
+  <string id="Stream.AllStreamsUsedByVODNoTV" value="您的所有電視服務限額都用於VOD。要看直播電視，請到另外一個電視接收器停止 VOD." />
+  <string id="Stream.ConfirmInterrupt" value="選擇終止將停止您家中另外一台電視的收看。" />
+  <string id="Stream.TVInterrupted" value="這台電視機的節目被終止，以開始另一個節目的錄製或者在另一台電視的收看。" />
+  <string id="Stream.TVInterrupted.NoDvr" value="這台電視機的節目被終止，以開始另一個節目的錄製或者在另一台電視的收看。" />
+  <string id="Stream.UpcomingRecording" value="您的電視服務限額已用完，頻道必須改為錄製 {0} on {1} at {2}" />
+  <string id="Stream.NoPlaybackStreams" value="無法播放，要在這台電視機上播放，請先停止另一台電視機的播放。" />
+  <string id="Stream.NoPlaybackStreams.HD" value="HD 節目無法播放，要在這台電視機上播放 HD 節目，請先停掉另一台電視機的 HD 播放。" />
+  <string id="Stream.NoPlaybackBandwidth" value="您的播放限額已滿，要在這台電視機上播放錄製節目，您必須停掉另外一台或多台電視機對錄製節目的播放。" />
+  <string id="Stream.LiveTuneNoIngressStream" value="您的所有電視服務限額都用在這台電視機了，要更換頻道，請停掉一路節目的錄製。" />
+  <string id="Stream.LiveTuneNoIngressStream.HD" value="您的 HD 電視服務限額都用在這台電視機了，要更換 HD 頻道，請停掉一路 HD 節目的錄製。" />
+  <string id="Stream.TuneNoIngressStream" value="您的所有電視服務限額都用在這台電視機了，要繼續您的操作，請停掉一路節目的錄製。" />
+  <string id="Stream.TuneNoIngressStream.HD" value="您的 HD 電視服務限額都用在這台電視機了，要繼續您的操作，請停掉一路 HD 節目的錄製。" />
+  <string id="Stream.IngressDialogStopRecording" value="停止錄製" />
+  <string id="Stream.IngressDialogTryAgain" value="請稍候再試" />
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="節目表形式" />
+  <string id="Settings.GuideStyle.GridGuide" value="網格型節目表" />
+  <string id="Settings.GuideStyle.GridGuideDescription" value="一次顯示多個頻道" />
+  <string id="Settings.GuideStyle.ListGuide" value="列表型節目表" />
+  <string id="Settings.GuideStyle.ListGuideDescription" value="單一頻道的節目時間表" />
+  <string id="Settings.DttAutomaticChannelUpdate" value="DTT 自動頻道更新" />
+  <string id="Settings.DttAutomaticChannelUpdate.On" value="自動頻道更新啟用" />
+  <string id="Settings.DttAutomaticChannelUpdate.OnDescription" value="DTT 頻道將自動更新" />
+  <string id="Settings.DttAutomaticChannelUpdate.Off" value="自動頻道更新關閉" />
+  <string id="Settings.DttAutomaticChannelUpdate.OffDescription" value="DTT 頻道將不會自動更新" />
+  <string id="Settings.Save" value="儲存" />
+  <string id="Settings.Save.Ask" value="您想儲存剛剛做的變更嗎？" />
+  <string id="Settings.DontSave" value="不儲存" />
+  <string id="Settings.AllOn" value="全部打開" />
+  <string id="Settings.AllOff" value="全部關閉" />
+  <string id="Settings.Continue" value="繼續" />
+  <string id="Settings.CancelChanges" value="不儲存" />
+  <string id="Settings.Cancel" value="Cancel" />
+  <!-- aspect ratio -->
+  <string id="Settings.AspectRatio.Description" value="選擇您使用的電視類型" />
+  <string id="Settings.AspectRatio.Resizing" value="正在重設螢幕大小" />
+  <!-- {0}: Screen mode-->
+  <string id="Settings.AspectRatio.NowViewing" value="現在顯示 {0}" />
+  <string id="Settings.AspectRatio.0" value="4:3 標準螢幕" />
+  <string id="Settings.AspectRatio.1" value="16:9 寬螢幕" />
+  <string id="Settings.AspectRatio.2" value="720p 高解析螢幕" />
+  <string id="Settings.AspectRatio.3" value="1080i 高解析螢幕" />
+  <string id="Settings.AspectRatio.NowViewing0" value="正在顯示 4:3 標準螢幕" />
+  <string id="Settings.AspectRatio.NowViewing1" value="正在顯示16:9 寬螢幕" />
+  <string id="Settings.AspectRatio.NowViewing2" value="正在顯示 720p 高解析螢幕" />
+  <string id="Settings.AspectRatio.NowViewing3" value="正在顯示 1080i 高解析螢幕" />
+  <string id="Settings.AspectRatioWizard.Step1" value="寬高比和高解析 (步驟 1)" />
+  <string id="Settings.AspectRatioWizard.Step2" value="寬高比和高解析 (步驟 2)" />
+  <string id="Settings.AspectRatioWizard.Step3" value="寬高比和高解析 (步驟 3)" />
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="您的電視機可能無法顯示{Mode}，&#xD;要檢測這是否您電視機的正確設定，選擇[開始測試]。如果在測試時間内您沒有看到任何顯示，15秒過後您可以選擇另外一個設定。" />
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="您看到了這個信息，說明您的電視機可以顯示{Mode}。請選擇[保留設定]以確定。本測試將在{Countdown}秒後結束。" />
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="如果您在測試時間内看到的是黑螢幕，您的電視機可能無法顯示高解析度視訊，或者您的電視機與機上盒的連接不適當。請選擇另外一種設定或者檢查一下機上盒的連接線是否與高解析電視機正確連接了。如果您在測試時間内看到了圖像，選擇[再次測試]。" />
+  <string id="Settings.AspectRatioWizard.StartTest" value="開始測試" />
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="保留設定" />
+  <string id="Settings.AspectRatioWizard.StartAgain" value="重新設定" />
+  <string id="Settings.AspectRatioWizard.SawNothing" value="我看到的是黑螢幕，選擇另一種設定。" />
+  <string id="Settings.AspectRatio.ChangeSettings" value="您要變更視訊設定嗎？" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value="{0} 不是所有電視都能兼容的，若您變更設定後不能看到任何顯示，請稍待 10 秒鐘或將機上盒與電視機的的連接線拔掉。" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="視訊上次設定為 {0}，您要復原嗎？若否，請到[設定]重新設定或保留目前的設定。" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangeTo" value="變更為 {0}" />
+  <string id="Settings.AspectRatio.DontChange" value="不變更" />
+  <string id="Settings.AspectRatio.GoToSettings" value="重新設定" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="視訊目前設定為 {0},您要保留這項變更嗎？ 10 秒鐘之後會恢復上次的設定。" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="視訊上次設定為 {0}，您要復原嗎？若否，請到[設定]重新設定或保留目前的設定。" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.KeepHighDef" value="保留 {0}" />
+  <string id="Settings.AspectRatio.ChangeBack" value="恢復上次設定" />
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="變更視訊設定為高解析 {0} " />
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="變更視訊設定為 4:3 標準螢幕" />
+  <string id="Settings.AspectRatio.ModeNotSupported" value="這台機上盒不支援這種視訊模式" />
+  <!-- 
+      this key sequence will reset the settop to standard def 
+      if it's currently running in high definition mode. the
+      sequence can include any standard numeric keys as well as
+      up, down, left, etc... 
+  -->
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="menu123456789" />
+  <!-- connection troubleshooting settings page -->
+  <string id="Settings.Troubleshoot" value="檢查網路連線" />
+  <string id="Settings.Troubleshoot.Title" value="是否有問題？" />
+  <string id="Settings.Troubleshoot.Description.Online" value="您的網路己連線，請描述您的網路連線問題。&#xD;若需要更多幫助，請撥打客服電話。" />
+  <string id="Settings.Troubleshoot.Description.Offline" value="您的網路己離線，請描述您的網路連線問題。&#xD;若需要更多幫助，請撥打客服電話。" />
+
+  <!-- Xbox360 controller information help page title -->
+  <string id="Settings.Xbox360.ControllerInfo" value="Xbox 360 controller information"/>
+  
+  <!-- begin of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.DvrWarning" value="在DTT頻道的搜尋過程中 DVR的錄製是無法進行的，正在錄製的節目會停止。" />
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="繼續" />
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="取消" />
+  <string id="Settings.ChannelScanningWizard.Step1" value="搜尋 DTT 頻道 (步驟 1)" />
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="感謝您使用 Microsoft TV，最先進的電視收看方式！&#xD;要收看電視，請先搜尋 DTT 頻道，並添加到節目表中，或取消搜尋直接使用 Microsoft TV 服務吧。" />
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="要收看電視，請先搜尋 DTT 頻道，並添加到您的節目表中。&#xD;選擇[搜尋更多 Microsoft TV 服務]以取得更多的直播或點播節目資訊。" />
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="搜尋 DTT 頻道" />
+  <string id="Settings.ChannelScanningWizard.Step1.MoreInfo" value="更多關於 Microsoft TV 的資訊" />
+  <string id="Settings.ChannelScanningWizard.Step2" value="搜尋 DTT 頻道 (步驟 2)" />
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="搜尋中，已完成{Percentage}% ..." />
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="搜尋到 {Video} 個電視頻道" />
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="搜尋到 {Music} 個音樂頻道" />
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="取消頻道搜尋" />
+  <string id="Settings.ChannelScanningWizard.Step3" value="搜尋 DTT 頻道 (步驟 3)" />
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="搜尋已完成。&#xD;&#xD;找到 {Video} 個電視頻道；&#xD;找到 {Music} 個音樂頻道。&#xD;&#xD;在節目表中可查看新增頻道，在[選單]中可以查看新增的服務。" />
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="查看節目表" />
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="查看選單" />
+  <!-- end of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.MoreInfo" value="Microsoft TV 詳細資訊" />
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="標題" />
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="説明" />
+  <string id="Settings.Overscan" value="螢幕顯示尺寸" />
+  <string id="Settings.Overscan.GeneralInstruction" value="選擇在您的電視上效果最好的顯示尺寸。" />
+  <string id="Settings.Overscan.Large" value="大" />
+  <string id="Settings.Overscan.Large.Description" value="(對16:9 寬螢幕電視最佳)" />
+  <string id="Settings.Overscan.Medium" value="中" />
+  <string id="Settings.Overscan.Medium.Description" value="(對標準電視最佳)" />
+  <string id="Settings.Overscan.Small" value="小" />
+  <string id="Settings.Overscan.Notification" value="螢幕大小已改變" />
+  <string id="Settings.About.SystemInfoMenuItem" value="系統資訊" />
+  <string id="Settings.About.SmartCardInfoMenuItem" value="Smart card 訊息" />
+  <string id="Settings.About.NetworkInfoMenuItem" value="網路資訊" />
+  <string id="Settings.About.ResourcesInfoMenuItem" value="系統資源" />
+  <string id="Settings.About.ListingsInfoMenuItem" value="節目表版本" />
+  <string id="Settings.About.WebServicesMenuItem" value="Web服務" />
+  <string id="Settings.About.DiskRepairMenuItem" value="磁碟修復" />
+  <string id="Settings.About.CopyrightMenuItem" value="版權" />
+  <string id="Settings.About.PrivacyMenuItem" value="隱私權" />
+  <string id="Settings.About.SubscriptionsMenuItem" value="訂閱" />
+  <string id="Settings.About.Go" value="Go" />
+  <!--
+
+    The system information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+  
+    {ClientTime}              9/15/2006 11:39:00 AM
+    {SessionTime}             01:08:45
+    
+    {ClientVersion}           1.2.2449.0 (debug)
+    {BootRomVersion}
+
+    {OSPlatform}              Win32NT
+    {OSVersion}               5.1.2600.131072
+
+    {SettopVendor}            vendor name
+    {SettopType}              model name
+    {SettopCPUSpeed}          speed in MHz
+    {SettopSerial}            serial number
+    
+    {AccountID}               guid
+    {ClientID}                guid
+    {MacAddress}              00-12-3F-54-28-11
+    
+    {ContentDirectory}        path
+  
+  -->
+  <string id="Settings.About.SystemInfo.Data" value="Time: {ClientTime} (session: {SessionTime})&#xD;TV2 client version: {ClientVersion}&#xD;TV2 clientstore content version: {ClientStoreContentVersionDisplay}&#13;Platform OS/Version: {OSPlatform}/{OSVersion}&#xD;Bootstrap ROM version: {BootRomVersion}&#xD;Set-Top Box / CPU: {SettopVendor} {SettopType} / {SettopCPUSpeed}&#xD;Set-Top Box serial number: {SettopSerial}&#xD;MAC ID: {MacAddress}&#xD;Client ID: {ClientID}" />
+  <!--
+
+    The smart card information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+    
+    {CaCoreLibVersion}        MG Core Library Release 1.4.11
+    {CaSwLockLibVersion}      MG SW Lock Library Release 1.0.5
+    
+    {SettopVendor}            vendor name
+    {CaHwSerialNumber}        0a704405640a0000
+    
+    {SmartCardStatus}         Ready
+    {SmartCardNumber}         1  07.108.837.460  77
+    {TUTVCaNumber}            nn nnnn nnnn nn
+    {OPIName0}                 operator name
+    {CaExpiryDate0}           first operator expiry date
+    {CaOffers0}               first operator offers value
+  -->
+  <string id="Settings.About.SmartCardInfo.Data" value="Mediaguard Kernel Library version: {CaCoreLibVersion}&#13;SoftLock Library version: {CaSwLockLibVersion}&#13;HW Serial Number: {CaHwSerialNumber}&#13;TUTV CAN: {TUTVCaNumber}&#13;Smart card status: {SmartCardStatus}&#13;Smart card number: {SmartCardNumber}&#13;Operator 0: {OPIName0}  Expiry: {CaExpiryDate0}  Offers: {CaOffers0}&#13;Operator 1: {OPIName1}  Expiry: {CaExpiryDate1}  Offers: {CaOffers1}&#13;Operator 2: {OPIName2}  Expiry: {CaExpiryDate2}  Offers: {CaOffers2}" />
+  <string id="Settings.About.NotAvailable" value="N/A" />
+  <!--
+
+    The network information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {IPName}                  host name
+    {IPAddress}               single IP or comma separated list of IPs
+    {IPGateway}               IP gateway address
+    {Bps}                     bits per second
+    {IPTVStatus}              connected/disconnected
+  
+  -->
+  <string id="Settings.About.NetworkInfo.Data" value="Host name: {IPName}&#xD;IP address: {IPAddress}&#xD;Default gateway: {IPGateway}&#xD;Bps: {Bps}&#xD;IPTV status: {IPTVStatus}" />
+  <string id="Settings.About.NetworkInfo.Connected" value="Connected" />
+  <string id="Settings.About.NetworkInfo.Disconnected" value="Disconnected" />
+  <!--
+
+    The system resources information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {SDStreams}               number of standard definition streams available
+    {HDStreams}               number of high definition streams available
+    {DTTTuners}               number of tuners available
+    {BandwidthCap}            maximum bandwidth available
+    
+    {AllocatedManagedMemory}  in KB
+    {AllocatedPhysicalMemory} in KB
+    {AvailableVirtualMemory}  in KB
+    {MemoryLoad}              in %
+    
+    {IngressBandwdith}        maximum bandwidth for the Ingress Profile
+    {IngressSDStreams}        number of standard definition streams available in the Ingress Profile
+    {IngressHDStreams}        number of high definition streams available in the Ingress Profile 
+    
+    {EgressBandwdith}         maximum bandwidth for the Egress Profile
+    {EgressStreams}           number of standard and high definition streams available in the Egress Profile
+  
+    {DiskStatus}              present/not present
+    {DiskUsage}               20% remaining  
+  -->
+  <string id="Settings.About.SystemResources.Data" value="Streams: {SDStreams} SD/{HDStreams} HD (WAN); {IngressSDStreams} SD/{IngressHDStreams} HD (Dev)&#13;Bandwidth cap: {BandwidthCap} (WAN); {IngressBandwidth} (Dev)&#13;Remote Playback: {EgressBandwidth} {EgressStreams}&#13;Number of DTT tuners: {DTTTuners}&#13;Allocated managed memory: {AllocatedManagedMemory}&#13;Allocated physical memory: {AllocatedPhysicalMemory}&#13;Available virtual memory: {AvailableVirtualMemory}&#13;Memory load: {MemoryLoad}&#13;Disk status: {DiskStatus}&#13;Disk usage: {DiskUsage}" />
+  <string id="Settings.About.SystemResources.Present" value="Present" />
+  <string id="Settings.About.SystemResources.NotPresent" value="Not Present" />
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="{0:#,###} KB" />
+  <string id="Settings.About.SystemResources.DiskUsage" value="{0} of {1}" />
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value="{0}% remaining" />
+  <string id="Settings.About.SystemResources.EgressDisabled" value="Not enabled" />
+  <string id="Settings.About.SystemResources.EgressSD" value="SD" />
+  <string id="Settings.About.SystemResources.EgressHD" value="HD" />
+  <string id="Settings.About.SystemResources.EgressSDHDSeparator" value="/" />
+  <string id="Settings.About.SystemResources.EgressBandwidthSeparator" value="," />
+  <string id="Settings.About.CheckHardDisk" value="檢查硬碟" />
+  <string id="Settings.About.CheckHardDisk.Instructions" value="若您被告知修復硬碟，請選擇檢查硬碟。&#xD;系統將重啟並且在硬碟被檢查期間的10到15分鐘內您不能觀看電視。也不能錄製。" />
+  <string id="Settings.About.CheckHardDisk.Prompt" value="檢查硬碟系統將需要重啟" />
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="不重啟" />
+  <string id="Settings.About.CheckHardDisk.Restart" value="重啟" />
+  <string id="Settings.About.PrivacyStatement" value="隱私政策" />
+  <string id="Settings.About.CopyrightStatement" value="版權資訊" />
+  <string id="Settings.About.SubscriptionInfo" value="訂購資訊" />
+  <string id="Settings.Language" value="顯示語言" />
+  <string id="Settings.Sounds" value="系統聲音效果" />
+  <string id="Settings.Sounds.Play" value="播放聲音效果" />
+  <string id="Settings.Sounds.Mute" value="關閉聲音效果" />
+  <string id="Settings.HiddenChannels" value="自訂頻道" />
+  <string id="Settings.HiddenChannels.Description" value="按OK添加或删除在節目表中顯示的頻道。" />
+  <string id="Settings.HiddenChannels.ShowAll" value="全部選擇" />
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="查看沒有勾選的" />
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="全部顯示" />
+  <string id="Settings.HiddenChannels.ChangeOrder" value="變更順序" />
+  <string id="Settings.SignalStrength.Description" value="選擇一個頻道進行信號強度的檢測" />
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="現在沒有頻道" />
+  <string id="Settings.SignalStrength.Labels" value="頻率:&#xD;信號強度:&#xD;信號質量:" />
+  <string id="Settings.SignalStrength.Values" value="{Frequency}&#xD;{Strength}%&#xD;{Quality}%" />
+  <string id="Settings.SignalStrength.NoValue" value="N/A" />
+
+  <!--
+    The listings information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {ListingsDataVersion}     Listings data version on the client
+    {LastDownloadTime}        Last download time of listings data
+    {LastError}               Last error encountered and timestamp of error
+    {ChannelMapName}          Channel map name
+    {NextUpdateTime}          Next listings data update time
+    {OriginalFIleName}        Original filename of downloaded file(s)
+    {IsClientPolling}         If client is in polling mode
+  -->
+  <string id="Settings.About.ListingsInfo.Data" value="Data Version: {ListingsDataVersion}&#13;Download Time: {LastDownloadTime}&#13;Last Error: {LastError}&#13;Channel Map: {ChannelMapName}&#13;Next Update Time: {NextUpdateTime}&#13;Original File Name: {OriginalFIleName}&#13;Client Polling: {IsClientPolling}" />
+
+
+  <!-- Strings for Secondary Audio settings page -->
+  <string id="Settings.SecondaryAudio" value="第二聲道" />
+  <string id="Settings.SecondaryAudio.Description" value="有的節目用第二聲道來傳送另一種語言" />
+  <string id="Settings.SecondaryAudio.Primary" value="主聲道" />
+  <string id="Settings.SecondaryAudio.Secondary" value="第二聲道" />
+  <string id="Settings.SecondaryAudio.PrimarySet" value="設定為主聲道" />
+  <string id="Settings.SecondaryAudio.SecondarySet" value="設定為第二聲道" />
+  <!-- {0}: String for current Cc Channel-->
+  <string id="Settings.CcChannels.Changed" value="字幕變更為 {0}" />
+  <string id="Settings.CcChannels.Off" value="關閉字幕" />
+  <string id="Settings.ClosedCaption.Heading" value="字幕" />
+  <string id="Settings.ClosedCaption.ChangeButton" value="變更" />
+  <string id="Settings.ClosedCaption.Digital.Description" value="選擇數位字幕" />
+  <string id="Settings.ClosedCaption.Digital.Heading" value="數位字幕" />
+  <string id="Settings.ClosedCaption.Digital.Off" value="關閉" />
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="字幕 1" />
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="字幕 2" />
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="字幕 3" />
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="字幕 4" />
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="字幕 5" />
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="字幕 6" />
+  <string id="Settings.ClosedCaption.Standard.Description" value="選擇標準字幕" />
+  <string id="Settings.ClosedCaption.Standard.Heading" value="標準字幕" />
+  <string id="Settings.ClosedCaption.Standard.Off" value="關閉" />
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="字幕 1" />
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="字幕 2" />
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="字幕 3" />
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="字幕 4" />
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="文字 1" />
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="文字 2" />
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="文字 3" />
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="文字 4" />
+  <string id="Settings.Save.Succeeded" value="設定已儲存。" />
+  <string id="Settings.Save.Failed" value="最近的設定已經遺失。請檢查您的變更並確認。" />
+  <string id="Settings.Save.Failed.PCon" value="最近的密碼設定已經遺失。請檢查您的變更並確認。" />
+  <!-- Channel Reordering -->
+  <string id="Settings.ChannelReordering" value="變更頻道順序" />
+  <string id="Settings.ChannelReordering.RestoreDefault" value="預設順序" />
+  <string id="Settings.ChannelReordering.Description" value="使用箭頭變更頻道的順序。" />
+  <string id="Settings.AudioLanguage" value="切換聲道" />
+  <string id="Settings.AudioLanguage.Description" value="主聲道" />
+  <!-- RF output channel -->
+  <string id="Settings.RFOutputChannel" value="RF 輸出頻道" />
+  <string id="Settings.RFOutputChannel.TurnOff" value="關閉 RF 輸出" />
+  <string id="Settings.RFOutputChannel.Description" value="如果您變更 RF 輸出頻道，&#xD;您必須在電視上調到這個頻道。" />
+  <string id="Settings.RFOutputChannel.Confirm" value="將電視調到頻道{0}，之前看不見視頻信號。" />
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="RF 輸出頻道會沒有信號。" />
+
+  <!-- 
+      The list of languages and the default setting used in the Audio Language Settings page.  These are optional
+      and are used if the UserStore AudioLanguages and/or PreferredAudioLanguage values are not set.  Ensure
+      that no 2 codes in the preference list will result in duplicate language names. Duplicate language names
+      are ignored.  Languages are displayed in the Audio Language Settings page in the order that they appear in
+      this list.
+  -->
+  <string id="Settings.AudioLanguage.Preference.List" value="ar,bg,ca,zh,cs,da,de,el,en,es,fi,fr,gd,he,hu,is,it,ja,ko,nl,no,pl,pt,ro,ru,hr,sk,sq,sv,th,tr,ur,id,uk,be,sl,et,lv,lt,fa,vi,hy,az,eu,mk,af,ka,fo,hi,ms,kk,ky,sw,uz,tt,pa,gu,ta,te,kn,mr,sa,mn,gl,sr,cy"/>
+  <string id="Settings.AudioLanguage.Preference.Default" value="en"/>
+
+  <!-- Strings for Security settings page -->
+  <string id="SettingsEnhancedHdmiSecurity" value="安全" />
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="如果您使用 HDMI 輸出，在調台時遇到問題，請選擇[增強安全]" />
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="增強安全" />
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="標準安全" />
+  <string id="AudioProgram.AudioType.1" value="清晰效果" />
+  <string id="AudioProgram.AudioType.2" value="有聽力障礙" />
+  <string id="AudioProgram.AudioType.3" value="視力障礙的幫助" />
+  <string id="AudioProgram.NoLanguage.Primary" value="主聲道" />
+  <string id="AudioProgram.NoLanguage.Secondary" value="第二聲道" />
+  <string id="AudioProgram.NoLanguage.Additional" value="聲道" />
+  <!-- Subtitling types as defined in the DVB standard. -->
+  <!-- normal -->
+  <string id="SubtitleProgram.SubtitleType.16" value="" />
+  <string id="SubtitleProgram.SubtitleType.17" value="4:3" />
+  <string id="SubtitleProgram.SubtitleType.18" value="16:9" />
+  <string id="SubtitleProgram.SubtitleType.19" value="2.21:1" />
+  <!-- hard of hearing -->
+  <string id="SubtitleProgram.SubtitleType.32" value="聽力障礙" />
+  <string id="SubtitleProgram.SubtitleType.33" value="4:3, 聽力障礙" />
+  <string id="SubtitleProgram.SubtitleType.34" value="16:9, 聽力障礙" />
+  <string id="SubtitleProgram.SubtitleType.35" value="2.21:1, 聽力障礙" />
+  <string id="ElementaryStream.DescriptionFormat" value=" {0}" />
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}" />
+  <string id="AudioProgram.DescriptionFormat" value=" {0}" />
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}" />
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="隨選影片" />
+  <string id="VOD.MediaItem.Description" value="在此訂閱影片" />
+  <string id="VOD.CurrentRentals.Title" value="目前訂閱" />
+  <string id="VOD.CurrentRentals" value="目前訂閱" />
+  <string id="VOD.NoCurrentRentals" value="隨選影片可以讓您隨心所欲觀看電影和電視節目。您可以暫停、快轉、倒轉，也可以先點播以後再看。而且VOD節目更新得很快,您總能找到新的節目來看。&#xD;&#xD;您目前還沒有訂閲任何節目，請按遙控器上的右鍵來瀏覽您要訂閲哪些節目。" />
+  <string id="VOD.Count.None" value="未訂閱任何影片" />
+  <string id="VOD.Count.One" value="1 個訂閱的影片" />
+  <string id="VOD.Count.Many" value="{0} 個訂閱的影片" />
+
+  <!-- DownloadAndPlay -->
+  <string id="VOD.Downloads.Title" value="節目下載" />
+  <string id="VOD.Downloads.Subcategory.Downloaded" value="已下載" />
+  <string id="VOD.Downloads.Subcategory.Scheduled" value="已預約" />
+  <string id="VOD.Downloads.Downloaded.NoItems" value="目前沒有已下載的節目，請按遙控器上的右鍵查看下載節目的狀態。" />
+  <string id="VOD.Downloads.Scheduled.NoItems" value="您目前沒有預約下載的節目。" />
+  <string id="VOD.Downloads.State.WaitingToStart" value="" />
+  <string id="VOD.Downloads.State.Downloading" value="下載中" />
+  <string id="VOD.Downloads.State.Failed" value="下載失敗" />
+  <string id="VOD.Downloads.State.Incomplete" value="下載未完成" />
+  <string id="VOD.Downloads.Unavailable" value="這個下載節目目前不可用。&#xD;請稍候再試。" />
+  <string id="ProgramInfo.Downloads.AddConfirmation" value="新增為預約下載。下載是不收費的，當您租看這個節目時才會收費。" />
+  <string id="ProgramInfo.Downloads.AddConfirmationFree" value="新增為預約下載" />
+  <string id="ProgramInfo.Downloads.CancelConfirmation" value="取消下載" />
+  <string id="ProgramInfo.Downloads.DeleteConfirmation" value="以下載的節目被刪除" />
+  <string id="ProgramInfo.Downloads.MoveToTopConfirmation" value="這個節目將會被優先下載" />
+  <string id="VOD.Downloads.Downloaded.State.Viewable" value="可收看" />
+  <string id="VOD.Downloads.Downloaded.State.NotPurchased" value="尚未租看" />
+  <!-- Doesn't seem to be used-->
+  
+  <string id="VOD.Category.Count.None" value="沒有任何影片" />
+  <string id="VOD.Category.Count.One" value="1 個影片" />
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.Many" value="{0} 個影片" />
+  <string id="VOD.Storefront.LongDescription1" value="您能從成百上千的隨選影片中選擇您喜愛的影片進行播放、暫停、倒轉和快轉。" />
+  <string id="VOD.Storefront.LongDescription2" value="按遙控器上的「隨選影片」進入並選擇一系列可以點播的視訊。" />
+  <string id="VOD.Storefront.ShortDescription" value="免費和可訂閲的影片" />
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="隨選影片" />
+  <string id="VOD.ChannelGuide.CurrentRentals" value="目前訂閱" />
+  <string id="VOD.Expired" value="您訂閱的影片已經過期" />
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresToday" value="租期結束於 {0}" />
+  <!-- {0}: Day; {1}: time-->
+  <string id="VOD.ExpiresInAWeek" value="租期結束於 {0} {1}" />
+  <!-- {0}: Date -->
+  <string id="VOD.ExpiresLater" value="租期結束於 {0}" />
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongToday" value="租期在今天{0}結束" />
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongTomorrow" value="租期在明天{0}結束" />
+  <!-- {0}: day; {1}: time-->
+  <string id="VOD.ExpiresLongInAWeek" value="租期將在 {0}的 {1}結束" />
+  <!-- {0}: date; {1}: time-->
+  <string id="VOD.ExpiresLongLater" value="租期將在 {0}的 {1}結束" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer" value="訂閱[{2}]，費用{0}，租期{1}。" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Adult" value="訂閱[{2}]，收費{0}，租期{1}。這是成人影片。" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package" value="訂閱[{2}]，收費{0}，租期{1}。" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package.Adult" value="訂閱[{2}]，收費{0}，租期{1}。這是成人影片。" />
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow" value="訂閱[{1}]，收費{0}。" />
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="訂閱[{1}]，收費{0}。這是成人影片。" />
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="訂閱[{1}]，收費{0}。" />
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="訂閱[{1}]，收費{0}。這是成人影片。" />
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free" value="{0} 免費收看 {1}" />
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Adult" value="{0}是成人内容，免費收看 {1}" />
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package" value=" 套裝影片{0}免費收看 {1}" />
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="套裝影片{0}是成人節目，免費收看{1}" />
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value="{0}是免費節目" />
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value="{0} 是免費成人節目" />
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value="{0} 是免費套裝影片" />
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value="{0} 是免費套裝影片，成人節目。" />
+  <string id="VOD.CreditLimitExceeded" value="本次訂閱超過您的消費上限。" />
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="本次訂閱超過您的消費上限。要提高您的消費上限，請按{0}繼續。" />
+  <string id="VOD.CreditLimitChange" value="變更消費上限" />
+  <string id="VOD.CreditLimitDontChange" value="不變更" />
+  <string id="VOD.CouldNotPurchase" value="不能完成訂閱" />
+  <string id="VOD.VideoStore.Banner" value="Banner_VOD.png" />
+  <string id="VOD.VideoStore" value="隨選影片" />
+  <string id="VOD.StoreFront" value="隨選影片" />
+  <string id="VOD.DisabledNotification" value="無法進入隨選影片服務" />
+  <string id="VOD.Unavailable" value="隨選影片暫時無法使用。&#xD;請稍後再試。" />
+  <string id="VOD.PleaseWait" value="正在取得影片資訊" />
+  <string id="VOD.Package" value="套裝影片資訊" />
+  <string id="VOD.RentAllPackage" value="訂閲所有的{0}" />
+  <string id="VOD.RentAll1Package" value="訂閲套裝影片"/>
+  <string id="VOD.RentAll2Package" value="訂閲兩個套裝影片" />
+  <string id="VOD.RentOne" value="單獨訂閱" />
+  <string id="VOD.AlreadyRented" value="可訂閱的影片" />
+  <string id="VOD.SubcategoryIndicator" value="..." />
+  <string id="VOD.Rented" value="已訂閱" />
+  <string id="VOD.Rent" value="影片" />
+  <string id="VOD.NotRented" value="沒有訂閱" />
+  <string id="VOD.Debarred" value="與客服中心聯絡" />
+  <string id="VOD.Renting" value="訂閱" />
+  <!-- {0}: VOD program title-->
+  <string id="VOD.Preview" value="預覽： {0}" />
+  <string id="VOD.CannotRecord" value="無法錄製隨選影片" />
+  <string id="VOD.CannotRecord.Available" value="本節目可在隨選影片中訂閱" />
+  <string id="VOD.Unlock" value="解除成人節目鎖" />
+  <string id="VOD.PlaybackError" value="電視服務目前無法使用。" />
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="暫時不能播放本節目。" />
+  <!-- {3}: ?-->
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="請稍後重試。 (3)" />
+  <string id="VOD.VodKeyringTrouble1" value="暫時不能播放本節目。" />
+  <!-- {2}: ?-->
+  <string id="VOD.VodKeyringTrouble2" value="請稍後重試。 (2)" />
+  <string id="VOD.SessionUnavailable1" value="暫時不能播放本節目。" />
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.SessionUnavailable2" value="請稍後重試。 (1)" />
+  <string id="VOD.DefaultState.Message1" value="選擇節目" />
+  <string id="VOD.DefaultState.Message2" value="任何時候皆可觀看" />
+  <string id="VOD.DefaultState.Message3" value="暫停，倒轉及快轉" />
+  <string id="SVOD.Browse" value="瀏覽隨選影片" />
+  <string id="SVOD.Subscribed" value="己訂閱" />
+  <string id="SVOD.SubscriptionInfo" value="訂閱資訊" />
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="暫無直播電視。" />
+  <!-- Purchasable -->
+  <!-- {0}: title -->
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="按OK取得節目資訊。" />
+  <string id="VOD.StatusBar.PressOK.RentalInfo" value="按OK取得訂閲資訊。" />
+  <string id="SVOD.StatusBar.PressOK.RentalInfo" value="按OK取得[{0}]的訂閲資訊。" />
+  <string id="Default.StatusBar.PressOK.RentalInfo" value="按OK取得訂閲資訊。" />
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.Purchasable" value="現在可以訂閲" />
+  <string id="VOD.StatusBar.Purchasable" value="現在可以訂閲" />
+  <string id="SVOD.StatusBar.Purchasable" value="現在可以訂閲" />
+  <string id="Default.StatusBar.Purchasable" value="現在可以訂閲" />
+  <!-- displayed on program info page and guide rollover -->
+  <string id="PPV.Purchasable" value="現在可以訂閲" />
+  <string id="VOD.Purchasable" value="現在可以訂閲" />
+  <string id="SVOD.Purchasable" value="現在可以訂閲" />
+  <string id="Default.Purchasable" value="現在可以訂閲" />
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="按 Info 查看節目詳細資訊。" />
+  <string id="VOD.StatusBar.PressInfo.ProgramInfo" value="按 Info 查看節目詳細資訊。" />
+  <string id="SVOD.StatusBar.PressInfo.ProgramInfo" value="按 Info 查看套裝影片詳細資訊。" />
+  <string id="Default.StatusBar.PressInfo.ProgramInfo" value="按 Info 查看節目詳細資訊。" />
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.RentedText" value="已訂閲， 播放{0}" />
+  <string id="VOD.StatusBar.RentedText" value="已訂閲， 播放{0}" />
+  <string id="SVOD.StatusBar.RentedText" value="已訂閲" />
+  <string id="Default.StatusBar.RentedText" value="已訂閲， 播放{0}" />
+  <string id="PPV.ProgramInfo.Rented" value="訂閲：一次觀看" />
+  <string id="VOD.ProgramInfo.Rented" value="已訂閲" />
+  <string id="SVOD.ProgramInfo.Rented" value="已訂閲" />
+  <string id="Default.ProgramInfo.Rented" value="已訂閲" />
+  <string id="PPV.OfferPending" value="目前還不能訂閲" />
+  <string id="VOD.OfferPending" value="目前還不能訂閲" />
+  <string id="SVOD.OfferPending" value="目前還不能訂閲" />
+  <string id="Default.OfferPending" value="目前還不能訂閲" />
+  <string id="PPV.OfferExpired" value="訂閲期限已過" />
+  <string id="VOD.OfferExpired" value="訂閲期限已過" />
+  <string id="SVOD.OfferExpired" value="訂閲期限已過" />
+  <string id="Default.OfferExpired" value="訂閲期限已過" />
+  <string id="PPV.NotAvailable" value="Not available for rental." />
+  <string id="VOD.NotAvailable" value="Not available for rental." />
+  <string id="SVOD.NotAvailable" value="這個項目已經不存在" />
+  <string id="Default.NotAvailable" value="Not available for rental." />
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.StatusBar.PurchaseText" value="播放 {1}，收視費用為{0}" />
+  <string id="VOD.StatusBar.PurchaseText" value="播放 {1}，收視費用為{0}" />
+  <string id="SVOD.StatusBar.PurchaseText" value="每月收視費用為 {0}" />
+  <string id="Default.StatusBar.PurchaseText" value="播放 {1}，收視費用為{0}" />
+  <!-- {0}: title; {1}: price-->
+  <string id="URL.OkToRent" value="按 OK 訂閲 {0} ,費用 {1}" />
+  <!-- {0}: price {1} -->
+  <string id="PPV.ProgramInfo.AcceptOffer" value="訂閲 {0}" />
+  <string id="VOD.ProgramInfo.AcceptOffer" value="{0}" />
+  <!-- {0}: price -->
+  <string id="SVOD.ProgramInfo.AcceptOffer" value="月租金 {0}" />
+  <!-- {0}: duration -->
+  <string id="Default.ProgramInfo.AcceptOffer" value="訂閲" />
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.AcceptOffer.Button" value="訂閲 {0}" />
+  <string id="VOD.ProgramInfo.AcceptOffer.Button" value="訂閲 {0}" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button" value="訂閲" />
+  <string id="Default.ProgramInfo.AcceptOffer.Button" value="訂閲 {0}" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Button.Free" value="播放" />
+  <string id="VOD.ProgramInfo.AcceptOffer.Button.Free" value="播放" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button.Free" value="播放" />
+  <string id="Default.ProgramInfo.AcceptOffer.Button.Free" value="播放" />
+  <!-- {0}: title-->
+  <string id="Default.PurchaseOffer.Free" value="請按 [撥放] 開始收看 {0}" />
+  <string id="Default.PurchaseOffer.Free.Adult" value="請按 [撥放] 開始收看 {0}.&#xD;這是成人節目。" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer" value="[{2}] 收費 {0}，租期 {1} " />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer.Adult" value="[{2}] 收費 {0}，租期 {1}。&#xD;這是成人節目" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="訂閲" />
+  <string id="VOD.ProgramInfo.AcceptOffer.Extern" value="訂閲" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Extern" value="訂閲" />
+  <string id="Default.ProgramInfo.AcceptOffer.Extern" value="訂閲" />
+  <string id="PPV.GettingPrice" value="取得訂閱價格中…" />
+  <string id="VOD.GettingPrice" value="取得訂閱價格中…" />
+  <string id="SVOD.GettingPrice" value="取得訂閱價格中…" />
+  <string id="Default.GettingPrice" value="取得訂閱價格中…" />
+  <string id="Default.GettingPrice.Short" value="$$" />
+  <!-- {0}: Price; {1}: Rental minutes -->
+  <string id="PPV.Rental.PriceAndExpiration" value="訂閲價格 {0} · 收視期限 {1}" />
+  <string id="VOD.Rental.PriceAndExpiration" value="訂閲價格 {0} · 收視期限 {1}" />
+  <string id="SVOD.Rental.PriceAndExpiration" value="價格 {0} · 按月訂閲" />
+  <string id="Default.Rental.PriceAndExpiration" value="訂閲價格 {0}" />
+  <string id="PPV.Rental.PriceAndExpiration.Extern" value="按[訂閲以獲得更詳細資訊" />
+  <string id="VOD.Rental.PriceAndExpiration.Extern" value="按[訂閲以獲得更詳細資訊" />
+  <string id="SVOD.Rental.PriceAndExpiration.Extern" value="按[訂閲以獲得更詳細資訊" />
+  <string id="Default.Rental.PriceAndExpiration.Extern" value="按[訂閱]以獲得更詳細資訊" />
+  <string id="Free" value="免費" />
+  <string id="Free.Debarred" value="" />
+  <!-- PPV TV -->
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer" value="在 {1} 訂閲 [{2}] ，收取費用 {0}。" />
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer.Adult" value="在 {1} 訂閲 [{2}] ，收取費用 {0}。&#xD;這是成人節目。" />
+  <!-- {0}: title-->
+  <string id="PPV.PurchaseOffer.Free" value="請按 [撥放] 開始收看 {0}" />
+  <string id="PPV.PurchaseOffer.Free.Adult" value="請按 [撥放] 開始收看 {0}.&#xD;這是成人節目。" />
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.PriceAndTime" value="{0} • {1}" />
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.Purchase" value="{0} • 一次觀看" />
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="一次觀看" />
+  <!-- URL/Mosaic/Image  -->
+  <!-- {0}: title-->
+  <string id="URL.OkToLaunch" value="按 OK 開始 {0}" />
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="URL.PurchaseOffer" value="訂閲[{1}]，租期 {2}，收取費用 {0} " />
+  <string id="URL.PurchaseOffer.Adult" value="訂閲[{1}]，租期 {2}，收取費用 {0} 。&#xD;這是成人節目。" />
+  <!-- {0}: price; {1}: name-->
+  <string id="URL.PurchaseOffer.NoWindow" value="訂閲[{1}]，收取費用 {0} 。" />
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="訂閲[{1}]，收取費用 {0} 。&#xD;這是成人節目。" />
+  <!-- SVOD  -->
+  <!-- {0}: price; {2}: title-->
+  <string id="SVOD.PurchaseOffer" value="訂閱[{2}]，每月收取費用{0}。" />
+  <string id="SVOD.PurchaseOffer.Adult" value="訂閱[{2}]，每月收取費用{0}。&#xD;這是成人節目。" />
+  <!-- {0}: title-->
+  <string id="SVOD.PurchaseOffer.Free" value="{0} 是免費節目" />
+  <string id="SVOD.PurchaseOffer.Free.Adult" value="成人節目 {0} 是免費節目" />
+  <!-- Messages -->
+  <string id="Messages.HeaderText" value="消息" />
+  <string id="Messages.NoMessages" value="您沒有消息。" />
+  <string id="Messages.Menu.ByDate" value="按日期" />
+  <string id="Messages.Menu.ByName" value="按名字" />
+  <string id="Messages.Dismiss" value="取消" />
+  <!-- {0}: Message received time-->
+  <string id="Messages.Called" value="被呼叫： {0}" />
+  <!-- {0}: Sender name information-->
+  <string id="Messages.From" value="來自： {0}" />
+  <!-- {0}: Message received time-->
+  <string id="Messages.Received" value="接收： {0}" />
+  <string id="Messages.MessageHeader" value="消息" />
+  <string id="Messages.PictureHeader" value="圖片" />
+  <string id="Messages.CallerIdHeader" value="呼叫ID" />
+  <string id="Messages.PlaySlideShow" value="播放幻燈片" />
+  <!-- PHOTOS -->
+  <!-- {0}: Earliest date of photos in slideshow: {1}: Latest date of photos in slideshow-->
+  <string id="Photos.DateRangeFormat" value="{0} 到 {1}" />
+  <!-- {0}: Number of albums-->
+  <string id="Photos.AlbumCountFormat" value="{0} 相簿" />
+  <string id="Photos.Count.None" value="沒有照片" />
+  <string id="Photos.Count.One" value="1 張照片" />
+  <!-- Doesn't seem to be used-->
+  <string id="Photos.Count.Many" value="{0} 張照片" />
+  <!-- {0}: Number of subfolders-->
+  <string id="Photos.Count.SubFolders" value="{0} 個子目錄" />
+  <!-- PICTURES & MUSIC: MEDIA SHARING -->
+  <string id="MediaSharing.Title" value="照片和音樂" />
+  <string id="MediaSharing.Subtitle" value="播放音樂，瀏覽照片，幻燈片瀏覽照片並播放音樂" />
+  <string id="MediaSharing.ServerAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerAuthorized.Details" value="您的家庭網路中有以下這些電腦。&#xD;&#xD;您可以瀏覽與聆聽保存在這些電腦上所分享出來的音樂和照片。請先在這些電腦上利用媒體共用的功能來授權Microsoft TV以存取電腦中的多媒體。" />
+  <string id="MediaSharing.ServerNotAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="您的家庭網路中有以下這些電腦。&#xD;&#xD;您目前並無授權瀏覽與聆聽保存在這些電腦上所分享出來的音樂和照片。" />
+  <string id="MediaSharing.Empty" value="無項目" />
+  <string id="MediaSharing.SingleItemFormat" value="1個項目" />
+  <string id="MediaSharing.MultipleItemsFormat" value="{0}個項目" />
+  <!-- following panel with a single button is shown while looking for media servers on the network... -->
+  <string id="MediaSharing.NoServersYet.Description" value="請稍後。Microsoft TV 正在您的網路上搜尋可播放的照片和音樂。&#xD;&#xD;播放音樂，瀏覽照片，以幻燈片模式瀏覽照片並播放音樂。您需要一台電腦執行 Windows Media Player 11，並且啓用了 Media Sharing 功能。" />
+  <string id="MediaSharing.NoServersYet.Button" value="關於照片和音樂共享的更多知識" />
+  <!-- same panel as string above is shown after a minute looking for servers if nothing was found so far -->
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="45" />
+  <!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="Microsoft TV 還沒有發現共用的媒體，但是還在搜索中。&#xD;&#xD;請檢查您電腦的 Windows Media Player 是否已經啓用" />
+  <string id="MediaSharing.NoServersFound.Button" value="" />
+  <!-- error messages shown when playback fails. Optional: {0} windows media server error code (a number), {1} error description (a string) -->
+  <!-- specific error messages can be used for specific error codes as shown using {0}, just affix the code number to the key name -->
+  <string id="MediaSharing.Error.MusicPlaybackFailed" value="播放音樂時出現錯誤。這種格式的音樂檔案不支援，請使用 WMA 或者 MP3 的音樂檔。或者將這個音樂檔案轉碼為WMA 或MP3格式。[{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value="這個音樂檔是受版權保護的，不能夠繼續播放。" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="這種格式的音樂檔不支援，請使用 WMA 或者 MP3 音樂檔。或者將這個音樂檔案轉碼為WMA 或MP3格式。[{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="這種格式的音樂檔不支援，請使用 WMA 或者 MP3 音樂檔。或者將這個音樂檔案轉碼為WMA 或MP3格式。[{0}]" />
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="瀏覽照片時出現錯誤，請確認您的電腦為開機狀態並已連接到內部網路。" />
+  <!-- 
+      When media sharing finds a UPnP device, like a Windows Media Player media sharing node,
+      it asks the device to present music and photos organized in different ways. music can 
+      be organized by album, artist, genre, playlists, composers, etc... photos can be organized
+      by folder, keywords, date taken, ratings, etc... 
+      
+      You can customize which media is shown and how by adding/removing strings from the list
+      below. the complete description of the container hierarchy for windows media player is described
+      in "How to build a network device compatible with Windows Media player sharing service".
+
+      The strings below contain four fields 1|2|3|4. The first is the localized name of your search,
+      the second is * for all type of nodes or the kind of node that should be shown (for example
+      object.container.audioItem or object.container.album.photoAlbum). The third field is the
+      subcontainer ID (see docs). The fourth field is the legend that is shown next to the button
+      when the user selects it.
+      
+      You can have up to 20 entries (although we wouldn't suggest using too many).
+  -->
+  <!-- list of menu items (UPnP containers) shown -->
+  <string id="UPnP.MenuContainer.0" value="音樂|*|1|瀏覽您所有的音樂&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.1" value="   按專集分類|object.container.album.musicAlbum|7|按專輯瀏覽您的音樂&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.2" value="   按藝術家分類|*|6|按藝術家瀏覽您的音樂&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.3" value="   按播放清單分類|music.container.playlistContainer|F|按您在Windows Media Player 中創建的播放清單瀏覽您的音樂&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.4" value="照片|object.container.album.photoAlbum|3|瀏覽您所有的照片&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.5" value="   按資料夾分類|object.container.album.photoAlbum|16|按資料夾瀏覽您的照片。&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <string id="UPnP.MenuContainer.6" value="   按拍攝日期分類|object.container.album.photoAlbum|C|按拍攝日期瀏覽您的照片。&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <!-- photos can be seen organized by keywords only when you connect to a Windows Vista client. if you don't have Vista clients, you may want to comment this line out -->
+  <string id="UPnP.MenuContainer.7" value="   按關鍵字分類|object.container.album.photoAlbum|D2|按關鍵字瀏覽您的照片。&#xD;&#xD;播放音樂之後，使用 Back 鍵添加照片到幻燈片中。使用 Menu 鍵清除幻燈片。" />
+  <!-- video is not supported yet but here's how you would enable it... -->
+  <!-- <string id="UPnP.MenuContainer.8" value="All Videos (beta)|*|8|Play home videos stored on your PC." /> -->
+  <!-- Upgrade -->
+  <string id="Upgrade.Required" value="您的電視服務會在1分鐘之後升版，在升版過程中您將無法收看電視，也不能錄製電視節目。"/>
+  <string id="Upgrade.OptionalWithTimeout" value="您的電視服務可以升版，預設會在1分鐘之後開始。在升版過程中您將無法收看電視，也不能錄製電視節目。"/>
+  <string id="Upgrade.OptionalWithNoTimeout" value="您的電視服務可以升版，在升版過程中您將無法收看電視，也不能錄製電視節目。"/>
+  <string id="Upgrade.ForcedWithTimeout" value="您的電視服務會在1分鐘之後升版，在升版過程中您將無法收看電視，也不能錄製電視節目。"/>
+  <string id="Upgrade.ForcedWithNoTimeout" value="您的電視服務需要升版，在升版過程中您將無法收看電視，也不能錄製電視節目。"/>
+  <string id="Upgrade.Misconfiguration" value="您的電視服務需要升版，但是暫時還沒有開始，請等待。"/>
+
+  <string id="Upgrade.Title" value="正在升版" />
+  <string id="Upgrade.InProgress" value="您的機上盒正在升版。" />
+  <string id="Upgrade.Description" value="在升版過程中不要切斷電源或網路連接。" />
+  <string id="Upgrade.Failed.TryAgain" value="升版服務暫停，1分鐘後再試。"/>
+  <string id="Upgrade.Failed" value="升版服務暫停。"/>
+  
+<!-- {0}: percentage number completed-->
+  <string id="Upgrade.Progress" value="升版完成 {0}%" />
+  <string id="Upgrade.TimeLeftLabel" value="估計剩餘時間：" />
+  <!-- {0}: integer number of minutes left-->
+  <string id="Upgrade.TimeLeft" value="{0} 分鐘" />
+  <string id="Upgrade.TimeLeftOneMinute" value="1 分鐘" />
+  <!-- {0}: File name-->
+  <string id="Upgrade.FileNotInList" value="文件 {0} 沒有在升版列表中發現。" />
+  <string id="Upgrade.DirSigMismatch" value="目錄簽名不符。" />
+  <string id="Upgrade.ParseDirLineFailed" value="解析目錄行失敗。" />
+  <string id="Upgrade.PartMD5Mismatch" value="部件MD5不符。" />
+  <string id="Upgrade.NoDigest" value="到達結尾沒有摘要。" />
+  <!-- {0}: Part name; {1}: Part length-->
+  <string id="Upgrade.PartTooBig" value="部件 {0} 太大 ({1})" />
+  <!-- {0}: Part length; {1}: Expected part length-->
+  <string id="Upgrade.PartSizeMismatch" value="部件大小不符 (期望 {0}， 得到 {1})" />
+  <!-- {0}: Decompressed Part length; {1}: Expected decrompressed part length-->
+  <string id="Upgrade.DecompPartSizeMismatch" value="解壓縮部件大小不符 (期望 {0}， 得到 {1})" />
+  <string id="Upgrade.BadPackageCRC" value="下載的封包CRC錯誤。." />
+  <string id="Upgrade.BogusPackage" value="偽封包。" />
+  <!-- {0}: Package size; {1}: Expected package size-->
+  <string id="Upgrade.PackageSizeMismatch" value="封包大小不符 (期望 {0}, 得到 {1})" />
+  <!-- {0}: Package size; {1}: Max allowed package size-->
+  <string id="Upgrade.PackageTooBig" value="封包長度 {0} 大於允許的最大大小 {1}." />
+  <!-- {0}: Number of files in package; {1}: Max allowed files-->
+  <string id="Upgrade.PackageTooManyFiles" value="封包有 {0} 個文件，多餘允許的 {1}。" />
+  <string id="Upgrade.ReadError" value="讀取錯誤。" />
+  <string id="Upgrade.OK" value="現在升版" />
+  <string id="Upgrade.Snooze" value="在三小時內提醒我" />
+  <string id="Upgrade.TryAgain" value="現在重試"/>
+  <string id="Upgrade.Repair" value="系統修復"/>
+  <string id="Upgrade.Repair.Warning" value="系統修復會將您的首選項和設定改回初始值。"/>
+  <string id="Upgrade.Repair.Yes" value="現在修復"/>
+  <string id="Upgrade.Repair.No" value="不要修復"/>
+
+  <!-- Disk Repair -->
+  <string id="DiskRepair.Title" value="正在進行磁碟檢查。" />
+  <string id="DiskRepair.InProgress" value="正在硬碟驅動器上執行診斷測試。" />
+  <string id="DiskRepair.Description" value="在此過程中不要切斷電源。" />
+  <!-- {0}: percentage number completed-->
+  <string id="DiskRepair.Progress" value="完成 {0}%" />
+  <string id="DiskRepair.TimeLeftLabel" value="估計剩餘時間：" />
+  <!-- {0}: integer number of minutes left-->
+  <string id="DiskRepair.TimeLeft" value="{0} 分鐘" />
+  <string id="DiskRepair.TimeLeftOneMinute" value="1 分鐘" />
+  <!-- Search -->
+  <string id="Search.Header" value="搜尋" />
+  <string id="Search.Header.Titles" value="搜尋標題" />
+  <string id="Search.Header.People" value="搜尋人名" />
+  <string id="Search.Header.Videos" value="搜尋節目" />
+  <string id="Search.PeopleResultPageMenu.ByDate" value="按日期" />
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="按標題" />
+  <string id="Search.PeopleResultPageMenu.ByRental" value="按訂閲" />
+  <string id="Search.PeopleResultPageMenu.ByStar" value="按 *" />
+  <string id="Search.NoRentals" value="沒有己訂閲節目" />
+  <!-- {0}: integer number of grouped search results -->
+  <string id="Search.Grouped.Shows" value="({0} shows)" />
+  <string id="Search.NoShows" value="沒有節目" />
+  <string id="Search.ErrorMsg" value="目前搜尋無法使用，請稍後重試。" />
+  <string id="Search.Today" value="今天" />
+  <string id="Search.Tomorrow" value="明天" />
+  <string id="Search.UpcomingDateFormatString" value="ddd M/d" />
+  <!-- {0}: person {1}: NoSearchResultForPeople-->
+  <string id="Search.NoResultForPeopleFormat" value="{0} - {1}" />
+  <string id="Search.NoResultForPeople" value="沒有找到。" />
+  <string id="Search.NoResultForGroup" value="沒有找到。" />
+  <!-- {0}: Search query string-->
+  <string id="Search.NoResultsLine1" value="沒有與{0}相符的搜尋結果。" />
+  <string id="Search.NoResultsLine2" value="按DELETE鍵刪除一個字母。" />
+  <!-- {0}: persons {1}: string-->
+  <string id="Search.ByDateHeaderFormat" value="{0} - {1}" />
+  <string id="Search.MoreButtonText" value="更多..." />
+  <string id="Search.TimeNotTodayFormat" value="M/d" />
+  <string id="Search.TimeTodayFormat" value="h:mm tt" />
+  <string id="Search.Waiting" value="正在取得搜尋結果" />
+  <string id="Search.NullScreen.Title.TitleSearch" value="輸入節目標題搜尋" />
+  <string id="Search.NullScreen.Title.Options" value="按 「選項」(Options) 選擇更多搜尋項和其他鍵盤特性" />
+  <string id="Search.NullScreen.Title.VideoSearch" value="輸入節目標題搜尋點播節目" />
+  <string id="Search.NullScreen.People.NameSearch" value="輸入人名搜尋" />
+  <string id="Search.NullScreen.People.Options" value="按 「選項」(Options) 選擇更多搜尋項和其他鍵盤特性" />
+  <string id="Search.NullScreen.AllSearch" value="請輸入要搜尋的標題或人名" />
+  <string id="Search.NullScreen.AllSearch.Options" value="按 「選項」(Options) 選擇更多搜尋項和其他鍵盤特性" />
+  <string id="Search.Options.Keyboard" value="鍵盤" />
+  <string id="Search.Options.FilterResults" value="過濾結果" />
+  <string id="Search.Options.FilterResults.All" value="所有結果" />
+  <string id="Search.Options.FilterResults.Titles" value="標題" />
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="隨選影片" />
+  <string id="Search.Options.FilterResults.People" value="人名" />
+  <string id="Search.Options.FilterResults.CallLetters" value="頻道簡稱" />
+  <!-- {0}: integer number of search results-->
+  <string id="Search.ListCounter" value="找到 {0} 個結果" />
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="靜音" />
+  <!-- error message (please add new error messages in this section) -->
+  <!-- CantPlayVideoError used in error dialog when we can't play wms file, you can add: {0} strWmsErrorDesc, {1} strWmsErrorCode, {2} strWmsErrorUrl -->
+  <string id="CannotPlayVideoError" value="本視訊不能播放。請稍後再試或撥打客服電話" />
+  <!-- Common -->
+  <string id="Yes" value="是" />
+  <string id="No" value="否" />
+  <string id="OK" value="確定" />
+  <string id="Done" value="完成" />
+  <!-- {0}: Program date; {1}: Program time-->
+  <string id="ProgramDateAndTime" value="{0}, {1}" />
+  <!-- {0}: Program start time; {1}: Program end time-->
+  <string id="ProgramTime" value="{0}–{1}" />
+  <!-- {0}: Program start time; {1}: Program end time ? Why doesn't this use rating?-->
+  <string id="ProgramTimeAndRating" value="{0}–{1}" />
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+  <string id="MiniTimeFormat" value="h:mm" />
+  <!-- The ShortTime format pattern is used on pages that display the {Time} variable.  Leave empty for default behavior. -->
+  <!-- See datetimeformatinfoclasstopic.asp link above for more info. -->
+  <string id="ShortTimeFormat" value="" />
+  <string id="ShortTimeFormat.AmDesignator" value="" />
+  <string id="ShortTimeFormat.PmDesignator" value="" />
+  <string id="MicroDateFormat" value="M/d" />
+  <string id="MiniDateFormat" value="ddd M/d" />
+  <string id="ShortDateFormat" value="dddd M/d" />
+  <string id="DayFormat" value="ddd" />
+  <string id="Today" value="今天" />
+  <string id="Tomorrow" value="明天" />
+  <string id="TimeLeft" value="{0} 剩餘" />
+  <string id="Past" value="過去" />
+  <string id="Rental.Expired" value="您的租期已過期。" />
+  <!-- {0}: Days (int)-->
+  <string id="Rental.Day" value="1天" />
+  <string id="Rental.Days" value="{0}天" />
+  <string id="Rental.Days.Confirm" value="{0}天" />
+  <!-- {0}: Hours (int) -->
+  <string id="Rental.Hour" value="1小時" />
+  <string id="Rental.Hours" value="{0}小時" />
+  <string id="Rental.Hours.Confirm" value="{0}小時" />
+  <!-- {0}: Minutes (int) -->
+  <string id="Rental.Minute" value="1分鐘" />
+  <string id="Rental.Minutes" value="{0}分鐘" />
+  <string id="Rental.Minutes.Confirm" value="{0}分鐘" />
+  <!-- {0} seconds (int)-->
+  <string id="Duration.Seconds" value="{0} 秒" />
+  <!-- {0}: Minutes (int) -->
+  <string id="Duration.Minutes" value="{0} 分鐘" />
+  <!-- {0}: Minutes (int) {1}: Seconds (int)-->
+  <string id="Duration.MinutesSeconds" value="{0} {1}" />
+  <!-- {0}: Hours (int) -->
+  <string id="Duration.Hours" value="{0} 小時" />
+  <!-- {0}: Hours (int); {1}: Minutes (int) -->
+  <string id="Duration.HoursMinutes" value="{0} {1}" />
+  <!-- {0}: Hours (int); {1}: Minutes (int); {2}: Seconds -->
+  <string id="Duration.HoursMinutesSeconds" value="{0} {1}" />
+  <!-- {0}: Days (int)-->
+  <string id="Duration.Days" value="{0} 天" />
+  <!-- {0}: Timespan-->
+  <string id="Duration.TimeLeft" value="{0} 剩餘" />
+  <!-- {0}: Episode title; {1}: Episode description-->
+  <string id="EpisodeTitleAndDescription" value="“{0}” - {1}" />
+  <!-- {0}: Episode title-->
+  <string id="EpisodeTitle" value="“{0}”" />
+  <!-- {0} program title; {1} episode title-->
+  <string id="TitleAndEpisodeTitle" value="{0} - “{1}”" />
+  <!-- {0} program title-->
+  <string id="TitleSansEpisode" value="{0}" />
+  <!-- {0} description; {1} truncation indicator-->
+  <string id="TruncatedDescription" value="{0}{1}"/>
+  <string id="Ellipsis" value="..." />
+  <!-- {0}: Episode title-->
+  <string id="Episode" value="&#8220;{0}&#8221;"/>
+  <string id="Colon" value=":"/>
+  <string id="Comma" value=","/>
+  <string id="Space" value=" "/>
+  <string id="Period" value="."/>
+  <string id="Slash" value="\"/>
+  <string id="Bullet" value="  &#0183;  "/>
+
+  <!-- {0} Current index; {1}: Total index-->
+  <string id="ListCounter" value="{0} / {1}" />
+  <!-- {0}: Rating-->
+  <string id="ParenthesizedString" value="({0})" />
+  <string id="SettingsString" value="設定" />
+  <string id="WatchTV" value="收看" />
+  <string id="OperationFailed" value="不能夠完成本操作" />
+  <string id="Shutdown.Reboot" value="重新啟動系統" />
+  <!-- {0}: Timespan -->
+  <string id="Shutdown.Reboot.CountDown" value="系統將在 {0}秒後自動重新啟動。" />
+  <string id="Shutdown.Cancel" value="不要重新啟動" />
+  <string id="Shutdown.Prompt" value="您確定要重新啟動系統嗎？" />
+  <string id="PowerOff" value="關機" />
+  <string id="PowerOff.Prompt" value="您確定要關閉您的系統嗎？" />
+  <string id="PowerOff.Yes" value="關機" />
+  <string id="PowerOff.No" value="不關機" />
+  <string id="Restart.Prompt" value="您確定要重啟您的系統嗎？" />
+  <string id="Restart.Yes" value="重啟" />
+  <string id="Restart.No" value="不重啟" />
+  <string id="Hibernate.Prompt" value="您確定要休眠您的系統嗎？" />
+  <string id="Hibernate.Yes" value="休眠" />
+  <string id="Hibernate.No" value="不休眠" />
+  <string id="StandBy.WatchTV" value="按 OK 收看電視" />
+  <string id="TryAgain" value="重試" />
+  <string id="Content.Unavailable.AutoDetuned" value="電視將在閒置 {0} 後，將視訊暫停撥出。" />
+  <string id="Content.Unavailable.DRM" value="不能觀看內容" />
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="要收看這個頻道需要附加硬件" />
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="請與您的服務提供商聯係獲取更多資訊。" />
+  <string id="Content.Unavailable.HDMI" value="不能觀看 HDMI 內容" />
+  <string id="Content.Unavailable.Service" value="內容無法使用" />
+  <string id="Content.Unavailable.Service.Initializing" value="獲取資訊，稍候就會有内容提供。" />
+  <string id="Content.Unavailable.VOD" value="不能夠播放視訊" />
+  <string id="Content.Unavailable.PlaybackDisabled" value="目前不可以播放。" />
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="在{0}之前不可以播放" />
+  <string id="Content.Unavailable.ChangeChannels" value="切換頻道來觀看其他節目" />
+  <string id="Content.Unavailable.CA" value="您沒有訂閱這個套裝節目" />
+  <string id="Content.Unavailable.CA.Message1" value="請與服務提供商連繫" />
+  <string id="Content.Unavailable.CA.Message2" value="每月僅 $0 " />
+  <string id="Diagnostic" value="診斷資訊" />
+  <string id="Diag.Header" value="診斷資訊" />
+  <string id="Diag.NetworkNotAvailable" value="網路無法使用"/>
+  <string id="Diag.Status" value="狀態：" />
+  <string id="Diag.Available" value="可用" />
+  <string id="Diag.Unreach" value="不可到達" />
+  <string id="Diag.Unknown" value="未知" />
+  <string id="Diag.BootRomVersion" value="Boot ROM 版本"/>
+  <string id="Diag.ClientVersion" value="客戶端程式版本"/>
+  <string id="Diag.LoginServiceUrl" value="註冊服務 url"/>
+  <string id="Diag.LoginServiceIP" value="註冊服務 IP"/>
+  <string id="Diag.BoxID" value="機上盒的ID" />
+  <string id="Diag.BoxIP" value="機上盒IP地址" />
+  <string id="Diag.DHCP" value="DHCP的IP地址" />
+  <string id="Diag.Gateway" value="閘道IP地址" />
+  <string id="Diag.DNSServer" value="DNS server IP"/>
+
+  <string id="Diag.Refresh" value="Refresh"/>
+  <string id="Diag.Reboot" value="Reboot"/>
+  
+  <string id="Diag.OK" value="OK"/>
+  <string id="Diag.Fail" value="Fail"/>
+  <string id="Diag.LoginResult" value="Login attempt result"/>
+  <string id="Diag.LoginResult.UpgradeRequired" value="Upgrade required"/>
+  <string id="Diag.LoginResult.UnProvisioned" value="Device not provisioned"/>
+  <string id="Diag.LoginResult.AccountUnavailable" value="Account unavailable"/>
+  <string id="Diag.LoginResult.DuplicateIP" value="Duplicate ip address"/>
+  <string id="Diag.LoginResult.Unknown" value="Unknown result code: {0}"/>
+  <string id="ConfigurableMenu.UpdateNotification" value="正在更新您的選單" />
+  <string id="PPPoE.Setting" value="PPPOE設定" />
+  <string id="PPPoE.Setting.UserName" value="用戶名：" />
+  <string id="PPPoE.Setting.Password" value="密碼：" />
+  <string id="PPPoE.Setting.Connect" value="連線" />
+  <string id="PPPoE.Setting.Reboot" value="重啟" />
+  <string id="PPPoE.Setting.Disconnect" value="連線中斷" />
+  <string id="PPPoE.Setting.Advanced" value="高級..." />
+  <string id="PPPoE.Setting.Save" value="儲存" />
+  <string id="PPPoE.Setting.Back" value="返回" />
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="自動使用我的Windows登錄帳號和密碼" />
+  <string id="PPPoE.Setting.Advanced.CHAP" value="握手密碼驗證協定 (CHAP)" />
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="Microsoft CHAP (MS-CHAP)" />
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="Microsoft CHAP Version 2 (MS-CHAP v2)" />
+  <string id="PPPoE.Setting.Advanced.Shiva" value="Shiva密碼驗證協定" />
+  <string id="PPPoE.Setting.Advanced.PAP" value="明文密碼(PAP)" />
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="使用資料加密" />
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="使用軟體壓縮" />
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="使用IP頭壓縮" />
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="使用預設閘道" />
+  <string id="PPPoE.Setting.Advanced.Save" value="儲存" />
+  <string id="PPPoE.Setting.Advanced.Back" value="返回" />
+  <string id="PPPoE.Connect" value="撥號...，請等待" />
+  <string id="PPPoE.Connect.Status" value="狀態:" />
+  <!-- {0}: Dead state message; {1}: Dead state status-->
+  <string id="DeadState.MessageFormat" value="{0} (Error# {1})" />
+  <string id="DeadState.DeadStateMessage" value="電視目前無法使用。選擇重啟來重試連接。如果仍然有問題，聯繫客戶服務。" />
+  <string id="NetworkWizard.Setting" value="網路嚮導" />
+  <string id="NetworkWizard.Setting.DHCP" value="DHCP" />
+  <string id="NetworkWizard.Setting.PPPoE" value="PPPoE" />
+  <string id="NetworkWizard.Setting.StaticIP" value="靜態IP位址" />
+  <string id="NetworkWizard.Setting.Next" value="下一步" />
+  <string id="NetworkWizard.Setting.Tips" value="選擇連接類型，然後按下一步按鈕進行進一步的配置。" />
+  <string id="DHCP.Setting" value="DHCP設定" />
+  <string id="DHCP.Setting.Desc" value="按重啟按鈕完成DHCP的設置。" />
+  <string id="DHCP.Setting.Reboot" value="重啟" />
+  <string id="DHCP.Setting.Back" value="返回" />
+  <string id="StaticIP.Setting" value="靜態IP位址設定" />
+  <string id="StaticIP.Setting.IPAddr" value="IP地址：" />
+  <string id="StaticIP.Setting.Mask" value="子網路遮罩：" />
+  <string id="StaticIP.Setting.Gate" value="閘道：" />
+  <string id="StaticIP.Setting.DNS" value="DNS：" />
+  <string id="StaticIP.Setting.WINS" value="WINS：" />
+  <string id="StaticIP.Setting.Reboot" value="保存" />
+  <string id="StaticIP.Setting.Back" value="返回" />
+  <!-- {0}: Timespan -->
+  <string id="BootstrapRetry.CountDown" value="連接在{0}之後重試" />
+  <string id="BootstrapRetry.TryAgain" value="現在重試" />
+  <string id="BootstrapRetry.Message" value="您的電視接收器現在不能連接到服務" />
+  <string id="BootstrapRetry.Header" value="連接服務時出錯" />
+  <string id="BootstrapRetry.Diagnostics" value="診斷" />
+  <!-- HDMI cable connected or disconnected, HDCP (video encryption) errors -->
+  <string id="HDMI.Plugged" value="HDMI 輸出未使用。" />
+  <string id="HDMI.Unplugged" value="HDMI 輸出沒有連接。" />
+  <string id="HDMI.HDCP.Unsupported" value="您的電視不能通過 HDMI 顯示視訊。將 HDMI 線拔掉，重新用復合視頻線連接到電視機，然後再試一次。(原因：不支持)。" />
+  <string id="HDMI.HDCP.Revoked" value="您的電視不能通過 HDMI 顯示視訊。將 HDMI 線拔掉，重新用復合視頻線連接到電視機，然後再試一次。(原因：無效)。" />
+  <string id="HDMI.HDCP.LevelExceeded" value="您的電視不能通過 HDMI 顯示視訊。將 HDMI 線拔掉，重新用復合視頻線連接到電視機，然後再試一次。(原因：設備太多)。" />
+  <string id="HDMI.HDCP.StbNoKeys" value="不能通過 HDMI 顯示視訊，機上盒沒有 HDCP keys。" />
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="不能通過 HDMI 顯示視訊，HDCP 連接的完整性檢查失敗。" />
+  <string id="HDMI.HDCP.NoReceiverConnected" value="不能通過 HDMI 顯示視訊，沒有接收器連接。(H1006)" />
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="不能通過 HDMI 顯示視訊，TX AN 寫錯誤 (H1007)" />
+  <string id="HDMI.HDCP.TxAnReadFailed" value="不能通過 HDMI 顯示視訊，TX AN 讀錯誤 (H1008)" />
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="不能通過 HDMI 顯示視訊，RX AN 寫錯誤 (H1009)" />
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="不能通過 HDMI 顯示視訊，無效的 AKSV 格式 (H1010)" />
+  <string id="HDMI.HDCP.AksvWriteFailed" value="不能通過 HDMI 顯示視訊，AKSV 寫錯誤 (H1011)" />
+  <string id="HDMI.HDCP.BksvWriteFailed" value="不能通過 HDMI 顯示視訊，BKSV 寫錯誤 (H1012)" />
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="不能通過 HDMI 顯示視訊，無效的 BKSV 格式 (H1013)" />
+  <!-- DTT/offline experience -->
+  <string id="DTT.Reconnected" value="寬頻連接重新立" />
+  <string id="DTT.Disconnected" value="您目前沒有寬頻連接，一些頻道和功能不能使用。" />
+  <string id="DTT.Troubleshoot" value="問題排除" />
+  <!-- XHTML Browser -->
+  <string id="Browser.LoadingPage" value="頁面載入中..." />
+  <!-- MHEG5 error reporting -->
+  <string id="MHEG.Unavailable" value="互動功能暫時無法使用，請以後再試。" />
+
+  <!-- Teletext -->
+  <string id="Teletext.Display" value="Yes" />
+  <string id="Teletext.Opaque" value="Yes(opaque)" />
+  <string id="Teletext.Transparent" value="Yes(transparent)" />
+  <string id="Teletext.NotDisplay" value="No" />
+
+  <!-- localized image names -->
+  <string id="Image.Icon.HD" value="file:///Icon.HD.png" />
+  <string id="Image.Logo.VideoOnDemand" value="file:///Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="file:///Brand_Service_Banner.png"/>
+  <string id="Image.ScreenSaverLogo" value="file:///ScreenSaverLogo.png"/>
+  <string id="Image.VideoStill.Future" value="file:///VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="file:///VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="file:///VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="file:///VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.CA" value="file:///VideoStill.Locked.CA.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="file:///VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="file:///VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="file:///VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="file:///VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="file:///Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="file:///VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="file:///VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="file:///VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="file:///VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="file:///VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.HD" value="file:///VideoStill.HD.jpg"/>
+  <string id="Image.VideoStill.TimeShift" value="file:///VideoStill.TimeShift.jpg"/>
+  
+  <!-- ISO 639-1 language code to display name map. -->
+  <string id="ISO.af" value="Afrikaans"/>
+  <string id="ISO.ar" value="Arabic"/>
+  <string id="ISO.az" value="Azeri"/>
+  <string id="ISO.be" value="Belarusian"/>
+  <string id="ISO.bg" value="Bulgarian"/>
+  <string id="ISO.ca" value="Catalan"/>
+  <string id="ISO.cs" value="Czech"/>
+  <string id="ISO.cy" value="Welsh"/>
+  <string id="ISO.da" value="Danish"/>
+  <string id="ISO.de" value="German"/>
+  <string id="ISO.el" value="Greek"/>
+  <string id="ISO.en" value="English"/>
+  <string id="ISO.es" value="Spanish"/>
+  <string id="ISO.et" value="Estonian"/>
+  <string id="ISO.eu" value="Basque"/>
+  <string id="ISO.fa" value="Persian"/>
+  <string id="ISO.fi" value="Finnish"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.fr" value="French"/>
+  <string id="ISO.gd" value="Gaelic"/>
+  <string id="ISO.gl" value="Galician"/>
+  <string id="ISO.gu" value="Gujarati"/>
+  <string id="ISO.he" value="Hebrew"/>
+  <string id="ISO.hi" value="Hindi"/>
+  <string id="ISO.hr" value="Croatian"/>
+  <string id="ISO.hu" value="Hungarian"/>
+  <string id="ISO.hy" value="Armenian"/>
+  <string id="ISO.id" value="Indonesian"/>
+  <string id="ISO.is" value="Icelandic"/>
+  <string id="ISO.it" value="Italian"/>
+  <string id="ISO.ja" value="Japanese"/>
+  <string id="ISO.ka" value="Georgian"/>
+  <string id="ISO.kk" value="Kazakh"/>
+  <string id="ISO.kn" value="Kannada"/>
+  <string id="ISO.ko" value="Korean"/>
+  <string id="ISO.ky" value="Kyrgyz"/>
+  <string id="ISO.lt" value="Lithuanian"/>
+  <string id="ISO.lv" value="Latvian"/>
+  <string id="ISO.mk" value="Macedonian"/>
+  <string id="ISO.mn" value="Mongolian"/>
+  <string id="ISO.mr" value="Marathi"/>
+  <string id="ISO.ms" value="Malay"/>
+  <string id="ISO.nl" value="Dutch"/>
+  <string id="ISO.no" value="Norwegian"/>
+  <string id="ISO.pa" value="Punjabi"/>
+  <string id="ISO.pl" value="Polish"/>
+  <string id="ISO.pt" value="Portuguese"/>
+  <string id="ISO.ro" value="Romanian"/>
+  <string id="ISO.ru" value="Russian"/>
+  <string id="ISO.sa" value="Sanskrit"/>
+  <string id="ISO.sk" value="Slovak"/>
+  <string id="ISO.sl" value="Slovenian"/>
+  <string id="ISO.sq" value="Albanian"/>
+  <string id="ISO.sr" value="Serbian"/>
+  <string id="ISO.sv" value="Swedish"/>
+  <string id="ISO.sw" value="Swahili"/>
+  <string id="ISO.ta" value="Tamil"/>
+  <string id="ISO.te" value="Telugu"/>
+  <string id="ISO.th" value="Thai"/>
+  <string id="ISO.tr" value="Turkish"/>
+  <string id="ISO.tt" value="Tatar"/>
+  <string id="ISO.uk" value="Ukrainian"/>
+  <string id="ISO.ur" value="Urdu"/>
+  <string id="ISO.uz" value="Uzbek"/>
+  <string id="ISO.vi" value="Vietnamese"/>
+  <string id="ISO.zh" value="Chinese"/>
+
+
+  <!-- Unit testing strings are used for debugging builds only -->
+  <string id="UnitTestingPipTuning.Description" value="This page measures PIPs performance by tuning to all available live channels over and over again using Video.TuneToChannel." />
+  <string id="UnitTestingPipTuning.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#xD;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#xD;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingScreenModeSwitching.Description" value="This page tests screen mode switching code by changing mode over and over again. Please make sure your TV is connected using component or HDMI/DVI cables or you won't be able to see the screen when in high definition mode." />
+  <string id="UnitTestingScreenModeSwitching.Stats" value="We're currently running in {Mode} mode (waiting for Compositor.Status event? {Switching}). This test has run {Times} times and will run again in {Seconds} seconds." />
+  <string id="UnitTestingRightsPCON.Description" value="This page measures rights/PCON performance by scanning all channels and checkin user's rights to them." />
+  <string id="UnitTestingRightsPCON.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#xD;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#xD;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingPageLoading.Description" value="This page will be reloaded 50 times to measure page creation and loading performance, please wait..." />
+  <string id="UnitTestingPageLoading.Statistics" value="Loaded {TimesLoaded} times&#xD;Last loading delay {LastDelay} ms&#xD;Average {AvgDelay} ms" />
+  <!-- Emergency Alert System Strings -->
+  <string id="EAS.Level1" value="*** NATIONAL EMERGENCY ***" />
+  <string id="EAS.Warning" value="*** WARNING ***" />
+  <string id="EAS.Watch" value="*** WATCH ***" />
+  <string id="EAS.Emergency" value="*** EMERGENCY ***" />
+  <string id="EAS.Statement" value="*** STATEMENT ***" />
+  <string id="EAS.Dismiss" value="Press EXIT to dismiss alert" />
+  <string id="ExternPrice" value=" " />
+
+  <!-- UI Notification Messages. Keys are intentionally kept short -->
+  <string id="UI.CallerID" value="您有一個電話進來" />
+
+</stringtable>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <AspectRatioWizardStep3 class="Page.Animated" initialFocus="_sawNothing">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.AspectRatioWizard.Step3</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <Text class="Text.WizardDescription" id="_description">#Settings.AspectRatioWizard.Description.Step3</Text>
+      <Panel height="10" />
+      <Button class="Button.Menu.Wizard" id="_sawNothing"  onClick="OnClick_SawNothing">#Settings.AspectRatioWizard.SawNothing</Button>
+      <Button class="Button.Menu.Wizard" id="_startAgain" onClick="OnClick_StartAgain">#Settings.AspectRatioWizard.StartAgain</Button>
+    </VerticalFlowPanel>
+
+    <Panel id="_screenResizeNotice" left="0" top="0" width="854" height="480" background="ARGB(255,0,0,0)" visible="false" showanimations="QuickFadeIn">
+      <Text class="Text.SettingsDescription" width="640" height="480" layout="center" justification="center">#Settings.AspectRatio.Resizing</Text>
+    </Panel>
+
+  </AspectRatioWizardStep3>
+</uidescription>

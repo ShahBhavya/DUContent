@@ -1,0 +1,33 @@
+<Panel class="MediaListPeek.RootPanel">
+  <DataSource id="ds" url="local://medialist?type=AllTable"/>
+  
+  <PhysicsTable class="MediaListPeek.PhysicsTable"
+                datasourcesemantics="flat"                
+                datasource="{Binding Source=ds,Path=MediaLists}">
+    <PhysicsRowTemplate class="MediaListPeek.RowTemplate" templatename="List" headertemplate="header">
+      <PhysicsCursor class="MediaListPeek.Cursor" />
+      
+      <PhysicsTemplate class="MediaListPeek.AssetTemplate" templatename="Asset">
+        <PhysicsImageTemplate class="MediaListPeek.PosterTemplate" datapath="@posterurl" />
+        <PhysicsTemplate class="MediaListPeek.AssetTitleTemplate">
+          $(@title)
+        </PhysicsTemplate>
+        <Actions>
+          <Event type="onclick" action="go" />
+          <Action type="navigate" name="go" data="$(@detailsurl)" />
+        </Actions>
+      </PhysicsTemplate>
+    </PhysicsRowTemplate>
+
+    <PhysicsTemplate class="MediaListPeek.HeaderTemplate">
+      <PhysicsTemplate class="MediaListPeek.HeaderTitle">
+        $(@title)
+      </PhysicsTemplate>
+      <PhysicsTemplate class="MediaListPeek.Arrows.Up"/>
+      <PhysicsTemplate class="MediaListPeek.Arrows.Down"/>
+      <PhysicsTemplate class="MediaListPeek.Arrows.Left"/>
+      <PhysicsTemplate class="MediaListPeek.Arrows.Right"/>
+    </PhysicsTemplate>    
+  </PhysicsTable>
+  
+</Panel>

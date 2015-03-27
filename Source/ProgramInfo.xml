@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <LiveProgramInfoPage class="Page.Animated">
+      <Panel class="Panel.Masthead" height="110" />
+        <Text class="Text.HeaderTitle">#ProgramInfo.ProgramInfo</Text>
+        <Text class="Text.Clock">{Time}</Text>
+        
+        <Text class="Text.ProgramInfo.Waiting" id="_waiting">#ProgramInfo.Waiting</Text>
+        <Panel class="Panel.WholePage" id="_content">
+
+            <Panel class="Panel.MenuBackground" clipchildren="true">
+                <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                    <MenuItem class="MenuItem" id="_summaryMenuItem" submenuID="_summaryPane" onSelect="OnSelect_Summary">#ProgramInfo.Menu.Summary</MenuItem>
+                    <MenuItem class="MenuItem" id="_detailsMenuItem" submenuID="_detailsPane" onSelect="OnSelect_Details">#ProgramInfo.Menu.Details</MenuItem>
+                    <MenuItem class="MenuItem" id="_castMenuItem" submenuPath="CastListSub.xml">#ProgramInfo.Menu.Cast</MenuItem>
+                    <MenuItem class="MenuItem" id="_satelliteMenuItem" submenuPath="SatelliteInfoSub.xml">#ProgramInfo.Menu.Satellite</MenuItem>
+                </Menu> 
+            </Panel>
+
+            <Panel class="Panel.Root" id="_summaryPane">
+                <VerticalFlowPanel class="VerticalFlowPanel.Menu.ProgramInfo" id="_summaryButtonPanel">
+                  <Button class="Button.Vertical" id="_rent" onClick="OnClick_Rent" visible="false">#ProgramInfo.Rent</Button>
+                  <Button class="Button.Vertical" id="_subscribe" onClick="OnClick_Subscribe" visible="false">#SVOD.SubscriptionInfo</Button>
+                  <Button class="Button.Vertical" id="_watch" onClick="OnClick_Watch" visible="false">#ProgramInfo.Watch</Button>
+                  <Button class="Button.Vertical" id="_resume" onClick="OnClick_Resume" visible="false">#ProgramInfo.Resume</Button>
+                  <Button class="Button.Vertical" id="_startOver" onClick="OnClick_Startover" visible="false">#ProgramInfo.StartOver</Button>
+                  <Button class="Button.Vertical" id="_recordProgram" onClick="OnClick_RecordProgram" visible="false">#ProgramInfo.RecordProgram</Button>
+                  <Button class="Button.Vertical" id="_dontRecord" onClick="OnClick_DontRecord" visible="false">#ProgramInfo.DontRecord</Button>
+                  <Button class="Button.Vertical" id="_stopRecording" onClick="OnClick_StopRecording" visible="false">#ProgramInfo.StopRecording</Button>
+                  <Button class="Button.Vertical" id="_recordSetting" onClick="OnClick_RecordSetting" visible="false">#ProgramInfo.RecordSetting</Button>
+                  <Button class="Button.Vertical" id="_recordSeries" onClick="OnClick_RecordSeries" visible="false">#ProgramInfo.RecordSeries</Button>
+                  <Button class="Button.Vertical" id="_seriesInfo" onClick="OnClick_SeriesInfo" visible="false">#ProgramInfo.SeriesInfo</Button>
+                  <Button class="Button.Vertical" id="_otherShowings" onClick="OnClick_OtherShowings" visible="false">#ProgramInfo.OtherShowings</Button>
+                  <Button class="Button.Vertical" id="_audio" onClick="OnClick_Audio" visible="false">#ProgramInfo.AudioLanguages</Button>
+                  <Button class="Button.Vertical" id="_subtitles" onClick="OnClick_Subtitles" visible="false">#ProgramInfo.SubtitleLanguages</Button>
+                  <Button class="Button.Vertical" id="_resolveConflict" onClick="OnClick_ResolveConflict" visible="false">#ProgramInfo.ResolveConflict</Button>
+                  <Button class="Button.Vertical" id="_unlock" href="action:unlock_adult" visible="false">#ProgramInfo.UnlockAdult</Button>
+                </VerticalFlowPanel>
+
+                <Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true"/>
+                <Image class="Image.Poster.PIP.ProgramInfo" id="_posterImageContainer" visible="false"/>
+              
+                <Panel visible="false" class="Panel.ChannelInfo" background="image(Logo_TV_bw.png)" width="50" height="30"/>
+
+                <VerticalFlowPanel class="VerticalFlowPanel.Content">        
+                    <Text class="Text.ProgramInfo.ProgramTitle" id="_programTitle" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_rentalInfo" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_timeandrating" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_promotional" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_recordInfo" />
+                    <PanelFlipper class="PanelFlipper.EITVPS" id="_flipper" visible="false">
+                        <Text class="Text.ProgramInfo.EITVPSInfo" id="_disabledMsg"/>
+                        <Text class="Text.ProgramInfo.TimeAndRating" id="_recordInfoFlipper"/>
+                    </PanelFlipper>
+                    <Text class="Text.ProgramInfo.Description" id="_description" />
+                    <Text class="Text.ProgramInfo.Cast" id="_cast" />
+                    <Text class="Text.ProgramInfo.ExtraInfo" id="_extraInfo" />
+                  <HorizontalFlowPanel class="Panel.RatingLogo.ProgramInfo" id="_ratingLogoContainer" >
+                    <Image class="Image.RatingLogo.ProgramInfo" id="_ratingLogo[0]" visible="false" />
+                    <Image class="Image.RatingLogo.ProgramInfo" id="_ratingLogo[1]" visible="false" />
+                    <Image class="Image.RatingLogo.ProgramInfo" id="_ratingLogo[2]" visible="false" />
+                  </HorizontalFlowPanel>
+                </VerticalFlowPanel>
+            </Panel>
+
+            <Panel class="Panel.Root" id="_detailsPane" visible="false">
+                <VerticalFlowPanel class="VerticalFlowPanel.ProgramInfoDetails">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Details" id="_programTitle2" />
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_timeandrating2" />
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_recordInfo2" />
+                    <PanelFlipper class="PanelFlipper.EITVPS" id="_flipper2" visible="false">
+                        <Text class="Text.ProgramInfo.EITVPSInfo.Details" id="_disabledMsg2"/>
+                        <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_recordInfoFlipper2"/>
+                    </PanelFlipper>
+                    <TextBox class="TextBox.ProgramInfo" id="_description2" />
+                </VerticalFlowPanel>
+            </Panel>
+            
+            <Panel class="Panel.SubpageContainer" id="_subpageContainer" visible="false" />
+        </Panel>
+
+    </LiveProgramInfoPage>
+</uidescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <StopRecordingPage class="Page.Animated">
+      <Panel class="Panel.Masthead" height="110" />
+      <Text class="Text.HeaderTitle">#DVR.StreamContentionStopRecording</Text>
+      <Text class="Text.ConflictSubheaderTitle">#DVR.StreamContentionStopRecording.SubTitle</Text>
+      <Text class="Text.Clock">{Time}</Text>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.Dvr.StopRecording">
+        <List class="List.StopRecording" id="_list"/>
+      </VerticalFlowPanel>
+
+      <Panel class="Panel.RolloverContainer" id="_rolloverContainer" />
+
+    </StopRecordingPage>
+</uidescription>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <!-- This page is used in debug builds only to test PIPs performance -->
+  <UnitTestingPipTuning class="Page">
+
+    <Panel top="0" left="0" width="640" height="480" clipchildren="true">
+      <Image url="VideoStill.Future.jpg" KeepAspectRatio="false" width="640" height="480"/>
+    </Panel>
+
+    <Text class="Text.HeaderTitle">Unit Testing</Text>
+    <Text class="Text.SubheaderTitle">PIPs Tuning Performance</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <!-- explain what page does, show stats, show PIP -->
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <Text class="Text.WizardDescription">#UnitTestingPipTuning.Description</Text>
+      <Text class="Text.WizardDescription" id="_stats">#UnitTestingPipTuning.Statistics</Text>
+      <Panel height="10" />
+      <Video class="Video" id="_pip" pipe="PIP" ispip="true" height="150" width="200" />
+    </VerticalFlowPanel>
+
+    <Button class="Button" id="_toggleStartButton" left="350" top="300" onclick="OnClick_ToggleStart">Start</Button>
+    <Button class="Button" id="_togglePerfButton" left="350" top="350" onclick="OnClick_TogglePerf">Enable Perf</Button>
+    <Spinner class="Spinner" id="_spinner" left="350" top="400" width="100" OnValueChange="Spinner_Changed">
+      <Text class="Text.Spinner" width="150" layout="center" >Lowest</Text>
+      <Text class="Text.Spinner" width="150" layout="center" >BelowNormal</Text>
+      <Text class="Text.Spinner" width="150" layout="center" >Normal</Text>
+      <Text class="Text.Spinner" width="150" layout="center" >AboveNormal</Text>
+      <Text class="Text.Spinner" width="150" layout="center" >Highest</Text>
+    </Spinner>
+
+  </UnitTestingPipTuning>
+</uidescription>

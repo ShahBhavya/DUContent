@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ZoomControl class="Page" limoline="300">
+	    <Panel class="Panel.Zoom">
+			<Image id="_zoomIcon" class="Zoom.Icon" />
+			<Text class="Text.AspectRatioDisplay" id="_zoomText"/>
+		</Panel>
+    </ZoomControl>    
+</uidescription>

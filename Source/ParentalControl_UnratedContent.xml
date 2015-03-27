@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_UnratedContent class="Page.Animated" initialFocus="_lockUnratedProgramsOption">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.LockUnratedContent</Text>
+		<Text class="Text.Clock">{Time}</Text>
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+			<Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+		</VerticalFlowPanel>
+		
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.SingleCheckbox">
+			<Checkbox class="Lockbox.Settings.ParentalControl" onClick="OnClick_ToggleLock" id="_lockUnratedProgramsOption">#ParentalControl.Settings.LockUnratedPrograms</Checkbox>
+			<Text class="Text.LockUnratedProgams.Description" id="_description">#ParentalControl.Settings.LockUnratedPrograms.Description</Text>
+    	</VerticalFlowPanel>
+    </ParentalControl_UnratedContent>
+</uidescription>

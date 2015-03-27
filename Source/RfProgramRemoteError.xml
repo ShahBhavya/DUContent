@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RFProgramRemoteError class="Page.Animated">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.RfProgramRemote.Error</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription">#Settings.RfProgramRemote.Error.Description</Text>
+      <Image class="Image.RF.Pause"/>
+    </VerticalFlowPanel>
+
+  </RFProgramRemoteError>
+</uidescription>

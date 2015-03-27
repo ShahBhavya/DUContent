@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <SatelliteConfigurationNeeded class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ManualTransponderScan.SatelliteConfigurationNeeded</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SatelliteConfigurationNeeded">
+      <Text class="Text.SatelliteConfigurationNeeded.Description" id="_description1">#Settings.ManualTransponderScan.SatelliteConfigurationNeeded.Description1</Text>
+      <Text class="Text.SatelliteConfigurationNeeded.Description" id="_description2">#Settings.ManualTransponderScan.SatelliteConfigurationNeeded.Description2</Text>
+
+      <Button class="Button.Menu.SatelliteConfigurationNeeded" onClick="OnClick_Yes" id="_yes">#Settings.ManualTransponderScan.SatelliteConfigurationNeeded.Yes</Button>
+      <Button class="Button.Menu.SatelliteConfigurationNeeded" onClick="OnClick_No" id="_no">#Settings.ManualTransponderScan.SatelliteConfigurationNeeded.No</Button>
+
+    </VerticalFlowPanel>
+      
+  </SatelliteConfigurationNeeded>
+</uidescription>

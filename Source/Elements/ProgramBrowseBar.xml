@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ProgramBrowseBar class="Panel.BrowseBarRoot">
+    <!--We will add a PosterStripControl dynamically to this Panel, to handle just missed/on next display. We don't add them up-front to save load time-->    
+    <Panel id="_onNowContainer" class="Panel.BrowseBarContainer.MainContainer">
+      <!-- current time's location varies if showing/hiding PIP -->
+      <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+
+      <PanelFlipper class="PanelFlipper" id="_titleFlipper">
+        <Text class="Text.BrowseBar.Title" id="_title">#BrowseBar.OnNow</Text>
+        <Text class="Text.BrowseBar.Title" id="_favoriteName"></Text>
+      </PanelFlipper>
+
+      <Panel class="Panel.BrowseBar.ActionPanel" id="_onNowPanel">
+        <!-- PIP video with progress bar overlaid on top of it -->
+        <Video class="Video.BrowseBar" id="_pip" pipe="PIP" ispip="true" />
+        <ProgressBar class="ProgressBar.BrowsePeek.Pip"  id="_progress"/>
+        <Image class="Image.Poster.BrowseBar" id="_posterImageContainer" visible="false"/>        
+        
+        <!-- everything here animates vertically when you channel up/down -->
+        <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+          <!-- everything here animates horizontally when you channel left/right -->
+          <Panel class="Panel.BrowseBar" id="_horizontalAnimated">
+            <Panel class="Panel.BrowseBar.MainContentContainer" id="_mainContentContainer">
+
+              <Text class="Text.BrowseBar.Name" id="_name"/>
+
+              <PanelFlipper class="PanelFlipper" id="_infoFlipper">
+                <Text class="Text.BrowseBar.Extra" id="_timeInfo" />
+                <Text class="Text.BrowseBar.Extra" id="_extrasInfo" />
+              </PanelFlipper>
+
+              <!-- summary is shown only when browsing future shows and contains rating, release year and summary -->
+              <Text class="Text.BrowseBar.Summary" id="_summaryInfo" visible="false" />
+
+              <HorizontalFlowPanel class="Panel.RatingLogo.ChannelBar" id="_ratingLogoContainer">
+                <Image class="Image.RatingLogo.ChannelBar" id="_ratingLogo[0]" visible="false" />
+                <Image class="Image.RatingLogo.ChannelBar" id="_ratingLogo[1]" visible="false" />
+                <Image class="Image.RatingLogo.ChannelBar" id="_ratingLogo[2]" visible="false" />
+              </HorizontalFlowPanel>
+
+              <!-- what's on next? shown only when program is on now -->
+              <Text class="Text.BrowseBar.Description" id="_description" />
+
+            </Panel>
+
+            <VerticalFlowPanel class="Panel.BrowseBar.Indicators" id="_indicatorsContainer">
+              <!--record/record series-->
+              <Image id="_recordingIndicator" class="Image.BrowseBar.Indicator.Recording" />
+              <Image id="_closedCaptionIndicator" class="Image.BrowseBar.Indicator.ClosedCaption" />
+              <!--SD/HD-->
+              <Image id="_qualityIndicator" class="Image.BrowseBar.Indicator.Quality"/>
+            </VerticalFlowPanel>
+          </Panel>
+        </Panel>
+      </Panel>
+    </Panel>
+    
+  </ProgramBrowseBar>
+</uidescription>

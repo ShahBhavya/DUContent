@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <BouquetPage class="Page.Animated">
+
+    <Panel class="Panel.Masthead" height="110" id="_masthead" />
+    <Text class="Text.HeaderTitle" id="_pageTitle">#Bouquets.Page.Title</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <Panel class="Panel.MenuBackground" clipchildren="true">
+      <Menu class="Menu.Top" id="_parentCategoriesMenu" containerID="_subpageContainer" />
+    </Panel>
+    
+    <Panel class="Panel.SubpageContainer" id="_subpageContainer" />
+    
+  </BouquetPage>
+</uidescription>

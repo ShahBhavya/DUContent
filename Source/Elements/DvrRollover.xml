@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <DvrRollover class="Subpage.RolloverInfo">
+    <Image class="Image.Poster.PIP.Guide" id="_posterImageContainer" visible="false"/>
+    <VerticalFlowPanel class="Panel.RolloverInfo.Dvr" id="_animatedArea">
+      <Text class="Text.DvrRolloverInfo.ProgramName" id="_programName"/>
+      <Text class="Text.DvrRolloverInfo.ProgramTime" id="_programTime"/>
+      <Text class="Text.DvrRolloverInfo.EITVPSInfo" id="_errorMessage" visible ="false"/>
+      <PanelFlipper class="PanelFlipper.EITVPS" id="_flipperEIT" visible="false">
+        <Text class="Text.DvrRolloverInfo.EITVPSInfo" id="_EITVPSmsgIncorrect">#DVR.EITVPS.Incorrect</Text>
+        <Text class="Text.DvrRolloverInfo.EITVPSInfo" id="_EITVPSmsg"/>
+      </PanelFlipper>
+      <PanelFlipper class="PanelFlipper.DvrRolloverInfo" id="_flipper">
+        <Text class="Text.DvrRolloverInfo.Description" id="_programDescription"/>
+        <Text class="Text.DvrRolloverInfo.Description" id="_programDetails"/>
+        <Text class="Text.DvrRolloverInfo.Description" id="_cast"/>
+      </PanelFlipper>
+      <HorizontalFlowPanel class="Panel.RatingLogo.DvrRollover" id="_ratingLogoContainer" >
+        <Image class="Image.RatingLogo.DvrRollover" id="_ratingLogo[0]" visible="false" />
+        <Image class="Image.RatingLogo.DvrRollover" id="_ratingLogo[1]" visible="false" />
+        <Image class="Image.RatingLogo.DvrRollover" id="_ratingLogo[2]" visible="false" />
+      </HorizontalFlowPanel>
+      
+    </VerticalFlowPanel>
+  </DvrRollover>
+</uidescription>

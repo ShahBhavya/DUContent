@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ManualTransponderScanWizardScan class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ManualTransponderScanWizard.Scan</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Menu">
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_CancelOrDone" id="_cancelOrDone">#Settings.ManualTransponderScanWizard.Scan.Cancel</Button>
+    </VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Content">
+      <Text class="Text.ManualTransponderScanWizard.Description" id="_description">#Settings.ManualTransponderScanWizard.Scan.Description</Text>
+
+      <!-- Progress bar displays progress and number of channels found -->
+      <ProgressBar class="ProgressBar.ManualTransponderScanWizard" id="_progress" />
+
+      <Panel height="10" />
+      <Text class="Text.ManualTransponderScanWizard.Description" id="_scanProgress">#Settings.ManualTransponderScanWizard.Scan.Progress</Text>
+
+      <Panel height="10" />
+
+      <!-- Number of television and radio channels found so far -->
+      <Text class="Text.WizardDescription" margin="rect(0,0,0,0)" id="_videoChannels">#Settings.ManualTransponderScanWizard.Scan.TVChannels</Text>
+      <Text class="Text.WizardDescription" margin="rect(0,0,0,0)" id="_musicChannels">#Settings.ManualTransponderScanWizard.Scan.MusicChannels</Text>
+      <Text class="Text.WizardDescription" margin="rect(0,0,0,0)" id="_channelRange">#Settings.ManualTransponderScanWizard.Scan.ChannelRange</Text>
+
+    </VerticalFlowPanel>
+
+  </ManualTransponderScanWizardScan>
+</uidescription>

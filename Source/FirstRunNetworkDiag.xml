@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+    <FirstRunNetworkDiag class="Page.Animated.FirstRun">
+      <Text class="Text.HeaderTitle.FirstRun" id="_header">#FirstRunNetworkDiag.Header</Text>
+      <Text class="Text.SubheaderTitle.FirstRun" id="_subheader">#FirstRunNetworkDiag.SubHeader</Text>
+
+      <Text class="TextBox.FirstRunNetworkDiag" id="_description" wrap="true"></Text>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.FirstRunNetworkDiag">
+        <Button class="Button.FirstRunNetworkDiag" id="_rebootButton" onClick="OnClick_RebootButton">#Diag.Restart</Button>
+        <Button class="Button.FirstRunNetworkDiag" id="_retryButton" onClick="OnClick_Retry">#Diag.Retry</Button>
+        <Button class="Button.FirstRunNetworkDiag" id="_manualButton" onClick="OnClick_ManualButton">#Diag.Manual</Button>
+        <Button class="Button.FirstRunNetworkDiag" id="_dhcpButton" onClick="OnClick_DhcpButton">#Diag.DHCPNetwork</Button>
+      </VerticalFlowPanel>
+    </FirstRunNetworkDiag>
+</uidescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ConflictSolutionsPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#DVR.ConflictSolnHeader</Text>
+        <Image class="Image.ConflictInit" id="_icon" url="Record_Conflict.png"/>
+        <Text class="Text.SubheaderTitle" id="_title"/>
+        <Text class="Text.Clock">{Time}</Text>
+        <Text class="Text.Dvr.Conflict.Preamble" id="_preamble">#DVR.ConflictSoln.Preamble</Text>
+
+        <VerticalFlowPanel class="Panel.Dvr.ConflictSoln" id="_solutions" visible="true">
+            <Button class="Button.Dvr.ConflictSoln" id="_solution1" onClick="OnClick_Resolve"/>
+            <Button class="Button.Dvr.ConflictSoln" id="_solution2" onClick="OnClick_Resolve"/>
+            <Button class="Button.Dvr.ConflictSoln" id="_solution3" onClick="OnClick_Resolve"/>
+        </VerticalFlowPanel>
+
+      <VerticalFlowPanel class="Panel.Dvr.ConflictManual" visible="true">
+        <Button class="Button.Dvr.ConflictSoln" id="_manualResolve" onClick="OnClick_Manual">#DVR.ConflictSoln.Manual</Button>
+      </VerticalFlowPanel>
+
+    </ConflictSolutionsPage>
+</uidescription>
+
+

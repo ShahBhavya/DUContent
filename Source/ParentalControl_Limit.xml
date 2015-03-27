@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_LimitPage class="Page.Animated" initialFocus="_saveButton">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle" id="_subHeaderTitle">#ParentalControl.Title.BlockMovieRatings</Text>
+		
+		<Text class="Text.Clock">{Time}</Text>		
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" onClick="OnClick_Save" onFocus="Button_OnFocus" id="_saveButton">#ParentalControl.Dialog.SaveSettings.ButtonSave</Button>
+			<Button class="Button.Vertical" onClick="OnClick_DontSave" onFocus="Button_OnFocus" id="_dontSaveButton">#ParentalControl.Dialog.SaveSettings.ButtonNotSave</Button>
+			<Button class="Button.Vertical" onClick="OnClick_UnlockAll" onFocus="Button_OnFocus" id="_unlockAllButton">#ParentalControl.Settings.UnlockAll</Button>
+		</VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.RatingsList">
+          <Text class="Text.SettingsDescription">#ParentalControl.RatingSystems.Instructions</Text>
+          <HorizontalFlowPanel>
+				<List class="List.Ratings" id="_list" /> 
+				<Text class="Text.ParentalControlText.RatingSystemDescription" id="_ratingDescriptionText"></Text>
+            </HorizontalFlowPanel>
+    	</VerticalFlowPanel>
+    </ParentalControl_LimitPage>
+</uidescription>

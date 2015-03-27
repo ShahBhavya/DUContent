@@ -1,0 +1,2126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringtable culture="ta-IN" locale="ta-IN" description="Tamil">
+  <string id="StringFormatDefault" value="&#8226;"/>
+  <string id="TripleTap.0" value=" 0"/>
+  <string id="TripleTap.1" value="1"/>
+  <string id="TripleTap.2" value="ABC2"/>
+  <string id="TripleTap.3" value="DEF3"/>
+  <string id="TripleTap.4" value="GHI4"/>
+  <string id="TripleTap.5" value="JKL5"/>
+  <string id="TripleTap.6" value="MNO6"/>
+  <string id="TripleTap.7" value="PQRS7"/>
+  <string id="TripleTap.8" value="TUV8"/>
+  <string id="TripleTap.9" value="WXYZ9"/>
+  <string id="TripleTapExtended.0" value=" 0)"/>
+  <string id="TripleTapExtended.1" value="1!"/>
+  <string id="TripleTapExtended.2" value="ABCabc2@"/>
+  <string id="TripleTapExtended.3" value="DEFdef3#"/>
+  <string id="TripleTapExtended.4" value="GHIghi4$"/>
+  <string id="TripleTapExtended.5" value="JKLjkl5%"/>
+  <string id="TripleTapExtended.6" value="MNOmno6^"/>
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&#038;"/>
+  <string id="TripleTapExtended.8" value="TUVtuv8*"/>
+  <string id="TripleTapExtended.9" value="WXYZwxyz9("/>
+
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="மெனு"/>
+  <string id="Start.Television" value="நேரலை டிவி"/>
+  <string id="Start.Videos" value="கேட்கும்போது வீடியோ"/>
+  <string id="Start.RecordedTV" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="Start.Search" value="தேடல்"/>
+  <string id="Start.Extras" value="உபரி"/>
+  <string id="Start.Settings" value="அமைப்புகள்"/>
+  <string id="Start.Videos.BrowseVideos" value="வீடியோக்களில் உலாவு"/>
+  <string id="Start.Videos.CurrentRentals" value="தற்போதைய வாடகைகள்"/>
+  <string id="Start.Videos.Downloads" value="பதிவிறக்கங்கள்"/>
+  <string id="Start.Videos.Search" value="தேடல்"/>
+  <string id="Start.Television.WatchTV" value="டிவி பார்"/>
+  <string id="Start.Television.Guide" value="வழிகாட்டி"/>
+  <string id="Start.Television.RecordedTV" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="Start.Television.VideoStore" value="வீடியோ சேமிப்பகம்"/>
+  <string id="Start.Television.Favorites" value="விருப்பமானவை"/>
+  <string id="Start.Television.Mosaic" value="மொஸாய்க்"/>
+  <string id="Start.Television.Teletext" value="தொலைஉரை"/>
+  <string id="Start.Television.CreditLimit" value="கடன் வரையறை"/>
+  <string id="Start.Television.Search" value="தேடல்"/>
+  <string id="Start.Television.SearchTitle" value="தேடல்"/>
+  <string id="Start.Television.SearchPeople" value="நபர் தேடல்"/>
+  <string id="Start.Television.Movies" value="திரைப்படங்கள்"/>
+  <string id="Start.Television.Sports" value="விளையாட்டு"/>
+  <string id="Start.Television.Kids" value="குழந்தைகள்"/>
+  <string id="Start.Television.Categories" value="வகைகள்"/>
+  <string id="Start.Search.Categories" value="வகைகள்"/>
+  <string id="Start.Search.Sports" value="விளையாட்டு"/>
+  <string id="Start.Search.Kids" value="குழந்தைகள்"/>
+  <string id="Start.Extras.BrowseExtras" value="உபரிகளில் உலாவு"/>
+  <string id="Start.Extras.OnlineSpot" value="ஆன்லைன் ஸ்பாட்லைட்"/>
+  <string id="Start.Extras.MosaicApps" value="மொஸாய்க் பயன்பாடுகள்"/>
+  <string id="Start.Extras.MediaSharing" value="புகைப்படங்கள் மற்றும் இசை"/><!-- photos and music (eventually videos as well) -->
+  <string id="Start.Extras.Messages" value="செய்திகள்"/>
+  <string id="Start.RecordedTV.BrowseRecordings" value="பதிவுகளைக் காண்"/>
+  <string id="Start.RecordedTV.Scheduled" value="அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="Start.RecordedTV.AddRecording" value="பதிவுகளைச் சேர்"/>
+  <string id="Start.Settings.General" value="பொது"/>
+  <string id="Start.Settings.Television" value="தொலைக்காட்சி"/>
+  <string id="Start.Settings.ParentalControl" value="பெற்றோர் கட்டுப்பாடுகள்"/>
+  <string id="Start.Settings.Account" value="கணக்கு"/>
+  <string id="Start.Settings.PowerOff" value="மின்சக்தி நிறுத்தம்"/>
+  <string id="Start.Settings.Restart" value="முறைமை மீள்தொடங்கு"/>
+  <string id="Start.Settings.Hibernate" value="சிறுஓய்வு"/>
+  <string id="Start.MenuForButtons" value="மெனு"/>
+
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="நிகழ்ச்சி தகவல்"/>
+  <string id="ProgramInfo.RecordingStopped" value="இந்தப் பதிவு நிறுத்தப்பட்டது"/>
+  <string id="ProgramInfo.Watch" value="பார்"/>
+  <string id="ProgramInfo.CancelRental" value="வாடகை ரத்துசெய்"/>
+  <string id="ProgramInfo.RecordProgram" value="நிகழ்ச்சியைப் பதிவு"/>
+  <string id="ProgramInfo.Erase" value="அழி"/>
+  <string id="ProgramInfo.KeepUntil" value="வரை வைத்திரு"/>
+  <string id="ProgramInfo.StopRecording" value="பதிவை நிறுத்து"/>
+  <string id="ProgramInfo.RecordSeries" value="தொடரைப் பதிவுசெய்"/>
+  <string id="ProgramInfo.CancelSeries" value="தொடரை ரத்துசெய்"/>
+  <string id="ProgramInfo.RecordEpisode" value="எபிசோட்-ஐ பதிவுசெய்"/>
+  <string id="ProgramInfo.OtherShowings" value="மேலும் காட்சி நேரங்கள்"/>
+  <string id="ProgramInfo.AudioLanguages" value="மாற்று ஒலி"/>
+  <!-- {0}: the audio language we are now displaying-->
+  <string id="ProgramInfo.AudioLanguages.Changed" value="ஒலி மொழி {0}க்கு மாற்றப்பட்டுள்ளது"/>
+  <string id="ProgramInfo.SubtitleLanguages" value="துணைத்தலைப்புகள்"/>
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="துணைத்தலைப்பு மொழி {0}க்கு மாற்றப்பட்டுள்ளது"/>
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="துணைத்தலைப்புகள் நிறுத்தப்பட்டு விட்டன"/>
+  <string id="ProgramInfo.SecondaryAudio" value="மாற்று ஒலி"/>
+  <string id="ProgramInfo.RecordSetting" value="பதிவு அமைப்புகள்"/>
+  <string id="ProgramInfo.SeriesSetting" value="தொடர் அமைப்புகள்"/>
+  <string id="ProgramInfo.SeriesInfo" value="தொடரின் தகவல்"/>
+  <string id="ProgramInfo.DontRecord" value="பதிவுசெய்யாதே"/>
+  <string id="ProgramInfo.ResolveConflict" value="முரண்பாட்டை தீர்"/>
+  <string id="ProgramInfo.RecordingDeleted" value="பதிவு அழிக்கப்பட்டது"/>
+  <!-- {0}, {1}, {2}, {3} are the same thing. It is just a setting in TV2Config to show the long description.
+  It is currently set to show the description of the program four times. -->
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}"/>
+  <!-- This is used in several places. {0} is the channel. {1} is always the string "Bullet" listed above in here
+  {2} is the time in text form-->
+  <string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}"/>
+  <!-- {0}: channel information. {1}:call letters of the channel. -->
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}"/>
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}"/>
+  <!-- Doesn't seem to be used -->
+  <string id="ProgramInfo.Series.Time" value="{0}, {1}"/>
+    <string id="ProgramInfo.Series.RecordingScheduledZeroCanceled" value="பயனர் வேண்டுகோளுக்காக தொடர் ரத்து செய்யப்பட்டது"/>
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="0 அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="ProgramInfo.Series.RecordingConflictedOne" value=" (1 முரண்பட்டது)"/>
+  <!-- {0}: the number of recordings conflicted. -->
+  <string id="ProgramInfo.Series.RecordingConflictedMany" value=" ({0} முரண்பட்டது)"/>
+  <string id="ProgramInfo.Series.RecordingConflictedAll" value="{0} முரண்பட்டது"/>
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="1 அட்டவணைப்படுத்தப்பட்டது"/>
+  <!-- {0}: the number of recordings scheduled. -->
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value="{0}அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsZero" value="0 பதிவுசெய்யப்பட்டது"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsOne" value="1 பதிவுசெய்யப்பட்டது"/>
+  <!-- {0}: the number of existings recordings. -->
+  <string id="ProgramInfo.Series.ExistingRecordingsMany" value="{0} பதிவுசெய்யப்பட்டது"/>
+  <string id="ProgramInfo.Play" value="இயக்கு"/>
+  <string id="ProgramInfo.Pending" value="நிலுவையில்..."/>
+  <string id="ProgramInfo.PendingAppendage" value="   (நிலுவையில்)"/>
+  <string id="ProgramInfo.Rent" value="வாடகை"/>
+  <string id="ProgramInfo.PurchaseInfo" value="வாங்குவதற்கான தகவல்"/>
+  <string id="ProgramInfo.StartOver" value="மீண்டும் ஆரம்பி"/>
+  <string id="ProgramInfo.ResumePlay" value="மீள் இயக்கு"/>
+  <string id="ProgramInfo.MoreLikeThis" value="மேலும் இது போன்றவை"/>
+  <string id="ProgramInfo.WatchPreview" value="முன்னோட்டம் பார்"/>
+  <string id="ProgramInfo.UnlockAdult" value="பூட்டைத்திற"/>
+  <string id="ProgramInfo.NoCastInfomation" value="நடிப்பவர் தகவல் கிடைக்கவில்லை"/>
+<string id="ProgramInfo.ProgramDateFormatString" value="ddd d/M, "/>
+<string id="ProgramInfo.ProgramDateNoDayFormatString" value="d/M, "/>
+<string id="ProgramInfo.StartTimeFormatString" value="t"/>
+<string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t"/>
+<string id="ProgramInfo.EndTimeFormatString" value="t"/>
+<string id="ProgramInfo.AirDateFormatString" value="dd MMMM yyyy"/>
+<string id="ProgramInfo.VODAvailableDate" value="HH:mm dd MMMM yyyy"/>  
+  <string id="ProgramInfo.VODAvailableUntil" value="{0} வரை கிடைக்கும்"/>
+  <!-- {0}: the extra text information and {1} is the duration-->
+  <string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}."/>
+  <string id="ProgramInfo.SeriesString" value="தொடர்"/><!-- add \ if using general category -->
+  <string id="ProgramInfo.MovieString" value="திரைப்படம்"/><!-- add \ if using general category -->
+  <!-- ProgramInfo.GeneralCategory is optional (you can replace it with an empty string). If you do, also remove backslash from ProgramInfo.SeriesString and ProgramInfo.MovieString. -->
+  <string id="ProgramInfo.GeneralCategory" value=""/>
+  <string id="ProgramInfo.OriginalAirDateString" value="அசல் ஒலிபரப்பு தேதி: {0}"/>
+  <string id="ProgramInfo.OriginalTitle" value="அசல் தலைப்பு: "/>
+  <!-- {0}: the release year-->
+  <string id="ProgramInfo.ReleasedString" value="{0} வெளியிடப்பட்டது"/>
+
+  <string id="ProgramInfo.ClosedCaptioning" value="CC"/>
+  <string id="ProgramInfo.Waiting" value="நிகழ்ச்சியின் தகவல் பெறப்படுகின்றது"/>
+  <string id="ProgramInfo.AcceptOffer" value="வாடகை"/>
+  <string id="ProgramInfo.MoreInfo" value="நிகழ்ச்சி தகவல்"/>
+  <string id="ProgramInfo.DeclineOffer" value="வாடகைக்கு விடாதே"/>
+  <string id="ProgramInfo.DeclineOffer.Free" value="இயக்காதே"/>
+  <string id="ProgramInfo.DeclineSubscription" value="சந்தா செய்யாதே"/>
+  <string id="ProgramInfo.Unavailable" value="நிகழ்ச்சியின் தகவல் தற்போது கிடைக்கவில்லை."/>
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="பயனர் வேண்டுகோளுக்காக எபிசோட் பதிவு செய்யப்படவில்லை."/>
+  <string id="ProgramInfo.CanceledInstance" value="பயனர் வேண்டுகோளுக்காக எபிசோட் பதிவு செய்யப்பட மாட்டாது."/>
+  <string id="ProgramInfo.DirectedBy" value="இயக்கியது "/>
+  <string id="ProgramInfo.Menu.Summary" value="சுருக்கம்"/>
+  <string id="ProgramInfo.Menu.Details" value="விவரங்கள்"/>
+  <string id="ProgramInfo.Menu.Cast" value="நபர் தேடல்"/>
+  <string id="ProgramInfo.Cast.Cast" value="நடிகர்கள்"/>
+  <string id="ProgramInfo.Cast.Hosts" value="வழங்கியது"/>
+  <string id="ProgramInfo.Cast.GuestStars" value="கௌரவ தோற்றம்"/>
+  <string id="ProgramInfo.Cast.Directors" value="இயக்கியது"/>
+  <string id="ProgramInfo.Cast.Writers" value="எழுதியது"/>
+  <string id="ProgramInfo.Cast.Producers" value="தயாரித்தது"/>
+  <string id="ProgramInfo.Download" value="பதிவிறக்கம்"/>
+  <string id="ProgramInfo.Download.Message" value="{0} பதிவிறக்கம் செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="ProgramInfo.Download.Message.Yes" value="பதிவிறக்கம்"/>
+  <string id="ProgramInfo.Download.Message.No" value="பதிவிறக்கம் செய்யாதே"/>
+  <string id="ProgramInfo.CancelDownload" value="பதிவிறக்கம் செய்யாதே"/>
+  <string id="ProgramInfo.CancelDownload.Message" value="{0} பதிவிறக்கம் செய்வதை ரத்து செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="ProgramInfo.CancelDownload.Message.Yes" value="பதிவிறக்கம் ரத்துசெய்"/>
+  <string id="ProgramInfo.CancelDownload.Message.No" value="ரத்துசெய்யாதே"/>
+  <string id="ProgramInfo.EraseDownload" value="அழி"/>
+  <string id="ProgramInfo.EraseDownload.Message" value="{0} அழிப்பதற்கு நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="ProgramInfo.EraseDownload.Message.Yes" value="அழி"/>
+  <string id="ProgramInfo.EraseDownload.Message.No" value="அழிக்காதே"/>
+  <string id="ProgramInfo.MoveToTop" value="பதிவிறக்கம் முதலில்"/>
+  <string id="ProgramInfo.MoveToTop.Message" value="{0} முதலில் பதிவிறக்கம் செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="ProgramInfo.MoveToTop.Message.Yes" value="பதிவிறக்கம் முதலில்"/>
+  <string id="ProgramInfo.MoveToTop.Message.No" value="முதலில் பதிவிறக்கம் செய்யாதே"/>  
+  <string id="ProgramInfo.PlayLocal" value="உள் இயக்கு"/>
+  <string id="ProgramInfo.DownloadUntil" value="{0} வரை கிடைக்கும்" /> 
+  <string id="ProgramInfo.AvailableUntil" value="{0} வரை கிடைக்கும்" />
+	<string id="ProgramInfo.AvailableAt" value="{0} வாடகைக்கு கிடைக்கும்" />  
+  <string id="ProgramInfo.RentedUntil" value="{0} வாடகை முடிவுறுகிறது" /> 
+  <string id="ProgramInfo.DownloadStatus.Scheduled" value="பதிவிறக்கத்திற்கு அட்டவணையிடப்பட்டுள்ளது." />
+  <string id="ProgramInfo.DownloadStatus.Downloading" value="தற்போது பதிவிறக்கம் செய்யப்படுகிறது." />
+  <string id="ProgramInfo.DownloadStatus.Percent" value=" {0}% முடிந்துள்ளது." />
+  <string id="ProgramInfo.DownloadStatus.Failed" value="கிடைக்கும் பொழுது மீண்டும் தொடங்கும்." />
+  <string id="ProgramInfo.DownloadStatus.Downloaded" value="பதிவிறக்கப்பட்டது." />
+  <string id="ProgramInfo.DownloadMissing" value="வாடகைக்கு எடுக்கப்பட்டது பதிவிறக்கப்படவில்லை." />
+  
+  <string id="SeriesInfo.Menu.Summary" value="அமைப்புகள்"/>
+  <string id="SeriesInfo.ChangeSettings" value="அமைப்புகளை மாற்று"/>
+
+  <!-- Parental Control -->
+  <string id="ParentalControl.ForbiddenPinMessage" value="இந்த PIN அனுமதிக்கப்படவில்லை. தயவுசெய்து வேறொரு PIN உள்ளிடுக."/>
+  <!-- {0}: the list of unallowed pins-->
+  <string id="ParentalControl.ForbiddenPinListMessage" value="கீழ்கண்ட PIN-கள் அனுமதிக்கப்படவில்லை: {0}."/>
+  <string id="ParentalControl.IncorrectPinMessage" value="நீங்கள் உள்ளிட்ட PIN சரியானதில்லை. உங்களுடைய {0}-இலக்க PIN-ஐ மீண்டும் உள்ளிடவும். "/>
+  <string id="ParentalControl.PinRetryLimitExceeded" value="நீங்கள் உங்களுடைய PIN மறுமுயற்சி வரையறையை தாண்டி விட்டீர்கள்."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.Adult" value="நீங்கள் உங்களுடைய வயதுவந்தோர் PIN மறுமுயற்சி வரையறையை தாண்டி விட்டீர்கள்."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="தயவுசெய்து {0}ல் மீண்டும் முயற்சிக்கவும்."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater.Ambiguous" value="தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="மீட்டமைக்க 1-800-555-1212 அழைக்கவும்."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator.Adult" value="மீட்டமைக்க 1-800-555-1212 அழைக்கவும்." />
+  <string id="ParentalControl.ForgotPinMessage" value="உங்கள் PIN-ஐ நீங்கள் மறந்துவிட்டால், அதை மீட்டமைக்க 1-800-555-1212 அழைக்கவும்."/>
+  <string id="ParentalControl.NoPresetPinMessage" value="முன் அமைக்கப்பட்ட PIN-ஐ இதுவரை நீங்கள் பெறவில்லை. இதை அமைக்க 1-800-555-1212 அழைக்கவும்."/>
+  <!-- {0}: the time that your pin has been disabled until (short time)-->
+  <string id="ParentalControl.PinDisabledMessage" value="உங்கள் PIN {0}வரை முடக்கப்பட்டுள்ளது."/>
+  <!-- {0}: (day) , {1}: the time your pin has been disabled (day and time)-->
+  <string id="ParentalControl.PinDisabledMessage.Later" value="உங்கள் PIN {0} {1}வரை முடக்கப்பட்டுள்ளது."/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="உங்கள் PIN முடக்கப்பட்டுள்ளது. தயவுசெய்து வாடிக்கையாளர் சேவையைத் தொடர்புகொள்ளவும்."/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite.Adult" value="உங்களுடைய வயதுவந்தோர் PIN முடக்கப்பட்டுள்ளது. தயவுசெய்து வாடிக்கையாளர் சேவையைத் தொடர்புகொள்ளவும்." />  
+  <string id="ParentalControl.ChoosePinMessage" value="தேர்ந்தெடுக்கப்பட்ட நிகழ்ச்சிகள் பார்க்கப்படுவதைத் தடுக்க ஒரு {0}–இலக்க PIN-ஐ தேர்ந்தெடுக்கவும்."/>
+  <string id="ParentalControl.PinsDoNotMatch" value="இரண்டு PIN-களும் பொருந்தவில்லை.  தயவுசெய்து இரண்டு PIN-களையும் மறு உள்ளீடு செய்யவும்."/>
+  <string id="ParentalControl.EnterPinMessage" value="பெற்றோரின் பூட்டும் அமைப்புகளை மாற்ற, உங்கள் {0}–இலக்க PIN-ஐ உள்ளீடு செய்யவும்."/>
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="PIN-ன் நீளம் {0}க்கு மாற்றப்பட்டுள்ளது.&#13; உங்களுடைய {1}–இலக்க PIN-ஐ உள்ளீடு செய்து அதன் பிறகு ஒரு புதிய {0}–இலக்க ஒன்றை உருவாக்கவும்."/>
+  <string id="ParentalControl.ChooseANewPin" value="ஒரு புதிய {0}–இலக்க PIN-ஐ தேர்ந்தெடுக்கவும்."/>
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="ஒரு தடுக்கப்பட்ட நிகழ்ச்சியை பார்ப்பதற்கு PIN-ஐ நீங்கள் உள்ளீடு செய்யவேண்டும்."/>
+  <string id="ParentalControl.EnterPinFirstTime" value="ஒரு {0}-இலக்க PIN-ஐ உங்கள் ரிமோட் மூலம் உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin" value="உங்களுடைய {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <!-- unused? -->
+  <string id="ParentalControl.EnterPin.Purchase" value="வாங்குவதை அனுமதிக்க உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.Unlock" value="பூட்டைத் திறக்க உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="வயதுவந்தோருக்கான உள்ளடக்கம் பூட்டைத் திறக்க உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <!-- unused?-->
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="இந்த நிகழ்ச்சி ஓட்டத்தை கட்டுப்பாட்டில் வைக்க உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="வாங்குவதை அனுமதிக்க உங்கள் {0}-இலக்க வாடகை PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="வாங்குவதை அனுமதிக்க உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக.  இது வயதுவந்தோருக்கான உள்ளடக்கம் ஆகும்."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="வாங்குவதை அனுமதிக்க உங்கள் {0}-இலக்க பெற்றோர் கட்டுப்பாடு PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="வாங்குவதை அனுமதிக்க உங்கள் {0}-இலக்க பெற்றோர் கட்டுப்பாடு PIN-ஐ உள்ளிடுக.  இது வயதுவந்தோருக்கான உள்ளடக்கம் ஆகும்."/>
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="இந்த நிகழ்ச்சியைப் பதிவு செய்ய உங்கள் {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="தவறான PIN. உங்கள் {0}-இலக்க பெற்றோர் கட்டுப்பாடு PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="தவறான PIN. உங்களுடைய {0}-இலக்க வயதுவந்தோர் PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="தவறான PIN. உங்களுடைய {0}-இலக்க வாடகை PIN-ஐ உள்ளிடுக. "/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="தவறான PIN. உங்களுடைய {0}-இலக்க PIN-ஐ உள்ளிடுக. "/>
+  <!-- This string doesn't seem to be used/displayed-->
+  <string id="ParentalControl.EnterPin.RetryCount" value="{0} மறுமுயற்சிகள் மீதமுள்ளன."/>
+  <string id="ParentalControl.ConfirmPin" value="உங்கள் {0}-இலக்க PIN-ஐ உறுதிசெய்க"/>
+  <string id="ParentalControl.PConServiceUnavailable" value="PIN அமைப்புகள் கிடைக்கவில்லை. தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்."/>
+  <string id="ParentalControl.PConPinUnavailable" value="PIN இதுவரை அமைக்கப்படவில்லை. உங்கள் அமைப்புகள் மெனுவிற்குச் சென்று ஒன்றை அமைக்கவும்."/>
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="வயதுவந்தோர் PIN இதுவரை அமைக்கப்படவில்லை. உங்கள் அமைப்புகள் மெனுவிற்குச் சென்று ஒன்றை அமைக்கவும்."/>
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="வாடகை PIN இதுவரை அமைக்கப்படவில்லை. உங்கள் அமைப்புகள் மெனுவிற்குச் சென்று ஒன்றை அமைக்கவும்."/>
+  <string id="ParentalControl.PConPinLengthChanged" value="PIN-ன் நீளம் {0}க்கு மாற்றப்பட்டுள்ளது. உங்கள் அமைப்புகள் மெனுவிற்குச் சென்று புதிய ஒன்றை அமைக்கவும்."/>
+  <string id="EditText.SampleCharacter" value="0"/>
+  <!-- unused? -->
+  <string id="ParentalControl.GotoParentalControlSettings" value="உங்கள் {0}-இலக்க PIN-ஐ உள்ளிட்டு பெற்றோர் கட்டுப்பாடு அமைப்புகளுக்குச் செல்லவும். "/>
+  <string id="ParentalControl.Title.ChangePin" value="PIN-ஐ மாற்று"/>
+  <string id="ParentalControl.Title.UnlockPCon" value="பூட்டைத்திற"/>
+  <string id="ParentalControl.Title.ParentalLocking" value="பெற்றோர் பூட்டுதல்"/>
+  <string id="ParentalControl.Title.PurchaseLocking" value="வாடகை பூட்டுதல்"/>
+  <string id="ParentalControl.Title.AdultLocking" value="வயதுவந்தோர் பூட்டுதல்"/>
+  <string id="ParentalControl.Title.BlockMovieRatings" value="திரைப்பட மதிப்பீடுகளைப் பூட்டு"/>
+  <string id="ParentalControl.Title.MainMenu" value="பெற்றோர் கட்டுப்பாடுகள்"/>
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="திரைப்பட மதிப்பீடுகளைப் பூட்டு"/>
+  <string id="ParentalControl.Blocked" value="பூட்டப்பட்டுள்ளது: "/>
+  <string id="ParentalControl.Selected" value="தேர்ந்தெடுக்கப்பட்டுள்ளது: "/>
+  <string id="ParentalControl.NonBlocked" value="எதுவும் பூட்டப்படவில்லை"/>
+  <string id="ParentalControl.AndAbove" value=" மற்றும் மேலும்"/>
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="திரைப்பட/டிவி மதிப்பீடுகள்"/>
+  <!-- {0}: the Presentable name in the rating sytem is placed here. The presentable name string uses the actual ratingSystemName-->
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value="{0}"/>
+  <!-- {0}: the rating's long name and {1} is the rating's description-->
+  <string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0}&#13;{1}"/>
+  <string id="ParentalControl.RatingSystems.Unrated" value="மதிப்பீடு செய்யப்படாத டிவி"/>
+  <string id="ParentalControl.Purchasing.PinRequired" value="PIN தேவைப்படுகிறது"/>
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="PIN தேவையில்லை"/>
+  <string id="ParentalControl.Applications.PinRequired" value="PIN தேவைப்படுகிறது"/>
+  <string id="ParentalControl.Applications.PinNotRequired" value="PIN தேவையில்லை"/>
+  <string id="ParentalControl.Dialog.SaveSettings" value="இந்த அமைப்புகளில் நீங்கள் செய்த மாற்றங்களை சேமிக்க விரும்புகிறீர்களா?"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="சேமி"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="சேமிக்காதே"/>
+  <string id="ParentalControl.Dialog.ResetPCon" value="நீங்கள் {0}–இலக்க PIN-ஐ மீட்டமைக்க விரும்புகிறீர்களா அத்துடன் பெற்றோரின் பூட்டுகளை பயன்படுத்துவதை நிறுத்த விரும்புகிறீர்களா?"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="மீட்டமை"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="மீட்டமைக்காதே"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="நீங்கள் {0}–இலக்க PIN-ஐ நீக்க விரும்புகிறீர்களா அத்துடன் வாடகை பூட்டுகளை பயன்படுத்துவதை நிறுத்த விரும்புகிறீர்களா?"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="மறுஅமைப்பு"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="மீட்டமைக்காதே"/>
+  <string id="ParentalControl.Notification.PinChanged" value="உங்கள் PIN மாற்றப்பட்டுள்ளது."/>
+  <!-- {0}: A timespan,-->
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="{0}க்கு பூட்டு திறக்கப்பட்டுள்ளது"/>
+  <!-- {0}: a timespan that is formatted by period and culture-->
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="{0}க்கு அனைத்து டிவி பூட்டையும் திற"/>
+  <string id="ParentalControl.RatingPageInstruction" value="வீடியோ சேமிப்பகத்திலிருந்து வாடகைக்கு எடுக்கப்பட்ட வீடியோக்கள், நேரலை டிவி நிகழ்ச்சிகள் மற்றும் பதிவு செய்யப்பட்ட நிகழ்ச்சிகளுக்கு மதிப்பீடு பூட்டுகள் பொருந்தும். மதிப்பீடுகள் கிடைக்காவிட்டால், காட்சி தடுக்கப்படமாட்டாது."/>
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="பெற்றோர் பூட்டுகள் அனைத்தையும் மறுஅமைப்பு செய்"/>
+  <string id="ParentalControl.MenuItemText.DoNothing" value="மீட்டமைக்காதே"/>
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="PIN-ஐ மாற்று"/>
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="பூட்டுவதை நிறுத்திவிடு"/>
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="வாடகை PIN-ஐ நீக்கு"/>
+  <string id="ParentalControl.MenuItemText.Ratings" value="மதிப்பீடுகள்"/>
+  <string id="ParentalControl.MenuItemText.MovieRating" value="திரைப்பட மதிப்பீடுகள்"/>
+  <string id="ParentalControl.MenuItemText.Done" value="முடிந்தது"/>
+  <string id="ParentalControl.MenuItemText.Lock" value="பூட்டு"/>
+  <string id="ParentalControl.ListItemText.UnratedContent" value="மதிப்பீடு செய்யப்படாத உள்ளடக்கம்"/>
+  <string id="ParentalControl.ListItemText.Purchasing" value="வாடகைகள்"/>
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="வயதுவந்தோர் நிகழ்ச்சிகள்"/>
+  <string id="ParentalControl.ListItemText.Applications" value="பயன்பாடுகள்"/>
+  <string id="ParentalControl.ListItemText.Edit" value="மாற்று"/>
+  <!-- {0} is the channel number. {1] is the call letter. {2] is the number of other blocked channels
+  Applies to the following 3 strings-->
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value="{0}  {1} மற்றும் {2} மற்றவைகள்"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value="{0}  {1} மற்றும் 1 மற்றது"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}"/>
+  <string id="ParentalControl.ListItemText.Channels" value="சேனல்கள்"/>
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="பூட்டைத்திறக்க OK-ஐ அழுத்தவும்."/>
+  <!-- {0}: the program name. Applies to next two strings. -->
+  <string id="ParentalControl.Dialog.UnlockChoice" value="{0}-வை எப்படித் திறப்பதென்று தேர்ந்தெடுக்கவும்"/>
+  <string id="ParentalControl.Dialog.UnlockChannel" value="சேனல் பூட்டைத்திறக்கலாமா?"/>
+  <string id="ParentalControl.Dialog.UnlockProgram" value="{0} பூட்டைத்திறக்கலாமா?"/>
+  <string id="ParentalControl.Dialog.ThisProgram" value="இந்த நிகழ்ச்சி"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="இந்த நிகழ்ச்சி பூட்டைத்திற"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="இந்த சேனல் பூட்டைத்திற"/>
+  <string id="ParentalControl.Dialog.DontUnlock" value="பூட்டைத் திறக்காதே"/>
+  <string id="ParentalControl.Dialog.Unlock" value="பூட்டைத்திற"/>
+  <string id="ParentalControl.Dialog.GoToSettings" value="அமைப்புகள்"/>
+  <string id="ParentalControl.LockedPIP.Text" value="நிகழ்ச்சி பூட்டப்பட்டது"/>
+  <string id="ParentalControl.Settings.LockChannels" value="சேனல்களை பூட்டு"/>
+  <string id="ParentalControl.Settings.UnlockAll" value="அனைத்து பூட்டையும் திற"/>
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="பூட்டப்பட்டதை மட்டும் பார்வையிடு"/>
+  <string id="ParentalControl.Settings.ViewAllChannels" value="அனைத்து சேனல்களையும் பார்வையிடு"/>
+  <string id="ParentalControl.Settings.LockPurchasing" value="வாடகையை பூட்டு"/>
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="பூட்டியிருக்கும் போது வாடகைக்கு எடுப்பதற்கு முன், உங்கள் {0}–இலக்க PIN தேவைப்படும்."/>
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="வயதுவந்தோர் நிகழ்ச்சிகளைப் பூட்டு"/>
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="பூட்டியிருக்கும் போது வயதுவந்தோர் நிகழ்ச்சிகளை காண, உங்கள் {0}–இலக்க PIN தேவைப்படும்."/>
+  <string id="ParentalControl.Settings.LockApplications" value="பயன்பாடுகளைப் பூட்டு"/>
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="பயன்பாடுகளுக்கு PIN தேவை இல்லை."/>
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="தேர்ந்தெடுக்கப்பட்ட போது ஒரு பயன்பாட்டை தொடங்குவதற்கு முன், உங்கள் {0}–இலக்க PIN தேவைப்படும்."/>
+  <string id="ParentalControl.Settings.LockUnratedContent" value="மதிப்பீடு செய்யப்படாததைப் பூட்டு"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="மதிப்பீடு செய்யப்படாத நிகழ்ச்சியைப் பூட்டு"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="கல்விக்கான டிவி காட்சிகள் மற்றும் 1960க்கு முன்னால் வெளியிடப்பட்ட திரைப்படங்கள் போன்ற சில நிகழ்ச்சிகள் மதிப்பீடு செய்யப்படவில்லை."/>
+  <string id="ParentalControl.Adult.ContentBlocked" value="வயதுவந்தோருக்கான உள்ளடக்கம் பூட்டப்பட்டுள்ளது"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.Adult.Unlocked" value="வயதுவந்தோருக்கான உள்ளடக்கம் {0}-காக பூட்டு திறக்கப்பட்டுள்ளது"/>
+  <string id="ParentalControl.Adult.UnlockExpired" value="வயதுவந்தோருக்கான உள்ளடக்கம் மறுபடி பூட்டப்பட்டுள்ளது"/>
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="வயதுவந்தோர் பூட்டுதல் செயலாக்கப்பட்டுள்ளது"/>
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="வயதுவந்தோர் பூட்டுதல் முடக்கப்பட்டுள்ளது"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.PinRetry.Disabled" value="PIN {0}-காக முடக்கப்பட்டுள்ளது"/>
+  <string id="ParentalControl.PinRetry.Disabled.Adult" value="வயதுவந்தோர் PIN {0}-காக முடக்கப்பட்டுள்ளது"/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="உங்கள் PIN முடக்கப்பட்டுள்ளது. தயவுசெய்து வாடிக்கையாளர் சேவையைத் தொடர்புகொள்ளவும்."/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite.Adult" value="உங்களுடைய வயதுவந்தோர் PIN முடக்கப்பட்டுள்ளது. தயவுசெய்து வாடிக்கையாளர் சேவையைத் தொடர்புகொள்ளவும்."/>
+  <string id="ParentalControl.PinRetry.Enabled" value="PIN மறு-செயலாக்கப்பட்டுள்ளது"/>
+  <string id="ParentalControl.PinRetry.Enabled.Adult" value="வயதுவந்தோர் PIN மறு-செயலாக்கப்பட்டுள்ளது"/>
+
+    <!-- Settings Menu -->
+  <string id="Settings.Menu" value="அமைப்புகள்"/>
+  <string id="Settings.General" value="பொது"/>
+  <string id="Settings.Television" value="தொலைக்காட்சி"/>
+  <string id="Settings.ParentalControl" value="பெற்றோர் கட்டுப்பாடுகள்"/>
+  <string id="Settings.Account" value="கணக்கு"/>
+  <string id="Settings.General.ParentalControl" value="பெற்றோர் பூட்டுதல்"/>
+  <string id="Settings.General.PurchaseLocking" value="வாடகை பூட்டுதல்"/>
+  <string id="Settings.General.AdultLocking" value="வயதுவந்தோர் பூட்டுதல்"/>
+  <string id="Settings.General.SystemSounds" value="முறைமை ஒலி விளைவுகள்"/>
+  <string id="Settings.General.Language" value="திரை-மீது மொழி"/>
+  <string id="Settings.General.SystemInformation" value="முறைமை தகவல்கள்"/>
+  <string id="Settings.General.AudioLanguage" value="ஒலி மொழி"/>
+  <string id="Settings.General.RFOutputChannel" value="RF வெளியீட்டு சேனல்"/>
+  <string id="Settings.General.SecondaryAudio" value="இரண்டாம்நிலை ஒலி"/>
+  <string id="Settings.General.EnhancedHdmiSecurity" value="பாதுகாப்பு"/>
+  <string id="Settings.Television.CustomizeChannels" value="சேனல் வழிகாட்டியை தனிப்பயனாக்கு"/>
+  <string id="Settings.Television.ChannelReordering" value="சேனல் மறுவரிசைப்படுத்து"/>
+  <string id="Settings.Television.FavoriteChannels" value="விருப்பமானவைகளை அமை"/>
+  <string id="Settings.Television.GuideStyle" value="வழிகாட்டி பாணி"/>
+  <string id="Settings.Television.DttAutomaticChannelUpdate" value="DTT தானியக்க சேனல் புதுப்பித்தல்"/>
+  <string id="Settings.Television.GeneralRecording" value="பொது பதிவிற்கான அமைப்புகள்"/>
+  <string id="Settings.Television.SeriesRecording" value="தொடரை பதிவதற்கான அமைப்புகள்"/>
+  <string id="Settings.Television.ChannelScanning" value="DTT சேனல்களுக்காக ஸ்கேன் செய்"/>
+  <string id="Settings.Television.SignalStrength" value="DTT சிக்னல் பலம்"/>
+  <string id="Settings.Television.SignalStrength.Check" value="தொடரவும்"/>
+  <string id="Settings.Television.SignalStrength.Cancel" value="ரத்துசெய்"/>
+  <string id="Settings.Television.SignalStrength.Description" value="உங்கள் DTT சேனல்களின் சிக்னல் பலத்தை பரிசோதிக்கவும்.  சிக்னல் பலத்தை பரிசோதிக்கும்போது ஏதாவது DVR பதிவுகள் நடந்து கொண்டிருந்தால் அவை நிறுத்தப்படும் மற்றும் அட்டவணையிடப்பட்ட பதிவுகளும் ஆரம்பிக்காது.&#13;&#13;உங்கள் பரிசோதனை முடிந்த பிறகு DVR பதிவு மீண்டும் தொடங்கும்."/>
+  <string id="Settings.Television.AspectRatio" value="திரைத் தோற்ற விகிதம் மற்றும் உயர் வரையறை"/>
+  <string id="Settings.Television.ClosedCaption" value="மூடப்பட்ட தலைப்பிடுதல்"/>
+  <string id="Settings.Television.Overscan" value="திரை-மீது காட்சி அளவு"/>
+  <string id="Settings.Account.BillPresentment" value="விலையிடல் தகவல்கள்"/>
+  <string id="Settings.Account.SelfProvisioning" value="சேனல்கள் மற்றும் தொகுப்புகள்"/>
+  
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="கிளையண்ட் தொடங்குவதில் பிழை"/>
+  <string id="ClientAccountUnavailableString" value=" கணக்கு கிடைக்கவில்லை."/>
+  <!-- Account Disabled notification dialog, {0}: reboot timeout in seconds -->
+  <string id="Account.Disabled.NotificationDialogString" value="உங்கள் கணக்கு முடக்கப்பட்டுள்ளது அத்துடன் உங்கள் டிவி {0} வினாடிகளில் மறுதுவக்கம் செய்யப்படும்.  தயவுசெய்து வாடிக்கையாளர் சேவையைத் தொடர்புகொள்ளவும்."/>
+  <string id="Account.Disabled.RebootNowButton" value="மறுதுவக்கம்"/>
+  <!-- {0}: the Bootstrap host-->
+  <string id="ClientUnprovisionedString" value="கிளையணட் {0} மீது வழங்கப்படவில்லை."/>
+  <string id="QuitClientString" value="கிளையண்ட் வெளியேறு"/>
+  <string id="BootStrapError" value="சேவையுடன் தொடர்புகொள்வதில் இடர்ப்பாடு உள்ளது."/>
+  <string id="SelfProvisioningAppName" value="http://__சுயவழங்குதல்"/>
+  <string id="SelfProvisioningLoadingText" value="பதிவு செய்யும் சர்வருடன் தொடர்புகொள்ளப்படுகின்றது."/>
+  
+  <!-- Guide -->
+  <string id="Guide.Guide" value="வழிகாட்டி"/>
+  <string id="Guide.NoInfo" value="தகவல் கிடைக்கவில்லை"/>
+  <string id="Guide.Loading" value="தகவல்கள் பெறப்படுகின்றன"/>
+  <string id="Guide.Upcoming" value="வரப்போகின்றன: {0}"/>
+  <!-- {0}: the program title-->
+  <string id="Guide.PPV" value="PPV: {0}"/>
+  <string id="Guide.NoDescription" value=""/>
+  <string id="Guide.NoGuideData" value="வழிகாட்டி விவரங்கள் தற்போது கிடைக்கவில்லை"/>
+  <string id="Guide.ShowEnded" value="காட்சி முடிந்துவிட்டது"/>
+  <string id="Guide.ShowOnInOneMinute" value="1 நிமிடத்தில் ஆரம்பிக்கிறது"/>
+  <!-- {0}: the integer in minutes-->
+  <string id="Guide.ShowOnSoon" value="{0} நிமிடங்களில் ஆரம்பிக்கிறது"/>
+  <!-- {0}: the start time (utc datetime) of the program formatted properly-->
+  <string id="Guide.ShowOnLaterToday" value="{0} க்கு ஆரம்பிக்கிறது "/>
+  <string id="Guide.ShowOnTomorrow" value="நாளை ஆரம்பிக்கிறது"/>
+  <!-- {0}: the integer number of days. -->
+  <string id="Guide.ShowOnDaysLater" value="{0} நாட்களில் ஆரம்பிக்கிறது"/>
+  <!--{0}: the start time (utc datetime) of the program formatted propery -->
+  <string id="Guide.ShowStarted" value="{0} க்கு ஆரம்பித்தது"/>
+  <string id="Guide.VodGroup" value="கேட்கும்போது வீடியோ"/>
+  <string id="Guide.RdpGroup" value="பயன்பாடுகள்"/>
+  <string id="Guide.SVodGroup" value="உயர்மதிப்பு சேனல்கள்"/>
+  <string id="Guide.UrlGroup" value="பயன்பாடுகள்"/>
+  <!-- {0}, {1} are channel numbers (ChannelNumber.ToString())-->
+  <string id="Guide.ChannelRange" value="{0}-{1}"/>
+  <string id="Guide.Options.Title" value="சேனல்களை காண்பி"/>
+  <string id="Guide.Options.ShowAll" value="அனைத்து சேனல்கள்"/>
+  <string id="Guide.Options.ShowFavorites" value="விருப்பமான சேனல்கள்"/>
+  <string id="Guide.Options.EditFavorites" value="விருப்பமானவைகளை மாற்று"/>
+  <string id="Guide.Options.GuideStyle" value="வழிகாட்டி பாணி"/>
+  <string id="Guide.Options.Jump" value="தாண்டிச் செல்"/>
+  <string id="Guide.Options.NextWeek" value="அடுத்த வாரம்"/>
+  <string id="Guide.Options.Tonight" value="இன்றிரவு"/>
+  <string id="Guide.Options.Tomorrow" value="நாளை"/>
+<string id="Guide.Options.JumpFormatString" value="dddd" />
+  <string id="Guide.ListGuideInstructions" value="இந்த சேனலுக்கான வழிகாட்டி பட்டியலைப் பார்வையிட OK-ஐ அழுத்தவும்."/>
+  
+  <!-- Favorites -->
+  <string id="Favorites.Favorites" value="விருப்பமானவை"/>
+  <string id="Settings.FavoriteChannels" value="விருப்பமான சேனல்கள்"/>
+  <string id="Settings.FavoriteChannels.Description" value="உங்கள் விருப்பமானவைகள் வழிகாட்டியில் சேனல்கள் சேர்க்க அல்லது அகற்ற OK-ஐ அழுத்தவும்."/>
+  <string id="Settings.FavoriteChannels.ClearAll" value="அனைத்து தேர்வையும் நீக்கு"/>
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="தேர்ந்தெடுக்கப்பட்டதை பார்வையிடு"/>
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="அனைத்தையும் பார்வையிடு"/>
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="நீங்கள் விருப்பமான சேனல்கள் பட்டியல் இதுவரை அமைக்கவில்லை."/>
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="நீங்கள் மிக அடிக்கடி பார்க்கும் சேனல்களை மட்டும் வழிகாட்டியில் பார்க்கவும் வடிகட்டவும் விருப்பமான சேனல்கள் ஒரு வசதியான வழியாகும்."/>
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="விருப்பமான சேனல்கள் பட்டியல் அமைக்கவும்"/>
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="பட்டியல் அமைக்காதே"/>
+  
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase.Info" value="வாடகை தகவல்கள் அறிய OK-ஐ அழுத்தவும்"/>
+  <!-- {0}: the price formatted and {1}: rental time from minute formatted properly-->
+  <string id="VideoFullScreen.CanPurchase.Price" value="{1} வாடகைக்கு {0} விலை"/>
+  <!-- {0}: slide show title, and {1}: current image title of the slide show. -->
+  <string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}"/>
+  <!-- {0}: current seek position of the seek bar. {1}: max seek position-->
+  <string id="VideoFullScreen.SeekPositionXofY" value="{1} இல் {}"/>
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="ஒரு வீடியோக்கள் பட்டியலை உலாவ OK-ஐ அழுத்தவும்"/>
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="ஒரு பயன்பாடுகள் பட்டியலை உலாவ OK-ஐ அழுத்தவும்"/>
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="ஒரு பதிவுகள் பட்டியலை உலாவ OK-ஐ அழுத்தவும்"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="{0} இயக்குவதை ஆரம்பிப்பதற்கு OK-ஐ அழுத்தவும்"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="{0} -ஐ முன்னோட்டம் பார்க்க Play அழுத்தவும் "/>
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="மற்ற நிகழ்ச்சிகளைப் பார்க்க சேனல்களை மாற்றவும்"/>
+  <string id="VideoFullScreen.StatusBar.Photos" value="ஸ்லைடு காட்சி பார்க்க OK-ஐ அழுத்தவும்"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.SVOD" value="{0} பற்றிய மேலும் தகவல்கள் அறிய OK-ஐ அழுத்தவும்"/>
+  <string id="VideoFullScreen.OnNow" value="இப்போது நடக்கிறது"/>
+  <string id="VideoFullScreen.OnNext" value="அடுத்து வருகிறது"/>
+  <string id="VideoFullScreen.OnLater" value="பிறகு வருகிறது"/>
+  <string id="VideoFullScreen.ThankYou" value="நீங்கள் வாடகை எடுத்ததற்கு உங்களுக்கு நன்றி"/>
+  <string id="PleaseWait" value="தயவுசெய்து காத்திருக்கவும்..."/>
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="கேட்கும்போது வீடியோவில் நிகழ்ச்சி கிடைக்கின்றது"/>
+  <string id="VideoFullScreen.Options.AspectRatio" value="தோற்ற விகிதம்"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="இயல்பு"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="இழு"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="பெரிதாக்கல் 1"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="பெரிதாக்கல் 2"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="பெரிதாக்கல் 3"/>
+  <string id="VideoFullScreen.Options.AudioLanguages" value="ஒலி மொழிகள்"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="துணைத் தலைப்புகள்"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="எதுவும் இல்லை"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="ஒலி நிகழ்ச்சி"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="முதன்மையான"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="இரண்டாம்நிலையான"/>
+  <string id="VideoFullScreen.TrickNotAvailable.Part1" value="இந்த டிவி அலைவாங்கியால் முடியாது "/>
+  <string id="VideoFullScreen.TrickNotAvailable.Part2" value=" நேரலை டிவி."/>
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="தோற்ற விகிதம் பாதுகாக்கவும்"/>
+  <string id="ZoomControl.ZoomText.Normal" value="இயல்பு"/>
+  <string id="ZoomControl.ZoomText.Stretch" value="இழு"/>
+  <string id="ZoomControl.ZoomText.Zoom1" value="பெரிதாக்கல் 1"/>
+  <string id="ZoomControl.ZoomText.Zoom2" value="பெரிதாக்கல் 2"/>
+  <string id="ZoomControl.ZoomText.Zoom3" value="பெரிதாக்கல் 3"/>
+  <!-- The custom zoom values: Zoom X, Zoom Y, Shift X, Shift Y (all floats)-->
+  <string id="ZoomControl.ZoomText.CustomZoom" value="தனிப்பயனுக்கான பெரிதாக்கல் ({0},{1},{2},{3})"/>
+<string id="SeekBar.TimeFormat" value="HH:mm"/>
+<string id="SeekBar.TimeFormatCurrent" value="HH:mm:ss"/>
+<string id="SeekBar.DVRTimeFormat" value="HH:mm"/>
+<string id="SeekBar.DVRCurrentPositionFormat" value="HH:mm:ss"/>  
+  <string id="StopPage.Play" value="மீள் இயக்கு"/>
+  <string id="StopPage.StartOver" value="மீண்டும் ஆரம்பி"/>
+  <string id="StopPage.Erase" value="அழி"/>
+  <string id="StopPage.KeepUntil" value="வரை வைத்திரு"/>
+  <string id="StopPage.RecordedTV" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="StopPage.VideoStore" value="கேட்கும்போது வீடியோ"/>
+  <string id="StopPage.LiveTV" value="நேரலை டிவி பார்"/>
+  <string id="StopPage.Done" value="முடிந்தது"/>
+  <string id="StopPage.Done.Vod" value="கேட்கும்போது வீடியோ"/>
+  <string id="StopPage.Done.Recorded" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <!-- Browse Bar -->
+  <string id="BrowseBar.Next" value="அடுத்துது:"/>
+  <string id="BrowseBar.Summary.Ratings" value="{0} &#0183; "/><!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) "/><!-- second part of summary, eg: {0} replaced with 2005 -->
+
+  <!-- Generic Strings -->
+  <string id="DVR.FastForward" value="வேகமாக முன் நகர்த்து"/>
+  <string id="DVR.Pause" value="இடைநிறுத்து"/>
+  <string id="DVR.Rewind" value="பின் நகர்த்து"/>
+  <string id="DVR.Skip" value="தவிர்"/>
+  <string id="DVR.Replay" value="மறுபடி இயக்கு"/>
+  <string id="DVR.Play" value="இயக்கு"/>
+  <string id="DVR.Stop" value="நிறுத்து"/>
+
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording" value="பதிவை ஆரம்பிக்கப் போகிறது"/>
+  <!-- {0]: program. {1}: channel information-->
+  <string id="DVR.AboutToRecord" value="{1} சேனலில் {0} பதிவு ஆரம்பிக்கப் போகிறது"/>
+  <string id="DVR.AboutToRecord.Record" value="பதிவு செய்"/>
+  <string id="DVR.AboutToRecord.DontRecord" value="பதிவுசெய்யாதே"/>
+  <string id="DVR.AboutToStartRecording_disabled" value="பதிவு நிறுத்தப்பட்டிருப்பதால் பதிவு தவிர்க்கப்படும்"/>
+  <string id="DVR.CannotRecordProgram" value="இந்த நிகழ்ச்சி பதிவு செய்யப்பட முடியாது"/>
+  <string id="DVR.CannotRecordProgramNow" value="இந்த நிகழ்ச்சி பதிவு செய்யப்பட முடியாது, தயவுசெய்து பிறகு முயற்சிக்கவும்"/>
+  <string id="DVR.CannotChangeSettingsNoEPG" value="இந்த பதிவிற்கான அமைப்புகள் தற்காலிகமாக கிடைக்கவில்லை. தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="DVR.OK" value="சரி"/>
+  <string id="DVR.Cancel" value="ரத்துசெய்"/>
+  <!-- {0}: program. -->
+  <string id="DVR.StopRecording" value="{0} பதிவை நிறுத்து?"/>
+  <string id="DVR.DoStopRecording" value="பதிவை நிறுத்து"/>
+  <string id="DVR.DoContinueRecording" value="பதிவைத் தொடர்ந்து செய்"/>
+  <string id="DVR.ViewingConflict" value="நீங்கள் தற்போது மற்றொரு டிவி உடன் இணைந்துள்ளீர்கள் அதனால் இந்த நேரத்தில் சேனல்களை மாற்ற முடியாது. "/>
+  <string id="DVR.ViewingConflict.Choose" value="மேலும் அதிக விருப்பங்களை பார்வையிடு"/>
+  <string id="DVR.ViewingConflict.AskTakeControl" value="டிவி உபயோகத்தில் உள்ளதா என்று கேட்கவும்"/>
+  <string id="DVR.ViewingConflict.Exit" value="தொலைக்காட்சிக்கு மாறவும்"/>
+  <string id="DVR.IsTVInUse" value="இந்த டிவி உபயோகத்தில் உள்ளதா? தொடர்ந்து பார்ப்பதற்கு, {வினாடிகள்} க்குள் செயல்படவும்."/>
+  <!-- {0} integer of seconds for dialog -->
+  <string id="DVR.IsTVInUse.Seconds" value="{0} வினாடிகள்"/>
+  <!-- Same as above, just used if there is 1 second left (pluralization)-->
+  <string id="DVR.IsTVInUse.Second" value="{0} வினாடி"/>
+  <string id="DVR.IsTVInUse.InUse" value="டிவி உபயோகத்தில் உள்ளது"/>
+  <string id="DVR.IsTVInUse.NotInUse" value="டிவி உபயோகத்தில் இல்லை"/>
+  <string id="DVR.OtherTVInUse" value="மற்ற டிவி உபயோகத்தில் உள்ளது."/>
+  <string id="DVR.AskingIfOtherTVInUse" value="டிவி உபயோகத்தில் உள்ளதா என்று இப்போது கேட்கின்றது. {வினாடிகள்} மீதியுள்ளன."/>
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="வேண்டுதலை ரத்துசெய்"/>
+  <string id="DVR.WholeHomeRecordButton" value="DVR அலைவாங்கியில் மட்டுமே பதிவுகளை அட்டவணைப்படுத்த முடியும்."/>
+  <string id="DVR.WholeHomeDeleteButton" value="DVR அலைவாங்கியில் மட்டுமே பதிவுகளை அழித்துவிட முடியும்."/>
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="டிவி உபயோகத்தில் உள்ளதா என்று கேட்கவும்"/>
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="பின்னால் செல்"/>
+  <string id="DVR.MultiRoomProgramInfo.Join" value="இந்த காட்சியில் சேர்"/>
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="ரத்துசெய்"/>
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="கட்டுப்பாடு வேண்டு"/>
+  <!-- exit from program info when recording is deleted -->
+  <string id="DVR.RecordingWasDeleted" value="பதிவு செய்யப்பட்டதை இயக்க முடியவில்லை."/>
+  <string id="DVR.UpcomingHeader" value="அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="DVR.UpcomingSubHeader" value="வரப்போகும் பதிவுகள்"/>
+  <string id="DVR.SeriesSubHeader" value="தொடர்"/>
+  <string id="DVR.RecordedHeader" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="DVR.ManualRecordHeader" value="கைமுறை பதிவு செய்"/>
+  <string id="DVR.RecordSettings" value="பதிவு அமைப்புகள்"/>
+  <string id="DVR.ManualRecordSubHeader" value="சேனல் மற்றும் நேரம்"/>
+  <string id="DVR.KeepUntilHeader" value="வரை வைத்திரு"/>
+  <string id="DVR.ConflictHeader" value="பதிவு முரண்பாடு"/>
+  <string id="DVR.SeriesSettingsHeader" value="தொடரைப் பதிவுசெய்"/>
+  <string id="DVR.OneTimeProgramSettingsHeader" value="பதிவு செய்"/>
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="எபிசோட் பதிவுசெய்"/>
+  <string id="DVR.ManualRecord.InvalidTime" value="ஆரம்பிக்கும் நேரம் செல்லாதது"/>
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="நிறுத்தும் நேரம் செல்லாதது"/>
+  <string id="DVR.ManualRecordCannotBeForThePast" value="பதிவுகளை கடந்தகாலத்தில் அட்டவணைப்படுத்த முடியாது"/>
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="ஆரம்பிக்கும் நேரத்திற்கு பிறகு நிறுத்தும் நேரம் இருக்கவேண்டும் "/>
+  <string id="DVR.ManualRecordDurationTooLong" value="பதிவுசெய்யப்படும் கால அளவு 12 மணி நேரத்தை தாண்டமுடியாது"/>
+  <string id="DVR.ManualRecordInvalidChannel" value="இந்த சேனல் பதிவு செய்யப்பட முடியாது"/>
+  <string id="DVR.ManualRecord.InvalidDuration" value="பதிவுசெய்யப்படும் கால அளவு பூஜ்யத்திற்கும் அதிகமாக இருக்க வேண்டும்"/>
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="பதிவுசெய்யப்படும் கால அளவு நிமிடங்கள் 0 மற்றும் 59க்கு இடையில் இருக்க வேண்டும்"/>
+  <string id="DVR.StreamChooser.Instructions" value="இந்த டிவி-யில் பார்ப்பதற்கு ஒரு நிகழ்ச்சியை தேர்ந்தெடுக்கவும், அல்லது நேரலை தொலைக்காட்சியை பார்ப்பதை அல்லது பதிவு செய்வதை அனுமதிப்பதற்கான கட்டுப்பாடை எடுத்துக்கொள்ளவும்."/>
+  <!-- {0}: the number of tuner activities-->
+  <string id="DVR.StreamChooser.Header.Plural" value="{0} நிகழ்ச்சிகள் செயலில் உள்ளன"/>
+  <string id="DVR.StreamChooser.Header.Single" value="{0} நிகழ்ச்சி செயலில் உள்ளது"/>
+  <string id="DVR.StreamChooser.NowPlaying" value="இப்போது காண்பிக்கப்படுகிறது"/>
+  <string id="DVR.StreamChooser.WatchRecording" value="ஒரு பதிவை பார்க்கவும்"/>
+  <string id="DVR.ChangeStream.Title" value="நிகழ்ச்சியை மாற்று"/>
+  <string id="DVR.ChangeStream.Button.Follow" value="உங்கள் டிவி-யில் தொடரவும்"/>
+  <string id="DVR.ChangeStream.Button.Take" value="இந்த நிகழ்ச்சியை குறுக்கீடு செய்"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.LastActivity" value="இந்த தொலைக்காட்சி கடந்த {0}ல் செயலில் இருந்தது"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.Uptime" value="இந்த தொலைக்காட்சி {0}ஆக செயல்பாட்டில் இருக்கிறது"/>
+  <string id="DVR.OneRecordingFromOtherClient" value="மற்றொரு கிளையண்ட்டுக்கு உரிய 1 பதிவை முறைமை கண்டுபிடித்துள்ளது. அந்தப் பதிவு கிடைக்காது."/>
+  <string id="DVR.ManyRecordingFromOtherClient" value="சில பதிவுகள் வேறொரு கணக்கிற்கு உரியதாக இருக்கலாம் அதனால் அவற்றை இயக்க முடியாது."/>
+  <string id="DVR.Today" value="இன்று"/>
+  <string id="DVR.Tomorrow" value="நாளை"/>
+<string id="DVR.UpcomingDateFormatString" value="ddd&#0160;d/M"/>
+<string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd&#0160;d/M)"/>
+<string id="DVR.BucketRecordedDateFormatString" value="(ddd&#0160;d/M)"/>
+<string id="DVR.RecordedDateFormatString" value="d/M"/>  
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="பார்ப்பதற்கு நிகழ்ச்சிகள் எதுவும் கிடைக்கவில்லை."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="நிகழ்ச்சிகளைப் பதிவுசெய்வதற்கு அட்டவணையிட, பதிவுகளைச் சேர் செல்லவேண்டும்."/>
+  <string id="Dvr.NoProgramsNode1" value="பார்ப்பதற்கு பதிவுகள் எதுவும் கிடைக்கவில்லை."/>
+  <string id="Dvr.NoProgramsNode2" value="நிகழ்ச்சிகளை இந்த டிவி-யிலிருந்து பதிவுசெய்வதற்கு அட்டவணைப்படுத்த முடியாது.  பதிவுகளை அட்டவணைப்படுத்த, DVR அலைவாங்கிக்கு செல்லவேண்டும்."/>
+  <string id="DVR.NoUpcomingList1.Remote" value="பதிவுசெய்வதற்கு அட்டவணைப்படுத்தப்பட்ட பட்டியலை இந்த டிவி-யிலிருந்து நீங்கள் பார்க்க முடியாது.  பட்டியலைப் பார்க்க, பதிவுகளின் அமைப்புகளை மாற்ற அல்லது ஒரு பதிவை ரத்துசெய்ய, நீங்கள் DVR அலைவாங்கிக்கு செல்லவேண்டும்."/>
+  <string id="Dvr.NoProgramsCanBeAdded.Remote" value="நிகழ்ச்சிகளை இந்த டிவி-யிலிருந்து பதிவுசெய்வதற்கு அட்டவணைப்படுத்த முடியாது. பதிவுகளை அட்டவணைப்படுத்த, நீங்கள் DVR அலைவாங்கிக்கு செல்லவேண்டும்."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded1.Remote" value="பதிவுசெய்யப்பட்ட டிவி பட்டியல் கிடைக்கவில்லை."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2.Remote" value="இந்த டிவி அலைவாங்கியும் DVR அலைவாங்கியும் பிணையத்துடன் தொடர்பில் உள்ளதா என்று உறுதி செய்யவும்."/>
+  <string id="DVR.NoEpisodesOfSeriesAreScheduled1" value="இந்த தொடரின் எந்த எபிசோட்களும் பதிவுசெய்வதற்கு அட்டவணையிடப்படவில்லை."/>
+  <string id="DVR.SeriesCanceledNoUpcomingEpisodes" value="இந்த தொடர் மேற்கொண்டு பதிவு செய்யப்படவில்லை ஏனென்றால் இது பயனர் வேண்டுகோளுக்காக ரத்துசெய்யப்பட்டது."/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded1" value="இந்த தொடரின் எந்த எபிசோட்களும் தற்போது பதிவுசெய்யப்படவில்லை."/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded2" value="எபிசோட்கள் எதுவும் வருவதற்கு உள்ளனவா என்று பார்க்க அட்டவணையிடப்பட்ட பட்டியலை சரிபார்க்கவும்."/>
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="எந்த நிகழ்ச்சிகளும் பதிவுசெய்வதற்கு அட்டவணையிடப்படவில்லை."/>
+  <string id="DVR.NoSeriesShown1.Remote" value="தொடர்களுக்கான பட்டியலை இந்த டிவி-யிலிருந்து நீங்கள் பார்க்க முடியாது. பட்டியலைப் பார்க்க, ஒரு தொடரின் அமைப்புகளை மாற்ற அல்லது ஒரு தொடரை ரத்துசெய்ய, நீங்கள் DVR அலைவாங்கிக்கு செல்லவேண்டும்."/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="எந்த தொடரும் பதிவுசெய்வதற்கு அட்டவணையிடப்படவில்லை."/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="ஒவ்வொருமுறை தொடரின் ஒரு நிகழ்ச்சி வரும்போதும் உங்களுடைய விருப்பமான தொடரை நீங்கள் பதிவு செய்ய முடியும்.  புதிய பதிவுகளை அட்டவணைப்படுத்த, பதிவுகளைச் சேர் செல்லவேண்டும்."/>
+  <string id="DVR.RemoteUnavailable" value="பதிவுகள் பின்இயக்கம் கிடைக்கவில்லை.  இந்த டிவி அலைவாங்கியும் DVR அலைவாங்கியும் பிணையத்துடன் தொடர்பில் உள்ளதா என்று உறுதி செய்யவும்."/>
+  <string id="DVR.RecordedBucketTitleFormat" value="{0} ({1})"/>
+    <string id="DVR.RecordedBucketCountFormat" value="({0})"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOne" value="{0} பதிவு செய்யப்படுகிறது"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormat" value="{0} பதிவுகள்"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOneWithTitle" value="{0} {1} பதிவு செய்யப்படுகிறது"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatWithTitle" value="{0} {1} பதிவுகள்"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormat" value="&#8220;{0}&#8221; {1}"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0}"/>
+    <!--<string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0} {1}"/>-->
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeConcatFormat" value="{0} &#0183; {1}"/>
+
+    <string id="DVR.MoreButtonText" value="மேலும்..."/>
+  <string id="DVR.Record" value="பதிவு செய்"/>
+  <string id="DVR.DontRecord" value="பதிவுசெய்யாதே"/>
+  <string id="DVR.Save" value="மாற்றங்களை சேமி"/>
+  <string id="DVR.DontSave" value="மாற்றங்களை ரத்துசெய்"/>
+  <string id="DVR.Keep.DontChange" value="மாற்றாதே"/>
+  <string id="DVR.Keep.SpaceNeeded" value="இடம் தேவைப்படும் வரை வைத்திருக்கவும்"/>
+  <!-- This string doesn't seem to be used-->
+  <string id="DVR.Keep.Date" value=" {0} வரை வைத்திரு"/>
+<string id="DVR.Keep.Date.Format" value="ddd d/M"/>  
+  <string id="DVR.Keep.Watch" value="நான் பார்க்கிறேன்"/>
+  <string id="DVR.Keep.Delete" value="நான் அழிக்கும் வரை வைத்திருக்கவும்"/>
+  <string id="DVR.ChannelLabel" value="சேனல்"/>
+  <string id="DVR.FrequencyLabel" value="நேரம்"/>
+  <string id="DVR.RecordDateLabel" value="தேதி"/>
+  <string id="DVR.KeepUntilLabel" value="வரை வைத்திரு"/>
+  <string id="DVR.KeepAtMostLabel" value="அதிக பட்சம் வைத்திரு"/>
+  <string id="DVR.StartLabel" value="ஆரம்பி"/>
+  <string id="DVR.StopLabel" value="நிறுத்து"/>
+  <string id="DVR.TimeLabel" value="நேரம்"/>
+  <string id="DVR.DurationLabel" value="கால அளவு"/>
+  <string id="DVR.StopRecordingLabel" value="பதிவை நிறுத்து"/>
+  <string id="DVR.SeriesFrequencyLabel" value="சேனல்"/>
+  <string id="DVR.Time.AM" value="AM"/>
+  <string id="DVR.Time.PM" value="PM"/>
+  <string id="DVR.SeriesRecordOnLabel" value="பதிவு செய்:"/>
+  <string id="DVR.SeriesShowTypeLabel" value="காட்சி வகை"/>
+  <string id="DVR.SeriesKeepUpToLabel" value="வரை வைத்திரு"/>
+  <string id="DVR.Settings.More" value=" மாற்று"/>
+  <string id="DVR.Settings.Padding.OnTime" value="அட்டவணைப்படி முடியும் நேரம்"/>
+  <!-- {0}: Integer of minutes (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XMinutesLate" value="{0} நிமிடங்களுக்குப் பிறகு"/>
+  <string id="DVR.Settings.Padding.OneHourLate" value="1 மணி நேரத்திற்கு பிறகு"/>
+  <!-- {0}: Integer of hours (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XHoursLate" value="{0} மணிகளுக்குப் பிறகு"/>
+  <string id="DVR.Settings.Fork" value="இதற்கான அமைப்புகள்"/>
+  <string id="DVR.Settings.Fork.Episode" value="இந்த எபிசோட் மட்டும்"/>
+  <string id="DVR.Settings.Fork.Series" value="தொடர் முழுவதும்"/>
+  <string id="DVR.Station.AnyChannel" value="ஏதாவது சேனல்"/>
+  <!-- {0}: time-->
+  <string id="DVR.Time.ThisTime" value="ஏதாவது நாள், {0} அருகில்"/>
+  <string id="DVR.Time.AnyTime" value="ஏதாவது நாள், எந்த நேரமும்"/>
+  <string id="DVR.Time.AnyTimeOnce" value="ஏதாவது நாள், எந்த நேரமும், ஒரு நாளுக்கு ஒரு தடவை"/>
+  <string id="DVR.ShowType.FirstRun" value="முதல் முறை மட்டும்"/>
+  <string id="DVR.ShowType.Live" value="நேரலை"/>
+  <string id="DVR.KeepUpTo.One" value="1 மிகப்புதிய பதிவு"/>
+  <!-- {0}: Integer of number of recordings to keep-->
+  <string id="DVR.KeepUpTo.XRecordings" value="{0} மிகப்புதிய பதிவுகள்"/>
+  <string id="DVR.KeepUpTo.Many" value="எத்தனை முடியுமோ அத்தனை"/>
+  <string id="DVR.Frequency.Once" value="ஒருமுறை பதிவு செய்"/>
+  <string id="DVR.Frequency.EveryDay" value="தினமும்"/>
+  <string id="DVR.Frequency.EveryWeekDay" value="ஒவ்வொரு வாரநாளும்"/>
+  <string id="DVR.Frequency.EveryWeekend" value="ஒவ்வொரு வாரமுடிவு நாளும்"/>
+  <string id="DVR.Frequency.EveryMon" value="ஒவ்வொரு திங்கள்"/>
+  <string id="DVR.Frequency.EveryTue" value="ஒவ்வொரு செவ்வாய்"/>
+  <string id="DVR.Frequency.EveryWed" value="ஒவ்வொரு புதன்"/>
+  <string id="DVR.Frequency.EveryThu" value="ஒவ்வொரு வியாழன்"/>
+  <string id="DVR.Frequency.EveryFri" value="ஒவ்வொரு வெள்ளி"/>
+  <string id="DVR.Frequency.EverySat" value="ஒவ்வொரு சனி"/>
+  <string id="DVR.Frequency.EverySun" value="ஒவ்வொரு ஞாயிறு"/>
+<string id="DVR.RecordDate.Format" value="ddd d/M"/>
+<string id="DVR.Number.Format" value="D02"/>  
+<string id="DVR.Number.Format12Hour" value="" />
+  <string id="DVR.KeepUntil.Space" value="இடம் தேவைப்படுகிறது"/>
+  <string id="DVR.KeepUntil.Watch" value="நிகழ்ச்சி பார்வையிடப்படுகின்றது"/>
+  <string id="DVR.KeepUntil.Delete" value="நிகழ்ச்சி அழிக்கப்பட்டுவிட்டது"/>
+  <string id="DVR.KeepUntil.Space.Full" value="இடம் தேவைப்படும் வரை வைத்திரு"/>
+  <string id="DVR.KeepUntil.Watch.Full" value="நான் பார்க்கும் வரை வைத்திரு"/>
+  <string id="DVR.KeepUntil.Delete.Full" value="நான் அழிக்கும் வரை வைத்திரு"/>
+  <!-- Below two strings are not used-->
+  <string id="DVR.KeepAtMost.FormatSingular" value="{0} சமீபத்திய பதிவு"/>
+  <string id="DVR.KeepAtMost.FormatPlural" value="{0} சமீபத்திய பதிவுகள்"/>
+  <string id="DVR.KeepAtMost.Max" value="எத்தனை முடியுமோ அத்தனை"/>
+  <string id="DVR.KeepUntil.AM" value="AM"/>
+  <string id="DVR.KeepUntil.PM" value="PM"/>
+<string id="DVR.Preview.StartTimeFormat" value="ddd d/M" /> 
+  <!-- {0}: Duration of the DVR program (uses integers). This is hours or minutes as appropriate-->
+  <string id="DVR.Preview.DurationFormat.Day" value="{0}&#0160;நாள்"/>
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0}&#0160;நாள்"/>
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0}&#0160;நாட்கள்"/>
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0}&#0160;மணி"/>
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0}&#0160;நிமி"/>
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0}&#0160;மணி"/>
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0}&#0160;மணிகள்"/>
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0}&#0160;நிமிடம்"/>
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0}&#0160;நிமிடங்கள்"/>
+  <!-- {0}: Program time start; {1}: spacer string; {2}: ; {3}:duration in hours string ; {4}:during in minutes string ; {5}:space string ;-->
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}"/>
+  <string id="DVR.Preview.SpacerString" value="   "/>
+  <!-- String not used-->
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0}  &#0183;  {1}"/>
+  <!-- String not used (commented out)-->
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}"/>
+  <!-- {0}: Channel info (text); {1} Time info (text)-->
+  <string id="DVR.Rollover.ChannelAndTime" value="{0}  &#0183;  {1}"/>
+  <string id="DVR.Menu.ByDate" value="தேதியின்படி"/>
+  <string id="DVR.Menu.ByTitle" value="தலைப்பின் படி"/>
+  <string id="DVR.Menu.ByDateGrouped" value="பதிவுசெய்யப்பட்டது"/>
+  <string id="DVR.Menu.ByStatus" value="நிலைமையின் படி"/>
+  <string id="DVR.Menu.AddRecording" value="பதிவுகளைச் சேர்"/>
+  <string id="DVR.Menu.Scheduled" value="அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="DVR.Menu.Recorded" value="பதிவுசெய்யப்பட்டது"/>
+  <string id="DVR.Menu.Upcoming" value="வரப்போகும்"/>
+  <string id="DVR.Menu.Series" value="தொடர்"/>
+  <string id="DVR.MediaItem.Title" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="DVR.MediaItem.NoPrograms" value="எந்த நிகழ்ச்சிகளும் பதிவுசெய்வதற்கு அட்டவணையிடப்படவில்லை."/>
+  <string id="DVR.MediaItem.Upcoming" value="வரப்போகும் பதிவுகள்:  "/>
+  <string id="DVR.MediaItem.Pip.Text" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="DVR.MediaItem.Separator" value=" &#0183; "/>
+  <string id="DVR.MediaItem.LongDescription1" value="உங்களுடைய விருப்பமான காட்சிகளை பதிவு செய்வதற்கு அட்டவணைப் படுத்துங்கள், அதனால் நீங்கள் எப்போது விருப்பப்பட்டாலும் அதைப் பார்க்கலாம்."/>
+  <string id="DVR.MediaItem.LongDescription2" value="ஒரு பதிவை சேர்ப்பதற்கு பதிவுசெய்யப்பட்ட டிவி-க்கு செல்லுங்கள் அல்லது உங்கள் ரிமோட் கன்ட்ரோலில் RECORD-ஐ அழுத்தவும்."/>
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="அனைத்து பதிவுகள்"/>
+  <string id="DVR.ChannelGuide.RecentRecordings" value="சமீபத்திய பதிவுகள்"/>
+  <string id="DVR.Count.None" value="பதிவுகள் இல்லை"/>
+  <string id="DVR.Count.One" value="1 பதிவு"/>
+  <string id="DVR.Count.Many" value="{0} பதிவுகள்"/>
+  <string id="DVR.Stopped.Finished" value="முடிந்தது"/>
+  <string id="DVR.Stopped.Stopped" value="நிறுத்தப்பட்டது"/>
+  <string id="DVR.Stopped.ErrorMessage" value="பிணையத்தின் பிரச்சினைகள் இந்த ஓட்டத்தை நிறுத்திவிட்டன.   நிகழ்ச்சி தற்போது இயக்குவதற்கு கிடைக்கவில்லை."/>
+  <string id="DVR.Stopped.KeepMessage" value="இடம் தேவைப்படும் வரை இந்த நிகழ்ச்சி வைத்திருக்கப்படும்"/>
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="இந்த நிகழ்ச்சி நீங்கள் அழிக்கும் வரை வைத்திருக்கப்படும்"/>
+  <string id="DVR.MultiRoom.DontChangeChannels" value="சேனல்களை மாற்றாதே"/>
+  <!-- Not currently used (maybe when multi room is finished?)-->
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="{2} க்கு {1} பதிவு செய்வதற்காக {0} சேனலுக்கு மாறுகிறது"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Preamble" value="{0} பதிவு செய்யாது ஏனென்றால் அதே நேரத்தில் பதிவு செய்யப்பட அளவுக்கு அதிகமான பிற பதிவுகள் அட்டவணையிடப்பட்டுள்ளன."/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice2" value="{0} பதிவுசெய்யாதே"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble1" value="{0}ன் 1 எபிசோட் அட்டவணையிடப்பட்டுள்ளது அதே நேரத்தில் பதிவு செய்யப்பட பிற பதிவுகள் அட்டவணையிடப்பட்டுள்ளன."/>
+  <!-- {0}: Number of conflicts; {1}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble2" value="{1}ன் {0} எபிசோட்கள் அட்டவணையிடப்பட்டுள்ளன அதே நேரத்தில் பதிவு செய்யப்பட பிற பதிவுகள் அட்டவணையிடப்பட்டுள்ளன."/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Choice1" value="{0}ன் அனைத்து எபிசோட்களையும் பதிவுசெய்"/>
+  <string id="DVR.Conflict.Series.Choice2" value="வேறு முரண்பாடு இல்லாத போது மட்டும் இந்த தொடரை பதிவு செய்யவும்"/>
+  <string id="DVR.Conflict.Series.Choice3" value="எந்த காட்சிகளை பதிவு செய்வது என்று தேர்ந்தெடுக்கவும்"/>
+  <string id="DVR.Conflict.TryAgain" value="முரண்பாடு தீர்க்க முடியவில்லை. தயவுசெய்து மறுபடி முயற்சி செய்யவும்."/>
+  <string id="DVR.Conflict.SubTitle" value="ஒரு சிவப்பு புள்ளி இல்லாத நிகழ்ச்சியை பதிவுசெய்வதற்கு தேர்ந்தெடுக்கவும்."/>
+  <!-- {0}: Number of conflict slices(?)-->
+  <string id="DVR.Conflict.MultiSubTitle" value="{0} முரண்பாடுகள் இருக்கின்றன. "/>
+  <string id="DVR.Conflict.HDSubTitle" value="இரண்டு HD நிகழ்ச்சிகள் ஒரே நேரத்தில் பதிவுசெய்வதற்கு முடியாது. ஒரு நிகழ்ச்சியை பதிவு செய்வதற்கு தேர்ந்தெடுக்கவும்."/>
+  <!-- {0}: Column number; empty if only 1 column-->
+  <string id="DVR.Conflict.GridHeader" value="முரண்பாடு {0}&#13;{1}"/>
+  <!-- {0}: Program title; {1} Conflict summary description. Same for following string-->
+  <string id="DVR.Conflict.Summary" value="{1} உடன் {0} முரண்படுகின்றது."/>
+  <string id="DVR.Conflict.Series.Summary" value="{0} தொடர் {1} உடன் முரண்படுகின்றது."/>
+  <!-- Next few strings don't seem to be used.-->
+  <string id="DVR.Conflict.2Conflicts" value="{0} மற்றும் {1}"/>
+  <string id="DVR.Conflict.3Conflicts" value="{0}, {1} மற்றும் {2}"/>
+  <string id="DVR.Conflict.4Conflicts" value="{0}, {1}, {2}, மற்றும் {3}"/>
+  <string id="DVR.Conflict.5Conflicts" value="{0}, {1}, {2}, {3},மற்றும் மேலும்"/>
+  <!-- {0}: Formatting of title and episode title-->
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="பதிவு முரண்பாடு: {0}"/>
+  <!-- {0}: Title of program-->
+  <string id="DVR.Conflict.InitSeries.SubTitle" value=" தொடர் முரண்பாடு: {0}"/>
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="இதிலிருந்து நிகழ்ச்சி அல்லது தொடர் பதிவுசெய்:"/>
+  <string id="DVR.AddRecording.CreateCustom" value="இதனுடன் கைமுறை பதிவு செய்யும் ஒன்றை உருவாக்கு:"/>
+  <string id="DVR.AddRecording.ManualRecordLabel" value="சேனல் மற்றும் நேரம்"/>
+  <string id="DVR.ManualRecordLabel" value="கைமுறை பதிவு செய்"/>
+  <!-- {0}: title of parent program-->
+  <string id="DVR.ManualLabel" value="கைமுறை: {0}"/>
+  <string id="DVR.DisabledNotification" value="DVR முடக்கப்பட்டுள்ளது"/>
+  <string id="DVR.NotReadyNotification" value="DVR முறைமை ஆரம்பிக்கிறது. தயவுசெய்து காத்திருக்கவும்."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabledNotification" value="{0} {1}ல் பதிவுசெய்வது அனுமதிக்கப்படவில்லை."/>
+  <string id="DVR.ChannelDisabledNotification2" value="இந்த சேனலில் பதிவுசெய்வது அனுமதிக்கப்படவில்லை."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelPauseDisabledNotification" value="நேரலை டிவி-யை கட்டுப்படுத்த {0} {1} அனுமதிக்கவில்லை"/>
+  <string id="DVR.ChannelPauseDisabledNotification2" value="இந்த சேனல் நேரலை டிவி-யை கட்டுப்படுத்த அனுமதிக்கவில்லை"/>
+  <string id="DVR.ManualRecordDisabledNotification" value="இந்த சேனலில் கைமுறை பதிவுசெய்வது அனுமதிக்கப்படவில்லை."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabled" value="சேனல் {0} {1} பதிவுசெய்வதை அனுமதிக்கவில்லை."/>
+  <string id="DVR.SeriesRecordingScheduled" value="தொடரை பதிவு செய்வது அட்டவணையிடப்பட்டுள்ளது"/>
+  <string id="DVR.SeriesRecordingUpdated" value="தொடரை பதிவு செய்வது புதுப்பிக்கப்பட்டுள்ளது"/>
+  <string id="DVR.SeriesRecordingCanceled" value="தொடரை பதிவு செய்வது ரத்து செய்யப்பட்டுள்ளது"/>
+  <string id="DVR.RecordingScheduled" value="பதிவு செய்வது அட்டவணையிடப்பட்டுள்ளது"/>
+  <string id="DVR.RecordingUpdated" value="பதிவு செய்வது புதுப்பிக்கப்பட்டுள்ளது"/>
+  <string id="DVR.RecordingStopped" value="பதிவு செய்வது நிறுத்தப்பட்டுள்ளது"/>
+  <string id="DVR.RecordingCanceled" value="பதிவு செய்வது ரத்து செய்யப்பட்டுள்ளது"/>
+  <string id="DVR.Recording" value="பதிவு செய்யப்படுகிறது"/>
+  <string id="DVR.SlowScheduling" value="பதிவு செய்வது ஆரம்பிக்கின்றது"/>
+  <string id="DVR.SlowSchedulingComplete" value="பதிவு செய்வது ஆரம்பிக்கப்பட்டது"/>
+  <string id="DVR.PostGoLiveInstructions" value="பதிவு செய்வதை ஆரம்பிக்க RECORD-ஐ அழுத்தவும்."/>
+  <string id="DVR.GuideInstructions" value="ஒரு நிகழ்ச்சியை தனிப்படுத்து, பிறகு RECORD-ஐ அழுத்தவும்."/>
+  <string id="DVR.SearchInstructions" value="ஒரு நிகழ்ச்சியை தேடு, பிறகு RECORD-ஐ அழுத்தவும்."/>
+  <string id="DVR.GroupeditemsInstructions" value="ஒரு நிகழ்ச்சியை தனிப்படுத்து, பிறகு RECORD-ஐ அழுத்தவும்."/>
+  <string id="DVR.GuideInstructionsButton" value="தயார்"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelSeries" value="{0} தொடரை பதிவு செய்வதை ரத்து செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="DVR.ConfirmCancelSeries" value="தொடரை ரத்துசெய்"/>
+  <string id="DVR.CancelCancel" value="ரத்துசெய்யாதே"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.QueryCancelProgram" value="{0} பதிவு செய்வதை ரத்து செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="DVR.ConfirmCancelProgram" value="பதிவு செய்வதை ரத்து செய்"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelEpisode" value="{0} தொடரின் இந்த எபிசோட் பதிவு செய்வதை ரத்து செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="DVR.ConfirmCancelEpisode" value="எபிசோட் ரத்துசெய்"/>
+  <!-- {0}: Metadata (Program) title-->
+  <string id="DVR.CantErase" value="இந்த நிகழ்ச்சி இப்போது மற்றொரு டிவி-யில் பார்வையிடப்படுகின்றது அதனால் இந்த நேரத்தில் அழிக்க முடியாது."/>
+  <string id="DVR.EraseFailed" value="இந்த நிகழ்ச்சி அழிக்கப்பட முடியவில்லை.  இது மற்றொரு பெட்டியில் இயங்கிக் கொண்டிருக்கலாம்."/>
+  <string id="DVR.QueryErase" value="{0} அழிப்பதற்கு நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="DVR.ConfirmErase" value="அழி"/>
+  <string id="DVR.CancelErase" value="அழிக்காதே"/>
+  <string id="DVR.AlreadyRecording" value="இந்த நிகழ்ச்சி ஏற்கனவே பதிவு செய்யப்படுகின்றது."/>
+  <string id="DVR.ShowOver" value="இந்த காட்சி ஏற்கனவே முடிந்துவிட்டது"/>
+  <string id="DVR.NotEnoughSpaceToRecord" value="பதிவு செய்ய முடியவில்லை ஏனென்றால் அளவுக்கு அதிகமான பிற பதிவுகள் சேமிக்கப்பட்டுள்ளன.  Erase some recordings."/>
+  <string id="DVR.NotASeries" value="தொடர்-ஆக இல்லாத ஒரு நிகழ்ச்சிக்கு ஒரு தொடர் பதிவு செய்வதற்கு அட்டவணையிட முடியாது "/>
+  <string id="DVR.WSException.Unknown" value="தொலைக்காட்சி சேவை தற்காலிகமாக கிடைக்கவில்லை."/>
+  <string id="DVR.WSException.NetworkNA" value="தொலைக்காட்சி சேவை தற்காலிகமாக கிடைக்கவில்லை."/>
+  <string id="DVR.WSException.Timeout" value="தொலைக்காட்சி சேவை தற்காலிகமாக கிடைக்கவில்லை."/>
+  <string id="DVR.WSException.ConnectionLost" value="தொலைக்காட்சி சேவை தற்காலிகமாக கிடைக்கவில்லை."/>
+  <string id="DVR.WSException.TryAgain" value="தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="DVR.UpcomingRecordingsButton" value="வரப்போகும் பதிவுகள்"/>
+  <string id="DVR.SeriesRecordingsButton" value="தொடர் பதிவுகள்"/>
+  <string id="DVR.PrioritySettingsButton" value="பதிவிற்கான முன்னுரிமை அமைப்புகள்"/>
+  <string id="DVR.History" value="வரலாறு"/>
+  <string id="DVR.ViewUpcomingRecordingsButton" value="வரப்போகும் பதிவுகளை பார்"/>
+  <string id="DVR.ChangeSeriesSettingsButton" value="தொடர் அமைப்புகளை மாற்று"/>
+  <string id="DVR.CancelSeriesButton" value="தொடரை ரத்துசெய்"/>
+  <string id="DVR.SeriesHeader" value="தொடரின் தகவல்"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}"/>
+  <!-- A format string: {0} is the format for the string. {1} is a value.-->
+  <string id="DVR.SeriesInfoSummaryFormat" value="{0}: {1}"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}"/>
+  <string id="DVR.UntilSpaceIsNeeded" value="இடம் தேவைப்படும் வரை"/>
+  <string id="DVR.FirstRunAndRerun" value="முதல் ஓட்டம் &#0038; மறுஓட்டம்"/>
+<string id="DVR.SeriesTimeFormat" value="HH:mm"/>
+<string id="DVR.SeriesTimeFormat24" value="HH:mm"/>  
+  <string id="DVR.SeriesTimeAnyTime" value="எந்த நேரம்"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}"/>
+  <!-- {0}: Date; {1}: Time-->
+  <string id="DVR.OneTimeSettingTimeFormat" value="{0}, {1}"/>
+  <string id="DVR.MustGoLiveToRecord" value="பதிவுசெய்வதற்கு நீங்கள் நேரலைக்கு செல்ல வேண்டும்"/>
+  <string id="DVR.GoLive" value="நேரலை செல்"/>
+  <string id="DVR.Unknown" value="தெரியவில்லை"/>
+  <string id="DVR.Dot.Conflict" value="பதிவு செய்யாது"/>
+  <string id="DVR.Dot.RecordingDelay" value="பதிவுசெய்வதில் தாமதம்"/>
+  <string id="DVR.Dot.Series" value="தொடர் பதிவு"/>
+  <string id="DVR.Dot.Series.HD" value="தொடர் பதிவு HD-யில்"/>
+  <string id="DVR.Dot.Record" value="பதிவு செய்யப்படும்"/>
+  <string id="DVR.Dot.Record.HD" value="HD-யில் பதிவு செய்யப்படும்"/>
+  <string id="DVR.Dot.Recording" value="பதிவு செய்யப்படுகிறது"/>
+  <string id="DVR.Dot.Recording.HD" value="HD-யில் பதிவு செய்யப்படுகிறது"/>
+  <string id="DVR.Dot.Keep" value="நான் அழிக்கும் வரை வைத்திரு"/>
+  <string id="DVR.Dot.Delete" value="விரைவில் அழிக்கப்பட போகின்றது"/>
+  <string id="DVR.DefaultState.Message1" value="உங்களுக்கு விருப்பமான காட்சிகளை பதிவுசெய்யவும்"/>
+  <string id="DVR.DefaultState.Message2" value="ஒவ்வொரு எபிசோட்-ஐயும் தானியக்கமாக பதிவுசெய்"/>
+  <string id="DVR.DefaultState.Message3" value="இடைநிறுத்து, பின் நகர்த்து, மற்றும் வேகமாக முன் நகர்த்து"/>
+  <string id="DVR.AlreadyScheduled" value="நிகழ்ச்சி பதிவுசெய்வதற்காக ஏற்கனவே அட்டவணையிடப்பட்டுள்ளது"/>
+  <string id="DVR.EITVPS.Incorrect" value="தவறாக பதிவுசெய்யப்பட்டு இருக்கலாம்"/>
+  <string id="DVR.EITVPS.DidNotAir" value="அட்டவணையிடப்பட்ட நேரத்திற்குள் நிகழ்ச்சி ஒலிபரப்பாகவில்லை"/>
+  <string id="DVR.EITVPS.DueToChanges" value="நிகழ்ச்சியின் கடைசி-நிமிட மாற்றங்கள் காரணமாக"/>
+  <!-- {0} Currently recording title: {1}: Upcoming Recording title-->
+  <string id="DVR.EITVPS.AboutToExtend" value="அட்டவணையிடப்பட்டபடி '{0}'  முடியவில்லை. ' {1}' பதிவு செய்ய, பதிவு செய்வதை நிறுத்தவா?"/>
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="பதிவைத் தொடர்ந்து செய்"/>
+  <string id="DVR.EITVPS.AboutToExtend.End" value="பதிவு செய்வதை நிறுத்து"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.EITVPS.Recording" value="'{0}' இப்போது பதிவு செய்யப்படுகிறது"/>
+  <!-- {0}: Recording program title-->
+  <string id="DVR.EITVPS.Delayed" value="பதிவு செய்வது {0} நிமிடங்கள் தாமதமாக உள்ளது"/>
+  <string id="DVR.EITVPS.ManualRecord" value="கடைசி-நிமிட அட்டவணை மாற்றங்கள் காரணமாக, இந்த நிகழ்ச்சி கைமுறையால் பதிவுசெய்யப்பட வேண்டும்."/>
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="கைமுறையால் பதிவு செய்"/>
+  
+  <!-- SmartCard related dialogs/diagnostics -->
+  <string id="SmartCard.Ready.Message" value="Smart card ready"/>
+  <string id="SmartCard.Unknown.Message" value="Smart card is invalid. Call customer support: 1-800-000-0000"/>
+  <string id="SmartCard.Unknown.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Bad.Message" value="Smart card is invalid. Ensure your smart card is inserted properly and try again."/>
+  <string id="SmartCard.Bad.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Extract.Message" value="Smart card extracted"/>
+  <string id="SmartCard.Extract.Dismiss" value="Dismiss"/>
+  <string id="SmartCard.Diagnostics.CardReady" value="Ready" />
+<string id="SmartCard.Diagnostics.CardReadyDateFormat" value="dd/MM/yy" />
+  <string id="SmartCard.Diagnostics.CardUnknown" value="Unrecognized card" />
+  <string id="SmartCard.Diagnostics.CardBad" value="Bad card" />
+  <string id="SmartCard.Diagnostics.CardExtracted" value="Card extracted or not found" />
+  
+  <!-- Stream contention dialogs-->
+  <!-- {0}: Channel num and call station (channel info text)-->
+  <string id="Stream.StayOnChannel" value="{0}-ல் இருக்கவும்"/>
+  <string id="Stream.StayOnChannel.Unknown" value="இங்கே இருக்கவும்"/>
+  <string id="Stream.RecordedTVButton" value="பதிவுசெய்யப்பட்ட டிவி"/>
+  <string id="Stream.RecordedTVButton.Player" value="ஒரு பதிவை பார்க்கவும்"/>
+  <string id="Stream.InterruptTVButton" value="ஒரு டிவி-ஐ குறுக்கீடு செய்"/>
+  <string id="Stream.DontInterruptTVButton" value="குறுக்கீடு செய்யாதே"/>
+  <string id="Stream.ContinueButton" value="தொடரவும்"/>
+  <string id="Stream.ChangeChannelButton" value="சேனலை மாற்ற"/>
+  <string id="Stream.DontChangeChannelButton" value="மாற்றாதே"/>
+  <string id="Stream.TryAgainButton" value="மறுபடி முயற்சி செய்யவும்"/>
+  
+  <!--  Stream panel strings usage: 
+        AllServicesInUse        - "Optimistic Tune" panel with interrupt
+        AllStreamsRecording     - "Optimistic Tune" panel with no interrupt
+        AllStreamsUsedByVOD     - "Optimistic Tune" panel with no interrupt AND all streams are VOD
+        AllServicesInUseNoTV    - "Power On" panel with interrupt
+        AllStreamsRecordingNoTV - "Power On" panel with no interrupt
+        AllStreamsUsedByVODNoTV - "Power On" panel with no interrupt AND all streams are VOD
+  -->
+  <string id="Stream.AllServicesInUse" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. மேற்கொண்டு தொடர்வதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும், மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும், அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUse.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUse.NoDvr" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. மேற்கொண்டு தொடர்வதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும், மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும், அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUse.NoDvr.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUseNoTV" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. டிவி பார்ப்பதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும், மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும், அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUseNoTV.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. டிவி பார்ப்பதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும், மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும், அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி-ஐ குறுக்கீடு செய்ய வேண்டும்."/>
+  <string id="Stream.AllServicesInUseNoTV.Player" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. டிவி பார்ப்பதற்கு, நீங்கள் ஒரு டிவி-ஐ குறுக்கீடு செய்யலாம் அல்லது DVR அலைவாங்கிக்கு சென்று பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecording" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. மேற்கொண்டு தொடர்வதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும் அல்லது மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecording.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecording.NoDvr" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. மேற்கொண்டு தொடர்வதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும் அல்லது மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecording.NoDvr.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecording.Player.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்கள் பார்ப்பதற்கு, நீங்கள் DVR அலைவாங்கிக்கு சென்று பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecordingNoTV" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. டிவி பார்ப்பதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும் அல்லது மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecordingNoTV.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. டிவி பார்ப்பதற்கு, பதிவு செய்வது ஒன்றை நிறுத்தவேண்டும் அல்லது மற்றொரு டிவி அலைவாங்கியை மின்-நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. HD சேனல்களைப் பார்ப்பதற்கு, HD பதிவு செய்வதை நிறுத்தவேண்டும் அல்லது ஒரு டிவி அலைவாங்கியில் HD பார்ப்பதை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsUsedByVOD" value="அனைத்து டிவி சேவைகளும் கேட்கும்போது வீடியோ காண்பித்துக் கொண்டிருக்கின்றன. மேற்கொண்டு தொடர்வதற்கு, மற்றொரு டிவி அலைவாங்கியில் கேட்கும்போது வீடியோ பார்ப்பதை நிறுத்தவேண்டும்."/>
+  <string id="Stream.AllStreamsUsedByVODNoTV" value="அனைத்து டிவி சேவைகளும் கேட்கும்போது வீடியோ காண்பித்துக் கொண்டிருக்கின்றன. மேற்கொண்டு டிவி பார்ப்பதற்கு, மற்றொரு டிவி அலைவாங்கியில் கேட்கும்போது வீடியோ பார்ப்பதை நிறுத்தவேண்டும்."/>
+
+  <string id="Stream.ConfirmInterrupt" value="குறுக்கீடு செய்வதற்கு தேர்ந்தெடுப்பது உங்கள் வீட்டில் மற்றொரு டிவி-யில் டிவி பார்ப்பதை நிறுத்தும்"/>
+  <string id="Stream.TVInterrupted" value="உங்கள் வீட்டில் மற்றொரு டிவி பார்ப்பதை அல்லது பதிவுசெய்வதை அனுமதிப்பதற்காக இந்த டிவி குறுக்கீடு செய்யப்பட்டுள்ளது"/>
+  <string id="Stream.TVInterrupted.NoDvr" value="உங்கள் வீட்டில் மற்றொரு டிவி பார்ப்பதை அல்லது பதிவுசெய்வதை அனுமதிப்பதற்காக இந்த டிவி குறுக்கீடு செய்யப்பட்டுள்ளது"/>
+  <string id="Stream.UpcomingRecording" value="அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன.  {2} க்கு {1} ல் {0} பதிவுசெய்வதற்கு சேனல் மாற்றப்பட வேண்டும்"/>
+  <string id="Stream.NoPlaybackStreams" value="பின் இயக்கம் கிடைக்கவில்லை. இந்த டிவி-யில் ஒரு நிகழ்ச்சியைப் இயக்குவதற்கு நீங்கள் மற்றொரு டிவி-யின் பின் இயக்கத்தை நிறுத்தவேண்டும்."/>
+  <string id="Stream.NoPlaybackStreams.HD" value="HD பின் இயக்கம் கிடைக்கவில்லை. இந்த டிவி-யில் ஒரு HD நிகழ்ச்சியைப் பார்ப்பதற்கு நீங்கள் மற்றொரு டிவி-யில் HD பின் இயக்கத்தை நிறுத்தவேண்டும்."/>
+  <string id="Stream.NoPlaybackBandwidth" value="பின் இயக்கம் வரையறை முடிந்துவிட்டது. இந்த டிவி-யில் ஒரு பதிவான நிகழ்ச்சியை இயக்குவதற்கு, குறைந்தது மற்றும் ஒரு டிவி-யில் பதிவான நிகழ்ச்சிகள் பார்ப்பதை நீங்கள் நிறுத்தவேண்டும்."/>
+  <string id="Stream.LiveTuneNoIngressStream" value="இந்த அலைவாங்கியில் உள்ள அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. சேனல்கள் மாற்றுவதற்கு, பதிவு செய்வது ஒன்றை நீங்கள் நிறுத்தவேண்டும்."/>
+  <string id="Stream.LiveTuneNoIngressStream.HD" value="இந்த அலைவாங்கியில் உள்ள அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. ஒரு HD சேனலுக்கு மாற்றுவதற்கு, ஒரு HD பதிவு செய்வதை நீங்கள் நிறுத்தவேண்டும்."/>
+  <string id="Stream.TuneNoIngressStream" value="இந்த அலைவாங்கியில் உள்ள அனைத்து டிவி சேவைகளும் உபயோகத்தில் உள்ளன. உங்கள் வேண்டுகோளை மேற்கொண்டு தொடர்வதற்கு, பதிவு செய்வது ஒன்றை நீங்கள் நிறுத்தவேண்டும்."/>
+  <string id="Stream.TuneNoIngressStream.HD" value="இந்த அலைவாங்கியில் உள்ள அனைத்து HD டிவி சேவைகளும் உபயோகத்தில் உள்ளன. உங்கள் வேண்டுகோளை மேற்கொண்டு தொடர்வதற்கு, ஒரு HD பதிவு செய்வதை நீங்கள் நிறுத்தவேண்டும்."/>
+  <string id="Stream.IngressDialogStopRecording" value="ஒரு பதிவை நிறுத்து"/>
+  <string id="Stream.IngressDialogTryAgain" value="பிறகு முயற்சிக்கவும்"/>
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="வழிகாட்டி பாணி"/>
+  <string id="Settings.GuideStyle.GridGuide" value="கிரிடு வழிகாட்டி"/>
+  <string id="Settings.GuideStyle.GridGuideDescription" value="பல சேனல்களை இப்போதே காண்பிக்கிறது"/>
+  <string id="Settings.GuideStyle.ListGuide" value="சேனல் வரிசை"/>
+  <string id="Settings.GuideStyle.ListGuideDescription" value="ஒரு தனி சேனலுக்கான நிகழ்ச்சி அட்டவணை"/>
+  <string id="Settings.DttAutomaticChannelUpdate" value="DTT தானியக்க சேனல் புதுப்பித்தல்"/>
+  <string id="Settings.DttAutomaticChannelUpdate.On" value="தானியக்க சேனல் புதுப்பித்தல் செயலாக்கப்பட்டுள்ளது"/>
+  <string id="Settings.DttAutomaticChannelUpdate.OnDescription" value="DTT சேனல்கள் தானியக்கமாக புதுப்பிக்கப்படும்"/>
+  <string id="Settings.DttAutomaticChannelUpdate.Off" value="தானியக்க சேனல் புதுப்பித்தல் நிறுத்தப்பட்டுள்ளது."/>
+  <string id="Settings.DttAutomaticChannelUpdate.OffDescription" value="DTT சேனல்கள் தானியக்கமாக புதுப்பிக்கப்பட மாட்டாது."/>
+  <string id="Settings.Save" value="சேமி"/>
+  <string id="Settings.Save.Ask" value="இந்த அமைப்புகளில் நீங்கள் செய்த மாற்றங்களை சேமிக்க விரும்புகிறீர்களா?"/>
+  <string id="Settings.DontSave" value="சேமிக்காதே"/>
+  <string id="Settings.AllOn" value="அனைத்தும் செயலில்"/>
+  <string id="Settings.AllOff" value="அனைத்தும் நிறுத்தப்பட்டுள்ளது"/>
+  <string id="Settings.Continue" value="தொடரவும்"/>
+  <string id="Settings.CancelChanges" value="மாற்றங்களை ரத்துசெய்"/>
+  <string id="Settings.Cancel" value="ரத்துசெய்"/>
+
+  <!-- aspect ratio -->
+  <string id="Settings.AspectRatio.Description" value="உங்கள் டிவி-யின் திரையின் தோற்ற விகிதம் மற்றும் உயர் வரையறையை தேர்ந்தெடுக்கவும், பிறகு தொடர்வதற்கு தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.AspectRatio.Resizing" value="திரையின் அளவை மாற்ற"/>
+
+  <!-- {0}: Screen mode-->
+  <string id="Settings.AspectRatio.NowViewing" value="இப்போது காண்பிக்கப்படுகிறது{0}"/>
+  <string id="Settings.AspectRatio.0" value="4:3இயல்பான வரையறை"/>
+  <string id="Settings.AspectRatio.1" value="அகலத்திரை இயல்பான வரையறை"/>
+  <string id="Settings.AspectRatio.2" value="720p உயர்-வரையறை திரைகள்"/>
+  <string id="Settings.AspectRatio.3" value="1080i உயர்-வரையறை திரைகள்"/>
+
+  <string id="Settings.AspectRatio.NowViewing0" value="4:3 இயல்பான வரையறை இப்போது காண்பிக்கப்படுகிறது"/>
+  <string id="Settings.AspectRatio.NowViewing1" value="அகலத்திரை இயல்பான வரையறை இப்போது காண்பிக்கப்படுகிறது"/>
+  <string id="Settings.AspectRatio.NowViewing2" value="720p உயர்-வரையறை திரைகள் இப்போது காண்பிக்கப்படுகின்றன"/>
+  <string id="Settings.AspectRatio.NowViewing3" value="1080i உயர்-வரையறை திரைகள் இப்போது காண்பிக்கப்படுகின்றன"/>
+
+  <string id="Settings.AspectRatioWizard.Step1" value="தோற்ற விகிதம் மற்றும் உயர் வரையறை (படி 1)"/>
+  <string id="Settings.AspectRatioWizard.Step2" value="தோற்ற விகிதம் மற்றும் உயர் வரையறை (படி 2)"/>
+  <string id="Settings.AspectRatioWizard.Step3" value="தோற்ற விகிதம் மற்றும் உயர் வரையறை (படி 3)"/>
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="உங்கள் டிவி-யால் இந்த காட்சியை {வகை} காண்பிக்க முடியாமல் இருக்கலாம். உங்கள் டிவி-க்கு இது சரியான அமைப்புதானா என்று அறிய, சோதனை தொடங்கு தேர்ந்தெடுக்கவும். சோதனையின் போது எதையும் நீங்கள் பார்க்காவிட்டால், 15 வினாடிகள் காத்திருக்கவும் அதன்பிறகு மற்றொரு அமைப்பை தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="இந்த திரையை உங்களால் பார்க்க முடிந்தால், உங்கள் டிவி-யால் காட்சி{வகை} -ஐ காண்பிக்க முடியும். இதை உறுதி செய்வதற்கு தயவுசெய்து அமைப்பை வைத்திரு தேர்ந்தெடுக்கவும்.&#13;&#13;இந்த சோதனை {மேலிருந்துகீழாக எண்ணுதல்} வினாடிகளில் முடியும்."/>
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="இந்த சோதனையின் போது ஒரு கருப்புதிரையை நீங்கள் பார்த்திருந்தால், உங்கள் டிவி உயர் வரையறை வீடியோவை காண்பிக்க முடியாமல் இருக்கலாம் அல்லது உங்கள் டிவி உங்கள் செட்-டாப் பெட்டியுடன் ஒழுங்காக இணைக்கப்படாமல் இருந்திருக்கலாம். மற்றொரு அமைப்பை தேர்ந்தெடுக்கவும் அல்லது உங்கள் HDTV ஒழுங்காக இணைக்கப்பட்டிருக்கிறதா என்பதை உறுதி செய்ய உங்கள் கேபிள்களை சரிபார்க்கவும்.&#13;&#13;சோதனையின் போது ஒரு படத்தை நீங்கள் பார்த்தால், சோதனை தொடங்கு மறுபடியும் தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.AspectRatioWizard.StartTest" value="சோதனை தொடங்கு"/>
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="அமைப்புகளை தக்கவைத்திரு"/>
+  <string id="Settings.AspectRatioWizard.StartAgain" value="சோதனை மறுபடி தொடங்கு"/>
+  <string id="Settings.AspectRatioWizard.SawNothing" value="ஒரு கருப்புதிரையை நான் பார்த்தேன். மற்றொரு அமைப்பை தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.AspectRatio.ChangeSettings" value="உங்கள் வீடியோ அமைப்புகளை மாற்ற நீங்கள் விரும்புகிறீர்களா?"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value="அனைத்து தொலைக்காட்சிகளுடன் {0} ஒத்துப்போவதில்லை. மாற்றியமைத்த பிறகு நீங்கள் எதையும் பார்க்காவிட்டால், 10 வினாடிகள் காத்திருக்கவும் அல்லது செட்-டாப் பெட்டியை மின் இணைப்பிலிருந்து நீக்கவும்."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="இந்த வீடியோ கடைசியாக {0}-க்கு அமைக்கப்பட்டுள்ளது. திரும்பவும் இதற்கு மாற்ற நீங்கள் விரும்புகிறீர்களா? இல்லை என்றால், அமைப்புகளுக்கு நீங்கள் செல்லலாம், அல்லது தற்போதைய அமைப்பை தக்கவைத்துக்கொள்ளலாம்."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangeTo" value="{0}-க்கு மாற்று"/>
+  <string id="Settings.AspectRatio.DontChange" value="மாற்றாதே"/>
+  <string id="Settings.AspectRatio.GoToSettings" value="அமைப்புகளுக்கு செல்"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="வீடியோ இப்போது {0}. இந்த மாற்றத்தை தக்கவைத்துக்கொள்ள நீங்கள் விரும்புகிறீர்களா? 10 வினாடிகளில் முந்தைய அமைப்பிற்கு மாறுகிறது."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="இந்த வீடியோ கடைசியாக {0}-க்கு அமைக்கப்பட்டுள்ளது. திரும்பவும் இதற்கு மாற்ற நீங்கள் விரும்புகிறீர்களா? இல்லை என்றால், அமைப்புகளுக்கு நீங்கள் செல்லலாம், அல்லது தற்போதைய வீடியோ அமைப்பை தக்கவைத்துக்கொள்ளலாம்."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.KeepHighDef" value="{0} வைத்திரு"/>
+  <string id="Settings.AspectRatio.ChangeBack" value="முந்தைய அமைப்பிற்கு மாற்று"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="வீடியோ {0} உயர் வரையறைக்கு மாற்றப்பட்டுள்ளது"/>
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="4:3 இயல்பான வரையறைக்கு வீடியோ திரும்பவும் மாற்றப்பட்டுள்ளது"/>
+  <string id="Settings.AspectRatio.ModeNotSupported" value="இந்த வீடியோ வகை இந்த செட்-டாப் ஆல் ஆதரிக்கப்படவில்லை"/>
+
+  <!-- 
+      this key sequence will reset the settop to standard def 
+      if it's currently running in high definition mode. the
+      sequence can include any standard numeric keys as well as
+      up, down, left, etc... 
+  -->
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="menu123456789" />
+
+  <!-- connection troubleshooting settings page -->
+  <string id="Settings.Troubleshoot" value="உங்கள் அகன்றஅலை தொடர்பில் உள்ள சிக்கலை கண்டுபிடிக்கவும்"/>
+  <string id="Settings.Troubleshoot.Title" value="பிரச்சினைகள் உள்ளதா?"/>
+  <string id="Settings.Troubleshoot.Description.Online" value="உங்கள் பிணையம் தொடர்பில் இருப்பதாக தெரிகிறது. பிணைய இணைப்பு தொடர்பான சிக்கல்களை இங்கு விவரிக்கவும்.&#13;&#13;மேலும் உதவி தேவைப்பட்டால் 000 000 0000 அழைக்கவும்."/>
+  <string id="Settings.Troubleshoot.Description.Offline" value="தற்போது நீங்கள் தொடர்பில் இல்லை. பிணைய இணைப்பு தொடர்பான சிக்கல்களை இங்கு விவரிக்கவும்.&#13;&#13;மேலும் உதவி தேவைப்பட்டால் 000 000 0000 அழைக்கவும்."/>
+
+  <!-- begin of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.DvrWarning" value="DVR recording will be unavailable while scanning DTT channels. All recordings will be stopped." />
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="Continue" />
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="Cancel" />
+  
+  <string id="Settings.ChannelScanningWizard.Step1" value="Scan for DTT channels (Step 1)"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="Thank you for using Microsoft TV, the most advanced way to watch television!&#13; &#13;You can for new DTT channels to add to your program guide or cancel scanning and use Microsoft TV now."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="To start watching television, scan for DTT channels to add to your program guide.&#13; &#13;Select Find out more about the Microsoft TV service to get more information on subscribing to more channels and video on demand."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="Scan for DTT channels"/>
+  <string id="Settings.ChannelScanningWizard.Step1.MoreInfo" value="Find out more about Microsoft TV"/>
+
+  <string id="Settings.ChannelScanningWizard.Step2" value="Scan for DTT channels (Step 2)"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="Scanning {Percentage}% complete..."/>
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="{Video} television channels found"/>
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="{Music} music channels found"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="Cancel Channel Scan"/>
+
+  <string id="Settings.ChannelScanningWizard.Step3" value="Scan for DTT channels (Step 3)"/>
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="Scanning is complete.&#13;&#13;{Video} television channels were found.&#13;{Music} music channels were found.&#13;&#13;To see the added channels go to the program guide. To see all available services, go to the menu."/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="Go to the Program Guide"/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="Go to the Menu"/>
+  <!-- end of channel scanning for digital terrestrial/offline experience -->
+
+  <string id="Settings.ChannelScanning.MoreInfo" value="More information on Microsoft TV" />
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="Title" />
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="Description" />
+
+  <string id="Settings.Overscan" value="திரை-மீது காட்சி அளவு"/>
+  <string id="Settings.Overscan.GeneralInstruction" value="உங்கள் டிவி-யில் சிறப்பாக தோன்றும் திரை-மீது காட்சி அளவை தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.Overscan.Large" value="பெரியது"/>
+  <string id="Settings.Overscan.Large.Description" value="(அகலத்திரை டிவி-களுக்குச் சிறந்தது)"/>
+  <string id="Settings.Overscan.Medium" value="நடுத்தரம்"/>
+  <string id="Settings.Overscan.Medium.Description" value="(வழக்கமான டிவி-களுக்குச் சிறந்தது)"/>
+  <string id="Settings.Overscan.Small" value="சிறியது"/>
+  <string id="Settings.Overscan.Notification" value="திரை-மீது அளவு மாற்றப்பட்டுள்ளது."/>
+  
+  <string id="Settings.About.SystemInfoMenuItem" value="முறைமை தகவல்"/>
+  <string id="Settings.About.SmartCardInfoMenuItem" value="Smart card info"/>
+  <string id="Settings.About.NetworkInfoMenuItem" value="பிணையம் தகவல்"/>
+  <string id="Settings.About.ResourcesInfoMenuItem" value="முறைமை வளங்கள்"/>
+  <string id="Settings.About.WebServicesMenuItem" value="இணைய சேவைகள்"/>
+  <string id="Settings.About.DiskRepairMenuItem" value="டிஸ்க் பழுது"/>
+  <string id="Settings.About.CopyrightMenuItem" value="பதிப்புரிமைகள்"/>
+  <string id="Settings.About.PrivacyMenuItem" value="தனியுரிமை"/>
+  <string id="Settings.About.SubscriptionsMenuItem" value="சந்தாக்கள்"/>
+  <string id="Settings.About.Go" value="செல்"/>
+  
+  <!--
+
+    The system information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+  
+    {ClientTime}              9/15/2006 11:39:00 AM
+    {SessionTime}             01:08:45
+    
+    {ClientVersion}           1.2.2449.0 (debug)
+    {BootRomVersion}
+
+    {OSPlatform}              Win32NT
+    {OSVersion}               5.1.2600.131072
+
+    {SettopVendor}            vendor name
+    {SettopType}              model name
+    {SettopCPUSpeed}          speed in MHz
+    {SettopSerial}            serial number
+    
+    {AccountID}               guid
+    {ClientID}                guid
+    {MacAddress}              00-12-3F-54-28-11
+    
+    {ContentDirectory}        path
+  
+  -->
+  <string id="Settings.About.SystemInfo.Data" value="Time: {ClientTime} (session: {SessionTime})&#13;TV2 client version: {ClientVersion}&#13;Platform OS/Version: {OSPlatform}/{OSVersion}&#13;Bootstrap ROM version: {BootRomVersion}&#13;Set-Top Box / CPU: {SettopVendor} {SettopType} / {SettopCPUSpeed}&#13;Set-Top Box serial number: {SettopSerial}&#13;MAC ID: {MacAddress}&#13;Client ID: {ClientID}" />
+
+  <!--
+
+    The smart card information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+    
+    {CaCoreLibVersion}        MG Core Library Release 1.4.11
+    {CaSwLockLibVersion}      MG SW Lock Library Release 1.0.5
+    
+    {SettopVendor}            vendor name
+    {CaHwSerialNumber}        0a704405640a0000
+    
+    {SmartCardStatus}         Ready
+    {SmartCardNumber}         1  07.108.837.460  77
+    {TUTVCaNumber}            nn nnnn nnnn nn
+    {OPIName0}                first operator name
+    {CaExpiryDate0}           first operator expiry date
+    {CaOffers0}               first operator offers value
+  -->
+  <string id="Settings.About.SmartCardInfo.Data" value="Mediaguard Kernel Library version: {CaCoreLibVersion}&#13;SoftLock Library version: {CaSwLockLibVersion}&#13;HW Serial Number: {CaHwSerialNumber}&#13;TUTV CAN: {TUTVCaNumber}&#13;Smart card status: {SmartCardStatus}&#13;Smart card number: {SmartCardNumber}&#13;Operator 0: {OPIName0}  Expiry: {CaExpiryDate0}  Offers: {CaOffers0}&#13;Operator 1: {OPIName1}  Expiry: {CaExpiryDate1}  Offers: {CaOffers1}&#13;Operator 2: {OPIName2}  Expiry: {CaExpiryDate2}  Offers: {CaOffers2}" />
+  <string id="Settings.About.NotAvailable" value="N/A" />
+
+  <!--
+
+    The network information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {IPName}                  host name
+    {IPAddress}               single IP or comma separated list of IPs
+    {IPGateway}               IP gateway address
+    {Bps}                     bits per second
+    {IPTVStatus}              connected/disconnected
+  
+  -->
+  <string id="Settings.About.NetworkInfo.Data" value="Host name: {IPName}&#13;IP address: {IPAddress}&#13;Default gateway: {IPGateway}&#13;Bps: {Bps}&#13;IPTV status: {IPTVStatus}" />
+  <string id="Settings.About.NetworkInfo.Connected" value="Connected" />
+  <string id="Settings.About.NetworkInfo.Disconnected" value="Disconnected" />
+
+  <!--
+
+    The system resources information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {SDStreams}               number of standard definition streams available
+    {HDStreams}               number of high definition streams available
+    {DTTTuners}               number of tuners available
+    {BandwidthCap}            maximum bandwidth available
+    
+    {AllocatedManagedMemory}  in KB
+    {AllocatedPhysicalMemory} in KB
+    {AvailableVirtualMemory}  in KB
+    {MemoryLoad}              in %
+    
+    {IngressBandwdith}        maximum bandwidth for the Ingress Profile
+    {IngressSDStreams}        number of standard definition streams available in the Ingress Profile
+    {IngressHDStreams}        number of high definition streams available in the Ingress Profile 
+    
+    {EgressBandwdith}         maximum bandwidth for the Egress Profile
+    {EgressStreams}           number of standard and high definition streams available in the Egress Profile
+  
+    {DiskStatus}              present/not present
+    {DiskUsage}               20% remaining  
+  -->
+  <string id="Settings.About.SystemResources.Data" value="Streams: {SDStreams} SD/{HDStreams} HD (WAN); {IngressSDStreams} SD/{IngressHDStreams} HD (Dev)&#13;Bandwidth cap: {BandwidthCap} (WAN); {IngressBandwidth} (Dev)&#13;Remote Playback: {EgressBandwidth} {EgressStreams}&#13;Number of DTT tuners: {DTTTuners}&#13;Allocated managed memory: {AllocatedManagedMemory}&#13;Allocated physical memory: {AllocatedPhysicalMemory}&#13;Available virtual memory: {AvailableVirtualMemory}&#13;Memory load: {MemoryLoad}&#13;Disk status: {DiskStatus}&#13;Disk usage: {DiskUsage}" />
+  <string id="Settings.About.SystemResources.Present" value="Present" />
+  <string id="Settings.About.SystemResources.NotPresent" value="Not Present" />
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="{0:#,###} KB" />
+  <string id="Settings.About.SystemResources.DiskUsage" value="{0} of {1}"/>
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value="{0}% remaining"/>
+  <string id="Settings.About.SystemResources.EgressDisabled" value="Not enabled"/>
+  <string id="Settings.About.SystemResources.EgressSD" value="SD"/>
+  <string id="Settings.About.SystemResources.EgressHD" value="HD"/>
+  <string id="Settings.About.SystemResources.EgressSDHDSeparator" value="/"/>
+  <string id="Settings.About.SystemResources.EgressBandwidthSeparator" value=","/>
+
+  <string id="Settings.About.CheckHardDisk" value="Check hard disk"/>
+  <string id="Settings.About.CheckHardDisk.Instructions" value="If you're told by a service technician to repair the hard disk choose Check Hard Disk.&#13;The system will restart and you will be unable to watch TV for 10 to 15 minutes while the hard disk is being checked. No recordings will happen during this time."/>
+  <string id="Settings.About.CheckHardDisk.Prompt" value="To check the hard disk the system will need to restart"/>
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="Don't restart"/>
+  <string id="Settings.About.CheckHardDisk.Restart" value="Restart"/>
+  <string id="Settings.About.PrivacyStatement" value="Privacy policy statement will appear here"/>
+  <string id="Settings.About.CopyrightStatement" value="Copyright information will appear here"/>
+  <string id="Settings.About.SubscriptionInfo" value="Subscription information will appear here"/>
+  <string id="Settings.Language" value="On-screen language"/>
+  <string id="Settings.Sounds" value="System sound effects"/>
+  <string id="Settings.Sounds.Play" value="Play sound effects"/>
+  <string id="Settings.Sounds.Mute" value="Mute sound effects"/>
+  <string id="Settings.HiddenChannels" value="Customize channels"/>
+  <string id="Settings.HiddenChannels.Description" value="Press OK to add or remove channels from the Guide and while channel changing."/>
+  <string id="Settings.HiddenChannels.ShowAll" value="Check all"/>
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="View unchecked"/>
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="Show all"/>
+  <string id="Settings.HiddenChannels.ChangeOrder" value="Change order"/>
+  <string id="Settings.SignalStrength.Description" value="Select a channel to check its strength." />
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="There are no channels at the moment." />
+  <string id="Settings.SignalStrength.Labels" value="Carrier Frequency:&#13;Signal Strength:&#13;Signal Quality:" />
+  <string id="Settings.SignalStrength.Values" value="{Frequency}&#13;{Strength}%&#13;{Quality}%" />
+  <string id="Settings.SignalStrength.NoValue" value="N/A" />
+
+  <!-- Strings for Secondary Audio settings page -->
+  <string id="Settings.SecondaryAudio" value="இரண்டாம்நிலை ஒலி"/>
+  <string id="Settings.SecondaryAudio.Description" value="சில டிவி நிகழ்ச்சிகள் மாற்று மொழிகளுக்கு இரண்டாம்நிலை ஒலி கொண்டுள்ளன."/>
+  <string id="Settings.SecondaryAudio.Primary" value="முதன்மை ஒலியை உபயோகப்படுத்தவும்"/>
+  <string id="Settings.SecondaryAudio.Secondary" value="கிடைத்தால் இரண்டாம்நிலை ஒலியை உபயோகப்படுத்தவும்"/>
+  
+  <string id="Settings.SecondaryAudio.PrimarySet" value="முதன்மை ஒலி நிகழ்ச்சி அமைக்கப்பட்டது"/>
+  <string id="Settings.SecondaryAudio.SecondarySet" value="இரண்டாம்நிலை ஒலி நிகழ்ச்சி அமைக்கப்பட்டது"/>
+
+  <!-- {0}: String for current Cc Channel-->
+  <string id="Settings.CcChannels.Changed" value="மூடப்பட்ட தலைப்புகள் {0}-க்கு மாற்றப்பட்டது"/>
+  <string id="Settings.CcChannels.Off" value="மூடப்பட்ட தலைப்புகள் நிறுத்தப்பட்டன"/>
+
+  <string id="Settings.ClosedCaption.Heading" value="மூடப்பட்ட தலைப்பிடுதல்"/>
+  <string id="Settings.ClosedCaption.ChangeButton" value="மாற்று"/>
+
+  <string id="Settings.ClosedCaption.Digital.Description" value="டிஜிடல் மூடப்பட்ட தலைப்புகள் கிடைக்கும்போது எதைக்காண்பிப்பது என்பதை தேர்ந்தெடுக்கவும்."/>
+
+  <string id="Settings.ClosedCaption.Digital.Heading" value="டிஜிடல் மூடப்பட்ட தலைப்பிடுதல்"/>
+  <string id="Settings.ClosedCaption.Digital.Off" value="நிறுத்தப்பட்டது"/>
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="மூடப்பட்ட தலைப்பு 1"/>
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="மூடப்பட்ட தலைப்பு 2"/>
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="மூடப்பட்ட தலைப்பு 3"/>
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="மூடப்பட்ட தலைப்பு 4"/>
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="மூடப்பட்ட தலைப்பு 5"/>
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="மூடப்பட்ட தலைப்பு 6"/>
+
+  <string id="Settings.ClosedCaption.Standard.Description" value="வழக்கமான மூடப்பட்ட தலைப்புகள் கிடைக்கும்போது எதைக்காண்பிப்பது என்பதை தேர்ந்தெடுக்கவும்."/>
+
+  <string id="Settings.ClosedCaption.Standard.Heading" value="வழக்கமான மூடப்பட்ட தலைப்பிடுதல்"/>
+  <string id="Settings.ClosedCaption.Standard.Off" value="நிறுத்தப்பட்டது"/>
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="மூடப்பட்ட தலைப்பு 1"/>
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="மூடப்பட்ட தலைப்பு 2"/>
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="மூடப்பட்ட தலைப்பு 3"/>
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="மூடப்பட்ட தலைப்பு 4"/>
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="உரை 1"/>
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="உரை 2"/>
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="உரை 3"/>
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="உரை 4"/>
+
+  <string id="Settings.Save.Succeeded" value="அமைப்புகள் சேமிக்கப்பட்டன."/>
+  <string id="Settings.Save.Failed" value="அமைப்புகளில் செய்யப்பட்ட சமீபத்திய மாற்றங்கள் இழக்கப்பட்டன. அவற்றை உறுதிசெய்ய உங்கள் மாற்றங்களை சரிபார்க்கவும்."/>
+  <string id="Settings.Save.Failed.PCon" value="பெற்றோர் கட்டுப்பாடு அமைப்புகளில் செய்யப்பட்ட சமீபத்திய மாற்றங்கள் இழக்கப்பட்டன. அவற்றை உறுதிசெய்ய உங்கள் மாற்றங்களை சரிபார்க்கவும்."/>
+
+  <!-- Channel Reordering -->
+  <string id="Settings.ChannelReordering" value="சேனல் வரிசையை மாற்று"/>
+  <string id="Settings.ChannelReordering.RestoreDefault" value="இயல்புநிலை வரிசை"/>
+  <string id="Settings.ChannelReordering.Description" value="ஒரு சேனலின் வரிசையை மாற்ற, உரிய அம்புக்குறியை தேர்வு செய்து OK-ஐ அழுத்தவும்."/>
+  <string id="Settings.AudioLanguage" value="ஒலி மொழி"/>
+  <string id="Settings.AudioLanguage.Description" value="உங்களுக்கு விருப்பமான ஒலி மொழியை தேர்வு செய்யவும்"/>
+  
+  <!-- RF output channel -->
+  <string id="Settings.RFOutputChannel" value="RF output channel"/>
+  <string id="Settings.RFOutputChannel.TurnOff" value="Turn off RF output"/>
+  <string id="Settings.RFOutputChannel.Description" value="If you change the RF output channel you must also change to the same channel on your television."/>
+  <string id="Settings.RFOutputChannel.Confirm" value="You will lose video until you change to channel {0} on your television."/>
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="You will lose video on the RF output."/>
+
+  <!-- 
+      The list of languages and the default setting used in the Audio Language Settings page.  These are optional
+      and are used if the UserStore AudioLanguages and/or PreferredAudioLanguage values are not set.  Ensure
+      that no 2 codes in the preference list will result in duplicate language names. Duplicate language names
+      are ignored.  Languages are displayed in the Audio Language Settings page in the order that they appear in
+      this list.
+  -->
+  <string id="Settings.AudioLanguage.Preference.List" value="ar,bg,ca,zh,cs,da,de,el,en,es,fi,fr,gd,he,hu,is,it,ja,ko,nl,no,pl,pt,ro,ru,hr,sk,sq,sv,th,tr,ur,id,uk,be,sl,et,lv,lt,fa,vi,hy,az,eu,mk,af,ka,fo,hi,ms,kk,ky,sw,uz,tt,pa,gu,ta,te,kn,mr,sa,mn,gl,sr,cy"/>
+  <string id="Settings.AudioLanguage.Preference.Default" value="en"/>
+
+  <!-- Strings for Security settings page -->
+  <string id="SettingsEnhancedHdmiSecurity" value="பாதுகாப்பு"/>
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="HDMI இடைமுகத்தை உபயோகப்படுத்தும்போது உங்களுக்கு ஒத்திசை செய்வதில் பிரச்சினைகள் இருந்தால் மேம்படுத்தப்பட்ட பாதுகாப்பை தேர்ந்தெடுக்கவும்."/>
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="மேம்படுத்தப்பட்ட பாதுகாப்பு"/>
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="வழக்கமான பாதுகாப்பு"/>
+
+  <string id="AudioProgram.AudioType.1" value="தூய்மையான விளைவுகள்"/>
+  <string id="AudioProgram.AudioType.2" value="கேட்கும் திறன் பாதிக்கப்பட்டது"/>
+  <string id="AudioProgram.AudioType.3" value="பார்வை பாதிக்கப்பட்டோருக்கான வர்ணனை"/>
+
+  <string id="AudioProgram.NoLanguage.Primary" value="முதன்மையான"/>
+  <string id="AudioProgram.NoLanguage.Secondary" value="இரண்டாம்நிலையான"/>
+  <string id="AudioProgram.NoLanguage.Additional" value="ஒலி"/>
+
+  <!-- Subtitling types as defined in the DVB standard. -->
+  <!-- normal -->
+  <string id="SubtitleProgram.SubtitleType.16" value=""/>
+  <string id="SubtitleProgram.SubtitleType.17" value="4:3"/>
+  <string id="SubtitleProgram.SubtitleType.18" value="16:9"/>
+  <string id="SubtitleProgram.SubtitleType.19" value="2.21:1"/>
+  
+  <!-- hard of hearing -->
+  <string id="SubtitleProgram.SubtitleType.32" value="hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.33" value="4:3, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.34" value="16:9, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.35" value="2.21:1, hard of hearing"/>
+
+  <string id="ElementaryStream.DescriptionFormat" value=" {0}"/>
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}"/>
+
+  <string id="AudioProgram.DescriptionFormat" value=" {0}"/>
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}"/>
+
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="கேட்கும்போது வீடியோ"/>
+  <string id="VOD.MediaItem.Description" value="திரைப்படங்களை இங்கே வாடகைக்கு எடுக்கவும்"/>
+  <string id="VOD.CurrentRentals.Title" value="தற்போதைய வாடகைகள்"/>
+  <string id="VOD.CurrentRentals" value="தற்போதைய வாடகைகள்"/>
+  <string id="VOD.NoCurrentRentals" value="பலவகை திரைப்படங்களையும் டிவி காட்சிகளையும் நீங்கள் எப்போது விரும்பினாலும் அதைப் பார்ப்பதற்கு கேட்கும்போது வீடியோ உங்களுக்கு வகைசெய்கிறது. நீங்கள் இடைநிறுத்தலாம், பின் நகர்த்தலாம், வேகமாக முன் நகர்த்தலாம் மற்றும் பிறகு பின்னர் பார்ப்பதற்காக ஒரு வீடியோவை விட்டுசெல்லலாம். வீடியோ விருப்பங்கள் அடிக்கடி மாறுகின்றன, அதனால் புதியதாக பார்ப்பதற்கு நீங்கள் ஏதாவதொன்றை எப்போதும் காணலாம்.&#13;&#13;தற்போதைய வாடகைகள் எதுவும் உங்களுக்கு இல்லை. கிடைக்கின்ற வீடியோக்களில் உலாவ உங்கள் ரிமோட்டில் உள்ள வலது அம்புக்குறியை அழுத்தவும்."/>
+  <string id="VOD.Count.None" value="வாடகைக்கு எடுக்கப்பட்ட வீடியோக்கள் இல்லை"/>
+  <string id="VOD.Count.One" value="1 வாடகைக்கு எடுக்கப்பட்ட வீடியோ"/>
+  <string id="VOD.Count.Many" value="{0} வாடகைக்கு எடுக்கப்பட்ட வீடியோக்கள்"/>
+  <!-- DownloadAndPlay -->
+  <string id="VOD.Downloads.Title" value="பதிவிறக்கங்கள்"/>
+  <string id="VOD.Downloads.Subcategory.Downloaded" value="பதிவிறக்கப்பட்டது"/>
+  <string id="VOD.Downloads.Subcategory.Scheduled" value="அட்டவணைப்படுத்தப்பட்டது"/>
+  <string id="VOD.Downloads.Downloaded.NoItems" value="முழுமைபெற்ற பதிவிறக்கங்கள் தற்போது எதுவும் இல்லை.  நடந்து கொண்டிருக்கும் உங்கள் பதிவிறக்கங்களின் நிலையைச் சரிபார்க்க, உங்கள் ரிமோட்டில் உள்ள வலது அம்புக்குறியை அழுத்தவும்."/>
+  <string id="VOD.Downloads.Scheduled.NoItems" value="பதிவிறக்கி இயக்குவதற்கான அட்டவணையிடப்பட்ட உள்ளடக்க விஷயங்கள் எதுவும் உங்களுக்கு தற்போது இல்லை."/>
+  <string id="VOD.Downloads.State.WaitingToStart" value=""/>
+  <string id="VOD.Downloads.State.Downloading" value="பதிவிறக்கப்படுகிறது"/>
+  <string id="VOD.Downloads.State.Failed" value="தவறிவிட்டது"/>
+  <string id="VOD.Downloads.State.Incomplete" value="முடியவில்லை"/>
+  <string id="VOD.Downloads.Unavailable" value="பதிவிறக்கப்பட்ட பொருள் தற்காலிகமாக கிடைக்கவில்லை.&#13;தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="ProgramInfo.Downloads.AddConfirmation" value="அட்டவணையிடப்பட்டுள்ள பதிவிறக்கங்களுடன் சேர்க்கப்பட்டுள்ளது. இந்த நிகழ்ச்சியை நீங்கள் வாடகைக்கு எடுக்கும் வரை உங்களுக்கு கட்டணம் கிடையாது "/>
+  <string id="ProgramInfo.Downloads.AddConfirmationFree" value="அட்டவணையிடப்பட்டுள்ள பதிவிறக்கங்களுடன் சேர்க்கப்பட்டுள்ளது"/>
+  <string id="ProgramInfo.Downloads.CancelConfirmation" value="பதிவிறக்கும் வேண்டுகோள் ரத்துசெய்யப்பட்டது"/>
+  <string id="ProgramInfo.Downloads.DeleteConfirmation" value="பதிவிறக்கப்பட்ட பொருள் அழிக்கப்பட்டுவிட்டது"/>
+  <string id="ProgramInfo.Downloads.MoveToTopConfirmation" value="பதிவிறக்கும் வேண்டுகோள் முதலில் செயலாக்கப்படும்"/>
+  <string id="VOD.Downloads.Downloaded.State.Viewable" value=" பார்ப்பதற்கு கிடைக்கும்"/>
+  <string id="VOD.Downloads.Downloaded.State.NotPurchased" value="இதுவரை வாங்கப்படவில்லை"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.None" value="வீடியோக்கள் இல்லை"/>
+  <string id="VOD.Category.Count.One" value="1 வீடியோ"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.Many" value="{0}வீடியோக்கள்"/>
+  <string id="VOD.Storefront.LongDescription1" value="நீங்கள் இயக்க, இடைநிறுத்த மற்றும் பின் நகர்த்த, நூற்றுக்கணக்கான கேட்கும்போது வீடியோக்களிலிருந்து தேர்ந்தெடுக்கவும்."/>
+  <string id="VOD.Storefront.LongDescription2" value="ஒரு வீடியோக்கள் பட்டியலுக்காக கேட்கும்போது வீடியோ செல்லவும் அல்லது உங்கள் ரிமோட் கன்ட்ரோலில் VIDEOS-ஐ அழுத்தவும்."/>
+  <string id="VOD.Storefront.ShortDescription" value="இலவசம் &amp; வாடகைக்கு எடுக்ககூடிய வீடியோக்கள்"/>
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="கேட்கும்போது வீடியோ"/>
+  <string id="VOD.ChannelGuide.CurrentRentals" value="தற்போதைய வாடகைகள்"/>
+  <string id="VOD.Expired" value="உங்கள் வீடியோ வாடகை காலாவதியாகிவிட்டது. "/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresToday" value="{0} வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: Day; {1}: time-->
+  <string id="VOD.ExpiresInAWeek" value="{0}&#0160;{1}ல் வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: Date -->
+  <string id="VOD.ExpiresLater" value="{0} வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongToday" value="{0}க்கு இன்று வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongTomorrow" value="நாளை {0}க்கு வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: day; {1}: time-->
+  <string id="VOD.ExpiresLongInAWeek" value="{0} {1}க்கு வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: date; {1}: time-->
+  <string id="VOD.ExpiresLongLater" value="{0} {1}க்கு வாடகை முடிவுறுகிறது"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Adult" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package.Adult" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free" value="{1}க்கு {0} இலவசம்"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Adult" value="{1}க்கு {0} வயதுவந்தோருக்கான உள்ளடக்கம் இலவசம்"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package" value="{1}க்கு {0} தொகுப்பு இலவசம்"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="{1}க்கு {0} வயதுவந்தோருக்கான தொகுப்பு இலவசம்"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value="{0} இலவசம்"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value="{0} இலவச வயதுவந்தோருக்கான உள்ளடக்கம்"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value="{0} இலவச தொகுப்பு"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value="{0} இலவச வயதுவந்தோருக்கான தொகுப்பு"/>
+
+  <string id="VOD.CreditLimitExceeded" value="உங்கள் கடன் வரையறையை கொள்முதல் தாண்டியது."/>
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="உங்கள் கடன் வரையறையை கொள்முதல் தாண்டியது. தொடர்வதற்கு '{0}'-ஐ அழுத்துவதன் மூலம் உங்கள் கடன் வரையறையை நீங்கள் அதிகரிக்கலாம்."/>
+  <string id="VOD.CreditLimitChange" value="வரையறையை மாற்று"/>
+  <string id="VOD.CreditLimitDontChange" value="மாற்றாதே"/>
+  <string id="VOD.CouldNotPurchase" value="கொள்முதலை முடிக்க முடியவில்லை"/>
+  <string id="VOD.VideoStore.Banner" value="Banner_VOD.png"/>
+  <string id="VOD.VideoStore" value="கேட்கும்போது வீடியோ"/>
+  <string id="VOD.StoreFront" value="கேட்கும்போது வீடியோ"/>
+  <string id="VOD.DisabledNotification" value="வீடியோ சேமிப்பகம் முடக்கப்பட்டுள்ளது."/>
+  <string id="VOD.Unavailable" value="கேட்கும்போது வீடியோ தற்காலிகமாக கிடைக்கவில்லை.&#13;தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="VOD.PleaseWait" value="வீடியோக்கள் பெறப்படுகின்றன"/>
+  <string id="VOD.Package" value="தொகுப்பு தகவல்"/>
+  <string id="VOD.RentAllPackage" value="அனைத்தும் {0} வாடகைக்கு எடுக்கவும்"/>
+  <string id="VOD.RentAll1Package" value="தொகுப்பு வாடகைக்கு எடுக்கவும்"/>
+  <string id="VOD.RentAll2Package" value="இரண்டையும் வாடகைக்கு எடுக்கவும்"/>
+  <string id="VOD.RentOne" value="தனியாக வாடகைக்கு எடுக்கவும்"/>
+  <string id="VOD.AlreadyRented" value="கிடைக்கும் வீடியோக்கள்"/>
+  <string id="VOD.SubcategoryIndicator" value="&#8226;&#8226;&#8226;"/>
+  <string id="VOD.Rented" value="வாடகைக்கு எடுக்கப்பட்டது"/>
+  <string id="VOD.Rent" value="வீடியோ"/>
+  <string id="VOD.NotRented" value="வாடகைக்கு எடுக்கப்படவில்லை"/>
+  <string id="VOD.Debarred" value="அணுகுவதற்கு வாடிக்கையாளர் சேவையை அழைக்கவும்"/>    
+  <string id="VOD.Renting" value="வாடகைக்கு எடுக்கப்படுகின்றது"/>
+  <!-- {0}: VOD program title-->
+  <string id="VOD.Preview" value="முன்னோட்டம்: {0}"/>
+  <string id="VOD.CannotRecord" value="கேட்கும்போது வீடியோ நிகழ்ச்சிகளை பதிவு செய்ய முடியாது"/>
+  <string id="VOD.CannotRecord.Available" value="நிகழ்ச்சி கேட்கும்போது வீடியோவில் கிடைக்கின்றது"/>
+  <string id="VOD.Unlock" value="வயதுவந்தோருக்கான உள்ளடக்கம் பூட்டைதிற"/>
+  <string id="VOD.PlaybackError" value="தொலைக்காட்சி சேவை தற்காலிகமாக கிடைக்கவில்லை."/>
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="தற்காலிகமாக இந்த நிகழ்ச்சியை இயக்க முடியவில்லை."/>
+  <!-- {3}: ?-->
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="தயவுசெய்து பிறகு முயற்சிக்கவும். (3)"/>
+  <string id="VOD.VodKeyringTrouble1" value="தற்காலிகமாக இந்த நிகழ்ச்சியை இயக்க முடியவில்லை."/>
+  <!-- {2}: ?-->
+  <string id="VOD.VodKeyringTrouble2" value="தயவுசெய்து பிறகு முயற்சிக்கவும். (2)"/>
+  <string id="VOD.SessionUnavailable1" value="தற்காலிகமாக இந்த நிகழ்ச்சியை இயக்க முடியவில்லை."/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.SessionUnavailable2" value="தயவுசெய்து பிறகு முயற்சிக்கவும். (1)"/>
+  <string id="VOD.DefaultState.Message1" value="நூற்றுக்கணக்கான வீடியோக்களிலிருந்து தேர்ந்தெடுக்கவும்"/>
+  <string id="VOD.DefaultState.Message2" value="எந்த நேரமும் பார்க்கலாம்"/>
+  <string id="VOD.DefaultState.Message3" value="இடைநிறுத்து, பின் நகர்த்து, மற்றும் வேகமாக முன் நகர்த்து"/>
+  <string id="SVOD.Browse" value="வீடியோக்களில் உலாவு"/>
+  <string id="SVOD.Subscribed" value="சந்தா செய்யப்பட்டது"/>
+  <string id="SVOD.SubscriptionInfo" value="சந்தா தகவல்"/>
+ 
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="நேரலை டிவி காண்பிக்கப்பட முடியவில்லை"/>
+
+  <!-- Purchasable -->
+  <!-- {0}: title -->
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="வாடகை தகவல்கள் அறிய OK-ஐ அழுத்தவும்"/>
+  <string id="VOD.StatusBar.PressOK.RentalInfo" value="வாடகை தகவல்கள் அறிய OK-ஐ அழுத்தவும்"/>
+  <string id="SVOD.StatusBar.PressOK.RentalInfo" value="{0}க்கு சந்தா செய்வதற்கு OK-ஐ அழுத்தவும்"/>
+  <string id="Default.StatusBar.PressOK.RentalInfo" value="வாடகை தகவல்கள் அறிய OK-ஐ அழுத்தவும்"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.Purchasable" value=" வாடகைக்கு கிடைக்கும்"/>
+  <string id="VOD.StatusBar.Purchasable" value="வாடகைக்கு கிடைக்கும்"/>
+  <string id="SVOD.StatusBar.Purchasable" value="சந்தா செய்வதற்கு கிடைக்கும்"/>
+  <string id="Default.StatusBar.Purchasable" value="வாடகைக்கு கிடைக்கும்"/>
+
+  <!-- displayed on program info page and guide rollover -->
+  <string id="PPV.Purchasable" value="வாடகைக்கு கிடைக்கும்"/>
+  <string id="VOD.Purchasable" value="வாடகைக்கு கிடைக்கும்"/>
+  <string id="SVOD.Purchasable" value="சந்தா செய்வதற்கு கிடைக்கும்"/>
+  <string id="Default.Purchasable" value="வாடகைக்கு கிடைக்கும்"/>
+
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="நிகழ்ச்சியின் தகவல்கள் அறிய Info-ஐ அழுத்தவும்"/>
+  <string id="VOD.StatusBar.PressInfo.ProgramInfo" value="நிகழ்ச்சியின் தகவல்கள் அறிய Info-ஐ அழுத்தவும்"/>
+  <string id="SVOD.StatusBar.PressInfo.ProgramInfo" value="தொகுப்பு தகவல்கள் அறிய Info-ஐ அழுத்தவும்"/>
+  <string id="Default.StatusBar.PressInfo.ProgramInfo" value="நிகழ்ச்சியின் தகவல்கள் அறிய Info-ஐ அழுத்தவும்"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.RentedText" value="வாடகைக்கு எடுத்த {0} காண்பிக்கப்படுகிறது"/>
+  <string id="VOD.StatusBar.RentedText" value="வாடகைக்கு எடுத்த {0} காண்பிக்கப்படுகிறது"/>
+  <string id="SVOD.StatusBar.RentedText" value="சந்தா செய்யப்பட்டது"/>
+  <string id="Default.StatusBar.RentedText" value="வாடகைக்கு எடுக்கப்பட்டது"/>
+
+  <string id="PPV.ProgramInfo.Rented" value="வாடகைக்கு எடுக்கப்பட்டது: ஒருமுறை காண்பிக்கப்படுகிறது"/>
+  <string id="VOD.ProgramInfo.Rented" value="வாடகைக்கு எடுக்கப்பட்டது"/>
+  <string id="SVOD.ProgramInfo.Rented" value="சந்தா செய்யப்பட்டது"/>
+  <string id="Default.ProgramInfo.Rented" value="வாடகைக்கு எடுக்கப்பட்டது"/>
+
+  <string id="PPV.OfferPending" value="இதுவரைக்கும் வாடகைக்கு கிடைக்கவில்லை."/>
+  <string id="VOD.OfferPending" value="இதுவரைக்கும் வாடகைக்கு கிடைக்கவில்லை."/>
+  <string id="SVOD.OfferPending" value="இதுவரைக்கும் சந்தா செய்வதற்கு கிடைக்கவில்லை."/>
+  <string id="Default.OfferPending" value="இதுவரைக்கும் வாடகைக்கு கிடைக்கவில்லை."/>
+
+  <string id="PPV.OfferExpired" value="இனிமேல் வாடகைக்கு கிடைக்காது."/>
+  <string id="VOD.OfferExpired" value="இனிமேல் வாடகைக்கு கிடைக்காது."/>
+  <string id="SVOD.OfferExpired" value="இனிமேல் சந்தா செய்வதற்கு கிடைக்காது."/>
+  <string id="Default.OfferExpired" value="இனிமேல் வாடகைக்கு கிடைக்காது."/>
+
+  <string id="PPV.NotAvailable" value="வாடகைக்கு கிடைக்கவில்லை."/>
+  <string id="VOD.NotAvailable" value="வாடகைக்கு கிடைக்கவில்லை."/>
+  <string id="SVOD.NotAvailable" value="சந்தா செய்வதற்கு கிடைக்கவில்லை."/>
+  <string id="Default.NotAvailable" value="வாடகைக்கு கிடைக்கவில்லை."/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.StatusBar.PurchaseText" value="{1} காண்பிப்பதற்கு {0}"/>
+  <string id="VOD.StatusBar.PurchaseText" value="{1} காண்பிப்பதற்கு {0}"/>
+  <string id="SVOD.StatusBar.PurchaseText" value="ஒரு மாதத்திற்கு {0}"/>
+  <string id="Default.StatusBar.PurchaseText" value="{1} காண்பிப்பதற்கு {0}"/>
+
+  <!-- {0}: title; {1}: price-->
+  <string id="URL.OkToRent" value="{0}-க்கு {1} வாடகை எடுப்பதற்கு OK-ஐ அழுத்தவும்"/>
+
+  <!-- {0}: price {1} -->
+  <string id="PPV.ProgramInfo.AcceptOffer" value="{0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer" value="{0}"/>
+  <!-- {0}: price -->
+  <string id="SVOD.ProgramInfo.AcceptOffer" value="ஒரு மாதத்திற்கு {0}"/>
+  <!-- {0}: duration -->
+  <string id="Default.ProgramInfo.AcceptOffer" value="வாடகை"/>
+
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.AcceptOffer.Button" value="வாடகைக்கு {0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button" value="வாடகைக்கு {0}"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button" value="சந்தாசெய்"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button" value="வாடகைக்கு {0}"/>
+
+  <string id="PPV.ProgramInfo.AcceptOffer.Button.Free" value="இயக்கு"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button.Free" value="இயக்கு"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button.Free" value="இயக்கு"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button.Free" value="இயக்கு"/>
+
+  <!-- {0}: title-->
+  <string id="Default.PurchaseOffer.Free" value="{0}-ஐ பார்ப்பதற்கு இயக்கு அழுத்தவும் "/>
+  <string id="Default.PurchaseOffer.Free.Adult" value="{0}-ஐ பார்ப்பதற்கு Play-ஐ அழுத்தவும்.&#13;இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer.Adult" value="{2} வாடகைக்கு {1} க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம் ஆகும்."/>
+    
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="வாடகை"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Extern" value="வாடகை"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Extern" value="சந்தாசெய்"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Extern" value="வாடகை"/>
+  
+  <string id="PPV.GettingPrice" value="வாடகைக்கான விலையைப் பெறுகின்றது..."/>
+  <string id="VOD.GettingPrice" value="வாடகைக்கான விலையைப் பெறுகின்றது..."/>
+  <string id="SVOD.GettingPrice" value="சந்தாசெய்வதற்கான விலையைப் பெறுகின்றது..."/>
+  <string id="Default.GettingPrice" value="வாடகைக்கான விலையைப் பெறுகின்றது..."/>
+  <string id="Default.GettingPrice.Short" value="$$"/>
+
+  <!-- {0}: Price; {1}: Rental minutes -->
+  <string id="PPV.Rental.PriceAndExpiration" value="{1}-க்கு {0}  &#0183;  வாடகை "/>
+  <string id="VOD.Rental.PriceAndExpiration" value="{1}-க்கு {0}  &#0183;  வாடகை "/>
+  <string id="SVOD.Rental.PriceAndExpiration" value="{0}  &#0183;  மாத சந்தா"/>
+  <string id="Default.Rental.PriceAndExpiration" value="{0}  &#0183;  வாடகை"/>
+
+  <string id="PPV.Rental.PriceAndExpiration.Extern" value="மேலும் தகவல்கள் அறிய RENT பொத்தானை அழுத்தவும்"/>
+  <string id="VOD.Rental.PriceAndExpiration.Extern" value="மேலும் தகவல்கள் அறிய RENT பொத்தானை அழுத்தவும்"/>
+  <string id="SVOD.Rental.PriceAndExpiration.Extern" value="மேலும் தகவல்கள் அறிய SUBSCRIBE பொத்தானை அழுத்தவும்"/>
+  <string id="Default.Rental.PriceAndExpiration.Extern" value="மேலும் தகவல்கள் அறிய RENT பொத்தானை அழுத்தவும்"/>
+
+  <string id="Free" value="இலவசம்"/>
+  <string id="Free.Debarred" value=""/>
+
+  <!-- PPV TV -->
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer" value="{2} காண்பிப்பதற்கு {1}-க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer.Adult" value="{2} காண்பிப்பதற்கு {1}-க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்.&#13;இது வயதுவந்தோருக்கான உள்ளடக்கம் ஆகும்."/>
+  <!-- {0}: title-->
+  <string id="PPV.PurchaseOffer.Free" value="{0}-ஐ பார்ப்பதற்கு Play-ஐ அழுத்தவும்"/>
+  <string id="PPV.PurchaseOffer.Free.Adult" value="{0}-ஐ பார்ப்பதற்கு Play-ஐ அழுத்தவும்.&#13;இது வயதுவந்தோருக்கான உள்ளடக்கம் ஆகும்."/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.PriceAndTime" value="{0} &#8226; {1}"/>
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.Purchase" value="{0} &#8226; ஒருமுறை காண்பிப்பதற்கு"/>
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="ஒருமுறை காண்பிக்கப்படுகிறது"/>
+
+  <!-- URL/Mosaic/Image  -->
+  <!-- {0}: title-->
+  <string id="URL.OkToLaunch" value="{0} ஆரம்பிப்பதற்கு OK-ஐ அழுத்தவும்"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="URL.PurchaseOffer" value="{2} காண்பிப்பதற்கு {1}-க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <string id="URL.PurchaseOffer.Adult" value="{2} காண்பிப்பதற்கு {1}-க்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்.&#13;இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+  <!-- {0}: price; {1}: name-->
+  <string id="URL.PurchaseOffer.NoWindow" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="{1} வாடகைக்கு {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும். இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+
+  <!-- SVOD  -->
+  <!-- {0}: price; {2}: title-->
+  <string id="SVOD.PurchaseOffer" value="{2} சந்தா செய்வதற்கு ஒவ்வொரு மாதமும் {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்."/>
+  <string id="SVOD.PurchaseOffer.Adult" value="{2} சந்தா செய்வதற்கு ஒவ்வொரு மாதமும் {0} கட்டணம் நீங்கள் செலுத்த வேண்டியதிருக்கும்.&#13;இது வயதுவந்தோருக்கான உள்ளடக்கம்."/>
+  <!-- {0}: title-->
+  <string id="SVOD.PurchaseOffer.Free" value="{0} இலவசம்"/>
+  <string id="SVOD.PurchaseOffer.Free.Adult" value="{0} வயதுவந்தோருக்கான உள்ளடக்கம் இலவசம்"/>
+
+  <!-- Messages -->
+  <string id="Messages.HeaderText" value="MESSAGES"/>
+  <string id="Messages.NoMessages" value="You have no messages."/>
+  <string id="Messages.Menu.ByDate" value="by date"/>
+  <string id="Messages.Menu.ByName" value="by name"/>
+  <string id="Messages.Dismiss" value="Dismiss"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Called" value="CALLED: {0}"/>
+  <!-- {0}: Sender name information-->
+  <string id="Messages.From" value="FROM: {0}"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Received" value="RECEIVED: {0}"/>
+  <string id="Messages.MessageHeader" value="MESSAGE"/>
+  <string id="Messages.PictureHeader" value="PICTURES"/>
+  <string id="Messages.CallerIdHeader" value="CALLER ID"/>
+  <string id="Messages.PlaySlideShow" value="Play slide show"/>
+
+  <!-- PHOTOS -->
+  <!-- {0}: Earliest date of photos in slideshow: {1}: Latest date of photos in slideshow-->
+  <string id="Photos.DateRangeFormat" value="{0} to {1}"/>
+  <!-- {0}: Number of albums-->
+  <string id="Photos.AlbumCountFormat" value="{0} albums"/>
+  <string id="Photos.Count.None" value="NO PHOTOS"/>
+  <string id="Photos.Count.One" value="1 PHOTO"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Photos.Count.Many" value="{0} PHOTOS"/>
+  <!-- {0}: Number of subfolders-->
+  <string id="Photos.Count.SubFolders" value="{0} subfolders"/>
+
+
+
+  <!-- PICTURES & MUSIC: MEDIA SHARING -->
+  
+  <string id="MediaSharing.Title" value="புகைப்படங்கள் மற்றும் இசை"/>
+  <string id="MediaSharing.Subtitle" value="இசை இயக்க, புகைப்படங்கள் பார்க்க, மற்றும் இசையுடன் சேர்ந்த ஸ்லைடுகாட்சிகள் உருவாக்க."/>
+
+  <string id="MediaSharing.ServerAuthorized.Description" value=""/>
+  <string id="MediaSharing.ServerAuthorized.Details" value="கீழ்கண்ட பிசி-க்கள் உங்கள் வீட்டு பிணையத்தில் உள்ளன.&#13;&#13;புகைப்படங்கள் பார்க்க, இசை இயக்க, மற்றும் ஸ்லைடுகாட்சிகள் உருவாக்க இந்த பிசி-ஐ தேர்ந்தெடுக்கவும்."/>
+
+  <string id="MediaSharing.ServerNotAuthorized.Description" value=""/>
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="கீழ்கண்ட பிசி-க்கள் உங்கள் வீட்டு பிணையத்தில் உள்ளன.&#13;&#13;இந்த பிசி-யில் புகைப்படங்கள் மற்றும் இசையை Microsoft TVஆல் அணுகுவதற்கு முடியவில்லை.  இந்த பிசி-ஐ அணுகுவதற்கு Microsoft TV–க்கு அங்கீகாரம் அளித்துள்ளீர்களா என்பதனை உறுதி செய்யவும்."/>
+
+  <string id="MediaSharing.Empty" value="0 உருப்படிகள்"/>
+  <string id="MediaSharing.SingleItemFormat" value="1 உருப்படி"/>
+  <string id="MediaSharing.MultipleItemsFormat" value="{0} உருப்படிகள்"/>
+  
+  <!-- following panel with a single button is shown while looking for media servers on the network... -->
+  <string id="MediaSharing.NoServersYet.Description" value="புகைப்படங்கள் மற்றும் இசையை உங்கள் வீட்டு பிணையத்தில் Microsoft TV தேடுகின்றது.  இது சில நிமிடங்கள் எடுத்துக்கொள்ளலாம்.&#13;&#13;இசை இயக்க, புகைப்படங்கள் பார்க்க, மற்றும் இசையுடன் சேர்ந்த ஸ்லைடுகாட்சிகள் உருவாக்க.  மீடியா பங்கிடுதல் செயலாக்கத்தில் உள்ளதுடன் கூடிய விண்டோஸ் மீடியா பிளேயர் 11 இயக்கத்திலுள்ள ஒரு பிசி உங்களுக்குத் தேவைப்படும்."/>
+  <string id="MediaSharing.NoServersYet.Button" value="புகைப்படங்கள் மற்றும் இசை பற்றி மேலும் அறிந்து கொள்ளுங்கள்"/>
+
+  <!-- same panel as string above is shown after a minute looking for servers if nothing was found so far -->
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="45"/><!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="பங்கு செய்யப்பட்ட புகைப்படங்கள் மற்றும் இசை எதையும் உங்கள் பிணையத்தில் Microsoft TV கண்டு பிடிக்கவில்லை ஆனால் தொடர்ந்து தேடும். . .&#13;&#13;உங்கள் பிசி-யில் உள்ள விண்டோஸ் மீடியா பிளேயர்-இல் நீங்கள் மீடியா பங்கிடுதலை செயலாக்கத்தில் வைத்திருக்கிறீர்களா என்பதனை உறுதி செய்யவும்."/>
+  <string id="MediaSharing.NoServersFound.Button" value=""/>
+
+  <!-- error messages shown when playback fails. Optional: {0} windows media server error code (a number), {1} error description (a string) -->
+  <!-- specific error messages can be used for specific error codes as shown using {0}, just affix the code number to the key name -->
+  <string id="MediaSharing.Error.MusicPlaybackFailed" value="இசை இயக்குவதில் ஒரு பிரச்சினை ஏற்பட்டுள்ளது. உங்கள் பிசி ஆன் செய்யப்பட்டுள்ளதா என்றும் பிணையத்துடன் இணைக்கப்பட்டுள்ளதா என்றும் உறுதி செய்யவும். [{0}]"/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value=" இந்த இசை கோப்பு பதிப்புரிமை பாதுகாப்பு பெற்றது, அதனால் இயக்க முடியாது."/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="இந்த வடிவமைப்பு கொண்ட இசை கோப்புகள் ஆதரிக்கப் படுவதில்லை. WMA அல்லது MP3 கோப்புகளை இயக்குவதற்கு முயற்சிக்கவும் அல்லது உங்கள் கோப்புகளை இந்த வடிவமைப்புகளில் ஒன்றுக்கு மாற்றிக்கொள்ளவும். [{0}]"/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="இந்த வடிவமைப்பு கொண்ட இசை கோப்புகள் ஆதரிக்கப் படுவதில்லை. WMA அல்லது MP3 கோப்புகளை இயக்குவதற்கு முயற்சிக்கவும் அல்லது உங்கள் கோப்புகளை இந்த வடிவமைப்புகளில் ஒன்றுக்கு மாற்றிக்கொள்ளவும். [{0}]"/>
+
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="புகைப்படங்கள் இயக்கப்படும்போது ஒரு பிரச்சினை ஏற்பட்டுள்ளது. உங்கள் பிசி ஆன் செய்யப்பட்டுள்ளதா என்றும் பிணையத்துடன் இணைக்கப்பட்டுள்ளதா என்றும் உறுதி செய்யவும்."/>
+
+  <!-- 
+      When media sharing finds a UPnP device, like a Windows Media Player media sharing node,
+      it asks the device to present music and photos organized in different ways. music can 
+      be organized by album, artist, genre, playlists, composers, etc... photos can be organized
+      by folder, keywords, date taken, ratings, etc... 
+      
+      You can customize which media is shown and how by adding/removing strings from the list
+      below. the complete description of the container hierarchy for windows media player is described
+      in "How to build a network device compatible with Windows Media player sharing service".
+
+      The strings below contain four fields 1|2|3|4. The first is the localized name of your search,
+      the second is * for all type of nodes or the kind of node that should be shown (for example
+      object.container.audioItem or object.container.album.photoAlbum). The third field is the
+      subcontainer ID (see docs). The fourth field is the legend that is shown next to the button
+      when the user selects it.
+      
+      You can have up to 20 entries (although we wouldn't suggest using too many).
+  -->
+
+  <!-- list of menu items (UPnP containers) shown -->  
+  <string id="UPnP.MenuContainer.0" value="இசை|*|1|உங்கள் அனைத்து இசையிலும் உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.1" value="   ஆல்பத்தின் படி இசை|object.container.album.musicAlbum|7|உங்கள் அனைத்து இசையையும் ஆல்பத்தின் படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.2" value="   இசைக்கலைஞரின்படி இசை|*|6|உங்கள் அனைத்து இசையையும் இசைக்கலைஞரின்படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சிகளுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.3" value="   இசைப்பட்டியலின் படி இசை|music.container.playlistContainer|F|உங்கள் அனைத்து இசையையும் இசைப்பட்டியலின் படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.4" value="புகைப்படங்கள்|object.container.album.photoAlbum|3|உங்கள் அனைத்து புகைப்படங்களையும் உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.5" value="   கோப்பின் படி புகைப்படங்கள்|object.container.album.photoAlbum|16|உங்கள் அனைத்து புகைப்படங்களையும் கோப்பின் படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <string id="UPnP.MenuContainer.6" value="   தேதியின் படி புகைப்படங்கள்|object.container.album.photoAlbum|C|உங்கள் அனைத்து புகைப்படங்களையும் தேதியின் படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+  <!-- photos can be seen organized by keywords only when you connect to a Windows Vista client. if you don't have Vista clients, you may want to comment this line out -->
+  <string id="UPnP.MenuContainer.7" value="   திறவுச்சொல் படி புகைப்படங்கள்|object.container.album.photoAlbum|D2|உங்கள் அனைத்து புகைப்படங்களையும் திறவுச்சொற்கள் படி உலாவுங்கள்.&#13;&#13;இசையை இயக்கி முடித்தபின், பின் என்ற பொத்தானைப் பயன்படுத்தி புகைப்படங்களை உங்கள் ஸ்லைடுகாட்சியுடன் சேருங்கள்.  மெனு பொத்தானைப் பயன்படுத்தி ஸ்லைடுகாட்சியை நீக்குங்கள்."/>
+
+  <!-- video is not supported yet but here's how you would enable it... -->
+  <!-- <string id="UPnP.MenuContainer.8" value="All Videos (beta)|*|8|Play home videos stored on your PC." /> -->
+
+  <!-- Upgrade -->
+  <string id="Upgrade.Required" value="உங்கள் தொலைக்காட்சி சேவைக்கு ஒரு புதுப்பித்தல்  கிடைக்கவிருக்கிறது. புதுப்பிப்பதை ஆரம்பிப்பதற்கு OK-ஐ அழுத்தவும்."/>
+  <string id="Upgrade.Title" value="புதுப்பித்தல் நடந்து கொண்டிருக்கிறது"/>
+  <string id="Upgrade.InProgress" value="உங்கள் தொலைக்காட்சி சேவை புதுப்பிக்கப்பட்டு கொண்டிருக்கிறது."/>
+  <string id="Upgrade.Description" value="இது நடந்து கொண்டிருக்கும் போது மின் இணைப்பை நீக்கவோ அல்லது பிணைய தொடர்புகளை நீக்கவோ கூடாது."/>
+  <string id="Upgrade.Failed" value="ஒரு பிழை ஏற்பட்ட காரணத்தால் புதுப்பித்தல் தவறிவிட்டது: "/>
+  <!-- {0}: percentage number completed-->
+  <string id="Upgrade.Progress" value="புதுப்பித்தல் {0}% முடிந்துள்ளது"/>
+  <string id="Upgrade.TimeLeftLabel" value="மதிப்பிடப்பட்ட மீதமிருக்கும் நேரம்:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="Upgrade.TimeLeft" value="{0} நிமிடங்கள்"/>
+  <string id="Upgrade.TimeLeftOneMinute" value="1 நிமிடம்"/>
+  <!-- {0}: File name-->
+  <string id="Upgrade.FileNotInList" value="புதுப்பித்தலுக்கான கோப்பு பட்டியலில் {0} கோப்பு காணப்படவில்லை."/>
+  <string id="Upgrade.DirSigMismatch" value="கோப்பகத்தின் அடையாளம் பொருந்தவில்லை."/>
+  <string id="Upgrade.ParseDirLineFailed" value="கோப்பகத்தின் வரியை பகுப்பது தவறிவிட்டது."/>
+  <string id="Upgrade.PartMD5Mismatch" value="பகுதி MD5 பொருந்தவில்லை."/>
+  <string id="Upgrade.NoDigest" value="டைஜெஸ்ட்-ஐ அடையாமல் முடிவை அடைந்து விட்டது."/>
+  <!-- {0}: Part name; {1}: Part length-->
+  <string id="Upgrade.PartTooBig" value="{0} பகுதி ({1}) மிகவும் பெரியது"/>
+  <!-- {0}: Part length; {1}: Expected part length-->
+  <string id="Upgrade.PartSizeMismatch" value="பகுதி அளவு பொருந்தவில்லை ({0} எதிர்பார்த்தது, {1} கிடைத்தது)"/>
+  <!-- {0}: Decompressed Part length; {1}: Expected decrompressed part length-->
+  <string id="Upgrade.DecompPartSizeMismatch" value="விரிவாக்கப்பட்ட பகுதி அளவு பொருந்தவில்லை ({0} எதிர்பார்த்தது, {1} கிடைத்தது)"/>
+  <string id="Upgrade.BadPackageCRC" value="பதிவிறக்கப்பட்ட தொகுப்பில் தவறான CRC."/>
+  <string id="Upgrade.BogusPackage" value="போலியான தொகுப்பு."/>
+  <!-- {0}: Package size; {1}: Expected package size-->
+  <string id="Upgrade.PackageSizeMismatch" value="தொகுப்பு அளவு பொருந்தவில்லை ({0} எதிர்பார்த்தது, {1} கிடைத்தது)"/>
+  <!-- {0}: Package size; {1}: Max allowed package size-->
+  <string id="Upgrade.PackageTooBig" value="தொகுப்பு நீளம் {0} அதிகபட்சம் அனுமதிக்கப்பட்ட அளவான {1}–ஐ விட கூடுதலாகும்."/>
+  <!-- {0}: Number of files in package; {1}: Max allowed files-->
+  <string id="Upgrade.PackageTooManyFiles" value="தொகுப்பில் {0} கோப்புகள் உள்ளன, அனுமதிக்கப்பட்ட {1}-ஐ விட கூடுதலாகும்."/>
+  <string id="Upgrade.ReadError" value="படிப்பதில் பிழை."/>
+  <string id="Upgrade.OK" value="சரி"/>
+  <string id="Upgrade.Snooze" value="3 மணிகளில் எனக்கு நினைவூட்டவும்"/>
+
+  <!-- number of seconds before we propose to upgrade again (3 hours) -->
+  <string id="Upgrade.SnoozeTimer" value="10800" />
+  <!-- number of seconds before we auto confirm the upgrade dialog -->
+  <string id="Upgrade.SnoozeDialogTimeout" value="60" />
+  
+  <!-- Disk Repair -->
+  <string id="DiskRepair.Title" value="வட்டு சோதனை நடந்து கொண்டிருக்கிறது"/>
+  <string id="DiskRepair.InProgress" value="கடின வட்டு இயக்ககம் மீது ஒரு நுணுக்கமான சோதனை நடந்து கொண்டிருக்கிறது."/>
+  <string id="DiskRepair.Description" value="இது நடந்து கொண்டிருக்கும் போது மின் இணைப்பை நீக்க கூடாது."/>
+  <!-- {0}: percentage number completed-->
+  <string id="DiskRepair.Progress" value="{0}% முடிந்துள்ளது"/>
+  <string id="DiskRepair.TimeLeftLabel" value="மதிப்பிடப்பட்ட மீதமிருக்கும் நேரம்:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="DiskRepair.TimeLeft" value="{0} நிமிடங்கள்"/>
+  <string id="DiskRepair.TimeLeftOneMinute" value="1 நிமிடம்"/>
+
+  <!-- Search -->
+  <string id="Search.Header" value="தேடல்"/>
+  <string id="Search.Header.Titles" value="தலைப்புகள் தேடல்"/>
+  <string id="Search.Header.People" value="நபர் தேடல்"/>
+  <string id="Search.Header.Videos" value="வீடியோக்கள் தேடல்"/>
+  <string id="Search.PeopleResultPageMenu.ByDate" value="தேதியின்படி"/>
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="தலைப்பின் படி"/>
+  <string id="Search.PeopleResultPageMenu.ByRental" value="வாடகையின் படி"/>
+  <string id="Search.PeopleResultPageMenu.ByStar" value="* படி"/>
+  <string id="Search.NoRentals" value="வாடகைகள் இல்லை"/>
+  
+  <!-- {0}: integer number of grouped search results -->
+  <string id="Search.Grouped.Shows" value="({0} காட்சிகள்)"/>
+
+  <string id="Search.NoShows" value="காட்சிகள் இல்லை"/>
+  <string id="Search.ErrorMsg" value="தேடல் தற்போது கிடைக்கவில்லை, தயவுசெய்து பிறகு முயற்சிக்கவும்."/>
+  <string id="Search.Today" value="இன்று"/>
+  <string id="Search.Tomorrow" value="நாளை"/>
+<string id="Search.UpcomingDateFormatString" value="ddd d/M" /> 
+  <!-- {0}: person {1}: NoSearchResultForPeople-->
+  <string id="Search.NoResultForPeopleFormat" value="{0} - {1}"/>
+  <string id="Search.NoResultForPeople" value="முடிவுகள் கிடைக்கவில்லை."/>
+  <string id="Search.NoResultForGroup" value="முடிவுகள் கிடைக்கவில்லை."/>
+  <!-- {0}: Search query string-->
+  <string id="Search.NoResultsLine1" value="{0} இதற்கு பொருத்தங்கள் இல்லை."/>
+  <string id="Search.NoResultsLine2" value="ஒரு எழுத்தை அழிக்க DELETE-ஐ அழுத்தவும்."/>
+  <!-- {0}: persons {1}: string-->
+  <string id="Search.ByDateHeaderFormat" value="{0} - {1}"/>
+  <string id="Search.MoreButtonText" value="மேலும்..."/>
+<string id="Search.TimeNotTodayFormat" value="d/M"/>
+<string id="Search.TimeTodayFormat" value="HH:mm"/>
+  <string id="Search.Waiting" value="தேடல் முடிவுகள் பெறப்படுகின்றன"/>
+  <string id="Search.NullScreen.Title.TitleSearch" value="தேடுவதற்கு ஒரு நிகழ்ச்சியின் தலைப்பை தட்டச்சு செய்யவும்."/>
+  <string id="Search.NullScreen.Title.Options" value="மேற்கொண்டு தேடல் விருப்பங்களுக்கும் கூடுதல் விசைப்பலகை எழுத்துக்களுக்கும் விருப்ப தேர்வுகள் தேர்ந்தெடுக்கவும்."/>
+  <string id="Search.NullScreen.Title.VideoSearch" value="கேட்கும்போது வீடியோ வாடகைகள் தேடலுக்கு ஒரு நிகழ்ச்சியின் தலைப்பை தட்டச்சு செய்யவும்."/>
+  <string id="Search.NullScreen.People.NameSearch" value="தேடலுக்கு ஒரு நபரின் பெயரை தட்டச்சு செய்யவும்."/>
+  <string id="Search.NullScreen.People.Options" value="மேற்கொண்டு தேடல் விருப்பங்களுக்கும் கூடுதல் விசைப்பலகை எழுத்துக்களுக்கும் விருப்ப தேர்வுகள் தேர்ந்தெடுக்கவும்."/>
+  <string id="Search.NullScreen.AllSearch" value="தலைப்பு அல்லது பெயரை தேடுவதற்காக தட்டச்சு செய்யவும்."/>
+  <string id="Search.NullScreen.AllSearch.Options" value="மேற்கொண்டு தேடல் விருப்பங்களுக்கும் கூடுதல் விசைப்பலகை எழுத்துக்களுக்கும் விருப்ப தேர்வுகள் தேர்ந்தெடுக்கவும்."/>
+  <string id="Search.Options.Keyboard" value="விசைப்பலகை"/>
+  <string id="Search.Options.FilterResults" value="வடிகட்டிய முடிவுகள்"/>
+  <string id="Search.Options.FilterResults.All" value="அனைத்து முடிவுகள்"/>
+  <string id="Search.Options.FilterResults.Titles" value="தலைப்புகள்"/>
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="கேட்கும்போது வீடியோ"/>
+  <string id="Search.Options.FilterResults.People" value="நபர்கள்"/>
+  <string id="Search.Options.FilterResults.CallLetters" value="அழைப்பு எழுத்துகள்"/>
+  <!-- {0}: integer number of search results-->
+  <string id="Search.ListCounter" value="{0} கண்டுபிடிக்கப்பட்டது"/>
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="ஒலியற்றநிலை"/>
+
+  <!-- error message (please add new error messages in this section) -->
+  <!-- CantPlayVideoError used in error dialog when we can't play wms file, you can add: {0} strWmsErrorDesc, {1} strWmsErrorCode, {2} strWmsErrorUrl -->
+  <string id="CannotPlayVideoError" value="இந்த வீடியோவை இயக்க முடியவில்லை. தயவுசெய்து மறுபடி முயற்சி செய்யவும் அல்லது 800-555-5555ல் சேவை வழங்குபவரைத் தொடர்புகொள்ளவும்."/>
+
+  <!-- Common -->
+  <string id="Yes" value="ஆம்"/>
+  <string id="No" value="இல்லை"/>
+  <string id="OK" value="சரி"/>
+  <string id="Done" value="முடிந்தது"/>
+  <!-- {0}: Program date; {1}: Program time-->
+  <string id="ProgramDateAndTime" value="{0}, {1}"/>
+  <!-- {0}: Program start time; {1}: Program end time-->
+  <string id="ProgramTime" value="{0}&#8211;{1}"/>
+  <!-- {0}: Program start time; {1}: Program end time ? Why doesn't this use rating?-->
+  <string id="ProgramTimeAndRating" value="{0}&#8211;{1}"/>
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+<string id="MiniTimeFormat" value="HH:mm"/>
+
+  <!-- The ShortTime format pattern is used on pages that display the {Time} variable.  Leave empty for default behavior. -->
+  <!-- See datetimeformatinfoclasstopic.asp link above for more info. -->
+<string id="ShortTimeFormat" value=""/>
+<string id="ShortTimeFormat.AmDesignator" value=""/>
+<string id="ShortTimeFormat.PmDesignator" value=""/>
+
+<string id="MicroDateFormat" value="d/M"/>
+<string id="MiniDateFormat" value="ddd d/M"/>
+<string id="ShortDateFormat" value="dddd d/M"/>
+<string id="DayFormat" value="ddd"/>
+  <string id="Today" value="இன்று"/>
+  <string id="Tomorrow" value="நாளை"/>
+  <string id="TimeLeft" value="{0} மீதமுள்ளது"/>
+  <string id="Past" value="கடந்தது"/>
+  <string id="Rental.Expired" value="உங்கள் வாடகை காலாவதியாகிவிட்டது."/>
+  <!-- {0}: Days (int)-->
+  <string id="Rental.Day" value="1&#0160;நாள்"/>
+  <string id="Rental.Days" value="{0}&#0160;நாட்கள்"/>
+  <string id="Rental.Days.Confirm" value="{0}&#0160;DAY"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Rental.Hour" value="1&#0160;மணி"/>
+  <string id="Rental.Hours" value="{0}&#0160;மணிகள்"/>
+  <string id="Rental.Hours.Confirm" value="{0}&#0160;மணி"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Rental.Minute" value="1&#0160;நிமி"/>
+  <string id="Rental.Minutes" value="{0}&#0160;நிமிடங்கள்"/>
+  <string id="Rental.Minutes.Confirm" value="{0}&#0160;நிமி"/>
+  <!-- {0} seconds (int)-->
+  <string id="Duration.Seconds" value="{0} வினாடி"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Duration.Minutes" value="{0} நிமி"/>
+  <!-- {0}: Minutes (int) {1}: Seconds (int)-->
+  <string id="Duration.MinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Duration.Hours" value="{0} மணி"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int) -->
+  <string id="Duration.HoursMinutes" value="{0} {1}"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int); {2}: Seconds -->
+  <string id="Duration.HoursMinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Days (int)-->
+  <string id="Duration.Days" value="{0} நாட்கள்"/>
+  <!-- {0}: Timespan-->
+  <string id="Duration.TimeLeft" value="{0} மீதமுள்ளது"/>
+  <!-- {0}: Episode title; {1}: Episode description-->
+  <string id="EpisodeTitleAndDescription" value="&#8220;{0}&#8221; - {1}"/>
+  <!-- {0}: Episode title-->
+  <string id="EpisodeTitle" value="&#8220;{0}&#8221;"/>
+  <!-- {0} program title; {1} episode title-->
+  <string id="TitleAndEpisodeTitle" value="{0} - &#8220;{1}&#8221;"/>
+  <!-- {0} program title-->
+  <string id="TitleSansEpisode" value="{0}"/>
+  <string id="Ellipsis" value="..."/>
+  <!-- {0}: Episode title-->
+  <string id="Episode" value="&#8220;{0}&#8221;"/>
+  <string id="Comma" value=","/>
+  <string id="Space" value=" "/>
+  <string id="Period" value="."/>
+  <string id="Slash" value="\"/>
+  <string id="Bullet" value="  &#0183;  "/>
+  <!-- {0} Current index; {1}: Total index-->
+  <string id="ListCounter" value="{1} ல் {0}"/>
+  <!-- {0}: Rating-->
+  <string id="ParenthesizedString" value="({0})"/>
+  <string id="SettingsString" value="அமைப்புகள்"/>
+  <string id="WatchTV" value="டிவி பார்"/>
+  <string id="OperationFailed" value="இயக்கத்தை முடிக்க முடியவில்லை"/>
+  <string id="Shutdown.Reboot" value="முறைமை மீள்தொடங்கு"/>
+  <!-- {0}: Timespan -->
+  <string id="Shutdown.Reboot.CountDown" value="முறைமை தானியக்கமாக {0}-ல் மீள்தொடங்கும்."/>
+  <string id="Shutdown.Cancel" value="மீள்தொடக்கம் செய்யாதே"/>
+  <string id="Shutdown.Prompt" value="உங்கள் முறைமை மீள்தொடக்கம் செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="PowerOff" value="மின்சக்தி நிறுத்தம்"/>
+  <string id="PowerOff.Prompt" value="உங்கள் முறைமை முழுநிறுத்தம் செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="PowerOff.Yes" value="முழுநிறுத்தம்"/>
+  <string id="PowerOff.No" value="முழுநிறுத்தம் செய்யாதே"/>
+  <string id="Restart.Prompt" value="உங்கள் முறைமை மீள்தொடக்கம் செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="Restart.Yes" value="மீள்தொடங்கு"/>
+  <string id="Restart.No" value="மீள்தொடக்கம் செய்யாதே"/>
+  <string id="Hibernate.Prompt" value="உங்கள் முறைமை சிறுஓய்வு செய்ய நீங்கள் நிச்சயமாக விரும்புகிறீர்களா?"/>
+  <string id="Hibernate.Yes" value="சிறுஓய்வு"/>
+  <string id="Hibernate.No" value="சிறுஓய்வு செய்யாதே"/>
+  <string id="StandBy.WatchTV" value="டிவி-ஐ பார்ப்பதற்கு OK-ஐ அழுத்தவும் "/>
+  <string id="TryAgain" value="மறுபடி முயற்சி செய்யவும்"/>
+  <string id="Content.Unavailable.AutoDetuned" value="{0} செயலற்ற நேரத்திற்கு பிறகு வீடியோ ஒத்திசைவு நீக்கப்பட்டது"/>
+  <string id="Content.Unavailable.DRM" value="உள்ளடக்கம் காண முடியவில்லை"/>
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="இந்த சேனலை காண்பதற்கு மேற்கொண்டு வன்பொருள் தேவை"/>
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="மேலும் தகவல்கள் அறிய, தயவுசெய்து உங்களுடைய சேவை வழங்குபவரைத் தொடர்புகொள்ளவும்"/>
+  <string id="Content.Unavailable.HDMI" value="HDMI உள்ளடக்கம் காண முடியவில்லை"/>
+  <string id="Content.Unavailable.Service" value="உள்ளடக்கம் கிடைக்கவில்லை"/>
+  <string id="Content.Unavailable.Service.Initializing" value="தகவல்கள் பெறப்படுகின்றன.  சில நொடிகளில் உள்ளடக்கம் கிடைக்கும்."/>
+  <string id="Content.Unavailable.VOD" value="வீடியோ இயக்க முடியவில்லை"/>
+  <string id="Content.Unavailable.PlaybackDisabled" value="பின் இயக்கம் இந்த நேரத்தில் அனுமதிக்கப்படவில்லை."/>
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="பின் இயக்கம் {0} வரை அனுமதிக்கப்படவில்லை."/>
+  <string id="Content.Unavailable.ChangeChannels" value="மற்ற நிகழ்ச்சிகளைப் பார்க்க சேனல்களை மாற்றவும்"/>
+  <string id="Content.Unavailable.CA" value="நீங்கள் இந்த தொகுப்புக்கு சந்தா செய்யவில்லை"/>  
+  <string id="Content.Unavailable.CA.Message1" value="உங்கள் பெட்டியில் கான்டோசோ ஸ்போர்ட்ஸ் பெற 1-800-000-0000 அழைக்கவும்"/>
+  <string id="Content.Unavailable.CA.Message2" value="மாதத்திற்கு $0 மட்டும்"/>
+  <string id="Diagnostic" value="நுணுக்கமான சோதனை தகவல்"/>
+  <string id="Diag.Header" value="நுணுக்கமான சோதனை தகவல்கள்"/>
+  <string id="Diag.NotAvail" value="கிடைக்கவில்லை"/>
+  <string id="Diag.Status" value="    நிலை: "/>
+  <string id="Diag.Available" value="கிடைக்கின்றது"/>
+  <string id="Diag.Unreach" value="அடையமுடியவில்லை"/>
+  <string id="Diag.Unknown" value="தெரியவில்லை"/>
+  <string id="Diag.Bootstrap" value="பூட்ஸ்ட்ரேப்"/>
+  <string id="Diag.BootstrapIP" value="பூட்ஸ்ட்ரேப் ஐபி #"/>
+  <string id="Diag.BoxID" value="பெட்டி ஐடி"/>
+  <string id="Diag.BoxIP" value="பெட்டி ஐபி"/>
+  <string id="Diag.DHCP" value="DHCP ஐபி"/>
+  <string id="Diag.Gateway" value="கேட்வே ஐபி"/>
+  <string id="Diag.DNSServer" value="DNS சர்வர் ஐபி #"/>
+  <string id="ConfigurableMenu.UpdateNotification" value="உங்கள் மெனு புதுப்பிக்கப்பட்டு கொண்டிருக்கிறது"/>
+  <string id="PPPoE.Setting" value="PPPOE Setting"/>
+  <string id="PPPoE.Setting.UserName" value="UserName:"/>
+  <string id="PPPoE.Setting.Password" value="Password:"/>
+  <string id="PPPoE.Setting.Connect" value="Connect"/>
+  <string id="PPPoE.Setting.Reboot" value="Reboot"/>
+  <string id="PPPoE.Setting.Disconnect" value="Disconnect"/>
+  <string id="PPPoE.Setting.Advanced" value="Advanced..."/>
+  <string id="PPPoE.Setting.Save" value="Save"/>
+  <string id="PPPoE.Setting.Back" value="Back"/>
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="Automatically use my Windows logon name and password"/>
+  <string id="PPPoE.Setting.Advanced.CHAP" value="Challenge Handshake Password Authentication Protocol (CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="Microsoft CHAP (MS-CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="Microsoft CHAP Version 2 (MS-CHAP v2)"/>
+  <string id="PPPoE.Setting.Advanced.Shiva" value="Shiva's Password Authentication Protocol"/>
+  <string id="PPPoE.Setting.Advanced.PAP" value="Unencrypted password (PAP)"/>
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="Use data encrytion"/>
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="Use software compression"/>
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="Use IP header compression"/>
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="Use Default Gateway"/>
+  <string id="PPPoE.Setting.Advanced.Save" value="Save"/>
+  <string id="PPPoE.Setting.Advanced.Back" value="Back"/>
+  <string id="PPPoE.Connect" value="Dialing... please wait"/>
+  <string id="PPPoE.Connect.Status" value="Status:"/>
+  <!-- {0}: Dead state message; {1}: Dead state status-->
+  <string id="DeadState.MessageFormat" value="{0} (Error# {1})"/>
+  <string id="DeadState.DeadStateMessage" value="Television is not currently available. Choose Restart to try connecting again. If this problem continues, contact customer service."/>
+  <string id="NetworkWizard.Setting" value="Network Wizard"/>
+  <string id="NetworkWizard.Setting.DHCP" value="DHCP"/>
+  <string id="NetworkWizard.Setting.PPPoE" value="PPPoE"/>
+  <string id="NetworkWizard.Setting.StaticIP" value="Static IP"/>
+  <string id="NetworkWizard.Setting.Next" value="Next"/>
+  <string id="NetworkWizard.Setting.Tips" value="Choose connection type, then press Next button to proceed with configuration."/>
+  <string id="DHCP.Setting" value="DHCP Setting"/>
+  <string id="DHCP.Setting.Desc" value="Press reboot button to set DHCP."/>
+  <string id="DHCP.Setting.Reboot" value="Reboot"/>
+  <string id="DHCP.Setting.Back" value="Back"/>
+  <string id="StaticIP.Setting" value="Static IP Setting"/>
+  <string id="StaticIP.Setting.IPAddr" value="IP Addr:"/>
+  <string id="StaticIP.Setting.Mask" value="Mask:"/>
+  <string id="StaticIP.Setting.Gate" value="Gate:"/>
+  <string id="StaticIP.Setting.DNS" value="DNS:"/>
+  <string id="StaticIP.Setting.WINS" value="WINS:"/>
+  <string id="StaticIP.Setting.Reboot" value="Reboot"/>
+  <string id="StaticIP.Setting.Back" value="Back"/>
+  <!-- {0}: Timespan -->
+  <string id="BootstrapRetry.CountDown" value="The connection will be retried in {0}."/>
+  <string id="BootstrapRetry.TryAgain" value="Try again now"/>
+  <string id="BootstrapRetry.Message" value="Your TV receiver is temporarily unable to connect to the EricssonTV service." />
+  <string id="BootstrapRetry.Header" value="Service connection error" />
+  <string id="BootstrapRetry.Diagnostics" value="Diagnostics" />
+
+  <!-- HDMI cable connected or disconnected, HDCP (video encryption) errors -->
+  <string id="HDMI.Plugged" value="HDMI வெளியீட்டு இப்போது செயலாக்கப்பட்டுள்ளது."/>
+  <string id="HDMI.Unplugged" value="HDMI வெளியீட்டு முடக்கப்பட்டுள்ளது. (எச்1000)"/>
+  <string id="HDMI.HDCP.Unsupported" value="உங்கள் உயர் வரையறை தொடர்புக்கு மேலாக உங்கள் தொலைக்காட்சியில் HDCP வீடியோ ஆதரிக்கப் படுவதில்லை. (எச்1001)"/>
+  <string id="HDMI.HDCP.Revoked" value="உங்கள் தொலைக்காட்சியில் HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. மானிட்டர் HDCP ஆதரிக்கவில்லை. (எச்1002)"/>
+  <string id="HDMI.HDCP.LevelExceeded" value="உங்கள் தொலைக்காட்சியில் HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. அளவுக்கு அதிகமான கருவிகள் இணைக்கப்பட்டுள்ளன. (எச்1003)"/>
+  <string id="HDMI.HDCP.StbNoKeys" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. HDCP விசைகள் செட்-டாப் பெட்டிக்கு இல்லை. (எச்1004)"/>
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. HDCP தொடர்பு நேர்மை சரிபார்ப்பது தவறிவிட்டது. (எச்1005)"/>
+  <string id="HDMI.HDCP.NoReceiverConnected" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. அலைவாங்கி இணைக்கப்படவில்லை. (எச்1006)"/>
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. TX AN எழுதுவது தவறிவிட்டது. (எச்1007)"/>
+  <string id="HDMI.HDCP.TxAnReadFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. TX AN படிப்பது தவறிவிட்டது. (எச்1008)"/>
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. RX AN எழுதுவது தவறிவிட்டது. (எச்1009)"/>
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. செல்லாத AKSV வடிவமைப்பு. (எச்1010)"/>
+  <string id="HDMI.HDCP.AksvWriteFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. AKSV எழுதுவது தவறிவிட்டது. (எச்1011)"/>
+  <string id="HDMI.HDCP.BksvWriteFailed" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. BKSV எழுதுவது தவறிவிட்டது. (எச்1012)"/>
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="HDMI-க்கு மேலாக இந்த வீடியோவை காண்பிக்க முடியாது. செல்லாத BKSV வடிவமைப்பு. (எச்1013)"/>
+
+  <!-- DTT/offline experience -->
+  <string id="DTT.Reconnected" value="Broadband connection reestablished" />
+  <string id="DTT.Disconnected" value="You are not currently connected to broadband. Some channels and features may be disabled." />
+  <string id="DTT.Troubleshoot" value="Troubleshoot" />
+  
+  <!-- XHTML Browser -->
+  <string id="Browser.LoadingPage" value="பக்கம் ஏற்றப்பட்டுகொண்டிருக்கிறது..."/>
+
+  <!-- MHEG5 error reporting -->
+  <string id="MHEG.Unavailable" value="Interactive features temporarily unavailable. Please try again later" />
+
+ <!-- localized image names -->
+  <string id="Image.Icon.HD" value="Icon.HD.png" />
+  <string id="Image.Logo.VideoOnDemand" value="Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="Brand_Service_Banner.png"/>
+  <string id="Image.ScreenSaverLogo" value="ScreenSaverLogo.png"/>
+  <string id="Image.BrowseButton.OKlabel" value="BrowseButton.OKlabel.png"/>
+  <string id="Image.VideoStill.Future" value="VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.CA" value="VideoStill.Locked.CA.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="VideoStill.Locked.jpg"/>
+
+  <!-- ISO 639-1 language code to display name map. -->
+  <string id="ISO.af" value="Afrikaans"/>
+  <string id="ISO.ar" value="Arabic"/>
+  <string id="ISO.az" value="Azeri"/>
+  <string id="ISO.be" value="Belarusian"/>
+  <string id="ISO.bg" value="Bulgarian"/>
+  <string id="ISO.ca" value="Catalan"/>
+  <string id="ISO.cs" value="Czech"/>
+  <string id="ISO.cy" value="Welsh"/>
+  <string id="ISO.da" value="Danish"/>
+  <string id="ISO.de" value="German"/>
+  <string id="ISO.el" value="Greek"/>
+  <string id="ISO.en" value="English"/>
+  <string id="ISO.es" value="Spanish"/>
+  <string id="ISO.et" value="Estonian"/>
+  <string id="ISO.eu" value="Basque"/>
+  <string id="ISO.fa" value="Persian"/>
+  <string id="ISO.fi" value="Finnish"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.fr" value="French"/>
+  <string id="ISO.gd" value="Gaelic"/>
+  <string id="ISO.gl" value="Galician"/>
+  <string id="ISO.gu" value="Gujarati"/>
+  <string id="ISO.he" value="Hebrew"/>
+  <string id="ISO.hi" value="Hindi"/>
+  <string id="ISO.hr" value="Croatian"/>
+  <string id="ISO.hu" value="Hungarian"/>
+  <string id="ISO.hy" value="Armenian"/>
+  <string id="ISO.id" value="Indonesian"/>
+  <string id="ISO.is" value="Icelandic"/>
+  <string id="ISO.it" value="Italian"/>
+  <string id="ISO.ja" value="Japanese"/>
+  <string id="ISO.ka" value="Georgian"/>
+  <string id="ISO.kk" value="Kazakh"/>
+  <string id="ISO.kn" value="Kannada"/>
+  <string id="ISO.ko" value="Korean"/>
+  <string id="ISO.ky" value="Kyrgyz"/>
+  <string id="ISO.lt" value="Lithuanian"/>
+  <string id="ISO.lv" value="Latvian"/>
+  <string id="ISO.mk" value="Macedonian"/>
+  <string id="ISO.mn" value="Mongolian"/>
+  <string id="ISO.mr" value="Marathi"/>
+  <string id="ISO.ms" value="Malay"/>
+  <string id="ISO.nl" value="Dutch"/>
+  <string id="ISO.no" value="Norwegian"/>
+  <string id="ISO.pa" value="Punjabi"/>
+  <string id="ISO.pl" value="Polish"/>
+  <string id="ISO.pt" value="Portuguese"/>
+  <string id="ISO.ro" value="Romanian"/>
+  <string id="ISO.ru" value="Russian"/>
+  <string id="ISO.sa" value="Sanskrit"/>
+  <string id="ISO.sk" value="Slovak"/>
+  <string id="ISO.sl" value="Slovenian"/>
+  <string id="ISO.sq" value="Albanian"/>
+  <string id="ISO.sr" value="Serbian"/>
+  <string id="ISO.sv" value="Swedish"/>
+  <string id="ISO.sw" value="Swahili"/>
+  <string id="ISO.ta" value="Tamil"/>
+  <string id="ISO.te" value="Telugu"/>
+  <string id="ISO.th" value="Thai"/>
+  <string id="ISO.tr" value="Turkish"/>
+  <string id="ISO.tt" value="Tatar"/>
+  <string id="ISO.uk" value="Ukrainian"/>
+  <string id="ISO.ur" value="Urdu"/>
+  <string id="ISO.uz" value="Uzbek"/>
+  <string id="ISO.vi" value="Vietnamese"/>
+  <string id="ISO.zh" value="Chinese"/>
+
+  <!-- Unit testing strings are used for debugging builds only -->
+  <string id="UnitTestingPipTuning.Description" value="This page measures PIPs performance by tuning to all available live channels over and over again using Video.TuneToChannel." />
+  <string id="UnitTestingPipTuning.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingScreenModeSwitching.Description" value="This page tests screen mode switching code by changing mode over and over again. Please make sure your TV is connected using component or HDMI/DVI cables or you won't be able to see the screen when in high definition mode." />
+  <string id="UnitTestingScreenModeSwitching.Stats" value="We're currently running in {Mode} mode (waiting for Compositor.Status event? {Switching}). This test has run {Times} times and will run again in {Seconds} seconds." />
+  <string id="UnitTestingRightsPCON.Description" value="This page measures rights/PCON performance by scanning all channels and checkin user's rights to them." />
+  <string id="UnitTestingRightsPCON.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingPageLoading.Description" value="This page will be reloaded 50 times to measure page creation and loading performance, please wait..." />
+  <string id="UnitTestingPageLoading.Statistics" value="Loaded {TimesLoaded} times&#13;Last loading delay {LastDelay} ms&#13;Average {AvgDelay} ms" />
+
+  <!-- Emergency Alert System Strings -->  
+  <string id="EAS.Level1" value="*** தேசிய அவசர நிலை***"/>
+  <string id="EAS.Warning" value="*** எச்சரிக்கை ***"/>
+  <string id="EAS.Watch" value="*** கவனி ***"/>
+  <string id="EAS.Emergency" value="*** அவசரம் ***"/>
+  <string id="EAS.Statement" value="*** அறிக்கை ***"/>
+  <string id="EAS.Dismiss" value="விழிப்பூட்டலைத் தவிர்க்க EXIT-ஐ அழுத்தவும்"/>
+
+  <string id="ExternPrice" value=" " />
+</stringtable>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <ServiceSelector class="Page" initialFocus="_selectButton" limoline="350" >
+
+    <Panel class="Panel.Masthead" height="70"/>
+    <Panel class="Panel.VideoOverlay"/>
+
+    <Panel class="Panel.MenuBackground" clipchildren="true" top="25" width="640">
+      <ListMenu class="Menu.Start" left="33"  id="_serviceListMenu" />
+    </Panel>
+
+    <!-- panel with settings on the right and service description on the left -->
+    <HorizontalFlowPanel top="80" left="50" width="550">
+
+      <!-- left side panel with description of service -->
+      <VerticalFlowPanel width="370">
+        <Text id="_bootstrap" class="Text.ServiceSelect" width="370"/>
+        <!-- spacer -->
+        <Panel height="10" />
+        <!-- miscellaneous info -->
+        <HorizontalFlowPanel>
+          <Text class="Text.ServiceSelect" width="140">Status:</Text>
+          <Text id="_status" class="Text.ServiceSelect" width="230"/>
+        </HorizontalFlowPanel>
+        <HorizontalFlowPanel>
+          <Text class="Text.ServiceSelect" width="140">Backend SMS:</Text>
+          <Text id="_backendsms" class="Text.ServiceSelect" width="230"/>
+        </HorizontalFlowPanel>
+        <HorizontalFlowPanel>
+          <Text class="Text.ServiceSelect" width="140">Build:</Text>
+          <Text id="_build" class="Text.ServiceSelect" width="230"/>
+        </HorizontalFlowPanel>
+        <HorizontalFlowPanel>
+          <Text class="Text.ServiceSelect" width="140">Compatible Clients:</Text>
+          <Text id="_compatibleClients" class="Text.ServiceSelect" width="230"/>
+        </HorizontalFlowPanel>
+          <!-- spacer -->
+          <Panel height="8" />
+          <TextBox class="TextBox.ProgramInfo" id="_notes" width="320" height="210" maxlines="50" fontStyle="Reg16"/>
+        <!-- spacer -->
+        <Panel height="3" />
+        <Text class="EditText" padding="rect(5,0,5,0)" layout="center" height="20" width="530" id="_clientId" justification="center"/>
+        <!--<Text id="_notes" class="Text.ServiceSelect" width="310" height="200" /> -->
+      </VerticalFlowPanel>
+
+      <!-- right side panel with buttons and settings -->
+      <VerticalFlowPanel id="_topPanel" width="180">
+        <!-- first panel has select/skip on left and client's info on the right -->
+        <VerticalFlowPanel>
+          <Button class="Button.Menu" width="180" id="_selectButton" onClick="OnClick_Select" href="page:Welcome.xml">Connect</Button>
+          <Button class="Button.Menu" width="180" id="_skipButton" onClick="OnClick_Skip" href="page:Welcome.xml">Skip</Button>
+          <Button class="Button.Menu" width="180" id="_buildButton" href="page:BuildSelector.xml">Choose Build</Button>
+          <Button class="Button.Menu" width="180" id="_quitButton" onClick="OnClick_Quit" visible="false">Quit Client</Button>
+        </VerticalFlowPanel>
+        <!-- spacer -->
+        <Panel height="8" />
+        <!-- radios to pick server off the network or from local file -->
+        <RadioButtonGroup id="_configSource" width="6">
+          <RadioButton class="RadioButton" width="180" id="_radioButtonWSConfig" onclick="OnClick_UpdateFromWS">Web Service</RadioButton>
+          <RadioButton class="RadioButton" width="180" id="_radioButtonLocalConfig" onclick="OnClick_UpdateFromLocal">tv2config.xml</RadioButton>
+        </RadioButtonGroup>
+        <Panel height="8" />
+        <!-- checkboxes for settings -->
+        <VerticalFlowPanel>
+          <Checkbox class="Checkbox" width="180" id="_autoProvisionCheckbox" selected="false">Auto Provision</Checkbox>
+          <Checkbox class="Checkbox" width="180" id="_forceUpgradeCheckbox">Force Upgrade</Checkbox>
+        </VerticalFlowPanel>
+        <Panel height="8" />
+        <!-- client information -->
+        <Text class="Text.ServiceSelect" width="180" height="100" id="_extraInfo" />
+      </VerticalFlowPanel>
+      <!-- end of right side panel -->
+
+    </HorizontalFlowPanel>
+  </ServiceSelector>
+</uidescription>

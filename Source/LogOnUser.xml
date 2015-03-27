@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription version="1.1">
+    <MrmlPage id="LogOnPage">
+        <Scripts>
+            <Script>
+            // <![CDATA[
+            var userName;
+            function OnPageLoad() {
+                userName = getProperty("LogOnPage", "params/name");
+                setProperty("nameLabel", "text", userName);
+            }
+            function OnLogOnSuccess() {
+                var homepage = getProperty("personalizationDS", "users/user[@name='" + userName + "']/@homepage");
+                
+                if (homepage == "" || homepage == null)
+                    invokeAction(null, "WatchTV", null);
+                else
+                    invokeAction(null, "NavigateToPage", homepage);
+            }
+            function OnLogOnFailure() {
+                setProperty("pin", "value", "");
+            }
+        
+            // ]]>
+            </Script>
+        </Scripts>
+        <Text id="TVLabel1" justification="right" fontstyle="reg36" top="80" left="130" height="60" width="160">
+            Name:
+        </Text>
+        <Text id="nameLabel" fontstyle="reg36" top="80" left="310" height="60" width="263">
+        </Text>
+        <Text id="TVLabel2" justification="right" fontstyle="reg36" top="160" left="130" height="60" width="160">
+            Pin:
+        </Text>
+        <PinEntry ID="pin" Left="310" Top="160" Height="60" Width="80" FontStyle="reg36"/>
+        <Button id="logOn" fontstyle="bold56" height="100" justification="center" left="150" top="300" width="340">
+            Log on
+            <Actions>
+                <Event type="onclick" action="LogOn" target="logOn" />
+                <Action name="LogOn" type="personalization" action="logon"
+                    data="name=nameLabel&amp;pin=pin" onsuccess="ScriptOnLogOnSuccess" onfailure="ScriptOnLogOnFailure"/>
+            </Actions>
+        </Button>
+        <DataSource id="personalizationDS" uri="local://personalization" />
+        <Actions>
+            <Action name="WatchTV" type="navigate" data="videofullscreen"></Action>
+            <Action name="NavigateToPage" type="navigate"></Action>
+            <Action name="ScriptOnPageLoad" type="script" function="OnPageLoad"></Action>
+            <Action name="ScriptOnLogOnFailure" type="script" function="OnLogOnFailure"></Action>
+            <Action name="ScriptOnLogOnSuccess" type="script" function="OnLogOnSuccess"></Action>
+            <Event type="onenter" action="ScriptOnPageLoad" target="LogOnPage"></Event>
+        </Actions>
+    </MrmlPage>
+</uidescription>

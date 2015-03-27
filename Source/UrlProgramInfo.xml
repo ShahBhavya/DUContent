@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <UrlProgramInfoPage class="Page.Animated">
+<!--
+		<Video class="Video.FullScreen" pipe="FULLSCREEN" ispip="false"/>
+-->
+		<ImageFlipper class="ImageFlipper.UrlBackground" id="_overlay"/>
+     
+    <Text class="Text.HeaderTitle" id="_title">#ProgramInfo.ProgramInfo</Text>
+    <Text class="Text.Clock">{Time}</Text>
+    
+    <Panel class="Panel.WholePage" id="_content">
+
+        <Panel class="Panel.UrlProgramInfo">
+          <VerticalFlowPanel class="VerticalFlowPanel.Menu.UrlProgramInfo">
+            <Button class="Button.Vertical" id="_watch" onClick="OnClick_Watch">#ProgramInfo.Watch</Button>
+            <Button class="Button.Vertical" id="_rent" onClick="OnClick_Rent"/>
+          </VerticalFlowPanel>
+
+          <Image class="Image.Poster.UrlProgramInfo" id="_poster"/>
+
+          <VerticalFlowPanel class="VerticalFlowPanel.Content.UrlProgramInfo">
+            <Image class="Image.Poster.UrlProgramInfo" id="_poster"/>
+            <Text class="Text.ProgramInfo.ProgramTitle.Logo" id="_title"/>
+            <Text class="Text.Expiration" id="_expiration"/>
+            <Text class="Text.ProgramInfo.TimeAndRating.Logo" id="_rentalInfo"/>
+            <Text class="Text.ProgramInfo.Description" id="_description" />
+          </VerticalFlowPanel>
+        </Panel>
+    </Panel>
+  </UrlProgramInfoPage>
+</uidescription>

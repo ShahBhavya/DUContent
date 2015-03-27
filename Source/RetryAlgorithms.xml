@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RetryConfigurations>	
+  <!--  GENERAL NOTES:
+        ===================================================================================================
+        If a RetryAlgorithm is specified, but no retry implementation is provided, that means that the client
+        currently does not retry, but that the task has been encapsulated so that it could be retried if an 
+        algorithm were provided here 
+  -->
+
+  <!--  BASE RETRY CLASSES:
+        ===================================================================================================
+        ===================================================================================================  -->
+
+  <!--  WebException_Base Class
+        ===================================================================================================
+        This base retry class lists all the exceptions that can be thrown from web services  -->
+  <RetryAlgorithm>
+    <Name>WebException_Base</Name>
+    <RetryExceptions>
+      <Exception>System.Net.WebException</Exception>
+      <Exception>System.Xml.XmlException</Exception>
+      <Exception>System.IO.IOException</Exception>
+      <Exception>System.Web.Services.Protocols.SoapException</Exception>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+      <Exception>System.Net.Sockets.SocketException</Exception>
+      <Exception>System.ArgumentException</Exception>
+      <Exception>System.ObjectDisposedException</Exception>
+      <Exception>System.InvalidOperationException</Exception>
+      <Exception>System.FormatException</Exception>
+      <Exception>Microsoft.TV2.Crypto.Authenticator.RecoverStreamException</Exception>
+      <Exception>Microsoft.TV2.Client.ClientAuthentication.ServerSideClientAuthException</Exception>
+      <Exception>Microsoft.TV2.Client.ClientAuthentication.ClientAuthProtocolException</Exception>
+      <Exception>Microsoft.TV2.Client.ClientAuthentication.NonAuthenticatedServerResponseException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <!-- ^ End WebException_Base Class ^ -->
+
+  <!--  Bootstrap_Base Class
+        ===================================================================================================
+        Base class for bootstrap retries  -->
+  <RetryAlgorithm class = "WebException_Base">
+    <Name>Bootstrap_Base</Name>
+    <BackOffDelay>3000</BackOffDelay>
+    <BackOffCoefficient>2.0</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>333000</MaxDelay>
+    <MaxRetries>10</MaxRetries>
+  </RetryAlgorithm>
+  <!-- ^ End Bootstrap_Base Class ^ -->
+
+  <!--  Infrastructure_Base Class
+        ===================================================================================================
+        Base class for general infrastructure retries  
+        (GetAllDeviceValues, GetServiceKeysByTime, TranscribeRDB, GetRDB, GetFile_TFTP) -->
+  <RetryAlgorithm class = "WebException_Base">
+    <Name>Infrastructure_Base</Name>
+    <BackOffDelay>30000</BackOffDelay>
+    <BackOffCoefficient>2.0</BackOffCoefficient>
+    <SpreadRatio>0.5</SpreadRatio>
+    <MaxDelay>333000</MaxDelay>
+    <MaxRetries>10</MaxRetries>
+  </RetryAlgorithm>
+  <!-- ^ End Infrastructure_Base Class ^ -->
+
+  <!--  InfiniteBackground_Base Class
+        ===================================================================================================
+        Base class for background tasks that are retriend indefinitely
+        (GetChannelMap, GetNDSList, PresentTicket, AcknowledgeMessage) -->
+  <RetryAlgorithm class = "WebException_Base">
+    <Name>InfiniteBackground_Base</Name>
+    <BackOffDelay>30000</BackOffDelay>
+    <BackOffCoefficient>2.0</BackOffCoefficient>
+    <SpreadRatio>0.08</SpreadRatio>
+    <MaxDelay>2700000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+  </RetryAlgorithm>
+  <!-- ^ End InfiniteBackground_Base Class ^ -->
+
+  <!--  Certificate_Base Class
+        ===================================================================================================
+        Base class for certificate enrollment (CertEnrollment) -->
+  <RetryAlgorithm class = "WebException_Base">
+    <Name>Certificate_Base</Name>
+    <BackOffDelay>21600000</BackOffDelay>
+    <BackOffCoefficient>1.0</BackOffCoefficient>
+    <SpreadRatio>0.0</SpreadRatio>
+    <MaxDelay>21600000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Crypto.CryptoException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <!-- ^ End Certificate_Base Class ^ -->
+
+  <!--  NoRetry_Base Class
+        ===================================================================================================
+        Base class for no retries -->
+  <RetryAlgorithm>
+    <Name>NoRetry_Base</Name>
+    <BackOffDelay>0.0</BackOffDelay>
+    <BackOffCoefficient>1.0</BackOffCoefficient>
+    <SpreadRatio>0.0</SpreadRatio>
+    <MaxDelay>0</MaxDelay>
+    <MaxRetries>0</MaxRetries>
+  </RetryAlgorithm>
+  <!-- ^ End NoRetry_Base Class ^ -->
+
+  <!--  ===================================================================================================
+        ===================================================================================================  
+        END BASE RETRY CLASSES  -->
+
+
+
+  <!--  RETRY CLASSES:
+        ===================================================================================================
+        ===================================================================================================  -->
+
+  <!--  Bootstrap
+        =================================================================================================== -->
+  <RetryAlgorithm class = "WebException_Base">
+    <!-- Trigger: Boot
+         Behavior: Logs in to the server-->
+    <Name>LoginEx_Bootstrap</Name>
+    <BackOffDelay>3000</BackOffDelay>
+    <BackOffCoefficient>2.0</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>333000</MaxDelay>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class="Bootstrap_Base">
+    <Name>GetAccountSessionKey</Name>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class="Bootstrap_Base">
+    <Name>GetFile</Name>
+    <SpreadRatio>0.5</SpreadRatio>
+    <MaxDelay>60000</MaxDelay>
+    <MaxRetries>5</MaxRetries>
+    <RetryExceptions>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <!--  ^ End Bootstrap ^
+        =================================================================================================== -->
+
+
+  <!--  KDS/SMS rights 
+        =================================================================================================== -->
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <!-- Trigger: Client request rights
+             Behavior: Gets rights from server using KDS (http)
+                       Stops retrying after 2 attempts 
+                       Each retry will happen after 10 seconds (not randomized) -->
+    <Name>GetRights_Individual</Name>
+    <BackOffDelay>10000</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>1</SpreadRatio>
+    <MaxRetries>2</MaxRetries>
+    <MaxDelay>10000</MaxDelay>
+  </RetryAlgorithm>
+  
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <!-- Trigger: Client request rights for a subsystem
+         Behavior: Gets rights (group/individual) for a subsystem (LIVE etc) from server using KDS (http) -->
+    <Name>GetRights_Subsystem</Name>
+    <BackOffDelay>75000</BackOffDelay>
+    <SpreadRatio>0.4</SpreadRatio>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <Name>AVTicketManager_RefreshSessionKey</Name>
+    <BackOffDelay>120000</BackOffDelay>
+    <BackOffCoefficient>3</BackOffCoefficient>
+    <SpreadRatio>0.50</SpreadRatio>
+    <MaxDelay>1800000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+  </RetryAlgorithm>
+
+  <!--  ^ End KDS/SMS rights ^
+        =================================================================================================== -->
+ 
+  <!-- MDS Token -->
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <Name>MdsTokenRefresh</Name>
+    <BackOffDelay>30000</BackOffDelay>
+    <BackOffCoefficient>3</BackOffCoefficient>
+    <SpreadRatio>0.50</SpreadRatio>
+    <MaxDelay>1800000</MaxDelay>
+    <MaxRetries>6</MaxRetries>
+  </RetryAlgorithm>
+  
+  <!--  ^ End MDS Token ^
+        =================================================================================================== -->
+
+  =================================================================================================== -->
+
+  <!-- Cloud Token -->
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <Name>CloudTokenRefresh</Name>
+    <BackOffDelay>30000</BackOffDelay>
+    <BackOffCoefficient>3</BackOffCoefficient>
+    <SpreadRatio>0.50</SpreadRatio>
+    <MaxDelay>1800000</MaxDelay>
+    <MaxRetries>6</MaxRetries>
+  </RetryAlgorithm>
+
+  <!--  ^ End Cloud Token ^
+        =================================================================================================== -->
+
+  <!--  Edge Controller/Map webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class = "Infrastructure_Base">
+    <!-- Trigger: Boot
+         Behavior: Tries to load the DServer map from the EdgeControllerFromClientWS web service-->
+    <Name>GetEdgeMap_LoadDServerMapOnStart</Name>
+  </RetryAlgorithm>
+  <!--  ^ End Edge Controller/Map webservices ^
+        =================================================================================================== -->
+
+
+  <!--  UserStore webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <!-- Trigger: MD_Initialize, CM_Update notifications or Reload Metadata notificaiton with reload channel map set
+         Behavior: reloads the channel map from the user store-->
+    <Name>GetChannelMap_ParseChannelMapFromUserStore</Name>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>1.0</SpreadRatio>
+  </RetryAlgorithm>
+
+  <!--  TuningMap webservices 
+        =================================================================================================== -->
+
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <!--Trigger: Client, after SI loaded
+        Behavior: Get/Refresh Tune Map (http)
+    -->
+    <Name>TimeShiftFacade_LoadTuneMap</Name>
+    <BackOffDelay>10000</BackOffDelay>
+    <BackOffCoefficient>3</BackOffCoefficient>
+    <SpreadRatio>0.50</SpreadRatio>
+    <MaxDelay>600000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class = "InfiniteBackground_Base">
+    <!-- Trigger: Client when go to live program info
+             Behavior: request tuning info from TuningMap service(http) -->
+    <Name>TimeShiftFacade_GetTuningInfo</Name>
+    <BackOffDelay>75000</BackOffDelay>
+    <SpreadRatio>0.4</SpreadRatio>
+    <MaxRetries>3</MaxRetries>
+  </RetryAlgorithm>
+  
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: Client Start
+         Behavior: Gets All device values from the user store-->
+    <Name>GetAllDeviceValues_Start</Name>
+    <SpreadRatio>1.0</SpreadRatio>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: Failure of GetAllDeviceValues_Start
+         Behavior: Reloads all device values from the user store on a separate thread-->
+    <Name>GetAllDeviceValues_ReInitData</Name>
+    <BackOffDelay>15000</BackOffDelay>
+    <BackOffCoefficient>2</BackOffCoefficient>
+    <SpreadRatio>1.0</SpreadRatio>
+    <MaxDelay>3600000</MaxDelay>
+    <MaxRetries>31</MaxRetries>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: Set or Delete a UserStoreValue
+         Behavior: Sets or Deletes a UserStoreValue-->
+    <Name>SetOrDeleteDeviceValue_DoUserDataLoaderJob</Name>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Crypto.CryptoException</Exception>
+    </RetryExceptions>
+
+  </RetryAlgorithm>
+  
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: kDiagnostic_AVEnable Notification
+         Behavior: Collects AVDiagnostics data on worker thread upon receiving notification until it receives
+         a disable notification, at which point it writes the collected data to userstore -->
+    <Name>SetDeviceValue_AVEngineDiagnostics</Name>
+  </RetryAlgorithm>
+  <!--  ^ End UserStore ^ webservices 
+        =================================================================================================== -->
+
+
+  <!--  VodCatalog webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: Go to a Vod subpage
+         Behavior: Gets the subcategories and assets for that subpage -->
+    <Name>GetAssetsAndSubCategories_GetAssetsAndSubCategories</Name>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class = "NoRetry_Base">
+    <!-- Trigger: Guide Updated or ChannelMapUpdated
+         Behavior: Updates the SVodCache -->
+    <!-- This configuration contains 3 vodCatalogProxy calls:
+         VodCatalog.GetSVODCategory, VodCatalog.GetSRDPCategory, VodCatalog.GetAssets  -->
+    <Name>SVodManager_UpdateSVodCache</Name>
+  </RetryAlgorithm>
+  <!--  ^ End VodCatalog ^ webservices 
+        =================================================================================================== -->
+
+
+  <!--  ClientNotification webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class="InfiniteBackground_Base">
+    <!-- Trigger: Start Notification Engine
+           Behavior: Gets the Notification Delivery Services list -->
+    <Name>GetNotificationDeliveryServices_NotificationEngineTX</Name>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class="InfiniteBackground_Base">
+    <!-- Trigger: Start Notification Engine
+           Behavior: Presents the Client's Ticket to the notification service -->
+    <Name>PresentTicket_NotificationEngineTX</Name>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class="InfiniteBackground_Base">
+    <!-- Trigger: Start Notification Engine
+           Behavior: Sends an AcknowledgeMessage to the notification service -->
+    <Name>AcknowledgeMessage_NotificationEngineRX</Name>
+    <BackOffDelay>15000</BackOffDelay>
+  </RetryAlgorithm>
+  <!--  ^ End ClientNotification ^ webservices 
+        =================================================================================================== -->
+
+
+
+  <!--  CertificateProxyWS webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class="Certificate_Base">
+    <!-- Trigger: Start Client, Timer, or Change a UserStore value (USERSTORE_CLIENT_UPDATED event)
+         Behavior: Do Certificate Enrollment-->
+    <Name>CertEnrollment_Start</Name>
+  </RetryAlgorithm>
+
+  <RetryAlgorithm class="Certificate_Base">
+    <!-- Trigger: Called after initial cert enrollment to periodically update certs
+         Behavior: Do Certificate Enrollment periodically (hourly)-->
+    <Name>CertEnrollment_DoCertEnrollment</Name>
+    <BackOffDelay>3600000</BackOffDelay>
+  </RetryAlgorithm>
+
+  <!--  ^ End CertificateProxyWS ^ webservices 
+        =================================================================================================== -->
+
+  <!--  DVR webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class="Infrastructure_Base">
+    <Name>GetRecordingDefinition</Name>
+    <BackOffDelay>60000</BackOffDelay>
+    <MaxRetries>5</MaxRetries>
+  </RetryAlgorithm>  
+  <!--  ^ End DVR ^ webservices 
+        =================================================================================================== --> 
+
+  <!--  Advertisement webservices 
+        =================================================================================================== -->
+  <RetryAlgorithm class="NoRetry_Base">
+    <Name>ReportAdImpression</Name>
+  </RetryAlgorithm>  
+  <!--  ^ End Advertisement ^ webservices 
+        =================================================================================================== --> 
+
+  <!-- TODO -->
+  <!-- DLP: -->
+  <RetryAlgorithm>
+    <Name>Dlp_MigrateQueueCalls</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>5</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+
+  <!-- DVR: -->
+  <RetryAlgorithm>
+    <Name>Dvr_GetRecordingDeviceId</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>5</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>Dvr_SetRecordingDeviceId</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>5</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>Dvr_UploadNewRecordingInfo</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>2</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>45000</MaxDelay>
+    <MaxRetries>4</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>Dvr_VerifyKnownRecordings</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>3</BackOffCoefficient>
+    <SpreadRatio>0.5</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>Dvr_GetSchedule_AllCalls</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>5</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>Dvr_GetSchedule_Sync</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>5</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>43200000</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>Microsoft.TV2.Client.Soap.TV2SoapException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>SatelliteConfigurationHandler_UpdateDvbTunerCount</Name>
+    <BackOffDelay>5000</BackOffDelay>
+    <BackOffCoefficient>2</BackOffCoefficient>
+    <SpreadRatio>0.5</SpreadRatio>
+    <MaxDelay>3600000</MaxDelay>
+    <MaxRetries>5</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Net.WebException</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+
+  <!-- EPG
+  
+  <RetryAlgorithm>
+    <Name>GetHeaderXML</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMediaDescriptions</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMediaDescriptionsType</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMetadata</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMetadataByDVBTriplets</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMetadataPackage</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetMetadataPackageByDVBTriplets</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+    <RetryExceptions>
+      <Exception>System.Exception</Exception>
+    </RetryExceptions>
+  </RetryAlgorithm>
+  <RetryAlgorithm>
+    <Name>GetSubSystemMap</Name>
+    <BackOffDelay>300</BackOffDelay>
+    <BackOffCoefficient>1</BackOffCoefficient>
+    <SpreadRatio>0.2</SpreadRatio>
+    <MaxDelay>86400</MaxDelay>
+    <MaxRetries>2147483647</MaxRetries>
+        <RetryExceptions>
+            <Exception>System.Exception</Exception>
+        </RetryExceptions>
+	</RetryAlgorithm>
+      
+  End EPG -->
+
+
+  <!-- SEARCH
+  
+  <RetryAlgorithm>
+		<Name>GetAll</Name>
+		<BackOffDelay>0</BackOffDelay>
+		<BackOffCoefficient>2</BackOffCoefficient>
+		<SpreadRatio>0.2</SpreadRatio>
+		<MaxDelay>86400</MaxDelay>
+		<MaxRetries>2147483647</MaxRetries>
+        <RetryExceptions>
+            <Exception>System.Exception</Exception>
+        </RetryExceptions>
+	</RetryAlgorithm>
+	<RetryAlgorithm>
+		<Name>GetPeoples</Name>
+		<BackOffDelay>0</BackOffDelay>
+		<BackOffCoefficient>2</BackOffCoefficient>
+		<SpreadRatio>0.2</SpreadRatio>
+		<MaxDelay>86400</MaxDelay>
+		<MaxRetries>2147483647</MaxRetries>
+        <RetryExceptions>
+            <Exception>System.Exception</Exception>
+        </RetryExceptions>
+	</RetryAlgorithm>
+	<RetryAlgorithm>
+		<Name>GetTitles</Name>
+		<BackOffDelay>0</BackOffDelay>
+		<BackOffCoefficient>2</BackOffCoefficient>
+		<SpreadRatio>0.2</SpreadRatio>
+		<MaxDelay>86400</MaxDelay>
+		<MaxRetries>2147483647</MaxRetries>
+        <RetryExceptions>
+            <Exception>System.Exception</Exception>
+        </RetryExceptions>
+	</RetryAlgorithm>
+	<RetryAlgorithm>
+		<Name>GetTitlesByPeople</Name>
+		<BackOffDelay>0</BackOffDelay>
+		<BackOffCoefficient>2</BackOffCoefficient>
+		<SpreadRatio>0.2</SpreadRatio>
+		<MaxDelay>86400</MaxDelay>
+		<MaxRetries>2147483647</MaxRetries>
+        <RetryExceptions>
+            <Exception>System.Exception</Exception>
+        </RetryExceptions>
+	</RetryAlgorithm>
+      
+  End SEARCH -->
+  
+  <!-- End TODO -->
+  
+</RetryConfigurations>

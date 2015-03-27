@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Styles.xml">
+  <!-- Use this file to override the styles in Styles.xml -->
+
+  <constant name="TVReg" value="fonts/tahmstv.ttf"/>
+  <constant name="TVBold" value="fonts/tahmstvb.ttf"/>
+  <constant name="TVItalic" value="fonts/tahmstv.ttf"/>
+  <constant name="TVBoldItalic" value="fonts/tahmstvb.ttf"/>
+  <constant name="TVHeader" value="fonts/tahmstvb.ttf"/>
+
+  <!-- skin customization -->
+  <style class="Text.ProgramInfo.Description" foreground="@TextAltPrimary" fontStyle="Reg18" maxlines="7" margin="rect(0,11,0,0)" leading="1"/>
+
+  <!-- enable these lines to suppress Mediaroom Branding-->
+  <style class="Image.MRWatermark" visible="false"/>
+  <style class="WelcomeFlipper" visible="false" />
+  <style class="ScreenSaverFlipper" visible="false" />
+
+</styles>

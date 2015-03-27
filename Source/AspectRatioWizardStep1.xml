@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <AspectRatioWizardStep1 class="Page.Animated">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#Settings.AspectRatioWizard.Step1</Text>
+		<Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <Text class="Text.WizardDescription" id="_description">#Settings.AspectRatioWizard.Description.Step1</Text>
+      <Panel height="10" />
+      <Button class="Button.Menu.Wizard" id="_startTestButton" onClick="OnClick_StartTest">#Settings.AspectRatioWizard.StartTest</Button>
+      <Button class="Button.Menu.Wizard" id="_cancelChangesButton" onClick="OnClick_CancelChanges">#Settings.CancelChanges</Button>
+    </VerticalFlowPanel>
+
+  </AspectRatioWizardStep1>
+</uidescription>

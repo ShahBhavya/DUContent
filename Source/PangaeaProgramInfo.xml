@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <PangaeaProgramInfoPage class="Page.Animated">
+
+        <ImageFlipper class="ImageFlipper.VodBackground" id="_overlay"/>
+        <Image class="Image.VodBranding" id="_watermark" />
+
+        <Text class="Text.HeaderTitle">#ProgramInfo.ProgramInfo</Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <Text class="Text.ProgramInfo.Waiting" id="_waiting">#ProgramInfo.Waiting</Text>
+        <Panel class="Panel.WholePage" id="_content">
+        
+            <Panel class="Panel.MenuBackground" clipchildren="true">
+                <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                    <MenuItem class="MenuItem" submenuID="_summaryPane">#ProgramInfo.Menu.Summary</MenuItem>
+                    <MenuItem class="MenuItem" id="_detailsMenuItem" submenuID="_detailsPane">#ProgramInfo.Menu.Details</MenuItem>
+                    <MenuItem class="MenuItem" submenuPath="CastListSub.xml">#ProgramInfo.Menu.Cast</MenuItem>
+                </Menu> 
+            </Panel>
+            
+            <Panel class="Panel.Root" id="_summaryPane" visible="false">
+                <VerticalFlowPanel class="VerticalFlowPanel.Menu.ProgramInfo">
+                    <Button class="Button.Vertical" id="_play" onClick="OnClick_Watch" visible="false">#ProgramInfo.Play</Button>
+                    <Button class="Button.Vertical" id="_startOver" onClick="OnClick_StartOver" visible="false">#ProgramInfo.StartOver</Button>
+                    <Button class="Button.Vertical" id="_resumePlay" onClick="OnClick_ResumePlay" visible="false">#ProgramInfo.ResumePlay</Button>
+                </VerticalFlowPanel>
+            
+                <Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true"/>
+                <Image class="Image.Poster.VodProgramInfo" id="_poster"/>
+                
+                <Text class="Text.ChannelInfo" id="_channelInfo" />
+
+                <!-- 
+                    ideally, there would be a better "layout manager" here and 
+                    the visibility of the group could be controlled.
+                    (maybe like <span>)
+                -->
+                <Image class="Image.VOD.Tickets.Icon" id="_ticketsicon" visible="false"/>
+                <VerticalFlowPanel class="VerticalFlowPanel.Content" id="_proginfopanel" visible="false">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Logo" id="_programTitle"/>
+                    <Text class="Text.ProgramInfo.TimeAndRating.Logo" id="_duration"/>
+                    <Text class="Text.ProgramInfo.TimeAndRating.Logo" id="_rentalInfo"/>
+                    <Text class="Text.Expiration" id="_expiration"/>
+                    <Text class="Text.ProgramInfo.Description" id="_description" />
+                    <Text class="Text.ProgramInfo.Cast" id="_cast" />
+                    <Text class="Text.ProgramInfo.ExtraInfo" id="_extraInfo" />
+                </VerticalFlowPanel>
+            </Panel>
+                         
+            <Panel class="Panel.Root" id="_detailsPane" visible="false">
+                <Image class="Image.VOD.Tickets.Icon" id="_ticketsicon2" visible="false"/>
+                <VerticalFlowPanel class="VerticalFlowPanel.ProgramInfoDetails">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Details" id="_programTitle2" />
+                    <Text class="Text.Expiration" id="_expiration2"/>
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_rentalInfo2" />
+                    <TextBox class="TextBox.ProgramInfo" id="_description2" />
+                </VerticalFlowPanel>
+            </Panel>
+            
+            <Panel class="Panel.SubpageContainer" id="_subpageContainer" visible="false"/>
+        </Panel>
+            
+    </PangaeaProgramInfoPage>
+</uidescription>

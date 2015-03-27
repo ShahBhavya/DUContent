@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <GuideSelectionSettingsPage class="Page.Animated" initialFocus="_saveButton" excludefromhistory="true">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.GuideStyle.ButtonOptions</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton" >#Settings.Save</Button>
+      <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+      <Button class="Button.Vertical.GuideSettingsPrimary" onClick="OnClick_SetPrimary" id="_setPrimaryGuideButton">#Settings.GuideStyle.SetPrimaryGuideStyle</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content">
+
+      <Text class="Text.GuideSetting.Description">#Settings.GuideStyle.GuideSettingsDescription</Text>
+
+      <HorizontalFlowPanel height="auto" >
+        <Checkbox id="_checkbox[0]" tag="gridguide" class="Checkbox.Settings.GuideStyle">#Settings.GuideStyle.GridGuide</Checkbox>
+        <Image class="Image.GuideStyle.GridGuide"/>
+      </HorizontalFlowPanel>
+      <Text id="_indicator[0]" class="Text.GuideType.PrimaryIndicator" visible="false" >#Settings.GuideStyle.PrimaryGuideIndicator</Text>
+
+      <Panel class="Panel.GuideSettingsSpacer"/>
+
+      <HorizontalFlowPanel height="auto" >
+        <Checkbox id="_checkbox[1]" tag="channelguidepage" class="Checkbox.Settings.GuideStyle">#Settings.GuideStyle.ListGuide</Checkbox>
+        <Image class="Image.GuideStyle.ListGuide"/>
+      </HorizontalFlowPanel>
+      <Text id="_indicator[1]" class="Text.GuideType.PrimaryIndicator" visible="false" >#Settings.GuideStyle.PrimaryGuideIndicator</Text>
+
+      <Panel class="Panel.GuideSettingsSpacer"/>
+
+      <HorizontalFlowPanel height="auto" >
+        <Checkbox id="_checkbox[2]" tag="onnowguide" class="Checkbox.Settings.GuideStyle">#Settings.GuideStyle.OnNowGuide</Checkbox>
+        <Image class="Image.GuideStyle.OnNowGuide"/>
+      </HorizontalFlowPanel>
+      <Text id="_indicator[2]" class="Text.GuideType.PrimaryIndicator" visible="false" >#Settings.GuideStyle.PrimaryGuideIndicator</Text>
+
+    </VerticalFlowPanel>
+  </GuideSelectionSettingsPage>
+</uidescription>

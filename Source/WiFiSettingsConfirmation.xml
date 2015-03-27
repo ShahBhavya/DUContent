@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <WiFiSettingsConfirmationPage class="Page.Animated" initialFocus="_connect">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.WiFi.Confirmation.Title</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Cancel" id="cancel">#Settings.Cancel</Button>      
+	  <Button class="Button.Vertical" onClick="OnClick_Back" id="_back">#Settings.Back</Button>
+	  <Button class="Button.Vertical" onClick="OnClick_Connect" id="_connect">#Settings.WiFi.Confirmation.Connect</Button>
+	</VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription" id="_confirmation">#Settings.WiFi.Confirmation.Heading</Text>
+    </VerticalFlowPanel>
+
+    <Image class="Image.Settings.WiFi.Confirmation"/>
+
+  </WiFiSettingsConfirmationPage>
+</uidescription>

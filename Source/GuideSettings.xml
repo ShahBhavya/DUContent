@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <GuideSettingsPage class="Page.Animated" initialFocus="_saveButton">
+
+      <Text class="Text.Clock">{Time}</Text>
+      <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		  <Text class="Text.SubheaderTitle">#Settings.GuideStyle</Text>
+		
+		  <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			  <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton" >#Settings.Save</Button>
+        <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+        <Button class="Button.Vertical" onClick="OnClick_SelectGuides" id="_selectGuidesButton">#Settings.GuideStyle.SelectGuidesButton</Button>
+      </VerticalFlowPanel>
+		
+      <VerticalFlowPanel class="VerticalFlowPanel.Content">
+        <Text class="Text.GuideSetting.Description">#Settings.GuideStyle.PrimaryDescription</Text>
+                
+			  <RadioButtonGroup id="_guideType" class="RadioButtonGroup">
+		   		  <HorizontalFlowPanel height="auto">
+			          <RadioButton id="_gridGuideButton" class="RadioButton.Settings.GuideStyle">#Settings.GuideStyle.GridGuide</RadioButton>
+	            	  <Image class="Image.GuideStyle.GridGuide"/>
+                  </HorizontalFlowPanel>
+                  <Text class="Text.GuideType.Description" >#Settings.GuideStyle.GridGuideDescription</Text>
+
+          <Panel class="Panel.GuideSettingsSpacer"/>
+  	   			
+	   			  <HorizontalFlowPanel height="auto">
+		              <RadioButton id="_listGuideButton" class="RadioButton.Settings.GuideStyle">#Settings.GuideStyle.ListGuide</RadioButton>
+	            	  <Image class="Image.GuideStyle.ListGuide"/>
+				  </HorizontalFlowPanel>
+                  <Text class="Text.GuideType.Description">#Settings.GuideStyle.ListGuideDescription</Text>
+
+          <Panel class="Panel.GuideSettingsSpacer"/>
+
+          <HorizontalFlowPanel height="auto" >
+            <RadioButton id="_onNowGuideButton" class="RadioButton.Settings.GuideStyle">#Settings.GuideStyle.OnNowGuide</RadioButton>
+            <Image class="Image.GuideStyle.OnNowGuide"/>
+          </HorizontalFlowPanel>
+          <Text class="Text.GuideType.Description">#Settings.GuideStyle.OnNowGuideDescription</Text>
+
+        </RadioButtonGroup>
+    	</VerticalFlowPanel>
+		        
+    </GuideSettingsPage>
+</uidescription>

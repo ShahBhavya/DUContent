@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ConflictPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle" id="_title">#DVR.ConflictHeader</Text>
+        <Text class="Text.ConflictSubheaderTitle" id="_subTitle"/>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.ConflictGrid">
+            <Button class="Button.Vertical" onClick="OnClick_Save" id="_save">#DVR.Save</Button>
+            <Button class="Button.Vertical" id="_dontSave" href="action:back">#DVR.DontSave</Button>
+        </VerticalFlowPanel>
+
+        <Panel class="Panel.Conflict.LeftArrows" id="_leftArrows"/>
+        <ConflictGrid class="Panel.ConflictGrid" id="_grid"/>
+        <Panel class="Panel.Conflict.RightArrows" id="_rightArrows"/>
+
+        <Panel class="Panel.RolloverContainer" id="_rolloverContainer" />
+    </ConflictPage>
+</uidescription>
+

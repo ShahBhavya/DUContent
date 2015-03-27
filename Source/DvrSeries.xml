@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrSeriesSub>
+      <VerticalFlowPanel id="_recordingPanel">
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.DvrSeriesListSpacer" id="_spacerPanel" visible="true"/>
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.DvrSeriesListLargeSpacer" id="_largeSpacerPanel" visible="false"/>
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.DvrSeriesList">
+          <Button class="Button.ProgramListItem.Recording.Series" id="_seriesPriority" href="DvrSeriesPriority">#ProgramInfo.SeriesPriority</Button>
+          <Text class="Text.DvrList.RecordedCount.Series" id="_recordingCount" />
+          <Text class="Text.DvrList.NullScreenFirstSentence" id="_emptyList1">#Dvr.NoSeriesAreScheduledToBeRecorded</Text>
+          <Text class="Text.DvrList.NullScreenSecondSentence" id="_emptyList2">#Dvr.NoSeriesAreScheduledToBeRecorded2</Text>
+          <List class="List.DvrSeriesList" id="_list" listCounterId="_listCounter"/>
+          <Text class="Text.ListCounter.DvrSeriesList" id="_listCounter" />
+        </VerticalFlowPanel>
+      </VerticalFlowPanel>
+    </DvrSeriesSub>
+</uidescription>

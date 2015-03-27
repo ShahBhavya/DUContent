@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <TVReceiverNameSettingsPage class="Page.Animated" initialFocus="_saveNameButton">
+
+    <Text class="Text.Clock">{Time}</Text>
+ 
+    <Panel class="Panel" id="_namePanel" visible="true">
+      <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+      <Text class="Text.SubheaderTitle">#Settings.Television.TVReceiverName</Text>
+
+      <Panel class="Panel.TVReceiverName.DeviceName">
+        <Keyboard class="VerticalFlowPanel.Keyboard.TVReceiverName" id="_keyboard"/>
+        <EditText class="EditText.TVReceiverName.ReceiverName" id="_deviceNameEditText" inputmethod="keyboard" canfocus="false" maxchars="36" />
+
+        <Text class="Text.TVReceiverName.Instructions" id="_instructions">#TVReceiverName.SettingsPage.Instructions</Text>
+
+        <VerticalFlowPanel id="_rooms" class="VerticalFlowPanel.TVReceiverName.CommonNames">
+          <Button onClick="OnClick_CopyName" class="Button.TVReceiverName.CommonName" >#TVReceiverName.SettingsPage.Room0</Button>
+          <Button onClick="OnClick_CopyName" class="Button.TVReceiverName.CommonName" >#TVReceiverName.SettingsPage.Room1</Button>
+          <Button onClick="OnClick_CopyName" class="Button.TVReceiverName.CommonName" >#TVReceiverName.SettingsPage.Room2</Button>
+          <Button onClick="OnClick_CopyName" class="Button.TVReceiverName.CommonName" >#TVReceiverName.SettingsPage.Room3</Button>
+          <Button onClick="OnClick_CopyName" class="Button.TVReceiverName.CommonName" >#TVReceiverName.SettingsPage.Room4</Button>
+        </VerticalFlowPanel>
+      </Panel>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+        <Button class="Button.Vertical" onClick="OnClick_SaveName" id="_saveNameButton">#Settings.Save</Button>
+        <Button class="Button.Vertical" onClick="OnClick_DontSaveName" id="_dontSaveNameButton">#Settings.DontSave</Button>
+      </VerticalFlowPanel>
+
+    </Panel>
+
+  </TVReceiverNameSettingsPage>
+</uidescription>

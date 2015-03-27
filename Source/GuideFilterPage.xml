@@ -1,0 +1,42 @@
+<uidescription version="3.4">
+  <GuideFilterPage id="OnNowPage" class="MrmlPage.Animated.OnNow.Filters" AVHints="SdMosaic" TestId="GuideFilterPage" UseDynamicScreenModeStyles="true">
+    <PanelFlipper class="PanelFlipper" id="_flipper" IntervalMilliseconds="2500" PanelOutAnimation="SlowFadeOut" Circular="false">
+      <Image class="Image.Branding" id="_branding" />
+      <Text class="Text.HeaderTitle.OnNow" id="_headerTitle" showAnimations="SlowFadeIn">#Guide.OnNow.Filtered</Text>
+    </PanelFlipper>
+    <Text class="Text.Clock.OnNow">{Time}</Text>
+
+    <Text id="_categoryTitleTag"  class="Text.OnNow.CatPanel">#Guide.OnNow.Filtered</Text>
+    <Text id="_menuFilterHint" class="Text.FilterHint.GuideFilter">#Guide.Filter.Hint</Text>
+
+    <DataSource autoload="false" id="_tvChannelMapDataSource" 
+                uri="local://onnow-map?LISTINGSDATA=true;CHANNELDATA=true;DVRDATA=true;DISABLECHANNELLOGOSUFFIX=true;POSTER_WIDTH=99;POSTER_HEIGHT=85;SRC=GF1;CACHED_ATTR=shortName,progTitle,progSubtitle,progStartTime,progEndTime,progCCIndicatorUri,progHDIndicatorUri,hd1080LogoUrl"/>
+    
+    <PhysicsGrid id="_onNowGrid" maxrendertarget="6"
+            totalcountpath="byChannelNumber/count(channel)"
+            class="Panel.OnNow.Grid" 
+            autoflow="vertical">
+       <PhysicsCursor class="Panel.OnNow.Cursor"/>
+       <PhysicsTemplate templatename="channel[@progType='now']" renderdepth="background" class="Panel.OnNow.Row">
+           <PhysicsTemplate class="Panel.OnNow.Channel" renderdepth="background">
+               <PhysicsTemplate class="Text.OnNow.Channel" id="_currentChannelNumber">$(@displayedChannel)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.Channel.Name" id="_currentChannelName">$(@shortName)</PhysicsTemplate>
+           <PhysicsImageTemplate class="Image.OnNow.Logo" url="$(@sd480LogoUrl)" ForceManagedTextureCache="true" usecache="true" id="_currentChannelLogo"/>
+           </PhysicsTemplate>
+           <PhysicsTemplate class="Panel.OnNow.Program" id="_currentProgramPanel" renderdepth="background">
+               <PhysicsTemplate class="Text.OnNow.PrgTitle" id="_currentProgramName">$(@progTitle)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.PrgText" id="_currentProgramText">$(@progSubtitle)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.PrgTime" id="_currentStartEndTime">$(@progStartTime) - $(@progEndTime)</PhysicsTemplate>
+               <PhysicsProgressBarTemplate  class="Panel.OnNow.ProgressBar" value="$(@progPercentageCompleted)" maximum="100" id="_currentProgressBar"/>
+               <PhysicsImageTemplate class="Image.OnNow.Status.TS" url="$(@progTimeShiftIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentTSIcon"/>
+               <PhysicsImageTemplate class="Image.OnNow.Status.REC" url="$(@progRecordingStateIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentRecIcon"/> 
+               <PhysicsImageTemplate class="Image.OnNow.Status.CC" url="$(@progCCIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentCcIcon"/> 
+               <PhysicsImageTemplate class="Image.OnNow.Status.HD" url="$(@progHDIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentHdIcon"/>         
+               <PhysicsPIPTemplate tuneurl="$(@channel)" class="Panel.OnNow.Preview" id="_currentPip"/>
+           </PhysicsTemplate>
+       </PhysicsTemplate>
+    </PhysicsGrid>
+    <EditText id="_channelEntry" class="EditText.Channel.OnNow" OnTextEnter="ChannelEntered" digitsonly="true" visible="false"/>
+  </GuideFilterPage>
+</uidescription>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Styles.xml">
+
+  <!-- Use Chinese font. -->
+  <constant name="TVReg" value="fonts/MSHEI.ttf"/>
+  <constant name="TVBold" value="fonts/MSHEI.ttf"/>
+  <constant name="TVItalic" value="fonts/MSHEI.ttf"/>
+  <constant name="TVBoldItalic" value="fonts/MSHEI.ttf"/>
+  <constant name="TVHeader" value="fonts/MSHEI.ttf"/>
+
+  <!-- enable these lines to suppress Mediaroom Branding-->
+  <style class="Image.MRWatermark" visible="false"/>
+  <style class="WelcomeFlipper" visible="false" />
+  <style class="ScreenSaverFlipper" visible="false" />
+
+</styles>

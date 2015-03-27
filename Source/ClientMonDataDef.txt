@@ -1,0 +1,10 @@
+Cpu|CPU:Utilization|CPU utilization percentage.
+MemoryAllocatedManaged|Memory:Managed Allocated|The best available approximation of the number of bytes currently allocated in managed memory.
+MemoryAvailPhys|Memory:Physical Available|The number of bytes of physical memory available.
+GadgetCount|UI Objects|Total number of UI onjects that are instantiated.
+SeatbeltWeightSys|System Seatbelt Weight|Total Seatbelt weight in the system.
+ObjIdsAvail|Available Render Objects|The number of render objects in the free render object pool.
+KeyDown|Remote Control Keys|Remote control key strokes.
+Web|Web Resources|The events happened to Web resources.
+PFEvents|PF Events|The handling of PF events.
+PFActions|PF Actions|The execution of of PF actions.

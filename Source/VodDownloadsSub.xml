@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <VodDownloads>
+    <List class="List.VodStore" id="_list" listCounterId="_listCounter"/>
+    <Text class="Text.ListCounter.VodList" id="_listCounter"/>
+  </VodDownloads>
+</uidescription>

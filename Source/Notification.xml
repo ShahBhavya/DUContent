@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.0">
+  <NotificationDialog id="_notificationDialog" class="Page.Notification" inanimations="NotificationIn">
+    <TextFlipper class="TextFlipper.Notification" id="_message" />
+
+    <!-- Code lines below are an example of how to retrieve additional gadget data from the dialog-->
+    <!-- BEGIN example-->
+<!--
+    <Actions>
+      <Action name="getdataaction" type="script" function="getdataactionscript"/>
+      <Event type="onchange" action="getdataaction" />
+    </Actions>
+
+    <Scripts>
+      <Script>
+        //<![CDATA[
+        
+          function getdataactionscript()
+          {
+            alert("DvrNotification Entered");
+            var UtcEventTime = getProperty("_notificationDialog", "UtcEventTime");
+            var EventType = getProperty("_notificationDialog", "EventType");
+            var ExternalStationId = getProperty("_notificationDialog", "ExternalStationId");
+            var EventDuration = getProperty("_notificationDialog", "EventDuration");
+            var RecordingEventId = getProperty("_notificationDialog", "RecordingEventId");
+            var SeriesId = getProperty("_notificationDialog", "SeriesId");
+            var UtcRecordingStartTime = getProperty("_notificationDialog", "UtcRecordingStartTime");
+            
+            alert("Notification: UtcEventTime=" + UtcEventTime);
+            alert("Notification: EventType=" + EventType);
+            alert("Notification: ExternalStationId=" + ExternalStationId);
+            alert("Notification: EventDuration=" + EventDuration);
+            alert("Notification: RecordingEventId=" + RecordingEventId);
+            alert("Notification: SeriesId=" + SeriesId);
+            alert("Notification: UtcRecordingStartTime=" + UtcRecordingStartTime);
+          }
+          //]]>
+      </Script>
+    </Scripts>
+-->
+    <!-- END example-->
+  </NotificationDialog>
+</uidescription>

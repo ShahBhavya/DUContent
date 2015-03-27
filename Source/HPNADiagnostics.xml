@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <HPNADiagnostics class="Page.Monkey" height="425">
+     
+        <VerticalFlowPanel left="30" id="_runTimePanel" visible="true">
+            <Text class="Text.HPNADiagnostics.Header" id="_header" visible="true">#HPNADiagnostics.Header</Text>
+            <Text class="Text.HPNADiagnostics" id="_networkStatus" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics" id="_hpnaDevice" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics" id="_hpnaTestSupported" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics" id="_hpnaDeviceMacAddress" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics" id="_resultHeader" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode1" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode2" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode3" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode4" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode5" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode6" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode7" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode8" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode9" visible="true"></Text>
+            <Text class="Text.HPNADiagnostics.Node" id="_resultNode10" visible="true"></Text>
+        </VerticalFlowPanel>
+    </HPNADiagnostics>
+</uidescription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ProgramRollover class="Subpage.RolloverInfo">
+    <Video class="Video.PIP.Guide" id="_pip" pipe="PIP" ispip="true"/>
+    <Image class="Image.Poster.PIP.Guide" id="_posterImageContainer" visible="false"/>
+
+    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+      <Text class="Text.RolloverInfo.ProgramName" id="_programName"/>
+      <Text class="Text.RolloverInfo.ProgramTime" id="_programTime"/>
+      <Text class="Text.Expiration.Rollover" id="_expiration"/>
+      <HorizontalFlowPanel class="Panel.RatingLogo.ProgramRollover" id="_ratingLogoContainer" >
+        <Image class="Image.RatingLogo.ProgramRollover" id="_ratingLogo[0]" visible="false" />
+        <Image class="Image.RatingLogo.ProgramRollover" id="_ratingLogo[1]" visible="false" />
+        <Image class="Image.RatingLogo.ProgramRollover" id="_ratingLogo[2]" visible="false" />
+      </HorizontalFlowPanel>
+
+      <PanelFlipper class="PanelFlipper" id="_flipper">
+				<Text class="Text.RolloverInfo.Description" id="_programDescription"/>
+				<Text class="Text.RolloverInfo.Description" id="_programDetails"/>
+				<Text class="Text.RolloverInfo.Description" id="_cast"/>
+			</PanelFlipper>
+      
+			<Panel class="Panel.ChannelBarNetworkLogo" id="_image"/>
+	  </Panel>
+  </ProgramRollover>
+</uidescription>

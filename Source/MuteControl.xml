@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <MuteControl class="Page" limoline="300">
+	    <Panel class="Panel.MuteControl">
+			<Image class="Image.MuteControl"/>
+			<Text class="Text.VolumeControlMute" id="_title">#Volume.Mute</Text>
+		</Panel>
+    </MuteControl>
+</uidescription>

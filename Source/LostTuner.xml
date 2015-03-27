@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<LostTunerPage class="Page">
+		<Panel top="0" left="0" width="640" height="480" clipchildren="true">
+			<Image url="UpgradeBackground.jpg" KeepAspectRatio="false" width="640" height="480"/>
+		</Panel> 
+		<Panel class="Panel.VideoOverlay">
+			<Text class="Text.DiskRepairTitle">No longer have a tuner resource</Text>
+			<Text class="Text.DiskRepairDescription" top="139">Another user is using the tuner to watch or record TV.</Text>
+            <Button class="Button.StoppedOverlay" top="220" left="160" onclick="OnClick_StealTuner" id="_stealTuner">Steal tuner back</Button>
+		</Panel> 
+	</LostTunerPage>
+</uidescription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <NotificationWidget class="Page.Bubble">
+		<HorizontalFlowPanel class="HorizontalFlowPanel.Bubble" clipChildren="true" id="_panel">
+      		<Image class="Image.Bubble.Icon" id="_icon" />
+  	    	<Text class="Text.Bubble" id="_message" />
+		</HorizontalFlowPanel>
+    </NotificationWidget>    
+</uidescription>

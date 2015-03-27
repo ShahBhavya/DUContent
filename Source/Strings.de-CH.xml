@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- _localBinding --><!-- _lcid="2055" _version="" --><stringtable culture="de-CH" basedOn="en-US" locale="de-CH" description="Deutsch (Schweiz)">
+
+  <string id="StringFormatDefault" value="&#8226;"/>
+
+  <string id="TripleTap.0" value=" 0"/>
+  <string id="TripleTap.1" value="1"/>
+  <string id="TripleTap.2" value="ABCÄ2"/>
+  <string id="TripleTap.3" value="DEF3"/>
+  <string id="TripleTap.4" value="GHI4"/>
+  <string id="TripleTap.5" value="JKL5"/>
+  <string id="TripleTap.6" value="MNOÖ6"/>
+  <string id="TripleTap.7" value="PQRSß7"/>
+  <string id="TripleTap.8" value="TUV8"/>
+  <string id="TripleTap.9" value="WXYZ9"/>
+
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="HAUPTMENÜ"/>
+  <string id="Start.Television" value="TV"/>
+  <string id="Start.Videos" value="Videos"/>
+  <string id="Start.Search" value="Suchen"/>
+  <string id="Start.Extras" value="Extras"/>
+  <string id="Start.Settings" value="Einstellungen"/>
+  <string id="Start.Power" value="Einschalten"/>
+  <string id="Start.Videos.CurrentRentals" value="Meine Miet-Videos"/>
+  <string id="Start.Television.Guide" value="TV-Programm"/>
+  <string id="Start.Television.RecordedTV" value="TV-Aufnahmen"/>
+  <string id="Start.Television.VideoStore" value="Videothek"/>
+  <string id="Start.Television.OnlineSpot" value="Online-Rampenlicht"/>
+  <string id="Start.Television.Teletext" value="Teletext"/>
+  <string id="Start.Television.BillPresentment" value="Rechnungsdaten"/>
+  <string id="Start.Television.SelfProvisioning" value="Abos und Sender"/>
+  <string id="Start.Television.CreditLimit" value="Kostenlimit"/>
+  <string id="Start.Search.Title" value="Titel"/>
+  <string id="Start.Search.People" value="Leute"/>
+  <string id="Start.Search.Sports" value="Sport"/>
+  <string id="Start.Search.Kids" value="Kinder"/>
+  <string id="Start.Extras.Messages" value="Mitteilungen"/>
+  <string id="Start.Extras.MediaSharing" value="Bilder"/>
+  <string id="Start.Extras.Music" value="Musik"/>
+  <string id="Start.Extras.Games" value="Spiele"/>
+  <string id="Start.Settings.About" value="Info"/>
+  <string id="Start.Settings.General" value="Allgemein"/>
+  <string id="Start.Settings.Television" value="TV"/>
+  <string id="Start.Settings.Extras" value="Extras"/>
+  <string id="Start.Settings.Language" value="Sprache"/>
+  <string id="Start.Settings.AspectRatio" value="Seitenverhältnis"/>
+  <string id="Start.Settings.Overscan" value="Overscan"/>
+  <string id="Start.Settings.Sounds" value="Sounds"/>
+  <string id="Start.Settings.HiddenChannels" value="Sender anpassen"/>
+  <string id="Start.Power.PowerOff" value="Ausschalten"/>
+  <string id="Start.Power.PowerOffPrompt" value="System ausschalten?"/>
+  <string id="Start.Power.PowerOffPromptDetails.PC" value="Hinweis: Geplante Aufnahmen werden verpasst, während das System ausgeschaltet ist."/>
+  <string id="Start.Power.PowerOffPromptDetails.CE" value="Drücken Sie die Power-Taste auf der Fernbedienung, um das System wieder einzuschalten."/>
+  <string id="Start.Power.Restart" value="Neu starten"/>
+  <string id="Start.Power.RestartPrompt" value="System neu starten?"/>
+  <string id="Start.Power.RestartPromptDetails" value="Hinweis: Geplante Aufnahmen werden verpasst, während das System neu startet."/>
+  <string id="Start.Power.Hibernate" value="Ruhezustand"/>
+  <string id="Start.Power.HibernatePrompt" value="System in Ruhezustand versetzen?"/>
+  <string id="Start.Power.HibernatePromptDetails" value="Hinweis: Geplante Aufnahmen werden möglicherweise verpasst, während sich das System im Ruhezustand befindet."/>
+  <string id="Start.MenuForButtons" value="Hauptmenü"/>
+
+  <!-- Main Menu -->
+  <string id="MainMenu" value="Hauptmenü"/>
+  <string id="MainMenu.Search" value="Suche"/>
+  <string id="MainMenu.YourTV" value="Ihr TV"/>
+  <string id="MainMenu.BrowseLiveTV" value="TV Funktionen"/>
+  <string id="MainMenu.RecordedTV" value="Aufnahmen"/>
+  <string id="MainMenu.OnDemand" value="Videos"/>
+  <string id="MainMenu.Settings" value="Einstellungen"/>
+  <string id="MainMenu.MediaLists" value="Top-Inhalte"/>
+
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="PROGRAMMINFO"/>
+  <string id="ProgramInfo.RecordingStopped" value="Diese Aufnahme wurde angehalten."/>
+  <string id="ProgramInfo.Watch" value="Ansehen"/>
+  <string id="ProgramInfo.CancelRental" value="Nicht mieten"/>
+  <string id="ProgramInfo.RecordProgram" value="Aufnehmen"/>
+  <string id="ProgramInfo.Erase" value="Löschen"/>
+  <string id="ProgramInfo.KeepUntil" value="Aufbewahren bis"/>
+  <string id="ProgramInfo.StopRecording" value="Aufnahme anhalten"/>
+  <string id="ProgramInfo.RecordSeries" value="Serie aufnehmen"/>
+  <string id="ProgramInfo.RecordEpisode" value="Folge aufnehmen"/>
+  <string id="ProgramInfo.OtherShowings" value="Andere Sendungen"/>
+  <string id="ProgramInfo.AudioLanguages" value="Audio wechseln"/>
+  <string id="ProgramInfo.SubtitleLanguages" value="Untertitelsprachen"/>
+  <string id="ProgramInfo.RecordSetting" value="Aufnahmeeinstellungen"/>
+  <string id="ProgramInfo.SeriesInfo" value="Serieninformationen"/>
+  <string id="ProgramInfo.DontRecord" value="Nicht aufnehmen"/>
+  <string id="ProgramInfo.RecordingDeleted" value="Aufnahme wird gelöscht..."/>
+
+  <string id="ProgramInfo.Play" value="Wiedergeben"/>
+  <string id="ProgramInfo.Pending" value="Warten..."/>
+  <string id="ProgramInfo.PendingAppendage" value="   (wartet)"/>
+  <string id="ProgramInfo.Rent" value="Mieten"/>
+  <string id="ProgramInfo.PurchaseInfo" value="Kaufinformationen"/>
+  <string id="ProgramInfo.StartOver" value="Neu starten"/>
+  <string id="ProgramInfo.ResumePlay" value="Fortsetzen"/>
+  <string id="ProgramInfo.MoreLikeThis" value="Ähnliche Sendungen"/>
+  <string id="ProgramInfo.WatchPreview" value="Vorschau"/>
+
+  <string id="ProgramInfo.NoCastInfomation" value="Keine Besetzungsinformationen verfügbar"/>
+  <string id="ProgramInfo.ProgramDateFormatString" value="ddd d/M," />
+  <string id="ProgramInfo.ProgramDateNoDayFormatString" value="d/M," />
+
+  <string id="ProgramInfo.AirDateFormatString" value="dd MMMM yyyy" />
+  <string id="ProgramInfo.VODAvailableDate" value="HH:mm dd MMMM yyyy" />
+  <string id="ProgramInfo.SeriesString" value="Serie/"/>
+  <string id="ProgramInfo.MovieString" value="Film/"/>
+  <string id="ProgramInfo.TypeNotAvailable" value="NV/"/>
+  <string id="ProgramInfo.GeneralCategory" value="Allgemein"/>
+  <string id="ProgramInfo.OriginalAirDateString" value=", Wiederholung vom: {0}"/>
+  <string id="ProgramInfo.OriginalTitle" value=", Originaltitel: "/>
+  <string id="ProgramInfo.ReleasedString" value=", erschienen am ({0})"/>
+  <string id="ProgramInfo.Waiting" value="Programminformationen werden gelesen"/>
+  <string id="ProgramInfo.AcceptOffer" value="Mieten"/>
+  <string id="ProgramInfo.DeclineOffer" value="Nicht mieten"/>
+  <string id="ProgramInfo.DirectedBy" value="Regisseur:"/>
+  <string id="ProgramInfo.FirstLastNamePair" value="{0} {1}"/>
+
+  <!-- Parental Control -->
+  <string id="Start.Settings.ParentalControl" value="Jugendschutzsperren"/>
+  <string id="ParentalControl.IncorrectPinMessage" value="Die eingegebene PIN ist nicht richtig. Geben Sie Ihre vierstellige PIN bitte noch einmal ein."/>
+  <string id="ParentalControl.ForgotPinMessage" value="Wenn Sie die PIN vergessen haben, rufen Sie 1-800-555-1212 an, um sie zurücksetzen zu lassen."/>
+  <string id="ParentalControl.ChoosePinMessage" value="Wählen Sie eine vierstellige PIN, um die Wiedergabe bestimmter Programme zu sperren."/>
+  <string id="ParentalControl.PinsDoNotMatch" value="Die beiden PINs sind nicht gleich. Bitte geben Sie beide noch einmal ein."/>
+  <string id="ParentalControl.EnterPinMessage" value="Geben Sie bitte Ihre vierstellige PIN ein, um die Jugendschutzeinstellungen zu ändern."/>
+  <string id="ParentalControl.ChooseANewPin" value="Wählen Sie eine neue vierstellige PIN."/>
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="Um ein gesperrtes Programm anzuschauen, müssen Sie die vierstellige PIN eingeben."/>
+  <string id="ParentalControl.UnlockFor4Hours" value="Um den Jugendschutz aller Programme für vier Stunden aufzuheben, geben Sie bitte die vierstellige PIN ein."/>
+  <string id="ParentalControl.EnterPinFirstTime" value="Geben Sie bitte die vierstellige PIN über Ihre Fernbedienung ein."/>
+  <string id="ParentalControl.EnterPin" value="Geben Sie bitte die vierstellige PIN ein."/>
+  <string id="ParentalControl.ConfirmPin" value="Wiederholen Sie bitte die Eingabe der vierstelligen PIN."/>
+  <string id="ParentalControl.GotoParentalControlSettings" value="Geben Sie bitte die vierstellige PIN ein, um die Jugendschutzeinstellungen zu ändern."/>
+  <string id="ParentalControl.Title.ChangePin" value="PIN ändern"/>
+  <string id="ParentalControl.Title.UnlockPCon" value="Jugendschutz aufheben"/>
+  <string id="ParentalControl.Title.ParentalLocking" value="Jugendschutzsperren"/>
+  <string id="ParentalControl.Title.BlockMovieRatings" value="Alterseinstufung"/>
+  <string id="ParentalControl.Title.MainMenu" value="Jugendschutz"/>
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="ALTERSEINSTUFUNGEN SPERREN"/>
+  <string id="ParentalControl.Blocked" value="Gesperrt: "/>
+  <string id="ParentalControl.NonBlocked" value="Keine gesperrt"/>
+  <string id="ParentalControl.AndAbove" value=" und älter"/>
+
+  <string id="ParentalControl.Dialog.SaveSettings" value="Möchten Sie die geänderten Einstellungen speichern?"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="Speichern"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="Nicht speichern"/>
+
+  <string id="ParentalControl.Dialog.ResetPCon" value="Möchten Sie die vierstellige PIN zurücksetzen und den Jugendschutz nicht mehr verwenden?"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="Zurücksetzen"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="Nicht zurücksetzen"/>
+
+  <string id="ParentalControl.Notification.PinChanged" value="Ihre PIN wurde geändert."/>
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="Der Jugendschutz ist nun für vier Stunden aufgehoben."/>
+
+  <string id="ParentalControl.RatingPageInstruction" value="Der Jugendschutz betrifft ausschliesslich Miet-Videos, Live-TV-Programme und aufgezeichnete TV-Programme. Wenn keine Alterseinstufung verfügbar ist, wird die Sendung nicht gesperrt."/>
+
+  <string id="ParentalControl.MenuItemText.UnlockProgramming4Hours" value="Jugendschutz für vier Stunden aufheben"/>
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="Alle Jugendschutzsperren zurücksetzen"/>
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="Vierstellige PIN ändern"/>
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="Jugendschutzsperre ausschalten"/>
+  <string id="ParentalControl.MenuItemText.MovieRating" value="Alterseinstufung"/>
+
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="OK drücken, um Jugendschutz für vier Stunden aufzuheben."/>
+  <string id="ParentalControl.LockedPIP.Text" value="Sendung gesperrt"/>
+
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="Client-Initialisierungsfehler"/>
+  <string id="ClientAccountUnavailableString" value="Konto nicht verfügbar."/>
+  <string id="QuitClientString" value="Client beenden"/>
+  <string id="BootStrapError" value="Fehler bei der Verbindung mit dem Dienst."/>
+
+  <!-- Guide -->
+  <string id="Guide.Guide" value="TV-PROGRAMM" />
+  <string id="Guide.NoInfo" value="Keine Informationen verfügbar" />
+  <string id="Guide.NoDescription" value="" />
+  <string id="Guide.NoGuideData" value="Das TV-Programm ist momentan leider nicht verfügbar." />
+  <string id="Guide.ShowEnded" value="Sendung ist beendet"/>
+  <string id="Guide.ShowOnInOneMinute" value="Beginnt in 1 Minute" />
+  <string id="Guide.ShowOnSoon" value="Beginnt in {0} Minuten" />
+  <string id="Guide.ShowOnLaterToday" value="Beginnt  um {0} "/>
+  <string id="Guide.ShowOnTomorrow" value="Beginnt morgen" />
+  <string id="Guide.ShowOnDaysLater" value="Beginnt in {0} Tagen" />
+  <string id="Guide.VodGroup" value="Video on Demand" />
+  <string id="Guide.RdpGroup" value="Anwendungen" />
+  <string id="Guide.SVodGroup" value="Premium-Sender" />
+  <string id="Guide.ChannelRange" value="{0}-{1}" />
+
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase" value="Drücken Sie OK, um dieses Video für {0} zu mieten." />
+  <string id="VideoFullScreen.OnNow" value="aktuelle Sendung"/>
+  <string id="VideoFullScreen.OnNext" value="nächste Sendung"/>
+  <string id="VideoFullScreen.OnLater" value="spätere Sendungen"/>
+  <string id="VideoFullScreen.ThankYou" value="Vielen Dank für Ihren Kauf."/>
+
+  <string id="SeekBar.TimeFormat" value="HH:mm" />
+  <string id="SeekBar.TimeFormatCurrent" value="HH:mm:ss" />
+  <string id="SeekBar.DVRTimeFormat" value="HH:mm" />
+  <string id="SeekBar.DVRCurrentPositionFormat" value="HH:mm:ss" />
+
+  <string id="StopPage.NextEpisode" value="Nächste Folge anschauen"/>
+  <string id="StopPage.Play" value="Fortsetzen"/>
+  <string id="StopPage.StartOver" value="Neu starten"/>
+  <string id="StopPage.Erase" value="Löschen"/>
+  <string id="StopPage.KeepUntil" value="Aufbewahren bis"/>
+  <string id="StopPage.RecordedTV" value="TV-Aufnahmen"/>
+  <string id="StopPage.VideoStore" value="Videothek"/>
+  <string id="StopPage.Back" value="Zurück"/>
+
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording"          value="Die Aufnahme beginnt in Kürze..."/>
+  <string id="DVR.AboutToStartRecording_disabled" value="Diese Sendung wird nicht aufgezeichnet, da Aufnahmen ausgeschaltet sind."/>
+
+  <string id="DVR.OK" value="OK"/>
+  <string id="DVR.Cancel" value="Abbrechen"/>
+  <string id="DVR.StopRecording" value="Aufnahme von {0} anhalten?"/>
+  <string id="DVR.DoStopRecording" value="Aufnahme anhalten"/>
+  <string id="DVR.DoContinueRecording" value="Aufnahme fortsetzen"/>
+
+  <string id="DVR.UpcomingHeader" value="GEPLANTE AUFNAHMEN"/>
+  <string id="DVR.UpcomingSubHeader" value="Anstehende Aufnahmen"/>
+  <string id="DVR.SeriesSubHeader" value="Serie"/>
+  <string id="DVR.RecordedHeader" value="TV-AUFNAHMEN"/>
+  <string id="DVR.ManualRecordHeader" value="AUFNAHME HINZUFÜGEN"/>
+  <string id="DVR.RecordSettings" value="AUFNAHMEEINSTELLUNGEN"/>
+  <string id="DVR.ManualRecordSubHeader" value="Sender und Zeit"/>
+  <string id="DVR.KeepUntilHeader" value="AUFBEWAHREN BIS"/>
+  <string id="DVR.ConflictHeader" value="KONFLIKT"/>
+  <string id="DVR.ManualRecordCannotBeForThePast" value="Bereits ausgestrahlte Sendungen können nicht mehr aufgenommen werden."/>
+  <string id="DVR.ManualRecordInvalidChannel" value="Für diesen Sender können keine Aufnahmen geplant werden."/>
+
+  <string id="DVR.Today" value="Heute"/>
+  <string id="DVR.Tomorrow" value="Morgen"/>
+  
+  <string id="DVR.UpcomingDateFormatString" value="ddd d/M" />
+  <string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd d/M)" />
+  <string id="DVR.BucketRecordedDateFormatString" value="(ddd d/M)" />
+  <string id="DVR.RecordedDateFormatString" value="d/M" />
+
+  <string id="DVR.NoProgramsHaveBeenRecorded" value="Es wurden keine Sendungen aufgenommen."/>
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="Es sind keine Aufnahmen geplant."/>
+
+  <string id="DVR.Record" value="Aufnehmen"/>
+  <string id="DVR.DontRecord" value="Nicht aufnehmen"/>
+  <string id="DVR.Save" value="Speichern"/>
+  <string id="DVR.DontSave" value="Nicht speichern"/>
+
+  <string id="DVR.Keep.DontChange" value="Nicht ändern"/>
+  <string id="DVR.Keep.SpaceNeeded" value="Aufbewahren, bis Platz benötigt wird"/>
+  <string id="DVR.Keep.Date" value="Aufbewahren bis {0}"/>
+  <string id="DVR.Keep.Date.Format" value="ddd d/M" />
+  <string id="DVR.Keep.Watch" value="Aufbewahren bis zum Abspielen"/>
+  <string id="DVR.Keep.Delete" value="Aufbewahren bis zum Löschen"/>
+
+  <string id="DVR.ChannelLabel"              value="SENDER"/>
+  <string id="DVR.FrequencyLabel"            value="HÄUFIGKEIT"/>
+  <string id="DVR.RecordDateLabel"           value="DATUM"/>
+  <string id="DVR.KeepUntilLabel"            value="AUFBEWAHREN BIS"/>
+  <string id="DVR.KeepAtMostLabel"           value="MAXIMALE ANZAHL AUFNAHMEN" />
+  <string id="DVR.StartLabel"                value="BEGINN"/>
+  <string id="DVR.DurationLabel"             value="DAUER"/>
+  <string id="DVR.StopLabel"                 value="ENDE"/>
+
+  <string id="DVR.Frequency.Once"            value="Einmal aufnehmen"/>
+  <string id="DVR.Frequency.EveryDay"        value="Jeden Tag"/>
+  <string id="DVR.Frequency.EveryWeekDay"    value="Montags bis freitags"/>
+  <string id="DVR.Frequency.EveryWeekendDay" value="Samstags und sonntags"/>
+  <string id="DVR.Frequency.EveryMonday"     value="Jeden Mo"/>
+  <string id="DVR.Frequency.EveryTuesday"    value="Jeden Di"/>
+  <string id="DVR.Frequency.EveryWednesday"  value="Jeden Mi"/>
+  <string id="DVR.Frequency.EveryThursday"   value="Jeden Do"/>
+  <string id="DVR.Frequency.EveryFriday"     value="Jeden Fr"/>
+  <string id="DVR.Frequency.EverySaturday"   value="Jeden Sa"/>
+  <string id="DVR.Frequency.EverySunday"     value="Jeden So"/>
+
+  <string id="DVR.RecordDate.Format"         value="ddd d/M" />
+
+  <string id="DVR.KeepUntil.Space"           value="Platz benötigt wird"/>
+  <string id="DVR.KeepUntil.Watch"           value="Aufnahme angeschaut wurde"/>
+  <string id="DVR.KeepUntil.Delete"          value="Aufnahme gelöscht wird"/>
+
+  <string id="DVR.KeepAtMost.FormatSingular" value="{0} letzte Aufnahme"/>
+  <string id="DVR.KeepAtMost.FormatPlural"   value="{0} letzte Aufnahmen"/>
+  <string id="DVR.KeepAtMost.Max"            value="So viele wie möglich"/>
+
+  <string id="DVR.KeepUntil.AM"              value="vormittags"/>
+  <string id="DVR.KeepUntil.PM"              value="nachmittags"/>
+
+  <string id="DVR.Preview.StartTimeFormat"   value="ddd d/M" />
+  <string id="DVR.Preview.DurationFormat.Hours"    value="{0}&#0160;Std"/>
+  <string id="DVR.Preview.DurationFormat.Minutes"  value="{0}&#0160;Min"/>
+
+  <string id="DVR.Menu.ByDate"                     value="nach Datum"/>
+  <string id="DVR.Menu.ByTitle"                    value="nach Titel"/>
+  <string id="DVR.Menu.ByStatus"                   value="nach Status"/>
+  <string id="DVR.Menu.AddRecording"               value="Aufnahme hinzufügen"/>
+  <string id="DVR.Menu.Scheduled"                  value="Geplante Aufnahmen"/>
+
+  <string id="DVR.MediaItem.Title"        value="TV-Aufnahmen"/>
+  <string id="DVR.MediaItem.NoPrograms"  value="Es sind keine Aufnahmen geplant."/>
+  <string id="DVR.MediaItem.Upcoming"     value="Geplante Aufnahmen: "/>
+  <string id="DVR.MediaItem.Separator"    value=" #0183; "/>
+
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="Alle Aufnahmen"/>
+  <string id="DVR.ChannelGuide.RecentRecordings" value="Neueste Aufnahmen"/>
+
+  <string id="DVR.Count.None"     value="KEINE AUFNAHMEN"/>
+  <string id="DVR.Count.One"      value="1 AUFNAHME"/>
+  <string id="DVR.Count.Many"     value="{0} AUFNAHMEN"/>
+
+  <string id="DVR.Stopped.Finished"    value="AUFNAHME ABGESCHLOSSEN"/>
+  <string id="DVR.Stopped.Stopped"     value="ANGEHALTEN"/>
+  <string id="DVR.Stopped.RecMsg"      value="{0} AUFN."/>
+  <string id="DVR.Stopped.KeepMessage" value="Diese Aufnahme wird aufbewahrt, bis Platz benötigt wird."/>
+
+  <string id="DVR.Conflict.StartFormatString"  value="dddd,&#0160;d.M, h:mm&#0160;tt - "/>
+  <string id="DVR.Conflict.EndFormatString"  value="h:mm&#0160;tt"/>
+  <string id="DVR.Conflict.Preamble" value="Es können nicht mehrere Sendungen zur gleichen Zeit aufgenommen werden.&#13;Wählen Sie bitte eine Sendung aus."/>
+  <string id="DVR.Conflict.Choice1"  value="Neue Aufnahme:"/>
+  <string id="DVR.Conflict.Choice2"  value="Nicht aufnehmen {0}"/>
+  <string id="DVR.Conflict.PreviouslyScheduledPrograms" value="Bereits geplante Aufnahmen"/>
+
+  <string id="DVR.AddRecording.RecordProgramOrSeries"  value="Sendung oder Serie aufnehmen via:"/>
+  <string id="DVR.AddRecording.CreateCustom"           value="Benutzerdefinierte Aufnahme erstellen via:"/>
+  <string id="DVR.AddRecording.ManualRecordLabel"      value="Sender und Zeit"/>
+
+  <string id="DVR.ManualRecordLabel"    value="Direkte Aufnahme"/>
+  <string id="DVR.DisabledNotification" value="Der Videorekorder ist momentan nicht verfübar."/>
+  <string id="DVR.RecordingScheduled"   value="Aufnahme wurde programmiert"/>
+  <string id="DVR.RecordingStopped"     value="Aufnahme angehalten"/>
+  <string id="DVR.RecordingCanceled"    value="Aufnahme abgebrochen"/>
+  <string id="DVR.Recording"            value="Aufnahme läuft"/>
+
+  <string id="DVR.GuideInstructions" value="Wählen Sie eine Sendung, und drücken Sie dann RECORD."/>
+  <string id="DVR.GuideInstructionsButton" value="Bereit"/>
+
+  <string id="DVR.QueryErase"   value="Möchten Sie {0} wirklich löschen?"/>
+  <string id="DVR.ConfirmErase" value="Löschen"/>
+  <string id="DVR.CancelErase"  value="Nicht löschen"/>
+
+  <string id="DVR.AlreadyRecording" value="Dieser Sender wird bereits aufgenommen."/>
+
+  <string id="DVR.UpcomingRecordingsButton" value="Geplante Aufnahmen"/>
+  <string id="DVR.SeriesRecordingsButton"   value="Serienaufnahmen"/>
+  <string id="DVR.PrioritySettingsButton"   value="Prioritätseinstellungen speichern"/>
+  <string id="DVR.History"                  value="Verlauf"/>
+
+  <string id="DVR.ViewUpcomingRecordingsButton" value="Geplante Aufnahmen anzeigen"/>
+  <string id="DVR.ChangeSeriesSettingsButton"   value="Serieneinstellungen ändern"/>
+  <string id="DVR.CancelSeriesButton"           value="Serie abbrechen"/>
+
+  <string id="DVR.SeriesHeader"             value="SERIENINFO"/>
+
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2}"/>
+  <string id="DVR.UntilSpaceIsNeeded"       value="Bis Platz benötigt wird"/>
+  <string id="DVR.FirstRunAndRerun"         value="Zur ersten Wiedergabe und erneuten Wiedergabe"/>
+  <string id="DVR.SeriesTimeFormat"         value="HH:mm" />
+  <string id="DVR.SeriesTimeFormat24"       value="HH:mm" />
+  <string id="DVR.SeriesTimeAnyTime"        value="Beliebige Zeit"/>
+
+  <!-- SmartCard related dialogs/diagnostics -->
+  <string id="SmartCard.Diagnostics.CardReadyDateFormat" value="dd/MM/yyyy" />
+
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="TV-Programmdarstellung"/>
+  <string id="Settings.GuideStyle.GridGuide" value="TV-Programm als Tabelle"/>
+  <string id="Settings.GuideStyle.GridGuideDescription" value="Zeigt mehrere Sender auf einmal an"/>
+  <string id="Settings.GuideStyle.ListGuide" value="TV-Programm als Liste"/>
+  <string id="Settings.GuideStyle.ListGuideDescription" value="TV-Programm für einen einzigen Sender"/>
+  <string id="Settings.Save" value="Speichern"/>
+  <string id="Settings.DontSave" value="Nicht speichern"/>
+  <string id="Settings.AllOn" value="Alle ein"/>
+  <string id="Settings.AllOff" value="Alle aus"/>
+
+  <string id="Settings.AspectRatio" value="Seitenverhältnis"/>
+  <string id="Settings.AspectRatio.Description" value="Wählen Sie den verwendeten TV-Typ aus:"/>
+  <string id="Settings.AspectRatio.StandardScreen" value="Standardbildschirm - 4:3"/>
+  <string id="Settings.AspectRatio.WideScreen" value="Breitwand - 16:9"/>
+
+  <string id="Settings.Overscan" value="Overscan-Korrektur"/>
+  <string id="Settings.Overscan.Start" value="Starten"/>
+  <string id="Settings.Overscan.GeneralInstruction" value="Klicken Sie auf 'Starten', um zu beginnen."/>
+  <string id="Settings.Overscan.LeftBorderInstruction" value="Verwenden Sie die Pfeiltasten nach links/rechts, um den linken Rand dieses Ausschnitts an den linken Rand des Bildschirms zu bewegen. Drücken Sie anschließend auf OK."/>
+  <string id="Settings.Overscan.RightBorderInstruction" value="Verwenden Sie die Pfeiltasten nach links/rechts, um den rechten Rand dieses Ausschnitts an den rechten Rand des Bildschirms zu bewegen. Drücken Sie anschließend auf OK."/>
+  <string id="Settings.Overscan.TopBorderInstruction" value="Verwenden Sie die Pfeiltasten nach oben/unten, um den oberen Rand dieses Ausschnitts an den oberen Rand des Bildschirms zu bewegen. Drücken Sie anschließend auf OK."/>
+  <string id="Settings.Overscan.BottomBorderInstruction" value="Verwenden Sie die Pfeiltasten nach oben/unten, um den unteren Rand dieses Ausschnitts an den unteren Rand des Bildschirms zu bewegen. Drücken Sie anschließend auf OK."/>
+
+  <string id="Settings.About.SystemInfoMenuItem" value="Systeminformationen"/>
+  <string id="Settings.About.ResourcesInfoMenuItem" value="Systemressourcen"/>
+  <string id="Settings.About.WebServicesMenuItem" value="Internetservices"/>
+  <string id="Settings.About.CopyrightMenuItem" value="Copyright"/>
+  <string id="Settings.About.PrivacyMenuItem" value="Datenschutz"/>
+  <string id="Settings.About.SubscriptionsMenuItem" value="Abonnements"/>
+  <string id="Settings.About.Go" value="Start"/>
+
+  <string id="Settings.About.PrivacyStatement" value="Hier werden die Datenschutzrichtlinien angezeigt."/>
+  <string id="Settings.About.CopyrightStatement" value="Hier werden Copyright-Informationen angezeigt."/>
+  <string id="Settings.About.SubscriptionInfo" value="Hier werden Abonnement-Informationen angezeigt."/>
+
+  <string id="Settings.Language" value="Sprache"/>
+
+  <string id="Settings.Sounds" value="Systemsounds"/>
+  <string id="Settings.Sounds.Play" value="Soundeffekte wiedergeben"/>
+  <string id="Settings.Sounds.Mute" value="Soundeffekte ausschalten"/>
+
+  <string id="Settings.HiddenChannels" value="Sender anpassen"/>
+  <string id="Settings.HiddenChannels.Description" value="Ausgewählte Sender werden im TV-Programm angezeigt."/>
+
+  <string id="Settings.AudioLanguage.Preference.Default" value="de"/>
+
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="Video on Demand"/>
+  <string id="VOD.MediaItem.Description" value="Filme hier mieten"/>
+  <string id="VOD.CurrentRentals.Title" value="Meine Miet-Videos"/>
+  <string id="VOD.CurrentRentals" value="MEINE MIET-VIDEOS"/>
+  <string id="VOD.NoCurrentRentals" value="Sie haben keine Videos gemietet."/>
+  <string id="VOD.Count.None" value="KEINE MIET-VIDEOS"/>
+  <string id="VOD.Count.One" value="1 MIET-VIDEO"/>
+  <string id="VOD.Count.Many" value="{0} MIET-VIDEOS"/>
+  <string id="VOD.Category.Count.None" value="KEINE VIDEOS"/>
+  <string id="VOD.Category.Count.One" value="1 VIDEO"/>
+  <string id="VOD.Category.Count.Many" value="{0} VIDEOS"/>
+
+  <string id="VOD.Storefront.LongDescription" value="VoD - ausführliche Beschreibung"/>
+  <string id="VOD.Storefront.ShortDescription" value="VoD - Kurzbeschreibung"/>
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="Videothek"/>
+  <string id="VOD.ChannelGuide.CurrentRentals" value="Meine Miet-Videos"/>
+  <string id="VOD.ExpiresToday" value="MIETZEIT ENDET AM: {0}" />
+  <string id="VOD.ExpiresInAWeek" value="MIETZEIT ENDET AM: {0}&#0160;{1}" />
+  <string id="VOD.ExpiresLater" value="MIETZEIT ENDET AM: {0}" />
+
+  <string id="VOD.ExpiresLongToday" value="Diese Video-Miete endet heute um {0}" />
+  <string id="VOD.ExpiresLongTomorrow" value="Diese Video-Miete endet morgen um {0}" />
+  <string id="VOD.ExpiresLongInAWeek" value="Diese Video-Miete endet am {0} um {1}" />
+  <string id="VOD.ExpiresLongLater" value="Diese Video-Miete endet am {0} um {1}" />
+
+  <string id="VOD.PurchaseOffer" value="Für die Miete dieses Videos wird Ihnen {0} berechnet." />
+  <string id="VOD.CreditLimitExceeded" value="Diese Miete würde Ihr Kostenlimit überschreiten." />
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="Diese Miete würde Ihr Kostenlimit überschreiten. Sie können Ihr Kostenlimit erhöhen, indem Sie '{0}' drücken." />
+  <string id="VOD.CreditLimitChange" value="Kostenlimit ändern" />
+  <string id="VOD.CreditLimitDontChange" value="Nicht ändern" />
+
+  <string id="VOD.StoreFront" value="VIDEOTHEK" />
+  <string id="VOD.DisabledNotification" value="Videothek ist momentan nicht verfügbar."/>
+  <string id="VOD.PleaseWait" value="Videos werden geladen"/>
+  <string id="VOD.Package" value="MULTI-PACK"/>
+  <string id="VOD.RentAll" value="Alle mieten"/>
+  <string id="VOD.RentOne" value="Einzelne mieten"/>
+  <string id="VOD.AlreadyRented" value="Verfügbare Miet-Videos"/>
+  <string id="VOD.SubcategoryIndicator" value="&#8226;&#8226;&#8226;"/>
+
+
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="Fernsehen ist momentan nicht verfügbar"/>
+
+  <!-- Messages -->
+  <string id="Messages.HeaderText"  value="MITTEILUNGEN" />
+  <string id="Messages.NoMessages"  value="Sie haben keine Mitteilungen." />
+  <string id="Messages.Menu.ByDate"  value="nach Datum" />
+  <string id="Messages.Menu.ByName"  value="nach Name" />
+  <string id="Messages.GoBack" value="Zurück"/>
+  <string id="Messages.Called" value="ANGERUFEN: {0}"/>
+  <string id="Messages.From" value="VON: {0}"/>
+  <string id="Messages.Received" value="EMPFANGEN: {0}"/>
+  <string id="Messages.MessageHeader"  value="MITTEILUNG" />
+  <string id="Messages.PictureHeader"  value="FOTOS" />
+  <string id="Messages.CallerIdHeader"  value="ANRUFERKENNUNG" />
+  <string id="Messages.PlaySlideShow" value="Diashow wiedergeben"/>
+
+  <!-- Upgrade -->
+  <string id="Upgrade.Required"  value="Ihr TV-Service muss aktualisiert werden."/>
+  <string id="Upgrade.Title"  value="Aktualisierung erfolgt..."/>
+  <string id="Upgrade.InProgress"  value="Ihr TV-Service wird aktualisiert."/>
+  <string id="Upgrade.Description"  value="Während dieses Vorgangs dürfen die Stromversorgung und die Netzwerkverbindungen nicht getrennt werden."/>
+  <string id="Upgrade.FailedUnknown"  value="Die Aktualisierung war wegen eines unbekannten Fehlers nicht möglich."/>
+  <string id="Upgrade.Progress"  value="Aktualisierung zu {0} % abgeschlossen"/>
+  <string id="Upgrade.TimeLeftLabel"  value="Verbleibende Zeit ca.:"/>
+  <string id="Upgrade.TimeLeft"  value="{0} Minuten"/>
+  <string id="Upgrade.TimeLeftOneMinute"  value="1 Minute"/>
+
+  <!-- Search -->
+  <string id="Search.Header" value="SUCHEN"/>
+  <string id="Search.Menu.title" value="Titel"/>
+  <string id="Search.Menu.people" value="Leute"/>
+  <string id="Search.PeopleResultPageMenu.ByDate" value="nach Datum"/>
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="nach Titel"/>
+  <string id="Search.PeopleResultPageMenu.ByRental" value="nach Miet-Video"/>
+  <string id="Search.PeopleResultPageMenu.ByStar" value="nach *"/>
+  <string id="Search.NoRentals" value="Keine Miet-Videos"/>
+  <string id="Search.NoShows" value="Keine Shows"/>
+
+  <string id="Search.Today" value="Heute"/>
+  <string id="Search.Tomorrow" value="Morgen"/>
+  <string id="Search.UpcomingDateFormatString" value="ddd d/M" />
+  <string id="Search.NoResults" value="Nichts gefunden"/>
+  <string id="Search.ByDateHeaderFormat"  value="{0} - {1}"/>
+  <string id="Search.MoreButtonText" value="Mehr..."/>
+  <string id="Search.TimeNotTodayFormat" value="d/M" />
+  <string id="Search.TimeTodayFormat" value="HH:mm" />
+
+  <string id="Search.NullScreen.Instruction1" value="Verwenden Sie zur Eingabe die Zifferntasten Ihrer Fernbedienung."/>
+  <string id="Search.NullScreen.Instruction2" value="Drücken Sie CLEAR, um einen Buchstaben zu löschen."/>
+
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="STUMM"/>
+
+  <!-- Common -->
+  <string id="ProgramTime" value="{0} - {1}"/>
+  <string id="ProgramTimeAndRating" value="{0} - {1}"/>
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+  <string id="MiniTimeFormat" value="HH:mm" />
+  <string id="MicroDateFormat" value="d/M" />
+  <string id="MiniDateFormat" value="ddd d/M" />
+  <string id="ShortDateFormat" value="dddd d/M" />
+
+  <string id="Today" value = "Heute"/>
+  <string id="Tomorrow" value = "Morgen"/>
+
+  <string id="TitleAndEpisodeTitle"   value="{0} - &quot;{1}&quot;"/>
+  <string id="TitleSansEpisode"       value="{0}"/>
+  <string id="Ellipsis"               value="..."/>
+
+  <string id="Comma"					value=","/>
+  <string id="Space"					value=" "/>
+  <string id="Period"					value="."/>
+
+  <string id="ParenthesizedString"	value="({0})"/>
+
+  <string id="SettingsString" value="EINSTELLUNGEN"/>
+
+  <string id="WatchTV"		value="Fernsehen"/>
+
+  <string id="PowerOff"		value="Ausschalten"/>
+
+  <string id="TryAgain"		value="Bitte nochmals versuchen"/>
+
+  <string id="Diagnostic"		value="Diagnoseinformationen"/>
+  <string id="Diag.NotAvail"	value="Nicht verfügbar"/>
+  <string id="Diag.Status"	value="    Status: "/>
+  <string id="Diag.Available"	value="Verfügbar"/>
+  <string id="Diag.Unreach"	value="Keine Verbindung"/>
+  <string id="Diag.Unknown"	value="Unbekannt"/>
+
+  <string id="Diag.Bootstrap"		value="Bootstrap"/>
+  <string id="Diag.BootstrapIP"	value="Bootstrap-IP-Adresse"/>
+  <string id="Diag.BoxID"		value="Box-ID"/>
+  <string id="Diag.BoxIP"		value="Box-IP"/>
+  <string id="Diag.DHCP"		value="DHCP-IP"/>
+  <string id="Diag.Gateway"	value="Gateway-IP"/>
+  <string id="Diag.DNSServer"	value="DNS-Server-IP-Adresse"/>
+
+  <string id="ConfigurableMenu.UpdateNotification"		value="Ihr Menü wird aktualisiert."/>
+
+  <string id="Dvr.UnknownListingData.Title" value="Keine Informationen verfügbar" />
+  <string id="Dvr.UnknownListingData.EpisodeTitle"  value="" />
+  <string id="Dvr.UnknownListingData.Description" value="" />
+  <string id="Dvr.UnknownListingData.ShortDescription" value="" />
+  <string id="Dvr.UnknownListingData.Language" value="Sprache" />
+  
+</stringtable>

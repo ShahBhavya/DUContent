@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_ChannelsPage class="Page.Animated" initialFocus="_saveButton">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.LockChannels</Text>
+		<Text class="Text.Clock">{Time}</Text>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+			<Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+			<Button class="Button.Vertical" onClick="OnClick_UnlockAll" id="_unlockAllButton">#ParentalControl.Settings.UnlockAll</Button>
+			<Button class="Button.Vertical" onClick="OnClick_ViewLockedOnly" id="_viewLockedOnlyButton">#ParentalControl.Settings.ViewLockedOnly</Button>
+			<Button class="Button.Vertical" onClick="OnClick_ViewAllChannels" id="_viewAllChannelsButton" visible="false">#ParentalControl.Settings.ViewAllChannels</Button>
+		</VerticalFlowPanel>
+		
+		<Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true"/>
+    <Image class="Image.Poster.PIP.ProgramInfo" id="_posterImageContainer" visible="false"/>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.LockedChannelList">
+            <List class="List.LockedChannels" id="_list" listCounterId="_listCounter"/>
+    	</VerticalFlowPanel>
+		<Text class="Text.ListCounter.Settings" id="_listCounter" />
+      
+    <EditText class="EditText.Channel.ChannelList.PconChannels" id="_jumpToChannel" maxChars="4" visible="false"/>
+
+    </ParentalControl_ChannelsPage>
+</uidescription>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+  <VodBrowseBar class="Panel.BrowseBarRoot">
+
+    <!-- current time's location is fixed -->
+    <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+    <Text class="Text.BrowseBar.Title">#BrowseBar.OnDemandTitle</Text>
+    
+    <Panel class="Panel.BrowseBar.ActionPanel" id="_mainPanel">
+      <Image class="Image.BrowseBarPoster" id="_pip"/>
+
+      <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+
+        <Panel class="Panel.BrowseBar.MainContentContainer" id="_horizontalAnimated">
+          <!-- keep name a little shorter than Text.BrowseBar.Name to make space for high def icon (if shown) -->
+          <Text class="Text.BrowseBar.Name" id="_name"/>
+          <Text class="Text.BrowseBar.Extra" id="_extra"/>
+          <Text class="Text.BrowseBar.Extra.RentalInfo" id="_rental"/>
+          <Text class="Text.Expiration.BrowseBar" id="_expiration"/>
+        </Panel>
+
+        <!-- image used to display high definition icon (or nothing if asset is in standard def) -->
+        <Panel class="Panel.BrowseBarIcon">
+          <Image id="_icon" class="Image.HD" />
+        </Panel>
+      </Panel>
+    </Panel>
+
+  </VodBrowseBar>
+</uidescription>
+
+

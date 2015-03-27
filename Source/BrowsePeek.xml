@@ -1,0 +1,75 @@
+<BrowsePeek class="Panel.PeekBrowseBar" peekappid="urn:microsoft:mediaroom:application:panel:browsebar" UseDynamicScreenModeStyles="true">
+
+  <!-- channel bar panel contains all its elements which are set at run time using MediaItem's data -->
+  <Panel class="Panel.ChannelBarContainer" id="_channelBar" visible="false">
+    <!-- current time -->
+    <Text class="Text.ChannelBar.Time">{Time}</Text>
+    <Text class="Text.ChannelBar.Title" id="_titleOnNow">#BrowseBar.OnNow</Text>
+    
+    <Panel class="Panel.BrowseBar.ActionPanel.ChannelBar">
+
+      <VerticalFlowPanel class="Panel.BrowseBar.ChannelInfoContainer.ChannelBar">        
+        <Text class="Text.BrowseBar.ChannelNumber.ChannelBar" id="_channelBarNumber" />
+        <Image class="Image.BrowseBarChannelLogo.ChannelBar" id="_channelLogo" />
+        <Text class="Text.BrowseBar.CallLetter.ChannelBar" id="_callLetter" />        
+      </VerticalFlowPanel>
+
+      <Panel class="Panel.ChannelBar.InfoContainer">
+      <!-- channel or program's title and (optional) time information -->
+        <Text class="Text.ChannelBar.Name" id="_channelBarTitle" />
+        <Text class="Text.ChannelBar.Extra" id="_channelBarExtras" />
+        <Text class="Text.ChannelBar.TimeLeft" id="_timeLeft" />
+
+      <ProgressBar class="ProgressBar.BrowsePeek.ChannelBar" id="_channelBarProgress"/>
+      
+      <HorizontalFlowPanel class="Panel.RatingLogo.BrowseBar" id="_ratingLogoContainer" >
+        <Image class="Image.RatingLogo.BrowseBar" id="_ratingLogo[0]" visible="false" />
+        <Image class="Image.RatingLogo.BrowseBar" id="_ratingLogo[1]" visible="false" />
+        <Image class="Image.RatingLogo.BrowseBar" id="_ratingLogo[2]" visible="false" />
+      </HorizontalFlowPanel>
+      </Panel>
+      
+      <VerticalFlowPanel class="VerticalFlowPanel.ChannelBar.Buttons">
+          <Button class="Button.ChannelBar.Options" id="_restartIndicator">
+            <Image class="Image.ChannelBar.RestartIndicator" />
+            <Text class="Text.ChannelBar.Indicator">#BrowseBar.RestartTV</Text>
+          </Button>
+        <Button class="Button.ChannelBar.Options" id="_channelBarHdEquiv">#Stream.HdUpEquivalentTune</Button>
+      </VerticalFlowPanel>        
+      
+      <VerticalFlowPanel class="Panel.ChannelBar.Indicators" id="_indicatorsContainer">
+        <!--record/record series-->
+        <Image id="_recordingIndicator" class="Image.BrowseBar.Indicator.Recording" />
+        <Image id="_closedCaptionIndicator" class="Image.BrowseBar.Indicator.ClosedCaption" />
+        <!--SD/HD-->
+        <Image id="_qualityIndicator" class="Image.BrowseBar.Indicator.Quality"/>
+      </VerticalFlowPanel>
+    </Panel>
+  </Panel>
+
+  <Panel class="Panel.BrowseBarContainer" id="_browseBar" visible="false" hideAnimations="BrowseBarOut" showAnimations="BrowseBarIn">
+    <Panel class="Panel.BrowseBar.ContainerItem" id="_browseContainer1" visible="false" />
+    <Panel class="Panel.BrowseBar.ContainerItem" id="_browseContainer2" visible="false" />
+    <EditText class="EditText.Channel.BrowseBar" channelNumber="true" id="_browseChannelEntry" visible="false"/>
+  </Panel>
+
+  <Panel class="Panel.RosetteContainer" id="_rosette" visible="false" hideAnimations="RosetteOut">
+    <!--<Button class="BrowseBarButton" top="116" left="550" id="_surfButton" onClick="OnClick_Surf">-->
+    <Button class="BrowseBarButton" width="0" height="0" id="_surfButton">
+      <!-- browse button doesn't have any visual indication, it's just there to catch events -->
+    </Button>
+    <!-- arrows are positioned by code when channel bar vs browse bar is shown, see VideoFullscreen.cs -->
+    <Image class="Image.Rosette.UpArrow" id="_browseUpArrow" />
+    <Image class="Image.Rosette.DownArrow" id="_browseDownArrow" />
+    
+    <VerticalFlowPanel class="Panel.Rosette.LeftNavigator" id="_leftNavigator">
+      <Image class="Image.Rosette.LeftArrow" id="_browseLeftArrow" />
+      <Text class="Text.Rosette.LeftInfo" id="_browseLeftArrowText">#BrowseBar.Arrow.JustMissed</Text>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="Panel.Rosette.RightNavigator" id="_rightNavigator">
+      <Image class="Image.Rosette.RightArrow" id="_browseRightArrow" />
+      <Text class="Text.Rosette.RightInfo" id="_browseRightArrowText">#BrowseBar.Arrow.OnNext</Text>
+    </VerticalFlowPanel>
+  </Panel>  
+</BrowsePeek>

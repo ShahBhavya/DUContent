@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+  <SVodBrowseBar class="Panel.BrowseBarRoot">
+    <!-- current time's location is fixed -->
+    <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+
+    <Panel class="Panel.BrowseBar.ActionPanel" id="_mainPanel">
+      <Image class="Image.BrowseBarVideo" absoluteurl="VideoStill.VOD.jpg" id="_pip"/>
+
+      <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+        <Panel class="Panel.BrowseBar.MainContentContainer" id="_horizontalAnimated">
+          <Text class="Text.BrowseBar.Name" id="_name"/>
+          <Text class="Text.BrowseBar.Extra" id="_extra"/>
+        </Panel>
+      </Panel>
+    </Panel>
+  </SVodBrowseBar>
+</uidescription>
+
+

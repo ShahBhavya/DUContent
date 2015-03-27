@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <StartPage class="Page.AnimatedStartMenu">
+    <!-- for the main menu we set the limo line at 640 pixels to essentially disable it -->
+
+    <Panel class="Panel.Masthead"/>
+    <Text class="Text.Clock">{Time}</Text>
+    <Panel class="Logo.Menu" clipchildren="false"/>
+    <Panel class="BrandService.Menu" clipchildren="false"/>
+    <Image class="Image.MRWatermark" id="_watermark" hideAnimations="SlowFadeOut" />
+
+	<!-- Start Horizontal Menu -->
+    <Panel class="Panel.MenuBackground.Start" clipchildren="true">
+      <ConfigurableMenu class="Menu.Start" id="_startMenu" containerID="_configurableMenuContainer">
+        <MenuItem class="MenuItem.MainMenu" id="_televisionMenuItem" submenuID="_televisionMenu">#Start.Television</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" id="_extrasMenuItem" submenuID="_extrasMenu">#Start.Extras</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" id="_settingsMenuItem" submenuID="_settingsMenu">#Start.Settings</MenuItem>   
+      </ConfigurableMenu>
+    </Panel>
+
+    <Panel class="Panel.ConfigurableMenu" id="_configurableMenuContainer"/>
+
+	<!-- Live TV Vertical Menu -->
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_televisionMenu" visible="false">
+     <Button class="Button.Menu" id="_watch" onClick="OnClick_WatchTV">#Start.Television.WatchTV</Button>
+      <Button class="Button.Menu" id="_guide" onClick="OnClick_Guide">#Start.Television.Guide</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_settingsMenu" visible="false">
+      <Button class="Button.Menu" id="_settingsGeneral" href="Settings?initialSelectedMenuItem=_generalMenu">#Start.Settings.General</Button>
+      <Button class="Button.Menu" id="_settingsTelevision" href="Settings?initialSelectedMenuItem=_televisionMenu">#Start.Settings.Television</Button>
+      <Button class="Button.Menu" id="_settingsSatellite" href="Settings?initialSelectedMenuItem=_satelliteMenu">#Start.Settings.Satellite</Button>
+      <Button class="Button.Menu" id="_settingsAccount" href="page:Settings.xml?initialSelectedMenuItem=_accountMenu">#Start.Settings.Account</Button>
+    </VerticalFlowPanel>
+
+  </StartPage>
+</uidescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrStreamChooserSub>
+		<VerticalFlowPanel class="VerticalFlowPanel.Dvr.Recorded" top="40">
+            <Text class="Text.DvrList.NullScreenFirstSentence" id="_emptyList1">#Dvr.NoProgramsHaveBeenRecorded1</Text>
+            <List class="List.DvrRecorded" id="_list" listCounterId="_listCounter"/>
+        </VerticalFlowPanel>
+        
+        <Text class="Text.ListCounter.DvrRecorded" id="_listCounter" />
+
+    	<Panel class="Panel.RolloverContainer.DvrRollover" id="_rolloverContainer" top="105"/>
+		        
+    </DvrStreamChooserSub>
+</uidescription>

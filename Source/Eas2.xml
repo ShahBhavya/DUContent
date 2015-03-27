@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription version="1.1">
+  <MrmlPage id="Eas2Page">
+
+    <Definitions id="eas2Defs">
+
+      <!-- Text display settings. -->
+      <Definition name="preCrawlPauseSeconds" type="literal" value="3" />
+      <Definition name="postCrawlPauseSeconds" type="literal" value="5" />
+      <Definition name="crawlSpeedPixelsPerSecond" type="literal" value="15" />
+
+      <!-- Service Override Priority check settings. -->
+      <Definition name="sopCheckIntervalSeconds" type="literal" value="2" />
+      <Definition name="liveSopDefault" type="literal" value="5" />
+      <Definition name="nonliveSopDefault" type="literal" value="10" />
+
+      <!-- Debugging support.  Set to "true" to use test data instead of real trigger data. -->
+      <Definition name="useDebugData" type="literal" value="false" />
+
+      <!-- Set to "true" to display debug data.  -->
+      <Definition name="outputDebugText" type="literal" value="true" />
+
+      <!-- Set to "true" to display the "EAS2" marker on the page while it is loaded.  -->
+      <Definition name="showDebugMarker" type="literal" value="false" />
+
+      <!-- Test data to substitute for trigger data.  Used when the useDebugData page variable is set to "true". -->
+      <Definition name="dbgtitle" type="literal" value="*** Level-2 alert test ***" />
+      <Definition name="dbgbody" type="literal" value="*** This is a test of the Emergency Broadcast System (State/Local Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. *** *** This is a test of the Emergency Broadcast System (State/Local Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. *** *** This is a test of the Emergency Broadcast System (State/Local Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. ***" />
+      <Definition name="dbgeasaudio" type="literal" value="eas://239.194.206.111:5500" />
+      <Definition name="dbgpriority" type="literal" value="7" />
+
+      <!-- When 'useDebugData' is set to 'true', these durations are used for testing. -->
+      <Definition name="debugAudioDurationSeconds" type="literal" value="10" />
+      <Definition name="debugForceTuneSeconds" type="literal" value="10" />
+
+      <!-- Set from trigger data, used by the audio custom actions. -->
+      <Definition name="easAudioUrl" type="literal" value="" />
+
+      <!-- Set from trigger data, used by the onSopChanged handler. -->
+      <Definition name="alertPriority" type="literal" value="" />
+
+    </Definitions>
+
+    <Scripts>
+      <Script>
+        //<![CDATA[
+
+        var isCheckingSop = false;
+        var isDisplayInitialized = false;  // Used to initialize the display in the SopChanged event handler.
+        var isAudioStreaming = false;
+        var isTextScrolling = false;
+        var isUsingTestData = false;
+        var isOutputDebugText = false;
+        var triggerDsName;
+        var triggerItemPrefix;
+        var debugData = "";
+
+        //*********************************************************************
+        // initialize
+        //
+        // Called once on entry.  Facilitates testing without launching via
+        // triggers.
+
+        function initialize()
+        {       
+          // Used in debugMsg().
+          isOutputDebugText = (getProperty("eas2Defs", "outputDebugText") == "true");
+
+          var showMarker = (getProperty("eas2Defs", "showDebugMarker") == "true");
+          if (showMarker)
+          {
+            debugMsg("Showing EAS2 debug marker on page.");
+            setProperty("debugMarker", "visible", "true");
+          }
+
+          isUsingTestData = (getProperty("eas2Defs", "useDebugData") == "true");
+          if (isUsingTestData)
+          {
+            debugMsg("Using embedded test data.");
+          }
+
+        }
+
+        //---------------------------------------------------------------------
+        // onEntry
+        //
+        // Handler for the onenter event.  Checks if a level-1 alert is ongoing.
+        // If so, this page is unloaded immediately.  Otherwise, onEntry gets the
+        // notification data, starts the service override priority (SOP) check
+        // interval timer, and then starts the text and audio presentation.
+
+        function onEntry()
+        {
+          // Do nothing if a level-1 alert is in progress.
+          var isInLevel1Alert = getProperty("easDs", "IsInLevel1Alert");
+          if(isInLevel1Alert == "true")
+          {
+            // Unload this page here.
+            invokeAction(null, "unloadAction");
+          }
+
+          // Not preempted, go ahead and data-bind to the trigger set.
+
+          // Get the trigger id from the page querystring.
+          var triggerId = getProperty("Eas2Page", "params/tid");
+          debugMsg("Trigger id '" + triggerId + "'");
+
+          if (isUsingTestData)
+          {
+            // Use fake test data in page variables.
+            triggerItemPrefix = "dbg";
+            triggerDsName = "eas2Defs";
+          }
+          else
+          {
+            // Use real data from EAS triggers.
+            triggerItemPrefix = triggerId + "/";
+            triggerDsName = "triggerDs";
+          }
+          
+          // Save the audio url for the audio custom actions.
+          var alertAudioUrl = getProperty(triggerDsName, triggerItemPrefix + "easaudio");
+          setProperty("eas2Defs", "easAudioUrl", alertAudioUrl);
+          debugMsg("Alert audio url '" + alertAudioUrl + "'");
+
+          // Save the priority for comparison to the current SOP in the onSopChanged handler.
+          var priority = getProperty(triggerDsName, triggerItemPrefix + "priority");
+          setProperty("eas2Defs", "alertPriority", priority);
+          debugMsg("Alert priority '" + priority + "'");
+
+          // Start the SOP check interval timer.
+          isCheckingSop = true;
+          invokeAction(null, "startSopChecksAction");
+        }
+
+        //*********************************************************************
+        // startTextAndAudioHidden
+        //
+        // Starts the text and audio presentation.  The display panel remains
+        // hidden, and is shown or hidden in the onSopChanged event handler based
+        // on the current service override priority.  The text crawl animation
+        // is started after waiting for the configured pre-crawl pause duration.
+
+        function startTextAndAudioHidden()
+        {
+          // Tune the EAS audio stream but don't play it.  That's done based on the SOP.
+          invokeAction(null, "tuneNoPlayAction");
+
+          // Flag that audio is streaming here.
+          isAudioStreaming = true;
+
+          if (isUsingTestData)
+          {
+            var endAudioTime = Number(getProperty("eas2Defs", "debugAudioDurationSeconds"));
+
+            debugMsg("EAS Audio will end in '" + endAudioTime + "' seconds.");
+
+            setTimeout("fireAudio2EndEvent()", endAudioTime * 1000);
+          }
+
+          var alertTitle = getProperty(triggerDsName, triggerItemPrefix + "title");
+          debugMsg("Alert title '" + alertTitle + "'");
+
+          var alertDescription = getProperty(triggerDsName, triggerItemPrefix + "body");
+          debugMsg("Alert body '" + alertDescription + "'");
+
+          setProperty("titleText","text", alertTitle);
+          setProperty("messageText","text", alertDescription);
+
+          // Get "Press EXIT to dismiss..." string from string table.
+          var dismissString = getProperty("stringsDs", "EAS.Dismiss");
+          setProperty("dismissalText", "text", dismissString);
+
+          // Set isTextScrolling to true here.
+          isTextScrolling = true;
+
+          // Start the text crawl before waiting the Pre-Crawl-Pause milliseconds
+          var preCrawlPause = Number(getProperty("eas2Defs", "preCrawlPauseSeconds"));
+
+          debugMsg("Pausing before scrolling for '" + preCrawlPause + "' seconds.");
+
+          setTimeout("startScroll()", preCrawlPause * 1000);
+        }
+
+        //---------------------------------------------------------------------
+        // fireAudio2EndEvent
+        //
+        // Fires the "eas:audio1end" event.  Called by startTextAndAudio()
+        // to test handling of that event.
+
+        function fireAudio2EndEvent()
+        {
+          invokeAction(null, "fireAudio2EndEventAction");
+        }
+
+        //---------------------------------------------------------------------
+        // startScroll
+        //
+        // Obtains the configured crawl speed and the height of the message text
+        // data, computes the crawl duration, and calls the custom action to
+        // create and start the crawl animation.  Calls the startPostCrawlPause()
+        // function after the crawl duration.
+
+        function startScroll()
+        {
+          // Measure the height of the message text.
+          var contentHeight = Number(getProperty("messageText", "contentHeight"));
+          var panelHeight = Number(getProperty("messagePanel", "height"));
+
+          debugMsg("Panel height '" + panelHeight + "', Content height '" + contentHeight + "'");
+
+          // Do we need to scroll?
+          if (contentHeight > panelHeight)
+          {
+            var crawlSpeed = Number(getProperty("eas2Defs", "crawlSpeedPixelsPerSecond"));
+            if (crawlSpeed <= 0)
+            {
+              // To prevent divide-by-zero errors.
+              crawlSpeed = 1;
+            }
+
+            // Compute the wait time based on amount of scroll and crawl speed.
+
+            var heightToScroll = contentHeight - panelHeight;
+            var crawlDurationMs = Math.ceil(heightToScroll/crawlSpeed * 1000);
+
+            debugMsg("Scrolling... Amount to scroll '" + heightToScroll + "', Crawl speed '" + crawlSpeed
+              + "', Scroll duration Ms '" + crawlDurationMs + "'");
+
+            invokeAction(null, "startTextCrawlAction");
+
+            // Wait for the text crawl to finish, then go on to pause.
+            setTimeout("startPostCrawlPause()", crawlDurationMs);
+          }
+          else
+          {
+            debugMsg("Not scrolling...");
+
+            // Not enough text to scroll.  Go on to the post crawl pause.
+            startPostCrawlPause();
+          }
+        }
+
+        //---------------------------------------------------------------------
+        // startPostCrawlPause
+        //
+        // Waits out the post-crawl pause period to allow viewers to finish reading
+        // the displayed text.
+
+        function startPostCrawlPause()
+        {
+          // Compute the Post-Crawl-Pause duration in milliseconds.
+          var postCrawlPause = Number(getProperty("eas2Defs", "postCrawlPauseSeconds"));
+
+          debugMsg("Pausing after scrolling for '" + postCrawlPause + "' seconds.");
+
+          setTimeout("endTextPresentation()", postCrawlPause * 1000);
+        }
+
+        //---------------------------------------------------------------------
+        // endTextPresentation
+        //
+        // Hides the text display panel and clears the text-is-scrolling flag.
+        // If the audio play is also over, post-display actions are initiated
+        // (which will unload this page).
+
+        function endTextPresentation()
+        {
+          hideDisplayPanel();
+
+          // Clear the flag that tracks whether text is scrolling.
+          isTextScrolling = false;
+
+          debugMsg("Presentation ended.");
+
+          // Text display has ended, if audio also ended, move on to the post-display activity.
+          if (!isAudioStreaming)
+          {
+            performPostDisplayActions();
+          }
+        }
+
+        //---------------------------------------------------------------------
+        // showDisplayPanel
+        //
+        // Unhides the text display panel.
+
+        function showDisplayPanel()
+        {
+          // dismiss screen saver
+          invokeAction(null, "dismissScreenSaver");
+          
+          // Unhide the UI.
+          setProperty("displayPanel", "visible", "true");
+        }
+
+        //---------------------------------------------------------------------
+        // hideDisplayPanel
+        //
+        // Hides the text display panel.
+
+        function hideDisplayPanel()
+        {
+          setProperty("displayPanel", "visible", "false");
+        }
+
+        //*********************************************************************
+        // onAudioEnd
+        //
+        // Handler for the 'eas:audio2end' event.  Stops playing EAS audio and
+        // clears the isAudioStreaming flag.  If the text display is also over,
+        // post-display actions are initiated (which will unload this page).
+
+        function onAudioEnd()
+        {
+          debugMsg("Handling the 'eas:audio2end' event.");
+
+          // Restore to normal audio.
+          invokeAction(null, "stopAudioAction");
+
+          // Flag that audio is no longer playing.
+          isAudioStreaming = false;
+
+          // Audio has ended, if text display also ended, move on to the post-display activity.
+          if (!isTextScrolling)
+          {
+            performPostDisplayActions();
+          }
+        }
+
+        //---------------------------------------------------------------------
+        // onSopChanged
+        //
+        // Handler for the 'eas:sopchanged' event.  Obtains the alert priority
+        // and current service override priority (SOP) and compares them.  If the
+        // alert priority is at or higher than the current SOP, the text display
+        // is revealed and EAS audio is played.  If the current SOP is higher
+        // than the alert priority, the text display is hidden and audio is
+        // restored.
+
+        function onSopChanged()
+        {
+          debugMsg("Handling the 'eas:sopchanged' event.");
+
+          if (!isDisplayInitialized)
+          {
+            isDisplayInitialized = true;  // This is done only once in this app.
+
+            // Start the audio and text presentation.
+            startTextAndAudioHidden();
+          }
+
+          // Get the alert priority.
+          var alertPriority = Number(getProperty("eas2Defs", "alertPriority"));
+
+          // Get the current service override priority.
+          var currentSop = Number(getProperty("easDs", "Sop"));
+
+          // Compare them.  If the alert priority is at or over the current SOP...
+          if (alertPriority >= currentSop)
+          {
+            // show the text and audio.
+            invokeAction(null, "playAudioAction");
+            showDisplayPanel();
+          }
+          else
+          {
+            // alert priority is lower than the current SOP, hide the text and audio.
+            invokeAction(null, "stopAudioAction");
+            hideDisplayPanel();
+          }
+        }
+
+        //*********************************************************************
+        // performPostDisplayActions
+        //
+        // Called after the text and audio presentation, unloads this page
+
+        function performPostDisplayActions()
+        {
+          // Unload this page here.
+          invokeAction(null, "unloadAction");
+        }
+
+        //*********************************************************************
+        // unloadApp
+        //
+        // Unloads this EAS application.  Called when handling the ontrigger
+        // standby event.
+
+        function unloadApp()
+        {
+            debugMsg("Handling the return-from-standby event.");
+
+            if (isAudioStreaming)
+            {
+              invokeAction(null, "stopAudioAction");
+            }
+
+            // Unload this page here.
+            debugMsg("Unloading the EAS level 2 alert application.");
+            invokeAction(null, "unloadAction");
+        }
+
+        //*********************************************************************
+        // handleExitKey
+        //
+        // Called when the user presses ExitToTV.
+
+        function handleExitKey()
+        {
+          // Unload this page here.
+          invokeAction(null, "unloadAction");
+        }
+
+        //*********************************************************************
+        // debugMsg
+        //
+        // Output trace log messages if the outputDebugText page variable is set
+        // to "true".
+
+        function debugMsg(outMsg)
+        {
+           if (isOutputDebugText)
+           {
+             alert("EasApp: " + outMsg);
+           }
+        }
+
+//]]>
+
+      </Script>
+    </Scripts>
+
+    <DataSource id="stringsDs" uri="local://strings" />
+    <DataSource id="easDs" uri="local://eas" />
+    <DataSource id="triggerDs" uri="local://triggers" />
+
+    <Panel id="displayPanel" class="Panel" visible="false">
+
+      <Text id="titleText" justification="center" layout="center" foreground="argb(255,255,255,255)"
+            top="54" left="48" background="argb(255,255,0,0)" height="30" width="540" />
+
+      <!-- messageText content scrolls within messagePanel. -->
+      <Panel id="messagePanel" class="Panel" top="80" left="48" height="300" width="540" clipChildren="true">
+        <Text id="messageText" justification="center" height="1000" width="538" foreground="argb(255,0,0,0)"
+              background="argb(255,255,255,255)" />
+      </Panel>
+
+      <Text id="dismissalText" justification="center" layout="center" foreground="argb(255,255,255,255)"
+            top="380" left="48" background="argb(255,255,0,0)" height="30" width="540" />
+
+    </Panel>
+
+    <Text id="debugMarker" fontStyle="Bold72" foreground="@EasYellow" layout="top" justification="center"
+          left="320" top="300" width="300" height="100" maxheight="100" visible="false">EAS2</Text>
+
+    <Actions>
+      <!-- Disable ScreenSaver action-->
+      <Action name="dismissScreenSaver" type="screensaver" data="dismiss" />
+      
+      <!-- Actions called on entry. -->
+      <Action name="initializeAction" type="script" function="initialize" />
+      <Action name="entryAction" type="script" function="onEntry" />
+      <Event type="onenter" action="initializeAction entryAction" target="Eas2Page" />
+
+      <!-- Actions called on exit.  Stop the SOP check timer when leaving. -->
+      <Event type="onleave" action="stopAudioAction stopSopChecksAction" target="Eas2Page" />
+
+      <!-- Unloads this page. -->
+      <Action name="unloadAction" type="eas" action="unloadeas2" />
+
+      <!-- Handle the exit key. -->
+      <Action name="handleExitKeyAction" type="script" function="handleExitKey" propagate="false" />
+      <Event type="onkey:exit" action="handleExitKeyAction" target="Eas2Page" />
+
+      <!-- Controls EAS Audio play.  Trigger engine signals end of audio through the audio1end custom event.-->
+      <Action name="tuneNoPlayAction" type="eas" action="tunenoplay" data="{easAudioUrl}" />
+      <Action name="playAudioAction" type="eas" action="playaudio" data="{easAudioUrl}" />
+      <Action name="stopAudioAction" type="eas" action="stopaudio" data="{easAudioUrl}" />
+      <Action name="onAudioEndAction" type="script" function="onAudioEnd" />
+
+      <!-- Custom action to start the scrolling animation; 'data' contains the crawl speed. -->
+      <Action name="startTextCrawlAction" type="eas" data="{crawlSpeedPixelsPerSecond}" action="scrolltext"
+              target="messageText messagePanel" />
+
+      <!-- Controls current-service-override-priority (SOP) checking.  -->
+      <Action name="startSopChecksAction" type="eas" action="startsopchecks"
+              data="{sopCheckIntervalSeconds},{liveSopDefault},{nonliveSopDefault}" />
+
+      <Action name="stopSopChecksAction" type="eas" action="stopsopchecks" />
+      <Action name="onSopChangedAction" type="script" function="onSopChanged" />
+      <Action name="onUnloadEas2Action" type="script" function="unloadApp" />
+
+      <!-- Register trigger event to fire when exiting standy state -->
+      <Event type="ontrigger" action="onUnloadEas2Action" data="[POWER:0],[EXIT:]"></Event>
+
+      <!-- Custom events. -->
+      <Event type="#urn:microsoft:mediaroom:action:eas:audio2end" action="onAudioEndAction" target="Eas2Page" />
+      <Event type="#urn:microsoft:mediaroom:action:eas:sopchanged" action="onSopChangedAction" target="Eas2Page" />
+
+      <Action name="fireAudio2EndEventAction" type="event" event="#urn:microsoft:mediaroom:action:eas:audio2end" target="Eas2Page" />
+
+    </Actions>
+  </MrmlPage>
+</uidescription>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <StaticIPSetting class="Page.Background"  initialFocus="_preboot">
+        <Text class="Text.HeaderTitle">#StaticIP.Setting</Text>	
+   		<VerticalFlowPanel  layout="center" top="100">
+			<HorizontalFlowPanel>
+		   		<VerticalFlowPanel >
+					<HorizontalFlowPanel width="400" top="100" left="50">
+						<Text class="Text.Messages" id="_titleipaddr" width="100" >#StaticIP.Setting.IPAddr</Text>			
+				        <EditText id="_ipaddr1" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnStaticIP1Changed"/>
+						<Text class="Text.Messages" id="_titleipaddrdot1" width="10" >.</Text>			
+				        <EditText id="_ipaddr2" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnStaticIP2Changed"/>
+						<Text class="Text.Messages" id="_titleipaddrdot2" width="10" >.</Text>			
+				        <EditText id="_ipaddr3" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnStaticIP3Changed"/>
+						<Text class="Text.Messages" id="_titleipaddrdot3" width="10" >.</Text>
+				        <EditText id="_ipaddr4" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnStaticIP4Changed"/>
+					</HorizontalFlowPanel>
+					<HorizontalFlowPanel width="400" left="50">
+						<Text class="Text.Messages" id="_titlemask" width="100" >#StaticIP.Setting.Mask</Text>			
+			    	    <EditText id="_mask1" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnMask1Changed"/>
+						<Text class="Text.Messages" id="_titlemaskdot1" width="10" >.</Text>			
+			    	    <EditText id="_mask2" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnMask2Changed"/>
+						<Text class="Text.Messages" id="_titlemaskdot2" width="10" >.</Text>			
+			    	    <EditText id="_mask3" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnMask3Changed"/>
+						<Text class="Text.Messages" id="_titlemaskdot3" width="10" >.</Text>			
+			    	    <EditText id="_mask4" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="3" OnValueChange="OnMask4Changed"/>
+					</HorizontalFlowPanel>
+					<HorizontalFlowPanel width="400" left="50">
+						<Text class="Text.Messages" id="_titlegate" width="100" >#StaticIP.Setting.Gate</Text>			
+			    	    <EditText id="_gate1" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnGate1Changed"/>
+						<Text class="Text.Messages" id="_titlegatedot1" width="10" >.</Text>			
+			    	    <EditText id="_gate2" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnGate2Changed"/>
+						<Text class="Text.Messages" id="_titlegatedot2" width="10" >.</Text>			
+			    	    <EditText id="_gate3" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnGate3Changed"/>
+						<Text class="Text.Messages" id="_titlegatedot3" width="10" >.</Text>			
+			    	    <EditText id="_gate4" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnGate4Changed"/>
+					</HorizontalFlowPanel>
+					<HorizontalFlowPanel width="400" left="50">
+						<Text class="Text.Messages" id="_titledns" width="100" >#StaticIP.Setting.DNS</Text>			
+			    	    <EditText id="_dns1" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnDNS1Changed"/>
+						<Text class="Text.Messages" id="_titlednsdot1" width="10" >.</Text>			
+			    	    <EditText id="_dns2" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnDNS2Changed"/>
+						<Text class="Text.Messages" id="_titlednsdot2" width="10" >.</Text>			
+			    	    <EditText id="_dns3" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnDNS3Changed"/>
+						<Text class="Text.Messages" id="_titlednsdot3" width="10" >.</Text>			
+			    	    <EditText id="_dns4" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnDNS4Changed"/>
+					</HorizontalFlowPanel>
+					<HorizontalFlowPanel width="400" left="50">
+						<Text class="Text.Messages" id="_titlewins" width="100" >#StaticIP.Setting.WINS</Text>			
+			    	    <EditText id="_wins1" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnWINS1Changed"/>
+						<Text class="Text.Messages" id="_titlewinsdot1" width="10" >.</Text>			
+			    	    <EditText id="_wins2" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnWINS2Changed"/>
+						<Text class="Text.Messages" id="_titlewinsdot2" width="10" >.</Text>			
+			    	    <EditText id="_wins3" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnWINS3Changed"/>
+						<Text class="Text.Messages" id="_titlewinsdot3" width="10" >.</Text>			
+			    	    <EditText id="_wins4" class="EditText" width = "50" digitsOnly="true" margin="rect(0,10,0,0)"  maxChars="40" OnValueChange="OnWINS4Changed"/>
+					</HorizontalFlowPanel>
+			    </VerticalFlowPanel>
+				<Image url="Search_NumberPadExt.png" left="0" top="0" height="238" width="167"/>
+			</HorizontalFlowPanel>
+
+			<HorizontalFlowPanel width="640" left="100" top="220">
+	            <Button id="_preboot"  class="Button.Dialog"  left="100" width="120"  layout="center" onClick="OnClick_Connect">#StaticIP.Setting.Reboot</Button>
+	            <Button id="_pback"  class="Button.Dialog"  left="100" width="120"  layout="center" onClick="OnClick_Cancel">#StaticIP.Setting.Back</Button>
+			</HorizontalFlowPanel>
+
+	    </VerticalFlowPanel>
+		        
+    </StaticIPSetting>
+</uidescription>

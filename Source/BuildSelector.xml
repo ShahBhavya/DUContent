@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <BuildSelectorPage class="Page.Animated" initialFocus="_upgradeButton">
+      
+      <Panel id="_waitPanel" visible="false" left="35" top="70" >
+        <Text class="Text.VodStorePleaseWait" id="_waitMessage"></Text>
+        <ProgressBar id="_waitProgress" top="200" left="35" width="500" height="20" borderwidth="2" background="@Darkbackground" foreground="@Secondary" />
+      </Panel>
+
+      <Panel id="_uiPanel">
+        <Panel class="Panel.MenuBackground" clipchildren="true" top="20" width="640">
+            <ListMenu class="Menu.Start" left="33"  id="_branchMenu" />
+        </Panel>
+        <VerticalFlowPanel left="35" top="70" width="570">
+          <HorizontalFlowPanel>
+            <VerticalFlowPanel>
+              <VerticalFlowPanel>
+                <Text width="120">Client HW:</Text>
+                <Text width="280" id="_clientHW"/>
+              </VerticalFlowPanel>
+              <Panel height="8" />
+              <VerticalFlowPanel>
+                <Text width="120">Target:</Text>
+                <Text width="280" id="_validTargetName"/>
+              </VerticalFlowPanel>
+            </VerticalFlowPanel>
+            <Panel width="80" />
+            <VerticalFlowPanel>
+              <Button class="Button.Vertical" onClick="OnClick_Upgrade" id="_upgradeButton">Upgrade</Button>
+              <Button class="Button.Vertical" href="page:ServiceSelector.xml">Service Selector</Button>
+              <Panel height="8" />
+              <RadioButtonGroup id="_flavorGruop">
+                <RadioButton class="RadioButton" onclick="OnClick_FlavorRadioButton">nondebug</RadioButton>
+                <RadioButton class="RadioButton" onclick="OnClick_FlavorRadioButton">debug</RadioButton>
+                <RadioButton class="RadioButton" onclick="OnClick_FlavorRadioButton">release</RadioButton>
+              </RadioButtonGroup>
+            </VerticalFlowPanel>
+          </HorizontalFlowPanel>
+          <Panel height="8" />
+          <HorizontalFlowPanel >
+            <Panel width="210"/>
+            <VerticalFlowPanel id="_listWaitPanel">
+              <Panel height="70" />
+              <Text class="Text.VodStorePleaseWait">Populating build cache...</Text>
+            </VerticalFlowPanel>
+            <VerticalFlowPanel visible="false" id="_listUiPanel">
+              <Text class="Text" width="200" height="20">Select a build number:</Text>
+              <Panel height="4" />
+              <List class="List" numvisibleitems="5" id="_list" />
+            </VerticalFlowPanel>
+          </HorizontalFlowPanel>
+        </VerticalFlowPanel>
+      </Panel>
+
+    </BuildSelectorPage>
+</uidescription>

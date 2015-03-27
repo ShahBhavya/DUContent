@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+  <DvrAppBrowseBar class="Panel.BrowseBarRoot">
+    <Panel id="_onNowContainer" class="Panel.BrowseBarContainer.MainContainer">
+      <!-- current time's location is fixed -->
+      <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+      <Text class="Text.BrowseBar.Title" id="_title">#BrowseBar.DVR.TitleAll</Text>
+
+      <Panel class="Panel.BrowseBar.ActionPanel" id="_onNowPanel">
+        <Image class="Image.BrowseBarVideo" absoluteurl="VideoStill.RecordedTV.jpg" id="_pip"/>
+        
+        <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+          <Panel class="Panel.BrowseBar.MainContentContainer" id="_horizontalAnimated">
+            <Text class="Text.BrowseBar.Name" id="_name"/>
+            <Text class="Text.BrowseBar.Extra.Dvr" id="_extra"/>
+          </Panel>
+        </Panel>
+      </Panel>
+    </Panel>
+  </DvrAppBrowseBar>
+</uidescription>
+
+

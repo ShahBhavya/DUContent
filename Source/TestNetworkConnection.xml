@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+    <TestNetworkConnection class="Page.Background">
+      <Text class="Text.HeaderTitle" id="_header">#Diag.Header</Text>
+
+      <VerticalFlowPanel top="100" left="100" width="400" height="200">
+        <Text class="TextBox.NetworkDiagDetails" align="center" id="_diagInfo" wrap="true" justification="center" />
+      </VerticalFlowPanel>
+
+      <VerticalFlowPanel top="300" left="32" width="576">
+        <Button class="Button.Diagnostics" left="100" width="400" id="_homeButton" href="start">#TestNetworkConnection.GoHome</Button>
+      </VerticalFlowPanel>
+    </TestNetworkConnection>
+</uidescription>

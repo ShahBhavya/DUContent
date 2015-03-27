@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+    <ChannelRollover class="Subpage.RolloverInfo">
+		  <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+        <Text class="Text.RolloverInfo.ProgramName" id="_channelTitle"/>
+        <Text class="Text.RolloverInfo.ProgramTime" id="_channelInfo"></Text>
+        <Text class="Text.RolloverInfo.Description" id="_channelDescription"/>
+      <!--
+		    <Text class="Text.RolloverInfo.Instructions" id="_channelInfo">#Guide.ListGuideInstructions</Text>
+          -->
+      </Panel>
+    </ChannelRollover>
+</uidescription>

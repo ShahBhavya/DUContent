@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DeadStatePage class="Page.DeadState">	
+    	<VerticalFlowPanel class="Panel.Dialog.DeadState" id="_content">
+			<HorizontalFlowPanel top="0" left="0" width="640">
+				<Text class="Text.Dialog.DeadState" id="_message" />
+				<VerticalFlowPanel id="_buttons" class="VerticalFlowPanel.DialogButtons" >
+					<Button class="Button.Dialog" id="_restart" visible="true" onClick="OnClick_Restart" stretchmode="ScaleAndTranslate">#Restart.Yes</Button>
+				</VerticalFlowPanel>
+			</HorizontalFlowPanel>
+	    </VerticalFlowPanel>
+    </DeadStatePage>
+</uidescription>

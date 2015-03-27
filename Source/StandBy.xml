@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <Page id="StandBy" class="Page" left="0" top="0" width="1280" height="720"
+        BackgroundContent="Default_Background.xml" visible="false"
+        showanimations="QuickFadeIn" hideanimations="QuickFadeOut" />
+</uidescription>

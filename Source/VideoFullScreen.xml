@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <VideoFullScreen class="Page">
+
+    <!-- <FrontPanel id="_frontPanel" DataSource="_mainVideo" DataPath="station/@longName" DefaultText="My TV" /> -->
+
+    <Video class="Video.FullScreen" id="_mainVideo" pipe="FULLSCREEN" ispip="false"/>
+
+    <TextFlipper class="TopBanner.Notification" id="_topBanner" visible="false" />
+
+    <TextFlipper class="TextFlipper.VideoMessage" id="_statusBar" visible="false" />
+
+    <Image class="Image.SignalStrengthBars" id="_signalStrengthBars" visible="false"/>
+
+    <!-- panel used to load different add on to the fullscreen page like: recent channels -->
+    <Panel id="_addOnPanel" class="Panel.VideoFullScreen.AddOn" />
+
+    <Panel class="Panel.VideoFullScreen.ChannelEntryContainer" id="_channelEntryBar" visible="false">
+      <EditText class="EditText.Channel.ChannelBar" id="_channelEntry" OnTextEnter="ChannelEntered" />
+    </Panel>
+
+    <Panel id="_clockPanel" class="Panel.VideoFullScreen.Clock">
+      <Panel class="Panel.VideoFullScreen.CurrentTime"/>
+      <Text class="Text.ClockCentered" fontStyle="Reg18" foreground="@TextBackgroundMatch" top="37" left="29" width="100">{Time}</Text>
+    </Panel>
+
+    <Panel id="_seekBarPanel" class="Panel.VideoFullScreen.SeekBar"/>
+    <Panel id="_skipIconsPanel" class="Panel.VideoFullScreen.SkipIcons"/>
+    <Panel id="_stoppedOverlay" class="Panel.VideoFullScreen.StoppedOverlay">
+      <Text class="Text.StoppedFinishOverlayState" id="_stoppedState"/>
+      <Text class="Text.StoppedFinishOverlayTitle" id="_stoppedProgramTitle"/>
+      <Text class="Text.StoppedFinishOverlayMessage" id="_stoppedMessage"/>
+      <VerticalFlowPanel id="_stoppedFlowPanel" left="121" top="184" width="185" height="280">
+        <!-- Added to watch the next episode of a series recording if available -->
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="watchnextepisode" id="_stoppedButtons[8]">#StopPage.NextEpisode</Button>
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="play"       id="_stoppedButtons[0]">#StopPage.Play</Button>
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="videostore" id="_stoppedButtons[1]">#StopPage.Done.Vod</Button>
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="startover"  id="_stoppedButtons[2]">#StopPage.StartOver</Button>
+        <!-- Added for TimeShift Begin-->
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="moreshow"  id="_stoppedButtons[3]">#StopPage.MoreShow</Button>
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="channelguide"  id="_stoppedButtons[4]">#StopPage.ChannelGuide</Button>
+        <!-- Added for TimeShift End -->
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="erase"      id="_stoppedButtons[5]">#StopPage.Erase</Button>
+        <!-- Enable this later: FIXME bug 86933<Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="keepuntil"  id="_stoppedButtons[6]">#StopPage.KeepUntil</Button> -->
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="recordedtv" id="_stoppedButtons[6]">#StopPage.Done.Recorded</Button>
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="livetv" id="_stoppedButtons[7]">#StopPage.LiveTV</Button>
+        <!-- Added to function just like the back button on remote -->
+        <Button class="Button.StoppedOverlay" onclick="OnClick_StoppedButton" Tag="back" id="_stoppedButtons[9]">#StopPage.Back</Button>
+      </VerticalFlowPanel>
+      <Image id="_recIcon" class="Image.VodFullScreen.RecIcon"/>
+      <Text class="Text.VideoFullScreen.RecMessage" id="_recMessage"/>
+    </Panel>
+    <Panel id="_tsStoppedOverlay" class="Panel.VideoFullScreen.TSStoppedOverlay">
+      <Text class="Text.StoppedTimeShiftOverlayState" id="_tsStoppedState"/>
+      <Text class="Text.StoppedTimeShiftOverlayTitle" id="_tsStoppedProgramTitle"/>
+      <Text class="Text.StoppedTimeShiftOverlayMessage" id="_tsStoppedMessage"/>
+      <VerticalFlowPanel id="_tsStoppedFlowPanel" left="121" top="184" width="185" height="280">
+        <Button class="Button.TSStoppedOverlay" onclick="OnClick_TimeShiftStoppedButton" Tag="livetv" id="_tsStoppedButtons[0]">#TimeShiftStopPage.LiveTV</Button>
+        <Button class="Button.TSStoppedOverlay" onclick="OnClick_TimeShiftStoppedButton" Tag="guide" id="_tsStoppedButtons[1]">#TimeShiftStopPage.Guide</Button>
+      </VerticalFlowPanel>
+    </Panel>
+  </VideoFullScreen>
+</uidescription>

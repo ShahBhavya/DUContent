@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrUpcomingSub>
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.Upcoming">
+            <Text class="Text.DvrList.NullScreenFirstSentence.Upcoming" id="_emptyList1">#Dvr.NoProgramsAreScheduledToBeRecorded</Text>
+            <Text class="Text.DvrList.NullScreenSecondSentence" id="_emptyList2">#Dvr.NoProgramsHaveBeenRecorded2</Text>
+            <List class="List.DvrUpcoming" id="_list" listCounterId="_listCounter"/>
+        </VerticalFlowPanel>
+ 
+        <Text class="Text.ListCounter.DvrUpcoming" id="_listCounter" />
+
+        <Panel class="Panel.RolloverContainer.DvrUpcomingRollover" id="_rolloverContainer" />
+		        
+    </DvrUpcomingSub>
+</uidescription>

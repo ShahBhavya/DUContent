@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <AspectRatioWizardStep2 class="Page.Animated" initialFocus="_cancelChanges" BackgroundContent="Background_VideoAndBlueOverLay.xml" >
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.AspectRatioWizard.Step2</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <Text class="Text.WizardDescription" id="_description">#Settings.AspectRatioWizard.Description.Step2</Text>
+      <Button class="Button.Menu.Wizard" id="_keepSetting" onClick="OnClick_KeepSetting">#Settings.AspectRatioWizard.KeepSetting</Button>
+      <Button class="Button.Menu.Wizard" id="_cancelChanges" onClick="OnClick_CancelChanges">#Settings.CancelChanges</Button>
+      <Panel height="10" />
+      <Image url="HighDefinitionLogo.jpg" width="213" height="120" />
+    </VerticalFlowPanel>
+
+    <Panel id="_screenResizeNotice" left="0" top="0" width="854" height="480" background="ARGB(255,0,0,0)" visible="true" showanimations="QuickFadeIn">
+      <Text class="Text.SettingsDescription" width="640" height="480" layout="center" justification="center">#Settings.AspectRatio.Resizing</Text>
+    </Panel>
+
+  </AspectRatioWizardStep2>
+</uidescription>

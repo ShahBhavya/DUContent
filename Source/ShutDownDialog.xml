@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ShutDownDialog class="Page.Shutdown" initialFocus="_cancelButton">
+        <VerticalFlowPanel class="VerticalFlowPanel.ShutDown">
+            <Text class="Text.Shutdown.Notice" id="_countdownText"/>
+            <Panel class="Panel.ShutDownDialog"/>
+            <Text class="Text.Shutdown.Reason" id="_reasonText"/>
+            <Panel class="Panel.ShutDownDialog"/>
+            <Text class="Text.Shutdown.Message" id="_messageText"/>
+            <Panel class="Panel.ShutDownDialog"/>
+            <HorizontalFlowPanel class="HorizontalFlowPanel.ShutDownDialog">
+                <Button class="Button.ShutDownDialog" id="_cancelButton" nextLeft="_restartButton" onClick="OnClick_Cancel" visible="false">#Shutdown.Cancel</Button>
+                <Button class="Button.ShutDownDialog" id="_restartButton" nextRight="_cancelButton" onClick="OnClick_Restart" visible="false">#Shutdown.Reboot</Button>
+            </HorizontalFlowPanel>
+        </VerticalFlowPanel>
+    </ShutDownDialog>
+</uidescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <VolumeControl class="Page" limoline="300">
+		<Panel class="Panel.VolumeControl">
+			<Image class="Image.VolumeControl.Speaker"/>
+      <Image id="_image" class="Image.VolumeControl" />
+      <Text class="Text.VolumeControl" id="_volume"/>
+		</Panel>
+    </VolumeControl>    
+</uidescription>

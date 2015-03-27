@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <UrlProgramRollover class="Subpage.RolloverInfo">
+
+      <!-- Only one PIP gadget is used, depending on whether the URL service can be substituted. -->
+
+      <!-- _poster (PIP) for services that can not be substituted (normal case).-->
+      <Image class="Image.Poster" id="_poster" visible="false"/>
+      
+      <!-- _videoPip for services that can be substituted.-->
+      <Video class="Video.PIP.Guide" id="_videoPip" pipe="PIP" ispip="true" visible="false"/>
+      
+      <SlideShow class="SlideShow.PIP" id="_posterSlideShow"/>
+        <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+            <Text class="Text.RolloverInfo.ProgramName.VOD" id="_programName"/>
+            <Text class="Text.RolloverInfo.ProgramTime.VOD" id="_programTime"/>
+            <Text class="Text.Expiration.Rollover.VOD" id="_expiration"/>
+            <PanelFlipper class="PanelFlipper" id="_flipper">
+                <Text class="Text.RolloverInfo.Description.URL" id="_programDescription"/>
+                <Text class="Text.RolloverInfo.Description.URL" id="_programDetails"/>
+                <Text class="Text.RolloverInfo.Description.URL" id="_cast"/>
+            </PanelFlipper>
+        </Panel>
+    </UrlProgramRollover>
+</uidescription>

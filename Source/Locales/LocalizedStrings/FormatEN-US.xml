@@ -1,0 +1,37 @@
+<string id="ProgramInfo.ProgramDateFormatString" value="ddd M/d, " /> 
+<string id="ProgramInfo.ProgramDateNoDayFormatString" value="M/d, " /> 
+<string id="ProgramInfo.StartTimeFormatString" value="t" /> 
+<string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t" /> 
+<string id="ProgramInfo.EndTimeFormatString" value="t" /> 
+<string id="ProgramInfo.AirDateFormatString" value="MMMM dd yyyy" /> 
+<string id="ProgramInfo.VODAvailableDate" value="h:mm tt MMMM dd yyyy" /> 
+<string id="Guide.Options.JumpFormatString" value="dddd" />
+<string id="SeekBar.TimeFormat" value="h:mm tt" /> 
+<string id="SeekBar.TimeFormatCurrent" value="h:mm:ss" /> 
+<string id="SeekBar.DVRTimeFormat" value="h:mm" /> 
+<string id="SeekBar.DVRCurrentPositionFormat" value="h:mm:ss" /> 
+<string id="DVR.UpcomingDateFormatString" value="ddd M/d" /> 
+<string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd M/d)" /> 
+<string id="DVR.BucketRecordedDateFormatString" value="(ddd M/d)" /> 
+<string id="DVR.RecordedDateFormatString" value="M/d" /> 
+<string id="DVR.Keep.Date.Format" value="ddd M/d" /> 
+<string id="DVR.RecordDate.Format" value="ddd M/d" /> 
+<string id="DVR.Number.Format" value="D02" /> 
+<string id="DVR.Number.Format12Hour" value="" /> 
+<string id="DVR.Preview.StartTimeFormat" value="ddd M/d" /> 
+<string id="DVR.SeriesTimeFormat" value="h:mm tt" /> 
+<string id="DVR.SeriesTimeFormat24" value="H:mm" /> 
+<string id="SmartCard.Diagnostics.CardReadyDateFormat" value="dd/MM/yy" /> 
+<string id="Search.UpcomingDateFormatString" value="ddd M/d" /> 
+<string id="Search.TimeNotTodayFormat" value="M/d" /> 
+<string id="Search.TimeTodayFormat" value="h:mm tt" /> 
+<string id="MiniTimeFormat" value="h:mm" /> 
+<string id="ShortTimeFormat" value=""/>
+<string id="ShortTimeFormat.AmDesignator" value=""/>
+<string id="ShortTimeFormat.PmDesignator" value=""/>
+<string id="MicroDateFormat" value="M/d" /> 
+<string id="MiniDateFormat" value="ddd M/d" /> 
+<string id="ShortDateFormat" value="dddd M/d" /> 
+<string id="DayFormat" value="ddd" /> 
+ 
+

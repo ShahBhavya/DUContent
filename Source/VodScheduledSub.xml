@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <VodScheduled>
+    <List class="List.VodStore.Downloads.Scheduled" id="_list" listCounterId="_listCounter"/>
+    <Text class="Text.ListCounter.DownloadList" id="_listCounter"/>
+  </VodScheduled>
+</uidescription>

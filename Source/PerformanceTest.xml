@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <PerformanceTestPage class="Page">
+      <Button class="Button" id="_runAll" onClick="OnClick_RunAll"
+              top="50" left="70">Run All Tests</Button>
+
+      <Button class="Button" id="_runSelected" onClick="OnClick_RunSelected"
+              top="50" left="240" width="170">Run Selected Tests</Button>
+
+      <Button class="Button" id="_clearAll" onClick="OnClick_ClearAll"
+            top="50" left="420">Clear All Results</Button>
+    
+      <SimpleList class="SimpleList" id="_testList" background="@Background" 
+                  left="70" top="100" width="500" height="330" visibleitemcount="10" origin="0"/>
+  </PerformanceTestPage>
+</uidescription>

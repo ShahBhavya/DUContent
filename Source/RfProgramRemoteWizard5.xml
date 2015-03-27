@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RFProgramRemoteWizard5 class="Page.Animated.RFProgramRemoteWizard">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.RfProgramRemote.Wizard5</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription.Title.RFRemote">#Settings.RfProgramRemote.Wizard5.Title</Text>
+      <HorizontalFlowPanel height="auto" class="Text.SettingsDescription.Body.RFRemote">
+        <Text class="Text.SettingsDescription.Body.RFRemote.VeryShort">#Settings.RfProgramRemote.Wizard5.Description.Part1</Text>
+        <Image class="Image.RfProgramRemote.Enter"/>
+      </HorizontalFlowPanel>
+      <Text class="Text.SettingsDescription.Body">#Settings.RfProgramRemote.Wizard5.Description.Part2</Text>
+      <HorizontalFlowPanel height="auto">
+        <Text class="Text.SettingsDescription.Body.RFRemote.Short">#Settings.RfProgramRemote.Wizard5.Description.Part3</Text>
+        <Image class="Image.RfProgramRemote.OK"/>
+      </HorizontalFlowPanel>  
+    </VerticalFlowPanel>
+    <Text class="Text.SettingsDescription.RFFooter">#Settings.RfProgramRemote.Wizard.Footer</Text>
+    <Image class="Image.RfProgramRemote.Stop"/>
+  </RFProgramRemoteWizard5>
+</uidescription>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription version="1.1">
+  <MrmlPage id="Eas1Page">
+
+    <Definitions id="eas1Defs">
+
+      <!-- Text display settings. -->
+      <Definition name="preCrawlPauseSeconds" type="literal" value="3" />
+      <Definition name="postCrawlPauseSeconds" type="literal" value="5" />
+      <Definition name="crawlSpeedPixelsPerSecond" type="literal" value="15" />
+
+      <!-- Set to true or false to control user freedom during a force tune. -->
+      <Definition name="canDetune" type="literal" value="false" />
+
+      <!-- Set to a media descriptor of the force tune channel.  Set value to empty ("") if not needed. -->
+      <Definition name="emergencyChannelMdId" type="literal" value="7cba2bfb-1452-486d-8172-b57ca8e12a63" />
+
+      <!-- Debugging support.  Set to "true" to use test data instead of real trigger data. -->
+      <Definition name="useDebugData" type="literal" value="false" />
+
+      <!-- Set to "true" to output debug data to the trace log.  -->
+      <Definition name="outputDebugText" type="literal" value="true" />
+
+      <!-- Set to "true" to display the "EAS1" marker on the page while it is loaded.  -->
+      <Definition name="showDebugMarker" type="literal" value="false" />
+
+      <!-- Test data to substitute for trigger data.  Used when the useDebugData page variable is set to "true". -->
+      <Definition name="dbgtitle" type="literal" value="*** Level-1 alert test ***" />
+      <Definition name="dbgbody" type="literal" value="*** This is a test of the Emergency Broadcast System (National Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. *** *** This is a test of the Emergency Broadcast System (National Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. *** *** This is a test of the Emergency Broadcast System (National Alert).  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test.  This is only a test. ***" />
+      <Definition name="dbgeasaudio" type="literal" value="eas://239.194.206.111:5500" />
+
+      <!-- When 'useDebugData' is set to 'true', these durations are used for testing. -->
+      <Definition name="debugAudioDurationSeconds" type="literal" value="10" />
+      <Definition name="debugForceTuneSeconds" type="literal" value="10" />
+
+      <!-- Set from trigger data, used by the audio custom actions. -->
+      <Definition name="easAudioUrl" type="literal" value="" />
+
+    </Definitions>
+
+    <Scripts>
+      <Script>
+        //<![CDATA[
+
+        var isTerminating = false;
+        var isAudioStreaming = false;
+        var isTextDisplaying = false;
+        var isUsingTestData = false;
+        var isOutputDebugText = false;
+        var triggerDsName;
+        var triggerItemPrefix;
+        var debugData = "";
+
+        //*********************************************************************
+        // initialize
+        //
+        // Called once on entry.  Sets the IsInLevel1Alert flag and CanDetune.
+        // Forces Eas2.xml to exit (to enforce preemption).  Also facilitates
+        // testing without launching via triggers.
+
+        function initialize()
+        {
+          // Used in debugMsg().
+          isOutputDebugText = (getProperty("eas1Defs", "outputDebugText") == "true");
+          
+          var showMarker = (getProperty("eas1Defs", "showDebugMarker") == "true");
+          if (showMarker)
+          {
+            debugMsg("Showing EAS1 debug marker on page.");
+            setProperty("debugMarker", "visible", "true");
+          }
+
+          isUsingTestData = (getProperty("eas1Defs", "useDebugData") == "true");
+          if (isUsingTestData)
+          {
+            debugMsg("Using embedded test data.");
+          }
+
+          // Set or clear the CanDetune flag here.
+          var canDetune = getProperty("eas1Defs", "canDetune");
+          if (canDetune == "false")
+          {
+            invokeAction(null, "clearCanDetuneAction");
+          }
+          else
+          {
+            invokeAction(null, "setCanDetuneAction");
+          }
+          
+
+          // Set IsInLevel1Alert to enforce preemption.
+          invokeAction(null, "setLevel1StateAction");
+
+          // Force Eas2.xml to exit.
+          invokeAction(null, "preemptEas2Action");
+        }
+
+        //---------------------------------------------------------------------
+        // onEntry
+        //
+        // Handler for the onenter event; called after initialize().  Checks if
+        // the client is currently force-tuned.  If so, does nothing (but Eas1.xml
+        // remains loaded).  If not currently force-tuned, onEntry gets the
+        // notification data and then starts the text and audio presentation.
+        // The force tune will be conducted at the end of text/audio.
+
+        function onEntry()
+        {
+          // Do nothing if already force tuned.
+          var isForceTuned = getProperty("easDs", "IsForceTuned");
+          if(isForceTuned == "true")
+          {
+            return;
+          }
+
+          // Not force-tuned yet, go ahead and data-bind to the trigger set.
+          
+          // Get the trigger id from the page querystring.
+          var triggerId = getProperty("Eas1Page", "params/tid");
+          debugMsg("Trigger id '" + triggerId + "'");
+
+          if (isUsingTestData)
+          {
+            // Use fake test data in page variables.
+            triggerItemPrefix = "dbg";
+            triggerDsName = "eas1Defs";
+          }
+          else
+          {
+            // Use real data from EAS triggers.
+            triggerItemPrefix = triggerId + "/";
+            triggerDsName = "triggerDs";
+          }
+
+          var alertTitle = getProperty(triggerDsName, triggerItemPrefix + "title");
+          debugMsg("Alert title '" + alertTitle + "'");
+
+          var alertDescription = getProperty(triggerDsName, triggerItemPrefix + "body");
+          debugMsg("Alert body '" + alertDescription + "'");
+
+          // Save the audio url for the audio custom actions.
+          var alertAudioUrl = getProperty(triggerDsName, triggerItemPrefix + "easaudio");
+          setProperty("eas1Defs", "easAudioUrl", alertAudioUrl);
+          debugMsg("Alert audio url '" + alertAudioUrl + "'");
+
+          // Start the audio and text presentation.
+          startTextAndAudio(alertTitle, alertDescription);
+        }
+
+        //---------------------------------------------------------------------
+        // onLevel1End
+        //
+        // Handler for the 'eas:level1end' event, which is fired from a level-1
+        // alert terminating notification.  onLevel1End gets the notification data
+        // and then starts the text and audio presentation.  performPostDisplayActions()
+        // is called at the end of text/audio, which will end the force tune and
+        // unload this page (based on setting isTerminating to true).
+
+        function onLevel1End()
+        {
+          debugMsg("Handling the 'eas:level1end' event.");
+
+          isTerminating = true;
+
+          // Data-bind to the trigger set for ending message.
+          var alertTitle = getProperty(triggerDsName, triggerItemPrefix + "title");
+          debugMsg("Alert title '" + alertTitle + "'");
+
+          var alertDescription = getProperty(triggerDsName, triggerItemPrefix + "body");
+          debugMsg("Alert body '" + alertDescription + "'");
+
+          // Save the ending audio url for the audio custom actions.
+          var alertAudioUrl = getProperty(triggerDsName, triggerItemPrefix + "easaudio");
+          setProperty("eas1Defs", "easAudioUrl", alertAudioUrl);
+          debugMsg("Alert audio url '" + alertAudioUrl + "'");
+
+          // Start the audio and text presentation.
+          startTextAndAudio(alertTitle, alertDescription);
+        }
+
+        //*********************************************************************
+        // startTextAndAudio
+        //
+        // Starts the text and audio presentation.  The display panel is unhidden,
+        // and the text crawl animation is started after waiting for the configured
+        // pre-crawl pause duration.
+
+        function startTextAndAudio(title, desc)
+        {
+          invokeAction(null, "playAudioAction");
+
+          // Set isAudioStreaming to true here.
+          isAudioStreaming = true;
+
+          if (isUsingTestData)
+          {
+            var endAudioTime = Number(getProperty("eas1Defs", "debugAudioDurationSeconds"));
+
+            debugMsg("EAS Audio will end in '" + endAudioTime + "' seconds.");
+
+            setTimeout("fireAudio1EndEvent()", endAudioTime * 1000);
+          }
+
+          setProperty("titleText","text", title);
+          setProperty("messageText","text", desc);
+
+          showDisplayPanel();
+
+          // Set isTextDisplaying to true here.
+          isTextDisplaying = true;
+
+          // Start the text crawl after waiting the Pre-Crawl-Pause milliseconds
+          var preCrawlPause = Number(getProperty("eas1Defs", "preCrawlPauseSeconds"));
+
+          debugMsg("Pausing before scrolling for '" + preCrawlPause + "' seconds.");
+
+          setTimeout("startScroll()", preCrawlPause * 1000);
+        }
+
+        //---------------------------------------------------------------------
+        // fireAudio1EndEvent
+        //
+        // Fires the "eas:audio1end" event.  Called by startTextAndAudio()
+        // to test handling of that event.
+
+        function fireAudio1EndEvent()
+        {
+          invokeAction(null, "fireAudio1EndEventAction");
+        }
+
+        //---------------------------------------------------------------------
+        // startScroll
+        //
+        // Obtains the configured crawl speed and the height of the message text
+        // data, computes the crawl duration, and calls the custom action to
+        // create and start the crawl animation.  Calls the startPostCrawlPause()
+        // function after the crawl duration.
+
+        function startScroll()
+        {
+          // Measure the height of the message text.
+          var contentHeight = Number(getProperty("messageText", "contentHeight"));
+          var panelHeight = Number(getProperty("messagePanel", "height"));
+
+          debugMsg("Panel height '" + panelHeight + "', Content height '" + contentHeight + "'");
+
+          // Do we need to scroll?
+          if (contentHeight > panelHeight)
+          {
+            var crawlSpeed = Number(getProperty("eas1Defs", "crawlSpeedPixelsPerSecond"));
+            if (crawlSpeed <= 0)
+            {
+              // To prevent divide-by-zero errors.
+              crawlSpeed = 1;
+            }
+
+            // Compute the wait time based on amount of scroll and crawl speed.
+
+            var heightToScroll = contentHeight - panelHeight;
+            var crawlDurationMs = Math.ceil(heightToScroll/crawlSpeed * 1000);
+
+          debugMsg("Scrolling... Amount to scroll '" + heightToScroll + "', Crawl speed '" + crawlSpeed
+            + "', Scroll duration Ms '" + crawlDurationMs + "'");
+
+            invokeAction(null, "startTextCrawlAction");
+
+            // Wait for the text crawl to finish, then go on to pause.
+            setTimeout("startPostCrawlPause()", crawlDurationMs);
+          }
+          else
+          {
+            debugMsg("Not scrolling...");
+
+            // Not enough text to scroll.  Go on to the post crawl pause.
+            startPostCrawlPause();
+          }
+        }
+
+        //---------------------------------------------------------------------
+        // startPostCrawlPause
+        //
+        // Waits out the post-crawl pause period to allow viewers to finish reading
+        // the displayed text.
+
+        function startPostCrawlPause()
+        {
+          // Compute the Post-Crawl-Pause duration in milliseconds.
+          var postCrawlPause = Number(getProperty("eas1Defs", "postCrawlPauseSeconds"));
+
+          debugMsg("Pausing after scrolling for '" + postCrawlPause + "' seconds.");
+
+          setTimeout("endTextPresentation()", postCrawlPause * 1000);
+        }
+
+        //---------------------------------------------------------------------
+        // endTextPresentation
+        //
+        // Hides the text display panel and clears the isTextDisplaying flag.
+        // If the audio play is also over, post-display actions are initiated
+        // (such as force tuning).
+
+        function endTextPresentation()
+        {
+          hideDisplayPanel();
+
+          // Set isTextDisplaying to false here.
+          isTextDisplaying = false;
+
+          debugMsg("Presentation ended.");
+
+          // Text display has ended, if audio also ended, move on to the post-display activity.
+          if (!isAudioStreaming)
+          {
+            performPostDisplayActions();
+          }
+        }
+
+        //---------------------------------------------------------------------
+        // showDisplayPanel
+        //
+        // Unhides the text display panel.
+
+        function showDisplayPanel()
+        {
+          // dismiss screen saver
+          invokeAction(null, "dismissScreenSaver");
+          
+          setProperty("displayPanel", "visible", "true");
+        }
+
+        //---------------------------------------------------------------------
+        // hideDisplayPanel
+        //
+        // Hides the text display panel.
+
+        function hideDisplayPanel()
+        {
+          setProperty("displayPanel", "visible", "false");
+        }
+
+        //*********************************************************************
+        // onAudioEnd
+        //
+        // Handler for the 'eas:audio1end' event.  Stops playing EAS audio and
+        // clears the isAudioStreaming flag.  If the text display is also over,
+        // post- display actions are initiated (such as force tuning).
+
+        function onAudioEnd()
+        {
+          debugMsg("Handling the 'eas:audio1end' event.");
+
+          // Restore to normal audio.
+          invokeAction(null, "stopAudioAction");
+
+          // Flag that audio is no longer playing.
+          isAudioStreaming = false;
+
+          // Audio has ended, if text display also ended, move on to the post-display activity.
+          if (!isTextDisplaying)
+          {
+            performPostDisplayActions();
+          }
+        }
+
+        //*********************************************************************
+        // performPostDisplayActions
+        //
+        // Called after the text and audio presentation, performs actions depending
+        // on the value of the isTerminating flag (which is set in the onLevel1End
+        // event handler).  This method either starts or ends the force tune.  If
+        // ending it, this page is unloaded.
+
+        function performPostDisplayActions()
+        {
+          if (!isTerminating)
+          {
+            debugMsg("Force tuning.");
+
+            invokeAction(null, "forceTuneAction");
+            
+            if (isUsingTestData)
+            {
+              var endTuneTime = Number(getProperty("eas1Defs", "debugForceTuneSeconds"));
+
+              debugMsg("Force tune will end in '" + endTuneTime + "' seconds.");
+
+              setTimeout("fireLevel1EndEvent()", endTuneTime * 1000);
+            }
+          }
+          else
+          {
+            debugMsg("Terminating EAS level 1 alert.");
+            unloadApp();
+          }
+        }
+        
+        //---------------------------------------------------------------------
+        // unloadApp
+        //
+        // Unloads this EAS application.  Called by performPostDisplayActions()
+        // and when handling the ontrigger standby event.
+
+        function unloadApp()
+        {
+            debugMsg("Handling the return-from-standby event.");
+            
+            debugMsg("Ending the force tune.");
+            invokeAction(null, "endForceTuneAction");
+            invokeAction(null, "clearLevel1StateAction");
+
+            // Unload this page here.
+            debugMsg("Unloading the EAS level 1 alert application.");
+            invokeAction(null, "unloadEas1Action");
+        }
+
+        //---------------------------------------------------------------------
+        // fireLevel1EndEvent
+        //
+        // Fires the "eas:level1end" event.  Called by performPostDisplayActions()
+        // to test handling of that event.
+
+        function fireLevel1EndEvent()
+        {
+          invokeAction(null, "fireLevel1EndEventAction");
+        }
+
+        //*********************************************************************
+        // handleExitKey
+        //
+        // Called when the user presses ExitToTV.
+
+        function handleExitKey()
+        {
+          // Do nothing, just eat the ExitToTV key.
+          return;
+        }
+        
+        //*********************************************************************
+        // debugMsg
+        //
+        // Output trace log messages if the outputDebugText page variable is set
+        // to "true".
+
+        function debugMsg(outMsg)
+        {
+           if (isOutputDebugText)
+           {
+             alert("EasApp: " + outMsg);
+           }
+        }
+        
+//]]>
+      </Script>
+    </Scripts>
+
+    <DataSource id="easDs" uri="local://eas" />
+    <DataSource id="triggerDs" uri="local://triggers" />
+
+    <Panel id="displayPanel" class="Panel" visible="false">
+
+      <Text id="titleText" justification="center" layout="center" foreground="argb(255,255,255,255)"
+            top="54" left="48" background="argb(255,255,0,0)" height="30" width="540" />
+
+      <!-- messageText content scrolls within messagePanel. -->
+      <Panel id="messagePanel" class="Panel" top="80" left="48" height="300" width="540" clipChildren="true">
+        <Text id="messageText" justification="center" height="1000" width="538" foreground="argb(255,0,0,0)"
+              background="argb(255,255,255,255)" />
+      </Panel>
+
+      <Panel id="bottomPanel" justification="center" layout="center" foreground="argb(255,255,255,255)"
+            top="380" left="48" background="argb(255,255,0,0)" height="30" width="540" />
+
+    </Panel>
+
+    <Text id="debugMarker" fontStyle="Bold72" foreground="@EasYellow" layout="top" justification="center"
+          left="320" top="300" width="300" height="100" maxheight="100" visible="false">EAS1</Text>
+
+    <Actions>
+      <!-- Disable ScreenSaver action-->
+      <Action name="dismissScreenSaver" type="screensaver" data="dismiss" />
+      
+      <!-- Actions called on entry. -->
+      <Action name="initializeAction" type="script" function="initialize" />
+      <Action name="entryAction" type="script" function="onEntry" />
+      <Event type="onenter" action="initializeAction entryAction" target="Eas1Page" />
+
+      <!-- Action called on exit. -->
+      <Event type="onleave" action="stopAudioAction" target="Eas1Page" />
+
+      <!-- Unloads this page. -->
+      <Action name="unloadEas1Action" type="eas" action="unloadeas1" />
+
+      <!-- Unloads the level-2 alert page, if any is loaded. -->
+      <Action name="preemptEas2Action" type="eas" action="unloadeas2" />
+
+      <!-- Handle the exit key. -->
+      <Action name="handleExitKeyAction" type="script" function="handleExitKey" propagate="false" />
+      <Event type="onkey:exit" action="handleExitKeyAction" target="Eas1Page" />
+
+      <!-- Modifies the CanDetune state.  Invoke either one of these in the initialize() function. -->
+      <Action name="setCanDetuneAction" type="eas" action="setcandetune" />
+      <Action name="clearCanDetuneAction" type="eas" action="clearcandetune" />
+
+      <!-- Modifies the IsInLevel1Alert state, which is used to enforce preemption.  This state -->
+      <!-- should be set at the start of a level-1 alert, and cleared at the end. -->
+      <Action name="setLevel1StateAction" type="eas" action="setlevel1state" />
+      <Action name="clearLevel1StateAction" type="eas" action="clearlevel1state" />
+
+      <!-- Controls EAS Audio play.  Trigger engine signals end of audio through the audio1end custom event.-->
+      <Action name="playAudioAction" type="eas" action="playaudio" data="{easAudioUrl}" />
+      <Action name="stopAudioAction" type="eas" action="stopaudio" data="{easAudioUrl}" />
+      <Action name="onAudioEndAction" type="script" function="onAudioEnd" />
+
+      <!-- Custom action to start the scrolling animation; 'data' contains the crawl speed. -->
+      <Action name="startTextCrawlAction" type="eas" data="{crawlSpeedPixelsPerSecond}" action="scrolltext"
+              target="messageText messagePanel" />
+
+      <!-- Controls level-1 alert force tuning.  Level-1 termination is signaled from the Trigger engine -->
+      <!-- by a terminating notification through the level1end custom event. -->
+      <Action name="forceTuneAction" type="eas" action="forcetune" data="{emergencyChannelMdId}" />
+      <Action name="endForceTuneAction" type="eas" action="endforcetune" />
+      <Action name="onLevel1EndAction" type="script" function="onLevel1End" />
+      <Action name="onUnloadEas1Action" type="script" function="unloadApp" />
+
+      <!-- Register trigger event to fire when exiting standy state -->
+      <Event type="ontrigger" action="onUnloadEas1Action" data="[POWER:0],[EXIT:]"></Event>
+
+      <!-- Custom events. -->
+      <Event type="#urn:microsoft:mediaroom:action:eas:audio1end" action="onAudioEndAction" target="Eas1Page" />
+      <Event type="#urn:microsoft:mediaroom:action:eas:level1end" action="onLevel1EndAction" target="Eas1Page" />
+
+      <Action name="fireAudio1EndEventAction" type="event" event="#urn:microsoft:mediaroom:action:eas:audio1end" target="Eas1Page" />
+      <Action name="fireLevel1EndEventAction" type="event" event="#urn:microsoft:mediaroom:action:eas:level1end" target="Eas1Page" />
+
+    </Actions>
+  </MrmlPage>
+</uidescription>

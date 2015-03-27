@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <UpcomingRecordingRollover class="Subpage.RolloverInfo">
+    <Image class="Image.Poster.PIP.Guide" id="_posterImageContainer" visible="false"/>
+    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+      <Text class="Text.RolloverInfo.ProgramName.Big" id="_programName"/>
+      <Text class="Text.RolloverInfo.ProgramTime.Big" id="_programTime"/>
+      <Text class="Text.RolloverInfo.ProgramTime.Big.Error" id="_errorMessage" visible ="false"/>
+      <PanelFlipper class="PanelFlipper" id="_flipper">
+        <Text class="Text.RolloverInfo.Description.Big" id="_programDescription"/>
+        <Text class="Text.RolloverInfo.Description.Big" id="_programDetails"/>
+        <Text class="Text.RolloverInfo.Description.Big" id="_cast"/>
+      </PanelFlipper>
+    </Panel>
+  </UpcomingRecordingRollover>
+</uidescription>

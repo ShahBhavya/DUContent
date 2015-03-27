@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <UrlBrowseBar class="Panel.BrowseBarRoot">
+
+    <!-- current time's location is fixed -->
+    <Text class="Text.BrowseBar.Time" id="_time">{Time}</Text>
+
+    <Panel class="Panel.BrowseBar.ActionPanel" id="_urlBrowseBarActionRoot">
+
+      <!-- Only one PIP gadget is used, depending on whether the URL service can be substituted. -->
+
+      <!-- _imagePip for services that can not be substituted (normal case).-->
+      <Image class="Image.BrowseBarVideo" absoluteurl="VideoStill.URL.jpg" id="_imagePip" visible="false"/>
+
+      <!-- _videoPip for services that can be substituted.-->
+      <Video class="Video.BrowseBar" id="_videoPip" pipe="PIP" ispip="true" visible="false"/>
+      
+      <Panel class="Panel.BrowseBar" id="_verticalAnimated">
+        <Panel class="Panel.BrowseBar.MainContentContainer" id="_horizontalAnimated">
+          <Text class="Text.BrowseBar.Name" id="_name"/>
+          <Text class="Text.BrowseBar.Extra" id="_extra"/>
+          <Text class="Text.Expiration.BrowseBar.URL" id="_expiration"/>
+        </Panel>
+      </Panel>
+
+      <VerticalFlowPanel class="Panel.BrowseBar.Indicators" id="_indicatorsContainer">
+        <Image id="_closedCaptionIndicator" class="Image.BrowseBar.Indicator.ClosedCaption" visible="false"/>
+        <Image id="_qualityIndicator" class="Image.BrowseBar.Indicator.Quality" />
+      </VerticalFlowPanel>
+
+    </Panel>
+
+  </UrlBrowseBar>
+</uidescription>
+
+

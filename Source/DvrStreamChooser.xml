@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrStreamChooserMenuPage class="Page.AnimatedNavBar">
+
+        <Text class="Text.HeaderTitle" id="_headerTitle"></Text>		
+        <Text class="Text.Clock">{Time}</Text>
+		
+		<Panel class="Panel.MenuBackground" clipchildren="true">
+		    <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+		        <MenuItem class="MenuItem" subMenuPath="DvrStreamChooserSub.xml" Tag="StreamChooser">#DVR.StreamChooser.NowPlaying</MenuItem>
+		        <MenuItem class="MenuItem" subMenuPath="DvrRecordedSub.xml" Tag="ByDate">#DVR.StreamChooser.WatchRecording</MenuItem>
+            </Menu> 
+		</Panel>		
+
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer"/>
+
+    </DvrStreamChooserMenuPage>
+</uidescription>

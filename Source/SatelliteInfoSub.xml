@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<SatelliteInfoSub>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ProgramInfo.SatelliteInfo">
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_channelInfo"></Text>
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_satellite"></Text>
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_signalStrength"></Text>
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_signalQuality"></Text>
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_transponderFrequency"></Text>
+      <Panel class="Panel.SatelliteInfo.Spacer"></Panel>
+
+      <Text class="Text.ProgramInfo.Satellite" id="_polarization"></Text>
+    </VerticalFlowPanel>
+    
+	</SatelliteInfoSub>
+</uidescription>

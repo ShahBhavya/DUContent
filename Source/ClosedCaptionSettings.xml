@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<uidescription>
+  <ClosedCaptionSettingsPage class="Page.Animated" initialFocus="_doneButton">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_ccSubHeader">#Settings.ClosedCaption.Heading</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Done" id="_doneButton">#Done</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.List">
+      <RadioButtonGroup id="_closedCaptionsOn" class="RadioButtonGroup">
+        <RadioButton class="RadioButton.Spaced" onclick="OnClick_ClosedCaptions">#Settings.ClosedCaption.On</RadioButton>
+        <RadioButton class="RadioButton.Spaced" onclick="OnClick_ClosedCaptions">#Settings.ClosedCaption.Off</RadioButton>
+      </RadioButtonGroup>
+      <List class="List.CCFeatures" id="_list" listCounterId="_listCounter" />
+    </VerticalFlowPanel>
+
+  </ClosedCaptionSettingsPage>
+</uidescription>

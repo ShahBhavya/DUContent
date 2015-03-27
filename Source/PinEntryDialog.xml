@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <PinEntryDialog class="Page.Dialog.PinEntry">
+		<HorizontalFlowPanel class="Panel.Dialog" id="_content">
+			<Text class="Text.Dialog" id="_message">#ParentalControl.EnterPin</Text>
+			<EditText class="EditText.PinEntry" extensions="XboxPinInput" id="_pin" OnValueChange="PinEntered"/>
+      <Button class="Button.Dialog.PinEntry" id="_button">#ParentalControl.Dialog.GoToSettings</Button>
+    </HorizontalFlowPanel>
+  </PinEntryDialog>    
+</uidescription>

@@ -1,0 +1,115 @@
+<uidescription version="3.4">
+  <OnNowPage id="OnNowPage" class="MrmlPage.Animated.OnNow" TestId="OnNowPage" UseDynamicScreenModeStyles="true">
+    <PanelFlipper class="PanelFlipper" id="_flipper" IntervalMilliseconds="2500" PanelOutAnimation="SlowFadeOut" Circular="false">
+      <Image class="Image.Branding.OnNow" id="_branding" />
+      <Text class="Text.HeaderTitle.OnNow" id="_headerTitle" showAnimations="SlowFadeIn">#Guide.Guide</Text>
+    </PanelFlipper>
+    <Text class="Text.Clock.OnNow">{Time}</Text>
+
+    <Text id="_menuTitleTag"  class="Text.OnNow.TopPanel">#Guide.OnNow</Text>
+    <Text id="_menuFilterHint" class="Text.FilterHint.OnNow">#Guide.Filter.Hint</Text>
+
+    <DataSource autoload="false" id="_dataSourceJustMissed" 
+                uri="local://onnow-map?LISTINGSDATA=true;CHANNELDATA=true;DVRDATA=true;DISABLECHANNELLOGOSUFFIX=true;PROGRAM_TYPE=missed;POSTER_WIDTH=99;POSTER_HEIGHT=85;SRC=ON1;CACHED_ATTR=shortName,progTitle,progSubtitle,progStartTime,progEndTime,progCCIndicatorUri,progHDIndicatorUri,hd1080LogoUrl"/>
+    <DataSource autoload="false" id="_dataSourceOnNow" 
+                uri="local://onnow-map?LISTINGSDATA=true;CHANNELDATA=true;DVRDATA=true;DISABLECHANNELLOGOSUFFIX=true;PROGRAM_TYPE=now;POSTER_WIDTH=99;POSTER_HEIGHT=85;SRC=ON2;CACHED_ATTR=shortName,progTitle,progSubtitle,progStartTime,progEndTime,progCCIndicatorUri,progHDIndicatorUri,hd1080LogoUrl"/>
+    <DataSource autoload="false" id="_dataSourceOnNext"
+                uri="local://onnow-map?LISTINGSDATA=true;CHANNELDATA=true;DVRDATA=true;DISABLECHANNELLOGOSUFFIX=true;PROGRAM_TYPE=next;POSTER_WIDTH=99;POSTER_HEIGHT=85;SRC=ON3;CACHED_ATTR=shortName,progTitle,progSubtitle,progStartTime,progEndTime,progCCIndicatorUri,progHDIndicatorUri,hd1080LogoUrl"/>
+
+    <Panel id="GoPreviousPanel" class="Panel.OnNow.Left">
+        <Image id="_leftArrowImage" class="Image.OnNow.LeftArrow"/>
+        <Text id="_leftTag" class="Text.OnNow.SidePanel">#Guide.OnNow.Missed</Text>
+    </Panel>
+
+    <Panel id="GoNextPanel" class="Panel.OnNow.Right">
+        <Image id="_rightArrowImage" class="Image.OnNow.RightArrow"/>
+        <Text id="_rightTag" class="Text.OnNow.SidePanel">#Guide.OnNow.Next</Text>
+    </Panel>
+
+    <PhysicsGrid id="_onMissedGrid" visible="false"
+            totalcountpath="byChannelNumber/count(channel)"
+            class="Panel.OnNow.Grid" autoflow="vertical">
+      <PhysicsCursor class="Panel.OnNow.Cursor"/>
+      <PhysicsTemplate templatename="channel[@progType='missed']" renderdepth="background" class="Panel.OnNow.Row">
+        <PhysicsTemplate class="Panel.OnNow.Channel" renderdepth="background">
+          <PhysicsTemplate class="Text.OnNow.Channel" id="_missedChannelNumber">$(@displayedChannel)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.Channel.Name" id="_missedChannelName">$(@shortName)</PhysicsTemplate>
+          <PhysicsImageTemplate class="Image.OnNow.Logo" url="$(@sd480LogoUrl)" ForceManagedTextureCache="true" usecache="true" id="_missedChannelLogo"/>
+        </PhysicsTemplate>
+        <PhysicsTemplate class="Panel.OnNow.Program" templatename="channel[@progTimeShift='true']" id="_missedProgramPanel" renderdepth="background">
+          <PhysicsTemplate class="Text.OnNow.PrgTitle" id="_missedProgramName">$(@progTitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.PrgText" id="_missedProgramText">$(@progSubtitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.PrgTime" id="_missedStartEndTime">$(@progStartTime) - $(@progEndTime)</PhysicsTemplate>
+          <PhysicsImageTemplate class="Image.OnNow.Status.TS" url="$(@progTimeShiftIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_missedTSIcon"/>
+          <PhysicsImageTemplate class="Image.OnNow.Status.REC" url="$(@progRecordingStateIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_missedRecIcon"/> 
+          <PhysicsImageTemplate class="Image.OnNow.Status.CC" url="$(@progCCIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_missedCcIcon"/> 
+          <PhysicsImageTemplate class="Image.OnNow.Status.HD" url="$(@progHDIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_missedHdIcon"/>         
+          <PhysicsImageTemplate class="Image.OnNow.Poster" url="$(@progPosterUrl)" id="_missedPosterImage"/>
+          <PhysicsImageTemplate class="Image.OnNow.RecStatus" url="$(@progOverlayRecIndicatorUri)" id="_missedRecStatus"/> 
+        </PhysicsTemplate>
+        <PhysicsTemplate class="Panel.OnNow.Program" templatename="channel[@progTimeShift='false']" id="_tsProgramPanel" renderdepth="background">
+          <PhysicsTemplate class="Text.OnNow.MissTitle" id="_tsProgramName">$(@progTitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.MissText" id="_tsProgramText">$(@progSubtitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.MissTime" id="_tsStartEndTime">$(@progStartTime) - $(@progEndTime)</PhysicsTemplate>
+          <PhysicsImageTemplate class="Image.OnNow.Status.TS" url="$(@progTimeShiftIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_tsTSIcon"/>
+          <PhysicsImageTemplate class="Image.OnNow.Status.REC" url="$(@progRecordingStateIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_tsRecIcon"/> 
+          <PhysicsImageTemplate class="Image.OnNow.Status.CC" url="$(@progCCIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_tsCcIcon"/> 
+          <PhysicsImageTemplate class="Image.OnNow.Status.HD" url="$(@progHDIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_tsHdIcon"/>         
+          <PhysicsImageTemplate class="Image.OnNow.Poster" url="$(@progPosterUrl)" id="_tsPosterImage"/>
+          <PhysicsImageTemplate class="Image.OnNow.RecStatus" url="$(@progOverlayRecIndicatorUri)" id="_tsRecStatus"/> 
+        </PhysicsTemplate>
+      </PhysicsTemplate>
+    </PhysicsGrid>
+
+    <PhysicsGrid id="_onNowGrid" 
+                 totalcountpath="byChannelNumber/count(channel)"
+                 class="Panel.OnNow.Grid"
+                 autoflow="vertical">
+       <PhysicsCursor class="Panel.OnNow.Cursor"/>
+       <PhysicsTemplate templatename="channel[@progType='now']" renderdepth="background" class="Panel.OnNow.Row">
+           <PhysicsTemplate class="Panel.OnNow.Channel" renderdepth="background">
+               <PhysicsTemplate class="Text.OnNow.Channel" id="_currentChannelNumber">$(@displayedChannel)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.Channel.Name" id="_currentChannelName">$(@shortName)</PhysicsTemplate>
+           <PhysicsImageTemplate class="Image.OnNow.Logo" url="$(@sd480LogoUrl)" ForceManagedTextureCache="true" usecache="true" id="_currentChannelLogo"/>
+           </PhysicsTemplate>
+           <PhysicsTemplate class="Panel.OnNow.Program" id="_currentProgramPanel" renderdepth="background">
+               <PhysicsTemplate class="Text.OnNow.PrgTitle" id="_currentProgramName">$(@progTitle)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.PrgText" id="_currentProgramText">$(@progSubtitle)</PhysicsTemplate>
+               <PhysicsTemplate class="Text.OnNow.PrgTime" id="_currentStartEndTime">$(@progStartTime) - $(@progEndTime)</PhysicsTemplate>
+               <PhysicsProgressBarTemplate  class="Panel.OnNow.ProgressBar" value="$(@progPercentageCompleted)" maximum="100" id="_currentProgressBar"/>
+               <PhysicsImageTemplate class="Image.OnNow.Status.TS" url="$(@progTimeShiftIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentTSIcon"/>
+               <PhysicsImageTemplate class="Image.OnNow.Status.REC" url="$(@progRecordingStateIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentRecIcon"/> 
+               <PhysicsImageTemplate class="Image.OnNow.Status.CC" url="$(@progCCIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentCcIcon"/> 
+               <PhysicsImageTemplate class="Image.OnNow.Status.HD" url="$(@progHDIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_currentHdIcon"/>
+               <PhysicsImageTemplate class="Image.OnNow.Poster" url="$(@progPosterUrl)" id="_onNowPosterImage"/>
+           </PhysicsTemplate>
+       </PhysicsTemplate>
+    </PhysicsGrid>
+
+    <PhysicsGrid id="_onNextGrid" visible="false"
+            totalcountpath="byChannelNumber/count(channel)"            
+            class="Panel.OnNow.Grid"
+            autoflow="vertical">
+      <PhysicsCursor class="Panel.OnNow.Cursor"/>
+      <PhysicsTemplate templatename="channel[@progType='next']" renderdepth="background" class="Panel.OnNow.Row">
+        <PhysicsTemplate class="Panel.OnNow.Channel" renderdepth="background">
+          <PhysicsTemplate class="Text.OnNow.Channel" id="_nextChannelNumber">$(@displayedChannel)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.Channel.Name" id="_nextChannelName">$(@shortName)</PhysicsTemplate>
+          <PhysicsImageTemplate class="Image.OnNow.Logo" url="$(@sd480LogoUrl)" ForceManagedTextureCache="true" usecache="true" id="_nextChannelLogo"/>
+        </PhysicsTemplate>
+        <PhysicsTemplate class="Panel.OnNow.Program" id="_nextProgramPanel" renderdepth="background">
+          <PhysicsTemplate class="Text.OnNow.PrgTitle" id="_nextProgramName">$(@progTitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.PrgText" id="_nextProgramText">$(@progSubtitle)</PhysicsTemplate>
+          <PhysicsTemplate class="Text.OnNow.PrgTime" id="_nextStartEndTime">$(@progStartTime) - $(@progEndTime)</PhysicsTemplate>
+          <PhysicsImageTemplate class="Image.OnNow.Status.REC" url="$(@progRecordingStateIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_nextRecIcon"/>
+          <PhysicsImageTemplate class="Image.OnNow.Status.CC" url="$(@progCCIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_nextCcIcon"/>
+          <PhysicsImageTemplate class="Image.OnNow.Status.HD" url="$(@progHDIndicatorUri)" ForceManagedTextureCache="true" usecache="true" id="_nextHdIcon"/>
+          <PhysicsImageTemplate class="Image.OnNow.Poster" url="$(@progPosterUrl)" id="_nextPosterImage"/>
+          <PhysicsImageTemplate class="Image.OnNow.RecStatus" url="$(@progOverlayRecIndicatorUri)" id="_nextRecStatus"/>
+        </PhysicsTemplate>
+      </PhysicsTemplate>
+    </PhysicsGrid>
+    <EditText id="_channelEntry" class="EditText.Channel.OnNow" OnTextEnter="ChannelEntered" digitsonly="true" visible="false"/>
+  </OnNowPage>
+</uidescription>
+

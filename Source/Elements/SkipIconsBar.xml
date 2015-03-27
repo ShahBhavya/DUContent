@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SkipIconsBar class="Panel">
+        <Panel background="metaimage(SymbolLargeReplay)"    id="_skipBackwardIcon"     top="64" left="45"  width="162" height="75"/>
+        <Panel background="metaimage(SymbolLargeSkip)"      id="_skipForwardIcon"      top="64" left="433" width="162" height="75"/>
+        <Panel background="metaimage(SymbolLargeSkipLive)" id="_skipForwardLiveIcon"  top="64" left="433" width="162" height="75"/>
+    </SkipIconsBar>
+</uidescription>

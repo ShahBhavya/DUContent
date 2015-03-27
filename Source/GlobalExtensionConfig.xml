@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns="http://schemas.microsoft.com/mediaroom/2011/extension/config">
+  <Attach appid="urn:microsoft:mediaroom:application:channeltv" extensions="tvpeeks" />
+  <Attach appid="microsoft.mediaroom.storefront/2.0/main" extensions="tvpeeks" target="foregroundTVPage" />
+  <Attach appid="microsoft.mediaroom.storefront/2.1/main" extensions="tvpeeks" target="foregroundTVPage" />
+  <Attach appid="microsoft.mediaroom.storefront/2.5/main" extensions="tvpeeks" target="foregroundTVPage" />
+  <Attach appid="storefront.app.ericsson.tv/1.0" extensions="tvpeeks" target="VodPlaybackPage" />
+  <Attach appid="ericsson.mediaroom.storefront/2.5/main" extensions="tvpeeks" target="foregroundTVPage" />
+  <Extension name="tvpeeks" type="urn:microsoft:mediaroom:extension:peeks">
+    <Param name="top" value="recentpeek" />
+    <Param name="left" value="start" />
+    <Param name="right" value="optionspanel" />
+    <Param name="bottom" value="browsepeek" />
+  </Extension>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <BootstrapRetryNoticePage class="Page.BootstrapRetryNotice" initialFocus="_tryAgainButton">
+    <Panel class="Panel.Masthead" height="100" />
+    <HorizontalFlowPanel left="75">
+    <Text class="Text.BootstrapRetryNotice.Header" id="_headerText">#BootstrapRetry.Header</Text>
+    <Text class="Text.Clock">{Time}</Text>
+    </HorizontalFlowPanel>
+    <VerticalFlowPanel class="VerticalFlowPanel.BootstrapRetryNotice" top="125">      
+      <Text class="Text.BootstrapRetryNotice" id="_messageText" width="450" height="100">
+        #BootstrapRetry.Message</Text>
+      <Text class="Text.BootstrapRetryNotice" id="_countdownText" width="450" height="100"  /><HorizontalFlowPanel left="14">
+      <Button class="Button" fontstyle="Bold20" justification="center" width="200"  id="_tryAgainButton" margin="rect(20,0,0,0)" onClick="OnClick_TryAgain" top="10">#BootstrapRetry.TryAgain</Button>
+      <Button class="Button" fontstyle="Bold20" justification="center" width="200"  id="_diagnosticInfoButton" margin="rect(20,0,0,0)" onClick="OnClick_DiagnosticInfo" top="10">#BootstrapRetry.Diagnostics</Button>
+      </HorizontalFlowPanel>
+    </VerticalFlowPanel>
+  </BootstrapRetryNoticePage>
+</uidescription>

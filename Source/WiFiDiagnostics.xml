@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <WiFiDiagnosticsPage class="Page.Animated" initialFocus="_done">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.WiFi.Diagnostics.Title</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" id="_done" onClick="OnClick_Done">#Done</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription" id="_heading">#Settings.WiFi.Diagnostics.Heading</Text>
+      <Text class="Text.SettingsDescription" id="_data">#Settings.WiFi.Diagnostics.Data</Text>
+    </VerticalFlowPanel>
+    
+  </WiFiDiagnosticsPage>
+</uidescription>

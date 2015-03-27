@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ScreenSaver class="Page.ScreenSaver" background="@Transparent">
+    <Image class="Image.CrossFadeBottom.ScreenSaver" id="_crossBottom"/>
+    <Image class="Image.CrossFadeTop.ScreenSaver" id="_crossTop"/>
+    <Image class="Image.ScreenSaverLogo" id="_logo"/>
+    <Text class="Text.PowerOff" id="_powerOffText" visible="false">#StandBy.WatchTV</Text>
+    <PanelFlipper id="_brandingFlipper" class="ScreenSaverFlipper">
+      <Panel visible="false" width="640" height="480" background="@PitchBlack">
+        <Image class="Image.ScreenSaverBranding" />
+      </Panel>
+      <Panel background="@Transparent" width="640" height="480"/>
+    </PanelFlipper>
+  </ScreenSaver>
+</uidescription>

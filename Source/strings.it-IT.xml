@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- _localBinding --><!-- _lcid="0x0410" _version="" --><stringtable culture="it-IT" basedOn="en-US" locale="it-IT" description="Italian - Italy">
+	
+    <string id="TripleTap.0" value=" 0"/>
+    <string id="TripleTap.1" value="1"/>
+    <string id="TripleTap.2" value="ABCÀ2"/>
+    <string id="TripleTap.3" value="DEFÈÉ3"/>
+    <string id="TripleTap.4" value="GHIÌ4"/>
+    <string id="TripleTap.5" value="JKL5"/>
+    <string id="TripleTap.6" value="MNOÒÓ6"/>
+    <string id="TripleTap.7" value="PQRS7"/>
+    <string id="TripleTap.8" value="TUVÙ8"/>
+    <string id="TripleTap.9" value="WXYZ9"/>
+  <string id="Legend.Select" value="IT-Select" />
+  <string id="Legend.Back" value="IT-Back" />
+  <string id="Legend.Guide" value="IT-Guide" />
+  <string id="Legend.Info" value="IT-Info" />
+  <string id="Legend.Record" value="IT-Record" />
+  <string id="Legend.Menu" value="IT-Menu" />
+  <string id="Legend.RecentChannels" value="IT-Recent Channels" />
+  <string id="Legend.PageDown" value="IT-Page Down" />
+  <string id="Legend.PageUp" value="IT-Page Up" />
+  <string id="Legend.Tune" value="IT-Tune" />
+  <string id="Legend.FF" value="IT-Fast Forward" />
+  <string id="Legend.Rewind" value="IT-Rewind" />
+  <string id="Legend.PlayPause" value="IT-Play/Pause" />
+  <string id="Legend.Exit" value="IT-Exit" />
+
+  <!-- XblsDataSource Related -->
+  <!-- Date:2011.05.17-->
+  <string id="FriendState.Online" value="IT-Online" />
+  <string id="FriendState.Offline" value="IT-Offline" />
+
+  <!-- Xbox PCon checking at boot. -->
+  <!-- Date:2011.05.20 -->
+  <string id="XboxPConAtBoot.Title" value="IT-Parental Controls Settings" />
+  <string id="XboxPConAtBoot.Message" value="IT-EricssonTV uses its own Parental Control Settings.&#13;&#13;We have detected that your Xbox Parental Controls are enabled. You will need to enter your Xbox Parental Control PIN to continue.&#13;&#13;To avoid this in the future, configure the EricssonTV Parental Control Settings." />
+  <string id="XboxPConAtBoot.Continue" value="IT-Enter Pin" />
+  <string id="XboxPConAtBoot.HowTo" value="IT-How to setup EricssonTV Parental Controls" />
+  <string id="XboxPConAtBoot.MoreInfo" value="IT-More Information" />
+  <string id="XboxPConAtBoot.Quit" value="IT-Exit EricssonTV" />
+  <string id="XboxPConHowToSetup.Title" value="IT-How to set up Pcon" />
+  <string id="XboxPConHowToSetup.Message" value="IT-This is how you set up Pcon" />
+
+  <!-- Xbox PIN input simulation. -->
+  <!-- Date:2011.05.24 -->
+  <string id="XboxPinInput.Header" value="IT-Enter PIN" />
+  <string id="XboxPinInput.Message" value="IT-Use X, Y, triggers, bumpers, and the D-pad to enter your {0}-digit PIN." />
+
+  <!-- Xbox manual recording keyboard. -->
+  <!-- Date:2011.06.10 -->
+  <string id="XboxManualRecording.ChannelNumber" value="IT-Enter Channel number" />
+  <string id="XboxManualRecording.Hour" value="IT-Enter a valid hour" />
+  <string id="XboxManualRecording.Min" value="IT-Enter a valid minute" />
+
+</stringtable>
+

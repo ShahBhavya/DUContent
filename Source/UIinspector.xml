@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <UIinspector class="Page.Diagnostic">
+	    <Text class="Text.Diagnostic" layout="center"> ----------    UIinspector ALT-J DEBUG BUILD    ---------- </Text>
+        <VerticalFlowPanel class ="VerticalFlowPanel.Diagnostics" left="0" top="10" visible="true">
+          <VerticalFlowPanel>
+            <TextBox class="TextBox.ProgramInfo" id="_textBox" left="0" width="610" height="460" maxlines="23"/>
+          </VerticalFlowPanel>
+		    </VerticalFlowPanel>
+    </UIinspector>
+</uidescription>

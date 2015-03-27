@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <AlertDialog class="Page.Dialog" inanimations="AlertIn">
+		<VerticalFlowPanel class="Panel.Dialog" id="_content">
+			<HorizontalFlowPanel top="0" left="0" width="640">
+				<Text class="Text.Dialog" id="_message" />
+				<VerticalFlowPanel id="_buttons" class="VerticalFlowPanel.DialogButtons" >
+					<Button class="Button.Dialog" id="_button1" visible="false" onClick="OnClick_Button1" />
+					<Button class="Button.Dialog" id="_button2" visible="false" onClick="OnClick_Button2" />
+					<Button class="Button.Dialog" id="_button3" visible="false" onClick="OnClick_Button3" />
+					<Button class="Button.Dialog" id="_button4" visible="false" onClick="OnClick_Button4" />
+				</VerticalFlowPanel>
+			</HorizontalFlowPanel>
+			<TextBox class="TextBox.Details" id="_details" visible="false" />
+	    </VerticalFlowPanel>
+    </AlertDialog>    
+</uidescription>

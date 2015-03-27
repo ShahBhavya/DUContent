@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <TestPage class="Page.AnimatedNavBar">
+
+    <Panel class="Panel.Masthead"/>
+    <Text class="Text.HeaderTitle">Test</Text>
+    <Text class="Text.Clock">{Time}</Text>
+    
+    <Panel class="Panel.MenuBackground" clipchildren="true">
+      
+      <Menu class="Menu.Start" id="_testMenu">
+        <MenuItem class="MenuItem" onSelect="OnSelect_SystemInfo" submenuID="_systemInfoMenu">System Info</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_WebServiceInfo" submenuID="_wsInfoMenu">WebServices</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_MemoryInfo" submenuID="_memoryInfoMenu">Memory Info</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_PerfInfo" submenuID="_perfInfoMenu">Perf/Profiling</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_TestMonkey" submenuID="_testMonkeyMenu">Test Monkey</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_IRCodes" submenuID="_irCodesMenu">IR Codes</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_TimeShift" submenuID="_timeShiftMenu">TimeShift</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_ShowOnGuide" submenuID="_showOnGuideMenu">ShowOnGuide</MenuItem>        
+        <MenuItem class="MenuItem" onSelect="OnSelect_Rights" submenuID="_rightsMenu">Rights</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_Guide" submenuID="_guideMenu">Guide</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_GeneralMenu" submenuID="_generalMenu">General</MenuItem>
+        <MenuItem class="MenuItem" submenuID="_goMenu">Go</MenuItem>
+        <MenuItem class="MenuItem" submenuID="_unitTestingMenu">Unit Testing</MenuItem>
+        <MenuItem class="MenuItem" submenuID="_mosaicMenu">Mosaic Apps</MenuItem>
+        <MenuItem class="MenuItem" onSelect="OnSelect_TweakUI" submenuID="_tweakUI">Tweak UI</MenuItem>
+        <!--MenuItem class="MenuItem" onSelect="OnSelect_StationSearch" submenuID="_stationSearchMenu">Station Search</MenuItem-->
+        <MenuItem class="MenuItem" onSelect="OnSelect_Miscellaneous" submenuID="_miscellaneous">Miscellaneous</MenuItem>
+      </Menu>
+    </Panel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_systemInfoMenu" visible="false">
+		</VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_memoryInfoMenu" visible="false">
+      <Text class="Text.Diagnostic">Memory Logging (TV2DebugViewer)</Text>
+      <Panel height="40"/>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">Interval (milliseconds):</Text>
+        <EditText class="EditText" id="_period" digitsOnly="true" maxChars="32">3000</EditText>
+      </HorizontalFlowPanel>
+      <Panel height="40"/>
+      <Button class="Button.Dialog" id="_buttonStartStopMemLog" onClick="OnClick_StartStopMemLog">Start</Button>
+    </VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_wsInfoMenu" visible="false">
+		</VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_perfInfoMenu" visible="false">
+      <Text class="Text.Spinner" width="560" visible="false" background="@DarkBackground">Performance Logging (TV2DebugViewer)</Text>
+      <Button class="Button.Dialog" id="_buttonStartStopPerfLogging" onClick="OnClick_StartStopPerfLogging" visible="false">Start</Button>
+      <Panel height="20"/>
+      <Text id="_monteCarloTitleText" class="Text.Spinner" width="560" background="@DarkBackground">Monte Carlo/CE Instrumentation Profiling</Text>
+      <HorizontalFlowPanel>
+        <Text width="300" height="30">Sampling Interval (microseconds):</Text>
+        <EditText class="EditText" id="_monteCarloSamplingInterval" digitsOnly="true" maxChars="32">200</EditText>
+      </HorizontalFlowPanel>
+      <RadioButtonGroup id="_rbg1" class="RadioButtonGroup">
+        <Text class="Text.Spinner">Profiling Options</Text>
+        <Checkbox id="_objectCalls" class="Checkbox">Record Object Calls</Checkbox>
+        <Checkbox id="_kernelCalls" class="Checkbox">Record Kernel Calls</Checkbox>
+        <Checkbox id="_bufferSamples" class="Checkbox">Buffer Samples</Checkbox>
+      </RadioButtonGroup>
+      <Panel height="40"/>
+      <Button class="Button.Dialog" id="_buttonStartStopProfiling" onClick="OnClick_StartStopMonteCarloProfiling">Start</Button>
+    </VerticalFlowPanel>
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_testMonkeyMenu" visible="false">
+      <Panel height="40"/>
+      <Text class="Text.Diagnostic" id="_testMonkeyTitle">Test Monkey</Text>
+      <Panel height="80"/>
+      <Button class="Button.Dialog" id="_buttonStartTestMonkey" onClick="OnClick_StartTestMonkey">Start</Button>
+    </VerticalFlowPanel>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_irCodesMenu" visible="false">
+      <Text width="480" height="30">Press remote control buttons to see IR codes</Text>
+      <Text class="Text.Diagnostic">Press Left or Right Arrow to exit</Text>
+      <Panel height="20"/>
+      <Panel width="640" height="10" background="@Highlight"/>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">KeyPress Event</Text>
+        <Text width="200" height="30" id="_keyPressCount"/>
+      </HorizontalFlowPanel>
+      <Panel width="640" height="10" background="@Highlight"/>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">Name</Text>
+        <Text width="200" height="30" id="_textTV2KeyName"/>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">Char</Text>
+        <Text width="200" height="30" id="_textTV2KeyChar"/>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">Code</Text>
+        <Text width="200" height="30" id="_textKeyCode"/>
+      </HorizontalFlowPanel>
+      <Panel width="640" height="10" background="@Highlight"/>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">KeyDown Event</Text>
+        <Text width="200" height="30" id="_keyDownCount"/>
+      </HorizontalFlowPanel>
+      <Panel width="640" height="10" background="@Highlight"/>
+      <HorizontalFlowPanel>
+        <Text width="200" height="30">Name</Text>
+        <Text width="200" height="30" id="_textEventName"/>
+      </HorizontalFlowPanel>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_timeShiftMenu" visible="false">
+        <HorizontalFlowPanel margin="rect(25,15,0,15)">
+            <Text left="0" margin="rect(10,0,0,0)">Guide UI Start Offset (Hours)</Text>
+            <EditText class="EditText" id="_backwardGridGuideHours" digitsOnly="true" maxChars="10" width="70" margin="rect(10,0,0,0)">0</EditText>
+        </HorizontalFlowPanel>
+        <Button class="Button.KeepUntilButton.DvrRecording" id="_buttonSetTimeShift" onClick="OnClick_SetTimeShift" margin="rect(25,15,0,15)">Set</Button>
+        <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+        <Button class="Button" width="300"  id="_buttonAddFakeTimeShiftRight" onClick="OnClick_AddFakeTimeShiftRight" margin="rect(25,0,0,0)">Add fake TimeShift right to fullscreen service</Button>
+        <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+        <CheckedButton  class="Button.KeepUntilButton.DvrRecording" onClick="OnClick_HideNonTimeShiftCells" checked="false" id="_hideNonTimeShiftCellsButton">Hide Non-TimeShift Grid Cells</CheckedButton>
+        <CheckedButton  class="Button.KeepUntilButton.DvrRecording" onClick="OnClick_ColorTimeShiftCells" checked="false" id="_colorTimeShiftCellsButton">Color TimeShift Grid Cells</CheckedButton>
+        <CheckedButton  class="Button.KeepUntilButton.DvrRecording" onClick="OnClick_MirroredGuide" checked="false" id="_enableMirroredGuideButton">Enable Mirrored Past Guide</CheckedButton>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_showOnGuideMenu" visible="false">
+      <Text class="Text"  foreground="@TextPrimary" fontStyle="Reg16">"showonguidemapservice"</Text>
+      <RadioButtonGroup id="_showonguidemapservice" class="RadioButtonGroup">
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideMapService">http://d6-vodpf-01.mrdaily6.iptv.selfhost.corp.microsoft.com/MediaroomV1.2/Listings/Listings/ShowOnGuideMap.xml?day={0}&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideMapService">http://bj-appsvr-02.mscnc.com/MediaroomV1.2/Listings/Listings/ShowOnGuideMap.xml?day={0}&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideMapService">http://tv-ps-17.mscnc.com/MediaroomV1.2/Listings/Listings/ShowOnGuideMap.xml?day={0}&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideMapService">http://tv2-flt-07211.northamerica.corp.microsoft.com/ListingsMds/Listings/ShowOnGuideMap.xml?day={0}&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+      </RadioButtonGroup>
+
+      <Panel width="640" height="2" background="@Highlight"/>
+
+      <Text class="Text" foreground="@TextPrimary" fontStyle="Reg16">"showonguideprogramdataservice"</Text>
+      <RadioButtonGroup id="_showonguideprogramdataservice" class="RadioButtonGroup">
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnguideProgramDataService">http://d6-vodpf-01.mrdaily6.iptv.selfhost.corp.microsoft.com/MediaroomV1.2/Listings/Listings/Program.xml?stationExtId={0}&amp;startUtc={1}&amp;externalProgramId={2}&amp;$expand=LiveToVodPlaybackData&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnguideProgramDataService">http://bj-appsvr-02.mscnc.com/MediaroomV1.2/Listings/Listings/Program.xml?stationExtId={0}&amp;startUtc={1}&amp;externalProgramId={2}&amp;$expand=LiveToVodPlaybackData&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnguideProgramDataService">http://tv-ps-17.mscnc.com/MediaroomV1.2/Listings/Listings/Program.xml?stationExtId={0}&amp;startUtc={1}&amp;externalProgramId={2}&amp;$expand=LiveToVodPlaybackData&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnguideProgramDataService">http://tv2-flt-07211.northamerica.corp.microsoft.com/ListingsMds/Listings/Program.xml?stationExtId={0}&amp;startUtc={1}&amp;externalProgramId={2}&amp;$expand=LiveToVodPlaybackData&amp;__MPF=mds_microsoft.mediaroom.common/1.2/main</RadioButton>
+      </RadioButtonGroup>
+
+      <Panel width="640" height="2" background="@Highlight"/>
+
+      <Text class="Text" foreground="@TextPrimary" fontStyle="Reg16">"showonguideprograminfopage"</Text>
+      <RadioButtonGroup id="_showonguideprograminfopage" class="RadioButtonGroup">
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideProgramInfoPage">PAGE:http://d6-vodpf-01.mrdaily6.iptv.selfhost.corp.microsoft.com/MediaroomV1.2/VodStorefront.main/asset/Item/{0}</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideProgramInfoPage">PAGE:http://bj-appsvr-02.mscnc.com/VodStorefront.main/asset/Item/{0}</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideProgramInfoPage">PAGE:http://tv-ps-17.mscnc.com/VodStorefront.main/asset/Item/{0}</RadioButton>
+        <RadioButton class="RadioButton" buttonWidth="20" buttonHeight="20" buttonSpace="5" fontStyle="Reg16" height="auto" wrap="false" width="480" onclick="OnClick_ShowOnGuideProgramInfoPage">PAGE:http://tv2-flt-07211.northamerica.corp.microsoft.com/VodStorefront.main/asset/Item/{0}</RadioButton>
+      </RadioButtonGroup>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_rightsMenu" visible="false">
+        <RadioButtonGroup class="RadioButtonGroup" id="_rightsChoices" margin="rect(25,0,0,0)"></RadioButtonGroup>
+        <Button class="Button" width="300"  id="_buttonAddFakeRight" onClick="OnClick_AddFakeRight" margin="rect(25,0,0,0)">Add fake right to fullscreen service</Button>
+    </VerticalFlowPanel>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_guideMenu" visible="false">
+          <HorizontalFlowPanel>
+              <Text class="Text" width="350" height="30">Mirrored guide animation duration (millisecs)</Text>
+              <EditText class="EditText" id="_editTextMirrorAnimationMilliSec" digitsOnly="true" maxChars="5" width="100" margin="rect(0,5,0,5)"/>
+          </HorizontalFlowPanel>
+          <Button class="Button" left="350" width="50" onClick="OnClick_SetMirrorAnimationMilliSec">Set</Button>
+          <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+      </VerticalFlowPanel>
+
+      <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_generalMenu" visible="false">
+        <Button class="Button.Menu.Settings" id="_saveManagedCrashButton" onClick="OnClick_SaveManagedCrash">Save managed client crash log</Button>
+        <Button class="Button.Menu.Settings" id="_managedCrashButton" onClick="OnClick_ManagedCrash">Crash managed client</Button>
+      <Button class="Button.Menu.Settings" id="_nativeCrashButton" onClick="OnClick_NativeCrash">Crash native client</Button>
+      <Button class="Button.Menu.Settings" id="_deleteAllRecordings" onClick="OnClick_DeleteAllRecordings">Delete all recordings</Button>
+      <!--Button class="Button.Menu.Settings" id="_disableMacrovision" onClick="OnClick_DisableMacrovision">Disable Macrovision</Button-->
+      <!--Button class="Button.Menu.Settings" id="_enableMacrovision" onClick="OnClick_EnableMacrovision">Enable Macrovision</Button-->
+	  <CheckedButton class="Button.Menu.Settings" id="_networkConnect" onClick="OnClick_NetworkConnect">Network connection permission - always connect</CheckedButton>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_goMenu" visible="false">
+      <Button class="Button.Menu.Settings" id="_watchTV" onClick="OnClick_WatchTV">Watch TV</Button>
+      <Button class="Button.Menu.Settings" id="_mainMenu" href="start">Main Menu</Button>
+      <Button class="Button.Menu.Settings" id="_guide" href="guide">#Start.Television.Guide</Button>
+      <Button class="Button.Menu.Settings" id="_diagnostics" href="page:diagnostics.xml">System Diagnostics</Button>
+      <Button class="Button.Menu.Settings" id="_sysinfo" href="page:sysinfo.xml">System Info</Button>
+      <Button class="Button.Menu.Settings" id="_fileSystem" href="page:FileSystemBrowser.xml">Browse File System</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_unitTestingMenu" visible="false">
+      <Button class="Button.Menu.Settings" href="page:UnitTestingPipTuning.xml">PIPs Tuning Performance</Button>
+     <!-- 
+      <Button class="Button.Menu.Settings" href="page:UnitTestingRightsPCON.xml">Rights/PCON Performance</Button>
+      <Button class="Button.Menu.Settings" href="page:UnitTestingPageLoading.xml">Page Loading Performance</Button>
+     -->
+      <Button class="Button.Menu.Settings" href="page:UnitTestingScreenModeSwitching.xml">Screen Mode Switching</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_mosaicMenu" visible="false">
+      <Button class="Button.Menu.Settings" id="_hotshows" href="http://172.29.50.50/examples/captured/hotshows.html.xml">Hot Shows</Button>
+      <Button class="Button.Menu.Settings" id="_hotshows" href="http://172.29.50.50/examples/captured/hotshows-wide.html.xml">Hot Shows (widescreen)</Button>
+      <Button class="Button.Menu.Settings" id="_hbo" href="http://172.29.50.50/examples/captured/hbo.html.xml">HBO Specials</Button>
+      <Button class="Button.Menu.Settings" id="_worldcup" href="http://172.29.50.50/examples/captured/worldcup.html.xml">World Cup</Button>
+      <Button class="Button.Menu.Settings" id="_lost" href="http://172.29.50.50/examples/captured/lost.html.xml">Lost</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_tweakUI" visible="false">
+      <HorizontalFlowPanel>
+        <Text class="Text" width="350" height="30">Max remote keys</Text>
+        <EditText class="EditText" id="_editTextSourceMax" digitsOnly="true" maxChars="5" width="100" margin="rect(0,5,0,5)"/>
+      </HorizontalFlowPanel>
+      <Button class="Button" left="350" width="50" onClick="OnClick_SetSourceMax">Set</Button>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+      <HorizontalFlowPanel>
+        <Text class="Text" width="350" height="30">VOD asset load batch size</Text>
+        <EditText class="EditText" id="_editTextVodAssetLoadBatchSize" digitsOnly="true" maxChars="5" width="100" margin="rect(0,5,0,5)"/>
+      </HorizontalFlowPanel>        
+      <Button class="Button" left="350" width="50" onClick="OnClick_SetVodAssetLoadBatchSize">Set</Button>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+      <HorizontalFlowPanel>
+        <Text class="Text" width="350" height="30">Guide: Min millisecs b/n rollover updates</Text>
+        <EditText class="EditText" id="_editTextMinRolloverTicks" digitsOnly="true" maxChars="5" width="100" margin="rect(0,5,0,5)"/>
+      </HorizontalFlowPanel>
+      <Button class="Button" left="350" width="50" onClick="OnClick_SetMinRolloverTicks">Set</Button>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+      <HorizontalFlowPanel>
+        <Text class="Text" id="_textDisplayRolloverPanel" width="350" height="30">Display guide rollover panel = true</Text>
+        <Button class="Button" onClick="OnClick_ToggleRolloverDisplay">Toggle</Button>
+      </HorizontalFlowPanel>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_miscellaneous" visible="false">
+      <Text class="Text" width="350" height="30">Console Filters</Text>
+      <HorizontalFlowPanel>
+        <Text class="Text" width="100" height="30">Filters</Text>
+        <EditText class="EditText" id="_consoleFilter" digitsOnly="false" maxChars="50" width="350" margin="rect(0,5,0,5)"/>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel>
+        <Text class="Text" width="100" height="30">Not Filters</Text>
+        <EditText class="EditText" id="_consoleNotFilter" digitsOnly="false" maxChars="50" width="350" margin="rect(0,5,0,5)"/>
+      </HorizontalFlowPanel>
+      <Button class="Button" left="100" width="100" onClick="OnClick_ConsoleFilters">Set</Button>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+      <Text class="Text" width="350" height="30">Base type name or namespace:</Text>
+      <EditText class="EditText" id="_baseTypeName" maxChars="128" width="350" margin="rect(0,5,0,5)"/>
+      <Button class="Button" width="100" onClick="OnClick_FindTypes">Find</Button>
+      <Panel width="640" height="5" background="@Highlight" margin="rect(0,5,0,5)"/>
+    </VerticalFlowPanel>
+
+    <!--VerticalFlowPanel class="VerticalFlowPanel.SettingsMenu" id="_stationSearchMenu" visible="false">
+      <Button class="Button" id="_stationSearchEnabledButton" left="50" width="300" onClick="OnClick_StationSearchEnabled">Enable Station Search</Button>
+      <Button class="Button" id="_stationSearchDescriptionButton" left="50" width="300" onClick="OnClick_StationSearchFullText">Enable Station Description Search</Button>
+      <Button class="Button" id="_stationSortSearchButton" left="50" width="300" onClick="OnClick_StationSearchSort">Enable Station Search Sorting</Button>
+      <HorizontalFlowPanel left="50">
+        <Text class="Text" width="200" height="30">Station Search Key</Text>
+        <EditText class="EditText" id="_stationSearchKey" digitsOnly="true" maxChars="1" width="50" margin="rect(0,5,0,5)"  OnValueChange="StationKeyEntered"/>
+      </HorizontalFlowPanel>
+      <HorizontalFlowPanel left="50">
+        <Text class="Text" width="200" height="30">Highlight Color (ARGB)</Text>
+        <VerticalFlowPanel>
+          <HorizontalFlowPanel left="50">
+            <Text class="Text" width="50" height="30">A</Text>
+            <EditText class="EditText" id="_stationColorA" digitsOnly="true" maxChars="3" width="50" margin="rect(0,5,0,5)" OnValueChange="StationHighlightEntered"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel left="50">
+            <Text class="Text" width="50" height="30">R</Text>
+            <EditText class="EditText" id="_stationColorR" digitsOnly="true" maxChars="3" width="50" margin="rect(0,5,0,5)" OnValueChange="StationHighlightEntered"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel left="50">
+            <Text class="Text" width="50" height="30">G</Text>
+            <EditText class="EditText" id="_stationColorG" digitsOnly="true" maxChars="3" width="50" margin="rect(0,5,0,5)" OnValueChange="StationHighlightEntered"/>
+          </HorizontalFlowPanel>
+          <HorizontalFlowPanel left="50">
+            <Text class="Text" width="50" height="30">B</Text>
+            <EditText class="EditText" id="_stationColorB" digitsOnly="true" maxChars="3" width="50" margin="rect(0,5,0,5)" OnValueChange="StationHighlightEntered"/>
+          </HorizontalFlowPanel>
+        </VerticalFlowPanel>
+      </HorizontalFlowPanel>
+      <Button class="Button" id="_stationHighlight" width="300" height="30" left="300">1001 MSNBC News</Button>
+    </VerticalFlowPanel-->
+
+  </TestPage>
+</uidescription>

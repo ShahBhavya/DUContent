@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <VodStoreSub>
+		<SlideShow class="SlideShow.VodStorePoster" id="_poster"/>
+		<List class="List.VodStore" id="_list" listCounterId="_listCounter"/>
+		<Text class="Text.ListCounter.VodList" id="_listCounter"/>
+		<Text class="Text.VodStorePleaseWait" id="_pleaseWait">#VOD.PleaseWait</Text>
+		<Text class="Text.VodStorePleaseWait" id="_unavailable" visible="false">#VOD.Unavailable</Text>
+    </VodStoreSub>
+</uidescription>

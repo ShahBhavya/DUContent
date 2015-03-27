@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_SmartCardLockingPage class="Page.Animated" initialFocus="_lockSmartCardOption">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.LockSmartCardPrograms</Text>
+		<Text class="Text.Clock">{Time}</Text>
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_changePin" href="ParentalControl_SmartCardPassword?ChangePin" visible="false">#ParentalControl.MenuItemText.ChangePIN</Button>
+		</VerticalFlowPanel>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+			<Text class="Text.LockAdultPrograms.Description" id="_description">#ParentalControl.Settings.LockSmartCardPrograms.Description</Text>
+		</VerticalFlowPanel>
+	</ParentalControl_SmartCardLockingPage>
+</uidescription>

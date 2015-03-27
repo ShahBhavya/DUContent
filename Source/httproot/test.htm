@@ -1,0 +1,235 @@
+<html>
+	<head>
+		<script language="JavaScript">
+
+			var uiActionArray = new Array();
+			uiActionArray[0] = "queryid";
+			uiActionArray[1] = "queryproperty";
+			uiActionArray[2] = "querytype";
+			uiActionArray[3] = "querypage";
+			uiActionArray[4] = "setfocus";
+
+			var dvrActionArray = new Array();
+			dvrActionArray[0] = "queryrecordingstate";
+			
+			var mediaActionArray = new Array();
+			mediaActionArray[0] = "querychannelnumber";
+			mediaActionArray[1] = "queryfullscreenchannelnumber";
+			mediaActionArray[2] = "querypipchannelnumber";
+			mediaActionArray[3] = "querylasttunedchannelnumber";
+			mediaActionArray[4] = "queryserviceid";
+			mediaActionArray[5] = "queryfullscreenserviceid";
+			mediaActionArray[6] = "querypipserviceid";
+			mediaActionArray[7] = "querysessionstate";
+			mediaActionArray[8] = "queryfullscreensessionstate";
+			mediaActionArray[9] = "querypipsessionstate";
+			mediaActionArray[10] = "queryprograminfo";
+			mediaActionArray[11] = "queryfullscreenprograminfo";
+			mediaActionArray[12] = "queryfullscreenprograminfo";
+			mediaActionArray[13] = "querypipprograminfo";
+			mediaActionArray[14] = "queryserviceinfo";
+			mediaActionArray[15] = "queryfullscreenserviceinfo";
+			mediaActionArray[16] = "querypipserviceinfo";
+			
+			var testActionArray = new Array();
+			testActionArray[0] = "managedtomanaged";
+			testActionArray[1] = "managedtonative";
+			
+			var systemActionArray = new Array();
+			systemActionArray[0] = "queryclientconfig";
+			systemActionArray[1] = "queryclientstate";
+			systemActionArray[2] = "queryeventlog";
+
+			function TargetChanged(){
+				
+				var actionDropDown = document.ClientQueryForm.action;
+				var targetDropDown = document.ClientQueryForm.target;
+
+				var selectedActionArray = null;
+				
+				//clear
+				actionDropDown.options.length = 0;
+				
+				var targetChoice = targetDropDown.options[targetDropDown.selectedIndex].value;
+				switch(targetChoice)
+				{
+					case "ui":
+						selectedActionArray = uiActionArray;
+						break;
+					case "dvr":
+						selectedActionArray = dvrActionArray;
+						break;
+					case "media":
+						selectedActionArray = mediaActionArray;
+						break;
+					case "test":
+						selectedActionArray = testActionArray;
+						break;
+					case "system":
+						selectedActionArray = systemActionArray;
+						break;
+					default:
+						selectedActionArray = new Array()
+						break;
+				}
+				for (i = 0; i < selectedActionArray.length; i++)
+				{
+					actionDropDown.options[i] = new Option(selectedActionArray[i]);
+				}
+
+				if (actionDropDown.options.length>0)
+					actionDropDown.options[0].selected = true;
+			}
+			
+			function ActionChanged()
+			{
+				var actionDropDown = document.ClientQueryForm.action;
+				var actionChoice = actionDropDown.options[actionDropDown.selectedIndex].value;
+				switch(actionChoice)
+				{
+					case "queryid":
+						break;
+					case "queryproperty":
+						break;
+					case "querytype":
+						break;
+					case "setfocus":
+						break;
+					case "system":
+						break;
+					default:
+						selectedActionArray = new Array()
+						break;
+				}
+
+			}
+		</script>
+	</head>
+	<body style="BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 600px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 480px">
+		<div style="BACKGROUND: #808080; WIDTH: 100%; margin-width: 10">
+			<h1 style="PADDING-RIGHT:20px; PADDING-LEFT:20px; BACKGROUND:#99cc33; PADDING-BOTTOM:20px; MARGIN:0px; COLOR:#000000; PADDING-TOP:20px">httpstatus</h1>
+			<table bgcolor="lightgrey" border="0" width="100%">
+				<tr>
+					<td>http://localhost:80/cmd?type=httpstatus&amp;xmlview=true&amp;</td>
+				</tr>
+			</table>
+			<form name="ClientQueryForm" method="get" action="cmd" enctype="UTF-8">
+				<input type="hidden" name="type" value="httpstatus">
+				<input type="hidden" name="xmlview" value="true">
+
+				<table style="FONT-SIZE:17px" bgcolor="lightgrey" border="2" width="100%">
+				<tr>
+					<td valign=top>
+						target=
+						<select name="target" onchange="TargetChanged()">
+							<option value="ui" selected>ui</option>
+							<option value="media">media</option>
+							<option value="system">system</option>
+							<option value="dvr">dvr</option>
+							<option value="test">test</option>
+						</select>
+						<hr>
+						action=
+						<select name="action" onchange="ActionChanged()">
+							<option value="queryid" selected>queryid</option>
+							<option value="queryproperty">queryproperty</option>
+							<option value="querytype">querytype</option>
+							<option value="querypage">querypage</option>
+							<option value="setfocus">setfocus</option>
+						</select>
+						<hr>
+						root=
+						<select name="root">
+							<option value="rootgadget">rootgadget</option>
+							<option value="currentpage" selected>currentpage</option>
+							<option value="diagnostics">diagnostics</option>
+							<option value="dialog">dialog</option>
+							<option value="focuspage">focuspage</option>
+						</select>
+						<hr>
+						includechildren=
+						<select name="includechildren">
+							<option value="true" selected>true</option>
+							<option value="false">false</option>
+						</select>
+					</td>
+					<td valign=top>
+						<br>
+						<div id="div_id" name="div_id" style="visibility: visible;">
+							--ui - queryid, setfocus --
+							<br>
+							id= <input type="text" name="id" value="gridcell_1_1" ID="Text_ID">
+						</div>
+						<br>
+						<div id="div_property" name="div_property" style="visibility: visible;">
+							-- ui queryproperty --
+							<br>
+							propertyname = <input type="text" name="propertyname" value="Shown" ID="Text_PropertyName">
+							<br>
+							propertyvalue = <input type="text" name="propertyvalue" value="true" ID="Text_PropertyValue">
+						</div>
+						<br>
+						<div id="div_channelnum" style="visibility: visible;">
+							-- dvr --
+							<br>
+							channelnum = <input type="text" name="channelnum" ID="Text_ChannelNum">
+						</div>
+						<br>
+						<div id="div_showtime_serviceid" style="visibility: visible;">
+							--media program info--
+							<br>
+							showtime = <input type="text" name="showtime" ID="Text_ShowTime">
+							<br>
+							serviceid = <input type="text" name="serviceid" ID="Text_ServiceID">
+						</div>
+						<br>
+						<div id="div_sessionname" style="visibility: visible;">
+							--media--
+							<br>
+							sessionname = <input type="text" name="sessionname" ID="Text_SessionName">
+						</div>
+
+						</td>
+					</tr>
+					<tr>
+						<td width="80" colspan=2>
+							<input type="submit" value="Query">
+						</td>
+					</tr>
+				</table>
+			</form>
+
+			<h1 style="PADDING-RIGHT:20px; PADDING-LEFT:20px; BACKGROUND:#99cc33; PADDING-BOTTOM:20px; MARGIN:0px; COLOR:#000000; PADDING-TOP:20px">
+				keydown</h1>
+			<form method="get" action="cmd" target="guide">
+				<input type="hidden" name="type" value="keydown">
+				<table style="FONT-SIZE:17px" bgcolor="lightgrey" border="0" width="100%">
+					<tr>
+						<td>
+							cmd?type=keydown&amp;key=
+							<select name="key">
+								<option value="channelup" selected>channelup</option>
+								<option value="channeldown">channeldown</option>
+								<option value="left">left</option>
+								<option value="right">right</option>
+								<option value="up">up</option>
+								<option value="down">down</option>
+								<option value="guide">guide</option>
+								<option value="select">select</option>
+								<option value="pause">pause</option>
+								<option value="rec">rec</option>
+								<option value="play">play</option>
+								<option value="ffwd">ffwd</option>
+								<option value="rwd">rwd</option>
+								<option value="info">info</option>
+								<option value="back">back</option>
+							</select>
+							<input type="submit" value="Send">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<hr>
+	</body>
+</html>

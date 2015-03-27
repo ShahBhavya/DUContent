@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RecentPanelSettingsPage class="Page.Animated" initialFocus="_saveButton">
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.RecentPanel</Text>
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+      <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+      <Button class="Button.Vertical" onClick="OnClick_Clear" id="_clearButton">#Settings.RecentPanel.Clear</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription">#Settings.RecentPanel.Description</Text>
+      <RadioButtonGroup id="_recentPanelOn" class="RadioButtonGroup">
+        <RadioButton class="RadioButton.Spaced">#Settings.RecentPanel.Enable</RadioButton>
+        <RadioButton class="RadioButton.Spaced">#Settings.RecentPanel.Disable</RadioButton>
+      </RadioButtonGroup>
+    </VerticalFlowPanel>
+  </RecentPanelSettingsPage>
+</uidescription>

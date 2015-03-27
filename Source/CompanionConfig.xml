@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns="http://schemas.microsoft.com/mediaroom/2009/companion/config">
+
+  <option name="port" value="53208"/>
+  <option name="allow-pairing" value="1"/>
+  <option name="allow-pair-action" value="1"/>
+  <option name="device-display-name" value="Mediaroom Device"/>
+  <option name="require-ssl-pair-action" value="0" />
+
+  <!-- allow navigations to page: urls that do not start with a scheme beginning with F or f -->
+  <allow-open regex="^page\:[^fF][^:]+\:\/\/.+" />
+
+  <!-- allow navigations to internal targets -->
+  <allow-open regex="^target\:.+" />
+
+  <command name="activity" />
+  <command name="apps" />
+  <command name="audio" />
+  <command name="channels" />
+  <command name="devices" />
+  <command name="diags" />
+  <command name="event" />
+  <command name="genres" />
+  <command name="hello" />
+  <command name="info" />
+  <command name="listen" />
+  <command name="open" />
+  <command name="pair" />
+  <command name="record" />
+  <command name="recordings" />
+  <command name="remotekey" />
+  <command name="sound" />
+  <command name="state" />
+  <command name="subtitles" />
+  <command name="surf" />
+  <command name="triggerset" />
+  <command name="tune" />
+  <command name="unpair" />
+
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<appKeys>
+
+  <!-- Those keys are always passed through all applications in the system -->
+  <key>shutdown</key>
+  <key>restart</key>
+  <key>hibernate</key>
+  <key>volumeup</key>
+  <key>volumedown</key>
+  <key>mute</key>
+  
+</appKeys>
+

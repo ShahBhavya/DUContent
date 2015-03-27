@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ScrollTextPage class="Page.Background">
+		<HorizontalFlowPanel class="HorizontalFlowPanel.Bubble" clipChildren="true" id="_panel" >
+  	    	<ScrollText class="Text.Bubble" id="_message" />
+		</HorizontalFlowPanel>
+    </ScrollTextPage>    
+</uidescription>

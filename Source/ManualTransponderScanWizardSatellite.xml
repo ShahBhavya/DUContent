@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ManualTransponderScanWizardSatellite class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ManualTransponderScanWizard.Satellite</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Menu">
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Back" id="_back">#Settings.ManualTransponderScanWizard.Menu.Back</Button>
+      <Button class="Button.Menu.ManualTransponderScanWizard" onClick="OnClick_Cancel" id="_cancel">#Settings.ManualTransponderScanWizard.Menu.Cancel</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.ManualTransponderScanWizard.Content">
+      <Text class="Text.ManualTransponderScanWizard.Description" id="_description">#Settings.ManualTransponderScanWizard.Satellite.Description</Text>
+      <List class="List.ManualTransponderScanWizard.Satellite" id="_list"/>
+    </VerticalFlowPanel>
+
+  </ManualTransponderScanWizardSatellite>
+</uidescription>

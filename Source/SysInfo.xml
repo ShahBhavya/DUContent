@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<uidescription>
+	<SysInfo class="Page.Animated">
+		<ProgressBar id="_vidbuf" class="ProgressBar.SysInfo" />
+  </SysInfo>
+</uidescription>

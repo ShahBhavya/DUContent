@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <BusyPage class="Page.BusyPage.Wide" >
+        <BusyIndicator id="_busyIndicator" class="Image.Busy.Indicator.Wide" />
+    </BusyPage>
+</uidescription>

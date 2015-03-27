@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <VodCurrentRentalsPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#VOD.CurrentRentals</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+		
+		<Panel class="Panel.CurrentRentals.Container" id="_container"/>
+
+    </VodCurrentRentalsPage>
+</uidescription>

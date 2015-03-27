@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ChannelScanningWizardStep1 class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.ChannelScanningWizard.Step1</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Wizard">
+      <Text class="Text.WizardDescription" id="_description">#Settings.ChannelScanningWizard.Step1.Description.Subscriber</Text>
+      <Panel height="10" />
+      <Button class="Button.Menu.Wizard" onClick="OnClick_Start">#Settings.ChannelScanningWizard.Step1.Start</Button>
+      <!-- button is used for more info if channel lineup is empty or as cancel for subsequent scans. more info can be show/hidden by changing the style -->
+      <Button class="Button.Menu.Wizard.ChannelScanning.MoreInfo" onClick="OnClick_Cancel" id="_cancel">#Settings.ChannelScanningWizard.Step2.Cancel</Button>
+    </VerticalFlowPanel>
+
+  </ChannelScanningWizardStep1>
+</uidescription>

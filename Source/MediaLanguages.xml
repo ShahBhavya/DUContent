@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iso639languagemap>
+  <!-- The optional "note" attribute is ignored; it is only provided to enhance readability.  -->
+  <neutrallanguage id="af" name="#ISO.af" note="Afrikaans">
+    <medialanguage id="afr" />
+  </neutrallanguage>
+  <neutrallanguage id="ar" name="#ISO.ar" note="Arabic">
+    <medialanguage id="ara" />
+  </neutrallanguage>
+  <neutrallanguage id="az" name="#ISO.az" note="Azeri">
+    <medialanguage id="aze" />
+  </neutrallanguage>
+  <neutrallanguage id="be" name="#ISO.be" note="Belarusian">
+    <medialanguage id="bel" />
+  </neutrallanguage>
+  <neutrallanguage id="bg" name="#ISO.bg" note="Bulgarian">
+    <medialanguage id="bul" />
+  </neutrallanguage>
+  <neutrallanguage id="ca" name="#ISO.ca" note="Catalan">
+    <medialanguage id="cat" />
+  </neutrallanguage>
+  <neutrallanguage id="cs" name="#ISO.cs" note="Czech">
+    <medialanguage id="ces" />
+    <medialanguage id="cze" />
+  </neutrallanguage>
+  <neutrallanguage id="cy" name="#ISO.cy" note="Welsh">
+    <medialanguage id="cym" />
+    <medialanguage id="wel" />
+  </neutrallanguage>
+  <neutrallanguage id="da" name="#ISO.da" note="Danish">
+    <medialanguage id="dan" />
+  </neutrallanguage>
+  <neutrallanguage id="de" name="#ISO.de" note="German">
+    <medialanguage id="deu" />
+    <medialanguage id="ger" />
+  </neutrallanguage>
+  <neutrallanguage id="el" name="#ISO.el" note="Greek">
+    <medialanguage id="ell" />
+    <medialanguage id="gre" />
+  </neutrallanguage>
+  <neutrallanguage id="en" name="#ISO.en" note="English">
+    <medialanguage id="eng" />
+  </neutrallanguage>
+  <neutrallanguage id="es" name="#ISO.es" note="Spanish">
+    <medialanguage id="spa" />
+  </neutrallanguage>
+  <neutrallanguage id="et" name="#ISO.et" note="Estonian">
+    <medialanguage id="est" />
+  </neutrallanguage>
+  <neutrallanguage id="eu" name="#ISO.eu" note="Basque">
+    <medialanguage id="eus" />
+    <medialanguage id="baq" />
+  </neutrallanguage>
+  <neutrallanguage id="fa" name="#ISO.fa" note="Persian">
+    <medialanguage id="fas" />
+    <medialanguage id="per" />
+  </neutrallanguage>
+  <neutrallanguage id="fi" name="#ISO.fi" note="Finnish">
+    <medialanguage id="fin" />
+  </neutrallanguage>
+  <neutrallanguage id="fo" name="#ISO.fo" note="Faroese">
+    <medialanguage id="fao" />
+  </neutrallanguage>
+  <neutrallanguage id="fr" name="#ISO.fr" note="French">
+    <medialanguage id="fra" />
+    <medialanguage id="fre" />
+  </neutrallanguage>
+  <neutrallanguage id="gd" name="#ISO.gd" note="Gaelic">
+    <medialanguage id="gla" />
+    <medialanguage id="gae" />
+  </neutrallanguage>
+  <neutrallanguage id="gl" name="#ISO.gl" note="Galician">
+    <medialanguage id="glg" />
+  </neutrallanguage>
+  <neutrallanguage id="gu" name="#ISO.gu" note="Gujarati">
+    <medialanguage id="guj" />
+  </neutrallanguage>
+  <neutrallanguage id="he" name="#ISO.he" note="Hebrew">
+    <medialanguage id="heb" />
+  </neutrallanguage>
+  <neutrallanguage id="hi" name="#ISO.hi" note="Hindi">
+    <medialanguage id="hin" />
+  </neutrallanguage>
+  <neutrallanguage id="hr" name="#ISO.hr" note="Croatian">
+    <medialanguage id="hrv" />
+    <medialanguage id="scr" />
+  </neutrallanguage>
+  <neutrallanguage id="hu" name="#ISO.hu" note="Hungarian">
+    <medialanguage id="hun" />
+  </neutrallanguage>
+  <neutrallanguage id="hy" name="#ISO.hy" note="Armenian">
+    <medialanguage id="hye" />
+    <medialanguage id="arm" />
+  </neutrallanguage>
+  <neutrallanguage id="id" name="#ISO.id" note="Indonesian">
+    <medialanguage id="ind" />
+  </neutrallanguage>
+  <neutrallanguage id="is" name="#ISO.is" note="Icelandic">
+    <medialanguage id="isl" />
+    <medialanguage id="ice" />
+  </neutrallanguage>
+  <neutrallanguage id="it" name="#ISO.it" note="Italian">
+    <medialanguage id="ita" />
+  </neutrallanguage>
+  <neutrallanguage id="ja" name="#ISO.ja" note="Japanese">
+    <medialanguage id="jpn" />
+  </neutrallanguage>
+  <neutrallanguage id="ka" name="#ISO.ka" note="Georgian">
+    <medialanguage id="kat" />
+    <medialanguage id="geo" />
+  </neutrallanguage>
+  <neutrallanguage id="kk" name="#ISO.kk" note="Kazakh">
+    <medialanguage id="kaz" />
+  </neutrallanguage>
+  <neutrallanguage id="kn" name="#ISO.kn" note="Kannada">
+    <medialanguage id="kan" />
+  </neutrallanguage>
+  <neutrallanguage id="ko" name="#ISO.ko" note="Korean">
+    <medialanguage id="kor" />
+  </neutrallanguage>
+  <neutrallanguage id="ky" name="#ISO.ky" note="Kyrgyz">
+    <medialanguage id="kir" />
+  </neutrallanguage>
+  <neutrallanguage id="lt" name="#ISO.lt" note="Lithuanian">
+    <medialanguage id="lit" />
+  </neutrallanguage>
+  <neutrallanguage id="lv" name="#ISO.lv" note="Latvian">
+    <medialanguage id="lav" />
+  </neutrallanguage>
+  <neutrallanguage id="mk" name="#ISO.mk" note="Macedonian">
+    <medialanguage id="mkd" />
+    <medialanguage id="mac" />
+  </neutrallanguage>
+  <neutrallanguage id="mn" name="#ISO.mn" note="Mongolian">
+    <medialanguage id="mon" />
+  </neutrallanguage>
+  <neutrallanguage id="mr" name="#ISO.mr" note="Marathi">
+    <medialanguage id="mar" />
+  </neutrallanguage>
+  <neutrallanguage id="ms" name="#ISO.ms" note="Malay">
+    <medialanguage id="msa" />
+    <medialanguage id="may" />
+  </neutrallanguage>
+  <neutrallanguage id="nl" name="#ISO.nl" note="Dutch">
+    <medialanguage id="nld" />
+    <medialanguage id="dut" />
+  </neutrallanguage>
+  <neutrallanguage id="no" name="#ISO.no" note="Norwegian">
+    <medialanguage id="nor" />
+  </neutrallanguage>
+  <neutrallanguage id="pa" name="#ISO.pa" note="Punjabi">
+    <medialanguage id="pan" />
+  </neutrallanguage>
+  <neutrallanguage id="pl" name="#ISO.pl" note="Polish">
+    <medialanguage id="pol" />
+  </neutrallanguage>
+  <neutrallanguage id="pt" name="#ISO.pt" note="Portuguese">
+    <medialanguage id="por" />
+  </neutrallanguage>
+  <neutrallanguage id="ro" name="#ISO.ro" note="Romanian">
+    <medialanguage id="ron" />
+    <medialanguage id="rum" />
+  </neutrallanguage>
+  <neutrallanguage id="ru" name="#ISO.ru" note="Russian">
+    <medialanguage id="rus" />
+  </neutrallanguage>
+  <neutrallanguage id="sa" name="#ISO.sa" note="Sanskrit">
+    <medialanguage id="san" />
+  </neutrallanguage>
+  <neutrallanguage id="sk" name="#ISO.sk" note="Slovak">
+    <medialanguage id="slk" />
+    <medialanguage id="slo" />
+  </neutrallanguage>
+  <neutrallanguage id="sl" name="#ISO.sl" note="Slovenian">
+    <medialanguage id="slv" />
+  </neutrallanguage>
+  <neutrallanguage id="sq" name="#ISO.sq" note="Albanian">
+    <medialanguage id="sqi" />
+    <medialanguage id="alb" />
+  </neutrallanguage>
+  <neutrallanguage id="sr" name="#ISO.sr" note="Serbian">
+    <medialanguage id="srp" />
+    <medialanguage id="scc" />
+  </neutrallanguage>
+  <neutrallanguage id="sv" name="#ISO.sv" note="Swedish">
+    <medialanguage id="swe" />
+  </neutrallanguage>
+  <neutrallanguage id="sw" name="#ISO.sw" note="Swahili">
+    <medialanguage id="swa" />
+  </neutrallanguage>
+  <neutrallanguage id="ta" name="#ISO.ta" note="Tamil">
+    <medialanguage id="tam" />
+  </neutrallanguage>
+  <neutrallanguage id="te" name="#ISO.te" note="Telugu">
+    <medialanguage id="tel" />
+  </neutrallanguage>
+  <neutrallanguage id="th" name="#ISO.th" note="Thai">
+    <medialanguage id="tha" />
+  </neutrallanguage>
+  <neutrallanguage id="tr" name="#ISO.tr" note="Turkish">
+    <medialanguage id="tur" />
+  </neutrallanguage>
+  <neutrallanguage id="tt" name="#ISO.tt" note="Tatar">
+    <medialanguage id="tat" />
+  </neutrallanguage>
+  <neutrallanguage id="uk" name="#ISO.uk" note="Ukrainian">
+    <medialanguage id="ukr" />
+  </neutrallanguage>
+  <neutrallanguage id="ur" name="#ISO.ur" note="Urdu">
+    <medialanguage id="urd" />
+  </neutrallanguage>
+  <neutrallanguage id="uz" name="#ISO.uz" note="Uzbek">
+    <medialanguage id="uzb" />
+  </neutrallanguage>
+  <neutrallanguage id="vi" name="#ISO.vi" note="Vietnamese">
+    <medialanguage id="vie" />
+  </neutrallanguage>
+  <neutrallanguage id="zh" name="#ISO.zh" note="Chinese">
+    <medialanguage id="zho" />
+    <medialanguage id="chi" />
+  </neutrallanguage>
+</iso639languagemap>

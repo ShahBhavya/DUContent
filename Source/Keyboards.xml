@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<keyboards>
+    <keyboard cultures="en-us" name="alphabet" description="U.S. English">
+        <row>
+            <letter key="A" text="A"/>
+            <letter key="B" text="B"/>
+            <letter key="C" text="C"/>
+            <letter key="D" text="D"/>
+        </row>
+        <row>
+            <letter key="E" text="E"/>
+            <letter key="F" text="F"/>
+            <letter key="G" text="G"/>
+            <letter key="H" text="H"/>
+        </row>
+        <row>
+            <letter key="I" text="I"/>
+            <letter key="J" text="J"/>
+            <letter key="K" text="K"/>
+            <letter key="L" text="L"/>
+        </row>
+        <row>
+            <letter key="M" text="M"/>
+            <letter key="N" text="N"/>
+            <letter key="O" text="O"/>
+            <letter key="P" text="P"/>
+        </row>
+        <row>
+            <letter key="Q" text="Q"/>
+            <letter key="R" text="R"/>
+            <letter key="S" text="S"/>
+            <letter key="T" text="T"/>
+        </row>
+        <row>
+            <letter key="U" text="U"/>
+            <letter key="V" text="V"/>
+            <letter key="W" text="W"/>
+            <letter key="X" text="X"/>
+        </row>
+        <row>
+            <letter key="Y" text="Y"/>
+            <letter key="Z" text="Z"/>
+            <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+            <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+        </row>
+        <row>
+            <link text="1 2 3" href="keyboard:numbers"  width="54" class="Button.Keyboard.Small"/>
+            <link text="Options" href="action:options"  width="74" class="Button.Keyboard.Small"/>
+        </row>
+        <options>
+            <option text="Alphabet" keyboard="alphabet"/>
+            <option text="Numbers" keyboard="numbers"/>
+        </options>
+    </keyboard>
+    <keyboard cultures="en-us" name="numbers" description="U.S. English">
+        <row>
+            <letter key="1" text="1"/>
+            <letter key="2" text="2"/>
+            <letter key="3" text="3"/>
+            <letter key="4" text="4"/>
+        </row>
+        <row>
+            <letter key="5" text="5"/>
+            <letter key="6" text="6"/>
+            <letter key="7" text="7"/>
+            <letter key="8" text="8"/>
+        </row>
+        <row>
+            <letter key="9" text="9"/>
+            <letter key="0" text="0"/>
+            <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+            <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+        </row>
+        <row>
+            <link text="A B C" href="keyboard:alphabet"  width="54" class="Button.Keyboard.Small"/>
+            <link text="Options" href="action:options"  width="74" class="Button.Keyboard.Small"/>
+        </row>
+        <options>
+            <option text="Alphabet" keyboard="alphabet"/>
+            <option text="Numbers" keyboard="numbers"/>
+        </options>
+    </keyboard>
+    <keyboard cultures="en-us" name="firstrunnumbers" description="U.S. English">
+      <row>
+        <letter key="1" text="1"/>
+        <letter key="2" text="2"/>
+        <letter key="3" text="3"/>
+        <letter key="4" text="4"/>
+      </row>
+      <row>
+        <letter key="5" text="5"/>
+        <letter key="6" text="6"/>
+        <letter key="7" text="7"/>
+        <letter key="8" text="8"/>
+      </row>
+      <row>
+        <letter key="9" text="9"/>
+        <letter key="0" text="0"/>
+        <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+        <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+      </row>
+    </keyboard>
+	<!-- Sample "localized" keyboard definitions. Add new cultures to the 2 keyboard definitions -->
+	<!-- below, or copy these definitions to produce actual localized versions.  Ensure that the -->
+	<!-- culture name appears in the cultures attribute of the definitions to be used for that   -->
+	<!-- culture.                                                                                -->
+	<keyboard cultures="de-CH" name="alphabet" description="Multiple Languages">
+		<row>
+			<letter key="A" text="A"/>
+			<letter key="B" text="B"/>
+			<letter key="C" text="C"/>
+			<letter key="Ä" text="Ä"/>
+		</row>
+		<row>
+			<letter key="D" text="D"/>
+			<letter key="E" text="E"/>
+			<letter key="F" text="F"/>
+			<letter key="G" text="G"/>
+		</row>
+		<row>
+			<letter key="H" text="H"/>
+			<letter key="I" text="I"/>
+			<letter key="J" text="J"/>
+			<letter key="K" text="K"/>
+		</row>
+		<row>
+			<letter key="L" text="L"/>
+			<letter key="M" text="M"/>
+			<letter key="N" text="N"/>
+			<letter key="O" text="O"/>
+		</row>
+		<row>
+			<letter key="Ö" text="Ö"/>
+			<letter key="P" text="P"/>
+			<letter key="Q" text="Q"/>
+			<letter key="R" text="R"/>
+		</row>
+		<row>
+			<letter key="S" text="S"/>
+			<letter key="ß" text="ß"/>
+			<letter key="T" text="T"/>
+			<letter key="U" text="U"/>
+		</row>
+    <row>
+      <letter key="V" text="V"/>
+      <letter key="W" text="W"/>
+      <letter key="X" text="X"/>
+      <letter key="Y" text="Y"/>
+    </row>
+		<row>
+			<letter key="Z" text="Z"/>
+			<letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+			<letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+		</row>
+		<row>
+			<link text="1 2 3" href="keyboard:numbers"  width="54" class="Button.Keyboard.Small"/>
+			<link text="Options" href="action:options"  width="74" class="Button.Keyboard.Small"/>
+		</row>
+		<options>
+			<option text="Alphabet" keyboard="alphabet"/>
+			<option text="Numbers" keyboard="numbers"/>
+		</options>
+	</keyboard>
+  <keyboard cultures="fr-FR,it-IT,zh-TW,hi-IN,mr-IN,ar-AE" name="alphabet" description="Multiple Languages">
+    <row>
+      <letter key="A" text="A"/>
+      <letter key="B" text="B"/>
+      <letter key="C" text="C"/>
+      <letter key="D" text="D"/>
+    </row>
+    <row>
+      <letter key="E" text="E"/>
+      <letter key="F" text="F"/>
+      <letter key="G" text="G"/>
+      <letter key="H" text="H"/>
+    </row>
+    <row>
+      <letter key="I" text="I"/>
+      <letter key="J" text="J"/>
+      <letter key="K" text="K"/>
+      <letter key="L" text="L"/>
+    </row>
+    <row>
+      <letter key="M" text="M"/>
+      <letter key="N" text="N"/>
+      <letter key="O" text="O"/>
+      <letter key="P" text="P"/>
+    </row>
+    <row>
+      <letter key="Q" text="Q"/>
+      <letter key="R" text="R"/>
+      <letter key="S" text="S"/>
+      <letter key="T" text="T"/>
+    </row>
+    <row>
+      <letter key="U" text="U"/>
+      <letter key="V" text="V"/>
+      <letter key="W" text="W"/>
+      <letter key="X" text="X"/>
+    </row>
+    <row>
+      <letter key="Y" text="Y"/>
+      <letter key="Z" text="Z"/>
+      <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+      <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+    </row>
+    <row>
+      <link text="1 2 3" href="keyboard:numbers"  width="54" class="Button.Keyboard.Small"/>
+      <link text="Options" href="action:options"  width="74" class="Button.Keyboard.Small"/>
+    </row>
+    <options>
+      <option text="Alphabet" keyboard="alphabet"/>
+      <option text="Numbers" keyboard="numbers"/>
+    </options>
+  </keyboard>
+  <keyboard cultures="de-CH,fr-FR,it-IT,zh-TW,hi-IN,mr-IN,ar-AE" name="numbers" description="Multiple Languages">
+    <row>
+      <letter key="1" text="1"/>
+      <letter key="2" text="2"/>
+      <letter key="3" text="3"/>
+      <letter key="4" text="4"/>
+    </row>
+    <row>
+      <letter key="5" text="5"/>
+      <letter key="6" text="6"/>
+      <letter key="7" text="7"/>
+      <letter key="8" text="8"/>
+    </row>
+    <row>
+      <letter key="9" text="9"/>
+      <letter key="0" text="0"/>
+      <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+      <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+    </row>
+    <row>
+      <link text="A B C" href="keyboard:alphabet"  width="54" class="Button.Keyboard.Small"/>
+      <link text="Options" href="action:options"  width="74" class="Button.Keyboard.Small"/>
+    </row>
+    <options>
+      <option text="Alphabet" keyboard="alphabet"/>
+      <option text="Numbers" keyboard="numbers"/>
+    </options>
+  </keyboard>
+  <keyboard cultures="de-CH,fr-FR,it-IT,zh-TW,hi-IN,mr-IN,ar-AE" name="firstrunnumbers" description="Multiple Languages">
+    <row>
+      <letter key="1" text="1"/>
+      <letter key="2" text="2"/>
+      <letter key="3" text="3"/>
+      <letter key="4" text="4"/>
+    </row>
+    <row>
+      <letter key="5" text="5"/>
+      <letter key="6" text="6"/>
+      <letter key="7" text="7"/>
+      <letter key="8" text="8"/>
+    </row>
+    <row>
+      <letter key="9" text="9"/>
+      <letter key="0" text="0"/>
+      <letter key=" " text="" image="image(Search.Symbol.Space.png)"/>
+      <letter key="&#08;" text="" image="image(Search.Symbol.Delete.png)"/>
+    </row>
+  </keyboard>
+</keyboards>

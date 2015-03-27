@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <FavoriteChannelsReorderPage class="Page.Animated.FavoriteChannelsSettings" initialFocus="_saveButton">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#Settings.FavoriteChannels.Reorder</Text>
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+			<Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+			<Button class="Button.Vertical" onClick="OnClick_DefaultOrder" id="_defaultOrderButton">#Settings.FavoriteChannels.Reorder.DefaultOrder</Button>
+		</VerticalFlowPanel>
+		
+		<Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true" />
+    <Image class="Image.Poster.PIP.ProgramInfo" id="_posterImageContainer" visible="false"/>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content">
+      <Text class="Text.FavoriteChannelsDescription.Reorder" >#Settings.FavoriteChannels.Reorder.Description</Text>
+      <List class="List.FavoriteChannels.Reorder" id="_list" />
+    </VerticalFlowPanel>
+
+    <EditText class="EditText.Channel.ChannelList.FavoriteChannelsReorder" id="_jumpToChannel" maxChars="4" visible="false"/>
+
+  </FavoriteChannelsReorderPage>
+</uidescription>

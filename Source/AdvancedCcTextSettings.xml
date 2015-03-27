@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<uidescription>
+  <AdvancedCcTextSettingsPage class="Page.Animated" initialFocus="_doneButton">
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_ccSubHeader">#Settings.ClosedCaption.Advanced.Text.Heading</Text>
+    <Text class="Text.Clock">{Time}</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+        <Button class="Button.Vertical" onClick="OnClick_Done" id="_doneButton">#Done</Button>
+        <Button class="Button.Vertical" onClick="OnClick_RestoreDefault" id="_restoreDefaultButton">#Settings.ClosedCaption.Advanced.RestoreDefault</Button>
+    </VerticalFlowPanel>
+
+    <Video class="Video.PIP.ProgramInfo" id="_preview" pipe="pipcc" ispip="false" background="@Transparent"/>
+      
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.List">
+      <List class="List.CCFeatures" id="_list" listCounterId="_listCounter" />
+    </VerticalFlowPanel>
+  </AdvancedCcTextSettingsPage>
+</uidescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RecentPeekEntry class="RecentPeek">
+    <!-- Shows 4 items - video/poster, progress bar, title, channel info -->
+    <Panel class="RecentPeek.Content">
+      <Video class="RecentPeek.VideoPip" id="_pip" pipe="PIP" ispip="true" visible="false"/>
+      <Image class="RecentPeek.Poster" id="_poster" visible="false"/>
+	  <ProgressBar class="RecentPeek.ProgressBar"  id="_progressBar"/>
+      <Panel class="RecentPeek.FakeProgressBar"  id="_fakeProgressBar" visible="false"/>
+      <Panel id="_recentInfoPanel" class="RecentPeek.Info">
+        <Text class="RecentPeek.Title" id="_title"/>
+        <Text class="RecentPeek.ChannelInfo" id="_channelInfo"/>
+      </Panel>
+	</Panel>
+    <!--record/record series-->
+    <Image id="_recordingIndicator" class="Image.RecentPeek.Indicator.Recording" />
+  </RecentPeekEntry>
+</uidescription>

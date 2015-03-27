@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <OptionsPanelSub stretchmode="ScaleAndTranslate">
+      <VerticalFlowPanel class="VerticalFlowPanel.OptionsPanelButtons" stretchmode="ScaleAndTranslate" id="_verticalFlowPanel">
+      <List class="List.OptionsPanel" id="_list" listCounterId="_listCounter"/>
+      </VerticalFlowPanel>
+      
+      <Text class="Text.ListCounter.OptionsPanelList" id="_listCounter" />
+    </OptionsPanelSub>
+</uidescription>

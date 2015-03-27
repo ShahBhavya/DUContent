@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EventRoutingTable>
+  <LogLevelList>
+    <!-- This is used for events not covered below -->
+    <LogLevel Name="Trace">
+    </LogLevel>
+    <LogLevel Name="Information">
+    </LogLevel>
+    <LogLevel Name="Warning">
+      <Sink Name="ServerTraceLog"/>
+    </LogLevel>
+    <LogLevel Name="Error"> 
+      <Sink Name="ServerTraceLog"/>
+    </LogLevel>
+    <LogLevel Name="Perf">
+      <Sink Name="ServerTraceLog"/>
+    </LogLevel>
+  </LogLevelList>
+  <EventList/>
+  <CategoryList>
+    <Category Name="TestFeedback">
+      <Sink Name="TestFeedbackLog"/>
+    </Category>
+    <Category Name="AV">
+      <Sink Name="TestFeedbackLog"/>
+    </Category>
+    <Category Name="DVR">
+      <Sink Name="TestFeedbackLog"/>
+    </Category>
+  </CategoryList>
+  <EventSinks>
+    <EventSink Name="ServerTraceLog" Type="Microsoft.IPTV.Client.ServerTraceLog" Description="Server Trace Log" Enabled="false"/>
+    <EventSink Name="TestFeedbackLog" Type="Microsoft.IPTV.Client.TestTcpLog" Description="Test Feedback Tcp sender" Enabled="false" Additional="172.29.72.154:5589"/>
+  </EventSinks>
+</EventRoutingTable>

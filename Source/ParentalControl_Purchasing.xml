@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_PurchasingPage class="Page.Animated" initialFocus="_lockPurchasingOption">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.LockPurchasing</Text>
+		<Text class="Text.Clock">{Time}</Text>
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_saveButton" onClick="OnClick_Save">#Settings.Save</Button>
+			<Button class="Button.Vertical" id="_dontSaveButton" onClick="OnClick_DontSave">#Settings.DontSave</Button>
+			<Button class="Button.Vertical" id="_changePin" href="PurchasePassword?ChangePin" visible="false">#ParentalControl.MenuItemText.ChangePIN</Button>
+			<Button class="Button.Vertical" id="_clearPin" onClick="OnClick_ClearPurchasePIN" visible="false">#ParentalControl.MenuItemText.ClearPurchasePIN</Button>
+		</VerticalFlowPanel>
+		
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.SingleCheckbox">
+			<Checkbox class="Lockbox.Settings.ParentalControl" onClick="OnClick_ToggleLock" id="_lockPurchasingOption">#ParentalControl.Settings.LockPurchasing</Checkbox>
+			<Text class="Text.LockPurchasing.Description" id="_description">#ParentalControl.Settings.LockPurchasing.RequirePin</Text>
+    	</VerticalFlowPanel>
+    </ParentalControl_PurchasingPage>
+</uidescription>

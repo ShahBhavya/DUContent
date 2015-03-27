@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- _localBinding -->
+<!-- _lcid="0x0411" _version="0.1" -->
+<stringtable culture="ja-JP" locale="ja-JP" basedOn="en-US" description="Japanese - Japan">
+  <string id="TripleTap.0" value=" 0" />
+  <string id="TripleTap.1" value="1" />
+  <string id="TripleTap.2" value="ABC2" />
+  <string id="TripleTap.3" value="DEF3" />
+  <string id="TripleTap.4" value="GHI4" />
+  <string id="TripleTap.5" value="JKL5" />
+  <string id="TripleTap.6" value="MNO6" />
+  <string id="TripleTap.7" value="PQRS7" />
+  <string id="TripleTap.8" value="TUV8" />
+  <string id="TripleTap.9" value="WXYZ9" />
+  <string id="TripleTapExtended.0" value=" 0)" />
+  <string id="TripleTapExtended.1" value="1!" />
+  <string id="TripleTapExtended.2" value="ABCabc2@" />
+  <string id="TripleTapExtended.3" value="DEFdef3#" />
+  <string id="TripleTapExtended.4" value="GHIghi4$" />
+  <string id="TripleTapExtended.5" value="JKLjkl5%" />
+  <string id="TripleTapExtended.6" value="MNOmno6^" />
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&amp;" />
+  <string id="TripleTapExtended.8" value="TUVtuv8*" />
+  <string id="TripleTapExtended.9" value="WXYZwxyz9(" />
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="メニュー" />
+  <string id="Start.Television" value="ライブテレビ" />
+  <string id="Start.Videos" value="ビデオオンデマンド" />
+  <string id="Start.RecordedTV" value="録画ビデオ" />
+  <string id="Start.Search" value="検索" />
+  <string id="Start.Extras" value="アプリケーション" />
+  <string id="Start.Settings" value="タスク" />
+  <string id="Start.Videos.BrowseVideos" value="ビデオの一覧を見る" />
+  <string id="Start.Videos.CurrentRentals" value="レンタル中のビデオを見る" />
+  <string id="Start.Videos.Search" value="ビデオを検索する" />
+  <string id="Start.Television.WatchTV" value="ライブテレビを見る"/>
+  <string id="Start.Television.Guide" value="番組表を見る" />
+  <string id="Start.Television.RecordedTV" value="録画ビデオ" />
+  <string id="Start.Television.VideoStore" value="ビデオストア" />
+  <string id="Start.Television.Favorites" value="お気に入りの番組を見る" />
+  <string id="Start.Television.Mosaic" value="Mosaic" />
+  <string id="Start.Television.Teletext" value="文字放送" />
+  <string id="Start.Television.CreditLimit" value="限度額" />
+  <string id="Start.Television.Search" value="番組を検索する" />
+  <string id="Start.Television.SearchTitle" value="タイトルで検索" />
+  <string id="Start.Television.SearchPeople" value="出演者などで検索" />
+  <string id="Start.Television.Movies" value="映画" />
+  <string id="Start.Television.Sports" value="スポーツ" />
+  <string id="Start.Television.Kids" value="子供向け" />
+  <string id="Start.Television.Categories" value="カテゴリ" />
+  <string id="Start.Search.Categories" value="カテゴリ" />
+  <string id="Start.Search.Sports" value="スポーツ" />
+  <string id="Start.Search.Kids" value="子供向け" />
+  <string id="Start.Extras.BrowseExtras" value="アプリケーションの一覧"/>
+  <string id="Start.Extras.OnlineSpot" value="オンラインスポット" />
+  <string id="Start.Extras.MosaicApps" value="Mosaicアプリ"/>
+  <string id="Start.Extras.MediaSharing" value="写真と音楽"/><!-- photos and music (eventually videos as well) -->
+  <string id="Start.Extras.Messages" value="メッセージ" />
+  <string id="Start.RecordedTV.BrowseRecordings" value="録画ビデオの一覧を見る" />
+  <string id="Start.RecordedTV.Scheduled" value="録画予約を確認する" />
+  <string id="Start.RecordedTV.AddRecording" value="録画予約を追加する" />
+  <string id="Start.Settings.General" value="一般の設定" />
+  <string id="Start.Settings.Television" value="テレビの設定" />
+  <string id="Start.Settings.ParentalControl" value="ペアレンタルロックの設定"/>
+  <string id="Start.Settings.Account" value="アカウントの設定" />
+  <string id="Start.Settings.PowerOff" value="電源オフ" />
+  <string id="Start.Settings.Restart" value="再起動" />
+  <string id="Start.Settings.Hibernate" value="休止状態" />
+  <string id="Start.MenuForButtons" value="メニュー" />
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="番組情報" />
+  <string id="ProgramInfo.RecordingStopped" value="録画を停止しました" />
+  <string id="ProgramInfo.Watch" value="見る" />
+  <string id="ProgramInfo.CancelRental" value="レンタルをキャンセル" />
+  <string id="ProgramInfo.RecordProgram" value="録画する" />
+  <string id="ProgramInfo.Erase" value="削除" />
+  <string id="ProgramInfo.KeepUntil" value="保存期間" />
+  <string id="ProgramInfo.StopRecording" value="録画停止" />
+  <string id="ProgramInfo.RecordSeries" value="シリーズ録画" />
+  <string id="ProgramInfo.CancelSeries" value="予約キャンセル" />
+  <string id="ProgramInfo.RecordEpisode" value="特定回のみ録画" />
+  <string id="ProgramInfo.OtherShowings" value="Other times" />
+  <string id="ProgramInfo.AudioLanguages" value="音声多重" />
+  <string id="ProgramInfo.AudioLanguages.Changed" value="音声を{0}に変更しました"/>
+  <string id="ProgramInfo.SubtitleLanguages" value="字幕の表示" />
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="字幕を「{0}」に変更しました"/>
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="字幕をオフにしました"/>
+  <string id="ProgramInfo.SecondaryAudio" value="音声多重"/>
+  <string id="ProgramInfo.RecordSetting" value="録画の設定" />
+  <string id="ProgramInfo.SeriesSetting" value="シリーズの設定"/>
+  <string id="ProgramInfo.SeriesInfo" value="シリーズ情報" />
+  <string id="ProgramInfo.DontRecord" value="録画しない" />
+  <string id="ProgramInfo.ResolveConflict" value="重複予約を解消する" />
+  <string id="ProgramInfo.RecordingDeleted" value="録画ビデオは削除されました" />
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}" />
+  <string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}" />
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}" />
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}" />
+  <string id="ProgramInfo.Series.Time" value="{0} {1}" />
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="録画予約はありません" />
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="1件の録画予約があります" />
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value="{0}件の録画予約があります" />
+  <string id="ProgramInfo.Play" value="再生" />
+  <string id="ProgramInfo.Pending" value="中断..." />
+  <string id="ProgramInfo.VodDownloadPendingNotification" value="利用できません" />
+  <string id="ProgramInfo.PendingAppendage" value="   (停止中)" />
+  <string id="ProgramInfo.Rent" value="レンタルする" />
+  <string id="ProgramInfo.PurchaseInfo" value="レンタル料" />
+  <string id="ProgramInfo.StartOver" value="最初から再生" />
+  <string id="ProgramInfo.ResumePlay" value="途中から再生" />
+  <string id="ProgramInfo.SaveForLater" value="後で見る" />
+  <string id="ProgramInfo.MoreLikeThis" value="類似タイトル" />
+  <string id="ProgramInfo.WatchPreview" value="予告編を見る" />
+  <string id="ProgramInfo.UnlockAdult" value="ロック解除"/>
+  <string id="ProgramInfo.NoCastInfomation" value="出演者とスタッフの情報がありません" />
+  <string id="ProgramInfo.ProgramDateFormatString" value="M/d (ddd) " />
+  <string id="ProgramInfo.ProgramDateNoDayFormatString" value="M/d " />
+  <string id="ProgramInfo.StartTimeFormatString" value="h:mm:tt" />
+  <string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t" />
+  <string id="ProgramInfo.EndTimeFormatString" value="t" />
+  <string id="ProgramInfo.AirDateFormatString" value="yyyy/MM/dd" />
+  <string id="ProgramInfo.VODAvailableDate" value="yyyy/MM/dd tt h:mm"/>
+  <string id="ProgramInfo.VODAvailableUntil" value="{0}までレンタルできます"/>
+  <string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}." />
+  <string id="ProgramInfo.SeriesString" value="シリーズ/" />
+  <string id="ProgramInfo.MovieString" value="映画/" />
+  <string id="ProgramInfo.TypeNotAvailable" value="カテゴリなし/" />
+  <string id="ProgramInfo.GeneralCategory" value="一般" />
+  <string id="ProgramInfo.OriginalAirDateString" value="・放映日: {0}" />
+  <string id="ProgramInfo.OriginalTitle" value="・原題: " />
+  <string id="ProgramInfo.ReleasedString" value="・公開 {0}" />
+
+  <string id="ProgramInfo.ClosedCaptioning" value="字幕"/>
+  <string id="ProgramInfo.Waiting" value="番組情報を取得しています" />
+  <string id="ProgramInfo.AcceptOffer" value="レンタルする" />
+  <string id="ProgramInfo.MoreInfo" value="番組情報" />
+  <string id="ProgramInfo.DeclineOffer" value="キャンセル" />
+  <string id="ProgramInfo.AcceptSVod" value="レンタルする" />
+  <string id="ProgramInfo.DeclineSVod" value="キャンセル" />
+  <string id="ProgramInfo.Unavailable" value="番組情報が一時的に利用できません" />
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="この回の録画が中断されました。"/>
+  <string id="ProgramInfo.CanceledInstance" value="この回の録画を取り消します。"/>
+  <string id="ProgramInfo.DirectedBy" value="監督 " />
+  <string id="ProgramInfo.Menu.Summary" value="概要" />
+  <string id="ProgramInfo.Menu.Details" value="詳細" />
+  <string id="ProgramInfo.Menu.Cast" value="出演者とスタッフ" />
+  <string id="ProgramInfo.Cast.Cast" value="出演者" />
+  <string id="ProgramInfo.Cast.Hosts" value="提供元" />
+  <string id="ProgramInfo.Cast.GuestStars" value="ゲスト出演者" />
+  <string id="ProgramInfo.Cast.Directors" value="監督" />
+  <string id="ProgramInfo.Cast.Writers" value="脚本" />
+  <string id="ProgramInfo.Cast.Producers" value="プロデューサ" />
+
+  <!-- Parental Control -->
+  <string id="ParentalControl.ForbiddenPinMessage" value="このPINはお受け付けできません。違うPINを入力してください。" />
+  <string id="ParentalControl.ForbiddenPinListMessage" value="このPINはお受け付けできません: {0}" />
+  <string id="ParentalControl.IncorrectPinMessage" value="入力したPINは間違っています。4桁の数字でPINを再入力してください。" />
+  <string id="ParentalControl.PinRetryLimitExceeded" value="PIN入力回数の制限を超えました。"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="しばらく経ってからもう一度試してください。"/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="リセットのため、カスタマーセンターまでお電話ください。"/>
+  <string id="ParentalControl.ForgotPinMessage" value="PINを忘れてしまった場合、PINをリセットしますので カスタマーセンターまでご連絡ください。" />
+  <string id="ParentalControl.NoPresetPinMessage" value="PINが初期設定されていません。カスタマーセンターまでお電話ください。"/>
+  <string id="ParentalControl.PinDisabledMessage" value="PINは{0}まで無効です。"/>
+  <string id="ParentalControl.PinDisabledMessage.Later" value="PINは{0} {1}まで無効です。"/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="PINが無効になりました。カスタマーセンターまでご連絡ください。"/>
+  <string id="ParentalControl.ChoosePinMessage" value="番組の視聴制限を行うことができるようにするために、4桁のPINを設定してください。" />
+  <string id="ParentalControl.PinsDoNotMatch" value="PINが一致しません。PINをもう一度入力してください。" />
+  <string id="ParentalControl.EnterPinMessage" value="ペアレンタルロックの設定を変更するには、4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="PINの長さが{0}桁に変更されました。&#13;古い{1}桁のPINを入力して、新しい{0}桁のPINを設定してください。"/>
+  <string id="ParentalControl.ChooseANewPin" value="新しい4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="この番組を見るためには、PINを入力してください。" />
+  <string id="ParentalControl.EnterPinFirstTime" value="リモコンを使って、4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin" value="4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.Purchase" value="購入するには4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.Unlock" value="ロックを解除するには、&#013;4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="これは成人向け番組です。4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="ロックされた番組を見るには、4桁のPINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="購入するには4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="これは成人向け番組です。購入するには4桁のPINを入力してください。" />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="購入するには、4桁のペアレンタルロック用PINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="これは成人向け番組です。購入するには、4桁のペアレンタルロック用PINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="この番組を録画するには、4桁のPINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="入力したPINが間違っています。&#013;4桁のペアレンタルロック用PINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="入力したPINが間違っています。&#013;4桁の成人向け番組用PINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="入力したPINが間違っています。&#013;4桁のレンタル用PINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="入力したPINが間違っています。&#013;4桁のPINを入力してください。"/>
+  <string id="ParentalControl.EnterPin.RetryCount" value="あと{0}回入力できます。"/>
+  <string id="ParentalControl.ConfirmPin" value="確認のためもう一度、4桁のPINを入力してください。" />
+  <string id="ParentalControl.PConServiceUnavailable" value="PIN設定が有効ではありません。&#013;時間をおいて再度実行してください。" />
+  <string id="ParentalControl.PConPinUnavailable" value="PINがまだ設定されていません。設定メニューからPINを設定してください。"/>
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="成人向け番組用PINがまだ設定されていません。設定メニューからPINを設定してください。"/>
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="レンタル用PINがまだ設定されていません。設定メニューからPINを設定してください。"/>
+  <string id="ParentalControl.PConPinLengthChanged" value="PINの長さが{0}桁に変更されました。設定メニューから新しいPINを設定してください。"/>
+  <string id="EditText.SampleCharacter" value="0"/>
+  <string id="ParentalControl.GotoParentalControlSettings" value="ペアレンタルコントロールの設定をするには、4桁のPINを入力してください。" />
+  <string id="ParentalControl.Title.ChangePin" value="PINの変更" />
+  <string id="ParentalControl.Title.UnlockPCon" value="解除" />
+  <string id="ParentalControl.Title.ParentalLocking" value="ペアレンタルロック" />
+  <string id="ParentalControl.Title.PurchaseLocking" value="レンタル番組のロック" />
+  <string id="ParentalControl.Title.AdultLocking" value="アダルト番組の制限"/>
+  <string id="ParentalControl.Title.BlockMovieRatings" value="映画レーティングの制限" />
+  <string id="ParentalControl.Title.MainMenu" value="ペアレンタルロックの設定" />
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="映画レーティング" />
+  <string id="ParentalControl.Blocked" value="ロック: " />
+  <string id="ParentalControl.Selected" value="選択: " />
+  <string id="ParentalControl.NonBlocked" value="ロックが設定されていません" />
+  <string id="ParentalControl.AndAbove" value=" とそれ以上の項目" />
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="番組のレーティング（年齢制限）" />
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value="{0} ({1})レーティング" />
+  <string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0}&#013;&#013;{1}" />
+  <string id="ParentalControl.RatingSystems.Unrated" value="レーティング情報のない番組" />
+  <string id="ParentalControl.Purchasing.PinRequired" value="PIN入力が必要です" />
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="PIN入力の必要はありません" />
+  <string id="ParentalControl.Applications.PinRequired" value="PIN入力が必要です" />
+  <string id="ParentalControl.Applications.PinNotRequired" value="PIN入力の必要はありません" />
+  <string id="ParentalControl.Dialog.SaveSettings" value="これらの設定を保存しますか?" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="保存する" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="キャンセル" />
+  <string id="ParentalControl.Dialog.ResetPCon" value="4桁のPINを無効にし、ペアレンタルロックの設定をすべて解除しますか?" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="解除する" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="解除しない" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="4桁のPINを無効にし、レンタル番組のロックを解除しますか?" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="解除する" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="解除しない" />
+  <string id="ParentalControl.Notification.PinChanged" value="PINは変更されました" />
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="すべての番組のロックが{0}だけ解除されました" />
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="すべての番組のロックを{0}だけ解除します" />
+  <string id="ParentalControl.RatingPageInstruction" value="レーティングはレーティング情報の付いている番組にのみ有効です。&#013;レーティング情報のない番組は、ロックされません。" />
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="ペアレンタルロックの設定をすべて解除する" />
+  <string id="ParentalControl.MenuItemText.DoNothing" value="キャンセル" />
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="PINの変更" />
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="ロックを解除する" />
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="レンタルロックのPINをリセットする" />
+  <string id="ParentalControl.MenuItemText.Ratings" value="レーティング" />
+  <string id="ParentalControl.MenuItemText.MovieRating" value="映画レーティング" />
+  <string id="ParentalControl.MenuItemText.Done" value="完了" />
+  <string id="ParentalControl.MenuItemText.Lock" value="ロックを設定する" />
+  <string id="ParentalControl.ListItemText.UnratedContent" value="レーティング情報のない番組" />
+  <string id="ParentalControl.ListItemText.Purchasing" value="レンタル番組" />
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="アダルト番組"/>
+  <string id="ParentalControl.ListItemText.Applications" value="アプリケーション" />
+  <string id="ParentalControl.ListItemText.Edit" value="変更" />
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value="{0} {1} とその他({2})" />
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value="{0} {1} とその他(1)" />
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}" />
+  <string id="ParentalControl.ListItemText.Channels" value="ライブテレビ" />
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="ロックを解除するには、OKボタンを押してください" />
+  <string id="ParentalControl.Dialog.UnlockChoice" value="「{0}」の&#013;ロックを解除する方法を選んでください"/>
+  <string id="ParentalControl.Dialog.UnlockChannel" value="このチャンネルのロックを解除しますか？"/>
+  <string id="ParentalControl.Dialog.UnlockProgram" value="「{0}」の&#013;ロックを解除をしますか?"/>
+  <string id="ParentalControl.Dialog.ThisProgram" value="この番組"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="この番組のロックを解除します" />
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="このチャンネルのロックを解除します"/>
+  <string id="ParentalControl.Dialog.DontUnlock" value="ロックを解除しない" />
+  <string id="ParentalControl.Dialog.Unlock" value="ロックを解除する"/>
+  <string id="ParentalControl.Dialog.GoToSettings" value="タスク"/>
+  <string id="ParentalControl.LockedPIP.Text" value="この番組は&#013;ロックされました" />
+  <string id="ParentalControl.Settings.LockChannels" value="ライブテレビのチャンネルのロック" />
+  <string id="ParentalControl.Settings.UnlockAll" value="すべて解除する" />
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="ロックのみ表示する" />
+  <string id="ParentalControl.Settings.ViewAllChannels" value="すべて表示する" />
+  <string id="ParentalControl.Settings.LockPurchasing" value="レンタル番組のロック" />
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="番組をレンタルするには、PIN入力が必要です。" />
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="成人向け番組のロック"/>
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="成人向け番組を見るには、PIN入力が必要です。"/>
+  <string id="ParentalControl.Settings.LockApplications" value="アプリケーションのロック" />
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="アプリケーションを実行するのに、PIN入力の必要はありません" />
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="アプリケーションを実行するには、PIN入力が必要です" />
+  <string id="ParentalControl.Settings.LockUnratedContent" value="レーティング情報のない番組" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="レーティング情報のない番組をロックします" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="教育番組や1960年以前にリリースされた番組などの一部の番組には、&#013;レーティング情報のない番組があります。" />
+  <string id="ParentalControl.Adult.ContentBlocked" value="成人向け番組"/>
+  <string id="ParentalControl.Adult.Unlocked" value="{0}までこの成人向け番組はロックされています"/><!-- {0}: a timespan -->
+  <string id="ParentalControl.Adult.UnlockExpired" value="この成人向け番組は、再度ロックされました。"/>
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="成人向け番組のロックが有効になりました。"/>
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="成人向け番組のロックが無効になりました。"/>
+  <string id="ParentalControl.PinRetry.Disabled" value="{0}までPINが無効になりました。"/><!-- {0}: a timespan -->
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="PINが無効になりました。カスタマーセンターまでご連絡ください。"/>
+  <string id="ParentalControl.PinRetry.Enabled" value="PINが再び有効になりました。"/>
+  <!-- Settings Menu -->
+  <string id="Settings.Menu" value="タスク" />
+  <string id="Settings.General" value="一般の設定" />
+  <string id="Settings.Television" value="テレビの設定" />
+  <string id="Settings.ParentalControl" value="ペアレンタルロック"/>
+  <string id="Settings.Account" value="アカウントの設定" />
+  <string id="Settings.General.ParentalControl" value="ペアレンタルロック" />
+  <string id="Settings.General.PurchaseLocking" value="レンタル番組のロック" />
+  <string id="Settings.General.AdultLocking" value="アダルト番組の制限"/>
+  <string id="Settings.General.SystemSounds" value="操作音" />
+  <string id="Settings.General.Language" value="表示する言語" />
+  <string id="Settings.General.SystemInformation" value="システム情報" />
+  <string id="Settings.General.AudioLanguage" value="音声の言語"/>
+  <string id="Settings.General.RFOutputChannel" value="RF出力チャンネル"/>
+  <string id="Settings.General.SecondaryAudio" value="音声多重番組" />
+  <string id="Settings.General.EnhancedHdmiSecurity" value="HDMIセキュリティ"/>
+  <string id="Settings.Television.CustomizeChannels" value="チャンネルのカスタマイズ" />
+  <string id="Settings.Television.ChannelReordering" value="録画するチャンネル" />
+  <string id="Settings.Television.FavoriteChannels" value="お気に入りのチャンネル" />
+  <string id="Settings.Television.GuideStyle" value="番組表の表示方法" />
+  <string id="Settings.Television.GeneralRecording" value="標準番組の録画設定" />
+  <string id="Settings.Television.SeriesRecording" value="シリーズ番組の録画設定" />
+  <string id="Settings.Television.ChannelScanning" value="地上波デジタル放送チャンネルのスキャン" />
+  <string id="Settings.Television.SignalStrength" value="DTT signal strength" />
+  <string id="Settings.Television.SignalStrength.DvrWarning" value="DVR recording will be unavailable while checking DTT signal strength. All recordings will be stopped." />
+  <string id="Settings.Television.SignalStrength.DvrWarning.Continue" value="Continue" />
+  <string id="Settings.Television.SignalStrength.DvrWarning.Cancel" value="Cancel" />
+  <string id="Settings.Television.AspectRatio" value="画面サイズ" />
+  <string id="Settings.Television.ClosedCaption" value="字幕の表示"/>
+  <string id="Settings.Television.Overscan" value="表示ディスプレイサイズ" />
+  <string id="Settings.Account.BillPresentment" value="課金情報" />
+  <string id="Settings.Account.SelfProvisioning" value="チャンネル・パッケージ" />
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="初期化に失敗しました" />
+  <string id="ClientAccountUnavailableString" value="アカウントが利用できません" />
+  <string id="ClientUnprovisionedString" value="{0}に登録されていない端末です" /> <!-- {0}: the Bootstrap host-->
+  <string id="QuitClientString" value="終了する" />
+  <string id="BootStrapError" value="サービスに接続できませんでした" />
+  <string id="SelfProvisioningAppName" value="__selfProvisioning" />
+  <string id="SelfProvisioningLoadingText" value="サービスに接続しています" />
+  <!-- Guide -->
+  <string id="Guide.Guide" value="番組表" />
+  <string id="Guide.NoInfo" value="情報がありません" />
+  <string id="Guide.Loading" value="読み込み中..." />
+  <string id="Guide.Upcoming" value="次の番組: {0}" />
+  <string id="Guide.PPV" value="ペイパービュー: {0}" />
+  <string id="Guide.NoDescription" value="詳細情報がありません" />
+  <string id="Guide.NoGuideData" value="番組表が一時的に利用できません" />
+  <string id="Guide.ShowEnded" value="終了しました" />
+  <string id="Guide.ShowOnInOneMinute" value="1分後に始まります" />
+  <string id="Guide.ShowOnSoon" value="{0}分後に始まります" />
+  <string id="Guide.ShowOnLaterToday" value="{0}に始まります " />
+  <string id="Guide.ShowOnTomorrow" value="明日放送されます" />
+  <string id="Guide.ShowOnDaysLater" value="{0}日後に放送されます" />
+  <string id="Guide.ShowStarted" value="{0}に始まります" />
+  <string id="Guide.VodGroup" value="ビデオオンデマンド" />
+  <string id="Guide.RdpGroup" value="アプリケーション" />
+  <string id="Guide.SVodGroup" value="有料チャンネル" />
+  <string id="Guide.UrlGroup" value="アプリケーション"/>
+  <string id="Guide.ChannelRange" value="{0}-{1}" />
+  <string id="Guide.Options.Title" value="チャンネルの表示"/>
+  <string id="Guide.Options.ShowAll" value="すべてのチャンネル"/>
+  <string id="Guide.Options.ShowFavorites" value="お気に入りのチャンネル"/>
+  <string id="Guide.Options.EditFavorites" value="お気に入りの変更"/>
+  <string id="Guide.Options.GuideStyle" value="番組表の表示方法"/>
+  <string id="Guide.Options.Jump" value="ジャンプ"/>
+  <string id="Guide.Options.NextWeek" value="来週"/>
+  <string id="Guide.Options.Tonight" value="今日"/>
+  <string id="Guide.Options.Tomorrow" value="明日"/>
+  <string id="Guide.Options.JumpFormatString" value="dddd"/>
+  <string id="Guide.ListGuideInstructions" value="このチャンネルの番組表を表示するには、OKボタンを押してください。"/>
+  <!-- Favorites -->
+  <string id="Favorites.Favorites" value="お気に入り" />
+  <string id="Settings.FavoriteChannels" value="お気に入りのチャンネル" />
+  <string id="Settings.FavoriteChannels.Description" value="選択したチャンネルは、お気に入りのチャンネルに表示されます" />
+  <string id="Settings.FavoriteChannels.ClearAll" value="選択をすべて解除する" />
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="選択のみ表示する" />
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="すべてを表示する" />
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="お気に入りのチャンネルが登録されていません" />
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="「お気に入りのチャンネル」は、番組表の中から&#013;よく見るチャンネルのみのリストを作る機能です" />
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="お気に入りのチャンネルリストを作成する" />
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="お気に入りのチャンネルリストを作成しない" />
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase.Info" value="レンタル情報を表示するには、OKボタンを押してください" />
+  <string id="VideoFullScreen.CanPurchase.Price" value="{1}をレンタルするには{0}かかります" />
+  <string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}" />
+  <string id="VideoFullScreen.SeekPositionXofY" value="{0} 点中 {1}" />
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="ビデオの一覧を見るには、OKボタンを押してください" />
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="アプリケーションの一覧を見るには、OKボタンを押してください" />
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="録画した番組の一覧を見るには、OKボタンを押してください" />
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="{0} を再生するには、OKボタンを押してください" />
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="{0} の予告編を見るには、PLAYボタンを押してください" />
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="他の番組を見るには、チャンネルを変えてください" />
+  <string id="VideoFullScreen.StatusBar.Photos" value="写真のスライドショーを見るには、OKボタンを押して下さい" />
+  <string id="VideoFullScreen.StatusBar.SVOD" value="{0}の詳細情報を見るには、OKボタンを押してください"/>
+  <string id="VideoFullScreen.OnNow" value="再生中" />
+  <string id="VideoFullScreen.OnNext" value="次に再生" />
+  <string id="VideoFullScreen.OnLater" value="後で再生" />
+  <string id="VideoFullScreen.ThankYou" value="レンタルいただき、ありがとうございます" />
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="ビデオオンデマンドで見ることができます" />
+  <string id="VideoFullScreen.TrickUnavailable" value="その操作は一時的にご利用いただけません。&#013;時間を置いて再度お試しください" />
+  <string id="VideoFullScreen.Options.AspectRatio" value="画面サイズ"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="通常"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="ワイド"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="ズーム1"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="ズーム2"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="ズーム3"/>
+  <string id="VideoFullScreen.Options.AudioLanguages" value="音声の言語"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="字幕の言語"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="字幕なし"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="音声多重番組"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="主音声"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="副音声"/>
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="画面サイズを保存する"/>
+  <string id="ZoomControl.ZoomText.Normal" value="通常"/>
+  <string id="ZoomControl.ZoomText.Stretch" value="ワイド"/>
+  <string id="ZoomControl.ZoomText.Zoom1" value="ズーム1"/>
+  <string id="ZoomControl.ZoomText.Zoom2" value="ズーム2"/>
+  <string id="ZoomControl.ZoomText.Zoom3" value="ズーム3"/>
+  <!-- The custom zoom values: Zoom X, Zoom Y, Shift X, Shift Y (all floats)-->
+  <string id="ZoomControl.ZoomText.CustomZoom" value="カスタムズーム({0},{1},{2},{3})"/>
+  <string id="SeekBar.TimeFormat" value="h:mm:tt" />
+  <string id="SeekBar.TimeFormatCurrent" value="h:mm:ss" />
+  <string id="SeekBar.DVRTimeFormat" value="H:mm" />
+  <string id="SeekBar.DVRCurrentPositionFormat" value="H:mm:ss" />
+  <string id="StopPage.Play" value="再生" />
+  <string id="StopPage.StartOver" value="最初から再生" />
+  <string id="StopPage.Erase" value="削除" />
+  <string id="StopPage.KeepUntil" value="保存期間" />
+  <string id="StopPage.RecordedTV" value="録画ビデオ" />
+  <string id="StopPage.VideoStore" value="ビデオオンデマンド" />
+  <string id="StopPage.LiveTV" value="ライブテレビ"/>
+  <string id="StopPage.Done" value="再生終了" />
+  <string id="StopPage.Done.Vod" value="ビデオオンデマンド"/>
+  <string id="StopPage.Done.Recorded" value="録画ビデオ"/>
+  <!-- Browse Bar -->
+  <string id="BrowseBar.Next" value="次:" />
+  <string id="BrowseBar.Summary.Ratings" value="{0} ・ " /><!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) " /><!-- second part of summary, eg: {0} replaced with 2005 -->
+
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording" value="録画を開始します" />
+  <string id="DVR.AboutToRecord" value="{1} チャンネルの{0}の録画を開始します " />
+  <string id="DVR.AboutToRecord.Record" value="録画" />
+  <string id="DVR.AboutToRecord.DontRecord" value="録画しない" />
+  <string id="DVR.AboutToStartRecording_disabled" value="録画機能が利用できないため、録画予約は実行されません" />
+  <string id="DVR.CannotRecordProgram" value="この番組は録画できない番組です" />
+  <string id="DVR.CannotRecordProgramNow" value="この番組は録画できません。後ほど、時間をおいてからお試しください。"/>
+  <string id="DVR.CannotChangeSettingsNoEPG" value="この録画番組の情報が一時的に取得できません。後ほど、時間をおいてからお試しください。"/>
+  <string id="DVR.OK" value="OK" />
+  <string id="DVR.Cancel" value="キャンセル" />
+  <string id="DVR.StopRecording" value="{0}の録画を停止しますか?" />
+  <string id="DVR.DoStopRecording" value="録画停止" />
+  <string id="DVR.DoContinueRecording" value="録画を続ける" />
+  <string id="DVR.ViewingConflict" value="現在、他のテレビに参加しているため、チャンネルを変更することができません。"/>
+  <string id="DVR.ViewingConflict.Choose" value="もっと他を見る"/>
+  <string id="DVR.ViewingConflict.AskTakeControl" value="テレビが使用中であるか問い合わせる"/>
+  <string id="DVR.ViewingConflict.Exit" value="テレビに戻る"/>
+  <string id="DVR.IsTVInUse" value="テレビは使用中ですか？このまま視聴を続けるには、{Seconds}以内にキーを押してください。"/>
+  <string id="DVR.IsTVInUse.Seconds" value="{0}秒"/> <!-- {0} integer of seconds for dialog -->
+  <string id="DVR.IsTVInUse.Second" value="{0}秒"/> <!-- Same as above, just used if there is 1 second left (pluralization)-->
+  <string id="DVR.IsTVInUse.InUse" value="テレビは使用中です"/>
+  <string id="DVR.IsTVInUse.NotInUse" value="テレビは使用中ではありません"/>
+  <string id="DVR.OtherTVInUse" value="他のテレビが使用中です。"/>
+  <string id="DVR.AskingIfOtherTVInUse" value="テレビが使用中であるか問い合わせています... 残り{Seconds}"/>
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="リクエストをキャンセル"/>
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="テレビが使用中であるか問い合わせる"/>
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="戻る"/>
+  <string id="DVR.MultiRoomProgramInfo.Join" value="この番組に参加する"/>
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="キャンセル"/>
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="リクエスト制御"/>
+  <string id="DVR.UpcomingHeader" value="録画予約済" />
+  <string id="DVR.UpcomingSubHeader" value="これから予定の録画予約" />
+  <string id="DVR.SeriesSubHeader" value="シリーズ" />
+  <string id="DVR.RecordedHeader" value="録画ビデオ" />
+  <string id="DVR.ManualRecordHeader" value="録画予約の追加" />
+  <string id="DVR.RecordSettings" value="録画設定" />
+  <string id="DVR.ManualRecordSubHeader" value="チャンネル/時間" />
+  <string id="DVR.KeepUntilHeader" value="継続期間" />
+  <string id="DVR.ConflictHeader" value="録画スケジュールが重複しています" />
+  <string id="DVR.SeriesSettingsHeader" value="シリーズ録画" />
+  <string id="DVR.OneTimeProgramSettingsHeader" value="録画" />
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="今回のみ録画" />
+  <string id="DVR.ManualRecord.InvalidTime" value="開始時間が不適切です" />
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="終了時間が不適切です" />
+  <string id="DVR.ManualRecordCannotBeForThePast" value="過去の番組の録画予約はできません" />
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="終了時刻を開始時刻の前に設定することはできません" />
+  <string id="DVR.ManualRecordDurationTooLong" value="12時間を越える録画予約はできません" />
+  <string id="DVR.ManualRecordInvalidChannel" value="このチャンネルは録画できません" />
+  <string id="DVR.ManualRecord.InvalidDuration" value="録画時間は1分以上で設定してください" />
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="録画時間の「分」は、1から59の間で設定してください" />
+  <string id="DVR.StreamChooser.Instructions" value="引き続き、番組を選んでください。あるいは、ライブテレビを視聴するか録画するよう設定してください。"/>
+  <string id="DVR.StreamChooser.Header.Plural" value="{0}本の番組がアクティブです"/> <!-- {0}: the number of tuner activities-->
+  <string id="DVR.StreamChooser.Header.Single" value="{0}本の番組がアクティブです"/>
+  <string id="DVR.StreamChooser.NowPlaying" value="現在、再生中です"/>
+  <string id="DVR.StreamChooser.WatchRecording" value="現在、録画中です"/>
+  <string id="DVR.ChangeStream.Title" value="番組を変更する"/>
+  <string id="DVR.ChangeStream.Button.Follow" value="引き続き選ぶ"/>
+  <string id="DVR.ChangeStream.Button.Take" value="選択を中断する"/>
+  <string id="DVR.ChangeStream.LastActivity" value="This television has been active within the last {0}"/> <!-- XXX: This string is not used-->
+  <string id="DVR.ChangeStream.Uptime" value="This television has been on for {0}"/> <!-- XXX: This string is not used-->
+  <string id="DVR.OneRecordingFromOtherClient" value="他の端末上にすでに録画予約がありますので、この録画予約は実行されません" />
+  <string id="DVR.ManyRecordingFromOtherClient" value="他の端末上にすでに{0}の録画予約がありますので、この録画予約は実行されません" />
+  <string id="DVR.Today" value="今日" />
+  <string id="DVR.Tomorrow" value="明日" />
+  <string id="DVR.UpcomingDateFormatString" value="M/d (ddd)" />
+  <string id="DVR.RecordedDateFormatString" value="M/d" />
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="視聴できる番組はありません" />
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="好きな番組を録画予約しておくと、その番組をいつでも見ることができます。" />
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="録画予約はありません" />
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="シリーズ録画予約はありません。"/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="お気に入りのシリーズの放送予定の番組をまとめて録画することができます。&#13;「録画予約の追加」から予約を行ってください。"/>
+  <string id="DVR.Record" value="予約を追加" />
+  <string id="DVR.DontRecord" value="予約をキャンセル" />
+  <string id="DVR.Save" value="保存" />
+  <string id="DVR.DontSave" value="キャンセル" />
+  <string id="DVR.Keep.DontChange" value="変更しない" />
+  <string id="DVR.Keep.SpaceNeeded" value="空き容量が必要になるまで保存" />
+  <string id="DVR.Keep.Date" value="{0}まで保存" />
+  <string id="DVR.Keep.Date.Format" value="M/d (ddd)" />
+  <string id="DVR.Keep.Watch" value="見終わるまで保存" />
+  <string id="DVR.Keep.Delete" value="削除するまで保存" />
+  <string id="DVR.ChannelLabel" value="チャンネル" />
+  <string id="DVR.FrequencyLabel" value="時間" />
+  <string id="DVR.RecordDateLabel" value="日付" />
+  <string id="DVR.KeepUntilLabel" value="保存期間" />
+  <string id="DVR.KeepAtMostLabel" value="できるだけ長く保存" />
+  <string id="DVR.StartLabel" value="開始" />
+  <string id="DVR.StopLabel" value="停止" />
+  <string id="DVR.TimeLabel" value="録画開始時間" />
+  <string id="DVR.DurationLabel" value="長さ" />
+  <string id="DVR.StopRecordingLabel" value="録画終了時間" />
+  <string id="DVR.SeriesFrequencyLabel" value="キャンセル" />
+  <string id="DVR.Time.AM" value="午前" />
+  <string id="DVR.Time.PM" value="午後" />
+  <string id="DVR.SeriesRecordOnLabel" value="録画日時 :" />
+  <string id="DVR.SeriesShowTypeLabel" value="タイプ" />
+  <string id="DVR.SeriesKeepUpToLabel" value="保存期間 :" />
+  <string id="DVR.Settings.More" value="▼ 変更"/>
+  <string id="DVR.Settings.Padding.OnTime" value="この番組の終わりまで" />
+  <string id="DVR.Settings.Padding.XMinutesLate" value="{0} 分後" />
+  <string id="DVR.Settings.Padding.OneHourLate" value="1 時間後" />
+  <string id="DVR.Settings.Padding.XHoursLate" value="{0} 時間後" />
+  <string id="DVR.Settings.Fork" value="録画設定"/>
+  <string id="DVR.Settings.Fork.Episode" value="今回のみ"/>
+  <string id="DVR.Settings.Fork.Series" value="シリーズ全部"/>
+  <string id="DVR.Station.AnyChannel" value="すべてのチャンネル"/>
+  <string id="DVR.Time.ThisTime" value="毎日{0}周辺"/>
+  <string id="DVR.Time.AnyTime" value="毎日いつでも"/>
+  <string id="DVR.Time.AnyTimeOnce" value="1日1回だけ毎日いつでも"/>
+  <string id="DVR.ShowType.FirstRun" value="初回のみ"/>
+  <string id="DVR.ShowType.Live" value="ライブ"/>
+  <string id="DVR.KeepUpTo.One" value="新しい録画が1本あります"/>
+  <string id="DVR.KeepUpTo.XRecordings" value="新しい録画が{0}本あります"/> <!-- {0}: Integer of number of recordings to keep-->
+  <string id="DVR.KeepUpTo.Many" value="できるだけ多く"/>
+  <string id="DVR.Frequency.Once" value="1回だけ録画" />
+  <string id="DVR.Frequency.EveryDay" value="毎日録画" />
+  <string id="DVR.Frequency.EveryWeekDay" value="平日のみ録画" />
+  <string id="DVR.Frequency.EveryWeekend" value="土日のみ録画" />
+  <string id="DVR.Frequency.EveryMon" value="毎週月曜日に録画" />
+  <string id="DVR.Frequency.EveryTue" value="毎週火曜日に録画" />
+  <string id="DVR.Frequency.EveryWed" value="毎週水曜日に録画" />
+  <string id="DVR.Frequency.EveryThu" value="毎週木曜日に録画" />
+  <string id="DVR.Frequency.EveryFri" value="毎週金曜日に録画" />
+  <string id="DVR.Frequency.EverySat" value="毎週土曜日に録画" />
+  <string id="DVR.Frequency.EverySun" value="毎週日曜日に録画" />
+  <string id="DVR.RecordDate.Format" value="M/d (ddd)" />
+  <string id="DVR.Number.Format" value="D02" />
+  <string id="DVR.Number.Format12Hour" value="" />
+  <string id="DVR.KeepUntil.Space" value="空き容量が必要になるまで保存" />
+  <string id="DVR.KeepUntil.Watch" value="見終わるまで保存" />
+  <string id="DVR.KeepUntil.Delete" value="削除するまで保存" />
+  <string id="DVR.KeepUntil.Space.Full" value="空き容量が必要になるまで保存する" />
+  <string id="DVR.KeepUntil.Watch.Full" value="見終わるまで保存する"/>
+  <string id="DVR.KeepUntil.Delete.Full" value="削除するまで保存する"/>
+  <string id="DVR.KeepAtMost.FormatSingular" value="新しい順に {0} の録画まで保存" />
+  <string id="DVR.KeepAtMost.FormatPlural" value="新しい順に {0} の録画まで保存" />
+  <string id="DVR.KeepAtMost.Max" value="できるだけたくさん保存" />
+  <string id="DVR.KeepUntil.AM" value="午前" />
+  <string id="DVR.KeepUntil.PM" value="午後" />
+  <string id="DVR.Preview.StartTimeFormat" value="M/d (ddd)" />
+  <string id="DVR.Preview.DurationFormat.Day" value="{0}日"/>
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0}日"/>
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0}日"/>
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0}時間" />
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0}分" />
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0}時間" />
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0}時間" />
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0}分" />
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0}分" />
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}" />
+  <string id="DVR.Preview.SpacerString" value="   " />
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0} ～ {1}" />
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}" />
+  <string id="DVR.Rollover.ChannelAndTime" value="{0}  ・  {1}" />
+  <string id="DVR.Rollover.RecordedTV" value="録画ビデオ" />
+  <string id="DVR.Menu.ByDate" value="録画日別" />
+  <string id="DVR.Menu.ByTitle" value="タイトル別" />
+  <string id="DVR.Menu.ByStatus" value="ステータス別" />
+  <string id="DVR.Menu.AddRecording" value="録画予約の追加" />
+  <string id="DVR.Menu.Scheduled" value="録画予約" />
+  <string id="DVR.Menu.Upcoming" value="upcoming" />
+  <string id="DVR.Menu.Series" value="シリーズ録画予約" />
+  <string id="DVR.MediaItem.Title" value="録画したテレビ番組" />
+  <string id="DVR.MediaItem.NoPrograms" value="録画予約はありません" />
+  <string id="DVR.MediaItem.Upcoming" value="録画予約 :  " />
+  <string id="DVR.MediaItem.Separator" value=" ／ " />
+  <string id="DVR.MediaItem.LongDescription1" value="お気に入りの番組の録画予約をすると、&#013;その番組をいつでも見ることができます。" />
+  <string id="DVR.MediaItem.LongDescription2" value="「録画ビデオ」メニューから録画予約を追加するか、&#013;リモコンのRECORDボタンを押してください。" />
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="録画ビデオ" />
+  <string id="DVR.ChannelGuide.RecentRecordings" value="最近録画したもの" />
+  <string id="DVR.Count.None" value="録画した番組はありません" />
+  <string id="DVR.Count.One" value="録画した番組が1本あります" />
+  <string id="DVR.Count.Many" value="録画した番組が{0}本あります" />
+  <string id="DVR.Stopped.Finished" value="終了" />
+  <string id="DVR.Stopped.Stopped" value="停止" />
+  <string id="DVR.Stopped.KeepMessage" value="この番組の録画は、ディスクの空き容量が必要になるまで保存されます" />
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="この番組の録画は、削除するまで保存されます"/>
+  <string id="DVR.MultiRoom.DontChangeChannels" value="チャンネルを変更しない"/>
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="{2}から{1}を録画するため、チャンネル{0}に変更します"/>
+  <string id="DVR.Conflict.StartFormatString" value="M/d　dddd h:mm:tt" />
+  <string id="DVR.Conflict.EndFormatString" value="h:mm:tt" />
+  <string id="DVR.Conflict.TimeRange" value="{0} ～ {1}" />
+  <string id="DVR.Conflict.PreviouslyScheduledPrograms" value="以前に予約された番組" />
+  <string id="DVR.Conflict.Preamble" value="他の番組が同時に録画予約されているため、{0}を録画することはできません。" /> <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice2" value="{0}を録画しない"/> <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice1" value="録画する" />
+  <string id="DVR.Conflict.Choice2" value="録画する" />
+  <string id="DVR.Conflict.Series.Preamble1" value="{0}のシリーズ録画の1回の録画予約が他の録画予約と重なっています。"/> <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble2" value="{1}のシリーズ録画の{0}回の録画予約が他の録画予約と重なっています。" /> <!-- {0}: Number of conflicts; {1}: Program title-->
+  <string id="DVR.Conflict.Series.Choice1" value="すべての回をシリーズ録画する" /> <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Choice2" value="他の録画予約と重ならない回のみ録画する" />
+  <string id="DVR.Conflict.Series.Choice3" value="どの番組を録画するか選ぶ"/>
+  <string id="DVR.Conflict.TryAgain" value="録画予約がまだ重複しています。また後で設定し直してください。" />
+  <string id="DVR.Conflict.SubTitle" value="録画する番組を選んでください。"/>
+  <string id="DVR.Conflict.MultiSubTitle" value="{0}件の録画予約の重複があります。"/> <!-- {0}: Number of conflict slices(?)-->
+  <string id="DVR.Conflict.HDSubTitle" value="2本のHD番組を同時に録画予約できません。1本の番組を選んでください。"/>
+  <string id="DVR.Conflict.GridHeader" value="録画予約の重複 {0}&#13;{1}"/> <!-- {0}: Column number; empty if only 1 column-->
+  <string id="DVR.Conflict.Summary" value="「{0}」は「{1}」と録画予約が重複しています。"/> <!-- {0}: Program title; {1} Conflict summary description. Same for following string-->
+  <string id="DVR.Conflict.Series.Summary" value="シリーズ「{0}」は「{1}」と録画予約が重複しています。"/>
+  <string id="DVR.Conflict.2Conflicts" value="「{0}」、「{1}」"/>  <!-- Next few strings don't seem to be used.-->
+  <string id="DVR.Conflict.3Conflicts" value="「{0}」、「{1}」、「{2}」"/>
+  <string id="DVR.Conflict.4Conflicts" value="「{0}」、「{1}」、「{2}」、「{3}」"/>
+  <string id="DVR.Conflict.5Conflicts" value="「{0}」、「{1}」、「{2}」、「{3}」とそれ以上"/>
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="録画番組の重複: {0}"/> <!-- {0}: Formatting of title and episode title-->
+  <string id="DVR.Conflict.InitSeries.SubTitle" value="シリーズ録画の重複: {0}"/> <!-- {0}: Title of program-->
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="簡単録画:" />
+  <string id="DVR.AddRecording.CreateCustom" value="カスタム録画:" />
+  <string id="DVR.AddRecording.ManualRecordLabel" value="録画するチャンネルと開始時間を指定する" />
+  <string id="DVR.ManualRecordLabel" value="手動で録画" />
+  <string id="DVR.ManualLabel" value="手動録画: {0}"/>
+  <string id="DVR.DisabledNotification" value="録画機能は使えません" />
+  <string id="DVR.NotReadyNotification" value="録画機能を準備しています。お待ちください。" />
+  <string id="DVR.ChannelDisabledNotification" value="チャンネル{0} {1}の録画はできません。"/> <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabledNotification2" value="このチャンネルの録画はできません。"/>
+  <string id="DVR.ChannelPauseDisabledNotification" value="チャンネル{0} {1}のライブテレビの制御はできません。"/> <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelPauseDisabledNotification2" value="このチャンネルのライブテレビの制御はできません。"/>
+  <string id="DVR.ManualRecordDisabledNotification" value="このチャンネルの手動録画はできません。"/>
+  <string id="DVR.ChannelDisabled" value="Channel チャンネル{0} {1}の録画はできません。"/> <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.SeriesRecordingScheduled" value="シリーズ録画が予約されました" />
+  <string id="DVR.SeriesRecordingUpdated" value="シリーズ録画予約が更新されました"/>
+  <string id="DVR.RecordingScheduled" value="録画が予約されました" />
+  <string id="DVR.RecordingUpdated" value="録画予約が更新されました"/>
+  <string id="DVR.RecordingStopped" value="録画を停止しました" />
+  <string id="DVR.RecordingCanceled" value="録画がキャンセルされました" />
+  <string id="DVR.Recording" value="録画しています" />
+  <string id="DVR.SlowScheduling" value="録画を開始しました" />
+  <string id="DVR.SlowSchedulingComplete" value="録画を開始しました" />
+  <string id="DVR.PostGoLiveInstructions" value="録画を開始するには、RECORDボタンを押してください。" />
+  <string id="DVR.GuideInstructions" value="録画したい番組にカーソルを合わせ、RECORDボタンを押してください。" />
+  <string id="DVR.SearchInstructions" value="録画したい番組を検索し、RECORDボタンを押してください" />
+  <string id="DVR.GroupeditemsInstructions" value="録画したい番組にカーソルを合わせ、RECORDボタンを押してください。"/>
+  <string id="DVR.GuideInstructionsButton" value="準備ができました" />
+  <string id="DVR.QueryCancelSeries" value="{0}のシリーズ録画をキャンセルしてもよろしいですか?" />
+  <string id="DVR.ConfirmCancelSeries" value="予約をキャンセルする" />
+  <string id="DVR.CancelCancel" value="キャンセルしない"/>
+  <string id="DVR.QueryCancelProgram" value="「{0}」の録画予約を本当にキャンセルしてもよろしいですか？"/> <!-- {0}: Program title-->
+  <string id="DVR.ConfirmCancelProgram" value="キャンセル"/>
+  <string id="DVR.QueryCancelEpisode" value="シリーズ「{0}」この回の録画予約を本当にキャンセルしてもよろしいですか？"/> <!-- {0}: Series title-->
+  <string id="DVR.ConfirmCancelEpisode" value="キャンセル"/>
+  <string id="DVR.CancelCancelSeries" value="予約をキャンセルしない" />
+  <string id="DVR.QueryErase" value="{0}を削除してもよろしいですか?" />
+  <string id="DVR.ConfirmErase" value="削除する" />
+  <string id="DVR.CancelErase" value="削除しない" />
+  <string id="DVR.AlreadyRecording" value="このチャンネルは、現在、録画中です" />
+  <string id="DVR.ShowOver" value="この番組はすでに放送されました" />
+  <string id="DVR.WSException.Unknown" value="テレビサービスが一時的に利用できません" />
+  <string id="DVR.WSException.NetworkNA" value="テレビサービスが一時的に利用できません" />
+  <string id="DVR.WSException.Timeout" value="テレビサービスが一時的に利用できません" />
+  <string id="DVR.WSException.ConnectionLost" value="テレビサービスが一時的に利用できません" />
+  <string id="DVR.WSException.TryAgain" value="後で再度試してください" />
+  <string id="DVR.UpcomingRecordingsButton" value="今後の録画予約" />
+  <string id="DVR.SeriesRecordingsButton" value="シリーズ録画" />
+  <string id="DVR.PrioritySettingsButton" value="録画の優先度設定" />
+  <string id="DVR.History" value="履歴" />
+  <string id="DVR.ViewUpcomingRecordingsButton" value="直近の録画予約を見る" />
+  <string id="DVR.ChangeSeriesSettingsButton" value="シリーズ録画の設定変更" />
+  <string id="DVR.CancelSeriesButton" value="シリーズ録画のキャンセル" />
+  <string id="DVR.SeriesHeader" value="シリーズ録画情報" />
+  <!-- Not used in code-->
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}" />
+  <!-- A format string: {0} is the format for the string. {1} is a value.-->
+  <string id="DVR.SeriesInfoSummaryFormat" value="{0}: {1}"/>
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}" />
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}" />
+  <string id="DVR.UntilSpaceIsNeeded" value="空き容量が必要になるまで保存" />
+  <string id="DVR.FirstRunAndRerun" value="初回と再放送" />
+  <string id="DVR.SeriesTimeFormat" value="h:mm:tt" />
+  <string id="DVR.SeriesTimeFormat24" value="H:mm" />
+  <string id="DVR.SeriesTimeAnyTime" value="any time" />
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}" />
+  <string id="DVR.OneTimeSettingTimeFormat" value="{0} {1}" />
+  <string id="DVR.MustGoLiveToRecord" value="ライブテレビ以外は録画できません" />
+  <string id="DVR.GoLive" value="ライブテレビ一覧へ" />
+  <string id="DVR.Unknown" value="不明" />
+  <string id="DVR.Dot.Conflict" value="重複があります" />
+  <string id="DVR.Dot.RecordingDelay" value="RECORDING DELAY"/>
+  <string id="DVR.Dot.Series" value="シリーズ録画"/>
+  <string id="DVR.Dot.Series.HD" value="HDシリーズ録画"/>
+  <string id="DVR.Dot.Record" value="録画"/>
+  <string id="DVR.Dot.Record.HD" value="HD録画"/>
+  <string id="DVR.Dot.Recording" value="録画中"/>
+  <string id="DVR.Dot.Recording.HD" value="HD録画中"/>
+  <string id="DVR.Dot.Keep" value="削除するまで保存"/>
+  <string id="DVR.Dot.Delete" value="まもなく削除"/>
+  <string id="DVR.DefaultState.Message1" value="Record your favorite shows"/>
+  <string id="DVR.DefaultState.Message2" value="Automatically record every episode"/>
+  <string id="DVR.DefaultState.Message3" value="Pause, rewind, and fast forward"/>
+  <string id="DVR.AlreadyScheduled" value="The program is already scheduled to record"/>
+  <string id="DVR.EITVPS.Incorrect" value="Recording may be incorrect"/>
+  <string id="DVR.EITVPS.DidNotAir" value="Program did not air within scheduled time"/>
+  <string id="DVR.EITVPS.DueToChanges" value="Due to last-minute programming changes"/>
+  <!-- {0} Currently recording title: {1}: Upcoming Recording title-->
+  <string id="DVR.EITVPS.AboutToExtend" value="'{0}' has not ended as scheduled. End recording now to record '{1}'?"/>
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="Keep recording"/>
+  <string id="DVR.EITVPS.AboutToExtend.End" value="End recording"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.EITVPS.Recording" value="Now recording '{0}'"/>
+  <!-- {0}: Recording program title-->
+  <string id="DVR.EITVPS.Delayed" value="Recording was {0} minutes delayed"/>
+  <string id="DVR.EITVPS.ManualRecord" value="Due to last-minute scheduling changes, this program must be recorded manually."/>
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="Record manually"/>
+
+  <!-- Stream contention dialogs-->
+  <!-- {0}: Channel num and call station (channel info text)-->
+  <string id="Stream.StayOnChannel" value="チャンネル{0}のまま"/>
+  <string id="Stream.StayOnChannel.Unknown" value="このチャンネルのまま"/>
+  <string id="Stream.RecordedTVButton" value="録画ビデオ"/>
+  <string id="Stream.InterruptTVButton" value="テレビを中断する"/>
+  <string id="Stream.DontInterruptTVButton" value="テレビを中断しない"/>
+  <string id="Stream.ContinueButton" value="続ける"/>
+  <string id="Stream.ChangeChannelButton" value="チャンネルを変更する"/>
+  <string id="Stream.DontChangeChannelButton" value="チャンネルを変更しない"/>
+  <string id="Stream.TryAgainButton" value="再度試す"/>
+  <!--  Stream panel strings usage: 
+        AllServicesInUse        - "Optimistic Tune" panel with interrupt
+        AllStreamsRecording     - "Optimistic Tune" panel with no interrupt
+        AllStreamsUsedByVOD     - "Optimistic Tune" panel with no interrupt AND all streams are VOD
+        AllServicesInUseNoTV    - "Power On" panel with interrupt
+        AllStreamsRecordingNoTV - "Power On" panel with no interrupt
+        AllStreamsUsedByVODNoTV - "Power On" panel with no interrupt AND all streams are VOD
+  -->
+  <string id="Stream.AllServicesInUse"                 value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUse.HD"              value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUse.NoDvr"           value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUse.NoDvr.HD"        value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUseNoTV"             value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUseNoTV.HD"          value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr"       value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD"    value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecording"              value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecording.HD"           value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecording.NoDvr"        value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecording.NoDvr.HD"     value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecordingNoTV"          value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecordingNoTV.HD"       value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr"    value="テレビサービスはすべて使用中です。続けるには、録画中の番組録画を中止するか、他の受信機の電源をオフにするか、または、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="ハイビジョンテレビサービスはすべて使用中です。ハイビジョンチャンネルの視聴を続けるには、録画中のハイビジョン録画を中止するか、他の受信機のハイビジョンサービスを中止するか、テレビの視聴を中断してください。"/>
+  <string id="Stream.AllStreamsUsedByVOD"              value="すべてのテレビサービスはビデオオンデマンドで利用中です。続けるには、他の受信機でのビデオオンデマンドの視聴を中止してください。"/>
+  <string id="Stream.AllStreamsUsedByVODNoTV"          value="すべてのテレビサービスはビデオオンデマンドで利用中です。続けるには、他の受信機でのビデオオンデマンドの視聴を中止してください。"/>
+  <string id="Stream.ConfirmInterrupt" value="Choosing to interrupt will stop TV viewing on another TV in your home"/>
+  <string id="Stream.TVInterrupted" value="テレビサービスが中断されました。interrupted to allow recording or viewing on another TV in your home"/>
+  <string id="Stream.TVInterrupted.NoDvr" value="This TV was interrupted to allow recording or viewing on another TV in your home"/>
+  <string id="Stream.UpcomingRecording" value="All TV services are in use.  The channel must change to record {0} on {1} at {2}"/>
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="番組表の表示方法" />
+  <string id="Settings.GuideStyle.GridGuide" value="時間帯表示" />
+  <string id="Settings.GuideStyle.GridGuideDescription" value="同じ時間帯の複数のチャンネルの番組表を表示する" />
+  <string id="Settings.GuideStyle.ListGuide" value="チャンネル表示" />
+  <string id="Settings.GuideStyle.ListGuideDescription" value="1つのチャンネルの番組表を表示する" />
+  <string id="Settings.Save" value="保存" />
+  <string id="Settings.Save.Ask" value="変更した設定を保存しますか?" />
+  <string id="Settings.DontSave" value="キャンセル" />
+  <string id="Settings.AllOn" value="すべてオン" />
+  <string id="Settings.AllOff" value="すべてオフ" />
+  <string id="Settings.Continue" value="続ける"/>
+  <string id="Settings.CancelChanges" value="キャンセル"/>
+  <string id="Settings.Cancel" value="キャンセル"/>
+
+  <!-- aspect ratio -->
+  <string id="Settings.AspectRatio.Description" value="ご利用のテレビの画面サイズを選択してください" />
+  <string id="Settings.AspectRatio.Resizing" value="画面サイズの変更" />
+  <string id="Settings.AspectRatio.NowViewing" value="現在の画面サイズ：{0}"/><!-- {0}: Screen mode-->
+  <string id="Settings.AspectRatio.0" value="標準(4:3)"/>
+  <string id="Settings.AspectRatio.1" value="標準ワイドスクリーン"/>
+  <string id="Settings.AspectRatio.2" value="ハイビジョンスクリーン(720p)"/>
+  <string id="Settings.AspectRatio.3" value="ハイビジョンスクリーン(1080i)"/>
+  <string id="Settings.AspectRatio.NowViewing0" value="「標準(4:3)」に変更しました"/>
+  <string id="Settings.AspectRatio.NowViewing1" value="「標準ワイドスクリーン」に変更しました"/>
+  <string id="Settings.AspectRatio.NowViewing2" value="「ハイビジョンスクリーン(720p)」に変更しました"/>
+  <string id="Settings.AspectRatio.NowViewing3" value="「ハイビジョンスクリーン(1080i)」に変更しました"/>
+  <string id="Settings.AspectRatioWizard.Step1" value="画面サイズとハイビジョンの設定 (ステップ1)"/>
+  <string id="Settings.AspectRatioWizard.Step2" value="画面サイズとハイビジョンの設定 (ステップ2)"/>
+  <string id="Settings.AspectRatioWizard.Step3" value="画面サイズとハイビジョンの設定 (ステップ3)"/>
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="このテレビが「{Mode}」表示モードに適合するかどうかを調べるため、[画面テストを開始]を選んでください。何も表示されない場合は、15秒待った後に、[別の設定を選択する]を選んでください。"/>
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="この画面が表示できた場合、このテレビは{Mode}表示モードをサポートしています。この表示モードに設定するには[設定を保存する]を選択してください。&#13;&#13;このテストは、{Countdown}秒で終わります。"/>
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="正しく表示されなかった場合、このテレビはハイビジョンモードをサポートしていないか、セットトップボックスが正しく接続されていない可能性があります。 別の設定を選択するか、ハイビジョン対応テレビに正しく接続してください。&#13;&#13;[画面テストをもう一度開始]を選んでください。"/>
+  <string id="Settings.AspectRatioWizard.StartTest" value="画面テストを開始"/>
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="設定を保存する"/>
+  <string id="Settings.AspectRatioWizard.StartAgain" value="画面テストをもう一度開始"/>
+  <string id="Settings.AspectRatioWizard.SawNothing" value="正しく表示されなかったので、別の設定を選択する"/>
+  <string id="Settings.AspectRatio.ChangeSettings" value="ビデオの設定を変更してよろしいですか？"/>
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value="{0}はすべてのテレビと互換性がありません。設定を変更した後、何も映らない場合は、10秒待つか、セットトップボックスのコードのを取り外してください。"/>
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="ビデオの設定は最後に{0}に設定されていました。以前の設定に戻してよいですか？戻したくない場合は、このままの設定を保存することができます。"/>
+  <string id="Settings.AspectRatio.ChangeTo" value="{0}に変更する"/>
+  <string id="Settings.AspectRatio.DontChange" value="変更しない"/>
+  <string id="Settings.AspectRatio.GoToSettings" value="設定を行う"/>
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="ビデオの設定は現在、{0}です。このままの設定でよろしいですか？10秒後に以前の設定に戻ります。"/>
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="ビデオの設定は最後に{0}に設定されていました。以前の設定に戻してよいですか？戻したくない場合は、このままの設定を保存することができます。"/>
+  <string id="Settings.AspectRatio.KeepHighDef" value="設定を{0}のままにする"/>
+  <string id="Settings.AspectRatio.ChangeBack" value="以前の設定に戻す"/>
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="画面サイズの設定をハイビジョンスクリーン({0})にする"/>
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="画面サイズの設定を標準(4:3)に戻す"/>
+  <string id="Settings.AspectRatio.ModeNotSupported" value="この画面サイズは、このセットトップボックスではサポートされていません。"/>
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="menu123456789" />
+  <!-- connection troubleshooting settings page -->
+  <string id="Settings.Troubleshoot" value="ブロードバンド接続がつながらない場合は？"/>
+  <string id="Settings.Troubleshoot.Title" value="ネットワーク接続に問題がありますか？"/>
+  <string id="Settings.Troubleshoot.Description.Online" value="現在ネットワークはつながっているようです。ネットワーク接続の問題をここに記述してください。&#13;&#13;サポートが必要な場合は、カスタマーセンターまでお電話ください。"/>
+  <string id="Settings.Troubleshoot.Description.Offline" value="現在ネットワークが切断されています。ネットワーク接続の問題をここに記述してください。&#13;&#13;サポートが必要な場合は、カスタマーセンターまでお電話ください。"/>
+  <!-- begin of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.DvrWarning" value="DVR recording will be unavailable while scanning DTT channels. All recordings will be stopped." />
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="続ける" />
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="キャンセル" />
+  <string id="Settings.ChannelScanningWizard.Step1" value="DTTチャンネルのスキャン(ステップ1)"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="Nevisをご利用いただきありがとうございます。Nevisは最も先進的なテレビです。&#13; &#13;テレビを見るには、DTTチャンネルのスキャンを行い、番組表に新しい番組を追加してください。すぐにNevisを利用するにはスキャンを省略してください。"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="テレビを見るには、DTTチャンネルのスキャンを行い、番組表に新しい番組を追加してください。&#13; &#13;[Nevis IPTV サービスについての説明を読む]を選択すると、他のチャンネルやビデオオンデマンドの視聴についてのより多くの情報が入手できます。"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="DTTチャンネルのスキャン"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Cancel.Subscriber" value="後でスキャンする(今すぐNevis IPTVサービスを使用する)"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Cancel.NewUser" value="Nevis IPTV サービスについての説明を読む"/>
+  <string id="Settings.ChannelScanningWizard.Step2" value="DTTチャンネルのスキャン(ステップ3)"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="スキャンしています。{Percentage}% 完了..."/>
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="{Video} テレビチャンネルが見つかりました"/>
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="{Music} 音楽チャンネルが見つかりました"/>
+  <string id="Settings.ChannelScanningWizard.Step2.StatusSec" value="残り{0}秒"/>
+  <string id="Settings.ChannelScanningWizard.Step2.StatusMin" value="残り{1}:{0:00}"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="チャンネルスキャンのキャンセル"/>
+  <string id="Settings.ChannelScanningWizard.Step3" value="DTTチャンネルのスキャン(ステップ3)"/>
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="スキャンが完了しました。&#13;&#13;{Video} テレビチャンネルが見つかりました。&#13;{Music} 音楽チャンネルが見つかりました。&#13;&#13;追加されたチャンネルを見るには番組表をご覧ください。すべての利用可能なサービスを見るにはメニューをご覧ください。"/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="番組表に戻る"/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="メニューに戻る"/>
+  <!-- end of channel scanning for digital terrestrial/offline experience -->
+
+  <string id="Settings.ChannelScanning.MoreInfo" value="More information on Microsoft TV" />
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="Title" />
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="Description" />
+
+  <string id="Settings.Overscan" value="表示される画面サイズ" />
+  <string id="Settings.Overscan.GeneralInstruction" value="テレビにあった画面サイズを選択してください" />
+  <string id="Settings.Overscan.Large" value="大" />
+  <string id="Settings.Overscan.Large.Description" value="(ワイドスクリーンテレビに適しています)" />
+  <string id="Settings.Overscan.Medium" value="中" />
+  <string id="Settings.Overscan.Medium.Description" value="(標準スクリーンのテレビに適しています)" />
+  <string id="Settings.Overscan.Small" value="小" />
+  <string id="Settings.Overscan.Notification" value="表示される画面サイズが変更されました" />
+  <string id="Settings.About.SystemInfoMenuItem" value="システム情報" />
+  <string id="Settings.About.NetworkInfoMenuItem" value="ネットワーク情報"/>
+  <string id="Settings.About.ResourcesInfoMenuItem" value="リソース情報" />
+  <string id="Settings.About.WebServicesMenuItem" value="Webサービス" />
+  <string id="Settings.About.DiskRepairMenuItem" value="ディスク修理" />
+  <string id="Settings.About.CopyrightMenuItem" value="著作権" />
+  <string id="Settings.About.PrivacyMenuItem" value="プライバシー" />
+  <string id="Settings.About.SubscriptionsMenuItem" value="定期購読" />
+  <string id="Settings.About.Go" value="Go" />
+
+
+  <!--
+
+    The system information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+  
+    {ClientTime}              9/15/2006 11:39:00 AM
+    {SessionTime}             01:08:45
+    
+    {ClientVersion}           1.2.2449.0 (debug)
+    {BootRomVersion}
+
+    {OSPlatform}              Win32NT
+    {OSVersion}               5.1.2600.131072
+
+    {SettopVendor}            vendor name
+    {SettopType}              model name
+    {SettopCPUSpeed}          speed in MHz
+    {SettopSerial}            serial number
+    
+    {AccountID}               guid
+    {ClientID}                guid
+    {MacAddress}              00-12-3F-54-28-11
+    
+    {ContentDirectory}        path
+  
+  -->
+  <string id="Settings.About.SystemInfo.Data" value="時刻: {ClientTime} (セッション時間: {SessionTime})&#13;クライアントバージョン: {ClientVersion}&#13;プラットフォーム OS/バージョン: {OSPlatform}/{OSVersion}&#13;Bootstrap ROM: {BootRomVersion}&#13;STB / CPU: {SettopVendor} {SettopType} / {SettopCPUSpeed}&#13;STBシリアル番号: {SettopSerial}&#13;MAC ID: {MacAddress}&#13;クライアントID: {ClientID}" />
+  <string id="Settings.About.NotAvailable" value="N/A" />
+
+  <!--
+
+    The network information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {IPName}                  host name
+    {IPAddress}               single IP or comma separated list of IPs
+    {IPGateway}               IP gateway address
+    {Bps}                     bits per second
+    {IPTVStatus}              connected/disconnected
+  
+  -->
+  <string id="Settings.About.NetworkInfo.Data" value="ホスト名: {IPName}&#13;IPアドレス: {IPAddress}&#13;デフォルトゲートウェイ: {IPGateway}&#13;Bps: {Bps}&#13;IPTVの状態: {IPTVStatus}" />
+  <string id="Settings.About.NetworkInfo.Connected" value="接続中" />
+  <string id="Settings.About.NetworkInfo.Disconnected" value="切断" />
+
+  <!--
+
+    The system resources information page can be customized by rearranging or removing items from the list below.
+
+    Label:                    Example:
+      
+    {SDStreams}               number of standard definition streams available
+    {HDStreams}               number of high definition streams available
+    {DTTTuners}               number of tuners available
+    {BandwidthCap}            maximum bandwidth available
+    
+    {AllocatedManagedMemory}  in KB
+    {AllocatedPhysicalMemory} in KB
+    {AvailableVirtualMemory}  in KB
+    {MemoryLoad}              in %
+  
+    {DiskStatus}              present/not present
+    {DiskUsage}               20% remaining  
+  -->
+  <string id="Settings.About.SystemResources.Data" value="IPTVストリーム数 (SD/HD): {SDStreams}/{HDStreams}&#13;IPTVバンド幅キャパシティ: {BandwidthCap}&#13;地上波デジタル放送チューナーの数: {DTTTuners}&#13;割り当て済みメモリサイズ: {AllocatedManagedMemory}&#13;割り当て済み物理メモリサイズ: {AllocatedPhysicalMemory}&#13;利用可能な仮想メモリサイズ: {AvailableVirtualMemory}&#13;メモリ使用率: {MemoryLoad}&#13;ディスク状態: {DiskStatus}&#13;ディスク使用状況: {DiskUsage}" />
+  <string id="Settings.About.SystemResources.Present" value="内蔵されています" />
+  <string id="Settings.About.SystemResources.NotPresent" value="ありません" />
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="{0:#,###} KB" />
+  <string id="Settings.About.SystemResources.DiskUsage" value="{1}中{0}使用"/>
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value="残り{0}%"/>
+
+  <string id="Settings.About.CheckHardDisk" value="ハードディスクを確認してください" />
+  <string id="Settings.About.CheckHardDisk.Instructions" value="「ハードディスクを確認してください」と表示された場合は、ハードディスクを選択してください。&#013;&#013;システムは再起動し、ハードディスクを確認する10-15分の間、テレビをご覧いただけません。&#013;&#013;また、その間、予約機能もご利用いただけません。" />
+  <string id="Settings.About.CheckHardDisk.Prompt" value="ハードディスクを確認するためには、システムを再起動する必要があります" />
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="再起動しない" />
+  <string id="Settings.About.CheckHardDisk.Restart" value="再起動する" />
+  <string id="Settings.About.PrivacyStatement" value="プライバシーポリシーがここに表示されます" />
+  <string id="Settings.About.CopyrightStatement" value="著作権情報が、ここに表示されます" />
+  <string id="Settings.About.SubscriptionInfo" value="購読情報が、ここに表示されます" />
+  <string id="Settings.Language" value="表示する言語" />
+  <string id="Settings.Sounds" value="操作音" />
+  <string id="Settings.Sounds.Play" value="操作音を鳴らす" />
+  <string id="Settings.Sounds.Mute" value="操作音を鳴らさない" />
+  <string id="Settings.HiddenChannels" value="チャンネルのカスタマイズ" />
+  <string id="Settings.HiddenChannels.Description" value="選択したチャンネルが、番組表に表示されます" />
+  <string id="Settings.HiddenChannels.ShowAll" value="すべてを選択" />
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="非選択を表示" />
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="すべてを表示" />
+  <string id="Settings.HiddenChannels.ChangeOrder" value="順番の変更" />
+  <string id="Settings.SignalStrength.Description" value="Select a channel to check its strength." />
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="There are no channels at the moment." />
+  <string id="Settings.SignalStrength.Labels" value="Carrier Frequency:&#13;Signal Strength:&#13;Signal Quality:" />
+  <string id="Settings.SignalStrength.Values" value="{Frequency}&#13;{Strength}%&#13;{Quality}%" />
+  <string id="Settings.SignalStrength.NoValue" value="N/A" />
+
+  <!-- Strings for Secondary Audio settings page -->
+  <string id="Settings.SecondaryAudio" value="音声多重番組" />
+  <string id="Settings.SecondaryAudio.Description" value="音声多重番組の設定をします" />
+  <string id="Settings.SecondaryAudio.Primary" value="主音声を再生する" />
+  <string id="Settings.SecondaryAudio.Secondary" value="（副音声がある場合は）副音声を再生する" />
+  <string id="Settings.SecondaryAudio.PrimarySet" value="「主音声を再生する」に設定しました" />
+  <string id="Settings.SecondaryAudio.SecondarySet" value="「副音声を再生する」に設定しました" />
+  <string id="Settings.CcChannels.Changed" value="字幕を「{0}」に設定しました"/>
+  <string id="Settings.CcChannels.Off" value="字幕をオフに設定しました"/>
+  <string id="Settings.ClosedCaption.Heading" value="字幕の表示"/>
+  <string id="Settings.ClosedCaption.ChangeButton" value="変更する"/>
+  <string id="Settings.ClosedCaption.Digital.Description" value="デジタル字幕が利用可能な場合、どの字幕を表示するか選択してください。"/>
+  <string id="Settings.ClosedCaption.Digital.Heading" value="デジタル字幕"/>
+  <string id="Settings.ClosedCaption.Digital.Off" value="オフ"/>
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="字幕1"/>
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="字幕2"/>
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="字幕3"/>
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="字幕4"/>
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="字幕5"/>
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="字幕6"/>
+  <string id="Settings.ClosedCaption.Standard.Description" value="標準の字幕が利用可能な場合、どの字幕を表示するか選択してください。"/>
+  <string id="Settings.ClosedCaption.Standard.Heading" value="標準の字幕"/>
+  <string id="Settings.ClosedCaption.Standard.Off" value="オフ"/>
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="字幕1"/>
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="字幕2"/>
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="字幕3"/>
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="字幕4"/>
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="テキスト1"/>
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="テキスト2"/>
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="テキスト3"/>
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="テキスト4"/>
+  <string id="Settings.Save.Succeeded" value="設定は保存されました" />
+  <string id="Settings.Save.Failed" value="設定変更は反映されませんでした。設定を再確認してください" />
+  <string id="Settings.Save.Failed.PCon" value="ペアレンタルコントロールの設定変更は反映されませんでした。設定を再確認してください" />
+  <!-- Channel Reordering -->
+  <string id="Settings.ChannelReordering" value="チャンネルの表示順を変更" />
+  <string id="Settings.ChannelReordering.RestoreDefault" value="元の表示順に戻す" />
+  <string id="Settings.ChannelReordering.Description" value="チャンネルの表示順を変更するにはリモコンの矢印キーを使ってください" />
+
+  <!-- RF output channel -->
+  <string id="Settings.RFOutputChannel" value="RF出力チャンネル"/>
+  <string id="Settings.RFOutputChannel.TurnOff" value="RF出力をオフにする"/>
+  <string id="Settings.RFOutputChannel.Description" value="RF出力チャンネルを変更した場合、テレビ側も同じチャンネルに変更する必要があります。"/>
+  <string id="Settings.RFOutputChannel.Confirm" value="You will lose video until you change to channel {0} on your television."/>
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="You will lose video on the RF output."/>
+
+  <string id="Settings.AudioLanguage" value="音声の言語"/>
+  <string id="Settings.AudioLanguage.Description" value="音声の言語を選択してください"/>
+
+  <!-- 
+      The list of languages and the default setting used in the Audio Language Settings page.  These are optional
+      and are used if the UserStore AudioLanguages and/or PreferredAudioLanguage values are not set.  Ensure
+      that no 2 codes in the preference list will result in duplicate language names. Duplicate language names
+      are ignored.  Languages are displayed in the Audio Language Settings page in the order that they appear in
+      this list.
+  -->
+  <string id="Settings.AudioLanguage.Preference.List" value="ar,bg,ca,zh,cs,da,de,el,en,es,fi,fr,gd,he,hu,is,it,ja,ko,nl,no,pl,pt,ro,ru,hr,sk,sq,sv,th,tr,ur,id,uk,be,sl,et,lv,lt,fa,vi,hy,az,eu,mk,af,ka,fo,hi,ms,kk,ky,sw,uz,tt,pa,gu,ta,te,kn,mr,sa,mn,gl,sr,cy"/>
+  <string id="Settings.AudioLanguage.Preference.Default" value="en"/>
+
+  <!-- Strings for Security settings page -->
+  <string id="SettingsEnhancedHdmiSecurity" value="HDMIセキュリティ"/>
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="If you are having tuning problems when using the HDMI interface choose enhanced security."/>
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="拡張セキュリティ"/>
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="標準セキュリティ"/>
+
+  <string id="AudioProgram.AudioType.1" value="サポートなし"/>
+  <string id="AudioProgram.AudioType.2" value="聴覚障害者用"/>
+  <string id="AudioProgram.AudioType.3" value="視覚障害者用"/>
+
+  <string id="AudioProgram.NoLanguage.Primary" value="主音声"/>
+  <string id="AudioProgram.NoLanguage.Secondary" value="副音声"/>
+  <string id="AudioProgram.NoLanguage.Additional" value="音声"/>
+
+  <!-- Subtitling types as defined in the DVB standard. -->
+  <!-- normal -->
+  <string id="SubtitleProgram.SubtitleType.16" value=""/>
+  <string id="SubtitleProgram.SubtitleType.17" value="4:3"/>
+  <string id="SubtitleProgram.SubtitleType.18" value="16:9"/>
+  <string id="SubtitleProgram.SubtitleType.19" value="2.21:1"/>
+  
+  <!-- hard of hearing -->
+  <string id="SubtitleProgram.SubtitleType.32" value="hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.33" value="4:3, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.34" value="16:9, hard of hearing"/>
+  <string id="SubtitleProgram.SubtitleType.35" value="2.21:1, hard of hearing"/>
+
+  <string id="ElementaryStream.DescriptionFormat" value=" {0}"/>
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}"/>
+
+  <string id="AudioProgram.DescriptionFormat" value=" {0}"/>
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}"/>
+
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="ビデオオンデマンド" />
+  <string id="VOD.MediaItem.Description" value="ここでビデオを選択してください" />
+  <string id="VOD.CurrentRentals.Title" value="現在レンタル中" />
+  <string id="VOD.CurrentRentals" value="現在レンタル中" />
+  <string id="VOD.NoCurrentRentals" value="現在、レンタルしているものはありません" />
+  <string id="VOD.Count.None" value="現在、レンタルしているものはありません" />
+  <string id="VOD.Count.One" value="1本のタイトルをレンタルしています" />
+  <string id="VOD.Count.Many" value="{0}本のタイトルをレンタルしています" />
+  <string id="VOD.Category.Count.None" value="レンタル可能なビデオがありません" />
+  <string id="VOD.Category.Count.One" value="1タイトル" />
+  <string id="VOD.Category.Count.Many" value="{0}タイトル" />
+  <string id="VOD.Storefront.LongDescription1" value="数千のタイトルから、好きなビデオを好きなときにご覧いただけます" />
+  <string id="VOD.Storefront.LongDescription2" value="ビデオのリストを表示させるには、「ビデオオンデマンド」メニューに行くか、リモコンの[VIDEOS]ボタンを押してください" />
+  <string id="VOD.Storefront.ShortDescription" value="レンタルビデオ" />
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="ビデオオンデマンド" />
+  <string id="VOD.ChannelGuide.CurrentRentals" value="レンタル中" />
+  <string id="VOD.RentButton" value="レンタル({0})" />
+  <string id="VOD.RentButton.Unknown" value="レンタルする" />
+  <string id="VOD.RentButton.Extern" value="レンタルする"/>
+  <string id="VOD.Expired" value="レンタル期間は終了しました " />
+  <string id="VOD.ExpiresToday" value="レンタル期間は{0}に終了します" />
+  <string id="VOD.ExpiresInAWeek" value="レンタル期間は今週の{0}の{1}に終了します" />
+  <string id="VOD.ExpiresLater" value="レンタル期間は{0}に終了します" />
+  <string id="VOD.ExpiresLongToday" value="レンタル期間は今日の{0}に終了します" />
+  <string id="VOD.ExpiresLongTomorrow" value="レンタル期間は明日の{0}に終了します" />
+  <string id="VOD.ExpiresLongInAWeek" value="レンタル期間は{0}の{1}に終了します" />
+  <string id="VOD.ExpiresLongLater" value="レンタル期間は{0}の{1}に終了します" />
+  <string id="VOD.PurchaseOffer" value="{2}を{1}レンタルするには、{0}かかります " />
+  <string id="VOD.PurchaseOffer.Adult" value="{2}を{1}レンタルするには、{0}かかります。これは成人向け番組です" />
+  <string id="VOD.PurchaseOffer.Package" value="{2}を{1}レンタルするには、{0}かかります" />
+  <string id="VOD.PurchaseOffer.Package.Adult" value="{2}を{1}レンタルするには、{0}かかります。これは成人向け番組です" />
+  <string id="VOD.PurchaseOffer.NoWindow" value="{1}をレンタルするには、{0} 円が課金されます" />
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="{1}をレンタルするには、{0}かかります。これは成人向け番組です" />
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="{1}をレンタルするには、{0}かかります" />
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="{1}をレンタルするには {0}かかります。これは成人向け番組です" />
+
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free" value="{2} is free for {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Adult" value="The {2} adult content is free for {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package" value="The {2} package is free for {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="The {2} adult package is free for {1}"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value="{1} is free"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value="{1} is free adult content"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value="{1} is a free package"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value="{1} is a free adult package"/>
+
+  <string id="VOD.CreditLimitExceeded" value="利用総額が、限度額を超過しました" />
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="利用総額が、限度額を超過しました。{0} を押して、限度額を増額することができます" />
+  <string id="VOD.CreditLimitChange" value="変更する" /> <!-- XXX -->
+  <string id="VOD.CreditLimitDontChange" value="変更しない" /> <!-- XXX -->
+  <string id="VOD.CouldNotPurchase" value="レンタルできませんでした" />
+  <string id="VOD.VideoStore.Banner" value="Banner_VOD.png"/>
+  <string id="VOD.VideoStore" value="ビデオオンデマンド" />
+  <string id="VOD.StoreFront" value="ビデオオンデマンド" />
+  <string id="VOD.DisabledNotification" value="ビデオオンデマンドは利用できません" />
+  <string id="VOD.Unavailable" value="ビデオオンデマンドの情報がありません" />
+  <string id="VOD.PleaseWait" value="ビデオを探しています" />
+  <string id="VOD.Package" value="パッケージ情報" />
+  <string id="VOD.RentAllPackage" value="{0}点のビデオすべてを{1}でレンタルする"/>
+  <string id="VOD.RentAll2Package" value="すべて{1}でレンタルする"/>
+  <string id="VOD.RentOne" value="セットの一部をレンタルする" />
+  <string id="VOD.AlreadyRented" value="利用可能なビデオ" />
+  <string id="VOD.SubcategoryIndicator" value="▼" />
+  <string id="VOD.Rented" value="レンタル中" />
+  <string id="VOD.Rent" value="ビデオ" />
+  <string id="VOD.NotRented" value="レンタルしない" />
+  <string id="VOD.Free" value="無料" />
+  <string id="VOD.Free.Debarred" value=""/>
+  <string id="VOD.Debarred" value="カスタマーサポートセンターにお電話ください"/>    
+  <string id="VOD.Renting" value="レンタル中"/>
+  <string id="VOD.OfferPending" value="まだレンタルできません"/>
+  <string id="VOD.Preview" value="予告編 : {0}" />
+  <string id="VOD.CannotRecord" value="ビデオオンデマンドのビデオは録画できません" />
+  <string id="VOD.CannotRecord.Available" value="このビデオは、ビデオオンデマンドで見られます" />
+  <string id="VOD.Unlock" value="Unlock adult content"/>
+  <string id="VOD.PlaybackError" value="テレビサービスが一時的に利用できません" />
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="このビデオは一時的に利用できません" />
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="少し時間を置いて再度お試しください (3)" />
+  <string id="VOD.VodKeyringTrouble1" value="このビデオは一時的に利用できません" />
+  <string id="VOD.VodKeyringTrouble2" value="少し時間を置いて再度お試しください (2)" />
+  <string id="VOD.SessionUnavailable1" value="このビデオは一時的に利用できません" />
+  <string id="VOD.SessionUnavailable2" value="少し時間を置いて再度お試しください (1)" />
+  <string id="VOD.DefaultState.Message1" value="たくさんのビデオの中から好きなビデオが選べます"/>
+  <string id="VOD.DefaultState.Message2" value="いつでも好きなときに"/>
+  <string id="VOD.DefaultState.Message3" value="停止、巻き戻し、早送りも自由に"/>
+  <string id="SVOD.Browse" value="ビデオを見る"/>
+  <string id="SVOD.Subscribe" value="購入する" />
+  <string id="SVOD.Subscribed" value="購入済み"/>
+  <string id="SVOD.SubscriptionInfo" value="購入情報"/>
+  <string id="SVOD.SubscribeOffer" value="{1} を見るには、毎月 {0} 円かかります" />
+  <string id="SVOD.SubscribeOffer.Adult" value="{1} を見るには、毎月 {0} 円かかります。これは成人向けビデオです" />
+  <string id="SVOD.SubscribeOffer.StatusBar" value="{0} を見るには、OKボタンを押してください" />
+  <string id="SVOD.SubscribeOffer.StatusBarPrice" value="毎月 {0} 円" />
+  <string id="SVOD.NotAvailable" value="この番組の提供期間が終了しました"/>
+
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="ライブテレビは利用できません"/>
+
+  <!-- PPV TV -->
+  <string id="PPV.PurchaseOffer" value="{2}({1})を見るには、{0}かかります" />
+  <string id="PPV.PurchaseOffer.Adult" value="{2}({1})を見るには、{0}かかります&#013;これは成人向けビデオです" />
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="レンタル情報を表示するには、OKボタンを押してください" />
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="番組情報を表示するには、OKボタンを押してください" />
+  <string id="PPV.StatusBar.PurchaseText" value="{1}の期間のレンタルに{0}かかります" />
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.PurchaseText.Extern" value="{0}の期間レンタルします"/>
+  <string id="PPV.StatusBar.RentedText" value="{0} レンタルしました" />
+  <string id="PPV.OfferExpired" value="レンタル期間は終了しました" />
+  <string id="PPV.OfferPending" value="まだレンタルできません"/>
+  <string id="PPV.PriceAndTime" value="{0}  ・  {1}" />
+  <string id="PPV.ProgramInfo.AcceptOffer" value="レンタル（{0}）" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="レンタルします"/>
+  <string id="PPV.ProgramInfo.Purchase" value="{0}  ・  1回のみ視聴可能" />
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="1回のみ視聴可能"/>
+  <string id="PPV.ProgramInfo.Rented" value="レンタル済み: 1回のみ視聴可能" />
+  <string id="PPV.Purchasable" value="レンタルできます"/>
+  <string id="PPV.StatusBar.Purchasable" value="レンタルできます"/>
+  <string id="PPV.GettingPrice" value="レンタル価格を取得中です..."/>
+
+  <!-- URL/Mosaic/Image  -->
+  <string id="URL.RentButton" value="{0}をレンタルします"/> <!-- {0}: price-->
+  <string id="URL.OkToLaunch" value="{0}を開始するには、OKボタンを押してください"/> <!-- {0}: title-->
+  <string id="URL.OkToRent" value="{0}({1})をレンタルするには、OKボタンを押してください"/> <!-- {0}: title; {1}: price-->
+  <string id="URL.PurchaseOffer" value="{2}({1})を見るには、{0}かかります。"/> <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="URL.PurchaseOffer.Adult" value="これは成人向け番組です。&#13;{2}({1})を見るには、{0}かかります。"/>
+  <string id="URL.PurchaseOffer.NoWindow" value="{1}をレンタルするのに{0}かかります。"/> <!-- {0}: price; {1}: name-->
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="これは成人向け番組です。{1}をレンタルするのに{0}かかります。"/>
+  <!-- Messages -->
+  <string id="Messages.HeaderText" value="メッセージ" />
+  <string id="Messages.NoMessages" value="メッセージはありません" />
+  <string id="Messages.Menu.ByDate" value="日付順" />
+  <string id="Messages.Menu.ByName" value="差出人順" />
+  <string id="Messages.Dismiss" value="キャンセル"/>
+  <string id="Messages.GoBack" value="戻る" />
+  <string id="Messages.Called" value="CALLED: {0}" />
+  <string id="Messages.From" value="差出人: {0}" />
+  <string id="Messages.Received" value="受け取り: {0}" />
+  <string id="Messages.MessageHeader" value="メッセージ" />
+  <string id="Messages.PictureHeader" value="写真" />
+  <string id="Messages.CallerIdHeader" value="発信者番号" />
+  <string id="Messages.PlaySlideShow" value="スライドショーを再生" />
+  <!-- Photos -->
+  <string id="Photos.OnePerPage" value="1枚/ページ " />
+  <string id="Photos.FourPerPage" value="4枚/ページ" />
+  <string id="Photos.Next" value="次を表示" />
+  <string id="Photos.SlideShow" value="スライドショー" />
+  <string id="Photos.Stop" value="停止" />
+  <string id="Photos.xofy.Format" value="{1}枚中{0}枚" />
+  <string id="Photos.ImageCountFormat" value="{0}枚の写真" />
+  <string id="Photos.title" value="写真" />
+  <string id="Photos.play" value="スライドショーを開始するには、PLAYを押してください" />
+  <string id="Photos.MediaTitle" value="写真" />
+  <string id="Photos.Menu.ByName" value="名前順" />
+  <string id="Photos.DateRangeFormat" value="{0} 枚目から {1}枚目まで" />
+  <string id="Photos.AlbumCountFormat" value="{0} アルバム" />
+  <string id="Photos.Count.None" value="写真がありません" />
+  <string id="Photos.Count.One" value="1 枚の写真" />
+  <string id="Photos.Count.Many" value="{0} 枚の写真" />
+  <string id="Photos.Count.SubFolders" value="{0} つのサブフォルダ" />
+
+
+  <!-- PICTURES & MUSIC: MEDIA SHARING -->
+  
+  <string id="MediaSharing.Title" value="Photos and Music" />
+  <string id="MediaSharing.Subtitle" value="Play music, view photos, and create slideshows with music." />
+
+  <string id="MediaSharing.ServerAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerAuthorized.Details" value="The following PCs were located on your home network.&#13;&#13;Select this PC to view photos, play music, and create slideshows." />
+
+  <string id="MediaSharing.ServerNotAuthorized.Description" value="" />
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="The following PCs were located on your home network.&#13;&#13;Microsoft TV cannot access photos and music on this PC.  Verify that you have authorized Microsoft TV to access this PC." />
+
+  <string id="MediaSharing.Empty" value="0 items" />
+  <string id="MediaSharing.SingleItemFormat" value="1 item" />
+  <string id="MediaSharing.MultipleItemsFormat" value="{0} items" />
+  
+  <!-- following panel with a single button is shown while looking for media servers on the network... -->
+  <string id="MediaSharing.NoServersYet.Description" value="Microsoft TV is searching for photos and music on your home network.  This may take a few minutes.&#13;&#13;Play music, view photos, and create slideshows with music.  You will need a PC running Windows Media Player 11 with Media Sharing enabled." />
+  <string id="MediaSharing.NoServersYet.Button" value="Learn more about Photos and Music" />
+  <string id="MediaSharing.NoServersYet.Href" value="file:///mediasharinghelp/hms_about.html" />
+
+  <!-- same panel as string above is shown after a minute looking for servers if nothing was found so far -->
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="45" /><!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="Microsoft TV has not found any shared photos and music on your network but will keep searching . . .&#13;&#13;Verify that you have enabled Media Sharing in Windows Media Player on your PC." />
+  <string id="MediaSharing.NoServersFound.Button" value="" />
+  <string id="MediaSharing.NoServersFound.Href" value="file:///mediasharinghelp/hms_about.html" />
+
+  <!-- error messages shown when playback fails. Optional: {0} windows media server error code (a number), {1} error description (a string) -->
+  <!-- specific error messages can be used for specific error codes as shown using {0}, just affix the code number to the key name -->
+  <string id="MediaSharing.Error.MusicPlaybackFailed" value="A problem occoured while playing music. Verify that your PC is turned on and connected to the network. [{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value="This music file is copyright protected, and cannot be played." />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="Music files of this format are not supported. Try playing WMA or MP3 files or converting your files to one of these formats. [{0}]" />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="Music files of this format are not supported. Try playing WMA or MP3 files or converting your files to one of these formats. [{0}]" />
+
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="A problem occoured while playing photos. Verify that your PC is turned on and connected to the network." />
+
+  <!-- image shown in media sharing channel when there's no slideshow to play -->
+  <string id="MediaSharing.Background" value="VideoStill.MediaSharing.jpg" />
+  
+  <!-- 
+      When media sharing finds a UPnP device, like a Windows Media Player media sharing node,
+      it asks the device to present music and photos organized in different ways. music can 
+      be organized by album, artist, genre, playlists, composers, etc... photos can be organized
+      by folder, keywords, date taken, ratings, etc... 
+      
+      You can customize which media is shown and how by adding/removing strings from the list
+      below. the complete description of the container hierarchy for windows media player is described
+      in "How to build a network device compatible with Windows Media player sharing service".
+
+      The strings below contain four fields 1|2|3|4. The first is the localized name of your search,
+      the second is * for all type of nodes or the kind of node that should be shown (for example
+      object.container.audioItem or object.container.album.photoAlbum). The third field is the
+      subcontainer ID (see docs). The fourth field is the legend that is shown next to the button
+      when the user selects it.
+      
+      You can have up to 20 entries (although we wouldn't suggest using too many).
+  -->
+
+  <!-- list of menu items (UPnP containers) shown -->  
+  <string id="UPnP.MenuContainer.0" value="Music|*|1|Browse all of your music.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.1" value="   Music by Album|object.container.album.musicAlbum|7|Browse your music by album.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.2" value="   Music by Artist|*|6|Browse your music by artist.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.3" value="   Music by Playlist|music.container.playlistContainer|F|Browse music playlists that you created with Windows Media Player.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.4" value="Photos|object.container.album.photoAlbum|3|Browse all of your photos.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.5" value="   Photos by Folder|object.container.album.photoAlbum|16|Browse your photos by folder.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <string id="UPnP.MenuContainer.6" value="   Photos by Date Taken|object.container.album.photoAlbum|C|Browse your photos by a specific date.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+  <!-- photos can be seen organized by keywords only when you connect to a Windows Vista client. if you don't have Vista clients, you may want to comment this line out -->
+  <string id="UPnP.MenuContainer.7" value="   Photos by Keyword|object.container.album.photoAlbum|D2|Browse your photos by keywords.&#13;&#13;After playing your music, use the Back button to add photos to your slideshow.  Use the Menu button to clear your slideshow." />
+
+  <!-- video is not supported yet but here's how you would enable it... -->
+  <!-- <string id="UPnP.MenuContainer.8" value="All Videos (beta)|*|8|Play home videos stored on your PC." /> -->
+
+  <!-- Upgrade -->
+  <string id="Upgrade.Required" value="テレビサービスのアップデートがあります。アップデートを開始するには、OKボタンを押してください" />
+  <string id="Upgrade.Title" value="アップデート中です" />
+  <string id="Upgrade.InProgress" value="テレビサービスをアップデート中です" />
+  <string id="Upgrade.Description" value="実行中に電源を切ったりネットワーク接続を切断したりしないでください" />
+  <string id="Upgrade.Failed" value="アップデートの実行中にエラーが発生しました: " />
+  <string id="Upgrade.Progress" value="アップデートは {0}% 進行中です" />
+  <string id="Upgrade.TimeLeftLabel" value="残り時間 : 約" />
+  <string id="Upgrade.TimeLeft" value="{0}分" />
+  <string id="Upgrade.TimeLeftOneMinute" value="1分" />
+  <string id="Upgrade.FileNotInList" value="アップデートに必要なファイル {0} が、ファイルリストにありません" />
+  <string id="Upgrade.DirSigMismatch" value="ディレクトリの署名が一致しません" />
+  <string id="Upgrade.ParseDirLineFailed" value="ディレクトリの探索に失敗しました" />
+  <string id="Upgrade.PartMD5Mismatch" value="MD5 の一部が一致しません" />
+  <string id="Upgrade.NoDigest" value="ダイジェストがうまくいかないまま終了しました" />
+  <string id="Upgrade.PartTooBig" value="{0} 番目が大きすぎます ({1})" />
+  <string id="Upgrade.PartSizeMismatch" value="モジュールのサイズが合いません ({0}が正しいですが{1}になっています)" />
+  <string id="Upgrade.DecompPartSizeMismatch" value="解凍後のサイズが合いません ({0}が正しいですが{1}になっています)" />
+  <string id="Upgrade.BadPackageCRC" value="ダウンロードパッケージのチェックサムが合いません" />
+  <string id="Upgrade.BogusPackage" value="パッケージが正しくありません" />
+  <string id="Upgrade.PackageSizeMismatch" value="パッケージサイズが合いません ({0}が正しいですが{1}になっています)" />
+  <string id="Upgrade.PackageTooBig" value="パッケージの大きさ {0} は、最大許容量 {1}を超えています." />
+  <string id="Upgrade.PackageTooManyFiles" value="パッケージ内に {0} のファイルがありますが、許容量の {1} ファイルを超えています." />
+  <string id="Upgrade.ReadError" value="読み取りエラー" />
+  <string id="Upgrade.OK" value="OK" />
+  <string id="Upgrade.Snooze" value="3時間後に再度案内" />
+
+  <!-- number of seconds before we propose to upgrade again (3 hours) -->
+  <string id="Upgrade.SnoozeTimer" value="10800" />
+  <!-- number of seconds before we auto confirm the upgrade dialog -->
+  <string id="Upgrade.SnoozeDialogTimeout" value="60" />
+
+  <!-- Disk Repair -->
+  <string id="DiskRepair.Title" value="ディスクをチェックしています" />
+  <string id="DiskRepair.InProgress" value="ハードディスクの診断テストを実行しています" />
+  <string id="DiskRepair.Description" value="実行中に電源を切らないでください" />
+  <string id="DiskRepair.Progress" value="{0}% 終了" />
+  <string id="DiskRepair.TimeLeftLabel" value="残り時間: 約" />
+  <string id="DiskRepair.TimeLeft" value="{0}分" />
+  <string id="DiskRepair.TimeLeftOneMinute" value="1分" />
+  <!-- Disk Partition -->
+  <string id="DiskPart.Title" value="Tatung854 のディスクサイズの問題を解決しています" />
+  <string id="DiskPart.InProgress" value="ハードディスクの再フォーマットを実行しています..." />
+  <!--  <string id="DiskPart.InProgress"  value="現在のハードウェアプラットフォームは {0} です。ハードディスクの容量は {1:#,###} MB です."/> -->
+  <string id="DiskPart.Description" value="実行中に電源を切らないでください" />
+  <string id="DiskPart.Progress" value="{0}% 終了" />
+  <string id="DiskPart.TimeLeftLabel" value="残り時間: 約" />
+  <string id="DiskPart.TimeLeft" value="{0} 分" />
+  <string id="DiskPart.TimeLeftOneMinute" value="1分" />
+  <!-- Search -->
+  <string id="Search.Header" value="検索" />
+  <string id="Search.Menu.title" value="タイトル" />
+  <string id="Search.Header.Titles" value="タイトルの検索"/>
+  <string id="Search.Header.People" value="出演者の検索"/>
+  <string id="Search.Header.Videos" value="ビデオの検索"/>
+  <string id="Search.Menu.people" value="出演者" />
+  <string id="Search.Menu.vod" value="ビデオオンデマンド" />
+  <string id="Search.PeopleResultPageMenu.ByDate" value="日付順" />
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="タイトル順" />
+  <string id="Search.PeopleResultPageMenu.ByRental" value="レンタル順" />
+  <string id="Search.PeopleResultPageMenu.ByStar" value="* 順" />
+  <string id="Search.NoRentals" value="何もレンタルしていません" />
+  <string id="Search.NoShows" value="番組がありません" />
+  <string id="Search.ErrorMsg" value="検索機能は現在利用いただけません。&#013;時間を置いて再度お試しください" />
+  <string id="Search.Today" value="今日" />
+  <string id="Search.Tomorrow" value="明日" />
+  <string id="Search.UpcomingDateFormatString" value="M/d (ddd)" />
+  <string id="Search.NoResultForPeopleFormat" value="{0} - {1}" />
+  <string id="Search.NoResultForPeople" value="該当する出演者はいません" />
+  <string id="Search.NoResultForGroup" value="該当するものはありません" />
+  <string id="Search.NoResultsLine1" value="{0} で始まる検索結果はありません." />
+  <string id="Search.NoResultsLine2" value="文字を削除するには、DELETEボタンを押してください" />
+  <string id="Search.ByDateHeaderFormat" value="{0} - {1}" />
+  <string id="Search.MoreButtonText" value="次を表示..." />
+  <string id="Search.TimeNotTodayFormat" value="M/d" />
+  <string id="Search.TimeTodayFormat" value="h:mm:tt" />
+  <string id="Search.Waiting" value="検索しています..." />
+  <string id="Search.NullScreen.Title.TitleSearch" value="検索する番組名を入力してください。"/>
+  <string id="Search.NullScreen.Title.Options" value="他の条件で検索したり、キーボードを変更するには、&#13;オプションを選んでください。"/>
+  <string id="Search.NullScreen.Title.VideoSearch" value="検索するビデオのタイトルを入力してください。"/>
+  <string id="Search.NullScreen.People.NameSearch" value="検索する出演者などの名前を入力してください。"/>
+  <string id="Search.NullScreen.People.Options" value="他の条件で検索したり、キーボードを変更するには、&#13;オプションを選んでください。"/>
+  <string id="Search.NullScreen.AllSearch" value="検索するタイトルや出演者などの名前を入力してください。"/>
+  <string id="Search.NullScreen.AllSearch.Options" value="他の条件で検索したり、キーボードを変更するには、&#13;オプションを選んでください。"/>
+  <string id="Search.Options.Keyboard" value="キーボード"/>
+  <string id="Search.Options.FilterResults" value="検索条件"/>
+  <string id="Search.Options.FilterResults.All" value="すべて"/>
+  <string id="Search.Options.FilterResults.Titles" value="タイトル"/>
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="ビデオオンデマンド"/>
+  <string id="Search.Options.FilterResults.People" value="出演者など"/>
+  <string id="Search.Options.FilterResults.CallLetters" value="チャンネル名"/>
+  <string id="Search.ListCounter" value="{0}個の検索結果が見つかりました。"/>
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="消音" />
+
+  <!-- error message (please add new error messages in this section) -->
+  <!-- CantPlayVideoError used in error dialog when we can't play wms file, you can add: {0} strWmsErrorDesc, {1} strWmsErrorCode, {2} strWmsErrorUrl -->
+  <string id="CannotPlayVideoError" value="This video cannot be played. Please try again or contact service provider at 800-555-5555." />
+
+  <!-- Common -->
+  <string id="Yes" value="はい" />
+  <string id="No" value="いいえ" />
+  <string id="OK" value="OK" />
+  <string id="Done" value="完了" />
+  <string id="ProgramDateAndTime" value="{0} {1}" />
+  <string id="ProgramTime" value="{0}～{1}" />
+  <string id="ProgramTimeAndRating" value="{0}～{1}" />
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+  <string id="MiniTimeFormat" value="h:mm" />
+
+  <!-- The ShortTime format pattern is used on pages that display the {Time} variable.  Leave empty for default behavior. -->
+  <!-- See datetimeformatinfoclasstopic.asp link above for more info. -->
+  <string id="ShortTimeFormat" value=""/>
+  <string id="ShortTimeFormat.AmDesignator" value=""/>
+  <string id="ShortTimeFormat.PmDesignator" value=""/>
+
+  <string id="MicroDateFormat" value="M/d" />
+  <string id="MiniDateFormat" value="M/d (ddd)" />
+  <string id="ShortDateFormat" value="M/d dddd" />
+  <string id="DayFormat" value="ddd曜日" />
+  <string id="Today" value="今日" />
+  <string id="Tomorrow" value="明日" />
+  <string id="TimeLeft" value="残り {0}" />
+  <string id="Past" value="前" />
+  <string id="Play" value="再生中" />
+  <string id="Recorded" value="録画済" />
+  <string id="Ended" value="終了" />
+  <string id="Rental.Expired" value="レンタル期間は終了しました" />
+
+  <!-- {0}: Days (int)-->
+  <string id="Rental.Day" value="1日"/>
+  <string id="Rental.Days" value="{0}日"/>
+  <string id="Rental.Days.Confirm" value="{0}日"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Rental.Hour" value="1時間"/>
+  <string id="Rental.Hours" value="{0}時間"/>
+  <string id="Rental.Hours.Confirm" value="{0}時間"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Rental.Minute" value="1分"/>
+  <string id="Rental.Minutes" value="{0}分"/>
+  <string id="Rental.Minutes.Confirm" value="{0}分"/>
+  <!-- {0}: Price; {1}: Rental minutes-->
+  <string id="Rental.PriceAndExpiration" value="{0} ・ {1}レンタル"/>
+  <string id="Rental.PriceAndExpiration.Extern" value="詳細情報を見るにはRENTボタンを押してください"/>
+  <!-- {0} seconds (int)-->
+  <string id="Duration.Seconds" value="{0}秒"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Duration.Minutes" value="{0}分"/>
+  <!-- {0}: Minutes (int) {1}: Seconds (int)-->
+  <string id="Duration.MinutesSeconds" value="{0}:{1}"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Duration.Hours" value="{0}時間"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int) -->
+  <string id="Duration.HoursMinutes" value="{0}:{1}"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int); {2}: Seconds -->
+  <string id="Duration.HoursMinutesSeconds" value="{0}:{1}"/>
+  <!-- {0}: Days (int)-->
+  <string id="Duration.Days" value="{0}日"/>
+  <!-- {0}: Timespan-->
+  <string id="Duration.TimeLeft" value="残り {0}"/>
+  <string id="EpisodeTitleAndDescription" value="“{0}” - {1}" />
+  <string id="EpisodeTitle" value="“{0}”" />
+  <string id="TitleAndEpisodeTitle" value="{0} - “{1}”" />
+  <string id="TitleSansEpisode" value="{0}" />
+  <string id="Ellipsis" value="..." />
+  <string id="Episode" value="“{0}”" />
+  <string id="Comma" value="," />
+  <string id="Space" value=" " />
+  <string id="Period" value="." />
+  <string id="Slash" value="／"/>
+  <string id="Bullet" value="  ・  " />
+  <string id="ListCounter" value="{1}項目中の{0}番目" />
+  <string id="ParenthesizedString" value="({0})" />
+  <string id="SettingsString" value="設定" />
+  <string id="WatchTV" value="テレビを見る" />
+  <string id="OperationFailed" value="操作は完了されませんでした" />
+  <string id="Shutdown.Reboot" value="再起動する"/>
+  <!-- {0}: Timespan -->
+  <string id="Shutdown.Reboot.CountDown" value="セットトップボックスるは{0}後に自動的に再起動します"/>
+  <string id="Shutdown.Cancel" value="再起動しない"/>
+  <string id="Shutdown.Prompt" value="セットトップボックスを再起動してよろしいですか?"/>
+  <string id="PowerOff" value="電源オフ" />
+  <string id="PowerOff.Prompt" value="セットトップボックスの電源を落としてよろしいですか?" />
+  <string id="PowerOff.Yes" value="電源を落とす" />
+  <string id="PowerOff.No" value="電源を落とさない" />
+  <string id="Restart.Prompt" value="セットトップボックスを再起動してよろしいですか?" />
+  <string id="Restart.Yes" value="再起動する" />
+  <string id="Restart.No" value="再起動しない" />
+  <string id="Hibernate.Prompt" value="セットトップボックスを休止状態にしてよろしいですか?" />
+  <string id="Hibernate.Yes" value="休止状態にする" />
+  <string id="Hibernate.No" value="休止状態にしない" />
+  <string id="StandBy.WatchTV" value="テレビを見るにはOKボタンを押してください"/>
+  <string id="TryAgain" value="再度行う" />
+  <string id="Content.Unavailable.DRM" value="このコンテンツは利用できません" />
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="Viewing this channel requires additional hardware"/>
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="Please contact your provider for more information"/>
+  <string id="Content.Unavailable.HDMI" value="Unable to view HDMI content"/>
+  <string id="Content.Unavailable.Service" value="このサービスは利用できません" />
+  <string id="Content.Unavailable.Service.Initializing" value="Getting information.  Content will be available in a few moments."/>
+  <string id="Content.Unavailable.VOD" value="このビデオは再生できません" />
+  <string id="Content.Unavailable.PlaybackDisabled" value="Playback is not allowed at this time."/>
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="Playback is not allowed until {0}."/>
+  <string id="Content.Unavailable.ChangeChannels" value="他の番組を見るにはチャンネルを変えてください" />
+  <string id="Diagnostic" value="システム診断" />
+  <string id="Diag.Header" value="システム診断情報" />
+  <string id="Diag.NotAvail" value="利用できません" />
+  <string id="Diag.Status" value="    ステータス : " />
+  <string id="Diag.Available" value="利用できます" />
+  <string id="Diag.Unreach" value="Unreachable" />
+  <string id="Diag.Unknown" value="Unknown" />
+  <string id="Diag.Bootstrap" value="ブートストラップ" />
+  <string id="Diag.BootstrapIP" value="ブートストラップ IP #" />
+  <string id="Diag.BoxID" value="セットトップボックス ID" />
+  <string id="Diag.BoxIP" value="セットトップボックス IP" />
+  <string id="Diag.DHCP" value="DHCP IP" />
+  <string id="Diag.Gateway" value="ゲートウェイ IP" />
+  <string id="Diag.DNSServer" value="DNS サーバ IP #" />
+  <string id="ConfigurableMenu.UpdateNotification" value="メニューをアップデートしています" />
+  <string id="PPPoE.Setting" value="PPPOE 設定" />
+  <string id="PPPoE.Setting.UserName" value="ユーザ名:" />
+  <string id="PPPoE.Setting.Password" value="パスワード:" />
+  <string id="PPPoE.Setting.Connect" value="接続" />
+  <string id="PPPoE.Setting.Reboot" value="再起動" />
+  <string id="PPPoE.Setting.Disconnect" value="接続断" />
+  <string id="PPPoE.Setting.Advanced" value="詳細設定..." />
+  <string id="PPPoE.Setting.Save" value="保存" />
+  <string id="PPPoE.Setting.Back" value="戻る" />
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="Windows ログオンのIDとパスワードを利用する" />
+  <string id="PPPoE.Setting.Advanced.UseDualStack" value="デュアルスタックに設定する (IPOE と PPPOE)" />
+  <string id="PPPoE.Setting.Advanced.CHAP" value="Challenge Handshake Password Authentication Protocol (CHAP)" />
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="Microsoft CHAP (MS-CHAP)" />
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="Microsoft CHAP Version 2 (MS-CHAP v2)" />
+  <string id="PPPoE.Setting.Advanced.Shiva" value="Shivaパスワード認証プロトコル"/>
+  <string id="PPPoE.Setting.Advanced.PAP" value="暗号化しないパスワード (PAP)" />
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="データを暗号化する" />
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="ソフトウェア圧縮を行う" />
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="IPヘッダを圧縮する" />
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="デフォルトゲートウェイを利用する" />
+  <string id="PPPoE.Setting.Advanced.Save" value="保存" />
+  <string id="PPPoE.Setting.Advanced.Back" value="戻る" />
+  <string id="PPPoE.Connect" value="接続中..." />
+  <string id="PPPoE.Connect.Status" value="ステータス:" />
+  <!-- {0}: Dead state message; {1}: Dead state status-->
+  <string id="DeadState.MessageFormat" value="{0} (Error# {1})" />
+  <string id="DeadState.DeadStateMessage" value="テレビは一時的に利用できません。再接続するには、セットトップボックスを再起動してください。 模試問題が解決されない場合は、サービス事業者様にお問い合わせください" />
+  <string id="NetworkWizard.Setting" value="ネットワーク設定ウィザード" />
+  <string id="NetworkWizard.Setting.DHCP" value="DHCP" />
+  <string id="NetworkWizard.Setting.PPPoE" value="PPPoE" />
+  <string id="NetworkWizard.Setting.StaticIP" value="固定IP" />
+  <string id="NetworkWizard.Setting.Next" value="次へ" />
+  <string id="NetworkWizard.Setting.Tips" value="接続の種類を選択し、[次へ]を押して設定を続けてください。" />
+  <string id="DHCP.Setting" value="DHCP設定" />
+  <string id="DHCP.Setting.Desc" value="DHCPの設定を完了するには、再起動してください" />
+  <string id="DHCP.Setting.Reboot" value="再起動" />
+  <string id="DHCP.Setting.Back" value="戻る" />
+  <string id="StaticIP.Setting" value="固定IPアドレス設定" />
+  <string id="StaticIP.Setting.IPAddr" value="IPアドレス:" />
+  <string id="StaticIP.Setting.Mask" value="サブネットマスク:" />
+  <string id="StaticIP.Setting.Gate" value="ゲートウェイ:" />
+  <string id="StaticIP.Setting.DNS" value="DNS:" />
+  <string id="StaticIP.Setting.WINS" value="WINS:" />
+  <string id="StaticIP.Setting.Reboot" value="再起動" />
+  <string id="StaticIP.Setting.Back" value="戻る" />
+  <!-- {0}: Timespan -->
+  <string id="BootstrapRetry.CountDown" value="The connection will be retried in {0}."/>
+  <string id="BootstrapRetry.TryAgain" value="Try again now"/>
+  <string id="BootstrapRetry.Message" value="Your TV receiver is temporarily unable to connect to the EricssonTV service." />
+  <string id="BootstrapRetry.Header" value="Service connection error" />
+  <string id="BootstrapRetry.Diagnostics" value="Diagnostics" />
+
+  <!-- HDMI cable connected or disconnected, HDCP (video encryption) errors -->
+  <string id="HDMI.Plugged" value="現在、HDMI出力が有効になりました" />
+  <string id="HDMI.Unplugged" value="HDMI出力が無効になりました (H1000)" />
+  <string id="HDMI.HDCP.Unsupported" value="このテレビではHDMIでのビデオサービスを表示することができません。モニタがHDCPをサポートしていません (H1001)" />
+  <string id="HDMI.HDCP.Revoked" value="このテレビではHDMIでのビデオサービスを表示することができません。モニタがHDCPをサポートしていません (H1002)" />
+  <string id="HDMI.HDCP.LevelExceeded" value="このテレビではHDMIでのビデオサービスを表示することができません。接続されているデバイスが多すぎます (H1003)" />
+  <string id="HDMI.HDCP.StbNoKeys" value="このテレビではHDMIでのビデオサービスを表示することができません。セットトップボックスにHDCP鍵がありません (H1004)" />
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="このテレビではHDMIでのビデオサービスを表示することができません。HDCPリンク整合性チェックが失敗しました (H1005)" />
+  <string id="HDMI.HDCP.NoReceiverConnected" value="Unable to display video service over HDMI. No receiver connected. (H1006)" />
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="Unable to display video service over HDMI. TX AN write failed. (H1007)" />
+  <string id="HDMI.HDCP.TxAnReadFailed" value="Unable to display video service over HDMI. TX AN read failed. (H1008)" />
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="Unable to display video service over HDMI. RX AN write failed. (H1009)" />
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="Unable to display video service over HDMI. Invalid AKSV format. (H1010)" />
+  <string id="HDMI.HDCP.AksvWriteFailed" value="Unable to display video service over HDMI. AKSV write failed. (H1011)" />
+  <string id="HDMI.HDCP.BksvWriteFailed" value="Unable to display video service over HDMI. BKSV write failed. (H1012)" />
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="Unable to display video service over HDMI. Invalid BKSV format. (H1013)" />
+
+  <!-- DTT/offline experience -->
+  <string id="DTT.Reconnected" value="ブロードバンド接続が再接続されました" />
+  <string id="DTT.Disconnected" value="現在、ブロードバンド接続に接続されていません。いくつかのチャンネルや機能が無効です。" />
+  <string id="DTT.Troubleshoot" value="トラブルシューティング" />
+
+  <!-- XHTML Browser -->
+  <string id="Browser.LoadingPage" value="ページを読み込んでいます..." />
+
+  <!-- MHEG5 error reporting -->
+  <string id="MHEG.Unavailable" value="インタラクティブ機能が一時的に利用できません。後でもう一度お試しください。" />
+
+  <!-- localized image names -->
+  <string id="Image.Icon.HD" value="Icon.HD.png" />
+  <string id="Image.Logo.VideoOnDemand" value="Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="Brand_Service_Banner.png"/>
+  <string id="Image.ScreenSaverLogo" value="ScreenSaverLogo.png"/>
+  <string id="Image.BrowseButton.OKlabel" value="BrowseButton.OKlabel.png"/>
+  <string id="Image.VideoStill.Future" value="VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="VideoStill.Locked.jpg"/>
+
+  <!-- ISO 639-1 language code to display name map.  This should be localized. -->
+  <string id="ISO.af" value="アフリカーンス語"/>
+  <string id="ISO.ar" value="アラビア語"/>
+  <string id="ISO.az" value="アゼルバイジャン語"/>
+  <string id="ISO.be" value="ベラルーシ語"/>
+  <string id="ISO.bg" value="ブルガリア語"/>
+  <string id="ISO.ca" value="カタロニア語"/>
+  <string id="ISO.cs" value="チェコ語"/>
+  <string id="ISO.cy" value="Welsh"/>
+  <string id="ISO.da" value="デンマーク語"/>
+  <string id="ISO.de" value="ドイツ語"/>
+  <string id="ISO.el" value="ギリシャ語"/>
+  <string id="ISO.en" value="英語"/>
+  <string id="ISO.es" value="スペイン語"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.et" value="エストニア語"/>
+  <string id="ISO.eu" value="バスク語"/>
+  <string id="ISO.fa" value="ペルシャ語"/>
+  <string id="ISO.fi" value="フィンランド語"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.fr" value="フランス語"/>
+  <string id="ISO.gd" value="Gaelic"/>
+  <string id="ISO.gl" value="ガリシア語"/>
+  <string id="ISO.gu" value="グジャラート語"/>
+  <string id="ISO.he" value="ヘブライ語"/>
+  <string id="ISO.hi" value="ヒンディー語"/>
+  <string id="ISO.hr" value="クロアティア語"/>
+  <string id="ISO.hu" value="ハンガリー語"/>
+  <string id="ISO.hy" value="アルメニア語"/>
+  <string id="ISO.id" value="インドネシア語"/>
+  <string id="ISO.is" value="アイスランド語"/>
+  <string id="ISO.it" value="イタリア語"/>
+  <string id="ISO.ja" value="日本語"/>
+  <string id="ISO.ka" value="Georgian"/>
+  <string id="ISO.kk" value="Kazakh"/>
+  <string id="ISO.kn" value="カンナダ語"/>
+  <string id="ISO.ko" value="韓国語"/>
+  <string id="ISO.ky" value="Kyrgyz"/>
+  <string id="ISO.lt" value="リトアニア語"/>
+  <string id="ISO.lv" value="ラトビア語"/>
+  <string id="ISO.mk" value="マケドニア語"/>
+  <string id="ISO.mn" value="モンゴル語"/>
+  <string id="ISO.mr" value="Marathi"/>
+  <string id="ISO.ms" value="マレー語"/>
+  <string id="ISO.nl" value="オランダ語"/>
+  <string id="ISO.no" value="ノルウェー語"/>
+  <string id="ISO.pa" value="バンジャブ語"/>
+  <string id="ISO.pl" value="ポーランド語"/>
+  <string id="ISO.pt" value="ポルトガル語"/>
+  <string id="ISO.ro" value="ルーマニア語"/>
+  <string id="ISO.ru" value="ロシア語"/>
+  <string id="ISO.sa" value="サンスクリット語"/>
+  <string id="ISO.sk" value="スロバキア語"/>
+  <string id="ISO.sl" value="スロベニア語"/>
+  <string id="ISO.sq" value="アルバニア語"/>
+  <string id="ISO.sr" value="セルビア語"/>
+  <string id="ISO.sv" value="スウェーデン語"/>
+  <string id="ISO.sw" value="スワヒリ語"/>
+  <string id="ISO.ta" value="タミル語"/>
+  <string id="ISO.te" value="テルグ語"/>
+  <string id="ISO.th" value="タイ語"/>
+  <string id="ISO.tr" value="トルコ語"/>
+  <string id="ISO.tt" value="タタール語"/>
+  <string id="ISO.uk" value="ウクライナ語"/>
+  <string id="ISO.ur" value="ウルドゥー語"/>
+  <string id="ISO.uz" value="ウズベキスタン語"/>
+  <string id="ISO.vi" value="ベトナム語"/>
+  <string id="ISO.zh" value="中国語"/>
+  <string id="ISO.zh-CHS" value="中国語"/>
+
+  <!-- Unit testing strings are used for debugging builds only -->
+  <string id="UnitTestingPipTuning.Description" value="This page measures PIPs performance by tuning to all available live channels over and over again using Video.TuneToChannel." />
+  <string id="UnitTestingPipTuning.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingScreenModeSwitching.Description" value="This page tests screen mode switching code by changing mode over and over again. Please make sure your TV is connected using component or HDMI/DVI cables or you won't be able to see the screen when in high definition mode." />
+  <string id="UnitTestingScreenModeSwitching.Stats" value="We're currently running in {Mode} mode (waiting for Compositor.Status event? {Switching}). This test has run {Times} times and will run again in {Seconds} seconds." />
+  <string id="UnitTestingRightsPCON.Description" value="This page measures rights/PCON performance by scanning all channels and checkin user's rights to them." />
+  <string id="UnitTestingRightsPCON.Statistics" value="Tuned {TimesTuned} times, currently on: {Channel} {CallLetters}&#13;Last tuning delay {LastDelay} ms, average {AvgDelay} ms&#13;Average for tunes over 50 ms: {SmartAvg} ms" />
+  <string id="UnitTestingPageLoading.Description" value="This page will be reloaded 50 times to measure page creation and loading performance, please wait..." />
+  <string id="UnitTestingPageLoading.Statistics" value="Loaded {TimesLoaded} times&#13;Last loading delay {LastDelay} ms&#13;Average {AvgDelay} ms" />
+
+  <!-- Emergency Alert System Strings -->  
+  <string id="EAS.Level1" value="*** NATIONAL EMERGENCY ***"/>
+  <string id="EAS.Warning" value="*** WARNING ***"/>
+  <string id="EAS.Watch" value="*** WATCH ***"/>
+  <string id="EAS.Emergency" value="*** EMERGENCY ***"/>
+  <string id="EAS.Statement" value="*** STATEMENT ***"/>
+  <string id="EAS.Dismiss" value="Press EXIT to dismiss alert" />
+
+</stringtable>

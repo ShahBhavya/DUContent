@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uidescription>
+  <StationSearcher class="Page">
+    <Panel class="Panel.StationSearcher">
+
+       <!-- panel's title and time -->
+      <Text class="Text.Recent.Title">#StationSearcher.Title</Text>
+      <Text class="Text.Recent.Time">{Time}</Text>
+
+      <List class="List.StationSearcher" id="_list" listCounterId="_listCounter"/>
+
+      <Text class="Text.ListCounter.StationSearcher" id="_listCounter"/>
+
+      <!-- PIP for recent channels can be show/hidden with style customization -->
+      <Video class="Video.StationSearcher" id="_pip" pipe="PIP" ispip="true" visible="false"/>
+
+      <!-- Poster for on-demand channels -->
+      <Image class="Image.RecentPanelPoster" id="_poster" visible="false"/>
+      
+      <!-- label within PIP with selected program's name (can be removed by using visible="false" in Styles.xml -->
+      <Text class="Text.StationSearcher.ProgramName" id="_programTitle"></Text>
+
+      <Text class="Text.StationSearcher.Description" id="_stationDescription">#StationSearcher.Instructions</Text>
+      
+    </Panel>
+  </StationSearcher>
+</uidescription>
+
+

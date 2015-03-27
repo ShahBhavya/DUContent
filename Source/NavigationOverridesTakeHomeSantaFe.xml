@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+  <target name="globallandingpage" location="page:http://sv1-td4m-pf-lb.tide4.tidalwave.ms/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+  <target name="fallbackgloballandingpage" location="UnmanagedErrorPage.xml" />
+  <target name="pageloaderror" location="UnmanagedErrorPage.xml" />
+  <target name="settings" location="settings.xml" />
+  <target name="start" location="page:http://sv1-td4m-pf-lb.tide4.tidalwave.ms/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+<target name="vodstore" location="page:http://sv1-td4m-pf-lb.tide4.tidalwave.ms/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+</mappings>

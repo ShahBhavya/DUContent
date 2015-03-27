@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrSeriesInfoPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#DVR.SeriesHeader</Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <Panel class="Panel.MenuBackground" clipchildren="true">
+            <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                <MenuItem class="MenuItem" id="_recordedMenuItem" subMenuPath="DvrRecordedSub.xml" Tag="RecordedInSeries">#DVR.Menu.Recorded</MenuItem>
+                <MenuItem class="MenuItem" id="_scheduledMenuItem" subMenuPath="DvrUpcomingSub.xml" Tag="SeriesInfo">#DVR.Menu.Scheduled</MenuItem>
+                <MenuItem class="MenuItem" id="_summaryMenuItem" submenuID="_summaryPane" Tag="Settings">#SeriesInfo.Menu.Summary</MenuItem>
+            </Menu> 
+        </Panel>
+
+        <Panel class="Panel.Root" id="_summaryPane" visible="false">
+            <VerticalFlowPanel class="VerticalFlowPanel.Menu.ProgramInfo">
+                <Button class="Button.Vertical" id="_cancelSeries" onclick="OnClick_Cancel">#DVR.CancelSeriesButton</Button>
+                <Button class="Button.Vertical" id="_seriesSettings" onclick="OnClick_Settings">#SeriesInfo.ChangeSettings</Button>
+                <Button class="Button.Vertical" id="_resolveConflict" onClick="OnClick_ResolveConflict" visible="false">#ProgramInfo.ResolveConflict</Button>
+                <Button class="Button.Vertical" id="_seriesPriority" onClick="OnClick_SeriesPriority" visible="false">#ProgramInfo.SeriesPriority</Button>
+                <Button class="Button.Vertical" id="_deleteRecorded" onClick="OnClick_DeleteRecorded" visible="false">#ProgramInfo.DeleteRecorded</Button>
+            </VerticalFlowPanel>
+
+            <!--<VerticalFlowPanel class="VerticalFlowPanel.Dvr.SeriesInfo">
+                <Text class="Text.DvrSeriesInfo.Label">#DVR.SeriesRecordOnLabel</Text>
+            </VerticalFlowPanel>
+            -->
+
+            <VerticalFlowPanel class="VerticalFlowPanel.Content">
+                <Text class="Text.ProgramInfo.ProgramTitle" id="_programTitle"/>
+                <Text class="Text.DvrSeriesInfo.Info" id="_numberScheduled"/>
+                <!--<Text class="Text.DvrSeriesInfo.Info" id="_showType"/>-->
+                <Text class="Text.SpinnerHeader.DvrSeriesInfo" id="_channel"></Text>
+                <Text class="Text.SpinnerHeader.DvrSeriesInfo" id="_time"></Text>
+                <Text class="Text.SpinnerHeader.DvrSeriesInfo" id="_showType"></Text>
+                <Text class="Text.SpinnerHeader.DvrSeriesInfo" id="_stopRecording"></Text>
+                <Text class="Text.SpinnerHeader.DvrSeriesInfo" id="_keepAtMost"></Text>  
+<!--
+                <Panel class="">
+                    <Text class="Text.SpinnerHeader" id="_keepAtMost"></Text>
+                </Panel>
+-->
+            </VerticalFlowPanel>
+        </Panel>
+        
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer" visible="false"/>
+
+    </DvrSeriesInfoPage>
+</uidescription>

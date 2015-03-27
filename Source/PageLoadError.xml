@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <PageLoadErrorPage class="Page.AnimatedNavBar" excludefromhistory="true">
+        <Actions>
+            <Event type="onclick" target="_details" action="showDetails" />
+            <Action name="showDetails">
+                <Action type="show" target="_detailsText" />
+                <Action type="hide" target="_errorText" />
+            </Action>
+        </Actions>
+        <Text class="Text.HeaderTitle">#PageLoadError.Title</Text>
+        <Text class="Text.SubheaderTitle">#PageLoadError.Name</Text>
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.Errors">
+            <Button class="Button.Errors.Details" id="_details">#PageLoadError.DetailsButton</Button>
+        </VerticalFlowPanel>
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Error">
+            <TextBox class="TextBox.Errors.Code">#PageLoadError.ErrorCode</TextBox>
+            <TextBox class="TextBox.Errors.Text" id="_errorText">#PageLoadError.ErrorText</TextBox>
+            <TextBox class="TextBox.Errors.Text.Details" id="_detailsText">#PageLoadError.DetailsText</TextBox>
+        </VerticalFlowPanel>
+    </PageLoadErrorPage>
+</uidescription>

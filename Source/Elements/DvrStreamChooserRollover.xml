@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrStreamChooserRollover class="Subpage.RolloverInfo" top="140">
+		<Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName.Wide" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime.Wide" id="_programTime"/>
+			<PanelFlipper class="PanelFlipper" id="_flipper">
+				<Text class="Text.RolloverInfo.Description.Wide" id="_programDescription"/>
+			</PanelFlipper>
+			<Text class="Text.RolloverInfo.ChannelInfo" id="_channelInfo"/>
+		</Panel>
+    </DvrStreamChooserRollover>
+</uidescription>

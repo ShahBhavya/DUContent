@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+  <target name="globallandingpage" location="page:http://172.29.50.50/Aurash/TestLanding.xml" />
+  <target name="fallbackgloballandingpage" location="UnmanagedErrorPage.xml" />
+  <target name="pageloaderror" location="UnmanagedErrorPage.xml" />
+  <target name="settings" location="settings.xml" />
+  <target name="start" location="page:http://10.191.42.10/Mediaroom/kamalap/DownloadDatasource/TestMenuForRat.xml" />
+</mappings>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_AdultLockingPage class="Page.Animated" initialFocus="_lockAdultOption">
+	 
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Settings.LockAdultPrograms</Text>
+		<Text class="Text.Clock">{Time}</Text>
+		
+		<VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+			<Button class="Button.Vertical" id="_saveButton" onClick="OnClick_Save">#Settings.Save</Button>
+			<Button class="Button.Vertical" id="_dontSaveButton" onClick="OnClick_DontSave">#Settings.DontSave</Button>
+			<Button class="Button.Vertical" id="_changePin" href="ParentalControl_AdultPassword?ChangePin" visible="false">#ParentalControl.MenuItemText.ChangePIN</Button>
+		</VerticalFlowPanel>
+		
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings.SingleCheckbox">
+            <Checkbox class="Lockbox.Settings.ParentalControl" onClick="OnClick_ToggleLock" id="_lockAdultOption">#ParentalControl.Settings.LockAdultPrograms</Checkbox>
+		    <Text class="Text.LockAdultPrograms.Description" id="_description">#ParentalControl.Settings.LockAdultPrograms.Description</Text>
+    	</VerticalFlowPanel>
+    </ParentalControl_AdultLockingPage>
+</uidescription>

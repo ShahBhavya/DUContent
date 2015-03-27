@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <VideoSeekBar class="Panel.VideoSeekBar.PanelBackground" id="_seekBarControl">
+
+    <Text class="Text.VideoSeekBar.StartTime" id="_seekBarStartTime"/>
+    
+    <!-- border around seekbar indicate entire size of asset being watched -->
+    <Panel  class ="Panel.VideoSeekBar.TransportMeterBackground" id="_seekBarFrame">
+      <!-- background of seek bar indicates which content is available -->
+      <Panel class ="Panel.VideoSeekBar.TransportMeter" id="_seekBar"/>
+    </Panel>
+
+    <Text class="Text.VideoSeekBar.EndTime" id="_seekBarEndTime"/>
+
+    <Panel class="Panel.VideoSeekBar.TransportMeterBorder.Top"/>
+    <Panel class="Panel.VideoSeekBar.TransportMeterBorder.Bottom"/>
+    <Panel class="Panel.VideoSeekBar.TransportMeterBorder.Left"/>
+    <Panel class="Panel.VideoSeekBar.TransportMeterBorder.Right"/>
+    <Panel class="Panel.VideoSeekBar.TransportMeterBorder.Separator" id="_seekBarSeparateBar"/>
+
+    <!-- block containing the current position symbol, current time and trick mode icons 340 -->
+    <Panel class="Panel.VideoSeekBar.CurrentPosition">
+      <Panel class="Panel.VideoSeekBar.SeekBarCurrent" id="_seekBarCurrent">
+        <Panel class="Panel.VideoSeekBar.Ticker" id="_seekBarTicker"/>
+        <HorizontalFlowPanel class="HorizontalFlowPanel.VideoSeekBar.Images" id="_seekBarImagesPanel">
+          <Image class="Image.VideoSeekBar.TrickImageLeftOfTime" id="_seekBarTrickImageLeftOfTime"/>
+          <Panel class="Panel.VideoSeekBar.TrickImageLeftOfTimePlaceHolder" id="_seekBarTrickImageLeftOfTimePlaceHolder"/>
+          <Panel class="Panel.VideoSeekBar.TrickImageLeftOfTimePlaceHolder2"/>
+          <Text class ="Text.VideoSeekBar.CurrentTime" id="_seekBarCurrentTime"/>
+          <Panel class="Panel.VideoSeekBar.TrickImageRightOfTimePlaceHolder2"/>
+          <Panel class="Panel.VideoSeekBar.TrickImageRightOfTimePlaceHolder" id="_seekBarTrickImageRightOfTimePlaceHolder"/>
+          <Image class="Image.VideoSeekBar.TrickImageRightOfTime" id="_seekBarTrickImageRightOfTime"/>
+        </HorizontalFlowPanel>
+
+        <!-- block containing the ad information -->
+        <Panel class="Panel.VideoSeekBar.AdCurrentPosition" id="_seekBarAdInformation">
+          <Text class ="Text.VideoSeekBar.TrickHeader" id="_seekBarTrickHeader"/>
+          <Text class ="Text.VideoSeekBar.TrickTitle" id="_seekBarTrickTitle"/>
+          <Image class="Image.VideoSeekBar.HeaderImage" id="_seekBarHeaderImage"/>
+        </Panel>
+      </Panel>
+    </Panel>
+
+    <Image class="Image.VideoSeekBar.Recording" id="_seekBarRecording"/>
+
+
+    <Panel class="Panel.VideoSeekBar.SeekBarSecondary" id="_seekBarSecondaryTickerPosition">
+      <Panel class="Panel.VideoSeekBar.Ticker.Secondary" id="_seekBarSecondaryTicker"/>
+    </Panel>
+    
+    <Panel class="Panel.VideoSeekBar.SeekBarZoetrope" id="_seekBarZoetropePosition">
+      <Panel class="Panel.VideoSeekBar.Ticker.Zoetrope" id="_seekBarZoetropeTicker"/>
+    </Panel>
+
+  </VideoSeekBar>
+</uidescription>

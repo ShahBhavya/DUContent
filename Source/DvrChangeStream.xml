@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrChangeStream class="Page.Animated">
+    
+        <Text class="Text.HeaderTitle">#DVR.ChangeStream.Title</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+	
+		<Panel class="Panel.WholePage">
+		    
+            <Panel class="Panel.Root">
+			    <VerticalFlowPanel class="VerticalFlowPanel.Menu.ProgramInfo">
+				    <Button class="Button.Vertical" id="_follow" onClick="OnClick_Follow">#DVR.ChangeStream.Button.Follow</Button>		
+				    <Button class="Button.Vertical" id="_take" onClick="OnClick_Take">#DVR.ChangeStream.Button.Take</Button>			
+			    </VerticalFlowPanel>
+	
+                <VerticalFlowPanel class="VerticalFlowPanel.Content">        
+                    <Text class="Text.ProgramInfo.ProgramTitle" id="_programTitle" />
+			        <Text class="Text.ProgramInfo.TimeAndRating" id="_timeandrating" />
+                    <Text class="Text.ProgramInfo.Cast" id="_activity" />
+                    <Text class="Text.ProgramInfo.ExtraInfo" id="_uptime" />
+		        </VerticalFlowPanel>
+            </Panel>
+		</Panel>
+		        
+    </DvrChangeStream>
+</uidescription>

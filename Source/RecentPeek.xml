@@ -1,0 +1,7 @@
+<RecentPeek class="Panel.RecentPeek" useDynamicScreenModeStyles="true" peekappid="urn:microsoft:mediaroom:application:panel:recent">
+  <Panel class="Panel.RecentPeek.Root">
+    <Text class="RecentPeek.Header">#RecentPeek.Header</Text>
+    <Text id="_emptyText" class="RecentPeek.Empty">#RecentPeek.NoRecentChannels</Text>
+    <Panel id="_horizontalPanel" class="Panel.RecentPeekItems" />
+  </Panel>
+</RecentPeek>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Skin.xml">
+
+  <metaimages>
+    <metaimage name="SymbolLargeReplay" image="Symbol_Large_Replay_Reverse.png" width="162" height="75"/>
+    <metaimage name="SymbolLargeSkip" image="Symbol_Large_Skip_Reverse.png" width="162" height="75"/>
+    <metaimage name="SymbolLargeSkipLive" image="Symbol_Large_Skip_Live_Reverse.png" width="162" height="75"/>
+    <metaimage name="VolumeTabBackground" image="Vol_BG_Tab_RTL.png" width="246" height="167" slices="rect(61,27,163,93)"/>
+    <metaimage name="VolumeWave0" image="Vol_Sym_Wave0_RTL.png" width="45" height="75"/>
+    <metaimage name="VolumeWave5" image="Vol_Sym_Wave5_RTL.png" width="45" height="75"/>
+    <metaimage name="VolumeWave10" image="Vol_Sym_Wave10_RTL.png" width="45" height="75"/>
+    <metaimage name="VolumeWave15" image="Vol_Sym_Wave15_RTL.png" width="45" height="75"/>
+    <metaimage name="VolumeWave20" image="Vol_Sym_Wave20_RTL.png" width="45" height="75"/>
+    <metaimage name="VolumeWave25" image="Vol_Sym_Wave25_RTL.png" width="45" height="75"/>
+  </metaimages>
+
+  <!-- Menu styles -->
+  <style class="Menu" top="59" left="0" leftBracketURL="Arrow_NavMenu_Right.png" rightBracketURL="Arrow_NavMenu_Left.png" bracketheight="25" bracketWidth="25" spaceAfterLeftBracket="12" spaceBeforeRightBracket="12" spaceBetweenBracketAndNonSelectItem="18" spaceBetweenTwoNonSelectItem="27" background="@Transparent" leftInAnimation="MenuInLeft" leftOutAnimation="MenuOutLeft" rightInAnimation="MenuInRight" rightOutAnimation="MenuOutRight">
+    <style class="Menu.Start" selectedItemVOffset="-6" unselectedItemVOffset="-6" top="8" left="102"/>
+    <style class="Menu.BrowseBar" top="0" left="200" scale="78"/>
+    <style class="Menu.Top" top="5" left="70" bracketheight="21" bracketWidth="21" spaceAfterLeftBracket="8" spaceBeforeRightBracket="8" spaceBetweenBracketAndNonSelectItem="19" spaceBetweenTwoNonSelectItem="25" selectedItemVOffset="-7" unselectedItemVOffset="-6">
+      <style class="Menu.Top.VodStore" selectedItemVOffset="-5" leftBracketURL="Arrow_Nav_Right.png" rightBracketURL="Arrow_Nav_Left.png"/>
+    </style>
+    <style class="Menu.OptionsPanel" leftBracketURL="Arrow_Nav_Right.png" rightBracketURL="Arrow_Nav_Left.png" bracketHeight="21" bracketWidth="21" spaceAfterLeftBracket="5" spaceBeforeRightBracket="5" spaceBetweenBracketAndNonSelectItem="10" spaceBetweenTwoNonSelectItem="10" selectedItemVOffset="-4" unselectedItemVOffset="-4" margin="rect(0,48,0,0)" width="236" left="47" clipchildren="true"/>
+  </style>
+
+
+  <style class="Image.LeftGuideArrow" url="Arrow_Guide_Right.png" top="0" height="31" width="17"/>
+  <style class="Image.RightGuideArrow" url="Arrow_Guide_Left.png" top="0" height="31" width="17"/>
+
+  <!-- styles controling the up/down/left/right arrows that appear on the Now/Next bar -->
+  <style class="Image.Rosette" height="27" width="27">
+    <style class="Image.Rosette.UpArrow" url="BrowseArrow.Up_RTL.png" top="8" left="558"/>
+    <style class="Image.Rosette.DownArrow" url="BrowseArrow.Down_RTL.png" top="60" left="558"/>
+    <style class="Image.Rosette.LeftArrow" url="BrowseArrow.Right.png" top="34" left="30"/>
+    <style class="Image.Rosette.RightArrow" url="BrowseArrow.Left.png" top="34" left="583"/>
+  </style>
+
+  <style class="Image.GuideStyle.GridGuide" url="GuideStyle.GridGuide_RTL.png"/>
+  <style class="Image.GuideStyle.ListGuide" url="GuideStyle.ListGuide_RTL.png"/>
+  <style class="Image.VolumeControl.Speaker" left="45" width="48" url="Vol_Sym_Speaker_RTL.png"/>
+  <style class="Image.MuteControl" url="Vol_Sym_Mute_RTL.png" left="45" top="45" height="75" width="71"/>
+
+  <style class="Image.NowPlaying.Button" url="NowPlaying_RTL.png" left="362" top="6" height="19" width="19">
+    <style class="Image.NowPlaying.Button.RightAligned" left="372"/>
+    <style class="Image.NowPlaying.Button.Group" url="NowPlaying_RTL.png" left="328"/>
+  </style>
+
+  <style class="BrandService.Menu" top="50" left="108" width="260" height="80" background="image(Brand_Service_Menu_RTL.png)"/>
+
+</styles>

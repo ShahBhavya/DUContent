@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrAppRollover class="Subpage.RolloverInfo">
+	  <Image class="Image.PIP.Guide" absoluteurl="VideoStill.RecordedTV.jpg" id="_pip"/>
+		<Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime" id="_programTime"/>
+			<PanelFlipper class="PanelFlipper" id="_flipper">
+				<Text class="Text.RolloverInfo.Description" id="_recordingList"/>
+				<Text class="Text.RolloverInfo.Description" id="_description1">#DVR.MediaItem.LongDescription1</Text>
+				<Text class="Text.RolloverInfo.Description" id="_description2">#DVR.MediaItem.LongDescription2</Text>	
+			</PanelFlipper>
+	    </Panel>
+    </DvrAppRollover>
+</uidescription>	

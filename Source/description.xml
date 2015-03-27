@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+  <major>1</major>
+  <minor>0</minor>
+</specVersion>
+<device>
+  <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+  <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+  <UDN></UDN>
+  <friendlyName></friendlyName>
+  <manufacturer>Mediaroom</manufacturer>
+  <manufacturerURL>http://www.microsoft.com/</manufacturerURL>    
+  <modelName>Mediaroom</modelName>
+  <modelNumber></modelNumber>
+  <modelURL>http://www.microsoftmediaroom.com/</modelURL>
+  <modelDescription>Mediaroom Client</modelDescription> 
+  <serialNumber></serialNumber>
+  <iconList>
+    <icon>
+      <mimetype>image/png</mimetype>
+      <width>48</width>
+      <height>48</height>
+      <depth>24</depth>
+      <url>/upnp/2</url>
+    </icon>
+  </iconList>
+  <serviceList>    
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+      <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>    
+      <SCPDURL>/upnp/4</SCPDURL>
+      <eventSubURL>/upnp/4e</eventSubURL>
+      <controlURL>/upnp/4c</controlURL>
+    </service>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+      <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+      <SCPDURL>/upnp/5</SCPDURL>
+      <eventSubURL>/upnp/5e</eventSubURL>
+      <controlURL>/upnp/5c</controlURL>
+    </service>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+      <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+      <SCPDURL>/upnp/3</SCPDURL>
+      <eventSubURL>/upnp/3e</eventSubURL>
+      <controlURL>/upnp/3c</controlURL>
+    </service>
+  </serviceList>
+</device>
+</root>

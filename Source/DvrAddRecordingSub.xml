@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+      <DvrAddRecordingPage>
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.AddRecorded" id="_emptypanel" visible="false">
+          <Text class="Text.DvrList.NullScreenFirstSentence.AddRecording" id="_emptyList1">#Dvr.NoProgramsCanBeAdded.Remote</Text>
+        </VerticalFlowPanel>
+        <VerticalFlowPanel class="VerticalFlowPanel.Dvr.AddRecorded" id="_addpanel" visible="true">
+		    <Text class="Text.DvrAddRecordingText">#DVR.AddRecording.RecordProgramOrSeries</Text>
+		    <Button class="Button.DvrAddRecording" onClick="OnClick_Guide">#Start.Television.Guide</Button>
+		    <Button class="Button.DvrAddRecording" onClick="OnClick_Search">#Start.Television.SearchTitle</Button>
+		    <Panel height="41"></Panel>
+		    <Text class="Text.DvrAddRecordingText">#DVR.AddRecording.CreateCustom</Text>
+		    <Button class="Button.DvrAddRecording" id="_ChannelAndTime" onClick="OnClick_AddManual">#DVR.AddRecording.ManualRecordLabel</Button>
+        </VerticalFlowPanel>
+	  </DvrAddRecordingPage>
+</uidescription>

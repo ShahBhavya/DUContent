@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <WiFiSettingsPage class="Page.Animated" initialFocus="_done">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.WiFi.Status.Title</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" id="_done" onClick="OnClick_Done">#Done</Button>
+      <Button class="Button.Vertical" id="_configure" onClick="OnClick_Configure">#Settings.WiFi.Status.SetupWifi</Button>
+	  <Button class="Button.Vertical" id="_disconnect" onClick="OnClick_Disconnect">#Settings.WiFi.Status.DisconnectWifi</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription" id="_heading">#Settings.WiFi.Status.Heading</Text>      
+      <Text class="Text.SettingsDescription" id="_currentStatus">#Settings.WiFi.Status.Connected</Text>
+      <Text class="Text.SettingsDescription" id="_currentStatusDetails">#Settings.WiFi.Status.Connected.Status</Text>      
+    </VerticalFlowPanel>
+    
+    <Image id="_signalStrength" />
+
+  </WiFiSettingsPage>
+</uidescription>

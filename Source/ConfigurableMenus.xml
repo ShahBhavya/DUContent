@@ -1,0 +1,94 @@
+<ConfigurableMenus menuClass = "MrmlPage.MainMenu" verticalFlowPanelClass = "SimpleList.PeekMainMenu" itemClass = "ListButton.PeekMainMenu">
+
+  <!-- /Main Menu (MainMenu.xml configuration) -->
+
+  <Menu id="_settings" name="#MainMenu.Settings" label="#MainMenu.Settings">
+    <MenuCategory name="#MainMenu.Settings.General" id="_generalCategory">
+      <LinkMenuItem name="#MainMenu.Settings.General.SystemSoundEffects" id="_systemSoundEffectsMenuItem" href="SoundsSettings" image="settings_system-sound-effects.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.General.OnScreenLanguage" id="_onscreenLanguageMenuItem" href="LanguageSettings" image="settings_on-screen-language.png" />
+      <LinkMenuItem name="#MainMenu.Settings.General.Security" id="_securityMenuItem" href="EnhancedHdmiSecurity" image="settings_HDMI-security.png" behavior="showifhdcpdisableallowed" />
+      <LinkMenuItem name="#MainMenu.Settings.General.SystemInfo" id="_systemInfoMenuItem" href="About" image="settings_system-information.png" />
+      <LinkMenuItem name="#MainMenu.Settings.General.Troubleshoot" id="_troubleshootMenuItem" href="ConnectionTroubleshooting" image="settings_troubleshoot-your-broadband.png" />
+      <LinkMenuItem name="#MainMenu.Settings.General.PersonalMedia" id="_personalMediaMenuItem" href="PersonalMediaSettings" image="settings_personal-media-setting.png" />
+      <LinkMenuItem name="#MainMenu.Settings.General.Test" id="_testMenuItem" href="Test" image="settings_test-settings.png" />
+      <LinkMenuItem name="#MainMenu.Settings.General.RFOutputChannel" id="_rfOutputChannelMenuItem" href="RFOutputChannelSettings?0" image="settings_RF-output.png" />
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.Settings.Television" id="_televisionCategory">
+      <LinkMenuItem name="#MainMenu.Settings.Television.CustomizeChannelGuide" id="_customizeChannelGuideMenuItem" href="HiddenChannelsSettings" image="settings_customize-channel-guide.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.Television.SetupFavorites" id="_setupFavoritesMenuItem" href="favoritechannels:settings" image="settings_set-up-favorites.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.Television.RecentPanelSettings" id="_recentPanelSettingsMenuItem" href="RecentPanelSettings" image="settings_recent-panel-settings.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.Television.SubscribedChannelSettings" id="_subscribedChannelSettingsMenuItem" href="SubscribedChannelsSettings" image="settings_subscribed-channels.png" behavior="showifallowsubscribedchannelssettings" />
+      <LinkMenuItem name="#MainMenu.Settings.Television.PrimaryGuideStyle" id="_primaryGuideStyleMenuItem" href="GuideSettings" image="settings_primary-guide-style.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Television.AddNewRFRemote" id="_addNewRFRemoteMenuItem" href="RfAddRemote" image="settings_add-new-RF.png" behavior="showwithrfremote"/>
+      <LinkMenuItem name="#MainMenu.Settings.Television.ProgramRFRemote" id="_programRFRemoteMenuItem" href="RfProgramRemote" image="settings_program-RF-remote.png" behavior="showwithrfremote"/>
+      <LinkMenuItem name="#MainMenu.Settings.Television.ScreenAspectRatioAndHighDef" id="_screenAspectRatioAndHighDefMenuItem" href="AspectRatioSettings" image="settings_screen-aspect-and-HD.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Television.ClosedCaption" id="_closedCaptionMenuItem" href="ClosedCaptionSettings" image="settings_closed-captioning.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Television.SubtitlesLanguageSettingsChannel" id="_subtitlesLanguageSettingsMenuItem" href="SubtitleLanguageSettings" image="settings_subtitle-language.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Television.TVReceiverName" id="_tvReceiverNameMenuItem" href="TVReceiverName" image="settings_TV-receiver-name.png" />
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.Settings.Satellite" id="_satelliteCategory" behavior="showwithdvbs">
+      <LinkMenuItem name="#MainMenu.Settings.Satellite.Configuration" id="_satConfig" href="page:satelliteconfiguration" image="settings_satellite-configuration.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Satellite.ManualTransponderScan" id="_manualScan" href="ManualTransponderScanWizardStep1" image="settings_manual-transponder-scan-wizard.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Satellite.SignalStrength" id="_satSignalStrength" href="page:satellitesignalstrength" image="settings_satellite-signal-strength.png" />
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.Settings.Audio" id="_audioCategory">
+      <LinkMenuItem name="#MainMenu.Settings.Audio.AudioLanguage" id="_audioLanguageMenuItem" href="AudioLanguageSettings" image="settings_audio-language.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.Audio.SecondaryAudio" id="_secondaryAudioMenuItem" href="SecondaryAudioSettings" image="settings_secondary-audio.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Audio.AudioDescription" id="_audioDescriptionMenuItem" href="AudioDescriptionSettings" image="settings_audio-description.png" />
+      <LinkMenuItem name="#MainMenu.Settings.Audio.DigitalAudioOutput" id="_digitalAudioOutputMenuItem" href="DigitalAudioOutputSettings" image="settings_digital-audio-output.png" />
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.Settings.ParentalControls" id="_parentalControlsCategory">
+      <LinkMenuItem name="#MainMenu.Settings.ParentalControls.ParentalLocking" id="_parentalLockingMenuItem" href="ParentalControl_Password?action=Menu" image="settings_parental-locking.png"/>
+      <LinkMenuItem name="#MainMenu.Settings.ParentalControls.RentalLocking" id="_rentalLockingMenuItem" href="PurchasePassword?action=Menu" image="settings_parental-locking.png" behavior="showwithrentalpin"/>
+      <LinkMenuItem name="#MainMenu.Settings.ParentalControls.AdultLocking" id="_adultLockingMenuItem" href="ParentalControl_AdultPassword?action=Menu" image="settings_parental-locking.png" behavior="showwithadultpin"/>
+      <LinkMenuItem name="#MainMenu.Settings.ParentalControls.SmartCardLocking" id="_smartcardLockingMenuItem" href="ParentalControl_SmartCardPassword?action=Menu" image="settings_PCON-smartCard-locking.png" behavior="showwithsmartcardpin"/>
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.Settings.RestartSystem" id="_restartSystemCategory">
+      <KeyMenuItem name="#MainMenu.Settings.RestartSystem" id="_restartSystemMenuItem" key="restart" eventtype="keydown" image="settings_restart-system.png"/>
+    </MenuCategory>
+  </Menu>
+
+  <Menu id="_guidestyles" name="#MainMenu.BrowseLiveTV" label="#MainMenu.BrowseLiveTV">
+    <MenuCategory name="#MainMenu.BrowseLiveTV.GuideStyles" id="_guideStylesMenuCategory">
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideStyles.GridGuide" id="_gridGuideMenuItem" href="GridGuide" image="settings_guide-grid.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideStyles.ChannelList" id="_channelListMenuItem" href="ChannelGuidePage" image="settings_channel-list.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideStyles.OnNowGuide" id="_onNowGuideMenuItem" href="OnNowGuide" image="settings_guide-onNow.png"/>
+    </MenuCategory>
+
+    <MenuCategory name="#MainMenu.BrowseLiveTV.GuideFilters" id="_guideFiltersMenuCategory" behavior="showwithguidefilters">
+      <!-- The filter integer on the OnNowGuide URL represents Category ID, and every entry on the list should represent root category entries in line with the listings -->
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName1" id="_guideFilterPageMenuItem1" href="GuideFilterPage?filter=27" image="GuideFilters_Movies.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName2" id="_guideFilterPageMenuItem2" href="GuideFilterPage?filter=76" image="GuideFilters_Sports.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName3" id="_guideFilterPageMenuItem3" href="GuideFilterPage?filter=52" image="GuideFilters_Series.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName4" id="_guideFilterPageMenuItem4" href="GuideFilterPage?filter=31" image="GuideFilters_Kids.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName5" id="_guideFilterPageMenuItem5" href="GuideFilterPage?filter=43" image="GuideFilters_News.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName6" id="_guideFilterPageMenuItem6" href="GuideFilterPage?filter=32" image="GuideFilters_Comedy.png"/>
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV.GuideFilters.FilterName7" id="_guideFilterPageMenuItem7" href="GuideFilterPage?filter=72" image="GuideFilters_Music.png"/>
+    </MenuCategory>
+
+    <!-- Favorite channels lists are populated at runtime -->
+    <MenuCategory name="#MainMenu.BrowseLiveTV.Favorites" id="_favorites" />
+
+    <!-- Bouquets are populated at runtime -->
+    <MenuCategory name="#MainMenu.BrowseLiveTV.Bouquets" id="_bouquets" />
+  </Menu>
+
+  <Menu id="_mainMenu" name="#MainMenu">
+    <MenuCategory name="#MainMenu" id="_mainMenuCategory">
+      <LinkMenuItem name="#MainMenu.Search" id="_searchButton" class="ListButton.PeekMainMenu" href="search" />
+      <LinkMenuItem name="#MainMenu.BrowseLiveTV" id="_guide" class="ListButton.PeekMainMenu" href="swimlanepage?provider=browselivetv;menuId=_guidestyles;favoritesMenuId=_favorites;bouquetsMenuId=_bouquets" />
+      <LinkMenuItem name="#MainMenu.RecordedTV" id="_recordedTV" class="ListButton.PeekMainMenu" href="dvrrecorded" behavior="ShowWithDVR" />
+      <LinkMenuItem name="#MainMenu.OnDemand" id="_onDemand" class="ListButton.PeekMainMenu" href="vod" />
+      <LinkMenuItem name="#MainMenu.MediaLists" id="_mediaList" class="ListButton.PeekMainMenu" href="swimlanepage?provider=medialist" behavior="ShowWithMediaList" />
+      <LinkMenuItem name="#MainMenu.Settings" id="_settings" class="ListButton.PeekMainMenu" href="swimlanepage?menuid=_settings" />
+      <LinkMenuItem name="Demo" id="_demo" href="page:Demo.xml" behavior="showifdevbox" />
+
+    </MenuCategory>
+  </Menu>
+</ConfigurableMenus>
+

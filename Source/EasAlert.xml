@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <EasAlert class="EAS">
+    <Panel id="_titlePanel">
+      <Text id="_title"/>
+    </Panel>
+    <Panel id="_messagePanel" clipChildren="true">
+      <Text id="_message"/>
+    </Panel>
+    <Panel id="_dismissPanel">
+      <Text id="_dismiss"/>
+    </Panel>
+  </EasAlert>
+</uidescription>

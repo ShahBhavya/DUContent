@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<styles basedOn="Styles.xml">
+
+  <!-- Use Hindi font. -->
+  <constant name="TVReg" value="fonts/mangaltv.ttf"/>
+  <constant name="TVBold" value="fonts/mangaltv.ttf"/>
+  <constant name="TVItalic" value="fonts/mangaltv.ttf"/>
+  <constant name="TVBoldItalic" value="fonts/mangaltv.ttf"/>
+  <constant name="TVHeader" value="fonts/mangaltv.ttf"/>
+
+  <!-- enable these lines to suppress Mediaroom Branding-->
+  <style class="Image.MRWatermark" visible="false"/>
+  <style class="WelcomeFlipper" visible="false" />
+  <style class="ScreenSaverFlipper" visible="false" />
+
+</styles>

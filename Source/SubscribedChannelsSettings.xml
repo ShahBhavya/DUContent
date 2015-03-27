@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <SubscribedChannelsSettingsPage class="Page.Animated" initialFocus="_saveButton">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.SubscribedChannels</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton" >#Settings.Save</Button>
+      <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content">
+      <RadioButtonGroup id="_viewMode" class="RadioButtonGroup">
+        <RadioButton id="_viewAll" class="RadioButton.Settings.SubscribedChannels">#Settings.SubscribedChannels.ViewAll</RadioButton>
+        <Panel class="Panel.SubscribedChannelsSettingsSpacer"/>
+        <Text class="Text.SubscribedChannelsDescription" >#Settings.SubscribedChannels.ViewAllDescription</Text>
+        <Panel class="Panel.SubscribedChannelsSettingsSpacer"/>
+        <RadioButton id="_viewSubscribed" class="RadioButton.Settings.SubscribedChannels">#Settings.SubscribedChannels.ViewSubscribed</RadioButton>
+        <Panel class="Panel.SubscribedChannelsSettingsSpacer"/>
+        <Text class="Text.SubscribedChannelsDescription">#Settings.SubscribedChannels.ViewSubscribedDescription</Text>
+      </RadioButtonGroup>
+    </VerticalFlowPanel>
+
+  </SubscribedChannelsSettingsPage>
+</uidescription>

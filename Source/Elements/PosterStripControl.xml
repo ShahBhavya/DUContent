@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <PosterStripControl visible="false" class="Panel.BrowseBarContainer.MainContainer">
+    
+    <Panel class="Panel.PosterStripRoot">
+      <Text class="Text.BrowseBar.Time.Strip">{Time}</Text>
+      <PanelFlipper class="PanelFlipper" id="_titleFlipper">
+        <Text class="Text.BrowseBar.Title.Strip" id="_posterStripTitle">#BrowseBar.JustMissed</Text>
+        <Text class="Text.BrowseBar.Title.Strip" id="_favoriteName"></Text>
+      </PanelFlipper>
+
+
+      <Panel class="Panel.BrowseBar.ActionPanel.PosterStrip" id="_posterStripActionPanel">
+        <DataSource id="_dsPosterStrip" />
+        <PhysicsGrid id="_gridPosterStrip" class="PhysicsGrid.BrowsePeek.PosterStrip"
+                      selectedpath="@selected"
+                      datasemantics="flat">
+          <PhysicsCursor class="PhysicsCursor.BrowsePeek.PosterStrip" id="_posterStripCursor" visible="false" />
+          <PhysicsTemplate class="PhysicsTemplate.BrowsePeek.Item" templatename="item">
+            <PhysicsImageTemplate datapath="@poster" class="PhysicsImageTemplate.BrowsePeek.Poster" />
+            <PhysicsTemplate class="PhysicsTemplate.BrowsePeek.Item.Time">
+              $(@subtitle)
+            </PhysicsTemplate>
+            <PhysicsTemplate class="PhysicsTemplate.BrowsePeek.Item.Title">
+              $(@title)
+            </PhysicsTemplate>
+            <PhysicsImageTemplate datapath="@indicator" class="PhysicsImageTemplate.BrowsePeek.Indicator" />
+          </PhysicsTemplate>
+        </PhysicsGrid>
+      </Panel>
+
+      <VerticalFlowPanel class="Panel.PosterStrip.LeftNavigator" id="_posterStripLeftArrow">
+        <Image class="Image.Rosette.LeftArrow" />
+      </VerticalFlowPanel>
+      <VerticalFlowPanel class="Panel.PosterStrip.RightNavigator" id="_posterStripRightArrow">
+        <Image class="Image.Rosette.RightArrow" />
+      </VerticalFlowPanel>
+    </Panel>
+  </PosterStripControl>
+</uidescription>

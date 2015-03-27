@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SVodChannelRollover class="Subpage.RolloverInfo">
+		<Image class="Image.Poster" id="_poster"/>
+	    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime" id="_programTime"/>
+            <Text class="Text.Expiration.Rollover" id="_expiration"/>
+			<PanelFlipper class="PanelFlipper" id="_flipper">
+				<Text class="Text.RolloverInfo.Description" id="_programDescription"/>
+			</PanelFlipper>
+			<Text class="Text.RolloverInfo.ChannelInfo" id="_channelInfo"/>
+			<Panel class="Panel.ChannelBarNetworkLogo" id="_image"/>
+	    </Panel>
+    </SVodChannelRollover>
+</uidescription>

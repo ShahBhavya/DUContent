@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription version="3.0">
+  <MrmlPage pagelayout="widescreen" id="TVPage1" left="0" top="0" width="1280" height="720" initialfocus="TVButton1">
+    <Extensions>
+      <Extension name="PartyScene" type="urn:microsoft:mediaroom:extension:xuicontrol">
+        <Param name="urn:microsoft:mediaroom:extension:xuicontrol:class" value="XuiPrerenderedScene" />
+        <Param name="urn:microsoft:mediaroom:extension:xuicontrol:path" value="SamplePartyScene" />
+      </Extension>
+    </Extensions>
+    <Panel id="scene1" left="0" top="0" width="1280" height="720" Extensions="PartyScene" />
+    <Actions>
+      <Event type="onkey:record" action="cycleCameraR" target=""/>
+      <Event type="onkey:info" action="cycleCameraL" target=""/>
+      <Event type="onkey:select" action="fullScreen" target=""/>
+      <Action name="cycleCameraL" type="event" target="scene1" event="urn:microsoft:mediaroom:extension:xuicontrol:cycleCamera?dir=left"/>
+      <Action name="cycleCameraR" type="event" target="scene1" event="urn:microsoft:mediaroom:extension:xuicontrol:cycleCamera?dir=right"/>
+      <Action name="fullScreen" type="navigate" data="page:OrapaPlaybackHD.xml"></Action>
+    </Actions>
+  </MrmlPage>
+</uidescription>

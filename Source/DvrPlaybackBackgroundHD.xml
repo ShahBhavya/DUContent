@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription version="3.0">
+  <MrmlPage id="DvrPlaybackBackground" class="MrmlPage.ChannelTV.HD">
+
+    <!-- This Video gadget is referenced in the foreground page (DvrPlayback.xml) extension definition ("fsTVControls").  -->
+    <Video class="Video.FullScreen.HD" id="dvrPlaybackVideo" pipe="FULLSCREEN" ispip="false"/>
+    
+    <!-- Use Panel.VideoOverlayTop to assign a different color to the top. Default is set to width/height="0" and background="@Transparent" -->
+    <Panel id="scrimTop" class="Panel.VideoOverlayTop.HD" />
+    <!-- Use Panel.VideoOverlayMotif to place a small graphical style in the background. Default is set to width/height="0" and background="@Transparent" -->
+    <Panel id="scrimMotif" class="Panel.VideoOverlayMotif.HD" />
+    <!-- If you use the two styles above, you may need to adjust the height of Panel.VideoOverlay. Default is set to fullscreen height. -->
+    <Panel id="scrim" class="Panel.VideoOverlay.HD" />
+
+    <Actions>
+      <!-- Background scrim event handling. -->
+      <Event type="onshowbackgroundscrim" action="showVideoScrim" target="DvrPlaybackBackground"/>
+      <Event type="onhidebackgroundscrim" action="hideVideoScrim" target="DvrPlaybackBackground"/>
+      <Action name="showVideoScrim" type ="show" target="scrim scrimTop scrimMotif"/>
+      <Action name="hideVideoScrim" type ="hide" target="scrim scrimTop scrimMotif"/>
+    </Actions>
+  </MrmlPage>
+</uidescription>

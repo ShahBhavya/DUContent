@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <CallerIdMessageView class="Page.Animated">
+        <Text class="Text.HeaderTitle">#Messages.CallerIdHeader</Text>	
+        <Text class="Text.Clock">{Time}</Text>
+	
+   		<Panel class="Panel.WholePage" id="_page">
+
+		    <HorizontalFlowPanel>
+       		    <VerticalFlowPanel class="VerticalFlowPanel.ButtonList" id="_menu" />
+   	   	    	
+   	   	    	<VerticalFlowPanel class="VerticalFlowPanel.Content">
+	   		        <Text class="Text.MessageView.Header" id="_header1" />
+
+   	   	    	    <HorizontalFlowPanel margin="rect(0,10,0,0)">
+                        <Image class="Image.MessageView.Icon" id="_icon" />
+
+                        <VerticalFlowPanel>
+	                        <Text class="Text.MessageView.ShortText" id="_callerName" />
+                            <Text class="Text.MessageView.ShortText" id="_shortText" />
+                        </VerticalFlowPanel>
+
+    	            </HorizontalFlowPanel>
+
+   	   	    	</VerticalFlowPanel>
+
+		    </HorizontalFlowPanel>		    
+
+		</Panel>
+    </CallerIdMessageView>    
+</uidescription>

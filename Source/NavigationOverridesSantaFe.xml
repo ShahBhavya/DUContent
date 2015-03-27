@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+  <target name="globallandingpage" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+  <target name="fallbackgloballandingpage" location="UnmanagedErrorPage.xml" />
+  <target name="pageloaderror" location="UnmanagedErrorPage.xml" />
+  <target name="start" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+  <target name="vodstore" location="page:http://d6-appsvr-01.mrdaily6.iptv.selfhost.corp.microsoft.com/VodStorefront.main?__MPF=microsoft.mediaroom.storefront/1.0/main" />
+</mappings>

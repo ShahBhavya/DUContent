@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <RFProgramRemoteDone class="Page.Animated" initialFocus="_doneButton">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader"></Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Done" id="_doneButton">#Done</Button>
+      <Button class="Button.Vertical" onClick="OnClick_AddNewRemote" id="_addNewRemoteButton" visible="false">#Settings.RfProgramRemote.Done.AddNewRemote</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <Text class="Text.SettingsDescription.Title" id="_title"></Text>
+      <Text class="Text.SettingsDescription.Body" id="_body"></Text>
+    </VerticalFlowPanel>
+
+  </RFProgramRemoteDone>
+</uidescription>

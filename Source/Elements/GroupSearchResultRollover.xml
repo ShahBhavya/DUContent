@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <GroupedSearchResultRollover class="Subpage.RolloverInfo">
+	    <Video class="Video.PIP.Guide" id="_pip" pipe="PIP" ispip="true"/>
+	    <Image class="Image.Poster" id="_poster"/>
+	    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime" id="_programTime"/>
+			<Text class="Text.RolloverInfo.Description" id="_programDescription"/>
+			<Text class="Text.RolloverInfo.ChannelInfo" id="_channelInfo"/>
+			<Panel top="25" left="520" height="19" width="19" id="_recordingIcon" background="image(Record.png)"/>
+			<Panel class="Panel.ChannelBarNetworkLogo" id="_image"/>
+	    </Panel>
+    </GroupedSearchResultRollover>
+</uidescription>

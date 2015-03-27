@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <FavoriteChannelsSelectPage class="Page.Animated">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#Settings.FavoriteChannels.Select</Text>
+    <Text class="Text.SubheaderTitle" id="_subheader">#Settings.FavoriteChannels.Select.SubHeader</Text>
+
+    <Panel class="Panel.FavoriteChannelsSelectPage">
+      <Text class="Text.FavoriteChannelsDescription.Select">#Settings.FavoriteChannels.Select.Description</Text>
+      <List class="List.FavoriteChannels.Select" id="_list"/>
+    </Panel>	
+
+  </FavoriteChannelsSelectPage>
+</uidescription>

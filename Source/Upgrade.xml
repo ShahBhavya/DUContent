@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+	<UpgradePage class="Page.Upgrade">
+		<Panel class="Panel.VideoOverlay">
+			<Text class="Text.UpgradeTitle">#Upgrade.Title</Text>
+			<Text class="Text.UpgradeDescription.InProgress">#Upgrade.InProgress</Text>
+			<Text class="Text.UpgradeDescription.Description">#Upgrade.Description</Text>
+			<ProgressBar class="ProgressBar.Upgrade" id="_upgradeprogress"/>
+			<Text class="Text.UpgradeProgress.Progress" id="_progress"/>
+			<Text class="Text.UpgradeProgress.TimeLeftLabel">#Upgrade.TimeLeftLabel</Text>
+			<Text class="Text.UpgradeProgress.TimeLeft" id="_timeLeft"/>
+		</Panel> 
+	</UpgradePage>
+</uidescription>

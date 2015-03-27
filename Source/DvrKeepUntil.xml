@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrKeepUntilPage initialFocus="_dontchange"  class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#ProgramInfo.KeepUntil</Text>
+        <Text class="Text.SubheaderTitle" id="_title"></Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.DvrManualRecordPage">
+            <Button class="Button.Vertical" onClick="OnClick_DontChange" id="_dontChange">#VOD.CreditLimitDontChange</Button>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.DvrManualRecordPage">
+          <Text class="Text.SpinnerHeader.DvrRecording">#DVR.KeepUntilLabel</Text>
+          <CheckedButton  class="Button.KeepUntilButton.DvrRecording" onClick="OnClick_SpaceNeeded"  checked="false" id="_spaceButton" >#DVR.Keep.SpaceNeeded</CheckedButton>
+          <!--
+            <CheckedButton class="Button.KeepUntilButton" onClick="OnClick_Watch"         checked="false" id="_watchButton" >#DVR.Keep.Watch</CheckedButton>
+-->
+          <CheckedButton  class="Button.KeepUntilButton.DvrRecording" onClick="OnClick_Delete"    checked="false" id="_deleteButton">#DVR.Keep.Delete</CheckedButton>
+        </VerticalFlowPanel>
+
+    </DvrKeepUntilPage>
+</uidescription>

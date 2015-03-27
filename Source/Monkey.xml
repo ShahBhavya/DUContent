@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <MonkeyDisplay class="Page.Monkey" initialFocus="_startButton">
+		<Panel left="0" id="_runTimePanel" height="70" visible="false">
+			<Text class="Text.Monkey.Time" id="_time"/>
+			<Text class="Text.Monkey.Events" id="_events"/>
+			<Text class="Text.Monkey.Memory" id="_memory"/>
+		</Panel>
+		<HorizontalFlowPanel left="80" id="_optionButtonsPanel">
+			<Button class="Button" id="_showModeSelectButton" justification="center" width="100" onClick="OnClick_ShowRandomMonkey">Random</Button>
+			<Button class="Button" id="_showPreviewButton" justification="center" width="110" onClick="OnClick_ShowRunScript">Run Script</Button>
+			<Button class="Button" id="_showDownloadButton" justification="center" onClick="OnClick_ShowDownload">Download Script</Button>
+			<Button class="Button" id="_showUploadButton" justification="center" width="170" onClick="OnClick_ShowUpload">Capture/Playback</Button>
+		</HorizontalFlowPanel>
+		<VerticalFlowPanel background="@Background" width="400" left="120" top="100" id="_modeSelectPanel" visible="true">
+			<HorizontalFlowPanel>
+				<Text width="140" left="0" height="31" layout="center" margin="rect(10,10,0,0)">Monkey Mode:</Text>
+				<Spinner class="Spinner" left="10" margin="rect(10,10,0,0)" id="_modeSpinner">
+					<Text width="150" layout="center" class="Text.Spinner">Default</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Recordings</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Sequential</Text>
+					<Text width="150" layout="center" class="Text.Spinner">DVR</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Trick Modes</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Trick Modes2</Text>
+          <Text width="150" layout="center" class="Text.Spinner">Tune</Text>
+          <Text width="150" layout="center" class="Text.Spinner">TuneChupChdn</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Navigation</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Memory</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Capture</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Replay</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Stay on Page</Text>
+					<Text width="150" layout="center" class="Text.Spinner">TimHack</Text>
+					<Text width="150" layout="center" class="Text.Spinner">Search</Text>
+					<Text width="150" layout="center" class="Text.Spinner">WMSLongPlay</Text>
+					<Text width="150" layout="center" class="Text.Spinner">WMSTrickMode</Text>
+          <Text width="150" layout="center" class="Text.Spinner">XboxWMSLongPlay</Text>
+          <Text width="150" layout="center" class="Text.Spinner">TimeShift</Text>
+				</Spinner>
+			</HorizontalFlowPanel>
+			<HorizontalFlowPanel margin="rect(0,15,0,15)">
+				<Text width="170" left="0" height="31" layout="center" margin="rect(10,0,0,0)">Sleep (msecs) - Min:</Text>
+				<EditText class="EditText" id="_keyIntervalMin" digitsOnly="true" maxChars="16" width="70" margin="rect(10,0,0,0)">200</EditText>
+				<Text width="40" left="0" height="31" layout="center" margin="rect(10,0,0,0)">Max:</Text>
+				<EditText class="EditText" id="_keyIntervalMax" digitsOnly="true" maxChars="16" width="70" margin="rect(10,0,0,0)">1000</EditText>
+            </HorizontalFlowPanel>
+			<Checkbox class="Checkbox" top="0" width="150" margin="rect(10,0,0,0)" id="_repeat" nextDown="_startButton">Repeat</Checkbox>
+			<HorizontalFlowPanel left="0" margin="rect(0,15,0,15)">
+			    <Button class="Button" width="100" margin="rect(10,0,0,0)" id="_startButton" nextRight="_cancelButton" onClick="OnClick_StartMonkey" visible="true">Start</Button>
+			    <Button class="Button" width="100" margin="rect(10,0,0,0)" id="_cancelButton" nextLeft="_startButton" onClick="OnClick_CancelMonkey" visible="true">Cancel</Button>
+            </HorizontalFlowPanel>
+		</VerticalFlowPanel>
+
+		<VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_runScriptPanel" visible="false">
+		    <Text class="Text.Diagnostic" background="@Background" layout="center" id="_currentDirectoryText"></Text>
+		    <Panel height="10"/>
+			<HorizontalFlowPanel>
+				<SimpleList class="SimpleList" id="_fileSystemList" background="@Background" visibleitemcount="8" origin="0"/>
+			    <Panel width="30"/>
+				<VerticalFlowPanel>
+					<TextBox class="TextBox" id="_fileContentsTextBox" background="@Background" width="280" height="275" visible="false"/>
+					<HorizontalFlowPanel>
+						<Button class="Button" id="_runScriptButton" onClick="OnClick_RunScript" width="140" justification="center" visible="false" >Run Script</Button>
+						<Button class="Button" id="_deleteScriptButton" onClick="OnClick_DeleteScript" width="140" justification="center" visible="false" >Delete Script</Button>
+					</HorizontalFlowPanel>
+				</VerticalFlowPanel>
+			</HorizontalFlowPanel>
+		</VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.TestPage" id="_downloadScriptPanel" visible="false">
+		    <Text class="Text.Diagnostic" background="@Background" layout="center" id="_selectedButtonText"></Text>
+		    <Panel height="10"/>
+	        <HorizontalFlowPanel>
+				<SimpleList class="SimpleList" id="_testScriptCategories" nextRight="_testScriptList" visibleitemcount="8"/>
+			    <Panel width="30"/>
+				<SimpleList class="SimpleList" id="_testScriptList" nextLeft="_testScriptCategories" visibleitemcount="8"/>
+			</HorizontalFlowPanel>
+		</VerticalFlowPanel>
+
+		<VerticalFlowPanel background="@Background" width="435" left="100" top="100" id="_capturePanel">
+		    <Button class="Button" margin="rect(10,0,0,0)" left="120" id="_startCaptureButton" onClick="OnClick_StartCapture" >Start Capture</Button>
+			<HorizontalFlowPanel margin="rect(120,0,0,0)">
+				<Button class="Button" margin="rect(10,0,0,0)" id="_startPlaybackButton" onClick="OnClick_StartPlayback">Start Playback</Button>
+   				<Checkbox class="Checkbox" top="0" width="100" margin="rect(10,0,0,0)" id="_repeatPlayback" nextDown="_startButton">Repeat</Checkbox>
+			</HorizontalFlowPanel>
+			<VerticalFlowPanel margin="rect(0,10,0,10)" background="@DiagBackground" width="435">
+			    <Button class="Button" margin="rect(10,15,0,0)" left="120" id="_uploadScriptButton" nextRight="_categoryName" onClick="OnClick_UploadScript">Upload Script</Button>
+			    <VerticalFlowPanel>
+					<HorizontalFlowPanel>
+						<Text width="120" left="0" height="31" layout="center" margin="rect(10,0,0,0)">Category</Text>
+						<EditText class="EditText" id="_categoryName" width="300">default</EditText>
+					</HorizontalFlowPanel>
+					<HorizontalFlowPanel>
+						<Text width="120" left="0" height="31" layout="center" margin="rect(10,0,0,0)">Script Name</Text>
+						<EditText class="EditText" id="_scriptName" width="300">yourscript.xml</EditText>
+					</HorizontalFlowPanel>
+					<TextBox class="TextBox" id="_activeScriptTextBox" margin="rect(10,10,10,10)" background="@Background" width="415" height="150"/>
+				</VerticalFlowPanel>
+            </VerticalFlowPanel>
+		</VerticalFlowPanel>
+
+    </MonkeyDisplay>
+</uidescription>

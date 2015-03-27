@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <!-- for packages, this page is invoked. 
+    for vod assets, "vodprograminfo" is used -->
+    <VodPackagePage class="Page.Animated" BackgroundContent="Background_Blue.xml">
+        <ImageFlipper class="ImageFlipper.VodBackground" id="_overlay"/>
+        <Panel class="Panel.Masthead.VodPackage" />
+        <Image class="Image.VodBranding.VodPackage" id="_watermark" />
+
+        <Text class="Text.HeaderTitle.VodPackage" visible="false" id="_headerTitle">#VOD.Package</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+
+		<Text class="Text.ProgramInfo.Waiting.Centered" id="_waiting">#ProgramInfo.Waiting</Text>
+		<Text class="Text.ProgramInfo.Waiting.Centered" id="_noInfo" visible="false">#VOD.PackageUnavailable</Text>
+
+		<Panel class="Panel.WholePage" id="_content">
+			<List class="List.VodStore.VodPackage" id="_list" listCounterId="_listCounter"/>	
+			<Text class="Text.ListCounter.VodPackage" id="_listCounter" />
+			<Panel class="Panel.RolloverContainer" id="_rolloverContainer" />
+        </Panel>
+        
+    </VodPackagePage>
+</uidescription>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription version="1.1">
+  <MrmlPage id="MyPage" BackgroundContent="Background_VideoAndBlueOverLay.xml" pagelayout="widescreen">
+    <Scripts>
+      <Script>
+        //<![CDATA[
+
+function decimalStringToHex(value, numberOfDigits)
+{
+  var result = parseInt(value).toString(16);
+  var needed = numberOfDigits - result.length;
+  for (i = 0; i < needed; i++) {
+    result = "0" + result;
+  }
+  return result;
+}
+
+function buildUrl()
+{
+  var address = getProperty("companion", "address");
+  var port = getProperty("companion", "port");
+  var pairingKey = getProperty("companion", "pairingKey");
+
+  var addressBytes = address.split(".");
+  var byte1 = decimalStringToHex(addressBytes[0], 2);
+  var byte2 = decimalStringToHex(addressBytes[1], 2);
+  var byte3 = decimalStringToHex(addressBytes[2], 2);
+  var byte4 = decimalStringToHex(addressBytes[3], 2);
+
+  var addressInHex = byte1 + byte2 + byte3 + byte4;
+  var portInHex = decimalStringToHex(port, 4);
+
+  // pairing key might not have leading zeros, which we need
+  var pairingKeyInHex = decimalStringToHex(parseInt(pairingKey, 16), 8);
+
+  var data = addressInHex + portInHex + pairingKeyInHex;
+  var url = "http://tv2-flt-72.dns.microsoft.com/Barcode/barcode.png?data=" + data;
+  setProperty("image", "url", url);
+}
+
+//]]>
+      </Script>
+
+      <Script>
+        //<![CDATA[
+          var gPort; // 4 hex characters
+          var gIPAddress; //8 hex characters
+          var gPairingKey; // 8 hex characters
+
+          var ipOut
+          var CH_0 = 0x30; //'0'
+          var CH_9 = 0x39; //'9'
+          var CH_A = 0x41; //'A'
+          var CH_J = 0x4A; //'J'
+          var CH_Z = 0x5A; //'Z'
+
+          function ToHex(decString, minLength) {
+          if (typeof minLength == undefined)
+          minLength = 0;
+
+          var s = parseInt(decString).toString(16);
+          while (s.length < minLength)
+                s = '0' + s;
+            return s;
+        }
+
+        function DecimalIpAddressToHex(ipaddress) {
+            var s = ipaddress.split(".");
+            return ToHex(s[0], 2) + ToHex(s[1], 2) + ToHex(s[2], 2) + ToHex(s[3], 2);
+        }
+
+        // Convert the string from hex to our A-based base 25 notation
+        function EncodeHexString(s) {
+            // Note1: parseint doesn't work right when the hex number would be >= 0xffffffffffffffff
+
+            // Note2: The conversion is to base 25 since chars are mapped
+            // to the range A..Y with Z being reserved for a separator.
+            // The mapping is to avoid having digits in the string.
+
+            // prepend a "1" in case there are initial zeroes that would be stripped by parseInt
+            s = "1" + s;
+            s = parseInt(s, 16).toString(25).toUpperCase();
+            
+            var result = '';
+
+            for (var i = 0; i < s.length; ++i) {
+                var c = s.charCodeAt(i);
+                if (c >= CH_0 && c <= CH_9)
+          c = CH_A + (c - CH_0);
+          else
+          c = c + 10;
+          result = result + String.fromCharCode(c);
+          }
+
+          return result;
+          }
+
+          // Convert the string from our A-based base 25 notation to hex
+          function DecodeHexString(s) {
+          var result = '';
+
+          for (var i = 0; i < s.length; ++i) {
+              var c = s.charCodeAt(i);
+              if (c <= CH_J)
+                c = CH_0 + (c - CH_A);
+              else
+                c = c - 10;
+              result = result + String.fromCharCode(c);
+          }
+
+          result = parseInt(result, 25).toString(16);
+          // strip off the "1" that we added to ensure initial zeroes weren't stripped
+          result = result.substr(1);
+          return result;
+          }
+
+          // Make the string more readable by breaking it into segments
+          function Segment(s) {
+          var result = "";
+          var i = 0;
+          var n = 4;
+          while (i < s.length) {
+                if (result.length == 0)
+                    result += s.substr(i, n);
+                else
+                    result += " " + s.substr(i, n);
+                i += n;
+            }
+            return result;
+        }
+
+        // Remove the effect of Segment()
+        function Unsegment(s) {
+            var result = s.replace(/\W/g, "");
+            return result;
+        }
+
+        // encode the ip address, port, and pairing key into one string
+        function Encode() {
+
+            // Assumes gIPAddress, gPort, and gPairingKey are already in the proper format
+
+            var encAddressAndPort = EncodeHexString(gIPAddress + gPort);
+
+            var encPairingKey = EncodeHexString(gPairingKey);
+
+            var result = encAddressAndPort + "Z" + encPairingKey;
+
+            result = Segment(result);
+
+            return result;
+        }
+
+        // map characters from A-based base 25 to base-16
+        // the string should have a "Z" in it separating the
+        function Decode(s) {
+
+            var s = Unsegment(s);
+
+            var sArray = s.split("Z");
+            if (sArray.length != 2)
+                return;
+
+            var left = DecodeHexString(sArray[0]);
+            var right = DecodeHexString(sArray[1]);
+
+            gIPAddress = left.substr(0, 8);
+            gPort = left.substr(8, 4);
+            gPairingKey = right;
+        }
+        
+        function displayCompositeCode() {
+            var ipaddress = getProperty("companion", "address");
+            var port = getProperty("companion", "port");
+            var pairingKey = getProperty("companion", "pairingKey");
+            
+            // input ip address is ddd.ddd.ddd.ddd
+            ipaddress = DecimalIpAddressToHex(ipaddress);
+            
+            // input port is decimal unsigned short
+            port = parseInt(port).toString(16);
+            
+            gIPAddress = ipaddress;
+            
+            gPort = port;
+
+            // input key is already 8 hex digits
+            gPairingKey = pairingKey;
+            
+            var composite = Encode();
+            
+            setProperty("defs", "code", composite); // set the display
+
+            Decode(composite); // test the decoding
+            
+            if (gPairingKey.toUpperCase() != pairingKey.toUpperCase() || gPort.toUpperCase() != port.toUpperCase() || gIPAddress.toUpperCase() != ipaddress.toUpperCase())
+              setProperty("defs", "error", "(Error Detected)");
+            else
+              setProperty("defs", "error", "");
+          }
+
+//]]>
+
+      </Script>
+    </Scripts>
+    <DataSource id="companion" uri="local://companion"/>
+    <Actions>
+      <Event type="onkey:1" action="AskClearPairings" />
+      <Event type="onkey:2" action="Diagnostics" />
+
+      <Event type="onenter" action="OnEnter" />
+
+      <Action name="EnableDiscovery" type="companion" data="discover"/>
+      <Action name="AskClearPairings" type="dialog" data="Clear All Pairings?" button1="OK" onclick1="ClearPairings" button2="Cancel" timeout="10"/>
+      <Action name="ClearPairings" type="companion" data="clear"/>
+
+      <Action name="OnEnter">
+        <Action type="invoke" data="RefreshDiscovery" />
+        <Action type="script" function="buildUrl" />
+        <Action type="script" function="displayCompositeCode" />
+      </Action>
+
+      <Action name="RefreshDiscovery">
+        <Action type="companion" data="discover"/>
+        <Action type="timeout" delay="10000" action="RefreshDiscovery" />
+      </Action>
+
+      <Action name="Diagnostics" type="conditional" source="diags" path="visible" data="true" match="hideDiags" nomatch="showDiags"/>
+      <Action name="showDiags" type="show" target="diags"/>
+      <Action name="hideDiags" type="hide" target="diags"/>
+
+    </Actions>
+
+    <Definitions id="defs">
+      <Definition type="literal" name="code" value=""/>
+      <Definition type="literal" name="error" value=""/>
+      <Definition type="binding" name="ip" value="{Binding Source=local://companion, Path=address}"/>
+      <Definition type="binding" name="port" value="{Binding Source=local://companion, Path=port}"/>
+      <Definition type="binding" name="key" value="{Binding Source=local://companion, Path=pairingKey}"/>
+    </Definitions>
+
+    <Panel class="Panel.Masthead" Height="120" Width="1280">
+      <Text class="Text.HeaderTitle" fontstyle="Bold42" foreground="@TextPrimary" left="80" top="40" width="1000">Companion Pairing</Text>
+      <Text class="Text.HeaderTitle" fontstyle="Reg24" foreground="@TextAltYellow" left="80" top="80" width="1000">Press 1 to delete all pairings, 2 for diagnostics</Text>
+    </Panel>
+
+    <Text wrap="true" fontstyle="Reg36" foreground="@TextPrimary" left="200" top="240" width="500">
+      Enter the code into your Companion Device
+    </Text>
+
+    <Text id="pairingKeyText" fontstyle="Reg72" foreground="@TextPrimary" left="0" top="500" justification="center" width="1280" >{code}</Text>
+
+    <Text fontstyle="Reg24" foreground="@TextPrimary" left="0" top="630" justification="center" width="1280" >IP Address: {ip}   Port: {port}   Key: {key}  {error}</Text>
+
+    <Text fontstyle="Reg72" foreground="@TextPrimary" left="0" top="500" justification="center" width="1280"></Text>
+
+    <VerticalFlowPanel visible="false" id="diags" left="20" top="20" width="500" Background="ARGB(255,0,0,0)">
+      <Text id="time" width="500" foreground="RGB(200,200,0)">IP Address:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="address"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Port:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="port"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Pairing Key:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="pairingKey"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Friendly Name:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="deviceDisplayName"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">USN:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="usn"></Text>
+      <Text width="500" foreground="RGB(200,200,0)" >Pairing Count:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="pairingCount" ></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Pairings:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="pairings"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Last Request Time:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="lastRequestTime"></Text>
+      <Text width="500" foreground="RGB(200,200,0)">Total Requests:</Text>
+      <Text left="30" width="500" datasource="companion" datapath="totalRequests"></Text>
+    </VerticalFlowPanel>
+    </MrmlPage >
+</uidescription>

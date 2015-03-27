@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file contains settings for DVB component of Mediaroom client.
+In comments below you will find possible options together with their default values. -->
+<DVBConfig>
+  <!-- MHEG is turned off by default as it is used mainly in UK. -->
+  <MHEG enable="false" />
+  
+  <!-- This setting makes client prompt user for scan after every reboot, 
+       even if old scan data file exists. Default turned off.-->
+  <!-- <forceScan enable="false"/> -->
+  
+  <!-- Prevents client from using more than one tuner even if device has more than one.
+       Disabled by default. -->
+  <!-- <forceOneTuner enable="false"/> -->
+
+  <!-- If turned on, makes client actively monitor DVB SI information changes (NIT and SDT) and 
+       prompts user to scan when significant change is detected. Turned off by default. -->
+  <!-- <SIBasedScanPrompt enable="false"/> -->
+  
+  <!-- Parameters of the UHF scan, expressed in Hz. Default values:
+    minFreqHz="470000000" maxFreqHz="862000000"  bandwidthHz="8000000" -->
+  <!-- <UHFScan minFreqHz="470000000" maxFreqHz="862000000"  bandwidthHz="8000000"/> -->
+  
+  <!-- Parameters of the VHF scan, expressed in Hz. Default values:
+    enable="false" minFreqHz="174000000" maxFreqHz="230000000"  bandwidthHz="7000000" 
+    Please note that VHF scanning is TURNED OFF BY DEFAULT. To reenable it, one must 
+    set enable="true" param -->
+  <VHFScan enable="true" minFreqHz="174000000" maxFreqHz="230000000"  bandwidthHz="7000000"/>
+  
+  <!-- Background scanning  uses times when receiver is idle to scan looking for changes in
+       DVB SI information. After picking up change it tries to apply it seamlessly.
+       Turned off by default. -->
+  <!-- <backgroundScanning enable="true" intervalMinutes="1440"/> -->
+  <!-- Turn off for satellite since periodic background scanning does not use manual transponders correctly -->
+  <backgroundScanning enable="false"/>
+
+
+  <!-- This the first number that will be assigned to channel without LCN 
+       (logical channel number) value assigned by broadcaster. It may be set to 1, 
+       the box will merge channels with and withoud LCN defined, giving priority to 
+       the ones with LCN and filling "gaps" with the rest. Default value 800. -->
+  <!-- <variantRange start="850" /> -->
+  
+  <!--
+This part of the file is parsed by DVBChannelFilter.cs
+It contains set of rules through which services (channels) are filtered. 
+How it works: each DVB service from the map is matched against rules, starting from the top of the file. 
+If the match is found, service is either included or excluded depending on matching markup and we proceed to the next one.
+If no match is found for the service, it is included.
+Sample rule set:
+<channelFilter>
+ 	 <include name="test" />  // Include services named "test"
+	 <exclude triplet="1.2.*"/>  // Exclude services from original network 1 and with transport stream id 2
+	 <exclude triplet="*.2.*"/>  // Exclude services from transport stream 2 (no mather which network and what service id)
+	 <include logicalChannelNumber="1"/> //Include services with logical channel number 1
+	 <exclude name="test" triplet="844.1.273" logicalChannelNumber="1"/> //Exclude only services having given name, triplet and logical channel nr
+	 <include type="0x01"/> // Inlucde TV 
+	 <include type="0x02"/> // Inlucde Radio 
+	<exclude triplet="*.*.*" /> // Exclude everything not matched before 
+</channelFilter>
+
+Description of the "type" field (from DVB specs):
+	0x00 - reserved for future use 
+	0x01 - digital television service (see note 1) 
+	0x02 - digital radio sound service (see note 2) 
+	0x03 - Teletext service 
+	0x04 - NVOD reference service (see note 1) 
+	0x05 - NVOD time-shifted service (see note 1) 
+	0x06 - mosaic service 
+	0x0A - advanced codec digital radio sound service   
+	0x0B - advanced codec mosaic service  
+	0x0C - data broadcast service 
+	0x0E - RCS Map (see EN 301 790 [7]) 
+	0x0F - RCS FLS (see EN 301 790 [7]) 
+	0x10 - DVB MHP service 
+	0x11 - MPEG-2 HD digital television service 
+	0x16 - Advanced codec SD digital television service 
+	0x17 - Advanced codec SD NVOD time-shifted service  
+	0x18 - Advanced codec SD NVOD reference service 
+	0x19 - Advanced codec HD digital television service 
+	0x1A - Advanced codec HD NVOD time-shifted service  
+	0x1B - Advanced codec HD NVOD reference service 
+-->
+  <channelFilter>
+  </channelFilter>
+</DVBConfig>

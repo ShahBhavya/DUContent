@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringtable culture="ar-AE" locale="ar-AE" basedOn="en-US" description="Arabic">
+  <string id="StringFormatDefault" value="•"/>
+  <string id="TripleTap.0" value=" 0"/>
+  <string id="TripleTap.1" value="1"/>
+  <string id="TripleTap.2" value="ABC2"/>
+  <string id="TripleTap.3" value="DEF3"/>
+  <string id="TripleTap.4" value="GHI4"/>
+  <string id="TripleTap.5" value="JKL5"/>
+  <string id="TripleTap.6" value="MNO6"/>
+  <string id="TripleTap.7" value="PQRS7"/>
+  <string id="TripleTap.8" value="TUV8"/>
+  <string id="TripleTap.9" value="WXYZ9"/>
+  <string id="TripleTapExtended.0" value=" 0)"/>
+  <string id="TripleTapExtended.1" value="1!"/>
+  <string id="TripleTapExtended.2" value="ABCabc2@"/>
+  <string id="TripleTapExtended.3" value="DEFdef3#"/>
+  <string id="TripleTapExtended.4" value="GHIghi4$"/>
+  <string id="TripleTapExtended.5" value="JKLjkl5%"/>
+  <string id="TripleTapExtended.6" value="MNOmno6^"/>
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&amp;"/>
+  <string id="TripleTapExtended.8" value="TUVtuv8*"/>
+  <string id="TripleTapExtended.9" value="WXYZwxyz9("/>
+
+  <!-- Start Menu -->
+  <string id="Start.Menu" value="القائمة"/>
+  <string id="Start.Television" value="بث تليفزيوني مباشر"/>
+  <string id="Start.Videos" value="فيديو حسب الطلب"/>
+  <string id="Start.RecordedTV" value="عروض تلفزيونية مسجلة"/>
+  <string id="Start.Search" value="بحث"/>
+  <string id="Start.Extras" value="عناصر إضافية"/>
+  <string id="Start.Settings" value="إعدادات"/>
+  <string id="Start.Videos.BrowseVideos" value="استعراض ملفات الفيديو"/>
+  <string id="Start.Videos.CurrentRentals" value="الإيجارات الحالية"/>
+  <string id="Start.Videos.Downloads" value="تنزيلات"/>
+  <string id="Start.Videos.Search" value="بحث"/>
+  <string id="Start.Television.WatchTV" value="مشاهدة التليفزبون"/>
+  <string id="Start.Television.Guide" value="الدليل"/>
+  <string id="Start.Television.RecordedTV" value="عروض تلفزيونية مسجلة"/>
+  <string id="Start.Television.VideoStore" value="متجر الفيديو"/>
+  <string id="Start.Television.Favorites" value="المفضلة"/>
+  <string id="Start.Television.Mosaic" value="Mosaic"/>
+  <string id="Start.Television.Teletext" value="قناة المعلومات"/>
+  <string id="Start.Television.CreditLimit" value="حد الائتمان"/>
+  <string id="Start.Television.Search" value="بحث"/>
+  <string id="Start.Television.SearchTitle" value="بحث"/>
+  <string id="Start.Television.SearchPeople" value="بحث عن أشخاص"/>
+  <string id="Start.Television.Movies" value="أفلام"/>
+  <string id="Start.Television.Sports" value="رياضة"/>
+  <string id="Start.Television.Kids" value="أطفال"/>
+  <string id="Start.Television.Categories" value="فئات"/>
+  <string id="Start.Search.Categories" value="فئات"/>
+  <string id="Start.Search.Sports" value="رياضة"/>
+  <string id="Start.Search.Kids" value="أطفال"/>
+  <string id="Start.Extras.BrowseExtras" value="استعراض العناصر الإضافية"/>
+  <string id="Start.Extras.OnlineSpot" value="تسليط الضوء عبر الإنترنت"/>
+  <string id="Start.Extras.MosaicApps" value="تطبيقات Mosaic"/>
+  <string id="Start.Extras.MediaSharing" value="الصور والموسيقى"/>
+  <string id="Start.Extras.Messages" value="الرسائل"/>
+  <string id="Start.RecordedTV.BrowseRecordings" value="عرض التسجيلات"/>
+  <string id="Start.RecordedTV.Scheduled" value="العناصر المجدولة"/>
+  <string id="Start.RecordedTV.AddRecording" value="إضافة تسجيل"/>
+  <string id="Start.Settings.General" value="عام"/>
+  <string id="Start.Settings.Television" value="تليفزيون"/>
+  <string id="Start.Settings.ParentalControl" value="المراقبة الأبوية"/>
+  <string id="Start.Settings.Account" value="الحساب"/>
+  <string id="Start.Settings.PowerOff" value="إيقاف التشغيل"/>
+  <string id="Start.Settings.Restart" value="إعادة تشغيل النظام"/>
+  <string id="Start.Settings.Hibernate" value="الإسبات"/>
+  <string id="Start.MenuForButtons" value="القائمة"/>
+
+  <!-- Program Info -->
+  <string id="ProgramInfo.ProgramInfo" value="معلومات البرنامج"/>
+  <string id="ProgramInfo.RecordingStopped" value="تم إيقاف هذا التسجيل"/>
+  <string id="ProgramInfo.Watch" value="مشاهدة"/>
+  <string id="ProgramInfo.CancelRental" value="إلغاء الإيجار"/>
+  <string id="ProgramInfo.RecordProgram" value="تسجيل البرنامج"/>
+  <string id="ProgramInfo.Erase" value="مسح"/>
+  <string id="ProgramInfo.KeepUntil" value="الاحتفاظ حتى"/>
+  <string id="ProgramInfo.StopRecording" value="إيقاف التسجيل"/>
+  <string id="ProgramInfo.RecordSeries" value="تسجيل المسلسل"/>
+  <string id="ProgramInfo.CancelSeries" value="إلغاء المسلسل"/>
+  <string id="ProgramInfo.RecordEpisode" value="تسجيل الحلقة"/>
+  <string id="ProgramInfo.OtherShowings" value="المزيد من أوقات العرض"/>
+  <string id="ProgramInfo.AudioLanguages" value="تبديل الصوت"/>
+  <!-- {0}: the audio language we are now displaying-->
+  <string id="ProgramInfo.AudioLanguages.Changed" value="تم تغيير لغة الصوت إلى {0}"/>
+  <string id="ProgramInfo.SubtitleLanguages" value="الترجمة"/>
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="تم تغيير لغة الترجمة إلى {0}"/>
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="تم إيقاف الترجمة"/>
+  <string id="ProgramInfo.SecondaryAudio" value="تبديل الصوت"/>
+  <string id="ProgramInfo.RecordSetting" value="إعدادات التسجيل"/>
+  <string id="ProgramInfo.SeriesSetting" value="إعدادات المسلسل"/>
+  <string id="ProgramInfo.SeriesInfo" value="معلومات المسلسل"/>
+  <string id="ProgramInfo.DontRecord" value="عدم التسجيل"/>
+  <string id="ProgramInfo.ResolveConflict" value="حل التعارض"/>
+  <string id="ProgramInfo.RecordingDeleted" value="تم مسح التسجيل"/>
+  <!-- {0}, {1}, {2}, {3} are the same thing. It is just a setting in TV2Config to show the long description.   It is currently set to show the description of the program four times. -->
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}"/>
+  <!-- This is used in several places. {0} is the channel. {1} is always the string "Bullet" listed above in here   {2} is the time in text form-->
+  <string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}"/>
+  <!-- {0}: channel information. {1}:call letters of the channel. -->
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}"/>
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}"/>
+  <!-- Doesn't seem to be used -->
+  <string id="ProgramInfo.Series.Time" value="{0}, {1}"/>
+    <string id="ProgramInfo.Series.RecordingScheduledZeroCanceled" value="تم إلغاء المسلسل بناءً على طلب المستخدم"/>
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="0 مجدول"/>
+  <string id="ProgramInfo.Series.RecordingConflictedOne" value=" (متعارض 1)"/>
+  <!-- {0}: the number of recordings conflicted. -->
+  <string id="ProgramInfo.Series.RecordingConflictedMany" value=" (متعارض {0})"/>
+  <string id="ProgramInfo.Series.RecordingConflictedAll" value="متعارض {0}"/>
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="مجدول 1"/>
+  <!-- {0}: the number of recordings scheduled. -->
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value="{0} مجدول"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsZero" value="0 مسجل"/>
+  <string id="ProgramInfo.Series.ExistingRecordingsOne" value="1 مسجل"/>
+  <!-- {0}: the number of existings recordings. -->
+  <string id="ProgramInfo.Series.ExistingRecordingsMany" value="{0} مسجل"/>
+  <string id="ProgramInfo.Done" value="تم"/>
+  <string id="ProgramInfo.Play" value="تشغيل"/>
+  <string id="ProgramInfo.Pending" value="معلق..."/>
+  <string id="ProgramInfo.PendingAppendage" value="   (معلق)"/>
+  <string id="ProgramInfo.Rent" value="استئجار"/>
+  <string id="ProgramInfo.PurchaseInfo" value="معلومات الشراء"/>
+  <string id="ProgramInfo.StartOver" value="البدء من جديد"/>
+  <string id="ProgramInfo.ResumePlay" value="استئناف التشغيل"/>
+  <string id="ProgramInfo.MoreLikeThis" value="المزيد من هذا"/>
+  <string id="ProgramInfo.WatchPreview" value="معاينة المشاهدة"/>
+  <string id="ProgramInfo.UnlockAdult" value="إلغاء تأمين"/>
+  <string id="ProgramInfo.NoCastInfomation" value="معلومات طاقم العمل غير متوفرة"/>
+  <string id="ProgramInfo.ProgramDateFormatString" value="ddd &#8206;dd/MM&#8207;, "/>
+  <string id="ProgramInfo.ProgramDateNoDayFormatString" value="&#8206;dd/MM&#8207;, "/>
+  <string id="ProgramInfo.StartTimeFormatString" value="t"/>
+  <string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t"/>
+  <string id="ProgramInfo.EndTimeFormatString" value="t"/>
+  <string id="ProgramInfo.AirDateFormatString" value="&#8206;dd/MM/yyyy"/>
+  <string id="ProgramInfo.VODAvailableDate" value="hh:mm tt dd MM yyyy"/>
+  <string id="ProgramInfo.VODAvailableUntil" value="متوفر حتى {0}"/>
+  <!-- {0}: the extra text information and {1} is the duration-->
+  <string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}."/>
+  <string id="ProgramInfo.SeriesString" value="المسلسل"/><!-- add \ if using general category -->
+  <string id="ProgramInfo.MovieString" value="الفيلم"/><!-- add \ if using general category --> <!-- ProgramInfo.GeneralCategory is optional (you can replace it with an empty string). If you do, also remove backslash from ProgramInfo.SeriesString and ProgramInfo.MovieString. -->
+  <string id="ProgramInfo.GeneralCategory" value=""/>
+  <string id="ProgramInfo.OriginalAirDateString" value="تاريخ البث الأصلي على الهواء: {0}"/>
+  <string id="ProgramInfo.OriginalTitle" value="العنوان الأصلي: {0}"/>
+  <!-- {0}: the release year-->
+  <string id="ProgramInfo.ReleasedString" value="تم الإصدار {0}"/>
+
+  <string id="ProgramInfo.ClosedCaptioning" value="CC"/>
+  <string id="ProgramInfo.Waiting" value="الحصول على معلومات البرنامج"/>
+  <string id="ProgramInfo.AcceptOffer" value="استئجار"/>
+  <string id="ProgramInfo.MoreInfo" value="معلومات البرنامج"/>
+  <string id="ProgramInfo.DeclineOffer" value="عدم الإيجار"/>
+  <string id="ProgramInfo.DeclineOffer.Free" value="عدم التشغيل"/>
+  <string id="ProgramInfo.DeclineSubscription" value="عدم الاشتراك"/>
+  <string id="ProgramInfo.Unavailable" value="لا تتوفر معلومات حالياً حول البرنامج."/>
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="لا يتم تسجيل الحلقة بناءً على طلب المستخدم."/>
+  <string id="ProgramInfo.CanceledInstance" value="لن يتم تسجيل الحلقة بناءً على طلب المستخدم."/>
+  <string id="ProgramInfo.DirectedBy" value="إخراج "/>
+  <string id="ProgramInfo.Menu.Summary" value="ملخص"/>
+  <string id="ProgramInfo.Menu.Details" value="تفاصيل"/>
+  <string id="ProgramInfo.Menu.Cast" value="بحث عن أشخاص"/>
+  <string id="ProgramInfo.Cast.Cast" value="الممثلون"/>
+  <string id="ProgramInfo.Cast.Hosts" value="استضافة بواسطة"/>
+  <string id="ProgramInfo.Cast.GuestStars" value="ضيوف الشرف"/>
+  <string id="ProgramInfo.Cast.Directors" value="إخراج"/>
+  <string id="ProgramInfo.Cast.Writers" value="تأليف"/>
+  <string id="ProgramInfo.Cast.Producers" value="إنتاج"/>
+  <string id="ProgramInfo.Download" value="تنزيل"/>
+  <string id="ProgramInfo.Download.Message" value="هل ترغب بالفعل في تنزيل {0}؟"/>
+  <string id="ProgramInfo.Download.Message.Yes" value="تنزيل"/>
+  <string id="ProgramInfo.Download.Message.No" value="عدم التنزيل"/>
+  <string id="ProgramInfo.CancelDownload" value="عدم التنزيل"/>
+  <string id="ProgramInfo.CancelDownload.Message" value="هل ترغب بالفعل في إلغاء تنزيل {0}؟"/>
+  <string id="ProgramInfo.CancelDownload.Message.Yes" value="إلغاء التنزيل"/>
+  <string id="ProgramInfo.CancelDownload.Message.No" value="عدم الإلغاء"/>
+  <string id="ProgramInfo.EraseDownload" value="مسح"/>
+  <string id="ProgramInfo.EraseDownload.Message" value="هل ترغب بالفعل في مسح {0}؟"/>
+  <string id="ProgramInfo.EraseDownload.Message.Yes" value="مسح"/>
+  <string id="ProgramInfo.EraseDownload.Message.No" value="عدم المسح"/>
+  <string id="ProgramInfo.MoveToTop" value="التنزيل أولاً"/>
+  <string id="ProgramInfo.MoveToTop.Message" value="هل ترغب بالفعل في تنزيل {0} أولاً؟"/>
+  <string id="ProgramInfo.MoveToTop.Message.Yes" value="التنزيل أولاً"/>
+  <string id="ProgramInfo.MoveToTop.Message.No" value="عدم التنزيل أولاً"/>  
+  <string id="ProgramInfo.PlayLocal" value="التشغيل المحلي"/>
+  <string id="ProgramInfo.DownloadUntil" value="متوفر حتى {0}"/>
+  <string id="ProgramInfo.AvailableUntil" value="متوفر حتى {0}"/>
+  <string id="ProgramInfo.AvailableAt" value="متوفر للاستئجار في {0}"/>  
+  <string id="ProgramInfo.RentedUntil" value="انتهاء الاستئجار في {0}"/>
+  <string id="ProgramInfo.DownloadStatus.Scheduled" value="مجدول للتنزيل."/>
+  <string id="ProgramInfo.DownloadStatus.Downloading" value="يتم التنزيل حاليًا."/>
+  <string id="ProgramInfo.DownloadStatus.Percent" value=" اكتمل {0}%."/>
+  <string id="ProgramInfo.DownloadStatus.Failed" value="سيتم الاستئناف عند التوفر."/>
+  <string id="ProgramInfo.DownloadStatus.Downloaded" value="تم التنزيل."/>
+  <string id="ProgramInfo.DownloadMissing" value="لم يتم تنزيل التأجير."/>
+  
+  <string id="SeriesInfo.Menu.Summary" value="إعدادات"/>
+  <string id="SeriesInfo.ChangeSettings" value="تغيير الإعدادات"/>
+
+  <!-- Parental Control -->
+  <string id="ParentalControl.ForbiddenPinMessage" value="غير مسموح برقم التعريف الشخصي هذا. الرجاء إدخال رقم تعريف شخصي آخر."/>
+  <!-- {0}: the list of unallowed pins-->
+  <string id="ParentalControl.ForbiddenPinListMessage" value="غير مسموح بأرقام التعريف الشخصي التالية: {0}."/>
+  <string id="ParentalControl.IncorrectPinMessage" value="رقم التعريف الشخصي الذي أدخلته غير صحيح. أدخل رقم التعريف الشخصي المكون من {0} أرقام مرة أخرى."/>
+  <string id="ParentalControl.PinRetryLimitExceeded" value="لقد تجاوزت عدد مرات إعادة إدخال رقم التعريف الشخصي."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.Adult" value="لقد تجاوزت عدد مرات إعادة إدخال رقم التعريف الشخصيالخاص بمحتوى البالغين."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="الرجاء إعادة المحاولة خلال {0}."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater.Ambiguous" value="الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="اتصل بهاتف رقم 12121-555-800-1 لإعادة التعيين."/>
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator.Adult" value="اتصل بهاتف رقم  12121-555-800-1 لإعادة التعيين."/>
+  <string id="ParentalControl.ForgotPinMessage" value="إذا نسيت رقم التعريف الشخصي، اتصل بهاتف رقم 112121-555-800-1 لإعادة تعيينه."/>
+  <string id="ParentalControl.NoPresetPinMessage" value="لا يوجد لديك رقم تعريف شخصي تم تعيينه مسبقًا. اتصل برقم هاتف 12121-555-800-1 لتعيينه."/>
+  <!-- {0}: the time that your pin has been disabled until (short time)-->
+  <string id="ParentalControl.PinDisabledMessage" value="تم تعطيل رقم التعريف الشخصي حتى {0}."/>
+  <!-- {0}: (day) , {1}: the time your pin has been disabled (day and time)-->
+  <string id="ParentalControl.PinDisabledMessage.Later" value="تم تعطيل رقم التعريف الشخصي حتى {0} {1}."/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="تم تعطيل رقم التعريف الشخصي. الرجاء الاتصال بخدمة العملاء."/>
+  <string id="ParentalControl.PinDisabledMessage.Indefinite.Adult" value="تم تعطيل رقم التعريف الشخصي الخاص بمحتوى البالغين. الرجاء الاتصال بخدمة العملاء."/>  
+  <string id="ParentalControl.ChoosePinMessage" value="اختر رقم التعريف الشخصي المكون من {0} أرقام لحظر عرض البرامج المحددة."/>
+  <string id="ParentalControl.PinsDoNotMatch" value=" رقما التعريف الشخصي غير متطابقين.  الرجاء إعادة إدخال رقمي التعريف الشخصي."/>
+  <string id="ParentalControl.EnterPinMessage" value="لتغيير إعدادات التأمين الأبوي، أدخل رقم التعريف الشخصي المكون من {0} أرقام."/>
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="تم تغيير طول رقم التعريف الشخصي إلى {0}.
+أدخل رقم التعريف الشخصي المكون من {1} أرقام ثم تابع لإنشاء رقم تعريف شخصي جديد مكون من {0} أرقام."/>
+  <string id="ParentalControl.ChooseANewPin" value="اختر رقم تعريف شخصي جديدًا مكونًا من {0} أرقام."/>
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="ستحتاج إلى إدخال رقم التعريف الشخصي لتتمكن من عرض برنامج محظور."/>
+  <string id="ParentalControl.EnterPinFirstTime" value="أدخل رقم تعريف شخصي مكون من {0} أرقام باستخدام جهاز التحكم عن بعد."/>
+  <string id="ParentalControl.EnterPin" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام"/>
+  <!-- unused? -->
+  <string id="ParentalControl.EnterPin.Purchase" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام للسماح بالشراء."/>
+  <string id="ParentalControl.EnterPin.Unlock" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام لإلغاء التأمين."/>
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام لإلغاء تأمين المحتوى المخصص للبالغين."/>
+  <!-- unused?-->
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام للتحكم في تدفق البرنامج."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="أدخل رقم التعريف الشخصي الخاص بالتأجير المكون من {0} أرقام للسماح بالشراء."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام للسماح بالشراء. هذا المحتوى خاص بالبالغين."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="أدخل رقم التعريف الشخصي الخاص بالمراقبة الأبوية المكون من {0} أرقام للسماح بالشراء."/>
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="أدخل رقم التعريف الشخصي الخاص بالمراقبة الأبوية المكون من {0} أرقام للسماح بالشراء. هذا المحتوى خاص بالبالغين."/>
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام لتتمكن من تسجيل هذا البرنامج."/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="رقم التعريف الشخصي غير صحيح. أدخل رقم التعريف الشخصي الخاص بالمراقبة الأبوية المكون من {0}."/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="رقم التعريف الشخصي غير صحيح. أدخل رقم التعريف الشخصي الخاص بمحتوى البالغين المكون من {0} أرقام مرة أخرى."/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="رقم التعريف الشخصي غير صحيح. أدخل رقم التعريف الشخصي الخاص بمحتوى البالغين المكون من {0} أرقام ."/>
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="رقم التعريف الشخصي غير صحيح. أدخل رقم التعريف الشخصي المكون من {0} أرقام."/>
+  <!-- This string doesn't seem to be used/displayed-->
+  <string id="ParentalControl.EnterPin.RetryCount" value="متبقٍ {0} محاولات."/>
+  <string id="ParentalControl.ConfirmPin" value="قم بتأكيد رقم التعريف الشخصي المكون من {0} أرقام"/>
+  <string id="ParentalControl.PConServiceUnavailable" value="إعدادات رقم التعريف الشخصي غير متوفرة. الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="ParentalControl.PConPinUnavailable" value="لم يتم بعد تعيين رقم تعريف شخصي.  انتقل إلى قائمة الإعدادات لتعيينه."/>
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="لم يتم بعد تعيين رقم تعريف شخصي خاص بمحتوى البالغين.  انتقل إلى قائمة الإعدادات لتعيينه."/>
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="لم يتم بعد تعيين رقم تعريف شخصي خاص بالإيجار.  انتقل إلى قائمة الإعدادات لتعيينه."/>
+  <string id="ParentalControl.PConPinLengthChanged" value="تم تغيير طول رقم التعريف الشخصي إلى {0}.  انتقل إلى قائمة الإعدادات لتعيين رقم تعريف شخصي جديد."/>
+  <string id="EditText.SampleCharacter" value="0"/>
+  <!-- unused? -->
+  <string id="ParentalControl.GotoParentalControlSettings" value="أدخل رقم التعريف الشخصي المكون من {0} أرقام للانتقال إلى إعدادات المراقبة الأبوية."/>
+  <string id="ParentalControl.Title.ChangePin" value="تغيير رقم التعريف الشخصي"/>
+  <string id="ParentalControl.Title.UnlockPCon" value="إلغاء تأمين"/>
+  <string id="ParentalControl.Title.ParentalLocking" value="التأمين الأبوي"/>
+  <string id="ParentalControl.Title.PurchaseLocking" value="تأمين الإيجار"/>
+  <string id="ParentalControl.Title.AdultLocking" value="تأمين البالغين"/>
+  <string id="ParentalControl.Title.BlockMovieRatings" value="تأمين تصنيفات الأفلام"/>
+  <string id="ParentalControl.Title.MainMenu" value="المراقبة الأبوية"/>
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="تأمين تصنيفات الأفلام"/>
+  <string id="ParentalControl.Blocked" value="تم تأمين: "/>
+  <string id="ParentalControl.Selected" value="تم تحديد: "/>
+  <string id="ParentalControl.NonBlocked" value="غير مؤمن"/>
+  <string id="ParentalControl.AndAbove" value=" وأعلى"/>
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="تصنيفات الأفلام/البث التليفزيوني"/>
+  <!-- {0}: the Presentable name in the rating sytem is placed here. The presentable name string uses the actual ratingSystemName-->
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value="{0}"/>
+  <!-- {0}: the rating's long name and {1} is the rating's description-->
+  <string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0}
+{1}"/>
+  <string id="ParentalControl.RatingSystems.Unrated" value="بث تليفزيوني غير مصنف"/>
+  <string id="ParentalControl.Purchasing.PinRequired" value="يلزم إدخال رقم التعريف الشخصي"/>
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="لا يلزم إدخال رقم التعريف الشخصي"/>
+  <string id="ParentalControl.Applications.PinRequired" value="يلزم إدخال رقم التعريف الشخصي"/>
+  <string id="ParentalControl.Applications.PinNotRequired" value="لا يلزم إدخال رقم التعريف الشخصي"/>
+  <string id="ParentalControl.Dialog.SaveSettings" value="هل تريد حفظ التغييرات التي قمت بإجرائها على هذه الإعدادات؟"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="حفظ"/>
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="عدم الحفظ"/>
+  <string id="ParentalControl.Dialog.ResetPCon" value="هل تريد إعادة تعيين رقم التعريف الشخصي المكون من {0} أرقام وإيقاف استخدام عناصر التأمين الأبوية؟"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="إعادة تعيين"/>
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="عدم إعادة التعيين"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="هل تريد إعادة تعيين رقم التعريف الشخصي المكون من {0} أرقام وإيقاف استخدام عناصر الإيجار؟"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="إعادة تعيين"/>
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="عدم إعادة التعيين"/>
+  <string id="ParentalControl.Notification.PinChanged" value="تم تغيير رقم التعريف الشخصي."/>
+  <!-- {0}: A timespan,-->
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="تم إلغاء التأمين لـ {0}"/>
+  <!-- {0}: a timespan that is formatted by period and culture-->
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="إلغاء تأمين كل البث التليفزيوني لـ {0}"/>
+  <string id="ParentalControl.RatingPageInstruction" value="تنطبق عناصر تأمين التصنيفات على ملفات الفيديو المؤجرة من متجر الفيديو وبرامج البث التليفزيوني المباشر والبرامج المسجلة. في حالة عدم توفر أي تصنيفات، لن يتم حظر العرض."/>
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="إعادة تعيين كافة عناصر التأمين الأبوية"/>
+  <string id="ParentalControl.MenuItemText.DoNothing" value="عدم إعادة التعيين"/>
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="تغيير رقم التعريف الشخصي"/>
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="إيقاف التأمين"/>
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="مسح رقم التعريف الشخصي الخاص بالإيجار"/>
+  <string id="ParentalControl.MenuItemText.Ratings" value="التصنيفات"/>
+  <string id="ParentalControl.MenuItemText.MovieRating" value="تصنيفات الأفلام"/>
+  <string id="ParentalControl.MenuItemText.Done" value="تم"/>
+  <string id="ParentalControl.MenuItemText.Lock" value="تأمين"/>
+  <string id="ParentalControl.ListItemText.UnratedContent" value="محتوى غير مصنف"/>
+  <string id="ParentalControl.ListItemText.Purchasing" value="إيجارات"/>
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="برامج خاصة بالبالغين"/>
+  <string id="ParentalControl.ListItemText.Applications" value="تطبيقات"/>
+  <string id="ParentalControl.ListItemText.Edit" value="تغيير"/>
+  <!-- {0} is the channel number. {1] is the call letter. {2] is the number of other blocked channels   Applies to the following 3 strings-->
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value="{0} {1} و {2} أخرى"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value="{0} {1} و 1 أخرى"/>
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}"/>
+  <string id="ParentalControl.ListItemText.Channels" value="القنوات"/>
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="اضغط OK (موافق) لإلغاء التأمين."/>
+  <!-- {0}: the program name. Applies to next two strings. -->
+  <string id="ParentalControl.Dialog.UnlockChoice" value="اختر كيفية إلغاء تأمين {0}"/>
+  <string id="ParentalControl.Dialog.UnlockChannel" value="هل تريد إلغاء تأمين القناة؟"/>
+  <string id="ParentalControl.Dialog.UnlockProgram" value="هل تريد إلغاء تأمين {0}؟"/>
+  <string id="ParentalControl.Dialog.ThisProgram" value="هذا البرنامج"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="إلغاء تأمين هذا البرنامج"/>
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="إلغاء تأمين هذه القناة"/>
+  <string id="ParentalControl.Dialog.DontUnlock" value="عدم إلغاء التأمين"/>
+  <string id="ParentalControl.Dialog.Unlock" value="إلغاء تأمين"/>
+  <string id="ParentalControl.Dialog.GoToSettings" value="إعدادات"/>
+  <string id="ParentalControl.LockedPIP.Text" value="تم تأمين البرنامج"/>
+  <string id="ParentalControl.Settings.LockChannels" value="تأمين القنوات"/>
+  <string id="ParentalControl.Settings.UnlockAll" value="إلغاء تأمين الكل"/>
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="عرض ما تم تأمينه فقط"/>
+  <string id="ParentalControl.Settings.ViewAllChannels" value="عرض كافة القنوات"/>
+  <string id="ParentalControl.Settings.LockPurchasing" value="تأمين الإيجار"/>
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="عند التأمين، سيتم طلب رقم التعريف الشخصي المكون من {0} أرقام قبل أن تتمكن من بدء إيجار."/>
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="تأمين البرامج الخاصة بالبالغين"/>
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="عند التأمين، سيتم طلب رقم التعريف الشخصي المكون من {0} لعرض برامج البالغين."/>
+  <string id="ParentalControl.Settings.LockApplications" value="تأمين التطبيقات"/>
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="لا يلزم إدخال رقم تعريف شخصي للتطبيقات."/>
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="عند التحديد، ستتم المطالبة بإدخال رقم التعريف الشخصي المكون من {0} أرقام قبل أن يمكن تشغيل التطبيق."/>
+  <string id="ParentalControl.Settings.LockUnratedContent" value="تأمين المحتوى غير المصنف"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="تأمين البرامج غير المصنفة"/>
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="بعض البرامج، مثل الأفلام والعروض التليفزيونية التعليمية التي تم  إصدارها قبل عام 1960 غير مصنفة."/>
+  <string id="ParentalControl.Adult.ContentBlocked" value="محتوى بالغين تم تأمينه"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.Adult.Unlocked" value="تم تأمين محتوى البالغين لمدة {0}"/>
+  <string id="ParentalControl.Adult.UnlockExpired" value="تمت إعادة تأمين محتوى البالغين"/>
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="تم تمكين تأمين محتوى البالغين"/>
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="تم تعطيل تأمين محتوى البالغين"/>
+  <!-- {0}: a timespan -->
+  <string id="ParentalControl.PinRetry.Disabled" value="تم تعطيل رقم التعريف الشخصي لـ {0}"/>
+  <string id="ParentalControl.PinRetry.Disabled.Adult" value="تم تعطيل رقم التعريف الشخصي الخاص بمحتوى البالغين لـ {0}"/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="تم تعطيل رقم التعريف الشخصي الرجاء الاتصال بخدمة العملاء."/>
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite.Adult" value="تم تعطيل رقم التعريف الشخصي الخاص بمحتوى البالغين. الرجاء الاتصال بخدمة العملاء."/>
+  <string id="ParentalControl.PinRetry.Enabled" value="تمت إعادة تمكين رقم التعريف الشخصي"/>
+  <string id="ParentalControl.PinRetry.Enabled.Adult" value="تمت إعادة تمكين رقم التعريف الشخصي الخاص بمحتوى البالغين"/>
+
+    <!-- Settings Menu -->
+  <string id="Settings.Menu" value="إعدادات"/>
+  <string id="Settings.General" value="عام"/>
+  <string id="Settings.Television" value="تليفزيون"/>
+  <string id="Settings.ParentalControl" value="المراقبة الأبوية"/>
+  <string id="Settings.Account" value="الحساب"/>
+  <string id="Settings.General.ParentalControl" value="التأمين الأبوي"/>
+  <string id="Settings.General.PurchaseLocking" value="تأمين الإيجار"/>
+  <string id="Settings.General.AdultLocking" value="تأمين البالغين"/>
+  <string id="Settings.General.SystemSounds" value="المؤثرات الصوتية للنظام"/>
+  <string id="Settings.General.Language" value="لغة العرض على الشاشة"/>
+  <string id="Settings.General.SystemInformation" value="معلومات النظام"/>
+  <string id="Settings.General.AudioLanguage" value="لغة الصوت"/>
+  <string id="Settings.General.RFOutputChannel" value="قناة خرج RF"/>
+  <string id="Settings.General.SecondaryAudio" value="صوت ثانوي"/>
+  <string id="Settings.General.EnhancedHdmiSecurity" value="الأمان"/>
+  <string id="Settings.Television.CustomizeChannels" value="تخصيص دليل القنوات"/>
+  <string id="Settings.Television.ChannelReordering" value="إعادة ترتيب القنوات"/>
+  <string id="Settings.Television.FavoriteChannels" value="إعداد المفضلة"/>
+  <string id="Settings.Television.GuideStyle" value="نمط الدليل"/>
+  <string id="Settings.Television.DttAutomaticChannelUpdate" value="تحديث تلقائي لقنوات DTT"/>
+  <string id="Settings.Television.GeneralRecording" value="إعدادات التسجيل العامة"/>
+  <string id="Settings.Television.SeriesRecording" value="إعدادات تسجيل المسلسلات"/>
+  <string id="Settings.Television.ChannelScanning" value="المسح بحثًا عن قنوات DTT"/>
+  <string id="Settings.Television.SignalStrength" value="قوة إشارة DTT"/>
+  <string id="Settings.Television.SignalStrength.Check" value="متابعة"/>
+  <string id="Settings.Television.SignalStrength.Cancel" value="إلغاء الأمر"/>
+  <string id="Settings.Television.SignalStrength.Description" value="قم بفحص قوة الإشارات لقنوات DTT.    أثناء فحص قوة الإشارات، سيتم إيقاف أي تسجيلات عبر وحدات DVR قيد التقدم ولن يتم بدء تشغيل التسجيلات المجدولة.
+
+ستستأنف وحدات DVR التسجيل عند الانتهاء من ذلك."/>
+  <string id="Settings.Television.AspectRatio" value="الدقة العالية ونسبة الارتفاع إلى العرض للشاشة"/>
+  <string id="Settings.Television.ClosedCaption" value="شرح مكتوب لأحداث العرض"/>
+  <string id="Settings.Television.Overscan" value="حجم العرض على الشاشة"/>
+  <string id="Settings.Account.BillPresentment" value="معلومات الدفع"/>
+  <string id="Settings.Account.SelfProvisioning" value="القنوات والحزم"/>
+  
+  <!-- Startup -->
+  <string id="ClientInitializationErrorString" value="خطأ في تهيئة العميل"/>
+  <string id="ClientAccountUnavailableString" value="الحساب غير متوفر."/>
+  <!-- Account Disabled notification dialog, {0}: reboot timeout in seconds -->
+  <string id="Account.Disabled.NotificationDialogString" value="تم تعطيل الحساب وستتم إعادة تشغيل التليفزيون خلال {0} ثانية.  الرجاء الاتصال بخدمة العملاء."/>
+  <string id="Account.Disabled.RebootNowButton" value="إعادة التشغيل"/>
+  <!-- {0}: the Bootstrap host-->
+  <string id="ClientUnprovisionedString" value="تم إلغاء إعداد العميل في {0}."/>
+  <string id="QuitClientString" value="إنهاء العميل"/>
+  <string id="BootStrapError" value="حدوث مشكلة أثناء الاتصال بالخدمة."/>
+  <string id="SelfProvisioningAppName" value="http://__selfProvisioning"/>
+  <string id="SelfProvisioningLoadingText" value="الاتصال بخادم التسجيل."/>
+  
+  <!-- Guide -->
+  <string id="Guide.Guide" value="الدليل"/>
+  <string id="Guide.NoInfo" value="لا توجد معلومات متوفرة"/>
+  <string id="Guide.Loading" value="الحصول على معلومات"/>
+  <string id="Guide.Upcoming" value="العروض القادمة: {0}"/>
+  <!-- {0}: the program title-->
+  <string id="Guide.PPV" value="عروض PPV: {0}"/>
+  <string id="Guide.NoDescription" value=""/>
+  <string id="Guide.NoGuideData" value="بيانات الدليل غير متوفرة حاليًا"/>
+  <string id="Guide.ShowEnded" value="انتهى العرض"/>
+  <string id="Guide.ShowOnInOneMinute" value="يبدأ خلال دقيقة واحدة"/>
+  <!-- {0}: the integer in minutes-->
+  <string id="Guide.ShowOnSoon" value="يبدأ خلال {0} دقائق"/>
+  <!-- {0}: the start time (utc datetime) of the program formatted properly-->
+  <string id="Guide.ShowOnLaterToday" value="يبدأ في {0} "/>
+  <string id="Guide.ShowOnTomorrow" value="يبدأ غدًا"/>
+  <!-- {0}: the integer number of days. -->
+  <string id="Guide.ShowOnDaysLater" value="يبدأ خلال {0} يوم"/>
+  <!--{0}: the start time (utc datetime) of the program formatted propery -->
+  <string id="Guide.ShowStarted" value="بدأ في {0}"/>
+  <string id="Guide.VodGroup" value="فيديو حسب الطلب"/>
+  <string id="Guide.RdpGroup" value="تطبيقات"/>
+  <string id="Guide.SVodGroup" value="قنوات متميزة"/>
+  <string id="Guide.UrlGroup" value="تطبيقات"/>
+  <!-- {0}, {1} are channel numbers (ChannelNumber.ToString())-->
+  <string id="Guide.ChannelRange" value="{0}-{1}"/>
+  <string id="Guide.Options.Title" value="عرض القنوات"/>
+  <string id="Guide.Options.ShowAll" value="كافة القنوات"/>
+  <string id="Guide.Options.ShowFavorites" value="القنوات المفضلة"/>
+  <string id="Guide.Options.EditFavorites" value="تغيير المفضلة"/>
+  <string id="Guide.Options.GuideStyle" value="نمط الدليل"/>
+  <string id="Guide.Options.Jump" value="انتقال سريع إلى"/>
+  <string id="Guide.Options.NextWeek" value="الأسبوع التالي"/>
+  <string id="Guide.Options.Tonight" value="الليلة"/>
+  <string id="Guide.Options.Tomorrow" value="غدًا"/>
+  <string id="Guide.Options.JumpFormatString" value="dddd &#8206;dd/MM"/>
+  <string id="Guide.ListGuideInstructions" value="اضغط على OK (موافق) لعرض دليل القوائم لهذه القناة."/>
+  
+  <!-- Favorites -->
+  <string id="Favorites.Favorites" value="المفضلة"/>
+  <string id="Settings.FavoriteChannels" value="القنوات المفضلة"/>
+  <string id="Settings.FavoriteChannels.Description" value="اضغط على OK (موافق) لإضافة القنوات أو إزالتها من دليل المفضلة."/>
+  <string id="Settings.FavoriteChannels.ClearAll" value="إلغاء تحديد الكل"/>
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="عرض القنوات المحددة"/>
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="عرض الكل"/>
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="لم تقم بعد بإعداد قائمة بالقنوات المفضلة."/>
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="تعتبر القنوات المفضلة طريقة مريحة لعرض الدليل وتصفيته فقط بالقنوات التي تشاهدها بشكل متكرر."/>
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="إعداد قائمة بالقنوات المفضلة"/>
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="عدم إعداد قائمة"/>
+  
+  <!-- VideoFullScreen -->
+  <string id="VideoFullScreen.CanPurchase.Info" value="اضغط على OK (موافق) للحصول على معلومات حول الإيجار"/>
+  <!-- {0}: the price formatted and {1}: rental time from minute formatted properly-->
+  <string id="VideoFullScreen.CanPurchase.Price" value="{0} مقابل إيجار لمدة {1}"/>
+  <!-- {0}: slide show title, and {1}: current image title of the slide show. -->
+  <string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}"/>
+  <!-- {0}: current seek position of the seek bar. {1}: max seek position-->
+  <string id="VideoFullScreen.SeekPositionXofY" value="{0} لـ {1}"/>
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="اضغط على OK (موافق) لاستعراض قائمة بملفات الفيديو"/>
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="اضغط على OK (موافق) لاستعراض قائمة بالتطبيقات"/>
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="اضغط على OK (موافق) لاستعراض قائمة بالتسجيلات"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="اضغط على OK (موافق) لبدء تشغيل {0}"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="اضغط على &quot;تشغيل&quot; لمشاهدة المعاينة الخاصة بـ {0}"/>
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="تغيير القنوات لعرض البرامج الأخرى"/>
+  <string id="VideoFullScreen.StatusBar.Photos" value="اضغط على OK (موافق) لمشاهدة عرض الشرائح"/>
+  <!-- {0}: program title-->
+  <string id="VideoFullScreen.StatusBar.SVOD" value="اضغط على OK (موافق) لمزيد من المعلومات حول {0}"/>
+  <string id="VideoFullScreen.OnNow" value="الآن"/>
+  <string id="VideoFullScreen.OnNext" value="التالي"/>
+  <string id="VideoFullScreen.OnLater" value="لاحقاً"/>
+  <string id="VideoFullScreen.ThankYou" value="شكرًا لقيامك بالاستئجار"/>
+  <string id="PleaseWait" value="الرجاء الانتظار ..."/>
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="البرنامج متوفر في &quot;فيديو حسب الطلب&quot;"/>
+  <string id="VideoFullScreen.Options.AspectRatio" value="نسبة الارتفاع إلى العرض"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="عادي"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="تمدد"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="تكبير/تصغير 1"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="تكبير/تصغير 2"/>
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="تكبير/تصغير 3"/>
+  <string id="VideoFullScreen.Options.AudioLanguages" value="لغات الصوت"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="الترجمة"/>
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="بلا"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="برنامج الصوت"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="أولي"/>
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="ثانوي"/>
+  <string id="VideoFullScreen.TrickNotAvailable.Part1" value="يتعذر على جهاز استقبال البث التليفزيوني "/>
+  <string id="VideoFullScreen.TrickNotAvailable.Part2" value=" استقبال بث تليفزيوني مباشر."/>
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="الحفاظ على نسبة الارتفاع إلى العرض"/>
+  <string id="ZoomControl.ZoomText.Normal" value="طبيعي"/>
+  <string id="ZoomControl.ZoomText.Stretch" value="تمدد"/>
+  <string id="ZoomControl.ZoomText.Zoom1" value="تكبير/تصغير 1"/>
+  <string id="ZoomControl.ZoomText.Zoom2" value="تكبير/تصغير 2"/>
+  <string id="ZoomControl.ZoomText.Zoom3" value="تكبير/تصغير 3"/>
+  <!-- The custom zoom values: Zoom X, Zoom Y, Shift X, Shift Y (all floats)-->
+  <string id="ZoomControl.ZoomText.CustomZoom" value="تكبير/تصغير مخصص ({0},{1},{2},{3})"/>
+  <string id="SeekBar.TimeFormat" value="tt hh:mm"/>
+  <string id="SeekBar.TimeFormatCurrent" value="h:mm:ss"/>
+  <string id="SeekBar.DVRTimeFormat" value="H:mm"/>
+  <string id="SeekBar.DVRCurrentPositionFormat" value="H:mm:ss"/>
+  <string id="StopPage.Play" value="استئناف التشغيل"/>
+  <string id="StopPage.StartOver" value="بدء من جديد"/>
+  <string id="StopPage.Erase" value="مسح"/>
+  <string id="StopPage.KeepUntil" value="الاحتفاظ حتى"/>
+  <string id="StopPage.RecordedTV" value="عروض تلفزيونية مسجلة"/>
+  <string id="StopPage.VideoStore" value="فيديو حسب الطلب"/>
+  <string id="StopPage.LiveTV" value="مشاهدة بث تليفزيوني مباشر"/>
+  <string id="StopPage.Done" value="تم"/>
+  <string id="StopPage.Done.Vod" value="فيديو حسب الطلب"/>
+  <string id="StopPage.Done.Recorded" value="عروض تلفزيونية مسجلة"/>
+  <!-- Browse Bar -->
+  <string id="BrowseBar.Next" value="التالي:"/>
+  <string id="BrowseBar.Summary.Ratings" value="{0} · "/><!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) "/><!-- second part of summary, eg: {0} replaced with 2005 -->
+
+  <!-- Generic Strings -->
+  <string id="DVR.FastForward" value="تقديم سريع"/>
+  <string id="DVR.Pause" value="إيقاف مؤقت"/>
+  <string id="DVR.Rewind" value="إرجاع"/>
+  <string id="DVR.Skip" value="تخطي"/>
+  <string id="DVR.Replay" value="إعادة تشغيل"/>
+  <string id="DVR.Play" value="تشغيل"/>
+  <string id="DVR.Stop" value="إيقاف"/>
+
+  <!-- DVR -->
+  <string id="DVR.AboutToStartRecording" value="على وشك بدء التسجيل"/>
+  <!-- {0]: program. {1}: channel information-->
+  <string id="DVR.AboutToRecord" value="على وشك بدء تسجيل {0} على القناة {1}"/>
+  <string id="DVR.AboutToRecord.Record" value="تسجيل"/>
+  <string id="DVR.AboutToRecord.DontRecord" value="عدم التسجيل"/>
+  <string id="DVR.AboutToStartRecording_disabled" value="سيتم تخطي التسجيل؛ نظرًا لإيقافه"/>
+  <string id="DVR.CannotRecordProgram" value="يتعذر تسجيل هذا البرنامج"/>
+  <string id="DVR.CannotRecordProgramNow" value="يتعذر تسجيل هذا البرنامج؛ الرجاء إعادة المحاولة لاحقًا"/>
+  <string id="DVR.CannotChangeSettingsNoEPG" value="إعدادات هذا التسجيل غير متوفرة مؤقتًا. الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="DVR.OK" value="موافق"/>
+  <string id="DVR.Cancel" value="إلغاء الأمر"/>
+  <!-- {0}: program. -->
+  <string id="DVR.StopRecording" value="هل تريد إيقاف تسجيل {0}؟"/>
+  <string id="DVR.DoStopRecording" value="إيقاف التسجيل"/>
+  <string id="DVR.DoContinueRecording" value="استمرار التسجيل"/>
+  <string id="DVR.ViewingConflict" value="أنت الآن متصل بتليفزيون آخر ويتعذر تغيير القنوات في هذا الوقت."/>
+  <string id="DVR.ViewingConflict.Choose" value="عرض المزيد من الخيارات"/>
+  <string id="DVR.ViewingConflict.AskTakeControl" value="معرفة ما إذا كان التليفزيون قيد الاستخدام"/>
+  <string id="DVR.ViewingConflict.Exit" value="الخروج إلى التليفزيون"/>
+  <string id="DVR.IsTVInUse" value="هل هذا التليفزيون قيد الاستخدام؟ لاستمرار المشاهدة، الرجاء الرد خلال {Seconds}."/>
+  <!-- {0} integer of seconds for dialog -->
+  <string id="DVR.IsTVInUse.Seconds" value="{0} ثانية"/>
+  <!-- Same as above, just used if there is 1 second left (pluralization)-->
+  <string id="DVR.IsTVInUse.Second" value="{0} ثانية"/>
+  <string id="DVR.IsTVInUse.InUse" value="التليفزيون قيد الاستخدام"/>
+  <string id="DVR.IsTVInUse.NotInUse" value="التليفزيون غير مستخدم"/>
+  <string id="DVR.OtherTVInUse" value="التليفزيون الآخر قيد الاستخدام."/>
+  <string id="DVR.AskingIfOtherTVInUse" value="السؤال الآن عما إذا كان التليفزيون مستخدمًا. {Seconds} متبقية."/>
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="إلغاء الطلب"/>
+  <string id="DVR.WholeHomeRecordButton" value="يمكن فقط جدولة التسجيلات على جهاز استقبال DVR."/>
+  <string id="DVR.WholeHomeDeleteButton" value="يمكن فقط حذف التسجيلات الموجودة على جهاز استقبال DVR."/>
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="معرفة ما إذا كان التليفزيون قيد الاستخدام"/>
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="الرجوع للخلف"/>
+  <string id="DVR.MultiRoomProgramInfo.Join" value="المشاركة في هذا العرض"/>
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="إلغاء الأمر"/>
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="التحكم في الطلب"/>
+  <!-- exit from program info when recording is deleted -->
+  <string id="DVR.RecordingWasDeleted" value="تعذر تشغيل التسجيل."/>
+  <string id="DVR.UpcomingHeader" value="مجدول"/>
+  <string id="DVR.UpcomingSubHeader" value="تسجيلات قادمة"/>
+  <string id="DVR.SeriesSubHeader" value="المسلسل"/>
+  <string id="DVR.RecordedHeader" value="عروض تلفزيونية مسجلة"/>
+  <string id="DVR.ManualRecordHeader" value="تسجيل يدوي"/>
+  <string id="DVR.RecordSettings" value="إعدادات التسجيل"/>
+  <string id="DVR.ManualRecordSubHeader" value="القناة والوقت"/>
+  <string id="DVR.KeepUntilHeader" value="الاحتفاظ حتى"/>
+  <string id="DVR.ConflictHeader" value="تعارض في التسجيل"/>
+  <string id="DVR.SeriesSettingsHeader" value="تسجيل المسلسل"/>
+  <string id="DVR.OneTimeProgramSettingsHeader" value="تسجيل"/>
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="تسجيل الحلقة"/>
+  <string id="DVR.ManualRecord.InvalidTime" value="وقت البدء غير صالح"/>
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="وقت الإيقاف غير صالح"/>
+  <string id="DVR.ManualRecordCannotBeForThePast" value="تعذر جدولة التسجيلات في الماضي"/>
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="يجب أن يكون وقت الإيقاف بعد وقت البدء"/>
+  <string id="DVR.ManualRecordDurationTooLong" value="يجب ألا تتجاوز مدة التسجيل 12 ساعة"/>
+  <string id="DVR.ManualRecordInvalidChannel" value="يتعذر تسجيل هذه القناة"/>
+  <string id="DVR.ManualRecord.InvalidDuration" value="يجب أن تكون مدة التسجيل أكبر من صفر"/>
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="يجب أن تتراوح مدة التسجيل من صفر إلى 59 دقيقة"/>
+  <string id="DVR.StreamChooser.Instructions" value="حدد برنامجًا لمتابعته على هذا التليفزيون، أو قم بالتحكم للسماح بعرض بث تليفزيوني مباشر أو تسجيله."/>
+  <!-- {0}: the number of tuner activities-->
+  <string id="DVR.StreamChooser.Header.Plural" value="{0} برامج نشطة"/>
+  <string id="DVR.StreamChooser.Header.Single" value="{0} برنامج نشط"/>
+  <string id="DVR.StreamChooser.NowPlaying" value="التشغيل الآن"/>
+  <string id="DVR.StreamChooser.WatchRecording" value="مشاهدة تسجيل"/>
+  <string id="DVR.ChangeStream.Title" value="تغيير البرنامج"/>
+  <string id="DVR.ChangeStream.Button.Follow" value="متابعة البث التليفزيوني"/>
+  <string id="DVR.ChangeStream.Button.Take" value="مقاطعة هذا البرنامج"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.LastActivity" value="تم تنشيط هذا البث التليفزيوني خلال {0} الأخيرة"/>
+  <!-- This string is not used-->
+  <string id="DVR.ChangeStream.Uptime" value="تم تشغيل هذا البث التليفزيوني لمدة {0}"/>
+  <string id="DVR.OneRecordingFromOtherClient" value="كتشف النظام تسجيلاً واحدًا يخص عميلاً آخر. لن يكون ذلك التسجيل متوفرًا."/>
+  <string id="DVR.ManyRecordingFromOtherClient" value="قد تخص بعض التسجيلات حسابًا مختلفًا ويتعذر تشغيلها."/>
+  <string id="DVR.Today" value="اليوم"/>
+  <string id="DVR.Tomorrow" value="غداً"/>
+  <string id="DVR.UpcomingDateFormatString" value="ddd &#8206;dd/MM"/>
+  <string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd &#8206;dd/MM)"/>
+  <string id="DVR.BucketRecordedDateFormatString" value="(ddd &#8206;dd/MM)"/>
+  <string id="DVR.RecordedDateFormatString" value="&#8206;dd/MM"/>
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="لا توجد أي برامج متوفرة للمشاهدة."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="لجدولة البرامج المراد تسجيلها، انتقل إلى &quot;إضافة تسجيل&quot;."/>
+  <string id="Dvr.NoProgramsNode1" value="لا تتوفر أي تسجيلات للمشاهدة."/>
+  <string id="Dvr.NoProgramsNode2" value="تتعذر جدولة البرامج لتسجيلها من هذا التليفزيون.  لجدولة التسجيلات، انتقل إلى جهاز استقبال DVR."/>
+  <string id="DVR.NoUpcomingList1.Remote" value="لا يمكنك عرض قائمة التسجيلات المجدولة من هذا التليفزيون.   لعرض القائمة أو تغيير إعدادات أحد التسجيلات أو إلغاء أحد التسجيلات، يجب الانتقال إلى جهاز استقبال DVR."/>
+  <string id="Dvr.NoProgramsCanBeAdded.Remote" value="تتعذر جدولة البرامج لتسجيلها من هذا التليفزيون. لجدولة التسجيلات، يجب أن تنتقل إلى جهاز استقبال DVR."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded1.Remote" value="قائمة التليفزيون المسجلة غير متوفرة."/>
+  <string id="DVR.NoProgramsHaveBeenRecorded2.Remote" value="تأكد من أن جهاز استقبال التليفزيون وجهاز استقبال DVR متصلان بالشبكة."/>
+  <string id="DVR.NoEpisodesOfSeriesAreScheduled1" value="لم تتم جدولة تسجيل أية حلقة من هذا المسلسل."/>
+  <string id="DVR.SeriesCanceledNoUpcomingEpisodes" value="توقف تسجيل هذا المسلسل حيث تم إلغاؤه بناءً على طلب المستخدم."/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded1" value="لم يتم حاليًا تسجيل أية حلقة من هذا المسلسل."/>
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded2" value="حدد القائمة &quot;العناصر المجدولة&quot; لمعرفة ما إذا كانت هناك أية حلقات قادمة."/>
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="لم تتم جدولة أي برامج ليتم تسجيلها."/>
+  <string id="DVR.NoSeriesShown1.Remote" value="لا يمكنك عرض قائمة المسلسلات من هذا التليفزيون. لعرض القائمة أو لتغيير إعدادات أحد المسلسلات أو إلغاء أحد المسلسلات، يجب الانتقال إلى جهاز استقبال DVR."/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="لم تتم جدولة أي تسجيلات للمسلسلات."/>
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="يمكن تسجيل مسلسلك المفضل في كل مرة يأتي فيها برنامج في هذا المسلسل.  انتقل إلى إضافة تسجيلات لجدولة تسجيلات جديدة."/>
+  <string id="DVR.RemoteUnavailable" value="إعادة تشغيل التسجيل غير متوفرة.  تأكد من أن جهاز استقبال التليفزيون وجهاز استقبال DVR متصلان بالشبكة."/>
+  <string id="DVR.RecordedBucketTitleFormat" value="{0} ({1})"/>
+    <string id="DVR.RecordedBucketCountFormat" value="({0})"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOne" value="{0} تسجيل"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormat" value="{0} تسجيلات"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatOneWithTitle" value="{0} {1} تسجيل"/>
+    <string id="DVR.RecordedGroup.RecordingCountFormatWithTitle" value="{0} {1} تسجيلات"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormat" value="“{0}” {1}"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0}"/>
+    <!--<string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0} {1}"/>-->
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeConcatFormat" value="{0} · {1}"/>
+
+    <string id="DVR.MoreButtonText" value="المزيد..."/>
+  <string id="DVR.Record" value="تسجيل"/>
+  <string id="DVR.DontRecord" value="عدم التسجيل"/>
+  <string id="DVR.Save" value="حفظ التغييرات"/>
+  <string id="DVR.DontSave" value="إلغاء التغييرات"/>
+  <string id="DVR.Keep.DontChange" value="عدم التغيير"/>
+  <string id="DVR.Keep.SpaceNeeded" value="الاحتفاظ حتى الحاجة إلى مساحة"/>
+  <!-- This string doesn't seem to be used-->
+  <string id="DVR.Keep.Date" value="الاحتفاظ حتى {0}"/>
+  <string id="DVR.Keep.Date.Format" value="ddd &#8206;dd/MM"/>
+  <string id="DVR.Keep.Watch" value="أنا أشاهد"/>
+  <string id="DVR.Keep.Delete" value="الاحتفاظ حتى يتم المسح"/>
+  <string id="DVR.ChannelLabel" value="القناة"/>
+  <string id="DVR.FrequencyLabel" value="الوقت"/>
+  <string id="DVR.RecordDateLabel" value="التاريخ"/>
+  <string id="DVR.KeepUntilLabel" value="الاحتفاظ حتى"/>
+  <string id="DVR.KeepAtMostLabel" value="الاحتفاظ في الأغلب"/>
+  <string id="DVR.StartLabel" value="بدء"/>
+  <string id="DVR.StopLabel" value="إيقاف"/>
+  <string id="DVR.TimeLabel" value="الوقت"/>
+  <string id="DVR.DurationLabel" value="المدة"/>
+  <string id="DVR.StopRecordingLabel" value="إيقاف التسجيل"/>
+  <string id="DVR.SeriesFrequencyLabel" value="القناة"/>
+  <string id="DVR.Time.AM" value="صباحاً"/>
+  <string id="DVR.Time.PM" value="مساءً"/>
+  <string id="DVR.SeriesRecordOnLabel" value="التسجيل في:"/>
+  <string id="DVR.SeriesShowTypeLabel" value="نوع العرض"/>
+  <string id="DVR.SeriesKeepUpToLabel" value="الاحتفاظ حتى"/>
+  <string id="DVR.Settings.More" value="| تغيير"/>
+  <string id="DVR.Settings.Padding.OnTime" value="في وقت نهائي مجدول"/>
+  <!-- {0}: Integer of minutes (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XMinutesLate" value="{0} دقيقة بعد"/>
+  <string id="DVR.Settings.Padding.OneHourLate" value="ساعة واحدة بعد"/>
+  <!-- {0}: Integer of hours (/not sure what padding is)-->
+  <string id="DVR.Settings.Padding.XHoursLate" value="{0} ساعات بعد"/>
+  <string id="DVR.Settings.Fork" value="إعدادات لـ"/>
+  <string id="DVR.Settings.Fork.Episode" value="هذه الحلقة فقط"/>
+  <string id="DVR.Settings.Fork.Series" value="المسلسل بالكامل"/>
+  <string id="DVR.Station.AnyChannel" value="أية قناة"/>
+  <!-- {0}: time-->
+  <string id="DVR.Time.ThisTime" value="أي يوم، حوالي {0}"/>
+  <string id="DVR.Time.AnyTime" value="أي يوم، أي وقت"/>
+  <string id="DVR.Time.AnyTimeOnce" value="أي يوم، أي وقت، مرة واحدة في اليوم"/>
+  <string id="DVR.ShowType.FirstRun" value="تشغيل المرة الأولى فقط"/>
+  <string id="DVR.ShowType.Live" value="مباشر"/>
+  <string id="DVR.KeepUpTo.One" value="1 تسجيل حديث"/>
+  <!-- {0}: Integer of number of recordings to keep-->
+  <string id="DVR.KeepUpTo.XRecordings" value="{0} تسجيلات حديثة"/>
+  <string id="DVR.KeepUpTo.Many" value="أي عدد ممكن"/>
+  <string id="DVR.Frequency.Once" value="التسجيل مرة واحدة"/>
+  <string id="DVR.Frequency.EveryDay" value="كل يوم"/>
+  <string id="DVR.Frequency.EveryWeekDay" value="كل يوم من الأسبوع"/>
+  <string id="DVR.Frequency.EveryWeekend" value="كل يوم من نهاية الأسبوع"/>
+  <string id="DVR.Frequency.EveryMon" value="كل اثنين"/>
+  <string id="DVR.Frequency.EveryTue" value="كل ثلاثاء"/>
+  <string id="DVR.Frequency.EveryWed" value="كل أربعاء"/>
+  <string id="DVR.Frequency.EveryThu" value="كل خميس"/>
+  <string id="DVR.Frequency.EveryFri" value="كل جمعة"/>
+  <string id="DVR.Frequency.EverySat" value="كل سبت"/>
+  <string id="DVR.Frequency.EverySun" value="كل أحد"/>
+  <string id="DVR.RecordDate.Format" value="ddd &#8206;dd/MM"/>
+  <string id="DVR.Number.Format" value="D02"/>
+  <string id="DVR.Number.Format12Hour" value=""/>
+  <string id="DVR.KeepUntil.Space" value="يلزم وجود مساحة"/>
+  <string id="DVR.KeepUntil.Watch" value="تتم مشاهدة البرنامج"/>
+  <string id="DVR.KeepUntil.Delete" value="يتم مسح البرنامج"/>
+  <string id="DVR.KeepUntil.Space.Full" value="الاحتفاظ بالبرنامج حتى الحاجة إلى مساحة"/>
+  <string id="DVR.KeepUntil.Watch.Full" value="الاحتفاظ بالبرنامج حتى تتم المشاهدة"/>
+  <string id="DVR.KeepUntil.Delete.Full" value="الاحتفاظ بالبرنامج حتى أقوم بالمسح"/>
+  <!-- Below two strings are not used-->
+  <string id="DVR.KeepAtMost.FormatSingular" value="{0} تسجيل حديث"/>
+  <string id="DVR.KeepAtMost.FormatPlural" value="{0} تسجيل حديث"/>
+  <string id="DVR.KeepAtMost.Max" value="أي عدد ممكن"/>
+  <string id="DVR.KeepUntil.AM" value="صباحاً"/>
+  <string id="DVR.KeepUntil.PM" value="مساءً "/>
+  <string id="DVR.Preview.StartTimeFormat" value="ddd &#8206;dd/MM"/>
+  <!-- {0}: Duration of the DVR program (uses integers). This is hours or minutes as appropriate-->
+  <string id="DVR.Preview.DurationFormat.Day" value="{0} يوم"/>
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0} يوم"/>
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0} يوم"/>
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0} ساعة"/>
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0} دقيقة"/>
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0} ساعة"/>
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0} ساعة"/>
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0} دقيقة"/>
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0} دقيقة"/>
+  <!-- {0}: Program time start; {1}: spacer string; {2}: ; {3}:duration in hours string ; {4}:during in minutes string ; {5}:space string ;-->
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}"/>
+  <string id="DVR.Preview.SpacerString" value="   "/>
+  <!-- String not used-->
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0}  ·  {1}"/>
+  <!-- String not used (commented out)-->
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}"/>
+  <!-- {0}: Channel info (text); {1} Time info (text)-->
+  <string id="DVR.Rollover.ChannelAndTime" value="{0}&#8207;  ·  {1}"/>
+  <string id="DVR.Menu.ByDate" value="حسب التاريخ"/>
+  <string id="DVR.Menu.ByTitle" value="حسب العنوان"/>
+  <string id="DVR.Menu.ByDateGrouped" value="مسجل"/>
+  <string id="DVR.Menu.ByStatus" value="حسب الحالة"/>
+  <string id="DVR.Menu.AddRecording" value="إضافة تسجيل"/>
+  <string id="DVR.Menu.Scheduled" value="العناصر المجدولة"/>
+  <string id="DVR.Menu.Recorded" value="العناصر المسجلة"/>
+  <string id="DVR.Menu.Upcoming" value="قادم"/>
+  <string id="DVR.Menu.Series" value="المسلسل"/>
+  <string id="DVR.MediaItem.Title" value="عروض تلفزيونية مسجلة"/>
+  <string id="DVR.MediaItem.NoPrograms" value="لا توجد برامج مجدولة ليتم تسجيلها"/>
+  <string id="DVR.MediaItem.Upcoming" value="التسجيلات القادمة:  "/>
+  <string id="DVR.MediaItem.Pip.Text" value="عروض تلفزيونية مسجلة"/>
+  <string id="DVR.MediaItem.Separator" value=" · "/>
+  <string id="DVR.MediaItem.LongDescription1" value="قم بجدولة تسجيل العروض المفضلة لديك حتى يمكنك مشاهدتها وقتما تشاء."/>
+  <string id="DVR.MediaItem.LongDescription2" value="انتقل إلى &quot;عروض تلفزيونية مسجلة&quot; لإضافة أحد التسجيلات أو اضغط على الزر RECORD الموجود في جهاز التحكم عن بعد.   "/>
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="كافة التسجيلات"/>
+  <string id="DVR.ChannelGuide.RecentRecordings" value="التسجيلات الأخيرة"/>
+  <string id="DVR.Count.None" value="لا توجد تسجيلات"/>
+  <string id="DVR.Count.One" value="تسجيل واحد"/>
+  <string id="DVR.Count.Many" value="{0} تسجيلات"/>
+  <string id="DVR.Stopped.Finished" value="تم الإنهاء"/>
+  <string id="DVR.Stopped.Stopped" value="تم الإيقاف"/>
+  <string id="DVR.Stopped.ErrorMessage" value="تسببت مشكلات الشبكة في إيقاف هذا البث.   البرنامج غير متوفر حاليًا للتشغيل."/>
+  <string id="DVR.Stopped.KeepMessage" value="سيتم الاحتفاظ بهذا البرنامج حتى الحاجة إلى مساحة"/>
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="سيتم الاحتفاظ بهذا البرنامج حتى تقوم بمسحه"/>
+  <string id="DVR.MultiRoom.DontChangeChannels" value="عدم تغيير القنوات"/>
+  <!-- Not currently used (maybe when multi room is finished?)-->
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="التغيير إلى القناة {0} لتسجيل {1} في {2}"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Preamble" value="لن يتم تسجيل {0} بسبب جدولة العديد من التسجيلات الأخرى في نفس الوقت."/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Choice2" value="عدم تسجيل {0}"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble1" value="تمت جدولة حلقة واحدة من {0} في نفس الوقت الذي تمت فيه جدولة تسجيلات أخرى."/>
+  <!-- {0}: Number of conflicts; {1}: Program title-->
+  <string id="DVR.Conflict.Series.Preamble2" value="تمت جدولة {0}  حلقة من {1} في نفس الوقت الذي تمت فيه جدولة تسجيلات أخرى."/>
+  <!-- {0}: Program title-->
+  <string id="DVR.Conflict.Series.Choice1" value="تسجيل كافة حلقات {0}"/>
+  <string id="DVR.Conflict.Series.Choice2" value="تسجيل هذا المسلسل فقط في حالة عدم حدوث أية تعارضات"/>
+  <string id="DVR.Conflict.Series.Choice3" value="اختيار العروض المراد تسجيلها"/>
+  <string id="DVR.Conflict.TryAgain" value="تعذر حل التعارض. الرجاء إعادة المحاولة."/>
+  <string id="DVR.Conflict.SubTitle" value="اختر برنامجًا بدون نقطة حمراء لتسجيله."/>
+  <!-- {0}: Number of conflict slices(?)-->
+  <string id="DVR.Conflict.MultiSubTitle" value="توجد {0} تعارضات. "/>
+  <string id="DVR.Conflict.HDSubTitle" value="يتعذر تسجيل برنامجين بدقة عالية (HD) في نفس الوقت. اختر برنامجًا لتسجيله."/>
+  <!-- {0}: Column number; empty if only 1 column-->
+  <string id="DVR.Conflict.GridHeader" value="تعارض {0}
+{1}"/>
+  <!-- {0}: Program title; {1} Conflict summary description. Same for following string-->
+  <string id="DVR.Conflict.Summary" value="يتعارض {0} مع {1}."/>
+  <string id="DVR.Conflict.Series.Summary" value="يتعارض المسلسل {0} مع {1}."/>
+  <!-- Next few strings don't seem to be used.-->
+  <string id="DVR.Conflict.2Conflicts" value="{0} و {1}"/>
+  <string id="DVR.Conflict.3Conflicts" value="{0} و {1} و {2} "/>
+  <string id="DVR.Conflict.4Conflicts" value="{0} و {1} و {2} و {3}"/>
+  <string id="DVR.Conflict.5Conflicts" value="{0} و {1} و {2} و {3} والمزيد"/>
+  <!-- {0}: Formatting of title and episode title-->
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="التعارض في التسجيل: {0}"/>
+  <!-- {0}: Title of program-->
+  <string id="DVR.Conflict.InitSeries.SubTitle" value="التعارض في المسلسل: {0}"/>
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="تسجيل برنامج أو مسلسل من:"/>
+  <string id="DVR.AddRecording.CreateCustom" value="إنشاء تسجيل يدوي مع:"/>
+  <string id="DVR.AddRecording.ManualRecordLabel" value="القناة والوقت"/>
+  <string id="DVR.ManualRecordLabel" value="تسجيل يدوي"/>
+  <!-- {0}: title of parent program-->
+  <string id="DVR.ManualLabel" value="يدوي: {0}"/>
+  <string id="DVR.DisabledNotification" value="تم تعطيل DVR"/>
+  <string id="DVR.NotReadyNotification" value="يبدأ نظام DVR في العمل. الرجاء الانتظار."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabledNotification" value="لا يتم السماح بالتسجيل على {0} {1}."/>
+  <string id="DVR.ChannelDisabledNotification2" value="لا يتم السماح بالتسجيل على هذه القناة."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelPauseDisabledNotification" value="لا يسمح {0} {1} بالتحكم في البث التليفزيوني المباشر"/>
+  <string id="DVR.ChannelPauseDisabledNotification2" value="لا تسمح هذه القناة بالتحكم في البث التليفزيوني المباشر"/>
+  <string id="DVR.ManualRecordDisabledNotification" value="لا يتم السماح بالتسجيل اليدوي على هذه القناة."/>
+  <!-- {0}: Channel number; {1}: call letters-->
+  <string id="DVR.ChannelDisabled" value="لا تسمح القناة {0} {1} بالتسجيل."/>
+  <string id="DVR.SeriesRecordingScheduled" value="تمت جدولة تسجيل المسلسل"/>
+  <string id="DVR.SeriesRecordingUpdated" value="تم تحديث تسجيل المسلسل"/>
+  <string id="DVR.SeriesRecordingCanceled" value="تم إلغاء تسجيل المسلسل"/>
+  <string id="DVR.RecordingScheduled" value="تمت جدولة التسجيل"/>
+  <string id="DVR.RecordingUpdated" value="تم تحديث التسجيل"/>
+  <string id="DVR.RecordingStopped" value="تم إيقاف التسجيل"/>
+  <string id="DVR.RecordingCanceled" value="تم إلغاء التسجيل"/>
+  <string id="DVR.Recording" value="تسجيل"/>
+  <string id="DVR.SlowScheduling" value="بدء التسجيل"/>
+  <string id="DVR.SlowSchedulingComplete" value="تم بدء التسجيل"/>
+  <string id="DVR.PostGoLiveInstructions" value="اضغط على RECORD لبدء التسجيل."/>
+  <string id="DVR.GuideInstructions" value="قم بتمييز أحد البرامج، ثم اضغط على RECORD."/>
+  <string id="DVR.SearchInstructions" value="ابحث عن أحد البرامج، ثم اضغط على RECORD."/>
+  <string id="DVR.GroupeditemsInstructions" value="قم بتمييز أحد البرامج، ثم اضغط على RECORD."/>
+  <string id="DVR.GuideInstructionsButton" value="جاهز"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelSeries" value="هل تريد بالفعل إلغاء تسجيل المسلسل {0}؟"/>
+  <string id="DVR.ConfirmCancelSeries" value="إلغاء المسلسل"/>
+  <string id="DVR.CancelCancel" value="عدم الإلغاء"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.QueryCancelProgram" value="هل تريد بالفعل إلغاء تسجيل {0}؟"/>
+  <string id="DVR.ConfirmCancelProgram" value="إلغاء التسجيل"/>
+  <!-- {0}: Series title-->
+  <string id="DVR.QueryCancelEpisode" value="هل تريد بالفعل إلغاء تسجيل هذه الحلقة من المسلسل {0}؟"/>
+  <string id="DVR.ConfirmCancelEpisode" value="إلغاء الحلقة"/>
+  <!-- {0}: Metadata (Program) title-->
+  <string id="DVR.CantErase" value="تتم مشاهدة هذا البرنامج على تليفزيون آخر ويتعذر مسحه في الوقت الحالي."/>
+  <string id="DVR.EraseFailed" value="تعذر مسح هذا البرنامج.  ربما يكون قيد التشغيل من قبل جهاز آخر."/>
+  <string id="DVR.QueryErase" value="هل تريد بالفعل مسح {0}؟"/>
+  <string id="DVR.ConfirmErase" value="مسح"/>
+  <string id="DVR.CancelErase" value="عدم المسح"/>
+  <string id="DVR.AlreadyRecording" value="يقوم البرنامج بالفعل بالتسجيل."/>
+  <string id="DVR.ShowOver" value="انتهى هذا العرض بالفعل"/>
+  <string id="DVR.NotEnoughSpaceToRecord" value="تعذر التسجيل بسبب حفظ عدد كبير للغاية من التسجيلات.  مسح بعض التسجيلات."/>
+  <string id="DVR.NotASeries" value="لا يمكن جدولة تسجيل مسلسل لأحد البرامج التي لا تندرج ضمن المسلسلات"/>
+  <string id="DVR.WSException.Unknown" value="خدمة البث التليفزيوني غير متوفرة مؤقتًا."/>
+  <string id="DVR.WSException.NetworkNA" value="خدمة البث التليفزيوني غير متوفرة مؤقتًا."/>
+  <string id="DVR.WSException.Timeout" value="خدمة البث التليفزيوني غير متوفرة مؤقتًا."/>
+  <string id="DVR.WSException.ConnectionLost" value="خدمة البث التليفزيوني غير متوفرة مؤقتًا."/>
+  <string id="DVR.WSException.TryAgain" value="الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="DVR.UpcomingRecordingsButton" value="تسجيلات قادمة"/>
+  <string id="DVR.SeriesRecordingsButton" value="تسجيلات المسلسلات"/>
+  <string id="DVR.PrioritySettingsButton" value="إعدادات أولوية التسجيل"/>
+  <string id="DVR.History" value="المحفوظات"/>
+  <string id="DVR.ViewUpcomingRecordingsButton" value="عرض التسجيلات القادمة"/>
+  <string id="DVR.ChangeSeriesSettingsButton" value="تغيير إعدادات المسلسلات"/>
+  <string id="DVR.CancelSeriesButton" value="إلغاء المسلسل"/>
+  <string id="DVR.SeriesHeader" value="معلومات المسلسل"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}"/>
+  <!-- A format string: {0} is the format for the string. {1} is a value.-->
+  <string id="DVR.SeriesInfoSummaryFormat" value="{0}: {1}"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}"/>
+  <!-- Not used in code-->
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}"/>
+  <string id="DVR.UntilSpaceIsNeeded" value="حتى الحاجة إلى مساحة"/>
+  <string id="DVR.FirstRunAndRerun" value="التشغيل لأول مرة وإعادة التشغيل"/>
+  <string id="DVR.SeriesTimeFormat" value="hh:mm tt"/>
+  <string id="DVR.SeriesTimeFormat24" value="HH:mm"/>
+  <string id="DVR.SeriesTimeAnyTime" value="أي وقت"/>
+  <!-- {0}: Display number (int) ; {1}: Station (string) -->
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}"/>
+  <!-- {0}: Date; {1}: Time-->
+  <string id="DVR.OneTimeSettingTimeFormat" value="&#8207;{0}, &#8207;{1}"/>
+  <string id="DVR.MustGoLiveToRecord" value="يجب الانتقال للبث المباشر حتى تتمكن من التسجيل"/>
+  <string id="DVR.GoLive" value="الانتقال للبث المباشر"/>
+  <string id="DVR.Unknown" value="مجهول"/>
+  <string id="DVR.Dot.Conflict" value="لن يتم التسجيل"/>
+  <string id="DVR.Dot.RecordingDelay" value="مهلة التسجيل"/>
+  <string id="DVR.Dot.Series" value="تسجيل المسلسل"/>
+  <string id="DVR.Dot.Series.HD" value="تسجيل المسلسل بدقة عالية"/>
+  <string id="DVR.Dot.Record" value="سيتم التسجيل"/>
+  <string id="DVR.Dot.Record.HD" value="سيتم التسجيل بدقة عالية"/>
+  <string id="DVR.Dot.Recording" value="تسجيل"/>
+  <string id="DVR.Dot.Recording.HD" value="تسجيل بدقة عالية"/>
+  <string id="DVR.Dot.Keep" value="الاحتفاظ بالبرنامج حتى أقوم بالمسح"/>
+  <string id="DVR.Dot.Delete" value="سيتم المسح قريبًا"/>
+  <string id="DVR.DefaultState.Message1" value="تسجيل العروض المفضلة"/>
+  <string id="DVR.DefaultState.Message2" value="تسجيل كل حلقة تلقائيًا"/>
+  <string id="DVR.DefaultState.Message3" value="إيقاف مؤقت وإرجاع وتقديم سريع"/>
+  <string id="DVR.AlreadyScheduled" value="تم بالفعل جدولة تسجيل البرنامج"/>
+  <string id="DVR.EITVPS.Incorrect" value="قد يكون التسجيل غير صحيح"/>
+  <string id="DVR.EITVPS.DidNotAir" value="لم يتم بث البرنامج على الهواء خلال الوقت المجدول"/>
+  <string id="DVR.EITVPS.DueToChanges" value="بسبب تغييرات حدثت للبرنامج في اللحظة الأخيرة"/>
+  <!-- {0} Currently recording title: {1}: Upcoming Recording title-->
+  <string id="DVR.EITVPS.AboutToExtend" value="لم ينتهِ {0} كما هو مجدول. هل تريد إنهاء التسجيل الآن لتسجيل &apos;{1}؟"/>
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="استمرار التسجيل"/>
+  <string id="DVR.EITVPS.AboutToExtend.End" value="إنهاء التسجيل"/>
+  <!-- {0}: Program title-->
+  <string id="DVR.EITVPS.Recording" value="تسجيل &apos;{0}&apos; الآن"/>
+  <!-- {0}: Recording program title-->
+  <string id="DVR.EITVPS.Delayed" value="تم تأخير التسجيل لمدة {0} دقيقة"/>
+  <string id="DVR.EITVPS.ManualRecord" value="بسبب تغييرات الجدولة التي حدثت في اللحظة الأخيرة، يجب تسجيل هذا البرنامج يدويًا."/>
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="التسجيل يدويًا"/>
+
+  <string id="DVR.KeyringTrouble1" value="يتعذر تشغيل هذا البرنامج مؤقتاً."/>
+  <string id="DVR.KeyringTrouble2" value="الرجاء إعادة المحاولة لاحقاً. (2)"/>
+
+  
+  <!-- Nagra strings -->
+  <string id="Nagra.OnlyViewable" value="متوفر فقط على جهاز استقبال DVR مزود ببطاقة عرض"/>
+  <string id="Nagra.SomeOnlyViewable" value="البعض متوفر على جهاز استقبال DVR مزود ببطاقة عرض"/>
+  <string id="Nagra.ProgramInfo.NotAvailable" value="متوفر على جهاز استقبال DVR مزود ببطاقة عرض"/>
+  <string id="Nagra.ErrorText" value="يمكن تشغيل هذا التسجيل فقط على جهاز استقبال DVR مزود ببطاقة عرض."/>
+  
+  
+  <!-- SmartCard related dialogs/diagnostics -->
+  <string id="SmartCard.Ready.Message" value="البطاقة الذكية جاهزة"/>
+  <string id="SmartCard.Unknown.Message" value="البطاقة الذكية غير صالحة. اتصل بخدمة العملاء: 1-800-000-0000"/>
+  <string id="SmartCard.Unknown.Dismiss" value="رفض"/>
+  <string id="SmartCard.Bad.Message" value="البطاقة الذكية غير صالحة. تأكد من أنه تم تركيب البطاقة الذكية بشكل صحيح وحاول مرة أخرى."/>
+  <string id="SmartCard.Bad.Dismiss" value="رفض"/>
+  <string id="SmartCard.Extract.Message" value="تم استخراج البطاقة الذكية"/>
+  <string id="SmartCard.Extract.Dismiss" value="رفض"/>
+  <string id="SmartCard.Diagnostics.CardReady" value="جاهز"/>
+  <string id="SmartCard.Diagnostics.CardReadyDateFormat" value="&#8206;dd/MM/yy"/>
+  <string id="SmartCard.Diagnostics.CardUnknown" value="البطاقة غير معروفة"/>
+  <string id="SmartCard.Diagnostics.CardBad" value="البطاقة سيئة"/>
+  <string id="SmartCard.Diagnostics.CardExtracted" value="تم استخراج البطاقة أو لم يتم العثور عليها"/>
+  
+  <!-- Stream contention dialogs--> <!-- {0}: Channel num and call station (channel info text)-->
+  <string id="Stream.StayOnChannel" value="البقاء في {0}"/>
+  <string id="Stream.StayOnChannel.Unknown" value="البقاء هنا"/>
+  <string id="Stream.RecordedTVButton" value="عروض تلفزيونية مسجلة"/>
+  <string id="Stream.RecordedTVButton.Player" value="مشاهدة تسجيل"/>
+  <string id="Stream.InterruptTVButton" value="مقاطعة بث تليفزيوني"/>
+  <string id="Stream.DontInterruptTVButton" value="عدم المقاطعة"/>
+  <string id="Stream.ContinueButton" value="متابعة"/>
+  <string id="Stream.ChangeChannelButton" value="تغيير القناة"/>
+  <string id="Stream.DontChangeChannelButton" value="عدم التغيير"/>
+  <string id="Stream.TryAgainButton" value="المحاولة مرة أخرى"/>
+  
+  <!--  Stream panel strings usage:          AllServicesInUse        - "Optimistic Tune" panel with interrupt         AllStreamsRecording     - "Optimistic Tune" panel with no interrupt         AllStreamsUsedByVOD     - "Optimistic Tune" panel with no interrupt AND all streams are VOD         AllServicesInUseNoTV    - "Power On" panel with interrupt         AllStreamsRecordingNoTV - "Power On" panel with no interrupt         AllStreamsUsedByVODNoTV - "Power On" panel with no interrupt AND all streams are VOD   -->
+  <string id="Stream.AllServicesInUse" value="كافة خدمات التليفزيون قيد الاستخدام. للمتابعة، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر أو مقاطعة البث التليفزيوني.  "/>
+  <string id="Stream.AllServicesInUse.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة قنوات HD، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون أو مقاطعة البث التليفزيوني."/>
+  <string id="Stream.AllServicesInUse.NoDvr" value="كافة خدمات التليفزيون قيد الاستخدام. للمتابعة، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر أو مقاطعة البث التليفزيوني.  "/>
+  <string id="Stream.AllServicesInUse.NoDvr.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة قنوات HD، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون أو مقاطعة البث التليفزيوني."/>
+  <string id="Stream.AllServicesInUseNoTV" value="كافة خدمات التليفزيون قيد الاستخدام. لمشاهدة البث التليفزيوني، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر أو مقاطعة البث التليفزيوني.  "/>
+  <string id="Stream.AllServicesInUseNoTV.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون أو مقاطعة البث التليفزيوني."/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr" value="كافة خدمات التليفزيون قيد الاستخدام. لمشاهدة البث التليفزيوني، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر أو مقاطعة البث التليفزيوني.  "/>
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون أو مقاطعة البث التليفزيوني."/>
+  <string id="Stream.AllServicesInUseNoTV.Player" value="كافة خدمات التليفزيون قيد الاستخدام. لمشاهدة البث التليفزيوني، قد تقوم بمقاطعة بث تليفزيوني أو الانتقال إلى جهاز استقبال DVR وإيقاف عملية تسجيل."/>
+  <string id="Stream.AllStreamsRecording" value="كافة خدمات التليفزيون قيد الاستخدام. للمتابعة، قم بإيقاف عملية تسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر."/>
+  <string id="Stream.AllStreamsRecording.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون."/>
+  <string id="Stream.AllStreamsRecording.NoDvr" value="كافة خدمات التليفزيون قيد الاستخدام. للمتابعة، قم بإيقاف عملية تسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر."/>
+  <string id="Stream.AllStreamsRecording.NoDvr.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون."/>
+  <string id="Stream.AllStreamsRecording.Player.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة قنوات عالية الدقة يجب أن تنتقل إلى جهاز استقبال DVR وإيقاف عملية تسجيل."/>
+  <string id="Stream.AllStreamsRecordingNoTV" value="كافة خدمات التليفزيون قيد الاستخدام. لمشاهدة البث التليفزيوني، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر."/>
+  <string id="Stream.AllStreamsRecordingNoTV.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون."/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr" value="كافة خدمات التليفزيون قيد الاستخدام. لمشاهدة البث التليفزيوني، قم بإيقاف التسجيل أو إيقاف تشغيل جهاز استقبال تليفزيون آخر."/>
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="كافة خدمات التليفزيون عالية الدقة (HD) قيد الاستخدام. لمشاهدة القنوات عالية الدقة، قم بإيقاف التسجيل عالي الدقة أو عرض عالي الدقة على جهاز استقبال تليفزيون."/>
+  <string id="Stream.AllStreamsUsedByVOD" value="تقوم كافة خدمات البث التليفزيوني بتشغيل فيديو حسب الطلب. للمتابعة، قم بإيقاف عرض فيديو حسب الطلب على جهاز استقبال تليفزيون آخر."/>
+  <string id="Stream.AllStreamsUsedByVODNoTV" value="تقوم كافة خدمات البث التليفزيوني بتشغيل فيديو حسب الطلب. لمشاهدة البث التليفزيوني، قم بإيقاف عرض فيديو حسب الطلب على جهاز استقبال تليفزيون آخر."/>
+
+  <string id="Stream.ConfirmInterrupt" value="يؤدي اختيار المقاطعة إلى إيقاف عرض البث التليفزيوني على تليفزيون آخر في منزلك"/>
+  <string id="Stream.TVInterrupted" value="تمت مقاطعة هذا البث التليفزيوني للسماح بالتسجيل أو العرض على تليفزيون آخر في منزلك"/>
+  <string id="Stream.TVInterrupted.NoDvr" value="تمت مقاطعة هذا البث التليفزيوني للسماح بالتسجيل أو العرض على تليفزيون آخر في منزلك"/>
+  <string id="Stream.UpcomingRecording" value="كافة خدمات التليفزيون قيد الاستخدام.  يجب تغيير القناة لتسجيل {0} على {1} في {2}"/>
+  <string id="Stream.NoPlaybackStreams" value="إعادة التشغيل غير متوفرة. لتشغيل برنامج على هذا التليفزيون، يجب إيقاف إعادة التشغيل على تليفزيون آخر."/>
+  <string id="Stream.NoPlaybackStreams.HD" value="إعادة تشغيل عالي الدقة غير متوفر. لتشغيل برنامج عالي الدقة على هذا التليفزيون، يجب إيقاف إعادة التشغيل على تليفزيون آخر."/>
+  <string id="Stream.NoPlaybackBandwidth" value="تم الوصول إلى حد إعادة التشغيل. لتشغيل أحد التسجيلات على هذا التليفزيون، يجب إيقاف تشغيل التسجيلات على جهاز تليفزيون آخر على الأقل."/>
+  <string id="Stream.LiveTuneNoIngressStream" value="كافة خدمات التليفزيون قيد الاستخدام على جهاز الاستقبال هذا. لتغيير القنوات، يجب إيقاف أحد التسجيلات."/>
+  <string id="Stream.LiveTuneNoIngressStream.HD" value="كافة خدمات التليفزيون عالية الدقة قيد الاستخدام على جهاز الاستقبال هذا. للتغير إلى قناة عالية الدقة، يجب أن تقوم بإيقاف تسجيل عالي الدقة."/>
+  <string id="Stream.TuneNoIngressStream" value="كافة خدمات التليفزيون قيد الاستخدام على جهاز الاستقبال هذا. لمتابعة طلبك، يجب إيقاف أحد التسجيلات."/>
+  <string id="Stream.TuneNoIngressStream.HD" value="كافة خدمات التليفزيون عالية الدقة قيد الاستخدام على جهاز الاستقبال هذا. لمتابعة طلبك، يجب إيقاف أحد التسجيلات عالية الدقة."/>
+  <string id="Stream.IngressDialogStopRecording" value="قم بإيقاف أحد التسجيلات"/>
+  <string id="Stream.IngressDialogTryAgain" value="حاول مرة أخرى لاحقًا."/>
+  <!-- settings -->
+  <string id="Settings.GuideStyle" value="نمط الدليل"/>
+  <string id="Settings.GuideStyle.GridGuide" value="دليل شبكي"/>
+  <string id="Settings.GuideStyle.GridGuideDescription" value="عرض قنوات متعددة مرة واحدة"/>
+  <string id="Settings.GuideStyle.ListGuide" value="قائمة القنوات"/>
+  <string id="Settings.GuideStyle.ListGuideDescription" value="جدولة البرامج لقناة واحدة"/>
+  <string id="Settings.DttAutomaticChannelUpdate" value="تحديث تلقائي لقنوات DTT"/>
+  <string id="Settings.DttAutomaticChannelUpdate.On" value="تشغيل التحديث التلقائي للقنوات"/>
+  <string id="Settings.DttAutomaticChannelUpdate.OnDescription" value="سيتم تلقائيًا تحديث قنوات DTT"/>
+  <string id="Settings.DttAutomaticChannelUpdate.Off" value="إيقاف التحديث التلقائي للقنوات"/>
+  <string id="Settings.DttAutomaticChannelUpdate.OffDescription" value="سيتم تلقائيًا تحديث قنوات DTT"/>
+  <string id="Settings.Save" value="حفظ"/>
+  <string id="Settings.Save.Ask" value="هل تريد حفظ التغييرات التي قمت بإجرائها على هذه الإعدادات؟"/>
+  <string id="Settings.DontSave" value="عدم الحفظ"/>
+  <string id="Settings.AllOn" value="تشغيل الكل"/>
+  <string id="Settings.AllOff" value="إيقاف تشغيل الكل"/>
+  <string id="Settings.Continue" value="متابعة"/>
+  <string id="Settings.CancelChanges" value="إلغاء التغييرات"/>
+  <string id="Settings.Cancel" value="إلغاء الأمر"/>
+
+  <!-- aspect ratio -->
+  <string id="Settings.AspectRatio.Description" value="اختر نسبة الارتفاع إلى العرض ودرجة الدقة للتليفزيون، ثم اختر &quot;متابعة&quot;."/>
+  <string id="Settings.AspectRatio.Resizing" value="إعادة تحجيم الشاشة"/>
+
+  <!-- {0}: Screen mode-->
+  <string id="Settings.AspectRatio.NowViewing" value="يتم الآن عرض {0}"/>
+  <string id="Settings.AspectRatio.0" value="دقة قياسية 4: 3"/>
+  <string id="Settings.AspectRatio.1" value="دقة قياسية لشاشة عريضة"/>
+  <string id="Settings.AspectRatio.2" value="شاشات عالية الدقة ذات 720 بكسل"/>
+  <string id="Settings.AspectRatio.3" value="شاشات عالية الدقة ذات 1080 بوصة"/>
+
+  <string id="Settings.AspectRatio.NowViewing0" value="يتم العرض الآن بدقة قياسية 4: 3"/>
+  <string id="Settings.AspectRatio.NowViewing1" value="يتم العرض الآن بدقة قياسية لشاشة عريضة"/>
+  <string id="Settings.AspectRatio.NowViewing2" value="يتم العرض الآن على شاشات عالية الدقة ذات 720 بكسل"/>
+  <string id="Settings.AspectRatio.NowViewing3" value="يتم العرض الآن على شاشات عالية الدقة ذات 1080 بوصة"/>
+
+  <string id="Settings.AspectRatioWizard.Step1" value="نسبة الارتفاع إلى العرض والدقة العالية (الخطوة 1)"/>
+  <string id="Settings.AspectRatioWizard.Step2" value="نسبة الارتفاع إلى العرض والدقة العالية (الخطوة 2)"/>
+  <string id="Settings.AspectRatioWizard.Step3" value="نسبة الارتفاع إلى العرض والدقة العالية (الخطوة 3)"/>
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="قد يتعذر على التليفزيون عرض {Mode}.  للتحقق مما إذا كان هذا هو الإعداد الصحيح لتليفزيونك، اختر &quot;بدء الاختبار&quot;. في حالة عدم رؤية أي شيء أثناء الاختبار، انتظر لمدة 15 ثانية ثم اختر إعدادًا آخر."/>
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="في حالة إمكانية رؤية هذه الشاشة، يمكن للتليفزيون عرض {Mode}. الرجاء تحديد &quot;الاحتفاظ بالإعداد&quot; للتأكيد.
+
+سينتهي هذا الاختبار خلال {Countdown} ثانية."/>
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="في حالة رؤية شاشة سوداء أثناء الاختبار، قد يتعذر على التليفزيون عرض فيديو عالي الدقة، أو قد يكون التليفزيون متصلاً بجهاز فك التشفير على نحو غير صحيح. اختر إعدادًا آخر أو افحص الكابلات للتأكد من توصيل HDTV بشكل صحيح.
+
+في حالة مشاهدة صورة أثناء الاختبار، اختر &quot;بدء الاختبار مرة أخرى&quot;."/>
+  <string id="Settings.AspectRatioWizard.StartTest" value="بدء الاختبار"/>
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="الاحتفاظ بالإعداد"/>
+  <string id="Settings.AspectRatioWizard.StartAgain" value="بدء الاختبار مرة أخرى"/>
+  <string id="Settings.AspectRatioWizard.SawNothing" value="تمت مشاهدة شاشة سوداء. اختر إعدادًا آخر."/>
+  <string id="Settings.AspectRatio.ChangeSettings" value="هل تريد تغيير إعدادات الفيديو؟"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value="لا يتوافق {0} مع كافة أجهزة التليفزيون الأخرى.  في حالة عدم مشاهدة أية صورة بعد التغيير، انتظر لمدة 10 ثوانٍ أو قم بفصل جهاز فك التشفير."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="تم تعيين الفيديو آخر مرة إلى {0}. هل تريد التغيير مرة أخرى إلى ذلك الإعداد؟  إذا لم تكن تريد ذلك، يمكنك الانتقال إلى &quot;إعدادات&quot; أو الاحتفاظ بالإعداد الحالي."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangeTo" value="تغيير إلى {0}"/>
+  <string id="Settings.AspectRatio.DontChange" value="عدم التغيير"/>
+  <string id="Settings.AspectRatio.GoToSettings" value="الانتقال إلى إعدادات"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="الفيديو الآن هو {0}. هل تريد الاحتفاظ بهذا التغيير؟ سيتم التغيير مرة أخرى خلال 10 ثوانٍ."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="تم تعيين الفيديو آخر مرة إلى {0}. هل تريد التغيير مرة أخرى إلى ذلك الإعداد؟  إذا لم تكن تريد ذلك، يمكنك الانتقال إلى &quot;إعدادات&quot; أو الاحتفاظ بإعدادات الفيديو الحالي."/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.KeepHighDef" value="الاحتفاظ بـ {0}"/>
+  <string id="Settings.AspectRatio.ChangeBack" value="التغيير مرة أخرى"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="تم تغيير الفيديو إلى دقة عالية {0}"/>
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="تمت إعادة تغيير الفيديو إلى دقة قياسية بنسبة 3:4"/>
+  <string id="Settings.AspectRatio.ModeNotSupported" value="لا يدعم جهاز فك التشفير هذا وضع الفيديو الحالي"/>
+
+  <!--        this key sequence will reset the settop to standard def        if it's currently running in high definition mode. the       sequence can include any standard numeric keys as well as       up, down, left, etc...    -->
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="menu123456789"/>
+
+  <!-- connection troubleshooting settings page -->
+  <string id="Settings.Troubleshoot" value="استكشاف أخطاء الاتصال واسع النطاق وإصلاحها"/>
+  <string id="Settings.Troubleshoot.Title" value="هل توجد لديك مشكلات؟"/>
+  <string id="Settings.Troubleshoot.Description.Online" value="يبدو أن الشبكة متصلة. صف مشكلات اتصال الشبكة هنا.
+
+اتصل بـ 000 000 0000 إذا كنت تحتاج إلى مزيد من المساعدة."/>
+  <string id="Settings.Troubleshoot.Description.Offline" value="أنت الآن غير متصل. صف مشكلات اتصال الشبكة هنا.
+
+اتصل بـ 000 000 0000 إذا كنت تحتاج إلى مزيد من المساعدة."/>
+
+  <!-- begin of channel scanning for digital terrestrial/offline experience -->
+  <string id="Settings.ChannelScanning.DvrWarning" value="لن يتوفر تسجيل DVR أثناء مسح قنوات DTT. ستتوقف كافة التسجيلات."/>
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="متابعة"/>
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="إلغاء الأمر"/>
+  
+  <string id="Settings.ChannelScanningWizard.Step1" value="المسح بحثاً عن قنوات DTT (الخطوة 1)"/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="شكراُ لاستخدامك Microsoft TV، الطريقة الأكثر تقدماً لمشاهدة التليفزيون!
+ 
+يمكنك إضافة قنوات DTT الجديدة لدليل البرامج أو إلغاء المسح واستخدام Microsoft TV الآن."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="لتبدأ في مشاهدة التليفزيون، قم بالمسح بحثاً عن قنوات DTT لإضافتها إلى دليل البرامج.
+ 
+حدد &quot;معرفة المزيد عن خدمة Microsoft TV&quot; للحصول على مزيد من المعلومات حول التسجيل في المزيد من القنوات والفيديو حسب الطلب."/>
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="المسح بحثًا عن قنوات DTT"/>
+  <string id="Settings.ChannelScanningWizard.Step1.MoreInfo" value="معرفة المزيد عن خدمة Microsoft TV"/>
+
+  <string id="Settings.ChannelScanningWizard.Step2" value="المسح بحثاً عن قنوات DTT (الخطوة 2)"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="اكتمل {Percentage}% من المسح..."/>
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="تم العثور على قنوات التليفزيون {Video}"/>
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="تم العثور على قنوات الموسيقى {Music}"/>
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="إلغاء مسح القنوات"/>
+
+  <string id="Settings.ChannelScanningWizard.Step3" value="المسح بحثاً عن قنوات DTT (الخطوة 3)"/>
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="تم المسح.
+
+تم العثور على قنوات التليفزيون {Video}.
+تم العثور على قنوات الموسيقى {Music}.
+
+لمشاهدة القنوات المضافة انتقل إلى دليل البرامج. لمشاهدة كافة الخدمات المتوفرة، انتقل إلى القائمة."/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="الانتقال إلى دليل البرامج"/>
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="الانتقال إلى القائمة"/>
+  <!-- end of channel scanning for digital terrestrial/offline experience -->
+
+  <string id="Settings.ChannelScanning.MoreInfo" value="المزيد من المعلومات حول Microsoft TV"/>
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="العنوان"/>
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="الوصف"/>
+
+  <string id="Settings.Overscan" value="حجم العرض على الشاشة"/>
+  <string id="Settings.Overscan.GeneralInstruction" value="اختر حجم العرض على الشاشة الذي يبدو كأفضل حجم على التليفزيون."/>
+  <string id="Settings.Overscan.Large" value="كبير"/>
+  <string id="Settings.Overscan.Large.Description" value="(الأفضل لأجهزة التليفزيون ذات الشاشات العريضة)"/>
+  <string id="Settings.Overscan.Medium" value="متوسط"/>
+  <string id="Settings.Overscan.Medium.Description" value="(الأفضل لأجهزة التليفزيون القياسية)"/>
+  <string id="Settings.Overscan.Small" value="صغير"/>
+  <string id="Settings.Overscan.Notification" value="تم تغيير الحجم على الشاشة"/>
+  
+  <string id="Settings.About.SystemInfoMenuItem" value="معلومات النظام"/>
+  <string id="Settings.About.SmartCardInfoMenuItem" value="معلومات البطاقة الذكية"/>
+  <string id="Settings.About.NetworkInfoMenuItem" value="معلومات الشبكة"/>
+  <string id="Settings.About.ResourcesInfoMenuItem" value="موارد النظام"/>
+  <string id="Settings.About.ListingsInfoMenuItem" value="معلومات القوائم"/>
+  <string id="Settings.About.WebServicesMenuItem" value="خدمات ويب"/>
+  <string id="Settings.About.DiskRepairMenuItem" value="إصلاح القرص"/>
+  <string id="Settings.About.CopyrightMenuItem" value="حقوق النشر"/>
+  <string id="Settings.About.PrivacyMenuItem" value="الخصوصية"/>
+  <string id="Settings.About.SubscriptionsMenuItem" value="الاشتراكات"/>
+  <string id="Settings.About.Go" value="انتقال"/>
+  
+  <!--      The system information page can be customized by rearranging or removing items from the list below.      Label:                    Example:        {ClientTime}              9/15/2006 11:39:00 AM     {SessionTime}             01:08:45          {ClientVersion}           1.2.2449.0 (debug)     {BootRomVersion}      {OSPlatform}              Win32NT     {OSVersion}               5.1.2600.131072      {SettopVendor}            vendor name     {SettopType}              model name     {SettopCPUSpeed}          speed in MHz     {SettopSerial}            serial number          {AccountID}               guid     {ClientID}                guid     {MacAddress}              00-12-3F-54-28-11          {ContentDirectory}        path      -->
+  <string id="Settings.About.SystemInfo.Data" value="الوقت: {ClientTime} (جلسة: {SessionTime})
+إصدار العميل TV2: {ClientVersion}
+الإصدار/نظام التشغيل للنظام الأساسي: {OSPlatform}/{OSVersion}
+إصدار Bootstrap ROM: {BootRomVersion}
+جهاز تحويل إشارات التلفزيون / CPU: {SettopVendor} {SettopType} / {SettopCPUSpeed}
+الرقم التسلسلي لجهاز فك التشفير: {SettopSerial}
+مُعرف MAC: {MacAddress}
+مُعرف العميل: {ClientID}"/>
+
+  <!--      The smart card information page can be customized by rearranging or removing items from the list below.      Label:                    Example:          {CaCoreLibVersion}        MG Core Library Release 1.4.11     {CaSwLockLibVersion}      MG SW Lock Library Release 1.0.5          {SettopVendor}            vendor name     {CaHwSerialNumber}        0a704405640a0000          {SmartCardStatus}         Ready     {SmartCardNumber}         1  07.108.837.460  77     {TUTVCaNumber}            nn nnnn nnnn nn     {OPIName0}                first operator name     {CaExpiryDate0}           first operator expiry date     {CaOffers0}               first operator offers value   -->
+  <string id="Settings.About.SmartCardInfo.Data" value="إصدار مكتبة Mediaguard Kernel: {CaCoreLibVersion}
+إصدار مكتبة SoftLock: {CaSwLockLibVersion}
+الرقم التسلسلي لـ HW: {CaHwSerialNumber}
+STB CA S/N: {TUTVCaNumber}
+حالة البطاقة الذكية: {SmartCardStatus}
+رقم البطاقة الذكية: {SmartCardNumber}
+العامل 0: انتهاء صلاحية  {OPIName0}: عروض  {CaExpiryDate0}: {CaOffers0}
+العامل 1: انتهاء صلاحية  {OPIName1}: عروض  {CaExpiryDate1}: {CaOffers1}
+العامل 2: انتهاء صلاحية  {OPIName2}: عروض  {CaExpiryDate2}: {CaOffers2}"/>
+  <string id="Settings.About.NotAvailable" value="غير متوفر"/>
+
+  <!--      The network information page can be customized by rearranging or removing items from the list below.      Label:                    Example:            {IPName}                  host name     {IPAddress}               single IP or comma separated list of IPs     {IPGateway}               IP gateway address     {Bps}                     bits per second     {IPTVStatus}              connected/disconnected      -->
+  <string id="Settings.About.NetworkInfo.Data" value="اسم المضيف: {IPName}
+عنوان IP: {IPAddress}
+العبّارة الافتراضية: {IPGateway}
+Bps: {Bps}
+حالة IPTV: {IPTVStatus}"/>
+  <string id="Settings.About.NetworkInfo.Connected" value="متصل"/>
+  <string id="Settings.About.NetworkInfo.Disconnected" value="غير متصل"/>
+
+  <!--      The system resources information page can be customized by rearranging or removing items from the list below.      Label:                    Example:            {SDStreams}               number of standard definition streams available     {HDStreams}               number of high definition streams available     {DTTTuners}               number of tuners available     {BandwidthCap}            maximum bandwidth available          {AllocatedManagedMemory}  in KB     {AllocatedPhysicalMemory} in KB     {AvailableVirtualMemory}  in KB     {MemoryLoad}              in %          {IngressBandwdith}        maximum bandwidth for the Ingress Profile     {IngressSDStreams}        number of standard definition streams available in the Ingress Profile     {IngressHDStreams}        number of high definition streams available in the Ingress Profile           {EgressBandwdith}         maximum bandwidth for the Egress Profile     {EgressStreams}           number of standard and high definition streams available in the Egress Profile        {DiskStatus}              present/not present     {DiskUsage}               20% remaining     -->
+  <string id="Settings.About.SystemResources.Data" value="التدفقات: {SDStreams} SD/{HDStreams} HD (WAN); {IngressSDStreams} SD/{IngressHDStreams} HD (Dev)
+غطاء النطاق الترددي: {BandwidthCap} (WAN); {IngressBandwidth} (Dev)
+إعادة التشغيل عن بعد: {EgressBandwidth} {EgressStreams}
+عدد موالفات DTT: {DTTTuners}
+الذاكرة المخصصة التي تتم إدارتها: {AllocatedManagedMemory}
+الذاكرة الفعلية المخصصة: {AllocatedPhysicalMemory}
+الذاكرة الظاهرية المتاحة: {AvailableVirtualMemory}
+تحميل الذاكرة: {MemoryLoad}
+حالة القرص: {DiskStatus}
+استخدام القرص: {DiskUsage}"/>
+  <string id="Settings.About.SystemResources.Present" value="موجود"/>
+  <string id="Settings.About.SystemResources.NotPresent" value="غير موجود"/>
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="{0:#,###} ك ب"/>
+  <string id="Settings.About.SystemResources.DiskUsage" value="{0} لـ {1}"/>
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value="{0}% متبقي"/>
+  <string id="Settings.About.SystemResources.EgressDisabled" value="غير ممكن"/>
+  <string id="Settings.About.SystemResources.EgressSD" value="SD"/>
+  <string id="Settings.About.SystemResources.EgressHD" value="HD"/>
+  <string id="Settings.About.SystemResources.EgressSDHDSeparator" value="/"/>
+  <string id="Settings.About.SystemResources.EgressBandwidthSeparator" value=","/>  
+  
+  <string id="Settings.About.CheckHardDisk" value="فحص القرص الثابت"/>
+  <string id="Settings.About.CheckHardDisk.Instructions" value="إذا طالبك فني الخدمة بإصلاح القرص الثابت، اختر &quot;فحص القرص الثابت&quot;.
+سيتم إعادة تشغيل النظام ولن تتمكن من مشاهدة التليفزيون من 10 إلى 15 دقيقة أثناء فحص القرص الثابت. لن تتم أية عمليات تسجيل أثناء هذا الوقت."/>
+  <string id="Settings.About.CheckHardDisk.Prompt" value="لفحص القرص الثابت، سيحتاج النظام إلى إعادة التشغيل"/>
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="عدم إعادة التشغيل"/>
+  <string id="Settings.About.CheckHardDisk.Restart" value="إعادة التشغيل"/>
+  <string id="Settings.About.PrivacyStatement" value="سيظهر بيان نهج السرية هنا"/>
+  <string id="Settings.About.CopyrightStatement" value="ستظهر معلومات حقوق النشر هنا"/>
+  <string id="Settings.About.SubscriptionInfo" value="ستظهر معلومات التسجيل هنا"/>
+  <string id="Settings.Language" value="لغة العرض على الشاشة"/>
+  <string id="Settings.Sounds" value="المؤثرات الصوتية للنظام"/>
+  <string id="Settings.Sounds.Play" value="تشغيل المؤثرات الصوتية"/>
+  <string id="Settings.Sounds.Mute" value="كتم المؤثرات الصوتية"/>
+  <string id="Settings.HiddenChannels" value="تخصيص القنوات"/>
+  <string id="Settings.HiddenChannels.Description" value="اضغط OK (موافق) لإضافة قنوات أو إزالتها من الدليل وأثناء تغيير القناة."/>
+  <string id="Settings.HiddenChannels.ShowAll" value="تحديد الكل"/>
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="عرض القنوات غير المحددة"/>
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="إظهار الكل"/>
+  <string id="Settings.HiddenChannels.ChangeOrder" value="تغيير الترتيب"/>
+  <string id="Settings.SignalStrength.Description" value="حدد قناة للمعرفة مقدار قوتها."/>
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="لا توجد قنوات حالياً."/>
+  <string id="Settings.SignalStrength.Labels" value="تردد مزود الخدمة:
+قوة الإشارة:
+جودة الإشارة:"/>
+  <string id="Settings.SignalStrength.Values" value="{Frequency}
+{Strength}%
+{Quality}%"/>
+  <string id="Settings.SignalStrength.NoValue" value="غير متوفر"/>
+  <!--     The listings information page can be customized by rearranging or removing items from the list below.      Label:                    Example:            {ListingsDataVersion}     Listings data version on the client     {LastDownloadTime}        Last download time of listings data     {LastError}               Last error encountered and timestamp of error     {ChannelMapName}          Channel map name     {NextUpdateTime}          Next listings data update time     {OriginalFIleName}        Original filename of downloaded file(s)     {IsClientPolling}         If client is in polling mode   -->
+  <string id="Settings.About.ListingsInfo.Data" value="إصدار البيانات: {ListingsDataVersion}
+وقت التنزيل: {LastDownloadTime}
+الخطأ الأخير: {LastError}
+تعيين القناة: {ChannelMapName}
+وقت التحديث القادم: {NextUpdateTime}
+اسم الملف الأصلي: {OriginalFIleName}
+التحقق من العميل: {IsClientPolling}"/>
+  
+  <!-- Strings for Secondary Audio settings page -->
+  <string id="Settings.SecondaryAudio" value="صوت ثانوي"/>
+  <string id="Settings.SecondaryAudio.Description" value="تتمتع بعض برامج التليفزيون بصوت ثانوي للغات البديلة"/>
+  <string id="Settings.SecondaryAudio.Primary" value="استخدام الصوت الأولي"/>
+  <string id="Settings.SecondaryAudio.Secondary" value="استخدام الصوت الثانوي إذا كان متاحًا"/>
+  
+  <string id="Settings.SecondaryAudio.PrimarySet" value="مجموعة برامج الصوت الأولي"/>
+  <string id="Settings.SecondaryAudio.SecondarySet" value="مجموعة برامج الصوت الثانوي"/>
+
+  <!-- {0}: String for current Cc Channel-->
+  <string id="Settings.CcChannels.Changed" value="تم تغيير الشروح المكتوبة لأحداث العرض إلى {0}"/>
+  <string id="Settings.CcChannels.Off" value="تم إيقاف الشروح المكتوبة لأحداث العرض"/>
+
+  <string id="Settings.ClosedCaption.Heading" value="شرح مكتوب لأحداث العرض"/>
+  <string id="Settings.ClosedCaption.ChangeButton" value="تغيير"/>
+
+  <string id="Settings.ClosedCaption.Digital.Description" value="اختر ما سيتم إظهاره في حالة توفر شروح مكتوبة لأحداث العرض الرقمية."/>
+
+  <string id="Settings.ClosedCaption.Digital.Heading" value="شرح مكتوب لأحداث العرض الرقمي"/>
+  <string id="Settings.ClosedCaption.Digital.Off" value="إيقاف"/>
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="شرح مكتوب لأحداث العرض 1"/>
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="شرح مكتوب لأحداث العرض 2"/>
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="شرح مكتوب لأحداث العرض 3"/>
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="شرح مكتوب لأحداث العرض 4"/>
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="شرح مكتوب لأحداث العرض 5"/>
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="شرح مكتوب لأحداث العرض 6"/>
+
+  <string id="Settings.ClosedCaption.Standard.Description" value="اختر ما سيتم إظهاره في حالة توفر شروح مكتوبة لأحداث."/>
+
+  <string id="Settings.ClosedCaption.Standard.Heading" value="شرح مكتوب لأحداث العرض القياسي"/>
+  <string id="Settings.ClosedCaption.Standard.Off" value="إيقاف"/>
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="شرح مكتوب لأحداث العرض 1"/>
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="شرح مكتوب لأحداث العرض 2"/>
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="شرح مكتوب لأحداث العرض 3"/>
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="شرح مكتوب لأحداث العرض 4"/>
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="النص 1"/>
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="النص 2"/>
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="النص 3"/>
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="النص 4"/>
+
+  <string id="Settings.Save.Succeeded" value="تم حفظ الإعدادات."/>
+  <string id="Settings.Save.Failed" value="تم فقد التغييرات الأخيرة التي تمت على الإعدادات. الرجاء مراجعة التغييرات لتأكيدها."/>
+  <string id="Settings.Save.Failed.PCon" value="تم فقد التغييرات الأخيرة التي تمت في إعدادات المراقبة الأبوية. الرجاء مراجعة التغييرات لتأكيدها."/>
+
+  <!-- Channel Reordering -->
+  <string id="Settings.ChannelReordering" value="تغيير ترتيب القنوات"/>
+  <string id="Settings.ChannelReordering.RestoreDefault" value="الترتيب الافتراضي"/>
+  <string id="Settings.ChannelReordering.Description" value="لتغيير ترتيب إحدى القنوات، قم بتمييز السهم المقابل واضغط على OK (موافق)."/>
+  <string id="Settings.AudioLanguage" value="لغة الصوت"/>
+  <string id="Settings.AudioLanguage.Description" value="حدد لغة الصوت المفضلة"/>
+  
+  <!-- RF output channel -->
+  <string id="Settings.RFOutputChannel" value="قناة خرج RF"/>
+  <string id="Settings.RFOutputChannel.TurnOff" value="إيقاف تشغيل خرج RF"/>
+  <string id="Settings.RFOutputChannel.Description" value="إذا قمت بتغيير قناة خرج RF يجب أيضاً أن تقوم بتغيير القناة نفسها على التليفزيون."/>
+  <string id="Settings.RFOutputChannel.Confirm" value="ستفقد الفيديو حتى تقوم بتغيير القناة إلى {0} على التليفزيون."/>
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="ستفقد الفيديو على خرج RF."/>
+
+  <!--        The list of languages and the default setting used in the Audio Language Settings page.  These are optional       and are used if the UserStore AudioLanguages and/or PreferredAudioLanguage values are not set.  Ensure       that no 2 codes in the preference list will result in duplicate language names. Duplicate language names       are ignored.  Languages are displayed in the Audio Language Settings page in the order that they appear in       this list.   -->
+  <string id="Settings.AudioLanguage.Preference.List" value="ar,bg,ca,zh,cs,da,de,el,en,es,fi,fr,gd,he,hu,is,it,ja,ko,nl,no,pl,pt,ro,ru,hr,sk,sq,sv,th,tr,ur,id,uk,be,sl,et,lv,lt,fa,vi,hy,az,eu,mk,af,ka,fo,hi,ms,kk,ky,sw,uz,tt,pa,gu,ta,te,kn,mr,sa,mn,gl,sr,cy"/>
+  <string id="Settings.AudioLanguage.Preference.Default" value="en"/>
+
+  <!-- Strings for Security settings page -->
+  <string id="SettingsEnhancedHdmiSecurity" value="الأمان"/>
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="إذا واجهتك مشكلات في ضبط الصوت أثناء استخدام واجهة HDMI، فاختر الأمان المحسن."/>
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="الأمان المحسن"/>
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="الأمان القياسي"/>
+
+  <string id="AudioProgram.AudioType.1" value="مؤثرات واضحة"/>
+  <string id="AudioProgram.AudioType.2" value="المعاقون سمعيًا"/>
+  
+  <string id="AudioProgram.AudioType.3" value="تعليق للمعاقين بصريًا"/>
+
+  <string id="AudioProgram.NoLanguage.Primary" value="أولي"/>
+  <string id="AudioProgram.NoLanguage.Secondary" value="ثانوي"/>
+  <string id="AudioProgram.NoLanguage.Additional" value="الصوت"/>
+
+  <!-- Subtitling types as defined in the DVB standard. --> <!-- normal -->
+  <string id="SubtitleProgram.SubtitleType.16" value=""/>
+  <string id="SubtitleProgram.SubtitleType.17" value="4:3"/>
+  <string id="SubtitleProgram.SubtitleType.18" value="16:9"/>
+  <string id="SubtitleProgram.SubtitleType.19" value="2.21:1"/>
+  
+  <!-- hard of hearing -->
+  <string id="SubtitleProgram.SubtitleType.32" value="صعوبة السمع"/>
+  <string id="SubtitleProgram.SubtitleType.33" value="4:3، صعوبة السمع"/>
+  <string id="SubtitleProgram.SubtitleType.34" value="16:9، صعوبة السمع"/>
+  <string id="SubtitleProgram.SubtitleType.35" value="2.21:1، صعوبة السمع"/>
+
+  <string id="ElementaryStream.DescriptionFormat" value=" {0}"/>
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}"/>
+
+  <string id="AudioProgram.DescriptionFormat" value=" {0}"/>
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}"/>
+
+  <!-- Vod -->
+  <string id="VOD.MediaItem.Title" value="فيديو حسب الطلب"/>
+  <string id="VOD.MediaItem.Description" value="استئجار الأفلام هنا"/>
+  <string id="VOD.CurrentRentals.Title" value="الإيجارات الحالية"/>
+  <string id="VOD.CurrentRentals" value="الإيجارات الحالية"/>
+  <string id="VOD.NoCurrentRentals" value="تسمح ميزة &quot;فيديو حسب الطلب&quot; بمشاهدة نطاق عريض من الأفلام وعروض التليفزيون وقتما أردت. يمكن الإيقاف المؤقت والإرجاع والتقديم السريع بل وترك الفيديو لمتابعة المشاهدة لاحقًا. يتم تغيير اختيارات الفيديو على نحو متكرر، لذا يمكنك دومًا العثور على شيء جديد لمشاهدته.
+
+لا توجد لديك إيجارات حالية. اضغط على سهم لليمين على جهاز التحكم عن بعد لاستعراض ملفات الفيديو المتوفرة."/>
+  <string id="VOD.Count.None" value="لا توجد ملفات فيديو مؤجرة"/>
+  <string id="VOD.Count.One" value="فيديو واحد مؤجر"/>
+  <string id="VOD.Count.Many" value="{0} فيديو مؤجر"/>
+  <!-- DownloadAndPlay -->
+  <string id="VOD.Downloads.Title" value="التنزيلات"/>
+  <string id="VOD.Downloads.Subcategory.Downloaded" value="عناصر تم تنزيلها"/>
+  <string id="VOD.Downloads.Subcategory.Scheduled" value="عناصر تمت جدولتها"/>
+  <string id="VOD.Downloads.Downloaded.NoItems" value="لا توجد حاليًا أية تنزيلات مكتملة.  اضغط على سهم لليمين على جهاز التحكم عن بعد لفحص حالة التنزيلات قيد التقدم."/>
+  <string id="VOD.Downloads.Scheduled.NoItems" value="لا يوجد لديك حاليًا أي عناصر محتوى تنزيل وتشغيل مجدولة."/>
+  <string id="VOD.Downloads.State.WaitingToStart" value=""/>
+  <string id="VOD.Downloads.State.Downloading" value="يتم الآن التنزيل"/>
+  <string id="VOD.Downloads.State.Failed" value="فشل"/>
+  <string id="VOD.Downloads.State.Incomplete" value="غير مكتمل"/>
+  <string id="VOD.Downloads.Unavailable" value="العنصر الذي تم تنزيله غير متوفر مؤقتاً.
+الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="ProgramInfo.Downloads.AddConfirmation" value="تمت إضافة العنصر إلى التنزيلات المجدولة. لن تتحمل أي رسوم إلى أن تقوم باستئجار هذا البرنامج"/>
+  <string id="ProgramInfo.Downloads.AddConfirmationFree" value="تمت إضافة العنصر إلى التنزيلات المجدولة"/>
+  <string id="ProgramInfo.Downloads.CancelConfirmation" value="تم إلغاء طلب التنزيل"/>
+  <string id="ProgramInfo.Downloads.DeleteConfirmation" value="تم مسح العنصر الذي تم تنزيله"/>
+  <string id="ProgramInfo.Downloads.MoveToTopConfirmation" value="ستتم معالجة طلب التنزيل أولاً"/>
+  <string id="VOD.Downloads.Downloaded.State.Viewable" value="متوفر للعرض"/>
+  <string id="VOD.Downloads.Downloaded.State.NotPurchased" value="عناصر لم يتم شراؤها"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.None" value="لا توجد ملفات فيديو"/>
+  <string id="VOD.Category.Count.One" value="ملف فيديو واحد"/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.Category.Count.Many" value="{0} ملف فيديو"/>
+  <string id="VOD.Storefront.LongDescription1" value="يمكنك الاختيار من مئات ملفات الفيديو حسب الطلب التي يمكن تشغيلها وإيقافها مؤقتًا وإرجاعها."/>
+  <string id="VOD.Storefront.LongDescription2" value="يمكنك الانتقال إلى &quot;فيديو حسب الطلب&quot; للحصول على قائمة بملفات الفيديو أو اضغط على الزر VIDEOS (ملفات الفيديو) الموجود في جهاز التحكم عن بعد."/>
+  <string id="VOD.Storefront.ShortDescription" value="ملفات فيديو مجانية وقابلة للاستئجار"/>
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="فيديو حسب الطلب"/>
+  <string id="VOD.ChannelGuide.CurrentRentals" value="الإيجارات الحالية"/>
+  <string id="VOD.Expired" value="انتهت مدة صلاحية إيجار الفيديو "/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresToday" value="ينتهي الإيجار {0}"/>
+  <!-- {0}: Day; {1}: time-->
+  <string id="VOD.ExpiresInAWeek" value="ينتهي الإيجار {0} {1}"/>
+  <!-- {0}: Date -->
+  <string id="VOD.ExpiresLater" value="ينتهي الإيجار {0}"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongToday" value="ينتهي الإيجار اليوم في {0}"/>
+  <!-- {0}: time-->
+  <string id="VOD.ExpiresLongTomorrow" value="ينتهي الإيجار غدًا في {0}"/>
+  <!-- {0}: day; {1}: time-->
+  <string id="VOD.ExpiresLongInAWeek" value="ينتهي الإيجار {0} في {1}"/>
+  <!-- {0}: date; {1}: time-->
+  <string id="VOD.ExpiresLongLater" value="ينتهي الإيجار {0} في {1}"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}. هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Package.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}. هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}. هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}"/>
+  <!-- {0}: price; {1}: title-->
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}. هذا المحتوى خاص بالبالغين."/>
+
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free" value="{0} مجاني لـ {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Adult" value="محتوى البالغين {0} مجاني لمدة {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package" value="حزمة {0} مجانية لمدة {1}"/>
+  <!-- {1}: rental message; {2}: title-->
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="الحزمة الخاصة بمحتوى البالغين {0} مجانية لمدة {1}"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value="{0} مجاني"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value="يعتبر {0} محتوى مجاني خاص بالبالغين"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value="العنصر {0} حزمة مجانية"/>
+  <!-- {1}: title-->
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value="العنصر {0} حزمة مجانية خاصة بالبالغين"/>
+
+  <string id="VOD.CreditLimitExceeded" value="يتجاوز الشراء حد الائتمان."/>
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="يتجاوز الشراء حد الائتمان. يمكنك زيادة حد الائتمان بالضغط على &apos;{0}&apos; للمتابعة."/>
+  <string id="VOD.CreditLimitChange" value="تغيير الحد"/>
+  <string id="VOD.CreditLimitDontChange" value="عدم التغيير"/>
+  <string id="VOD.CouldNotPurchase" value="تعذر إكمال عملية الشراء"/>
+  <string id="VOD.VideoStore.Banner" value="file:///Banner_VOD_RTL.png"/>
+  <string id="VOD.VideoStore" value="فيديو حسب الطلب"/>
+  <string id="VOD.StoreFront" value="فيديو حسب الطلب"/>
+  <string id="VOD.DisabledNotification" value="تم تعطيل متجر الفيديو"/>
+  <string id="VOD.Unavailable" value="ميزة &quot;فيديو حسب الطلب&quot; غير متوفرة مؤقتًا.
+الرجاء إعادة المحاولة لاحقاً."/>
+  <string id="VOD.PleaseWait" value="الحصول على الفيديو"/>
+  <string id="VOD.Package" value="معلومات الحزمة"/>
+  <string id="VOD.RentAllPackage" value="استئجار كافة {0}"/>
+  <string id="VOD.RentAll1Package" value="استئجار الحزمة"/>
+  <string id="VOD.RentAll2Package" value="استئجار كلتا الحزمتين"/>
+  <string id="VOD.RentOne" value="الاستئجار بشكل فردي"/>
+  <string id="VOD.AlreadyRented" value="ملفات الفيديو المتوفرة"/>
+  <string id="VOD.SubcategoryIndicator" value="•••"/>
+  <string id="VOD.Rented" value="عناصر تم استئجارها"/>
+  <string id="VOD.Rent" value="فيديو"/>
+  <string id="VOD.NotRented" value="عناصر لم يتم استئجارها"/>
+  <string id="VOD.Debarred" value="اتصل بخدمة العملاء للوصول"/>    
+  <string id="VOD.Renting" value="استئجار"/>
+  <!-- {0}: VOD program title-->
+  <string id="VOD.Preview" value="معاينة: {0}"/>
+  <string id="VOD.CannotRecord" value="يتعذر تسجيل برامج &quot;فيديو حسب الطلب&quot;"/>
+  <string id="VOD.CannotRecord.Available" value="البرنامج متوفر في &quot;فيديو حسب الطلب&quot;"/>
+  <string id="VOD.Unlock" value="إلغاء تأمين محتوى البالغين"/>
+  <string id="VOD.PlaybackError" value="خدمة البث التليفزيوني غير متوفرة مؤقتًا."/>
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="يتعذر تشغيل هذا البرنامج مؤقتاً."/>
+  <!-- {3}: ?-->
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="الرجاء إعادة المحاولة لاحقاً. (3)"/>
+  <string id="VOD.VodKeyringTrouble1" value="يتعذر تشغيل هذا البرنامج مؤقتاً."/>
+  <!-- {2}: ?-->
+  <string id="VOD.VodKeyringTrouble2" value="الرجاء إعادة المحاولة لاحقاً. (2)"/>
+  <string id="VOD.SessionUnavailable1" value="يتعذر تشغيل هذا البرنامج مؤقتاً."/>
+  <!-- Doesn't seem to be used-->
+  <string id="VOD.SessionUnavailable2" value="الرجاء إعادة المحاولة لاحقاً. (1)"/>
+  <string id="VOD.DefaultState.Message1" value="يمكنك الاختيار من مئات ملفات الفيديو"/>
+  <string id="VOD.DefaultState.Message2" value="المشاهدة في أي وقت"/>
+  <string id="VOD.DefaultState.Message3" value="إيقاف مؤقت وإرجاع وتقديم سريع"/>
+  <string id="SVOD.Browse" value="استعراض ملفات الفيديو"/>
+  <string id="SVOD.Subscribed" value="تم الاشتراك"/>
+  <string id="SVOD.SubscriptionInfo" value="معلومات الاشتراك"/>
+ 
+  <!-- Live TV -->
+  <string id="LiveTV.DisabledNotification" value="يتعذر عرض البث التليفزيوني المباشر"/>
+
+  <!-- Purchasable --> <!-- {0}: title -->
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="اضغط على OK (موافق) للحصول على معلومات حول الإيجار"/>
+  <string id="VOD.StatusBar.PressOK.RentalInfo" value="اضغط على OK (موافق) للحصول على معلومات حول الإيجار"/>
+  <string id="SVOD.StatusBar.PressOK.RentalInfo" value="اضغط على OK (موافق) للاشتراك في {0}"/>
+  <string id="Default.StatusBar.PressOK.RentalInfo" value="اضغط على OK (موافق) للحصول على معلومات حول الإيجار"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.Purchasable" value="متوفر للاستئجار"/>
+  <string id="VOD.StatusBar.Purchasable" value="متوفر للاستئجار"/>
+  <string id="SVOD.StatusBar.Purchasable" value="متوفر للاشتراك"/>
+  <string id="Default.StatusBar.Purchasable" value="متوفر للاستئجار"/>
+
+  <!-- displayed on program info page and guide rollover -->
+  <string id="PPV.Purchasable" value="متوفر للاستئجار"/>
+  <string id="VOD.Purchasable" value="متوفر للاستئجار"/>
+  <string id="SVOD.Purchasable" value="متوفر للاشتراك"/>
+  <string id="Default.Purchasable" value="متوفر للاستئجار"/>
+
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="اضغط على Info (معلومات) للحصول على معلومات حول البرنامج"/>
+  <string id="VOD.StatusBar.PressInfo.ProgramInfo" value="اضغط على Info (معلومات) للحصول على معلومات حول البرنامج"/>
+  <string id="SVOD.StatusBar.PressInfo.ProgramInfo" value="اضغط على Info (معلومات) للحصول على معلومات حول الحزمة"/>
+  <string id="Default.StatusBar.PressInfo.ProgramInfo" value="اضغط على Info (معلومات) للحصول على معلومات حول البرنامج"/>
+
+  <!-- {0}: time-->
+  <string id="PPV.StatusBar.RentedText" value="{0} المؤجر قيد العرض"/>
+  <string id="VOD.StatusBar.RentedText" value="{0} المؤجر قيد العرض"/>
+  <string id="SVOD.StatusBar.RentedText" value="تم الاشتراك"/>
+  <string id="Default.StatusBar.RentedText" value="تم الاستئجار"/>
+
+  <string id="PPV.ProgramInfo.Rented" value="تم الاستئجار: عرض لمرة واحدة"/>
+  <string id="VOD.ProgramInfo.Rented" value="عناصر تم استئجارها"/>
+  <string id="SVOD.ProgramInfo.Rented" value="تم الاشتراك"/>
+  <string id="Default.ProgramInfo.Rented" value="عناصر تم استئجارها"/>
+
+  <string id="PPV.OfferPending" value="غير متوفر بعد للإيجار."/>
+  <string id="VOD.OfferPending" value="غير متوفر بعد للإيجار."/>
+  <string id="SVOD.OfferPending" value="غير متوفر بعد للاشتراك."/>
+  <string id="Default.OfferPending" value="غير متوفر بعد للإيجار."/>
+
+  <string id="PPV.OfferExpired" value="لم يعد متوفرًا للإيجار."/>
+  <string id="VOD.OfferExpired" value="لم يعد متوفرًا للإيجار."/>
+  <string id="SVOD.OfferExpired" value="لم يعد متوفرًا للاشتراك."/>
+  <string id="Default.OfferExpired" value="لم يعد متوفرًا للإيجار."/>
+
+  <string id="PPV.NotAvailable" value="غير متوفر للإيجار."/>
+  <string id="VOD.NotAvailable" value="غير متوفر للإيجار."/>
+  <string id="SVOD.NotAvailable" value="غير متوفر للاشتراك."/>
+  <string id="Default.NotAvailable" value="غير متوفر للإيجار."/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.StatusBar.PurchaseText" value="{0} مقابل عرض لمدة {1}"/>
+  <string id="VOD.StatusBar.PurchaseText" value="{0} مقابل عرض لمدة {1}"/>
+  <string id="SVOD.StatusBar.PurchaseText" value="{0} في الشهر"/>
+  <string id="Default.StatusBar.PurchaseText" value="{0} مقابل عرض لمدة {1}"/>
+
+  <!-- {0}: title; {1}: price-->
+  <string id="URL.OkToRent" value="اضغط على OK (موافق) لاستئجار {0} مقابل {1}"/>
+
+  <!-- {0}: price {1} -->
+  <string id="PPV.ProgramInfo.AcceptOffer" value="{0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer" value="{0}"/>
+  <!-- {0}: price -->
+  <string id="SVOD.ProgramInfo.AcceptOffer" value="{0} في الشهر"/>
+  <!-- {0}: duration -->
+  <string id="Default.ProgramInfo.AcceptOffer" value="استئجار"/>
+
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.AcceptOffer.Button" value="الاستئجار مقابل {0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button" value="الاستئجار مقابل {0}"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button" value="اشتراك"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button" value="الاستئجار مقابل {0}"/>
+
+  <string id="PPV.ProgramInfo.AcceptOffer.Button.Free" value="تشغيل"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Button.Free" value="تشغيل"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button.Free" value="تشغيل"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Button.Free" value="تشغيل"/>
+
+  <!-- {0}: title-->
+  <string id="Default.PurchaseOffer.Free" value="اضغط على Play (تشغيل) لمشاهدة {0}"/>
+  <string id="Default.PurchaseOffer.Free.Adult" value="اضغط على Play (تشغيل) لمشاهدة {0}.
+هذا المحتوى خاص بالبالغين."/>
+
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="Default.PurchaseOffer.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل {1} مرة استئجار لـ {2}. هذا المحتوى خاص بالبالغين."/>
+    
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="استئجار"/>
+  <string id="VOD.ProgramInfo.AcceptOffer.Extern" value="استئجار"/>
+  <string id="SVOD.ProgramInfo.AcceptOffer.Extern" value="اشتراك"/>
+  <string id="Default.ProgramInfo.AcceptOffer.Extern" value="استئجار"/>
+  
+  <string id="PPV.GettingPrice" value="يتم الآن الحصول على سعر الاستئجار..."/>
+  <string id="VOD.GettingPrice" value="يتم الآن الحصول على سعر الاستئجار..."/>
+  <string id="SVOD.GettingPrice" value="يتم الآن الحصول على سعر الاشتراك..."/>
+  <string id="Default.GettingPrice" value="يتم الآن الحصول على سعر الاستئجار..."/>
+  <string id="Default.GettingPrice.Short" value="$$"/>
+
+  <!-- {0}: Price; {1}: Rental minutes -->
+  <string id="PPV.Rental.PriceAndExpiration" value="{0}  ·  الاستئجار لمدة {1}"/>
+  <string id="VOD.Rental.PriceAndExpiration" value="{0}  ·  الاستئجار لمدة {1}"/>
+  <string id="SVOD.Rental.PriceAndExpiration" value="{0}  ·  اشتراك شهري"/>
+  <string id="Default.Rental.PriceAndExpiration" value="{0}     ·     استئجار"/>
+
+  <string id="PPV.Rental.PriceAndExpiration.Extern" value="اضغط على الزر RENT (استئجار) لمزيد من المعلومات"/>
+  <string id="VOD.Rental.PriceAndExpiration.Extern" value="اضغط على الزر RENT (استئجار) لمزيد من المعلومات"/>
+  <string id="SVOD.Rental.PriceAndExpiration.Extern" value="اضغط على الزر SUBSCRIBE (الاشتراك) لمزيد من المعلومات"/>
+  <string id="Default.Rental.PriceAndExpiration.Extern" value="اضغط على الزر RENT (استئجار) لمزيد من المعلومات"/>
+
+  <string id="Free" value="مجاني"/>
+  <string id="Free.Debarred" value=""/>
+
+  <!-- PPV TV --> <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل عرض {2} لمدة {1}"/>
+  <!-- {0}: Price; {1}: Schedule: {2}: title-->
+  <string id="PPV.PurchaseOffer.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل عرض {2} لمدة {1}.
+هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: title-->
+  <string id="PPV.PurchaseOffer.Free" value="اضغط على Play (تشغيل) لمشاهدة {0}"/>
+  <string id="PPV.PurchaseOffer.Free.Adult" value="اضغط على Play (تشغيل) لمشاهدة {0}.
+هذا المحتوى خاص بالبالغين."/>
+
+  <!-- {0}: price; {1}: time-->
+  <string id="PPV.PriceAndTime" value="{0} • {1}"/>
+  <!-- {0}: price-->
+  <string id="PPV.ProgramInfo.Purchase" value="{0}  •  عرض لمرة واحدة"/>
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="عرض لمرة واحدة"/>
+
+  <!-- URL/Mosaic/Image  --> <!-- {0}: title-->
+  <string id="URL.OkToLaunch" value="اضغط على الزر OK (موافق) لبدء {0}"/>
+  <!-- {0}: price; {1}: rental message; {2}: title-->
+  <string id="URL.PurchaseOffer" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل عرض {2} لمدة {1}"/>
+  <string id="URL.PurchaseOffer.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل عرض {2} لمدة {1}.
+هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: price; {1}: name-->
+  <string id="URL.PurchaseOffer.NoWindow" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}"/>
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} مقابل استئجار  {1}. هذا المحتوى خاص بالبالغين."/>
+
+  <!-- SVOD  --> <!-- {0}: price; {2}: title-->
+  <string id="SVOD.PurchaseOffer" value="ستتم مطالبتك بدفع رسوم قدرها {0} كل شهر نظير الاشتراك في {2}."/>
+  <string id="SVOD.PurchaseOffer.Adult" value="ستتم مطالبتك بدفع رسوم قدرها {0} كل شهر نظير الاشتراك في {2}.
+هذا المحتوى خاص بالبالغين."/>
+  <!-- {0}: title-->
+  <string id="SVOD.PurchaseOffer.Free" value="{0} مجاني"/>
+  <string id="SVOD.PurchaseOffer.Free.Adult" value="محتوى البالغين {0} مجاني"/>
+
+  <!-- Messages -->
+  <string id="Messages.HeaderText" value="رسائل"/>
+  <string id="Messages.NoMessages" value="ليس لديك رسائل."/>
+  <string id="Messages.Menu.ByDate" value="حسب التاريخ"/>
+  <string id="Messages.Menu.ByName" value="حسب الاسم"/>
+  <string id="Messages.Dismiss" value="رفض"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Called" value="تم الاتصال: {0}"/>
+  <!-- {0}: Sender name information-->
+  <string id="Messages.From" value="من: {0}"/>
+  <!-- {0}: Message received time-->
+  <string id="Messages.Received" value="مستلمة: {0}"/>
+  <string id="Messages.MessageHeader" value="رسالة"/>
+  <string id="Messages.PictureHeader" value="صور"/>
+  <string id="Messages.CallerIdHeader" value="مُعرف المتصل"/>
+  <string id="Messages.PlaySlideShow" value="تشغيل عرض الشرائح"/>
+
+  <!-- PHOTOS --> <!-- {0}: Earliest date of photos in slideshow: {1}: Latest date of photos in slideshow-->
+  <string id="Photos.DateRangeFormat" value="{0} إلى {1}"/>
+  <!-- {0}: Number of albums-->
+  <string id="Photos.AlbumCountFormat" value="{0} ألبوم"/>
+  <string id="Photos.Count.None" value="لا توجد صور"/>
+  <string id="Photos.Count.One" value="صورة واحدة"/>
+  <!-- Doesn't seem to be used-->
+  <string id="Photos.Count.Many" value="{0} صورة"/>
+  <!-- {0}: Number of subfolders-->
+  <string id="Photos.Count.SubFolders" value="{0} مجلد فرعي"/>
+
+
+
+  <!-- PICTURES & MUSIC: MEDIA SHARING -->
+  
+  <string id="MediaSharing.Title" value="الصور والموسيقى"/>
+  <string id="MediaSharing.Subtitle" value="تشغيل الموسيقى وعرض الصور وإنشاء عروض الشرائح مصحوبة بالموسيقى."/>
+
+  <string id="MediaSharing.ServerAuthorized.Description" value=""/>
+  <string id="MediaSharing.ServerAuthorized.Details" value="تم العثور على أجهزة الكمبيوتر التالية على الشبكة المنزلية.
+
+حدد هذا الكمبيوتر لعرض الصور وتشغيل الموسيقى وإنشاء عروض الشرائح."/>
+
+  <string id="MediaSharing.ServerNotAuthorized.Description" value=""/>
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="تم العثور على أجهزة الكمبيوتر التالية على الشبكة المنزلية.
+
+يتعذر على Microsoft TV الوصول إلى ملفات الصور والموسيقى الموجودة على هذا الكمبيوتر.  تحقق من تخويل Microsoft TV للوصول إلى هذا الكمبيوتر."/>
+
+  <string id="MediaSharing.Empty" value="لا توجد عناصر"/>
+  <string id="MediaSharing.SingleItemFormat" value="عنصر واحد"/>
+  <string id="MediaSharing.MultipleItemsFormat" value="{0} عنصر"/>
+  
+  <!-- following panel with a single button is shown while looking for media servers on the network... -->
+  <string id="MediaSharing.NoServersYet.Description" value="يبحث Microsoft TV عن ملفات الصور والموسيقى الموجودة على الشبكة المنزلية.  قد تستغرق هذه العملية عدة دقائق.
+
+تشغيل الموسيقى وعرض الصور وإنشاء عروض الشرائح مصحوبة بالموسيقى.  يلزم وجود جهاز كمبيوتر يستخدم برنامج Windows Media Player 11 مع تمكين مشاركة الوسائط."/>
+  <string id="MediaSharing.NoServersYet.Button" value="معرفة المزيد حول الصور والموسيقى"/>
+
+  <!-- same panel as string above is shown after a minute looking for servers if nothing was found so far -->
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="45"/><!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="لم يعثر Microsoft TV على أي ملفات صور وموسيقى مشتركة على الشبكة المنزلية، ولكنه سيستمر في البحث. . .
+
+تحقق من تمكين مشاركة الوسائط في Windows Media Player على جهاز الكمبيوتر."/>
+  <string id="MediaSharing.NoServersFound.Button" value=""/>
+
+  <!-- error messages shown when playback fails. Optional: {0} windows media server error code (a number), {1} error description (a string) --> <!-- specific error messages can be used for specific error codes as shown using {0}, just affix the code number to the key name -->
+  <string id="MediaSharing.Error.MusicPlaybackFailed" value="حدثت مشكلة أثناء تشغيل الموسيقى. تحقق من أن جهاز الكمبيوتر قيد التشغيل وأنه متصل بالشبكة. [{0}]"/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value="يتمتع ملف الموسيقى هذا بحماية حقوق النشر؛ ويتعذر تشغيله."/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="ملفات الموسيقى التي لها هذا التنسيق غير معتمدة. جرّب تشغيل ملفات WMA أو MP3 أو تحويل الملفات إلى أحد هذين التنسيقين. [{0}]"/>
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="ملفات الموسيقى التي لها هذا التنسيق غير معتمدة. جرّب تشغيل ملفات WMA أو MP3 أو تحويل الملفات إلى أحد هذين التنسيقين. [{0}]"/>
+
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="حدثت مشكلة أثناء تشغيل الصور. تحقق من أن جهاز الكمبيوتر قيد التشغيل وأنه متصل بالشبكة."/>
+
+  <!--        When media sharing finds a UPnP device, like a Windows Media Player media sharing node,       it asks the device to present music and photos organized in different ways. music can        be organized by album, artist, genre, playlists, composers, etc... photos can be organized       by folder, keywords, date taken, ratings, etc...               You can customize which media is shown and how by adding/removing strings from the list       below. the complete description of the container hierarchy for windows media player is described       in "How to build a network device compatible with Windows Media player sharing service".        The strings below contain four fields 1|2|3|4. The first is the localized name of your search,       the second is * for all type of nodes or the kind of node that should be shown (for example       object.container.audioItem or object.container.album.photoAlbum). The third field is the       subcontainer ID (see docs). The fourth field is the legend that is shown next to the button       when the user selects it.              You can have up to 20 entries (although we wouldn't suggest using too many).   -->
+
+  <!-- list of menu items (UPnP containers) shown -->  
+  <string id="UPnP.MenuContainer.0" value="الموسيقى|*|1|استعراض كافة ملفات الموسيقى.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.1" value="   موسيقى حسب الألبوم|*|7|كائن.حاوية.ألبوم.ألبوم الموسيقى|7|استعراض ملفات الموسيقى حسب الألبوم.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.2" value="   موسيقى حسب الفنان|*|6|استعراض ملفات الموسيقى حسب الفنان.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.3" value="   موسيقى حسب قائمة التشغيل|موسيقى.حاوية.حاوية قائمة التشغيل|F|استعراض قوائم تشغيل الموسيقى التي تم إنشاؤها باستخدام Windows Media Player.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.4" value="صور|كائن.حاوية.ألبوم.ألبوم الصور|3|استعراض كافة الصور.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.5" value="   صور حسب المجلد|كائن.حاوية.ألبوم.ألبوم الصور|16|استعراض الصور الخاصة بك حسب المجلد.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <string id="UPnP.MenuContainer.6" value="   صور حسب تاريخ الالتقاط|كائن.حاوية.ألبوم.ألبوم الصور|C|استعراض كافة الصور حسب تاريخ معين.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+  <!-- photos can be seen organized by keywords only when you connect to a Windows Vista client. if you don't have Vista clients, you may want to comment this line out -->
+  <string id="UPnP.MenuContainer.7" value="   صور حسب الكلمة الأساسية|كائن.حاوية.ألبوم.ألبوم الصور|D2|استعراض كافة الصور حسب الكلمة الأساسية.
+
+بعد تشغيل الموسيقى، استخدم الزر &quot;الخلف&quot; لإضافة صور إلى عرض الشرائح.  استخدم الزر Menu (قائمة) لمسح عرض الشرائح."/>
+
+  <!-- video is not supported yet but here's how you would enable it... --> <!-- <string id="UPnP.MenuContainer.8" value="All Videos (beta)|*|8|Play home videos stored on your PC." /> -->
+
+  <!-- Upgrade -->
+  <string id="Upgrade.Required" value="سيتم تحديث خدمة البث التليفزيوني في غضون دقيقة. لن تتوفر مشاهدة التليفزيون أو التسجيل أثناء التحديث."/>
+  <string id="Upgrade.OptionalWithTimeout" value="يتوفر تحديث لخدمة التليفزيون وسيبدأ في غضون 60 ثانية. مشاهدة التليفزيون أو التسجيل لن تكون متوفرة."/>
+  <string id="Upgrade.OptionalWithNoTimeout" value="يتوفر تحديث لخدمة البث التليفزيوني. مشاهدة التليفزيون أو التسجيل لن تكون متوفرة أثناء التحديث."/>
+  <string id="Upgrade.ForcedWithTimeout" value="يلزم تحديث خدمة التليفزيون وسيبدأ في غضون 60 ثانية. مشاهدة التليفزيون أو التسجيل لن تكون متوفرة."/>
+  <string id="Upgrade.ForcedWithNoTimeout" value="يلزم تحديث خدمة البث التليفزيوني. مشاهدة التليفزيون أو التسجيل لن تكون متوفرة أثناء التحديث."/>
+  <string id="Upgrade.Misconfiguration" value="يلزم ترقية خدمة البث التليفزيوني، ولكن تم تأخير النظام مؤقتاً. الرجاء الانتظار حتى يتم حل المشكلة."/>
+  <string id="Upgrade.Title" value="التحديث قيد التقدم"/>
+  <string id="Upgrade.InProgress" value="خدمة البث التليفزيوني قيد التحديث."/>
+  <string id="Upgrade.Description" value="لا تقم بفصل الطاقة أو قطع اتصالات الشبكة أثناء هذه العملية."/>
+  <string id="Upgrade.Failed" value="خدمة التحديث غير متوفرة حاليًا. ستتم محاولة إجراء التحديث مرة أخرى في غضون دقيقة."/>
+  <!-- {0}: percentage number completed-->
+  <string id="Upgrade.Progress" value="اكتمل {0}% من التحديث"/>
+  <string id="Upgrade.TimeLeftLabel" value="الوقت المتبقي المقدر:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="Upgrade.TimeLeft" value="دقيقة {0}"/>
+  <string id="Upgrade.TimeLeftOneMinute" value="دقيقة واحدة"/>
+  <!-- {0}: File name-->
+  <string id="Upgrade.FileNotInList" value="لم يتم العثور على الملف {0} في قائمة ملفات التحديث."/>
+  <string id="Upgrade.DirSigMismatch" value="توقيع الدليل غير متطابق."/>
+  <string id="Upgrade.ParseDirLineFailed" value="فشل توزيع سطر الدليل."/>
+  <string id="Upgrade.PartMD5Mismatch" value="الجزء MD5 غير متطابق."/>
+  <string id="Upgrade.NoDigest" value="تم بلوغ النهاية دون العثور على ملخص."/>
+  <!-- {0}: Part name; {1}: Part length-->
+  <string id="Upgrade.PartTooBig" value="الجزء {0} كبير جدًا ({1})"/>
+  <!-- {0}: Part length; {1}: Expected part length-->
+  <string id="Upgrade.PartSizeMismatch" value="عدم تطابق حجم الجزء (المتوقع {0}، الفعلي {1})"/>
+  <!-- {0}: Decompressed Part length; {1}: Expected decrompressed part length-->
+  <string id="Upgrade.DecompPartSizeMismatch" value="عدم تطابق في حجم الجزء الذي تم إلغاء ضغطه (المتوقع {0}، الفعلي {1})"/>
+  <string id="Upgrade.BadPackageCRC" value="تدقيق CRC تالف في الحزمة التي تم تنزيلها."/>
+  <string id="Upgrade.BogusPackage" value="حزمة زائفة."/>
+  <!-- {0}: Package size; {1}: Expected package size-->
+  <string id="Upgrade.PackageSizeMismatch" value="عدم تطابق في حجم الحزمة (المتوقع {0}، الفعلي {1})"/>
+  <!-- {0}: Package size; {1}: Max allowed package size-->
+  <string id="Upgrade.PackageTooBig" value="يزيد طول الحزمة {0} على الحجم الأقصى المسموح به {1}."/>
+  <!-- {0}: Number of files in package; {1}: Max allowed files-->
+  <string id="Upgrade.PackageTooManyFiles" value="تحتوي الحزمة على {0} ملفات، وهو ما يتجاوز العدد المسموح به {1}."/>
+  <string id="Upgrade.ReadError" value="خطأ في القراءة."/>
+  <string id="Upgrade.OK" value="التحديث الآن"/>
+  <string id="Upgrade.Snooze" value="التذكير خلال 3 ساعات"/>
+  <string id="Upgrade.TryAgain" value="حاول الآن مرة أخرى"/>
+  <string id="Upgrade.Repair" value="إصلاح النظام"/>
+  <string id="Upgrade.Repair.Warning" value="سيؤدي إصلاح النظام إلى إعادة تعيين التفضيلات والإعدادات."/>
+  <string id="Upgrade.Repair.Yes" value="الإصلاح الآن"/>
+  <string id="Upgrade.Repair.No" value="عدم الإصلاح"/>
+  
+  <!-- Disk Repair -->
+  <string id="DiskRepair.Title" value="تفحص القرص قيد التقدم"/>
+  <string id="DiskRepair.InProgress" value="يتم الآن إجراء اختبار تشخيصي على محرك الأقراص الثابتة."/>
+  <string id="DiskRepair.Description" value="لا تقم بفصل الطاقة أثناء هذه العملية."/>
+  <!-- {0}: percentage number completed-->
+  <string id="DiskRepair.Progress" value="اكتمل {0}%"/>
+  <string id="DiskRepair.TimeLeftLabel" value="الوقت المتبقي المقدر:"/>
+  <!-- {0}: integer number of minutes left-->
+  <string id="DiskRepair.TimeLeft" value="دقيقة {0}"/>
+  <string id="DiskRepair.TimeLeftOneMinute" value="دقيقة واحدة"/>
+
+  <!-- Search -->
+  <string id="Search.Header" value="بحث"/>
+  <string id="Search.Header.Titles" value="بحث عن عناوين"/>
+  <string id="Search.Header.People" value="بحث عن أشخاص"/>
+  <string id="Search.Header.Videos" value="بحث عن ملفات الفيديو"/>
+  <string id="Search.PeopleResultPageMenu.ByDate" value="حسب التاريخ"/>
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="حسب العنوان"/>
+  <string id="Search.PeopleResultPageMenu.ByRental" value="حسب الإيجار"/>
+  <string id="Search.PeopleResultPageMenu.ByStar" value="حسب *"/>
+  <string id="Search.NoRentals" value="لا توجد إيجارات"/>
+  
+  <!-- {0}: integer number of grouped search results -->
+  <string id="Search.Grouped.Shows" value="({0} عروض)"/>
+
+  <string id="Search.NoShows" value="لا توجد عروض"/>
+  <string id="Search.ErrorMsg" value="خدمة البحث غير متوفرة الآن، الرجاء إعادة المحاولة لاحقًا."/>
+  <string id="Search.Today" value="اليوم"/>
+  <string id="Search.Tomorrow" value="غدًا"/>
+  <string id="Search.UpcomingDateFormatString" value="ddd &#8206;dd/MM"/>
+  <!-- {0}: person {1}: NoSearchResultForPeople-->
+  <string id="Search.NoResultForPeopleFormat" value="{0} - {1}"/>
+  <string id="Search.NoResultForPeople" value="لم يتم العثور على نتائج"/>
+  <string id="Search.NoResultForGroup" value="لم يتم العثور على نتائج"/>
+  <!-- {0}: Search query string-->
+  <string id="Search.NoResultsLine1" value="لا توجد تطابقات لـ {0}."/>
+  <string id="Search.NoResultsLine2" value="اضغط على المفتاح DELETE (حذف) لحذف حرف."/>
+  <!-- {0}: persons {1}: string-->
+  <string id="Search.ByDateHeaderFormat" value="{0} - {1}"/>
+  <string id="Search.MoreButtonText" value="المزيد..."/>
+  <string id="Search.TimeNotTodayFormat" value="&#8206;dd/MM"/>
+  <string id="Search.TimeTodayFormat" value="hh:mm tt"/>
+  <string id="Search.Waiting" value="الحصول على نتائج البحث"/>
+  <string id="Search.NullScreen.Title.TitleSearch" value="اكتب عنوان برنامج للبحث عنه."/>
+  <string id="Search.NullScreen.Title.Options" value="حدد &quot;خيارات&quot; لمزيد من خيارات البحث والأحرف الإضافية في لوحة المفاتيح."/>
+  <string id="Search.NullScreen.Title.VideoSearch" value="اكتب عنوان برنامج للبحث عن إيجارات &quot;فيديو حسب الطلب&quot;."/>
+  <string id="Search.NullScreen.People.NameSearch" value="اكتب اسم شخص للبحث عنه."/>
+  <string id="Search.NullScreen.People.Options" value="حدد &quot;خيارات&quot; لمزيد من خيارات البحث والأحرف الإضافية في لوحة المفاتيح."/>
+  <string id="Search.NullScreen.AllSearch" value="اكتب عنواناً أو اسماً للبحث عنه."/>
+  <string id="Search.NullScreen.AllSearch.Options" value="حدد &quot;خيارات&quot; لمزيد من خيارات البحث والأحرف الإضافية في لوحة المفاتيح."/>
+  <string id="Search.Options.Keyboard" value="لوحة المفاتيح"/>
+  <string id="Search.Options.FilterResults" value="تصفية النتائج"/>
+  <string id="Search.Options.FilterResults.All" value="كافة النتائج"/>
+  <string id="Search.Options.FilterResults.Titles" value="العناوين"/>
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="فيديو حسب الطلب"/>
+  <string id="Search.Options.FilterResults.People" value="أشخاص"/>
+  <string id="Search.Options.FilterResults.CallLetters" value="طلب الأحرف"/>
+  <!-- {0}: integer number of search results-->
+  <string id="Search.ListCounter" value="تم العثور على {0}"/>
+  <!-- Volume Control -->
+  <string id="Volume.Mute" value="كتم الصوت"/>
+
+  <!-- error message (please add new error messages in this section) --> <!-- CantPlayVideoError used in error dialog when we can't play wms file, you can add: {0} strWmsErrorDesc, {1} strWmsErrorCode, {2} strWmsErrorUrl -->
+  <string id="CannotPlayVideoError" value="يتعذر تشغيل ملف الفيديو هذا. الرجاء إعادة المحاولة أو الاتصال بموفر الخدمة على الرقم 800-555-5555."/>
+
+  <!-- Common -->
+  <string id="Yes" value="نعم"/>
+  <string id="No" value="لا"/>
+  <string id="OK" value="موافق"/>
+  <string id="Done" value="تم"/>
+  <!-- {0}: Program date; {1}: Program time-->
+  <string id="ProgramDateAndTime" value="{0}, {1}"/>
+  <!-- {0}: Program start time; {1}: Program end time-->
+  <string id="ProgramTime" value="&#8207;{0}–{1}"/>
+  <!-- {0}: Program start time; {1}: Program end time ? Why doesn't this use rating?-->
+  <string id="ProgramTimeAndRating" value="&#8207;{0}–{1}"/>
+  <!-- See ms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemglobalizationdatetimeformatinfoclasstopic.htm -->
+  <string id="MiniTimeFormat" value="hh:mm"/>
+
+  <!-- The ShortTime format pattern is used on pages that display the {Time} variable.  Leave empty for default behavior. --> <!-- See datetimeformatinfoclasstopic.asp link above for more info. -->
+  <string id="ShortTimeFormat" value=""/>
+  <string id="ShortTimeFormat.AmDesignator" value=""/>
+  <string id="ShortTimeFormat.PmDesignator" value=""/>
+
+  <string id="MicroDateFormat" value="&#8206;dd/MM"/>
+  <string id="MiniDateFormat" value="ddd &#8206;dd/MM"/>
+  <string id="ShortDateFormat" value="dddd &#8206;dd/MM"/>
+  <string id="DayFormat" value="ddd"/>
+  <string id="Today" value="اليوم"/>
+  <string id="Tomorrow" value="غدًا"/>
+  <string id="TimeLeft" value="متبقي {0}"/>
+  <string id="Past" value="ماضي"/>
+  <string id="Rental.Expired" value="انتهت مدة صلاحية الاستئجار."/>
+  <!-- {0}: Days (int)-->
+  <string id="Rental.Day" value="يوم واحد"/>
+  <string id="Rental.Days" value="{0} يوم"/>
+  <string id="Rental.Days.Confirm" value="{0} يوم"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Rental.Hour" value="ساعة واحدة"/>
+  <string id="Rental.Hours" value="{0} ساعة"/>
+  <string id="Rental.Hours.Confirm" value="{0} ساعة"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Rental.Minute" value="دقيقة واحدة"/>
+  <string id="Rental.Minutes" value="{0} دقيقة"/>
+  <string id="Rental.Minutes.Confirm" value="{0} دقيقة"/>
+  <!-- {0} seconds (int)-->
+  <string id="Duration.Seconds" value="{0} ثانية"/>
+  <!-- {0}: Minute (int) -->
+  <string id="Duration.Minute" value="{0} دقيقة"/>
+  <!-- {0}: Minutes (int) -->
+  <string id="Duration.Minutes" value="{0} دقيقة"/>
+  <!-- {0}: Minutes (int) {1}: Seconds (int)-->
+  <string id="Duration.MinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Hours (int) -->
+  <string id="Duration.Hour" value="{0} ساعة"/>
+  <string id="Duration.Hours" value="{0} ساعة"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int) -->
+  <string id="Duration.HoursMinutes" value="{0} {1}"/>
+  <!-- {0}: Hours (int); {1}: Minutes (int); {2}: Seconds -->
+  <string id="Duration.HoursMinutesSeconds" value="{0} {1}"/>
+  <!-- {0}: Days (int)-->
+  <string id="Duration.Days" value="{0} يوم"/>
+  <!-- {0}: Timespan-->
+  <string id="Duration.TimeLeft" value="متبقي {0}"/>
+  <!-- {0}: Episode title; {1}: Episode description-->
+  <string id="EpisodeTitleAndDescription" value="“{0}” - {1}"/>
+  <!-- {0}: Episode title-->
+  <string id="EpisodeTitle" value="“{0}”"/>
+  <!-- {0} program title; {1} episode title-->
+  <string id="TitleAndEpisodeTitle" value="{0} - “{1}”"/>
+  <!-- {0} program title-->
+  <string id="TitleSansEpisode" value="{0}"/>
+  <!-- {0} description; {1} truncation indicator-->
+  <string id="TruncatedDescription" value="{0}{1}"/>
+  <string id="Ellipsis" value="..."/>
+  <!-- {0}: Episode title-->
+  <string id="Episode" value="“{0}”"/>
+  <string id="Colon" value=":"/>
+  <string id="Comma" value=","/>
+  <string id="Space" value=" "/>
+  <string id="Period" value="."/>
+  <string id="Slash" value="\"/>
+  <string id="Bullet" value="  &#0183;  "/>
+  <!-- {0} Current index; {1}: Total index-->
+  <string id="ListCounter" value="{1} لـ{0}"/>
+  <!-- {0}: Rating-->
+  <string id="ParenthesizedString" value="({0})"/>
+  <string id="SettingsString" value="إعدادات"/>
+  <string id="WatchTV" value="مشاهدة التليفزبون"/>
+  <string id="OperationFailed" value="تعذر استكمال العملية"/>
+  <string id="Shutdown.Reboot" value="إعادة تشغيل النظام"/>
+  <!-- {0}: Timespan -->
+  <string id="Shutdown.Reboot.CountDown" value="سيتم إعادة تشغيل النظام تلقائياً خلال {0}."/>
+  <string id="Shutdown.Cancel" value="عدم إعادة التشغيل"/>
+  <string id="Shutdown.Prompt" value="هل تريد بالفعل إعادة تشغيل النظام؟"/>
+  <string id="PowerOff" value="إيقاف التشغيل"/>
+  <string id="PowerOff.Prompt" value="هل تريد بالفعل إيقاف تشغيل النظام؟"/>
+  <string id="PowerOff.Yes" value="إيقاف التشغيل"/>
+  <string id="PowerOff.No" value="عدم إيقاف التشغيل"/>
+  <string id="Restart.Prompt" value="هل تريد بالفعل إعادة تشغيل النظام؟"/>
+  <string id="Restart.Yes" value="إعادة التشغيل"/>
+  <string id="Restart.No" value="عدم إعادة التشغيل"/>
+  <string id="Hibernate.Prompt" value="هل تريد بالفعل إسبات النظام؟"/>
+  <string id="Hibernate.Yes" value="الإسبات"/>
+  <string id="Hibernate.No" value="عدم الإسبات"/>
+  <string id="StandBy.WatchTV" value="اضغط على OK (موافق) لمشاهدة التليفزيون"/>
+  <string id="TryAgain" value="المحاولة مرة أخرى"/>
+  <string id="Content.Unavailable.AutoDetuned" value="تم إلغاء ضبط الفيديو بعد مرور {0} في وضع الخمول"/>
+  <string id="Content.Unavailable.DRM" value="يتعذر عرض المحتوى"/>
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="يتطلب عرض هذه القناة وجود جهاز إضافي"/>
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="الرجاء الاتصال بالموفر لمزيد من المعلومات"/>
+  <string id="Content.Unavailable.HDMI" value="تعذر عرض محتوى HDMI"/>
+  <string id="Content.Unavailable.Service" value="المحتوى غير متوفر"/>
+  <string id="Content.Unavailable.Service.Initializing" value="الحصول على معلومات.  سيكون المحتوى متوفرًا خلال عدة دقائق."/>
+  <string id="Content.Unavailable.VOD" value="تعذر تشغيل الفيديو"/>
+  <string id="Content.Unavailable.PlaybackDisabled" value="لا يتم السماح بإعادة التشغيل في الوقت الحالي."/>
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="لا يتم السماح بإعادة التشغيل حتى {0}."/>
+  <string id="Content.Unavailable.ChangeChannels" value="تغيير القنوات لعرض البرامج الأخرى"/>
+  <string id="Content.Unavailable.CA" value="أنت غير مشترك في هذه الحزمة"/>  
+  <string id="Content.Unavailable.CA.Message1" value="اتصل بـ 1-800-000-0000 للحصول على Ericsson Sports على الجهاز"/>
+  <string id="Content.Unavailable.CA.Message2" value="مقابل 0 دولار فقط شهريًا"/>
+  <string id="Diagnostic" value="معلومات التشخيص"/>
+  <string id="Diag.Header" value="معلومات التشخيص"/>
+  <string id="Diag.NetworkNotAvailable" value="الشبكة غير متوفرة"/>
+  <string id="Diag.Status" value="    الحالة: "/>
+  <string id="Diag.Available" value="متوفر"/>
+  <string id="Diag.Unreach" value="لا يمكن الوصول إليه"/>
+  <string id="Diag.Unknown" value="مجهول"/>
+  <string id="Diag.BootRomVersion" value="إصدار Boot ROM"/>
+  <string id="Diag.ClientVersion" value="إصدار العميل"/>
+  <string id="Diag.LoginServiceUrl" value="محدد موقع معلومات خدمة تسجيل الدخول"/>
+  <string id="Diag.LoginServiceIP" value="IP خدمة تسجيل الدخول"/>
+  <string id="Diag.BoxID" value="مُعرف الجهاز"/>
+  <string id="Diag.BoxIP" value="مُعرف الجهاز"/>
+  <string id="Diag.DHCP" value="DHCP IP"/>
+  <string id="Diag.Gateway" value="IP العبارة"/>
+  <string id="Diag.DNSServer" value="IP خادم DNS"/>
+
+  <string id="Diag.Refresh" value="تحديث"/>
+  <string id="Diag.Reboot" value="إعادة التشغيل"/>
+  
+  <string id="Diag.OK" value="موافق"/>
+  <string id="Diag.Fail" value="فشل"/>
+  <string id="Diag.LoginResult" value="نتيجة محاولة تسجيل الدخول"/>
+  <string id="Diag.LoginResult.UpgradeRequired" value="التحديث ضروري"/>
+  <string id="Diag.LoginResult.UnProvisioned" value="لم يتم تزويد الجهاز"/>
+  <string id="Diag.LoginResult.AccountUnavailable" value="الحساب غير متوفر"/>
+  <string id="Diag.LoginResult.DuplicateIP" value="تكرار عنوان IP"/>
+  <string id="Diag.LoginResult.Unknown" value="رمز نتيجة غير معروف: {0}"/>
+
+  <string id="ConfigurableMenu.UpdateNotification" value="يتم تحديث القائمة"/>
+  <string id="PPPoE.Setting" value="إعدادات PPPOE"/>
+  <string id="PPPoE.Setting.UserName" value="اسم المستخدم:"/>
+  <string id="PPPoE.Setting.Password" value="كلمة المرور:"/>
+  <string id="PPPoE.Setting.Connect" value="اتصال"/>
+  <string id="PPPoE.Setting.Reboot" value="إعادة التشغيل"/>
+  <string id="PPPoE.Setting.Disconnect" value="قطع الاتصال"/>
+  <string id="PPPoE.Setting.Advanced" value="خيارات متقدمة..."/>
+  <string id="PPPoE.Setting.Save" value="حفظ"/>
+  <string id="PPPoE.Setting.Back" value="الخلف"/>
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="استخدام اسم تسجيل الدخول وكلمة المرور تلقائياً"/>
+  <string id="PPPoE.Setting.Advanced.CHAP" value="بروتوكول Challenge Handshake Password Authentication Protocol (CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="Microsoft CHAP (MS-CHAP)"/>
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="الإصدار 2 من Microsoft CHAP ‏(MS-CHAP v2)"/>
+  <string id="PPPoE.Setting.Advanced.Shiva" value="بروتوكول Shiva&apos;s Password Authentication Protocol"/>
+  <string id="PPPoE.Setting.Advanced.PAP" value="كلمة مرور غير مشقرة (PAP)"/>
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="استخدام تشفير البيانات"/>
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="استخدام ضغط البرامج"/>
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="استخدام ضغط رأس IP"/>
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="استخدام العبّارة الافتراضية"/>
+  <string id="PPPoE.Setting.Advanced.Save" value="حفظ"/>
+  <string id="PPPoE.Setting.Advanced.Back" value="الخلف"/>
+  <string id="PPPoE.Connect" value="يتم الطلب... الرجاء الانتظار"/>
+  <string id="PPPoE.Connect.Status" value="الحالة:"/>
+  <!-- {0}: Dead state message; {1}: Dead state status-->
+  <string id="DeadState.MessageFormat" value="{0} (Error# {1})"/>
+  <string id="DeadState.DeadStateMessage" value="البث التليفزيوني غير متوفر حالياً. اختر &quot;إعادة التشغيل&quot; للاتصال مرة أخرى. إذا استمرت هذه المشكلة، اتصل بخدمة العملاء."/>
+  <string id="NetworkWizard.Setting" value="معالج الشبكة"/>
+  <string id="NetworkWizard.Setting.DHCP" value="DHCP"/>
+  <string id="NetworkWizard.Setting.PPPoE" value="PPPoE"/>
+  <string id="NetworkWizard.Setting.StaticIP" value="IP ثابت"/>
+  <string id="NetworkWizard.Setting.Next" value="التالي"/>
+  <string id="NetworkWizard.Setting.Tips" value="اختر نوع الاتصال، ثم اضغط على الزر Next (التالي) لمتابعة التكوين."/>
+  <string id="DHCP.Setting" value="إعداد DHCP"/>
+  <string id="DHCP.Setting.Desc" value="اضغط على الزر&quot;إعادة التشغيل&quot; لإعداد DHCP."/>
+  <string id="DHCP.Setting.Reboot" value="إعادة التشغيل"/>
+  <string id="DHCP.Setting.Back" value="الخلف"/>
+  <string id="StaticIP.Setting" value="إعداد IP الثابت"/>
+  <string id="StaticIP.Setting.IPAddr" value="عنوان IP:"/>
+  <string id="StaticIP.Setting.Mask" value="القناع:"/>
+  <string id="StaticIP.Setting.Gate" value="المنفذ:"/>
+  <string id="StaticIP.Setting.DNS" value="DNS:"/>
+  <string id="StaticIP.Setting.WINS" value="WINS:"/>
+  <string id="StaticIP.Setting.Reboot" value="إعادة التشغيل"/>
+  <string id="StaticIP.Setting.Back" value="الخلف"/>
+  <!-- {0}: Timespan -->
+  <string id="BootstrapRetry.CountDown" value="سيتم إعادة محاولة الاتصال خلال {0}."/>
+  <string id="BootstrapRetry.TryAgain" value="حاول الآن مرة أخرى"/>
+  <string id="BootstrapRetry.Message" value="لا يمكن لجهاز استقبال التليفزيون أن يتصل مؤقتاً بخدمة EricssonTV."/>
+  <string id="BootstrapRetry.Header" value="خطأ في اتصال الخادم"/>
+  <string id="BootstrapRetry.Diagnostics" value="التشخيص"/>
+
+  <!-- HDMI cable connected or disconnected, HDCP (video encryption) errors -->
+  <string id="HDMI.Plugged" value="خرج HDMI قيد التمكين الآن."/>
+  <string id="HDMI.Unplugged" value="تم تعطيل خرج HDMI. (H1000)"/>
+  <string id="HDMI.HDCP.Unsupported" value="يتعذر على التليفزيون دعم فيديو HDCP عبر الاتصال عالي الدقة. (H1001)"/>
+  <string id="HDMI.HDCP.Revoked" value="يتعذر على التليفزيون عرض خدمة الفيديو هذه عبر HDMI. لا تدعم الشاشة HDCP. (H1002)"/>
+  <string id="HDMI.HDCP.LevelExceeded" value="يتعذر على التليفزيون عرض خدمة الفيديو هذه عبر HDMI. عدد كبير جداً من الأجهزة متصلة. (H1003)"/>
+  <string id="HDMI.HDCP.StbNoKeys" value="يتعذر عرض خدمة الفيديو عبر HDMI. لا توجد مفاتيح HDCP لجهاز تحويل إشارات التلفزيون. (H1004)"/>
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشل فحص سلامة ارتباط HDCP. (H1005)"/>
+  <string id="HDMI.HDCP.NoReceiverConnected" value="يتعذر عرض خدمة الفيديو عبر HDMI. لا يوجد جهاز استقبال متصل. (H1006)"/>
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشل كتابة TX AN. (H1007)"/>
+  <string id="HDMI.HDCP.TxAnReadFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشل قراءة TX AN. (H1008)"/>
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشل كتابة RX AN. (H1009)"/>
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="يتعذر عرض خدمة الفيديو عبر HDMI. تنسيق AKSV غير صالح. (H1010)"/>
+  <string id="HDMI.HDCP.AksvWriteFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشلت كتابة AKSV. (H1011)"/>
+  <string id="HDMI.HDCP.BksvWriteFailed" value="يتعذر عرض خدمة الفيديو عبر HDMI. فشلت كتابة BKSV. (H1012)"/>
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="يتعذر عرض خدمة الفيديو عبر HDMI. تنسيق BKSV غير صالح. (H1013)"/>
+
+  <!-- DTT/offline experience -->
+  <string id="DTT.Reconnected" value="تم إعادة إنشاء اتصال عريض النطاق"/>
+  <string id="DTT.Disconnected" value="أنت الآن غير متصل بشبكة عريضة النطاق. قد يتم تعطيل بعض القنوات والميزات."/>
+  <string id="DTT.Troubleshoot" value="استكشاف الأخطاء"/>
+  
+  <!-- XHTML Browser -->
+  <string id="Browser.LoadingPage" value="يتم الآن تحميل الصفحة..."/>
+
+  <!-- MHEG5 error reporting -->
+  <string id="MHEG.Unavailable" value="ميزات التفاعل غير متوفرة مؤقتاً. الرجاء إعادة المحاولة لاحقاً"/>
+
+ <!-- localized image names -->
+  <string id="Image.Icon.HD" value="file:///Icon.HD.png"/>
+  <string id="Image.Logo.VideoOnDemand" value="file:///Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="file:///Brand_Service_Banner_RTL.png"/>
+  <string id="Image.ScreenSaverLogo" value="file:///ScreenSaverLogo.png"/>
+  <string id="Image.VideoStill.Future" value="file:///VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="file:///VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="file:///VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="file:///VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.CA" value="file:///VideoStill.Locked.CA.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="file:///VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="file:///VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="file:///VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="file:///VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="file:///Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="file:///VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="file:///VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="file:///VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="file:///VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="file:///VideoStill.Locked.jpg"/>
+  
+  <!-- ISO 639-1 language code to display name map. -->
+  <string id="ISO.af" value="الأفريقية"/>
+  <string id="ISO.ar" value="العربية"/>
+  <string id="ISO.az" value="الأذربيجانية"/>
+  <string id="ISO.be" value="البيللاروسية"/>
+  <string id="ISO.bg" value="البلغارية"/>
+  <string id="ISO.ca" value="الكتلانية"/>
+  <string id="ISO.cs" value="التشيكية"/>
+  <string id="ISO.cy" value="الويلزية"/>
+  <string id="ISO.da" value="الدانماركية"/>
+  <string id="ISO.de" value="الألمانية"/>
+  <string id="ISO.el" value="اليونانية"/>
+  <string id="ISO.en" value="الإنجليزية"/>
+  <string id="ISO.es" value="الإسبانية"/>
+  <string id="ISO.et" value="الإستونية"/>
+  <string id="ISO.eu" value="الباسكية"/>
+  <string id="ISO.fa" value="الفارسية"/>
+  <string id="ISO.fi" value="الفنلندية"/>
+  <string id="ISO.fo" value="الفاروية"/>
+  <string id="ISO.fr" value="الفرنسية"/>
+  <string id="ISO.gd" value="الغيلية"/>
+  <string id="ISO.gl" value="الجليقية"/>
+  <string id="ISO.gu" value="الكوجوراتيّة"/>
+  <string id="ISO.he" value="العبرية"/>
+  <string id="ISO.hi" value="الهندية"/>
+  <string id="ISO.hr" value="الكرواتية"/>
+  <string id="ISO.hu" value="المجرية"/>
+  <string id="ISO.hy" value="الأرمانية"/>
+  <string id="ISO.id" value="الإندونيسية"/>
+  <string id="ISO.is" value="الأيسلندية"/>
+  <string id="ISO.it" value="الإيطالية"/>
+  <string id="ISO.ja" value="اليابانية"/>
+  <string id="ISO.ka" value="الجورحية"/>
+  <string id="ISO.kk" value="الكازاخستانية"/>
+  <string id="ISO.kn" value="الكنّادية"/>
+  <string id="ISO.ko" value="الكورية"/>
+  <string id="ISO.ky" value="القرغيزستانية"/>
+  <string id="ISO.lt" value="الليتوانية"/>
+  <string id="ISO.lv" value="اللاتفية"/>
+  <string id="ISO.mk" value="الماكدونية"/>
+  <string id="ISO.mn" value="المانغولية"/>
+  <string id="ISO.mr" value="الماراثية"/>
+  <string id="ISO.ms" value="المالية"/>
+  <string id="ISO.nl" value="الهولندية"/>
+  <string id="ISO.no" value="النرويجية"/>
+  <string id="ISO.pa" value="البنجابية"/>
+  <string id="ISO.pl" value="البولندية"/>
+  <string id="ISO.pt" value="البرتغالية"/>
+  <string id="ISO.ro" value="الرومانية"/>
+  <string id="ISO.ru" value="الروسية"/>
+  <string id="ISO.sa" value="السنسكريتية"/>
+  <string id="ISO.sk" value="السلوفاكية"/>
+  <string id="ISO.sl" value="السلوفينية"/>
+  <string id="ISO.sq" value="الألبانية"/>
+  <string id="ISO.sr" value="الصربية"/>
+  <string id="ISO.sv" value="السويدية"/>
+  <string id="ISO.sw" value="السواحلية"/>
+  <string id="ISO.ta" value="التاميلية"/>
+  <string id="ISO.te" value="التيلوغوية"/>
+  <string id="ISO.th" value="التايلاندية"/>
+  <string id="ISO.tr" value="التركية"/>
+  <string id="ISO.tt" value="التترية"/>
+  <string id="ISO.uk" value="الأوكرانية"/>
+  <string id="ISO.ur" value="الأوردية"/>
+  <string id="ISO.uz" value="الأوزبكستانية"/>
+  <string id="ISO.vi" value="الفيتنامية"/>
+  <string id="ISO.zh" value="الصينية"/>
+
+  <!-- Unit testing strings are used for debugging builds only -->
+  <string id="UnitTestingPipTuning.Description" value="تقوم هذه الصفحة بقياس أداء PIP عن طريق توليف كافة القنوات المتوفرة مرات ومرات باستخدام الفيديو. توليف قناة."/>
+  <string id="UnitTestingPipTuning.Statistics" value="تمت الموالفة {TimesTuned} مرة، حالياً على: {Channel} {CallLetters}
+مهلة آخر توليف {LastDelay} مللي ثانية، متوسط {AvgDelay} مللي ثانية
+متوسط توليف أكثر من 50 مللي ثانية: {SmartAvg} مللي ثانية"/>
+  <string id="UnitTestingScreenModeSwitching.Description" value="تقوم هذه الصفحة باختبار رمز تبديل وضع الشاشة عن طريق تغيير الوضع مرات ومرات أخرى. الرجاء التأكد من أن التليفزيون متصل باستخدام مكون أو كبلات HDMI/DVI وإلا لن تتمكن من مشاهدة الشاشة أثناء الوضع عالي الدقة."/>
+  <string id="UnitTestingScreenModeSwitching.Stats" value="نحن الآن نعمل في وضع {Mode} (في انتظار الحدث Compositor.Status؟ {Switching}). تم تشغيل هذا الاختبار {Times} مرة وسيتم تشغيلة مرة أخرى في غضون {Seconds} ثانية."/>
+  <string id="UnitTestingRightsPCON.Description" value="تقوم هذه الصفحة بقياس أداء rights/PCON عن طريق مسح كافة القنوات والتأكد من حقوق وصول المستخدم لها."/>
+  <string id="UnitTestingRightsPCON.Statistics" value="تمت الموالفة {TimesTuned} مرة، حالياً على: {Channel} {CallLetters}
+مهلة آخر توليف {LastDelay} مللي ثانية، متوسط {AvgDelay} مللي ثانية
+متوسط توليف أكثر من 50 مللي ثانية: {SmartAvg} مللي ثانية"/>
+  <string id="UnitTestingPageLoading.Description" value="سيتم إعادة تحميل هذه الصفحة 50 مرة لقياس أداء إنشاء الصفحة وتحميلها، الرجاء الانتظار..."/>
+  <string id="UnitTestingPageLoading.Statistics" value="تم التحميل {TimesLoaded} مرة
+مهلة آخر تحميل {LastDelay} مللي ثانية
+متوسط {AvgDelay} مللي ثانية"/>
+
+  <!-- Emergency Alert System Strings -->  
+  <string id="EAS.Level1" value="*** حالة طوارئ وطنية ***"/>
+  <string id="EAS.Warning" value="*** تحذير ***"/>
+  <string id="EAS.Watch" value="*** تنبيه ***"/>
+  <string id="EAS.Emergency" value="*** حالة طوارئ ***"/>
+  <string id="EAS.Statement" value="*** بيان ***"/>
+  <string id="EAS.Dismiss" value="اضغط على EXIT (إنهاء) لإنهاء التنبيه"/>
+  <string id="ExternPrice" value=" "/>
+  
+  <!-- UI Notification Messages. Keys are intentionally kept short -->
+  <string id="UI.CallerID" value="أنت تستقبل مكالمة هاتفية"/>
+</stringtable>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <ParentalControl_UnlockPage class="Page.Animated">
+    
+		<Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+		<Text class="Text.SubheaderTitle">#ParentalControl.Title.ParentalLocking</Text>
+		
+		<Text class="Text.Clock">{Time}</Text>
+		
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.ParentalControlUnlockPage">
+			<Button class="Button.Menu.ParentalControl" id="_unlockAllProgramming" onClick="OnClick_UnlockProgrammingFor4Hours">#ParentalControl.MenuItemText.UnlockProgramming</Button>
+			<Button class="Button.Menu.ParentalControl" id="_offPCon" onClick="OnClick_OffPCon">#ParentalControl.MenuItemText.ResetPCon</Button>
+			<Button class="Button.Menu.ParentalControl" id="_cancelButton" href="ParentalControl_Menu">#ParentalControl.MenuItemText.DoNothing</Button>
+		</VerticalFlowPanel>	
+
+	</ParentalControl_UnlockPage>
+</uidescription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <MrmlPage excludefromhistory="False" height="480" id="TVPage1" visible="True" left="0" class="Page.Animated" top="0" width="640">
+
+    <Actions contentmodel="xml">
+
+      <Event type="key" data="app1" action="aApp1" />
+      <Event type="key" data="app2" action="aApp2" />
+
+      <Action name="aApp1" type="navigate" data="test:dumpgadgets" />
+      <Action name="aApp1" type="navigate" data="test:dumpclientinfo" />
+
+    </Actions>
+  </MrmlPage>
+</uidescription>

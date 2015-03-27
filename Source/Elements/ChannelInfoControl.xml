@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <ChannelInfoControl class="Panel.BrowseBar.ChannelInfoControlRoot">
+    <VerticalFlowPanel class="Panel.BrowseBar.ChannelInfoContainer">
+      <Text class="Text.BrowseBar.ChannelNumber" id="_channelNumber" />
+      <Image class="Image.BrowseBarChannelLogo" id="_channelLogo" />
+      <Text class="Text.BrowseBar.CallLetter" id="_callLetter" />
+    </VerticalFlowPanel>
+  </ChannelInfoControl>
+</uidescription>

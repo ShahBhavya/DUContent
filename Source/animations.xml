@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Animations>
+			
+	<AnimationCollection class="ButtonPress">
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="0.12" repeatDuration="0" index="0"/>
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.12" duration="0.12" repeatDuration="0" index="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="fancy1">
+		<Zoom class="zoom1" fromx="0.0" tox="1.0" fromy="0.0" toy="1.0" cx="320.0" cy="240.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="fade2">
+		<Fade class="fade2" from="1.0" to="0.5" begin="0.0" duration="10" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="BusyIn">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="BusyOut">
+    <Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.25" repeatDuration="0"/>
+  </AnimationCollection>
+  
+	<AnimationCollection class="MenuInLeft">
+		<Fade class="FadeIn" from="0.0" to="1.0" begin="0.0" duration=".20" repeatDuration="0"/>
+		<Pan class="pan" from="-30" dx="30.0" dy="0.0" begin="0.0" duration=".20" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="MenuOutLeft">
+		<Fade class="FadeOut" from="1.0" to="0.0" begin="0.0" duration=".20" repeatDuration="0"/>
+		<Pan class="pan" dx="30.0" dy="0.0" begin="0.0" duration=".20" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="MenuInRight">
+		<Fade class="FadeIn" from="0.0" to="1.0" begin="0.0" duration=".20" repeatDuration="0"/>
+		<Pan class="pan" from="30" dx="-30.0" dy="0.0" begin="0.0" duration=".20" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="MenuOutRight">
+		<Fade class="FadeOut" from="1.0" to="0.0" begin="0.0" duration=".20" repeatDuration="0"/>
+		<Pan class="pan" dx="-30.0" dy="0.0" begin="0.0" duration=".20" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="rotate1">
+		<Rotate class="rotate1" from="0.0" to="36000" cx="100" cy="30" begin="0.0" duration="120" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="fancy2">
+		<Zoom class="zoom1" fromx="1.0" tox="2.0"  fromy="1.0" toy="2.0" cx="320.0" cy="240.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+		<Rotate class="rotate" from="0.0" to="15.0" cx="320.0" cy="240.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="WelcomePan">
+		<Pan class="pan" dx="100.0" dy="0.0" begin="0.0" duration="10" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="RosetteOut">
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.15" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="BrowseBarOut">
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="BrowseBarIn">
+		<Pan class="pan" from="35.0" dx="0.0" dy="-35.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+		<Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="BrowseBarShiftRightOut">
+    <Pan class="pan" from="0.0" dx="1280.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="1.0" to="0.25" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="BrowseBarShiftRightIn">
+    <Pan class="pan" from="-1280.0" dx="1280.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="BrowseBarShiftLeftIn">
+    <Pan class="pan" from="1280.0" dx="-1280.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="BrowseBarShiftLeftOut">
+    <Pan class="pan" from="0.0" dx="-1280.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="1.0" to="0.25" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+	<AnimationCollection class="SeekBarIn">
+		<Pan class="pan" from="25.0" dx="0.0" dy="-25.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+		<Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="SeekBarOut">
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="NextSlide_inNormal">
+		<Fade class="fade" from="0.0" to="1.0" begin="-0.6" duration="1.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NextSlide_outNormal">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="1.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NextSlide_fromLeft">
+		<Pan class="pan" from="-640.0" dx="640.0" dy="0.0" begin="0.2" duration="0.4" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NextSlide_fromRight">
+		<Pan class="pan" from="640.0" dx="-640.0" dy="0.0" begin="0.2" duration="0.4" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NextSlide_toLeft">
+		<Pan class="pan" from="0.0" dx="-640.0" dy="0.0" begin="0.0" duration="0.4" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NextSlide_toRight">
+		<Pan class="pan" from="0.0" dx="640.0" dy="0.0" begin="0.0" duration="0.4" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="PageInForward">
+    <Zoom class="zoom1" fromx="0.85" tox="1.0" fromy="0.85" toy="1.0" cx="320.0" cy="240.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.4" to="1.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="PageOutForward">
+	  <Zoom class="zoom1" fromx="1.0" tox="1.25" fromy="1.0" toy="1.25" cx="320.0" cy="240.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0"/>		
+	</AnimationCollection>	
+
+	<AnimationCollection class="PageOutBackward">
+	  <Zoom class="zoom1" fromx="1.0" tox="0.85" fromy="1.0" toy="0.85" cx="320.0" cy="240.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+    <Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="PageInBackward">
+	  <Zoom class="zoom1" fromx="1.25" tox="1.0" fromy="1.25" toy="1.0" cx="320.0" cy="240.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.4" to="1.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="MediumFadeIn">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.5" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MediumFadeOut">
+    <Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.5" repeatDuration="0"/>
+  </AnimationCollection>
+
+	<AnimationCollection class="SlowFadeIn">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="SlowFadeOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="SingleFrame">
+    <Single class="single"/>
+  </AnimationCollection>
+	
+  <!-- addition to MR branding -->
+  <!-- not used yet, but preparing for a 'fly in from the corners' animation-->
+	<AnimationCollection class="DelayedFadeInTL">
+		<Zoom class="zoom1" fromx="0.0" tox="1.0" fromy="0.0" toy="1.0" cx="0.0" cy="0.0" begin="0.0" duration="3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+	<AnimationCollection class="DelayedFadeInTR">
+		<Zoom class="zoom1" fromx="0.0" tox="1.0" fromy="0.0" toy="1.0" cx="0.0" cy="480.0" begin="0.0" duration="3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+	<AnimationCollection class="DelayedFadeInBL">
+		<Zoom class="zoom1" fromx="0.0" tox="1.0" fromy="0.0" toy="1.0" cx="640.0" cy="0.0" begin="0.0" duration="3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+	<AnimationCollection class="DelayedFadeInBR">
+		<Zoom class="zoom1" fromx="0.0" tox="1.0" fromy="0.0" toy="1.0" cx="640.0" cy="480.0" begin="0.0" duration="3" repeatDuration="0"/>
+		<Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="BusyFadeIn">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.4" />
+  </AnimationCollection>
+
+  <AnimationCollection class="BusyFadeOut">
+    <Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.4" />
+  </AnimationCollection>
+
+  <!-- used on the welcomeflipper in MR branding-->
+	<AnimationCollection class="FadeInAndZoom2">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="2.0" repeatDuration="0"/>
+		<Zoom class="zoom1" fromx="2" tox="1.0" fromy="2" toy="1.0" cx="400.0" cy="200.0" begin="0.0" duration="2.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="TextSlideInLeft">
+		<Pan class="pan" from="200.0" dx="-200.0" dy="0.0" begin="0.0" duration="3.0" autoReverse="false" loop="false"/>
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="2.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="TextSlideOutLeft">
+		<Pan class="pan" from="0.0" dx="-200.0" dy="0.0" begin="0.0" duration="3.0" autoReverse="false" loop="false"/>
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="TextSlideInRight">
+		<Pan class="pan" from="-200.0" dx="200.0" dy="0.0" begin="0.0" duration="3.0" autoReverse="false" loop="false"/>
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="2.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="TextSlideOutRight">
+		<Pan class="pan" from="0.0" dx="200.0" dy="0.0" begin="0.0" duration="3.0" autoReverse="false" loop="false"/>
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="3.0" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="SlowDim">
+		<Fade class="fade" from="1.0" to="0.4" begin="0.0" duration="0.8" repeatDuration="0"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="QuickDim">
+		<Fade class="fade" from="1.0" to="0.5" begin="0.0" duration="0.25" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="QuickUndim">
+		<Fade class="fade" from="0.5" to="1.0" begin="0.0" duration="0.25" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="QuickFadeIn">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="QuickFadeOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="NotificationIn">
+		<Zoom class="zoom1" fromx="0.85" tox="1.0" fromy="0.85" toy="1.0" cx="320.0" cy="80.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+		<Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="NotificationOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="AlertIn">
+		<Pan class="pan" from="20.0" dx="0.0" dy="-20.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+		<Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="AlertOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+	</AnimationCollection>
+
+  <!-- 
+      OptionPanel animation may now be specified in style/skin.  Thus it makes sense to 
+      preserve the original 1.1 animation, provide the new Jackpot animation under a new name, and
+      provide a (Jackpot-like) slide from right that meets a specific agreed customer reqt (BT) based
+      on earlier Jackpot demos.  The default animation in styles.xml at 1.2 will be 'OptionsInJackpotLight', 
+      customized skin.xmls may override.
+  -->
+
+  <AnimationCollection class="OptionsInOriginal">
+    <Pan class="pan" from="-100.0" dx="0.0" dy="100.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="OptionsInJackpotLight">
+    <Pan class="pan" from="330.0" dx="-330.0" dy="0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="OptionsInFromRight">
+    <Pan class="pan" from="100.0" dx="-100.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="0.25" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="OptionsOut">
+    <Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="OptionsOutPartialPanRight">
+    <Pan class="pan" from="230.0" dx="330.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="1" to="0.25" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="OptionsOutCompletePanRight">
+    <Pan class="pan" from="330.0" dx="0.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+    <Fade class="fade1" from="1" to="0.25" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="SlowPulse">
+		<Blink class="blink" from="0.25" to="1.0" begin="0.0" duration="1.0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="CrossFade_Bottom">
+		<Pan class="pan" from="0.0" dx="0.0" dy="-120.0" begin="0.0" duration="5.0" autoReverse="true" loop="true"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="CrossFade_Top">
+		<Blink class="blink" from="0.0" to="1.0" begin="0.0" duration="2.5"/>
+		<Pan class="pan" from="0.0" dx="160.0" dy="0.0" begin="0.0" duration="5.0" autoReverse="true" loop="true"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="PosterIn">
+		<Fade class="fade1" from="0.4" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="PosterChangeIn">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="PosterChangeOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.8" duration="1.0" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="BrowseBarInUp">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="50.0" dx="0.0" dy="-50" begin="0.0" duration="0.1" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="BrowseBarOutUp">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="-50.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="BrowseBarInDown">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="-50.0" dx="0.0" dy="50" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="BrowseBarOutDown">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="50.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="BrowseBarArrowDown">
+		<Pan class="pan" from="0.0" dx="0.0" dy="20.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="-20.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="BrowseBarArrowUp">
+		<Pan class="pan" from="0.0" dx="0.0" dy="-20.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="-0.0" dx="0.0" dy="20.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="VodBackgroundChangeIn">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="VodBackgroundChangeOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.4" duration="0.5" repeatDuration="0"/>
+	</AnimationCollection>
+	
+    <AnimationCollection class="MosaicBackgroundChangeIn">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="MosaicBackgroundChangeOut">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="2.0" repeatDuration="0"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarInUp">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="30.0" dx="0.0" dy="-30" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="ChannelBarOutUp">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="-30.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarInDown">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="-30.0" dx="0.0" dy="30" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="ChannelBarOutDown">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="30.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+		
+  <AnimationCollection class="ChannelBarInLeft">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="30.0" dx="-30" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="ChannelBarOutLeft">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="-30.0" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarInRight">
+		<Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="-30.0" dx="30.0" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+
+	<AnimationCollection class="ChannelBarOutRight">
+		<Fade class="fade" from="1.0" to="0.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+		<Pan class="pan" from="0.0" dx="30.0" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarArrowDown">
+		<Pan class="pan" from="0.0" dx="0.0" dy="20.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="0.0" dx="0.0" dy="-20.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarArrowUp">
+		<Pan class="pan" from="0.0" dx="0.0" dy="-20.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="-0.0" dx="0.0" dy="20.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="ChannelBarArrowRight">
+		<Pan class="pan" from="0.0" dx="20.0" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="0.0" dx="-20.0" dy="0.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+	<AnimationCollection class="ChannelBarArrowLeft">
+		<Pan class="pan" from="0.0" dx="-20.0" dy="0.0" begin="0.0" duration="0.1" autoReverse="false" loop="false" index="0"/>
+		<Pan class="pan" from="-0.0" dx="20.0" dy="0.0" begin="0.1" duration="0.01" autoReverse="false" loop="false" index="1"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="ChannelBarRightArrowPop">
+    <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="0" cy="13.5" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="0" cy="13.5" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="ChannelBarRightArrowPopAndFade">
+	  <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="0" cy="13.5" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="0" cy="13.5" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+	  <Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.2" repeatDuration="0" index="0"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="ChannelBarLeftArrowPop">
+	  <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="27" cy="13.5" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="27" cy="13.5" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="ChannelBarLeftArrowPopAndFade">
+	  <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="27" cy="13.5" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="27" cy="13.5" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+		<Fade class="fade1" from="1.0" to="0.0" begin="0.0" duration="0.2" repeatDuration="0" index="0"/>
+	</AnimationCollection>
+	
+  <AnimationCollection class="ChannelBarDownArrowPop">
+	  <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="13.5" cy="0.0" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="13.5" cy="0.0" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+	</AnimationCollection>
+
+  <AnimationCollection class="ChannelBarUpArrowPop">
+	  <Zoom class="zoom1" fromx="1.00" tox="1.25" fromy="1.00" toy="1.25" cx="13.5" cy="27" begin="0.0" duration="0.1" repeatDuration="0" relative="true" index="0"/>
+	  <Zoom class="zoom1" fromx="1.00" tox="0.8" fromy="1.00" toy="0.8" cx="13.5" cy="27" begin="0.1" duration="0.01" repeatDuration="0" relative="true" index="1"/>
+	</AnimationCollection>
+
+  <!-- media sharing animations -->
+
+  <AnimationCollection class="MusicBarInUp">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="0.1" repeatDuration="0"/>
+    <Pan class="pan" from="30.0" dx="0.0" dy="-30" begin="0.0" duration="0.1" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <!-- animations used for first photo, subsequent slides and to take slides out -->
+  <AnimationCollection class="PhotoIn">
+    <Fade class="fade1" from="0.4" to="1.0" begin="0.0" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+  <AnimationCollection class="PhotoChangeIn">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+  </AnimationCollection>
+  <AnimationCollection class="PhotoChangeOut">
+    <Fade class="fade" from="1.0" to="0.0" begin="0.8" duration="0.2" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="PhotoChangeIn-Alt1">
+    <Fade class="fade" from="0.0" to="1.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+    <Zoom class="zoom" fromx="1.00" tox="1.20" fromy="1.00" toy="1.20" cx="128" cy="96" begin="0.0" duration="10.0" repeatDuration="0" relative="true" />
+  </AnimationCollection>
+
+  <!-- animations used for music visuals: bottom spins counterclockwise, top spins clockwise + fade in/out (doesn't work on SOC!)
+  <AnimationCollection class="MusicVisuals_Bottom">
+    <Rotate class="rotate" from="0.0" to="-360.0" cx="320.0" cy="240.0" begin="0.0" duration="12.0" repeatDuration="30.0" loop="true"/>
+  </AnimationCollection>
+  <AnimationCollection class="MusicVisuals_Top">
+    <Blink class="blink" from="0.4" to="1.0" begin="0.0" duration="4.0" repeatDuration="7"/>
+    <Rotate class="rotate" from="0.0" to="360.0" cx="320.0" cy="240.0" begin="0.0" duration="36.0" repeatDuration="30.0" loop="true"/>
+  </AnimationCollection>
+  -->
+
+  <!-- simple animation for music visuals (similar to screen saver animation) -->
+  <AnimationCollection class="MusicVisuals_Bottom">
+    <Pan class="pan" from="0.0" dx="-170.0" dy="330.0" begin="0.0" duration="37.0" autoReverse="true" loop="true"/>
+  </AnimationCollection>
+  <AnimationCollection class="MusicVisuals_Top">
+    <Blink class="blink" from="0.4" to="1.0" begin="0.0" duration="5.0"/>
+    <Pan class="pan" from="0.0" dx="170.0" dy="-330.0" begin="0.0" duration="23.0" autoReverse="true" loop="true"/>
+  </AnimationCollection>
+
+  <!-- BEGIN: Jackpot animation collection -->
+  <AnimationCollection class="MSTVXPagePanInFromRight">
+    <Pan class="pan" from="640.0" dx="-640.0" dy="0.0" begin="0.0" duration="0.5" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPagePanInFromLeft">
+    <Pan class="pan" from="-640.0" dx="640.0" dy="0.0" begin="0.0" duration="0.5" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSlowFadeIn">
+    <Fade class="fade1" from="0.0" to="0.0" begin="0.0" duration="0.3" repeatDuration="0" index="0"/>
+    <Fade class="fade1" from="0.0" to="1.0" begin="0.3" duration="0.5" repeatDuration="0" index="1"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXQuickFadeInSlowFadeOut">
+    <Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="0.05" repeatDuration="0" index="0"/>
+    <Fade class="fade1" from="1.0" to="0.0" begin="0.05" duration="1.0" repeatDuration="0" index="1"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXFadeInFrom50Percent">
+    <Fade class="fade" from="0.5" to="1.0" begin="0.0" duration="0.4" repeatDuration="0"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPipZoomOutAndPanRight">
+    <Zoom class="zoom1" fromx="3.0" tox="1.0" fromy="3.0" toy="1.0" cx="200.0" cy="360.0" begin="0.0" duration="0.8" repeatDuration="0"/>
+    <Pan class="pan" from="-80.0" dx="80.0" dy="0.0" begin="0.0" duration="0.8" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPipZoomInAndPanLeft">
+    <Zoom class="zoom1" fromx="0.3" tox="1.0" fromy="0.3" toy="1.0" cx="240.0" cy="360.0" begin="0.0" duration="0.8" repeatDuration="0"/>
+    <Pan class="pan" from="80.0" dx="-80.0" dy="0.0" begin="0.0" duration="0.8" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPipZoomInAndPanDown">
+    <Zoom class="zoom1" fromx="0.3" tox="1.0" fromy="0.3" toy="1.0" cx="280.0" cy="120.0" begin="0.0" duration="1.0" repeatDuration="0"/>
+    <Pan class="pan" from="-240.0" dx="0.0" dy="240.0" begin="0.0" duration="1.0" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPipZoomOutAndPanUp">
+    <Zoom class="zoom1" fromx="3.0" tox="1.0" fromy="3.0" toy="1.0" cx="280.0" cy="360.0" begin="0.0" duration="0.9" repeatDuration="0"/>
+    <Pan class="pan" from="240.0" dx="0.0" dy="-240.0" begin="0.0" duration="1.0" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUp2HalfBlocks">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-180.0" begin="0.0" duration="0.7" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDown2HalfBlocks">
+    <Pan class="pan" from="-180.0" dx="0.0" dy="180.0" begin="0.0" duration="0.7" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="JackpotGuidePageUp">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-180.0" begin="0.0" duration="1.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="JackpotGuidePageDown">
+    <Pan class="pan" from="-180.0" dx="0.0" dy="180.0" begin="0.0" duration="1.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUp3Blocks">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-180.0" begin="0.0" duration="0.5" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDown3Blocks">
+    <Pan class="pan" from="-180.0" dx="0.0" dy="180.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUpHalfBlock">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-30.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDownHalfBlock">
+    <Pan class="pan" from="-30.0" dx="0.0" dy="30.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUp1Block">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-60.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDown1Block">
+    <Pan class="pan" from="-60.0" dx="0.0" dy="60.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUp2HalfBlock">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-150.0" begin="0.0" duration="1.0" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDown2HalfBlock">
+    <Pan class="pan" from="-150.0" dx="0.0" dy="150.0" begin="0.0" duration="1.0" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanUp2Block">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-120.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanDown2Block">
+    <Pan class="pan" from="-120.0" dx="0.0" dy="120.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight3AndHalfBlocks">
+    <Pan class="pan" from="-280.0" dx="280.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanLeft5AndHalfBlocks">
+    <Pan class="pan" from="440.0" dx="-440.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXMoveLeft2Blocks">
+    <Pan class="pan" from="0.0" dx="-160.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXMoveLeft4Blocks">
+    <Pan class="pan" from="0.0" dx="-320.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXMoveLeft6Blocks">
+    <Pan class="pan" from="0.0" dx="-480.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight6Blocks">
+    <Pan class="pan" from="-480.0" dx="480.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight4Blocks">
+    <Pan class="pan" from="-320.0" dx="320.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanLeft4Blocks">
+    <Pan class="pan" from="0.0" dx="-320.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight3Blocks">
+    <Pan class="pan" from="-240.0" dx="240.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanLeft3Blocks">
+    <Pan class="pan" from="0.0" dx="-240.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanLeft2Blocks">
+    <Pan class="pan" from="0.0" dx="-160.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight2Blocks">
+    <Pan class="pan" from="-160.0" dx="160.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanLeft1Block">
+    <Pan class="pan" from="80.0" dx="-80.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXPanRight1Block">
+    <Pan class="pan" from="-80.0" dx="80.0" dy="0.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXFocusButtonPanLeft">
+    <Pan class="pan" from="320.0" dx="-320.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXFocusButtonPanLeft2">
+    <Pan class="pan" from="0.0" dx="-320.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXFocusButtonPanRight">
+    <Pan class="pan" from="-320.0" dx="320.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPageUp">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-420.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPageDown">
+    <Pan class="pan" from="-420.0" dx="0.0" dy="420.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPanUp">
+    <Pan class="pan" from="0.0" dx="0.0" dy="-60.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPanDown">
+    <Pan class="pan" from="-60.0" dx="0.0" dy="60.0" begin="0.0" duration="0.2" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSubMenuPanLeft">
+    <Pan class="pan" from="320.0" dx="-320.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPanLeft">
+    <Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+    <Pan class="pan" from="20.0" dx="-20.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXSpinWheelPanRight">
+    <Fade class="fade1" from="0.0" to="1.0" begin="0.0" duration="0.3" repeatDuration="0"/>
+    <Pan class="pan" from="-20.0" dx="20.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+
+  <AnimationCollection class="MSTVXFocusItemPanRight">
+    <Pan class="pan" from="-320.0" dx="320.0" dy="0.0" begin="0.0" duration="0.3" autoReverse="false" loop="false"/>
+  </AnimationCollection>
+  <!-- END: Jackpot animation collection -->
+</Animations>

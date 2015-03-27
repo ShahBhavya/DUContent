@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <VodProgramRollover class="Subpage.RolloverInfo">
+		<Image class="Image.Poster" id="_poster"/>
+		<SlideShow class="SlideShow.PIP" id="_posterSlideShow"/>
+	    <Panel class="Panel.RolloverInfo.New" id="_animatedArea">
+			<Text class="Text.RolloverInfo.ProgramName.VOD" id="_programName"/>
+			<Text class="Text.RolloverInfo.ProgramTime.VOD" id="_programTime"/>
+			<Text class="Text.Expiration.Rollover.VOD" id="_expiration"/>
+			<PanelFlipper class="PanelFlipper" id="_flipper">
+				<Text class="Text.RolloverInfo.Description.VOD" id="_programDescription"/>
+				<Text class="Text.RolloverInfo.Description.VOD" id="_programDetails"/>
+				<Text class="Text.RolloverInfo.Description.VOD" id="_cast"/>
+			</PanelFlipper>
+		</Panel>
+    </VodProgramRollover>
+</uidescription>

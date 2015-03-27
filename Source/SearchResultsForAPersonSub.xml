@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SearchResultsForAPersonPageSub>
+
+		<Text class="Text.Search.Waiting" top="10" id="_waiting">#Search.Waiting</Text>
+		<Text class="Text.Search.ErrorMessage2" top="10" id="_errorMsg" visible="false">#Search.ErrorMsg</Text>
+		<Panel class="Panel.WholePage" id="_content">
+			<List class="List.SearchResultsFromPeople" id="_list" />
+    		<Panel class="Panel.RolloverContainer.SearchPages" id="_rolloverContainer"/>
+    	</Panel>
+		        
+    </SearchResultsForAPersonPageSub>
+</uidescription>

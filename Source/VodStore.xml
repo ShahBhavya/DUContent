@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <!-- since each background (theme) overlay may be the same, don't use the zoom on it 
+    create a panel for the zoom transition
+  -->
+  <VodStore class="Page" BackgroundContent="Background_Blue.xml" limoLine="350">
+    <!--
+        <Video class="Video.FullScreen" pipe="FULLSCREEN" ispip="false"/>
+    -->
+    <ImageFlipper class="ImageFlipper.VodBackground" id="_overlay"/>
+    <Panel class="Page.Animated">
+
+        <Panel class="Panel.Masthead.VodStore" />
+        <Image class="Image.VodLogo" />
+        <Image class="Image.VodBranding" id="_watermark" />
+        <Text class="Text.Clock">{Time}</Text>
+
+      <Panel class="Panel.MenuBackground.VodStore" clipchildren="true">
+          <Menu class="Menu.Top.VodStore" id="_vodStoreMenu" containerID="_subpageContainer" />
+        </Panel>
+
+        <Text class="Text.HeaderTitle.VodStore" id="_title">#VOD.StoreFront</Text>
+
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer"/>
+        <Text class="Text.VodStoreUnavailable" id="_unavailable">#VOD.Unavailable</Text>
+    </Panel>
+  </VodStore>
+</uidescription>

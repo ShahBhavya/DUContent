@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SearchMenuPage class="Page.AnimatedNavBar">
+
+        <Text class="Text.HeaderTitle" id="_searchHeader">#Search.Header</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+
+        <SearchSubpageContainer class="Panel.SubpageContainer.Search" id="_subpageContainer"/>
+
+    </SearchMenuPage>
+</uidescription>

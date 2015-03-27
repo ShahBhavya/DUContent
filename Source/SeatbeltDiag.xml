@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SeatbeltDiag class="Page.Animated.Diagnostics" height="150">
+      <VerticalFlowPanel left="25" top="25">
+        <Text class="Text.Diagnostic" id="_memory"/>
+        <Text class="Text.Diagnostic" id="_limits">#Diag.Seatbelt.Limits</Text>
+        <Text class="Text.Diagnostic" id="_weights" maxheight="75">#Diag.Seatbelt.Weights</Text>
+      </VerticalFlowPanel>
+    </SeatbeltDiag>
+</uidescription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <NumberEntryDialog class="Page.Dialog.NumberEntry">
+    <HorizontalFlowPanel class="Panel.Dialog" id="_content">
+      <Text class="Text.Dialog.NumberEntry" id="_message" />
+      <EditText class="EditText.NumberEntryDialog" id="_numberEntry"/>
+      <VerticalFlowPanel id="_buttons" class="VerticalFlowPanel.DialogButtons">
+        <Button class="Button.Dialog.NumberEntry" id="_acceptButton" />
+        <Button class="Button.Dialog.NumberEntry" id="_cancelButton" />
+      </VerticalFlowPanel>
+    </HorizontalFlowPanel>
+  </NumberEntryDialog>    
+</uidescription>

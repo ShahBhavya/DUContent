@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <MultiRoomProgramInfoPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle">#ProgramInfo.ProgramInfo</Text>
+        <Text class="Text.Clock">{Time}</Text>
+        
+        <Text class="Text.ProgramInfo.Waiting" id="_waiting">#ProgramInfo.Waiting</Text>
+        <Panel class="Panel.WholePage" id="_content">
+
+            <Panel class="Panel.MenuBackground" clipchildren="true">
+                <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+                    <MenuItem class="MenuItem" submenuID="_summaryPane">#ProgramInfo.Menu.Summary</MenuItem>
+                    <MenuItem class="MenuItem" id="_detailsMenuItem" submenuID="_detailsPane">#ProgramInfo.Menu.Details</MenuItem>
+                    <MenuItem class="MenuItem" id="_castMenuItem" submenuPath="CastListSub.xml">#ProgramInfo.Menu.Cast</MenuItem>
+                </Menu> 
+            </Panel>
+
+            <Panel class="Panel.Root" id="_summaryPane">
+                <VerticalFlowPanel class="VerticalFlowPanel.Menu.ProgramInfo">
+                    <Button class="Button.Vertical" id="_join" onClick="OnClick_Join" visible="false">#DVR.MultiRoomProgramInfo.Join</Button>
+                    <Button class="Button.Vertical" id="_requestControl" onClick="OnClick_RequestControl" visible="false">#DVR.MultiRoomProgramInfo.RequestControl</Button>
+                    <Button class="Button.Vertical" id="_cancel" onClick="OnClick_Cancel" visible="false">#DVR.MultiRoomProgramInfo.Cancel</Button>
+                    <Button class="Button.Vertical" id="_askIfInUse" onClick="OnClick_AskIfInUse" visible="false">#DVR.MultiRoomProgramInfo.Ask</Button>
+                    <Button class="Button.Vertical" id="_goBack" onClick="OnClick_GoBack" visible="false">#DVR.MultiRoomProgramInfo.GoBack</Button>
+                </VerticalFlowPanel>
+
+                <Video class="Video.PIP.ProgramInfo" id="_pip" pipe="PIP" ispip="true"/>
+
+                <Panel visible="false" class="Panel.ChannelInfo" background="image(Logo_TV_bw.png)" width="50" height="30"/>
+
+                <VerticalFlowPanel class="VerticalFlowPanel.Content">        
+                    <Text class="Text.ProgramInfo.ProgramTitle" id="_programTitle" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_rentalInfo" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_timeandrating" />
+                    <Text class="Text.ProgramInfo.TimeAndRating" id="_recordInfo" />
+                    <Text class="Text.ProgramInfo.Description" id="_description" />
+                    <Text class="Text.ProgramInfo.Cast" id="_cast" />
+                    <Text class="Text.ProgramInfo.ExtraInfo" id="_extraInfo" />
+                </VerticalFlowPanel>
+            </Panel>
+
+            <Panel class="Panel.Root" id="_detailsPane" visible="false">
+                <VerticalFlowPanel class="VerticalFlowPanel.ProgramInfoDetails">
+                    <Text class="Text.ProgramInfo.ProgramTitle.Details" id="_programTitle2" />
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_timeandrating2" />
+                    <Text class="Text.ProgramInfo.TimeAndRating.Details" id="_recordInfo2" />
+                    <TextBox class="TextBox.ProgramInfo" id="_description2" />
+                </VerticalFlowPanel>
+            </Panel>
+            
+            <Panel class="Panel.SubpageContainer" id="_subpageContainer" visible="false" />
+        </Panel>
+
+    </MultiRoomProgramInfoPage>
+</uidescription>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 
+    
+    DO NOT MODIFY THIS FILE WITHOUT READING THE FOLLOWING:
+
+    Test mechanisms rely on the order and layout of this file.
+    
+    ONLY ADD MENU ITEMS TO THE END OF EXISTINGS ELEMENTS.
+    
+    -->
+<uidescription>
+  <DemoPage class="Page.Animated">
+
+    <Text class="Text.HeaderTitle" id="_demoHeader">Demo</Text>		
+	  <Text class="Text.Clock">{Time}</Text>		
+
+	  <Panel class="Panel.MenuBackground.Start" clipchildren="true">
+		  <ConfigurableMenu class="Menu.Start" id="_startMenu" containerID="_configurableMenuContainer">
+        <MenuItem class="MenuItem.MainMenu" submenuID="_various">Various</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_xhtmlMenu">XHTML</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_xhtmlMedia">XHTML Media</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_xhtmlPerf">XHTML Perf</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_demoapp">Application</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_playback">Playback</MenuItem>
+        <MenuItem class="MenuItem.MainMenu" submenuID="_personalMedia">Personal Media</MenuItem>
+        <!--
+        <MenuItem class="MenuItem.MainMenu" submenuID="_desktopMenu">View Desktop</MenuItem>
+        -->
+        <!--
+        <MenuItem class="MenuItem.MainMenu" submenuID="_httpMenu">Web Pages</MenuItem>
+        -->
+      </ConfigurableMenu> 
+	  </Panel>
+
+    <!-- 
+    
+    For historical reasons, PF page navigation URLs must be prefixed with "page:".
+    Also, it is important to set the ID parameter because it helps the developer of the web application
+    understand some context of their launching point.
+    
+    -->
+    
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_demoapp" visible="false">
+      <Button class="Button.Menu.DvrSeriesInfo" href="page:mrmlmosaicV2.xml">Static 4-PIP Mosaic</Button>
+      <Button class="Button.Menu.DvrSeriesInfo" href="page:mrmlmosaic.xml">Static 6-PIP Mosaic</Button>
+      <Button class="Button.Menu.DvrSeriesInfo" href="page:mrmlweather.xml">Static Weather</Button>
+      <Button class="Button.Menu.DvrSeriesInfo" href="page:mrmlmedia.xml">Static Media</Button>
+      <Button class="Button.Menu.DvrSeriesInfo" id="_launchApp" onClick="OnClick_LaunchApp">Launch Application</Button>
+      <Button class="Button.Menu.DvrSeriesInfo" id="_terminateApp" onClick="OnClick_TerminateApp">Terminate Application</Button>
+   </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_personalMedia" visible="false">
+        <Button id="Music" class="Button.Menu.DvrSeriesInfo" href="page:http://d6-vodpf-01:55001/personalmedia/browse/music">Music</Button>
+        <Button id="Photos" class="Button.Menu.DvrSeriesInfo" href="page:http://d6-vodpf-01:55001/personalmedia/browse/photos">Photos</Button>
+        <Button id="Video" class="Button.Menu.DvrSeriesInfo" href="page:http://d6-vodpf-01:55001/personalmedia/browse/video">Video</Button>
+        <Button id="FirstRun" class="Button.Menu.DvrSeriesInfo" href="page:http://d6-vodpf-01:55001/personalmedia/firstrun/index">First Run</Button>
+        <Button class="Button.Menu.DvrSeriesInfo" id="clearPMsource">Clear Last Source</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_various" visible="false">
+      <Button id="PhotosAndMusic" class="Button.Menu.DvrSeriesInfo" href="page:photos.xml">Photos and Music</Button>
+      <Button id="MRML" class="Button.Menu.DvrSeriesInfo" href="page:http://172.29.50.50/MediaRoom/">MediaRoom Services</Button>
+      <Button id="CPEMRML" class="Button.Menu.DvrSeriesInfo" href="page:http://10.191.209.159/Milwaukee/default.xml">CPE Milwaukee</Button>
+      <Button id="CPEMRML_BeiJing" class="Button.Menu.DvrSeriesInfo" href="page:http://172.23.183.216/Milwaukee/default.xml">CPE Milwaukee Beijing</Button>      
+      <Button id="LocalMRML" class="Button.Menu.DvrSeriesInfo" href="page:http://localhost/milwaukee/default.xml">LocalHost/Milwaukee</Button>
+      <Button id="MMPFTestCases" class="Button.Menu.DvrSeriesInfo" href="page:http://aeg-mtrapp-10.northamerica.corp.microsoft.com/MMPFTestCaseNavigator/Default.aspx">MMPF/TestCases</Button>
+      <Button id="BrowserTestCases" class="Button.Menu.DvrSeriesInfo" href="page:http://aeg-mtrapp-10.northamerica.corp.microsoft.com/BrowserTestCaseNavigator/Default.aspx">Browser/TestCases</Button>
+      <Button id="ADK25MMPFTestCases" class="Button.Menu.DvrSeriesInfo" href="page:http://aeg-mtrapp-03.northamerica.corp.microsoft.com/MMPFTestCaseNavigator/Default.aspx">ADK25/MMPF/TestCases</Button>
+      <!--	
+      <Button id="MCX_Demo" class="Button.Menu.DvrSeriesInfo" onClick="OnClick_LaunchMCX">MCX Demo</Button>
+      -->
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.StartMenu" id="_playback" visible="false">
+      <Button id="playback1" class="Button.Menu.DvrSeriesInfo" href="page:http://TV2-FLT-07211.northamerica.corp.microsoft.com/Playback/default.xml">Playback Demos/Tests</Button>
+      <Button id="ClientAV" class="Button.Menu.DvrSeriesInfo" href="page:http://10.191.209.123:51302/VodStorefront">Client AV Storefront</Button>
+    </VerticalFlowPanel>
+
+    <Actions>
+        <Action name="clearSource" type="personalization" action="updateuserinfo" data="_PMediaSource" />
+        <Event type="onclick" action="clearSource" target="clearPMsource" />
+    </Actions>
+
+  </DemoPage>
+</uidescription>

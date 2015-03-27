@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringtable culture="en-PH" locale="en-PH" basedon="en-US" description="English Custom">
+
+
+<!-- Basic Text replacements already completed -->
+
+
+
+  <string id="Start.Menu" value="S_Menu" />
+  <string id="Start.Television" value="S_Television" />
+  <string id="Start.Videos" value="S_Videos" />
+  <string id="Start.RecordedTV" value="S_RecordedTV" />
+  <string id="Start.Search" value="S_Search" />
+  <string id="Start.Extras" value="S_Extras" />
+  <string id="Start.Settings" value="S_Settings" />
+  <string id="Start.Videos.BrowseVideos" value="S_V_BrowseVideos" />
+  <string id="Start.Videos.CurrentRentals" value="S_V_CurrentRentals" />
+  <string id="Start.Videos.Downloads" value="S_V_Downloads" />
+  <string id="Start.Videos.Search" value="S_V_Search" />
+  <string id="Start.Television.WatchTV" value="S_T_WatchTV" />
+  <string id="Start.Television.Guide" value="S_T_Guide" />
+  <string id="Start.Television.RecordedTV" value="S_T_RecordedTV" />
+  <string id="Start.Television.VideoStore" value="S_T_VideoStore" />
+  <string id="Start.Television.Favorites" value="S_T_Favorites" />
+  <string id="Start.Television.Mosaic" value="S_T_Mosaic" />
+  <string id="Start.Television.Teletext" value="S_T_Teletext" />
+  <string id="Start.Television.CreditLimit" value="S_T_CreditLimit" />
+  <string id="Start.Television.Search" value="S_T_Search" />
+  <string id="Start.Television.SearchTitle" value="S_T_SearchTitle" />
+  <string id="Start.Television.SearchPeople" value="S_T_SearchPeople" />
+  <string id="Start.Television.Movies" value="S_T_Movies" />
+  <string id="Start.Television.Sports" value="S_T_Sports" />
+  <string id="Start.Television.Kids" value="S_T_Kids" />
+  <string id="Start.Television.Categories" value="S_T_Categories" />
+  <string id="Start.Search.Categories" value="S_S_Categories" />
+  <string id="Start.Search.Sports" value="S_S_Sports" />
+  <string id="Start.Search.Kids" value="S_S_Kids" />
+  <string id="Start.Extras.BrowseExtras" value="S_E_BrowseExtras" />
+  <string id="Start.Extras.OnlineSpot" value="S_E_OnlineSpot" />
+  <string id="Start.Extras.MosaicApps" value="S_E_MosaicApps" />
+  <string id="Start.Extras.MediaSharing" value="S_E_MediaSharing" /><!-- photos and music (eventually videos as well) -->
+  <string id="Start.Extras.Messages" value="S_E_Messages" />
+  <string id="Start.RecordedTV.BrowseRecordings" value="S_RTV_BrowseRecordings" />
+  <string id="Start.RecordedTV.Scheduled" value="S_RTV_Scheduled" />
+  <string id="Start.RecordedTV.AddRecording" value="S_RTV_AddRecording" />
+  <string id="Start.Settings.General" value="S_S_General" />
+  <string id="Start.Settings.Television" value="S_S_Television" />
+  <string id="Start.Settings.ParentalControl" value="S_S_ParentalControl" />
+  <string id="Start.Settings.Account" value="S_S_Account" />
+  <string id="Start.Settings.PowerOff" value="S_S_PowerOff" />
+  <string id="Start.Settings.Restart" value="S_S_Restart" />
+  <string id="Start.Settings.Hibernate" value="S_S_Hibernate" />
+  <string id="Start.MenuForButtons" value="S_MenuForButtons" />
+  <string id="ProgramInfo.ProgramInfo" value="PI_ProgramInfo" />
+  <string id="ProgramInfo.RecordingStopped" value="PI_RecordingStopped" />
+  <string id="ProgramInfo.Watch" value="PI_Watch" />
+  <string id="ProgramInfo.CancelRental" value="PI_CancelRental" />
+  <string id="ProgramInfo.RecordProgram" value="PI_RecordProgram" />
+  <string id="ProgramInfo.Erase" value="PI_Erase" />
+  <string id="ProgramInfo.KeepUntil" value="PI_KeepUntil" />
+  <string id="ProgramInfo.StopRecording" value="PI_StopRecording" />
+  <string id="ProgramInfo.RecordSeries" value="PI_RecordSeries" />
+  <string id="ProgramInfo.CancelSeries" value="PI_CancelSeries" />
+  <string id="ProgramInfo.RecordEpisode" value="PI_RecordEpisode" />
+  <string id="ProgramInfo.OtherShowings" value="PI_OtherShowings" />
+  <string id="ProgramInfo.AudioLanguages" value="PI_AudioLanguages" />
+  <string id="ProgramInfo.SubtitleLanguages" value="PI_SubtitleLanguages" />
+  <string id="ProgramInfo.SubtitleLanguages.Off" value="PI_SL_Off" />
+  <string id="ProgramInfo.SecondaryAudio" value="PI_SecondaryAudio" />
+  <string id="ProgramInfo.RecordSetting" value="PI_RecordSetting" />
+  <string id="ProgramInfo.SeriesSetting" value="PI_SeriesSetting" />
+  <string id="ProgramInfo.SeriesInfo" value="PI_SeriesInfo" />
+  <string id="ProgramInfo.DontRecord" value="PI_DontRecord" />
+  <string id="ProgramInfo.ResolveConflict" value="PI_ResolveConflict" />
+  <string id="ProgramInfo.RecordingDeleted" value="PI_RecordingDeleted" />
+    <string id="ProgramInfo.Series.RecordingScheduledZeroCanceled" value="PI_S_RecordingScheduledZeroCanceled" />
+  <string id="ProgramInfo.Series.RecordingScheduledZero" value="PI_S_RecordingScheduledZero" />
+  <string id="ProgramInfo.Series.RecordingConflictedOne" value="PI_S_RecordingConflictedOne" />
+  <string id="ProgramInfo.Series.RecordingScheduledOne" value="PI_S_RecordingScheduledOne" />
+  <string id="ProgramInfo.Series.ExistingRecordingsZero" value="PI_S_ExistingRecordingsZero" />
+  <string id="ProgramInfo.Series.ExistingRecordingsOne" value="PI_S_ExistingRecordingsOne" />
+  <string id="ProgramInfo.Play" value="PI_Play" />
+  <string id="ProgramInfo.Pending" value="PI_Pending" />
+  <string id="ProgramInfo.PendingAppendage" value="PI_PendingAppendage" />
+  <string id="ProgramInfo.Rent" value="PI_Rent" />
+  <string id="ProgramInfo.PurchaseInfo" value="PI_PurchaseInfo" />
+  <string id="ProgramInfo.StartOver" value="PI_StartOver" />
+  <string id="ProgramInfo.Startoverplay" value="PI_Startoverplay"/>
+  <string id="ProgramInfo.ResumePlay" value="PI_ResumePlay" />
+  <string id="ProgramInfo.Resume" value="PI_Resume"/>
+  <string id="ProgramInfo.MoreLikeThis" value="PI_MoreLikeThis" />
+  <string id="ProgramInfo.WatchPreview" value="PI_WatchPreview" />
+  <string id="ProgramInfo.UnlockAdult" value="PI_UnlockAdult" />
+  <string id="ProgramInfo.NoCastInfomation" value="PI_NoCastInfomation" />
+  
+  <string id="ProgramInfo.SeriesString" value="PI_SeriesString" /><!-- add \ if using general category -->
+  <string id="ProgramInfo.MovieString" value="PI_MovieString" /><!-- add \ if using general category -->
+  <string id="ProgramInfo.GeneralCategory" value="PI_GeneralCategory" />
+  <string id="ProgramInfo.OriginalTitle" value="PI_OriginalTitle" />
+  <string id="ProgramInfo.ClosedCaptioning" value="PI_ClosedCaptioning" />
+  <string id="ProgramInfo.Waiting" value="PI_Waiting" />
+  <string id="ProgramInfo.AcceptOffer" value="PI_AcceptOffer" />
+  <string id="ProgramInfo.MoreInfo" value="PI_MoreInfo" />
+  <string id="ProgramInfo.DeclineOffer" value="PI_DeclineOffer" />
+  <string id="ProgramInfo.DeclineOffer.Free" value="PI_DO_Free" />
+  <string id="ProgramInfo.DeclineSubscription" value="PI_DeclineSubscription" />
+  <string id="ProgramInfo.Unavailable" value="PI_Unavailable" />
+  <string id="ProgramInfo.CanceledInstanceInProgress" value="PI_CanceledInstanceInProgress" />
+  <string id="ProgramInfo.CanceledInstance" value="PI_CanceledInstance" />
+  <string id="ProgramInfo.DirectedBy" value="PI_DirectedBy" />
+  <string id="ProgramInfo.Menu.Summary" value="PI_M_Summary" />
+  <string id="ProgramInfo.Menu.Details" value="PI_M_Details" />
+  <string id="ProgramInfo.Menu.Cast" value="PI_M_Cast" />
+  <string id="ProgramInfo.Cast.Cast" value="PI_C_Cast" />
+  <string id="ProgramInfo.Cast.Hosts" value="PI_C_Hosts" />
+  <string id="ProgramInfo.Cast.GuestStars" value="PI_C_GuestStars" />
+  <string id="ProgramInfo.Cast.Directors" value="PI_C_Directors" />
+  <string id="ProgramInfo.Cast.Writers" value="PI_C_Writers" />
+  <string id="ProgramInfo.Cast.Producers" value="PI_C_Producers" />
+  <string id="ProgramInfo.Download" value="PI_Download" />
+  <string id="ProgramInfo.Download.Message.Yes" value="PI_D_M_Yes" />
+  <string id="ProgramInfo.Download.Message.No" value="PI_D_M_No" />
+  <string id="ProgramInfo.CancelDownload" value="PI_CancelDownload" />
+  <string id="ProgramInfo.CancelDownload.Message.Yes" value="PI_CD_M_Yes" />
+  <string id="ProgramInfo.CancelDownload.Message.No" value="PI_CD_M_No" />
+  <string id="ProgramInfo.EraseDownload" value="PI_EraseDownload" />
+  <string id="ProgramInfo.EraseDownload.Message.Yes" value="PI_ED_M_Yes" />
+  <string id="ProgramInfo.EraseDownload.Message.No" value="PI_ED_M_No" />
+  <string id="ProgramInfo.MoveToTop" value="PI_MoveToTop" />
+  <string id="ProgramInfo.MoveToTop.Message.Yes" value="PI_MTT_M_Yes" />
+  <string id="ProgramInfo.MoveToTop.Message.No" value="PI_MTT_M_No" />  
+  <string id="ProgramInfo.PlayLocal" value="PI_PlayLocal" />
+  <string id="SeriesInfo.Menu.Summary" value="SI_M_Summary" />
+  <string id="SeriesInfo.ChangeSettings" value="SI_ChangeSettings" />
+  <string id="ParentalControl.ForbiddenPinMessage" value="PC_ForbiddenPinMessage" />
+  <string id="ParentalControl.PinRetryLimitExceeded" value="PC_PinRetryLimitExceeded" />
+  <string id="ParentalControl.PinRetryLimitExceeded.Adult" value="PC_PRLE_Adult" />
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater.Ambiguous" value="PC_PRLE_RL_Ambiguous" />
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator" value="PC_PRLE_ContactOperator" />
+  <string id="ParentalControl.ForgotPinMessage" value="PC_ForgotPinMessage" />
+  <string id="ParentalControl.NoPresetPinMessage" value="PC_NoPresetPinMessage" />
+  <string id="ParentalControl.PinDisabledMessage.Indefinite" value="PC_PDM_Indefinite" />
+  <string id="ParentalControl.PinsDoNotMatch" value="PC_PinsDoNotMatch" />
+  <string id="ParentalControl.EnterPinToViewProgramMessage" value="PC_EnterPinToViewProgramMessage" />
+  <string id="ParentalControl.PConServiceUnavailable" value="PC_PConServiceUnavailable" />
+  <string id="ParentalControl.PConPinUnavailable" value="PC_PConPinUnavailable" />
+  <string id="ParentalControl.PConPinUnavailable.Adult" value="PC_PCPU_Adult" />
+  <string id="ParentalControl.PConPinUnavailable.Rental" value="PC_PCPU_Rental" />
+  <string id="EditText.SampleCharacter" value="ET_SampleCharacter" />
+  <string id="ParentalControl.Title.ChangePin" value="PC_T_ChangePin" />
+  <string id="ParentalControl.Title.UnlockPCon" value="PC_T_UnlockPCon" />
+  <string id="ParentalControl.Title.ParentalLocking" value="PC_T_ParentalLocking" />
+  <string id="ParentalControl.Title.PurchaseLocking" value="PC_T_PurchaseLocking" />
+  <string id="ParentalControl.Title.AdultLocking" value="PC_T_AdultLocking" />
+  <string id="ParentalControl.Title.BlockMovieRatings" value="PC_T_BlockMovieRatings" />
+  <string id="ParentalControl.Title.MainMenu" value="PC_T_MainMenu" />
+  <string id="ParentalControl.Spinner.BlockMovieRating" value="PC_S_BlockMovieRating" />
+  <string id="ParentalControl.Blocked" value="PC_Blocked" />
+  <string id="ParentalControl.Selected" value="PC_Selected" />
+  <string id="ParentalControl.NonBlocked" value="PC_NonBlocked" />
+  <string id="ParentalControl.AndAbove" value="PC_AndAbove" />
+  <string id="ParentalControl.RatingSystems.DefaultPresentableName" value="PC_RS_DefaultPresentableName" />
+  <string id="ParentalControl.RatingSystems.Unrated" value="PC_RS_Unrated" />
+  <string id="ParentalControl.Purchasing.PinRequired" value="PC_P_PinRequired" />
+  <string id="ParentalControl.Purchasing.PinNotRequired" value="PC_P_PinNotRequired" />
+  <string id="ParentalControl.Applications.PinRequired" value="PC_A_PinRequired" />
+  <string id="ParentalControl.Applications.PinNotRequired" value="PC_A_PinNotRequired" />
+  <string id="ParentalControl.Dialog.SaveSettings" value="PC_D_SaveSettings" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonSave" value="PC_D_SS_ButtonSave" />
+  <string id="ParentalControl.Dialog.SaveSettings.ButtonNotSave" value="PC_D_SS_ButtonNotSave" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonReset" value="PC_D_RPC_ButtonReset" />
+  <string id="ParentalControl.Dialog.ResetPCon.ButtonNotReset" value="PC_D_RPC_ButtonNotReset" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonReset" value="PC_D_CPPIN_ButtonReset" />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN.ButtonNotReset" value="PC_D_CPPIN_ButtonNotReset" />
+  <string id="ParentalControl.Notification.PinChanged" value="PC_N_PinChanged" />
+  <string id="ParentalControl.RatingPageInstruction" value="PC_RatingPageInstruction" />
+  <string id="ParentalControl.MenuItemText.ResetPCon" value="PC_MIT_ResetPCon" />
+  <string id="ParentalControl.MenuItemText.DoNothing" value="PC_MIT_DoNothing" />
+  <string id="ParentalControl.MenuItemText.ChangePIN" value="PC_MIT_ChangePIN" />
+  <string id="ParentalControl.MenuItemText.TurnOffPCon" value="PC_MIT_TurnOffPCon" />
+  <string id="ParentalControl.MenuItemText.ClearPurchasePIN" value="PC_MIT_ClearPurchasePIN" />
+  <string id="ParentalControl.MenuItemText.Ratings" value="PC_MIT_Ratings" />
+  <string id="ParentalControl.MenuItemText.MovieRating" value="PC_MIT_MovieRating" />
+  <string id="ParentalControl.MenuItemText.Done" value="PC_MIT_Done" />
+  <string id="ParentalControl.MenuItemText.Lock" value="PC_MIT_Lock" />
+  <string id="ParentalControl.ListItemText.UnratedContent" value="PC_LIT_UnratedContent" />
+  <string id="ParentalControl.ListItemText.Purchasing" value="PC_LIT_Purchasing" />
+  <string id="ParentalControl.ListItemText.AdultPrograms" value="PC_LIT_AdultPrograms" />
+  <string id="ParentalControl.ListItemText.Applications" value="PC_LIT_Applications" />
+  <string id="ParentalControl.ListItemText.Edit" value="PC_LIT_Edit" />
+  <string id="ParentalControl.ListItemText.Channels" value="PC_LIT_Channels" />
+  <string id="ParentalControl.VideoFullScreen.Unlock" value="PC_VFS_Unlock" />
+  <string id="ParentalControl.Dialog.UnlockChannel" value="PC_D_UnlockChannel" />
+  <string id="ParentalControl.Dialog.ThisProgram" value="PC_D_ThisProgram" />
+  <string id="ParentalControl.Dialog.UnlockCurrentProgram" value="PC_D_UnlockCurrentProgram" />
+  <string id="ParentalControl.Dialog.UnlockCurrentChannel" value="PC_D_UnlockCurrentChannel" />
+  <string id="ParentalControl.Dialog.DontUnlock" value="PC_D_DontUnlock" />
+  <string id="ParentalControl.Dialog.Unlock" value="PC_D_Unlock" />
+  <string id="ParentalControl.Dialog.GoToSettings" value="PC_D_GoToSettings" />
+  <string id="ParentalControl.LockedPIP.Text" value="PC_LPIP_Text" />
+  <string id="ParentalControl.Settings.LockChannels" value="PC_S_LockChannels" />
+  <string id="ParentalControl.Settings.UnlockAll" value="PC_S_UnlockAll" />
+  <string id="ParentalControl.Settings.ViewLockedOnly" value="PC_S_ViewLockedOnly" />
+  <string id="ParentalControl.Settings.ViewAllChannels" value="PC_S_ViewAllChannels" />
+  <string id="ParentalControl.Settings.LockPurchasing" value="PC_S_LockPurchasing" />
+  <string id="ParentalControl.Settings.LockAdultPrograms" value="PC_S_LockAdultPrograms" />
+  <string id="ParentalControl.Settings.LockApplications" value="PC_S_LockApplications" />
+  <string id="ParentalControl.Settings.LockApplications.RequireNoPin" value="PC_S_LA_RequireNoPin" />
+  <string id="ParentalControl.Settings.LockUnratedContent" value="PC_S_LockUnratedContent" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms" value="PC_S_LockUnratedPrograms" />
+  <string id="ParentalControl.Settings.LockUnratedPrograms.Description" value="PC_S_LUP_Description" />
+  <string id="ParentalControl.Adult.ContentBlocked" value="PC_A_ContentBlocked" />
+  <string id="ParentalControl.Adult.UnlockExpired" value="PC_A_UnlockExpired" />
+  <string id="ParentalControl.Adult.AdultLockingEnabled" value="PC_A_AdultLockingEnabled" />
+  <string id="ParentalControl.Adult.AdultLockingDisabled" value="PC_A_AdultLockingDisabled" />
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite" value="PC_PR_D_Indefinite" />
+  <string id="ParentalControl.PinRetry.Disabled.Indefinite.Adult" value="PC_PR_D_I_Adult" />
+  <string id="ParentalControl.PinRetry.Enabled" value="PC_PR_Enabled" />
+  <string id="ParentalControl.PinRetry.Enabled.Adult" value="PC_PR_E_Adult" />
+  <string id="Settings.Menu" value="S_Menu" />
+  <string id="Settings.General" value="S_General" />
+  <string id="Settings.Television" value="S_Television" />
+  <string id="Settings.ParentalControl" value="S_ParentalControl" />
+  <string id="Settings.Account" value="S_Account" />
+  <string id="Settings.General.ParentalControl" value="S_G_ParentalControl" />
+  <string id="Settings.General.PurchaseLocking" value="S_G_PurchaseLocking" />
+  <string id="Settings.General.AdultLocking" value="S_G_AdultLocking" />
+  <string id="Settings.General.SystemSounds" value="S_G_SystemSounds" />
+  <string id="Settings.General.Language" value="S_G_Language" />
+  <string id="Settings.General.SystemInformation" value="S_G_SystemInformation" />
+  <string id="Settings.General.AudioLanguage" value="S_G_AudioLanguage" />
+  <string id="Settings.General.RFOutputChannel" value="S_G_RFOutputChannel" />
+  <string id="Settings.General.SecondaryAudio" value="S_G_SecondaryAudio" />
+  <string id="Settings.General.EnhancedHdmiSecurity" value="S_G_EnhancedHdmiSecurity" />
+  <string id="Settings.Television.CustomizeChannels" value="S_T_CustomizeChannels" />
+  <string id="Settings.Television.ChannelReordering" value="S_T_ChannelReordering" />
+  <string id="Settings.Television.FavoriteChannels" value="S_T_FavoriteChannels" />
+  <string id="Settings.Television.GuideStyle" value="S_T_GuideStyle" />
+  <string id="Settings.Television.DttAutomaticChannelUpdate" value="S_T_DttAutomaticChannelUpdate" />
+  <string id="Settings.Television.GeneralRecording" value="S_T_GeneralRecording" />
+  <string id="Settings.Television.SeriesRecording" value="S_T_SeriesRecording" />
+  <string id="Settings.Television.AspectRatio" value="S_T_AspectRatio" />
+  <string id="Settings.Television.ClosedCaption" value="S_T_ClosedCaption" />
+  <string id="Settings.Television.Overscan" value="S_T_Overscan" />
+  <string id="Settings.Account.BillPresentment" value="S_A_BillPresentment" />
+  <string id="Settings.Account.SelfProvisioning" value="S_A_SelfProvisioning" />
+  <string id="ClientInitializationErrorString" value="ClientInitializationErrorString" />
+  <string id="ClientAccountUnavailableString" value="ClientAccountUnavailableString" />
+  <string id="Account.Disabled.RebootNowButton" value="A_D_RebootNowButton" />
+  <string id="QuitClientString" value="QuitClientString" />
+  <string id="BootStrapError" value="BootStrapError" />
+  <string id="SelfProvisioningAppName" value="SelfProvisioningAppName" />
+  <string id="SelfProvisioningLoadingText" value="SelfProvisioningLoadingText" />
+  <string id="Guide.Guide" value="G_Guide" />
+  <string id="Guide.Hidden" value="G_Hidden"/>
+  <string id="Guide.NoInfo" value="G_NoInfo" />
+  <string id="Guide.Loading" value="G_Loading" />
+  <string id="Guide.NoDescription" value="G_NoDescription" />
+  <string id="Guide.NoGuideData" value="G_NoGuideData" />
+  <string id="Guide.OnNow" value="G_OnNow"/>
+  <string id="Guide.ShowEnded" value="G_ShowEnded" />
+  <string id="Guide.ShowOnInOneMinute" value="G_ShowOnInOneMinute" />
+  <string id="Guide.ShowOnTomorrow" value="G_ShowOnTomorrow" />
+  <string id="Guide.VodGroup" value="G_VodGroup" />
+  <string id="Guide.SVodGroup" value="G_SVodGroup" />
+  <string id="Guide.UrlGroup" value="G_UrlGroup" />
+  <string id="Guide.Options.Title" value="G_O_Title" />
+  <string id="Guide.Options.ShowAll" value="G_O_ShowAll" />
+  <string id="Guide.Options.ShowFavorites" value="G_O_ShowFavorites" />
+  <string id="Guide.Options.EditFavorites" value="G_O_EditFavorites" />
+  <string id="Guide.Options.GuideStyle" value="G_O_GuideStyle" />
+  <string id="Guide.Options.GridGuide" value="G_O_GridGuide" />
+  <string id="Guide.Options.ListGuide" value="G_O_ListGuide" />
+  <string id="Guide.Options.Jump" value="G_O_Jump" />
+  <string id="Guide.Options.NextWeek" value="G_O_NextWeek" />
+  <string id="Guide.Options.Tonight" value="G_O_Tonight" />
+  <string id="Guide.Options.Tomorrow" value="G_O_Tomorrow" />
+  <string id="Guide.Options.Settings" value="G_O_Settings"/>
+  <string id="Guide.Options.CustomizeChannels" value="G_O_CustomizeChannels"/>
+  <string id="Guide.Options.Yesterday" value="G_O_Yesterday"/>  
+  <string id="Guide.Options.OnNow" value="G_O_OnNow"/>
+  <string id="Guide.Options.NowAndNext" value="G_O_NowAndNext"/>
+  <string id="Guide.Options.PreviousShows" value="G_O_PreviousShows"/>
+  <string id="Guide.Options.ChangeGuideView" value="G_O_ChangeGuideView"/>
+  <string id="Guide.Options.ViewMorePrograms" value="G_O_ViewMorePrograms"/>
+  <string id="Guide.ListGuideInstructions" value="G_ListGuideInstructions" />
+  <string id="Favorites.Favorites" value="F_Favorites" />
+  <string id="Settings.FavoriteChannels" value="S_FavoriteChannels" />
+  <string id="Settings.FavoriteChannels.Description" value="S_FC_Description" />
+  <string id="Settings.FavoriteChannels.ClearAll" value="S_FC_ClearAll" />
+  <string id="Settings.FavoriteChannels.ViewFavoritesOnly" value="S_FC_ViewFavoritesOnly" />
+  <string id="Settings.FavoriteChannels.ViewAllChannels" value="S_FC_ViewAllChannels" />
+  <string id="Settings.FavoriteChannelsIntro.Description1" value="S_FCI_Description1" />
+  <string id="Settings.FavoriteChannelsIntro.Description2" value="S_FCI_Description2" />
+  <string id="Settings.FavoriteChannelsIntro.SetupFavorites" value="S_FCI_SetupFavorites" />
+  <string id="Settings.FavoriteChannelsIntro.DontSetupFavorites" value="S_FCI_DontSetupFavorites" />
+  <string id="VideoFullScreen.CanPurchase.Info" value="VFS_CP_Info" />
+  <string id="VideoFullScreen.StatusBar.BrowseVideos" value="VFS_SB_BrowseVideos" />
+  <string id="VideoFullScreen.StatusBar.BrowseApps" value="VFS_SB_BrowseApps" />
+  <string id="VideoFullScreen.StatusBar.BrowseRecordings" value="VFS_SB_BrowseRecordings" />
+  <string id="VideoFullScreen.StatusBar.ChangeChannels" value="VFS_SB_ChangeChannels" />
+  <string id="VideoFullScreen.StatusBar.Photos" value="VFS_SB_Photos" />
+  <string id="VideoFullScreen.OnNow" value="VFS_OnNow" />
+  <string id="VideoFullScreen.OnNext" value="VFS_OnNext" />
+  <string id="VideoFullScreen.OnLater" value="VFS_OnLater" />
+  <string id="VideoFullScreen.ThankYou" value="VFS_ThankYou" />
+  <string id="PleaseWait" value="PleaseWait" />
+  <string id="VideoFullScreen.ThankYou.VOD.Available" value="VFS_TY_VOD_Available" />
+  <string id="VideoFullScreen.Options.AspectRatio" value="VFS_O_AspectRatio" />
+  <string id="VideoFullScreen.Options.AspectRatio.Normal" value="VFS_O_AR_Normal" />
+  <string id="VideoFullScreen.Options.AspectRatio.Stretch" value="VFS_O_AR_Stretch" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom1" value="VFS_O_AR_Zoom1" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom2" value="VFS_O_AR_Zoom2" />
+  <string id="VideoFullScreen.Options.AspectRatio.Zoom3" value="VFS_O_AR_Zoom3" />
+  <string id="VideoFullScreen.Options.AudioLanguages" value="VFS_O_AudioLanguages" />
+  <string id="VideoFullScreen.Options.SubtitleLanguages" value="VFS_O_SubtitleLanguages" />
+  <string id="VideoFullScreen.Options.SubtitleLanguages.None" value="VFS_O_SL_None" />
+  <string id="VideoFullScreen.Options.SecondaryAudio" value="VFS_O_SecondaryAudio" />
+  <string id="VideoFullScreen.Options.SecondaryAudio.Primary" value="VFS_O_SA_Primary" />
+  <string id="VideoFullScreen.Options.SecondaryAudio.Secondary" value="VFS_O_SA_Secondary" />
+  <string id="ZoomControl.ZoomText.PreserveAspectRatio" value="ZC_ZT_PreserveAspectRatio" />
+  <string id="ZoomControl.ZoomText.Normal" value="ZC_ZT_Normal" />
+  <string id="ZoomControl.ZoomText.Stretch" value="ZC_ZT_Stretch" />
+  <string id="ZoomControl.ZoomText.Zoom1" value="ZC_ZT_Zoom1" />
+  <string id="ZoomControl.ZoomText.Zoom2" value="ZC_ZT_Zoom2" />
+  <string id="ZoomControl.ZoomText.Zoom3" value="ZC_ZT_Zoom3" />
+  <string id="StopPage.Play" value="SP_Play" />
+  <string id="StopPage.StartOver" value="SP_StartOver" />
+  <string id="StopPage.Erase" value="SP_Erase" />
+  <string id="StopPage.KeepUntil" value="SP_KeepUntil" />
+  <string id="StopPage.RecordedTV" value="SP_RecordedTV" />
+  <string id="StopPage.VideoStore" value="SP_VideoStore" />
+  <string id="StopPage.LiveTV" value="SP_LiveTV" />
+  <string id="StopPage.Done" value="SP_Done" />
+  <string id="StopPage.Done.Vod" value="SP_D_Vod" />
+  <string id="StopPage.Done.Recorded" value="SP_D_Recorded" />
+  <string id="StopPage.MoreShow" value="SP_MoreShow"/> 
+  <string id="DVR.AboutToStartRecording" value="DVR_AboutToStartRecording" />
+  <string id="DVR.AboutToRecord.Record" value="DVR_ATR_Record" />
+  <string id="DVR.AboutToRecord.DontRecord" value="DVR_ATR_DontRecord" />
+  <string id="DVR.AboutToStartRecording_disabled" value="DVR_AboutToStartRecording_disabled" />
+  <string id="DVR.CannotRecordProgram" value="DVR_CannotRecordProgram" />
+  <string id="DVR.CannotRecordProgramNow" value="DVR_CannotRecordProgramNow" />
+  <string id="DVR.CannotChangeSettingsNoEPG" value="DVR_CannotChangeSettingsNoEPG" />
+  <string id="DVR.OK" value="DVR_OK" />
+  <string id="DVR.Cancel" value="DVR_Cancel" />
+  <string id="DVR.CannotRecord.PastShow" value="DVR_CR_PastShow"/>
+  <string id="DVR.DoStopRecording" value="DVR_DoStopRecording" />
+  <string id="DVR.DoContinueRecording" value="DVR_DoContinueRecording" />
+  <string id="DVR.ViewingConflict" value="DVR_ViewingConflict" />
+  <string id="DVR.ViewingConflict.Choose" value="DVR_VC_Choose" />
+  <string id="DVR.ViewingConflict.AskTakeControl" value="DVR_VC_AskTakeControl" />
+  <string id="DVR.ViewingConflict.Exit" value="DVR_VC_Exit" />
+  <string id="DVR.IsTVInUse" value="DVR_IsTVInUse" />
+  <string id="DVR.IsTVInUse.InUse" value="DVR_ITVIU_InUse" />
+  <string id="DVR.IsTVInUse.NotInUse" value="DVR_ITVIU_NotInUse" />
+  <string id="DVR.OtherTVInUse" value="DVR_OtherTVInUse" />
+  <string id="DVR.AskingIfOtherTVInUse" value="DVR_AskingIfOtherTVInUse" />
+  <string id="DVR.AskingIfOtherTVInUse.Cancel" value="DVR_AIOTVIU_Cancel" />
+  <string id="DVR.WholeHomeRecordButton" value="DVR_WholeHomeRecordButton" />
+  <string id="DVR.WholeHomeDeleteButton" value="DVR_WholeHomeDeleteButton" />
+  <string id="DVR.MultiRoomProgramInfo.Ask" value="DVR_MRPI_Ask" />
+  <string id="DVR.MultiRoomProgramInfo.GoBack" value="DVR_MRPI_GoBack" />
+  <string id="DVR.MultiRoomProgramInfo.Join" value="DVR_MRPI_Join" />
+  <string id="DVR.MultiRoomProgramInfo.Cancel" value="DVR_MRPI_Cancel" />
+  <string id="DVR.MultiRoomProgramInfo.RequestControl" value="DVR_MRPI_RequestControl" />
+  <string id="DVR.RecordingWasDeleted" value="DVR_RecordingWasDeleted" />
+  <string id="DVR.UpcomingHeader" value="DVR_UpcomingHeader" />
+  <string id="DVR.UpcomingSubHeader" value="DVR_UpcomingSubHeader" />
+  <string id="DVR.SeriesSubHeader" value="DVR_SeriesSubHeader" />
+  <string id="DVR.RecordedHeader" value="DVR_RecordedHeader" />
+  <string id="DVR.ManualRecordHeader" value="DVR_ManualRecordHeader" />
+  <string id="DVR.RecordSettings" value="DVR_RecordSettings" />
+  <string id="DVR.ManualRecordSubHeader" value="DVR_ManualRecordSubHeader" />
+  <string id="DVR.KeepUntilHeader" value="DVR_KeepUntilHeader" />
+  <string id="DVR.ConflictHeader" value="DVR_ConflictHeader" />
+  <string id="DVR.SeriesSettingsHeader" value="DVR_SeriesSettingsHeader" />
+  <string id="DVR.OneTimeProgramSettingsHeader" value="DVR_OneTimeProgramSettingsHeader" />
+  <string id="DVR.OneTimeEpisodeSettingsHeader" value="DVR_OneTimeEpisodeSettingsHeader" />
+  <string id="DVR.ManualRecord.InvalidTime" value="DVR_MR_InvalidTime" />
+  <string id="DVR.ManualRecord.InvalidTime.Stop" value="DVR_MR_IT_Stop" />
+  <string id="DVR.ManualRecordCannotBeForThePast" value="DVR_ManualRecordCannotBeForThePast" />
+  <string id="DVR.ManualRecordStopMustBeAfterStart" value="DVR_ManualRecordStopMustBeAfterStart" />
+  <string id="DVR.ManualRecordDurationTooLong" value="DVR_ManualRecordDurationTooLong" />
+  <string id="DVR.ManualRecordInvalidChannel" value="DVR_ManualRecordInvalidChannel" />
+  <string id="DVR.ManualRecord.InvalidDuration" value="DVR_MR_InvalidDuration" />
+  <string id="DVR.ManualRecord.InvalidDuration.Minutes" value="DVR_MR_ID_Minutes" />
+  <string id="DVR.StreamChooser.Instructions" value="DVR_SC_Instructions" />
+  <string id="DVR.StreamChooser.NowPlaying" value="DVR_SC_NowPlaying" />
+  <string id="DVR.StreamChooser.WatchRecording" value="DVR_SC_WatchRecording" />
+  <string id="DVR.ChangeStream.Title" value="DVR_CS_Title" />
+  <string id="DVR.ChangeStream.Button.Follow" value="DVR_CS_B_Follow" />
+  <string id="DVR.ChangeStream.Button.Take" value="DVR_CS_B_Take" />
+  <string id="DVR.OneRecordingFromOtherClient" value="DVR_OneRecordingFromOtherClient" />
+  <string id="DVR.ManyRecordingFromOtherClient" value="DVR_ManyRecordingFromOtherClient" />
+  <string id="DVR.Today" value="DVR_Today" />
+  <string id="DVR.Tomorrow" value="DVR_Tomorrow" />
+  <string id="DVR.NoProgramsHaveBeenRecorded1" value="DVR_NoProgramsHaveBeenRecorded1" />
+  <string id="DVR.NoProgramsHaveBeenRecorded2" value="DVR_NoProgramsHaveBeenRecorded2" />
+  <string id="Dvr.NoProgramsNode1" value="D_NoProgramsNode1" />
+  <string id="Dvr.NoProgramsNode2" value="D_NoProgramsNode2" />
+  <string id="DVR.NoUpcomingList1.Remote" value="DVR_NUL_Remote" />
+  <string id="Dvr.NoProgramsCanBeAdded.Remote" value="D_NPCBA_Remote" />
+  <string id="DVR.NoProgramsHaveBeenRecorded1.Remote" value="DVR_NPHBR_Remote" />
+  <string id="DVR.NoProgramsHaveBeenRecorded2.Remote" value="DVR_NPHBR_Remote" />
+  <string id="DVR.NoEpisodesOfSeriesAreScheduled1" value="DVR_NoEpisodesOfSeriesAreScheduled1" />
+  <string id="DVR.SeriesCanceledNoUpcomingEpisodes" value="DVR_SeriesCanceledNoUpcomingEpisodes" />
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded1" value="DVR_NoEpisodesOfSeriesHaveBeenRecorded1" />
+  <string id="DVR.NoEpisodesOfSeriesHaveBeenRecorded2" value="DVR_NoEpisodesOfSeriesHaveBeenRecorded2" />
+  <string id="DVR.NoProgramsAreScheduledToBeRecorded" value="DVR_NoProgramsAreScheduledToBeRecorded" />
+  <string id="DVR.NoSeriesShown1.Remote" value="DVR_NSS_Remote" />
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded" value="DVR_NoSeriesAreScheduledToBeRecorded" />
+  <string id="DVR.NoSeriesAreScheduledToBeRecorded2" value="DVR_NoSeriesAreScheduledToBeRecorded2" />
+  <string id="DVR.RemoteUnavailable" value="DVR_RemoteUnavailable" />
+    <string id="DVR.MoreButtonText" value="DVR_MoreButtonText" />
+  <string id="DVR.Record" value="DVR_Record" />
+  <string id="DVR.DontRecord" value="DVR_DontRecord" />
+  <string id="DVR.Save" value="DVR_Save" />
+  <string id="DVR.DontSave" value="DVR_DontSave" />
+  <string id="DVR.Keep.DontChange" value="DVR_K_DontChange" />
+  <string id="DVR.Keep.SpaceNeeded" value="DVR_K_SpaceNeeded" />
+  <string id="DVR.Keep.Watch" value="DVR_K_Watch" />
+  <string id="DVR.Keep.Delete" value="DVR_K_Delete" />
+  <string id="DVR.ChannelLabel" value="DVR_ChannelLabel" />
+  <string id="DVR.FrequencyLabel" value="DVR_FrequencyLabel" />
+  <string id="DVR.RecordDateLabel" value="DVR_RecordDateLabel" />
+  <string id="DVR.KeepUntilLabel" value="DVR_KeepUntilLabel" />
+  <string id="DVR.KeepAtMostLabel" value="DVR_KeepAtMostLabel" />
+  <string id="DVR.StartLabel" value="DVR_StartLabel" />
+  <string id="DVR.StopLabel" value="DVR_StopLabel" />
+  <string id="DVR.TimeLabel" value="DVR_TimeLabel" />
+  <string id="DVR.DurationLabel" value="DVR_DurationLabel" />
+  <string id="DVR.StopRecordingLabel" value="DVR_StopRecordingLabel" />
+  <string id="DVR.SeriesFrequencyLabel" value="DVR_SeriesFrequencyLabel" />
+  <string id="DVR.Time.AM" value="DVR_T_AM" />
+  <string id="DVR.Time.PM" value="DVR_T_PM" />
+  <string id="DVR.SeriesRecordOnLabel" value="DVR_SeriesRecordOnLabel" />
+  <string id="DVR.SeriesShowTypeLabel" value="DVR_SeriesShowTypeLabel" />
+  <string id="DVR.SeriesKeepUpToLabel" value="DVR_SeriesKeepUpToLabel" />
+  <string id="DVR.Settings.More" value="DVR_S_More" />
+  <string id="DVR.Settings.Padding.OnTime" value="DVR_S_P_OnTime" />
+  <string id="DVR.Settings.Padding.OneHourLate" value="DVR_S_P_OneHourLate" />
+  <string id="DVR.Settings.Fork" value="DVR_S_Fork" />
+  <string id="DVR.Settings.Fork.Episode" value="DVR_S_F_Episode" />
+  <string id="DVR.Settings.Fork.Series" value="DVR_S_F_Series" />
+  <string id="DVR.Station.AnyChannel" value="DVR_S_AnyChannel" />
+  <string id="DVR.Time.AnyTime" value="DVR_T_AnyTime" />
+  <string id="DVR.Time.AnyTimeOnce" value="DVR_T_AnyTimeOnce" />
+  <string id="DVR.ShowType.FirstRun" value="DVR_ST_FirstRun" />
+  <string id="DVR.ShowType.Live" value="DVR_ST_Live" />
+  <string id="DVR.KeepUpTo.One" value="DVR_KUT_One" />
+  <string id="DVR.KeepUpTo.Many" value="DVR_KUT_Many" />
+  <string id="DVR.Frequency.Once" value="DVR_F_Once" />
+  <string id="DVR.Frequency.EveryDay" value="DVR_F_EveryDay" />
+  <string id="DVR.Frequency.EveryWeekDay" value="DVR_F_EveryWeekDay" />
+  <string id="DVR.Frequency.EveryWeekend" value="DVR_F_EveryWeekend" />
+  <string id="DVR.Frequency.EveryMon" value="DVR_F_EveryMon" />
+  <string id="DVR.Frequency.EveryTue" value="DVR_F_EveryTue" />
+  <string id="DVR.Frequency.EveryWed" value="DVR_F_EveryWed" />
+  <string id="DVR.Frequency.EveryThu" value="DVR_F_EveryThu" />
+  <string id="DVR.Frequency.EveryFri" value="DVR_F_EveryFri" />
+  <string id="DVR.Frequency.EverySat" value="DVR_F_EverySat" />
+  <string id="DVR.Frequency.EverySun" value="DVR_F_EverySun" />
+  <string id="DVR.KeepUntil.Space" value="DVR_KU_Space" />
+  <string id="DVR.KeepUntil.Watch" value="DVR_KU_Watch" />
+  <string id="DVR.KeepUntil.Delete" value="DVR_KU_Delete" />
+  <string id="DVR.KeepUntil.Space.Full" value="DVR_KU_S_Full" />
+  <string id="DVR.KeepUntil.Watch.Full" value="DVR_KU_W_Full" />
+  <string id="DVR.KeepUntil.Delete.Full" value="DVR_KU_D_Full" />
+  <string id="DVR.KeepAtMost.Max" value="DVR_KAM_Max" />
+  <string id="DVR.KeepUntil.AM" value="DVR_KU_AM" />
+  <string id="DVR.KeepUntil.PM" value="DVR_KU_PM" />
+  <string id="DVR.Preview.SpacerString" value="DVR_P_SpacerString" />
+  <string id="DVR.Menu.ByDate" value="DVR_M_ByDate" />
+  <string id="DVR.Menu.ByTitle" value="DVR_M_ByTitle" />
+  <string id="DVR.Menu.ByDateGrouped" value="DVR_M_ByDateGrouped" />
+  <string id="DVR.Menu.ByStatus" value="DVR_M_ByStatus" />
+  <string id="DVR.Menu.AddRecording" value="DVR_M_AddRecording" />
+  <string id="DVR.Menu.Scheduled" value="DVR_M_Scheduled" />
+  <string id="DVR.Menu.Recorded" value="DVR_M_Recorded" />
+  <string id="DVR.Menu.Upcoming" value="DVR_M_Upcoming" />
+  <string id="DVR.Menu.Series" value="DVR_M_Series" />
+  <string id="DVR.MediaItem.Title" value="DVR_MI_Title" />
+  <string id="DVR.MediaItem.NoPrograms" value="DVR_MI_NoPrograms" />
+  <string id="DVR.MediaItem.Upcoming" value="DVR_MI_Upcoming" />
+  <string id="DVR.MediaItem.Pip.Text" value="DVR_MI_P_Text" />
+  <string id="DVR.MediaItem.Separator" value="DVR_MI_Separator" />
+  <string id="DVR.MediaItem.LongDescription1" value="DVR_MI_LongDescription1" />
+  <string id="DVR.MediaItem.LongDescription2" value="DVR_MI_LongDescription2" />
+  <string id="DVR.ChannelGuide.RecordedTVHeader" value="DVR_CG_RecordedTVHeader" />
+  <string id="DVR.ChannelGuide.RecentRecordings" value="DVR_CG_RecentRecordings" />
+  <string id="DVR.Count.None" value="DVR_C_None" />
+  <string id="DVR.Count.One" value="DVR_C_One" />
+  <string id="DVR.Stopped.Finished" value="DVR_S_Finished" />
+  <string id="DVR.Stopped.Stopped" value="DVR_S_Stopped" />
+  <string id="DVR.Stopped.ErrorMessage" value="DVR_S_ErrorMessage" />
+  <string id="DVR.Stopped.KeepMessage" value="DVR_S_KeepMessage" />
+  <string id="DVR.Stopped.KeepUntilIEraseMessage" value="DVR_S_KeepUntilIEraseMessage" />
+  <string id="DVR.MultiRoom.DontChangeChannels" value="DVR_MR_DontChangeChannels" />
+  <string id="DVR.Conflict.Series.Choice2" value="DVR_C_S_Choice2" />
+  <string id="DVR.Conflict.Series.Choice3" value="DVR_C_S_Choice3" />
+  <string id="DVR.Conflict.TryAgain" value="DVR_C_TryAgain" />
+  <string id="DVR.Conflict.SubTitle" value="DVR_C_SubTitle" />
+  <string id="DVR.Conflict.HDSubTitle" value="DVR_C_HDSubTitle" />
+  <string id="DVR.AddRecording.RecordProgramOrSeries" value="DVR_AR_RecordProgramOrSeries" />
+  <string id="DVR.AddRecording.CreateCustom" value="DVR_AR_CreateCustom" />
+  <string id="DVR.AddRecording.ManualRecordLabel" value="DVR_AR_ManualRecordLabel" />
+  <string id="DVR.ManualRecordLabel" value="DVR_ManualRecordLabel" />
+  <string id="DVR.DisabledNotification" value="DVR_DisabledNotification" />
+  <string id="DVR.NotReadyNotification" value="DVR_NotReadyNotification" />
+  <string id="DVR.ChannelDisabledNotification2" value="DVR_ChannelDisabledNotification2" />
+  <string id="DVR.ChannelPauseDisabledNotification2" value="DVR_ChannelPauseDisabledNotification2" />
+  <string id="DVR.ManualRecordDisabledNotification" value="DVR_ManualRecordDisabledNotification" />
+  <string id="DVR.SeriesRecordingScheduled" value="DVR_SeriesRecordingScheduled" />
+  <string id="DVR.SeriesRecordingUpdated" value="DVR_SeriesRecordingUpdated" />
+  <string id="DVR.RecordingScheduled" value="DVR_RecordingScheduled" />
+  <string id="DVR.RecordingUpdated" value="DVR_RecordingUpdated" />
+  <string id="DVR.RecordingStopped" value="DVR_RecordingStopped" />
+  <string id="DVR.Recording" value="DVR_Recording" />
+  <string id="DVR.SlowScheduling" value="DVR_SlowScheduling" />
+  <string id="DVR.SlowSchedulingComplete" value="DVR_SlowSchedulingComplete" />
+  <string id="DVR.PostGoLiveInstructions" value="DVR_PostGoLiveInstructions" />
+  <string id="DVR.GuideInstructions" value="DVR_GuideInstructions" />
+  <string id="DVR.SearchInstructions" value="DVR_SearchInstructions" />
+  <string id="DVR.GroupeditemsInstructions" value="DVR_GroupeditemsInstructions" />
+  <string id="DVR.GuideInstructionsButton" value="DVR_GuideInstructionsButton" />
+  <string id="DVR.ConfirmCancelSeries" value="DVR_ConfirmCancelSeries" />
+  <string id="DVR.CancelCancel" value="DVR_CancelCancel" />
+  <string id="DVR.ConfirmCancelProgram" value="DVR_ConfirmCancelProgram" />
+  <string id="DVR.ConfirmCancelEpisode" value="DVR_ConfirmCancelEpisode" />
+  <string id="DVR.CantErase" value="DVR_CantErase" />
+  <string id="DVR.EraseFailed" value="DVR_EraseFailed" />
+  <string id="DVR.ConfirmErase" value="DVR_ConfirmErase" />
+  <string id="DVR.CancelErase" value="DVR_CancelErase" />
+  <string id="DVR.AlreadyRecording" value="DVR_AlreadyRecording" />
+  <string id="DVR.ShowOver" value="DVR_ShowOver" />
+  <string id="DVR.NotEnoughSpaceToRecord" value="DVR_NotEnoughSpaceToRecord" />
+  <string id="DVR.NotASeries" value="DVR_NotASeries" />
+  <string id="DVR.WSException.Unknown" value="DVR_WSE_Unknown" />
+  <string id="DVR.WSException.NetworkNA" value="DVR_WSE_NetworkNA" />
+  <string id="DVR.WSException.Timeout" value="DVR_WSE_Timeout" />
+  <string id="DVR.WSException.ConnectionLost" value="DVR_WSE_ConnectionLost" />
+  <string id="DVR.WSException.TryAgain" value="DVR_WSE_TryAgain" />
+  <string id="DVR.UpcomingRecordingsButton" value="DVR_UpcomingRecordingsButton" />
+  <string id="DVR.SeriesRecordingsButton" value="DVR_SeriesRecordingsButton" />
+  <string id="DVR.PrioritySettingsButton" value="DVR_PrioritySettingsButton" />
+  <string id="DVR.History" value="DVR_History" />
+  <string id="DVR.ViewUpcomingRecordingsButton" value="DVR_ViewUpcomingRecordingsButton" />
+  <string id="DVR.ChangeSeriesSettingsButton" value="DVR_ChangeSeriesSettingsButton" />
+  <string id="DVR.CancelSeriesButton" value="DVR_CancelSeriesButton" />
+  <string id="DVR.SeriesHeader" value="DVR_SeriesHeader" />
+  <string id="DVR.UntilSpaceIsNeeded" value="DVR_UntilSpaceIsNeeded" />
+  <string id="DVR.FirstRunAndRerun" value="DVR_FirstRunAndRerun" />
+  <string id="DVR.SeriesTimeAnyTime" value="DVR_SeriesTimeAnyTime" />
+  <string id="DVR.MustGoLiveToRecord" value="DVR_MustGoLiveToRecord" />
+  <string id="DVR.GoLive" value="DVR_GoLive" />
+  <string id="DVR.Unknown" value="DVR_Unknown" />
+  <string id="DVR.Dot.Conflict" value="DVR_D_Conflict" />
+  <string id="DVR.Dot.RecordingDelay" value="DVR_D_RecordingDelay" />
+  <string id="DVR.Dot.Series" value="DVR_D_Series" />
+  <string id="DVR.Dot.Series.HD" value="DVR_D_S_HD" />
+  <string id="DVR.Dot.Record" value="DVR_D_Record" />
+  <string id="DVR.Dot.Record.HD" value="DVR_D_R_HD" />
+  <string id="DVR.Dot.Recording" value="DVR_D_Recording" />
+  <string id="DVR.Dot.Recording.HD" value="DVR_D_R_HD" />
+  <string id="DVR.Dot.Keep" value="DVR_D_Keep" />
+  <string id="DVR.Dot.Delete" value="DVR_D_Delete" />
+  <string id="DVR.DefaultState.Message1" value="DVR_DS_Message1" />
+  <string id="DVR.DefaultState.Message2" value="DVR_DS_Message2" />
+  <string id="DVR.DefaultState.Message3" value="DVR_DS_Message3" />
+  <string id="DVR.AlreadyScheduled" value="DVR_AlreadyScheduled" />
+  <string id="DVR.EITVPS.Incorrect" value="DVR_EITVPS_Incorrect" />
+  <string id="DVR.EITVPS.DidNotAir" value="DVR_EITVPS_DidNotAir" />
+  <string id="DVR.EITVPS.DueToChanges" value="DVR_EITVPS_DueToChanges" />
+  <string id="DVR.EITVPS.AboutToExtend.Extend" value="DVR_EITVPS_ATE_Extend" />
+  <string id="DVR.EITVPS.AboutToExtend.End" value="DVR_EITVPS_ATE_End" />
+  <string id="DVR.EITVPS.ManualRecord" value="DVR_EITVPS_ManualRecord" />
+  <string id="DVR.EITVPS.ManualRecord.Schedule" value="DVR_EITVPS_MR_Schedule" />
+  <string id="SmartCard.Ready.Message" value="SC_R_Message" />
+  <string id="SmartCard.Unknown.Message" value="SC_U_Message" />
+  <string id="SmartCard.Unknown.Dismiss" value="SC_U_Dismiss" />
+  <string id="SmartCard.Bad.Message" value="SC_B_Message" />
+  <string id="SmartCard.Bad.Dismiss" value="SC_B_Dismiss" />
+  <string id="SmartCard.Extract.Message" value="SC_E_Message" />
+  <string id="SmartCard.Extract.Dismiss" value="SC_E_Dismiss" />
+  <string id="Stream.StayOnChannel.Unknown" value="S_SOC_Unknown" />
+  <string id="Stream.RecordedTVButton" value="S_RecordedTVButton" />
+  <string id="Stream.RecordedTVButton.Player" value="S_RTVB_Player" />
+  <string id="Stream.InterruptTVButton" value="S_InterruptTVButton" />
+  <string id="Stream.DontInterruptTVButton" value="S_DontInterruptTVButton" />
+  <string id="Stream.ContinueButton" value="S_ContinueButton" />
+  <string id="Stream.ChangeChannelButton" value="S_ChangeChannelButton" />
+  <string id="Stream.DontChangeChannelButton" value="S_DontChangeChannelButton" />
+  <string id="Stream.TryAgainButton" value="S_TryAgainButton" />
+  <string id="Stream.AllServicesInUse" value="S_AllServicesInUse" />
+  <string id="Stream.AllServicesInUse.HD" value="S_ASIU_HD" />
+  <string id="Stream.AllServicesInUse.NoDvr" value="S_ASIU_NoDvr" />
+  <string id="Stream.AllServicesInUse.NoDvr.HD" value="S_ASIU_ND_HD" />
+  <string id="Stream.AllServicesInUseNoTV" value="S_AllServicesInUseNoTV" />
+  <string id="Stream.AllServicesInUseNoTV.HD" value="S_ASIUNTV_HD" />
+  <string id="Stream.AllServicesInUseNoTV.NoDvr" value="S_ASIUNTV_NoDvr" />
+  <string id="Stream.AllServicesInUseNoTV.NoDvr.HD" value="S_ASIUNTV_ND_HD" />
+  <string id="Stream.AllServicesInUseNoTV.Player" value="S_ASIUNTV_Player" />
+  <string id="Stream.AllStreamsRecording" value="S_AllStreamsRecording" />
+  <string id="Stream.AllStreamsRecording.HD" value="S_ASR_HD" />
+  <string id="Stream.AllStreamsRecording.NoDvr" value="S_ASR_NoDvr" />
+  <string id="Stream.AllStreamsRecording.NoDvr.HD" value="S_ASR_ND_HD" />
+  <string id="Stream.AllStreamsRecording.Player.HD" value="S_ASR_P_HD" />
+  <string id="Stream.AllStreamsRecordingNoTV" value="S_AllStreamsRecordingNoTV" />
+  <string id="Stream.AllStreamsRecordingNoTV.HD" value="S_ASRNTV_HD" />
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr" value="S_ASRNTV_NoDvr" />
+  <string id="Stream.AllStreamsRecordingNoTV.NoDvr.HD" value="S_ASRNTV_ND_HD" />
+  <string id="Stream.AllStreamsUsedByVOD" value="S_AllStreamsUsedByVOD" />
+  <string id="Stream.AllStreamsUsedByVODNoTV" value="S_AllStreamsUsedByVODNoTV" />
+  <string id="Stream.ConfirmInterrupt" value="S_ConfirmInterrupt" />
+  <string id="Stream.TVInterrupted" value="S_TVInterrupted" />
+  <string id="Stream.TVInterrupted.NoDvr" value="S_TVI_NoDvr" />
+  <string id="Settings.GuideStyle" value="S_GuideStyle" />
+  <string id="Settings.GuideStyle.GridGuide" value="S_GS_GridGuide" />
+  <string id="Settings.GuideStyle.GridGuideDescription" value="S_GS_GridGuideDescription" />
+  <string id="Settings.GuideStyle.ListGuide" value="S_GS_ListGuide" />
+  <string id="Settings.GuideStyle.ListGuideDescription" value="S_GS_ListGuideDescription" />
+  <string id="Settings.DttAutomaticChannelUpdate" value="S_DttAutomaticChannelUpdate" />
+  <string id="Settings.DttAutomaticChannelUpdate.On" value="S_DACU_On" />
+  <string id="Settings.DttAutomaticChannelUpdate.OnDescription" value="S_DACU_OnDescription" />
+  <string id="Settings.DttAutomaticChannelUpdate.Off" value="S_DACU_Off" />
+  <string id="Settings.DttAutomaticChannelUpdate.OffDescription" value="S_DACU_OffDescription" />
+  <string id="Settings.Save" value="S_Save" />
+  <string id="Settings.Save.Ask" value="S_S_Ask" />
+  <string id="Settings.DontSave" value="S_DontSave" />
+  <string id="Settings.AllOn" value="S_AllOn" />
+  <string id="Settings.AllOff" value="S_AllOff" />
+  <string id="Settings.Continue" value="S_Continue" />
+  <string id="Settings.CancelChanges" value="S_CancelChanges" />
+  <string id="Settings.Cancel" value="S_Cancel" />
+  <string id="Settings.AspectRatio.Description" value="S_AR_Description" />
+  <string id="Settings.AspectRatio.Resizing" value="S_AR_Resizing" />
+  <string id="Settings.AspectRatio.0" value="S_AR_0" />
+  <string id="Settings.AspectRatio.1" value="S_AR_1" />
+  <string id="Settings.AspectRatio.2" value="S_AR_2" />
+  <string id="Settings.AspectRatio.3" value="S_AR_3" />
+  <string id="Settings.AspectRatio.NowViewing0" value="S_AR_NowViewing0" />
+  <string id="Settings.AspectRatio.NowViewing1" value="S_AR_NowViewing1" />
+  <string id="Settings.AspectRatio.NowViewing2" value="S_AR_NowViewing2" />
+  <string id="Settings.AspectRatio.NowViewing3" value="S_AR_NowViewing3" />
+  <string id="Settings.AspectRatioWizard.Step1" value="S_ARW_Step1" />
+  <string id="Settings.AspectRatioWizard.Step2" value="S_ARW_Step2" />
+  <string id="Settings.AspectRatioWizard.Step3" value="S_ARW_Step3" />
+  <string id="Settings.AspectRatioWizard.Description.Step1" value="S_ARW_D_Step1" />
+  <string id="Settings.AspectRatioWizard.Description.Step2" value="S_ARW_D_Step2" />
+  <string id="Settings.AspectRatioWizard.Description.Step3" value="S_ARW_D_Step3" />
+  <string id="Settings.AspectRatioWizard.StartTest" value="S_ARW_StartTest" />
+  <string id="Settings.AspectRatioWizard.KeepSetting" value="S_ARW_KeepSetting" />
+  <string id="Settings.AspectRatioWizard.StartAgain" value="S_ARW_StartAgain" />
+  <string id="Settings.AspectRatioWizard.SawNothing" value="S_ARW_SawNothing" />
+  <string id="Settings.AspectRatio.ChangeSettings" value="S_AR_ChangeSettings" />
+  <string id="Settings.AspectRatio.DontChange" value="S_AR_DontChange" />
+  <string id="Settings.AspectRatio.GoToSettings" value="S_AR_GoToSettings" />
+  <string id="Settings.AspectRatio.ChangeBack" value="S_AR_ChangeBack" />
+  <string id="Settings.AspectRatio.ChangedBackToStandardDef" value="S_AR_ChangedBackToStandardDef" />
+  <string id="Settings.AspectRatio.ModeNotSupported" value="S_AR_ModeNotSupported" />
+  <string id="Settings.Troubleshoot" value="S_Troubleshoot" />
+  <string id="Settings.Troubleshoot.Title" value="S_T_Title" />
+  <string id="Settings.Troubleshoot.Description.Online" value="S_T_D_Online" />
+  <string id="Settings.Troubleshoot.Description.Offline" value="S_T_D_Offline" />
+  <string id="Settings.ChannelScanningWizard.Step1" value="S_CSW_Step1" />
+  <string id="Settings.ChannelScanningWizard.Step1.Description.Subscriber" value="S_CSW_S_D_Subscriber" />
+  <string id="Settings.ChannelScanningWizard.Step1.Description.NewUser" value="S_CSW_S_D_NewUser" />
+  <string id="Settings.ChannelScanningWizard.Step1.Start" value="S_CSW_S_Start" />
+  <string id="Settings.ChannelScanningWizard.Step1.MoreInfo" value="S_CSW_S_MoreInfo" />
+  <string id="Settings.ChannelScanningWizard.Step2" value="S_CSW_Step2" />
+  <string id="Settings.ChannelScanningWizard.Step2.Scanning" value="S_CSW_S_Scanning" />
+  <string id="Settings.ChannelScanningWizard.Step2.VideoChannels" value="S_CSW_S_VideoChannels" />
+  <string id="Settings.ChannelScanningWizard.Step2.MusicChannels" value="S_CSW_S_MusicChannels" />
+  <string id="Settings.ChannelScanningWizard.Step2.Cancel" value="S_CSW_S_Cancel" />
+  <string id="Settings.ChannelScanningWizard.Step3" value="S_CSW_Step3" />
+  <string id="Settings.ChannelScanningWizard.Step3.Description" value="S_CSW_S_Description" />
+  <string id="Settings.ChannelScanningWizard.Step3.GoGuide" value="S_CSW_S_GoGuide" />
+  <string id="Settings.ChannelScanningWizard.Step3.GoMenu" value="S_CSW_S_GoMenu" />
+  <string id="Settings.Overscan" value="S_Overscan" />
+  <string id="Settings.Overscan.GeneralInstruction" value="S_O_GeneralInstruction" />
+  <string id="Settings.Overscan.Large" value="S_O_Large" />
+  <string id="Settings.Overscan.Large.Description" value="S_O_L_Description" />
+  <string id="Settings.Overscan.Medium" value="S_O_Medium" />
+  <string id="Settings.Overscan.Medium.Description" value="S_O_M_Description" />
+  <string id="Settings.Overscan.Small" value="S_O_Small" />
+  <string id="Settings.Overscan.Notification" value="S_O_Notification" />
+  <string id="Settings.About.SystemInfoMenuItem" value="S_A_SystemInfoMenuItem" />
+  <string id="Settings.About.SmartCardInfoMenuItem" value="S_A_SmartCardInfoMenuItem" />
+  <string id="Settings.About.NetworkInfoMenuItem" value="S_A_NetworkInfoMenuItem" />
+  <string id="Settings.About.ResourcesInfoMenuItem" value="S_A_ResourcesInfoMenuItem" />
+  <string id="Settings.About.WebServicesMenuItem" value="S_A_WebServicesMenuItem" />
+  <string id="Settings.About.DiskRepairMenuItem" value="S_A_DiskRepairMenuItem" />
+  <string id="Settings.About.CopyrightMenuItem" value="S_A_CopyrightMenuItem" />
+  <string id="Settings.About.PrivacyMenuItem" value="S_A_PrivacyMenuItem" />
+  <string id="Settings.About.SubscriptionsMenuItem" value="S_A_SubscriptionsMenuItem" />
+  <string id="Settings.About.Go" value="S_A_Go" />
+  <string id="Settings.About.SystemResources.EgressDisabled" value="S_A_SR_EgressDisabled" />
+  <string id="Settings.About.SystemResources.EgressSD" value="S_A_SR_EgressSD" />
+  <string id="Settings.About.SystemResources.EgressHD" value="S_A_SR_EgressHD" />
+  <string id="Settings.About.SystemResources.EgressSDHDSeparator" value="S_A_SR_EgressSDHDSeparator" />
+  <string id="Settings.About.SystemResources.EgressBandwidthSeparator" value="S_A_SR_EgressBandwidthSeparator" />
+  <string id="Settings.About.CheckHardDisk" value="S_A_CheckHardDisk" />
+  <string id="Settings.About.CheckHardDisk.Instructions" value="S_A_CHD_Instructions" />
+  <string id="Settings.About.CheckHardDisk.Prompt" value="S_A_CHD_Prompt" />
+  <string id="Settings.About.CheckHardDisk.DontRestart" value="S_A_CHD_DontRestart" />
+  <string id="Settings.About.CheckHardDisk.Restart" value="S_A_CHD_Restart" />
+  <string id="Settings.About.PrivacyStatement" value="S_A_PrivacyStatement" />
+  <string id="Settings.About.CopyrightStatement" value="S_A_CopyrightStatement" />
+  <string id="Settings.About.SubscriptionInfo" value="S_A_SubscriptionInfo" />
+  <string id="Settings.Language" value="S_Language" />
+  <string id="Settings.Sounds" value="S_Sounds" />
+  <string id="Settings.Sounds.Play" value="S_S_Play" />
+  <string id="Settings.Sounds.Mute" value="S_S_Mute" />
+  <string id="Settings.HiddenChannels" value="S_HiddenChannels" />
+  <string id="Settings.HiddenChannels.Description" value="S_HC_Description" />
+  <string id="Settings.HiddenChannels.ShowAll" value="S_HC_ShowAll" />
+  <string id="Settings.HiddenChannels.ViewHiddenOnly" value="S_HC_ViewHiddenOnly" />
+  <string id="Settings.HiddenChannels.ViewAllChannels" value="S_HC_ViewAllChannels" />
+  <string id="Settings.HiddenChannels.ChangeOrder" value="S_HC_ChangeOrder" />
+  <string id="Settings.SecondaryAudio" value="S_SecondaryAudio" />
+  <string id="Settings.SecondaryAudio.Description" value="S_SA_Description" />
+  <string id="Settings.SecondaryAudio.Primary" value="S_SA_Primary" />
+  <string id="Settings.SecondaryAudio.Secondary" value="S_SA_Secondary" />
+  <string id="Settings.SecondaryAudio.PrimarySet" value="S_SA_PrimarySet" />
+  <string id="Settings.SecondaryAudio.SecondarySet" value="S_SA_SecondarySet" />
+  <string id="Settings.CcChannels.Off" value="S_CC_Off" />
+  <string id="Settings.ClosedCaption.Heading" value="S_CC_Heading" />
+  <string id="Settings.ClosedCaption.ChangeButton" value="S_CC_ChangeButton" />
+  <string id="Settings.ClosedCaption.Digital.Description" value="S_CC_D_Description" />
+  <string id="Settings.ClosedCaption.Digital.Heading" value="S_CC_D_Heading" />
+  <string id="Settings.ClosedCaption.Digital.Off" value="S_CC_D_Off" />
+  <string id="Settings.ClosedCaption.Digital.Cs1" value="S_CC_D_Cs1" />
+  <string id="Settings.ClosedCaption.Digital.Cs2" value="S_CC_D_Cs2" />
+  <string id="Settings.ClosedCaption.Digital.Cs3" value="S_CC_D_Cs3" />
+  <string id="Settings.ClosedCaption.Digital.Cs4" value="S_CC_D_Cs4" />
+  <string id="Settings.ClosedCaption.Digital.Cs5" value="S_CC_D_Cs5" />
+  <string id="Settings.ClosedCaption.Digital.Cs6" value="S_CC_D_Cs6" />
+  <string id="Settings.ClosedCaption.Standard.Description" value="S_CC_S_Description" />
+  <string id="Settings.ClosedCaption.Standard.Heading" value="S_CC_S_Heading" />
+  <string id="Settings.ClosedCaption.Standard.Off" value="S_CC_S_Off" />
+  <string id="Settings.ClosedCaption.Standard.Cc1" value="S_CC_S_Cc1" />
+  <string id="Settings.ClosedCaption.Standard.Cc2" value="S_CC_S_Cc2" />
+  <string id="Settings.ClosedCaption.Standard.Cc3" value="S_CC_S_Cc3" />
+  <string id="Settings.ClosedCaption.Standard.Cc4" value="S_CC_S_Cc4" />
+  <string id="Settings.ClosedCaption.Standard.Txt1" value="S_CC_S_Txt1" />
+  <string id="Settings.ClosedCaption.Standard.Txt2" value="S_CC_S_Txt2" />
+  <string id="Settings.ClosedCaption.Standard.Txt3" value="S_CC_S_Txt3" />
+  <string id="Settings.ClosedCaption.Standard.Txt4" value="S_CC_S_Txt4" />
+  <string id="Settings.Save.Succeeded" value="S_S_Succeeded" />
+  <string id="Settings.Save.Failed" value="S_S_Failed" />
+  <string id="Settings.Save.Failed.PCon" value="S_S_F_PCon" />
+  <string id="Settings.ChannelReordering" value="S_ChannelReordering" />
+  <string id="Settings.ChannelReordering.RestoreDefault" value="S_CR_RestoreDefault" />
+  <string id="Settings.ChannelReordering.Description" value="S_CR_Description" />
+  <string id="Settings.AudioLanguage" value="S_AudioLanguage" />
+  <string id="Settings.AudioLanguage.Description" value="S_AL_Description" />
+  <string id="Settings.RFOutputChannel" value="S_RFOutputChannel" />
+  <string id="Settings.RFOutputChannel.TurnOff" value="S_RFOC_TurnOff" />
+  <string id="Settings.RFOutputChannel.Description" value="S_RFOC_Description" />
+  <string id="Settings.RFOutputChannel.ConfirmTurnOff" value="S_RFOC_ConfirmTurnOff" />
+  <string id="Settings.AudioLanguage.Preference.List" value="S_AL_P_List" />
+  <string id="Settings.AudioLanguage.Preference.Default" value="S_AL_P_Default" />
+  <string id="SettingsEnhancedHdmiSecurity" value="SettingsEnhancedHdmiSecurity" />
+  <string id="Settings.EnhancedHdmiSecurity.Description" value="S_EHS_Description" />
+  <string id="Settings.EnhancedHdmiSecurity.Enhanced" value="S_EHS_Enhanced" />
+  <string id="Settings.EnhancedHdmiSecurity.Standard" value="S_EHS_Standard" />
+  <string id="AudioProgram.AudioType.1" value="AP_AT_1" />
+  <string id="AudioProgram.AudioType.2" value="AP_AT_2" />
+  <string id="AudioProgram.AudioType.3" value="AP_AT_3" />
+  <string id="AudioProgram.NoLanguage.Primary" value="AP_NL_Primary" />
+  <string id="AudioProgram.NoLanguage.Secondary" value="AP_NL_Secondary" />
+  <string id="AudioProgram.NoLanguage.Additional" value="AP_NL_Additional" />
+  <string id="SubtitleProgram.SubtitleType.16" value="SP_ST_16" />
+  <string id="SubtitleProgram.SubtitleType.17" value="SP_ST_17" />
+  <string id="SubtitleProgram.SubtitleType.18" value="SP_ST_18" />
+  <string id="SubtitleProgram.SubtitleType.19" value="SP_ST_19" />
+  <string id="SubtitleProgram.SubtitleType.32" value="SP_ST_32" />
+  <string id="SubtitleProgram.SubtitleType.33" value="SP_ST_33" />
+  <string id="SubtitleProgram.SubtitleType.34" value="SP_ST_34" />
+  <string id="SubtitleProgram.SubtitleType.35" value="SP_ST_35" />
+  <string id="VOD.MediaItem.Title" value="VOD_MI_Title" />
+  <string id="VOD.MediaItem.Description" value="VOD_MI_Description" />
+  <string id="VOD.CurrentRentals.Title" value="VOD_CR_Title" />
+  <string id="VOD.CurrentRentals" value="VOD_CurrentRentals" />
+  <string id="VOD.NoCurrentRentals" value="VOD_NoCurrentRentals" />
+  <string id="VOD.Count.None" value="VOD_C_None" />
+  <string id="VOD.Count.One" value="VOD_C_One" />
+  <string id="VOD.Downloads.Title" value="VOD_D_Title" />
+  <string id="VOD.Downloads.Subcategory.Downloaded" value="VOD_D_S_Downloaded" />
+  <string id="VOD.Downloads.Subcategory.Scheduled" value="VOD_D_S_Scheduled" />
+  <string id="VOD.Downloads.Unavailable" value="VOD_D_Unavailable" />
+  <string id="VOD.Category.Count.None" value="VOD_C_C_None" />
+  <string id="VOD.Category.Count.One" value="VOD_C_C_One" />
+  <string id="VOD.Storefront.LongDescription1" value="VOD_S_LongDescription1" />
+  <string id="VOD.Storefront.LongDescription2" value="VOD_S_LongDescription2" />
+  <string id="VOD.Storefront.ShortDescription" value="VOD_S_ShortDescription" />
+  <string id="VOD.ChannelGuide.StorefrontHeader" value="VOD_CG_StorefrontHeader" />
+  <string id="VOD.ChannelGuide.CurrentRentals" value="VOD_CG_CurrentRentals" />
+  <string id="VOD.Expired" value="VOD_Expired" />
+  <string id="VOD.CreditLimitExceeded" value="VOD_CreditLimitExceeded" />
+  <string id="VOD.CreditLimitChange" value="VOD_CreditLimitChange" />
+  <string id="VOD.CreditLimitDontChange" value="VOD_CreditLimitDontChange" />
+  <string id="VOD.CouldNotPurchase" value="VOD_CouldNotPurchase" />
+  <string id="VOD.VideoStore.Banner" value="VOD_VS_Banner" />
+  <string id="VOD.VideoStore" value="VOD_VideoStore" />
+  <string id="VOD.StoreFront" value="VOD_StoreFront" />
+  <string id="VOD.DisabledNotification" value="VOD_DisabledNotification" />
+  <string id="VOD.Unavailable" value="VOD_Unavailable" />
+  <string id="VOD.PleaseWait" value="VOD_PleaseWait" />
+  <string id="VOD.Package" value="VOD_Package" />
+  <string id="VOD.RentAll1Package" value="VOD_RentAll1Package" />
+  <string id="VOD.RentAll2Package" value="VOD_RentAll2Package" />
+  <string id="VOD.RentOne" value="VOD_RentOne" />
+  <string id="VOD.AlreadyRented" value="VOD_AlreadyRented" />
+  <string id="VOD.SubcategoryIndicator" value="VOD_SubcategoryIndicator" />
+  <string id="VOD.Rented" value="VOD_Rented" />
+  <string id="VOD.Rent" value="VOD_Rent" />
+  <string id="VOD.NotRented" value="VOD_NotRented" />
+  <string id="VOD.Debarred" value="VOD_Debarred" />    
+  <string id="VOD.Renting" value="VOD_Renting" />
+  <string id="VOD.CannotRecord" value="VOD_CannotRecord" />
+  <string id="VOD.CannotRecord.Available" value="VOD_CR_Available" />
+  <string id="VOD.Unlock" value="VOD_Unlock" />
+  <string id="VOD.PlaybackError" value="VOD_PlaybackError" />
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile1" value="VOD_ErrorLoadingDescriptorOrIndexFile1" />
+  <string id="VOD.ErrorLoadingDescriptorOrIndexFile2" value="VOD_ErrorLoadingDescriptorOrIndexFile2" />
+  <string id="VOD.VodKeyringTrouble1" value="VOD_VodKeyringTrouble1" />
+  <string id="VOD.VodKeyringTrouble2" value="VOD_VodKeyringTrouble2" />
+  <string id="VOD.SessionUnavailable1" value="VOD_SessionUnavailable1" />
+  <string id="VOD.SessionUnavailable2" value="VOD_SessionUnavailable2" />
+  <string id="VOD.DefaultState.Message1" value="VOD_DS_Message1" />
+  <string id="VOD.DefaultState.Message2" value="VOD_DS_Message2" />
+  <string id="VOD.DefaultState.Message3" value="VOD_DS_Message3" />
+  <string id="SVOD.Browse" value="SVOD_Browse" />
+  <string id="SVOD.Subscribed" value="SVOD_Subscribed" />
+  <string id="SVOD.SubscriptionInfo" value="SVOD_SubscriptionInfo" />
+  <string id="LiveTV.DisabledNotification" value="LTV_DisabledNotification" />
+  <string id="PPV.StatusBar.PressOK.RentalInfo" value="PPV_SB_POK_RentalInfo" />
+  <string id="VOD.StatusBar.PressOK.RentalInfo" value="VOD_SB_POK_RentalInfo" />
+  <string id="Default.StatusBar.PressOK.RentalInfo" value="D_SB_POK_RentalInfo" />
+  <string id="PPV.StatusBar.Purchasable" value="PPV_SB_Purchasable" />
+  <string id="VOD.StatusBar.Purchasable" value="VOD_SB_Purchasable" />
+  <string id="SVOD.StatusBar.Purchasable" value="SVOD_SB_Purchasable" />
+  <string id="Default.StatusBar.Purchasable" value="D_SB_Purchasable" />
+  <string id="PPV.Purchasable" value="PPV_Purchasable" />
+  <string id="VOD.Purchasable" value="VOD_Purchasable" />
+  <string id="SVOD.Purchasable" value="SVOD_Purchasable" />
+  <string id="Default.Purchasable" value="D_Purchasable" />
+  <string id="PPV.StatusBar.PressInfo.ProgramInfo" value="PPV_SB_PI_ProgramInfo" />
+  <string id="VOD.StatusBar.PressInfo.ProgramInfo" value="VOD_SB_PI_ProgramInfo" />
+  <string id="SVOD.StatusBar.PressInfo.ProgramInfo" value="SVOD_SB_PI_ProgramInfo" />
+  <string id="Default.StatusBar.PressInfo.ProgramInfo" value="D_SB_PI_ProgramInfo" />
+  <string id="SVOD.StatusBar.RentedText" value="SVOD_SB_RentedText" />
+  <string id="Default.StatusBar.RentedText" value="D_SB_RentedText" />
+  <string id="PPV.ProgramInfo.Rented" value="PPV_PI_Rented" />
+  <string id="VOD.ProgramInfo.Rented" value="VOD_PI_Rented" />
+  <string id="SVOD.ProgramInfo.Rented" value="SVOD_PI_Rented" />
+  <string id="Default.ProgramInfo.Rented" value="D_PI_Rented" />
+  <string id="PPV.OfferPending" value="PPV_OfferPending" />
+  <string id="VOD.OfferPending" value="VOD_OfferPending" />
+  <string id="SVOD.OfferPending" value="SVOD_OfferPending" />
+  <string id="Default.OfferPending" value="D_OfferPending" />
+  <string id="PPV.OfferExpired" value="PPV_OfferExpired" />
+  <string id="VOD.OfferExpired" value="VOD_OfferExpired" />
+  <string id="SVOD.OfferExpired" value="SVOD_OfferExpired" />
+  <string id="Default.OfferExpired" value="D_OfferExpired" />
+  <string id="PPV.NotAvailable" value="PPV_NotAvailable" />
+  <string id="VOD.NotAvailable" value="VOD_NotAvailable" />
+  <string id="SVOD.NotAvailable" value="SVOD_NotAvailable" />
+  <string id="Default.NotAvailable" value="D_NotAvailable" />
+  <string id="Default.ProgramInfo.AcceptOffer" value="D_PI_AcceptOffer" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button" value="SVOD_PI_AO_Button" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Button.Free" value="PPV_PI_AO_B_Free" />
+  <string id="VOD.ProgramInfo.AcceptOffer.Button.Free" value="VOD_PI_AO_B_Free" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Button.Free" value="SVOD_PI_AO_B_Free" />
+  <string id="Default.ProgramInfo.AcceptOffer.Button.Free" value="D_PI_AO_B_Free" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Extern" value="PPV_PI_AO_Extern" />
+  <string id="VOD.ProgramInfo.AcceptOffer.Extern" value="VOD_PI_AO_Extern" />
+  <string id="SVOD.ProgramInfo.AcceptOffer.Extern" value="SVOD_PI_AO_Extern" />
+  <string id="Default.ProgramInfo.AcceptOffer.Extern" value="D_PI_AO_Extern" />
+  <string id="PPV.GettingPrice" value="PPV_GettingPrice" />
+  <string id="VOD.GettingPrice" value="VOD_GettingPrice" />
+  <string id="SVOD.GettingPrice" value="SVOD_GettingPrice" />
+  <string id="Default.GettingPrice" value="D_GettingPrice" />
+  <string id="Default.GettingPrice.Short" value="D_GP_Short" />
+  <string id="PPV.Rental.PriceAndExpiration.Extern" value="PPV_R_PAE_Extern" />
+  <string id="VOD.Rental.PriceAndExpiration.Extern" value="VOD_R_PAE_Extern" />
+  <string id="SVOD.Rental.PriceAndExpiration.Extern" value="SVOD_R_PAE_Extern" />
+  <string id="Default.Rental.PriceAndExpiration.Extern" value="D_R_PAE_Extern" />
+  <string id="Free" value="Free" />
+  <string id="Free.Debarred" value="F_Debarred" />
+  <string id="PPV.ProgramInfo.Purchase.Extern" value="PPV_PI_P_Extern" />
+  <string id="Messages.HeaderText" value="M_HeaderText" />
+  <string id="Messages.NoMessages" value="M_NoMessages" />
+  <string id="Messages.Menu.ByDate" value="M_M_ByDate" />
+  <string id="Messages.Menu.ByName" value="M_M_ByName" />
+  <string id="Messages.Dismiss" value="M_Dismiss" />
+  <string id="Messages.MessageHeader" value="M_MessageHeader" />
+  <string id="Messages.PictureHeader" value="M_PictureHeader" />
+  <string id="Messages.CallerIdHeader" value="M_CallerIdHeader" />
+  <string id="Messages.PlaySlideShow" value="M_PlaySlideShow" />
+  <string id="Photos.Count.None" value="P_C_None" />
+  <string id="Photos.Count.One" value="P_C_One" />
+  <string id="Upgrade.Required" value="U_Required" />
+  <string id="Upgrade.Title" value="U_Title" />
+  <string id="Upgrade.InProgress" value="U_InProgress" />
+  <string id="Upgrade.Description" value="U_Description" />
+  <string id="Upgrade.Failed" value="U_Failed" />
+  <string id="Upgrade.TimeLeftLabel" value="U_TimeLeftLabel" />
+  <string id="Upgrade.TimeLeftOneMinute" value="U_TimeLeftOneMinute" />
+  <string id="Upgrade.DirSigMismatch" value="U_DirSigMismatch" />
+  <string id="Upgrade.ParseDirLineFailed" value="U_ParseDirLineFailed" />
+  <string id="Upgrade.PartMD5Mismatch" value="U_PartMD5Mismatch" />
+  <string id="Upgrade.NoDigest" value="U_NoDigest" />
+  <string id="Upgrade.BadPackageCRC" value="U_BadPackageCRC" />
+  <string id="Upgrade.BogusPackage" value="U_BogusPackage" />
+  <string id="Upgrade.ReadError" value="U_ReadError" />
+  <string id="Upgrade.OK" value="U_OK" />
+  <string id="Upgrade.Snooze" value="U_Snooze" />
+  <string id="DiskRepair.Title" value="DR_Title" />
+  <string id="DiskRepair.InProgress" value="DR_InProgress" />
+  <string id="DiskRepair.Description" value="DR_Description" />
+  <string id="DiskRepair.TimeLeftLabel" value="DR_TimeLeftLabel" />
+  <string id="DiskRepair.TimeLeftOneMinute" value="DR_TimeLeftOneMinute" />
+  <string id="Search.Header" value="S_Header" />
+  <string id="Search.Header.Titles" value="S_H_Titles" />
+  <string id="Search.Header.People" value="S_H_People" />
+  <string id="Search.Header.Videos" value="S_H_Videos" />
+  <string id="Search.PeopleResultPageMenu.ByDate" value="S_PRPM_ByDate" />
+  <string id="Search.PeopleResultPageMenu.ByTitle" value="S_PRPM_ByTitle" />
+  <string id="Search.PeopleResultPageMenu.ByRental" value="S_PRPM_ByRental" />
+  <string id="Search.PeopleResultPageMenu.ByStar" value="S_PRPM_ByStar" />
+  <string id="Search.NoRentals" value="S_NoRentals" />
+  <string id="Search.NoShows" value="S_NoShows" />
+  <string id="Search.ErrorMsg" value="S_ErrorMsg" />
+  <string id="Search.Today" value="S_Today" />
+  <string id="Search.Tomorrow" value="S_Tomorrow" />
+  <string id="Search.NoResultForPeople" value="S_NoResultForPeople" />
+  <string id="Search.NoResultForGroup" value="S_NoResultForGroup" />
+  <string id="Search.NoResultsLine2" value="S_NoResultsLine2" />
+  <string id="Search.MoreButtonText" value="S_MoreButtonText" />
+  <string id="Search.Waiting" value="S_Waiting" />
+  <string id="Search.NullScreen.Title.TitleSearch" value="S_NS_T_TitleSearch" />
+  <string id="Search.NullScreen.Title.Options" value="S_NS_T_Options" />
+  <string id="Search.NullScreen.Title.VideoSearch" value="S_NS_T_VideoSearch" />
+  <string id="Search.NullScreen.People.NameSearch" value="S_NS_P_NameSearch" />
+  <string id="Search.NullScreen.People.Options" value="S_NS_P_Options" />
+  <string id="Search.NullScreen.AllSearch" value="S_NS_AllSearch" />
+  <string id="Search.NullScreen.AllSearch.Options" value="S_NS_AS_Options" />
+  <string id="Search.Options.Keyboard" value="S_O_Keyboard" />
+  <string id="Search.Options.FilterResults" value="S_O_FilterResults" />
+  <string id="Search.Options.FilterResults.All" value="S_O_FR_All" />
+  <string id="Search.Options.FilterResults.Titles" value="S_O_FR_Titles" />
+  <string id="Search.Options.FilterResults.VideoOnDemand" value="S_O_FR_VideoOnDemand" />
+  <string id="Search.Options.FilterResults.People" value="S_O_FR_People" />
+  <string id="Search.Options.FilterResults.CallLetters" value="S_O_FR_CallLetters" />
+  <string id="Search.Past" value="S_Past"/>
+  <string id="Volume.Mute" value="V_Mute" />
+  <string id="Yes" value="Yes" />
+  <string id="No" value="No" />
+  <string id="OK" value="OK" />
+  <string id="Today" value="Today" />
+  <string id="Tomorrow" value="Tomorrow" />
+  <string id="Past" value="Past" />
+  <string id="Rental.Expired" value="R_Expired" />
+  <string id="Rental.Day" value="R_Day" />
+  <string id="Rental.Hour" value="R_Hour" />
+  <string id="Rental.Minute" value="R_Minute" />
+  <string id="Ellipsis" value="Ellipsis" />
+  <string id="Comma" value="Comma" />
+  <string id="Space" value="Space" />
+  <string id="Period" value="Period" />
+  <string id="Slash" value="Slash" />
+  <string id="Bullet" value="Bullet" />
+  <string id="SettingsString" value="SettingsString" />
+  <string id="WatchTV" value="WatchTV" />
+  <string id="OperationFailed" value="OperationFailed" />
+  <string id="Shutdown.Reboot" value="S_Reboot" />
+  <string id="Shutdown.Cancel" value="S_Cancel" />
+  <string id="Shutdown.Prompt" value="S_Prompt" />
+  <string id="PowerOff" value="PowerOff" />
+  <string id="PowerOff.Prompt" value="PO_Prompt" />
+  <string id="PowerOff.Yes" value="PO_Yes" />
+  <string id="PowerOff.No" value="PO_No" />
+  <string id="Restart.Prompt" value="R_Prompt" />
+  <string id="Restart.Yes" value="R_Yes" />
+  <string id="Restart.No" value="R_No" />
+  <string id="Hibernate.Prompt" value="H_Prompt" />
+  <string id="Hibernate.Yes" value="H_Yes" />
+  <string id="Hibernate.No" value="H_No" />
+  <string id="StandBy.WatchTV" value="SB_WatchTV" />
+  <string id="TryAgain" value="TryAgain" />
+  <string id="Content.Unavailable.DRM" value="C_U_DRM" />
+  <string id="Content.Unavailable.Encrypted.HardwareRequired" value="C_U_E_HardwareRequired" />
+  <string id="Content.Unavailable.Encrypted.ContactOperator" value="C_U_E_ContactOperator" />
+  <string id="Content.Unavailable.HDMI" value="C_U_HDMI" />
+  <string id="Content.Unavailable.Service" value="C_U_Service" />
+  <string id="Content.Unavailable.Service.Initializing" value="C_U_S_Initializing" />
+  <string id="Content.Unavailable.VOD" value="C_U_VOD" />
+  <string id="Content.Unavailable.PlaybackDisabled" value="C_U_PlaybackDisabled" />
+  <string id="Content.Unavailable.ChangeChannels" value="C_U_ChangeChannels" />
+  <string id="Content.Unavailable.CA" value="C_U_CA" />  
+  <string id="Content.Unavailable.CA.Message1" value="C_U_CA_Message1" />
+  <string id="Content.Unavailable.CA.Message2" value="C_U_CA_Message2" />
+  <string id="Diagnostic" value="Diagnostic" />
+  <string id="Diag.NotAvail" value="D_NotAvail" />
+  <string id="Diag.Status" value="D_Status" />
+  <string id="Diag.Available" value="D_Available" />
+  <string id="Diag.Unreach" value="D_Unreach" />
+  <string id="Diag.Unknown" value="D_Unknown" />
+  <string id="Diag.Bootstrap" value="D_Bootstrap" />
+  <string id="Diag.BootstrapIP" value="D_BootstrapIP" />
+  <string id="Diag.BoxID" value="D_BoxID" />
+  <string id="Diag.BoxIP" value="D_BoxIP" />
+  <string id="Diag.DHCP" value="D_DHCP" />
+  <string id="Diag.Gateway" value="D_Gateway" />
+  <string id="Diag.DNSServer" value="D_DNSServer" />
+  <string id="ConfigurableMenu.UpdateNotification" value="CM_UpdateNotification" />
+  <string id="PPPoE.Setting" value="PPPE_Setting" />
+  <string id="PPPoE.Setting.UserName" value="PPPE_S_UserName" />
+  <string id="PPPoE.Setting.Password" value="PPPE_S_Password" />
+  <string id="PPPoE.Setting.Connect" value="PPPE_S_Connect" />
+  <string id="PPPoE.Setting.Reboot" value="PPPE_S_Reboot" />
+  <string id="PPPoE.Setting.Disconnect" value="PPPE_S_Disconnect" />
+  <string id="PPPoE.Setting.Advanced" value="PPPE_S_Advanced" />
+  <string id="PPPoE.Setting.Save" value="PPPE_S_Save" />
+  <string id="PPPoE.Setting.Back" value="PPPE_S_Back" />
+  <string id="PPPoE.Setting.Advanced.UseWinLogon" value="PPPE_S_A_UseWinLogon" />
+  <string id="PPPoE.Setting.Advanced.CHAP" value="PPPE_S_A_CHAP" />
+  <string id="PPPoE.Setting.Advanced.MSCHAP" value="PPPE_S_A_MSCHAP" />
+  <string id="PPPoE.Setting.Advanced.MSCHAPv2" value="PPPE_S_A_MSCHAPv2" />
+  <string id="PPPoE.Setting.Advanced.Shiva" value="PPPE_S_A_Shiva" />
+  <string id="PPPoE.Setting.Advanced.PAP" value="PPPE_S_A_PAP" />
+  <string id="PPPoE.Setting.Advanced.UseDataEnc" value="PPPE_S_A_UseDataEnc" />
+  <string id="PPPoE.Setting.Advanced.UseSoftComp" value="PPPE_S_A_UseSoftComp" />
+  <string id="PPPoE.Setting.Advanced.UseIPHeaderComp" value="PPPE_S_A_UseIPHeaderComp" />
+  <string id="PPPoE.Setting.Advanced.UseDefGateway" value="PPPE_S_A_UseDefGateway" />
+  <string id="PPPoE.Setting.Advanced.Save" value="PPPE_S_A_Save" />
+  <string id="PPPoE.Setting.Advanced.Back" value="PPPE_S_A_Back" />
+  <string id="PPPoE.Connect" value="PPPE_Connect" />
+  <string id="PPPoE.Connect.Status" value="PPPE_C_Status" />
+  <string id="DeadState.DeadStateMessage" value="DS_DeadStateMessage" />
+  <string id="NetworkWizard.Setting" value="NW_Setting" />
+  <string id="NetworkWizard.Setting.DHCP" value="NW_S_DHCP" />
+  <string id="NetworkWizard.Setting.PPPoE" value="NW_S_PPPoE" />
+  <string id="NetworkWizard.Setting.StaticIP" value="NW_S_StaticIP" />
+  <string id="NetworkWizard.Setting.Next" value="NW_S_Next" />
+  <string id="NetworkWizard.Setting.Tips" value="NW_S_Tips" />
+  <string id="DHCP.Setting" value="DHCP_Setting" />
+  <string id="DHCP.Setting.Desc" value="DHCP_S_Desc" />
+  <string id="DHCP.Setting.Reboot" value="DHCP_S_Reboot" />
+  <string id="DHCP.Setting.Back" value="DHCP_S_Back" />
+  <string id="StaticIP.Setting" value="SIP_Setting" />
+  <string id="StaticIP.Setting.IPAddr" value="SIP_S_IPAddr" />
+  <string id="StaticIP.Setting.Mask" value="SIP_S_Mask" />
+  <string id="StaticIP.Setting.Gate" value="SIP_S_Gate" />
+  <string id="StaticIP.Setting.DNS" value="SIP_S_DNS" />
+  <string id="StaticIP.Setting.WINS" value="SIP_S_WINS" />
+  <string id="StaticIP.Setting.Reboot" value="SIP_S_Reboot" />
+  <string id="StaticIP.Setting.Back" value="SIP_S_Back" />
+  <string id="BootstrapRetry.TryAgain" value="BR_TryAgain" />
+  <string id="EAS.Level1" value="EAS_Level1" />
+  <string id="EAS.Warning" value="EAS_Warning" />
+  <string id="EAS.Watch" value="EAS_Watch" />
+  <string id="EAS.Emergency" value="EAS_Emergency" />
+  <string id="EAS.Statement" value="EAS_Statement" />
+ <string id="ProgramInfo.DownloadStatus.Scheduled" value="PI_DS_Scheduled" />
+  <string id="ProgramInfo.DownloadStatus.Downloading" value="PI_DS_Downloading" />
+
+
+  
+  <string id="ProgramInfo.DownloadStatus.Failed" value="PI_DS_Failed" />
+  <string id="ProgramInfo.DownloadStatus.Downloaded" value="PI_DS_Downloaded" />
+  <string id="ProgramInfo.DownloadMissing" value="PI_DownloadMissing" />
+  <string id="ParentalControl.PinRetryLimitExceeded.ContactOperator.Adult" value="PC_PRLE_CO_Adult" />
+  <string id="ParentalControl.PinDisabledMessage.Indefinite.Adult" value="PC_PDM_I_Adult" />  
+  <string id="Settings.Television.ChannelScanning" value="S_T_ChannelScanning" />
+  <string id="Settings.Television.SignalStrength" value="S_T_SignalStrength" />
+  <string id="Settings.Television.SignalStrength.Check" value="S_T_SS_Check" />
+  <string id="Settings.Television.SignalStrength.Cancel" value="S_T_SS_Cancel" />
+  <string id="Settings.Television.SignalStrength.Description" value="S_T_SS_Description" />
+  <string id="VideoFullScreen.TrickNotAvailable.Part1" value="VFS_TNA_Part1" />
+  <string id="VideoFullScreen.TrickNotAvailable.Part2" value="VFS_TNA_Part2" />
+  <string id="BrowseBar.Next" value="BB_Next" />
+
+
+
+  
+  <string id="DVR.FastForward" value="DVR_FastForward" />
+  <string id="DVR.Pause" value="DVR_Pause" />
+  <string id="DVR.Rewind" value="DVR_Rewind" />
+  <string id="DVR.Skip" value="DVR_Skip" />
+  <string id="DVR.Replay" value="DVR_Replay" />
+  <string id="DVR.Play" value="DVR_Play" />
+  <string id="DVR.Stop" value="DVR_Stop" />
+  <string id="DVR.SeriesRecordingCanceled" value="DVR_SeriesRecordingCanceled" />
+  <string id="DVR.RecordingCanceled" value="DVR_RecordingCanceled" />
+  <string id="SmartCard.Diagnostics.CardReady" value="SC_D_CardReady" />
+  <string id="SmartCard.Diagnostics.CardReadyDateFormat" value="SC_D_CardReadyDateFormat" />
+  <string id="SmartCard.Diagnostics.CardUnknown" value="SC_D_CardUnknown" />
+  <string id="SmartCard.Diagnostics.CardBad" value="SC_D_CardBad" />
+  <string id="SmartCard.Diagnostics.CardExtracted" value="SC_D_CardExtracted" />
+  <string id="Stream.NoPlaybackStreams" value="S_NoPlaybackStreams" />
+  <string id="Stream.NoPlaybackStreams.HD" value="S_NPS_HD" />
+  <string id="Stream.NoPlaybackBandwidth" value="S_NoPlaybackBandwidth" />
+  <string id="Stream.LiveTuneNoIngressStream" value="S_LiveTuneNoIngressStream" />
+  <string id="Stream.LiveTuneNoIngressStream.HD" value="S_LTNIS_HD" />
+  <string id="Stream.TuneNoIngressStream" value="S_TuneNoIngressStream" />
+  <string id="Stream.TuneNoIngressStream.HD" value="S_TNIS_HD" />
+  <string id="Stream.IngressDialogStopRecording" value="S_IngressDialogStopRecording" />
+  <string id="Stream.IngressDialogTryAgain" value="S_IngressDialogTryAgain" />
+  <string id="Settings.AspectRatio.HighDefResetKeySequence" value="S_AR_HighDefResetKeySequence" />
+  <string id="Settings.ChannelScanning.DvrWarning" value="S_CS_DvrWarning" />
+  <string id="Settings.ChannelScanning.DvrWarning.Continue" value="S_CS_DW_Continue" />
+  <string id="Settings.ChannelScanning.DvrWarning.Cancel" value="S_CS_DW_Cancel" />
+  <string id="Settings.ChannelScanning.MoreInfo" value="S_CS_MoreInfo" />
+  <string id="Settings.ChannelScanning.MoreInfo.Title" value="S_CS_MI_Title" />
+  <string id="Settings.ChannelScanning.MoreInfo.Description" value="S_CS_MI_Description" />
+
+  
+  <string id="Settings.About.SystemInfo.Data" value="S_A_SI_Data" />
+  <string id="Settings.About.SmartCardInfo.Data" value="S_A_SCI_Data" />
+
+
+  <string id="Settings.About.NotAvailable" value="S_A_NotAvailable" />
+  <string id="Settings.About.NetworkInfo.Data" value="S_A_NI_Data" />
+  <string id="Settings.About.NetworkInfo.Connected" value="S_A_NI_Connected" />
+  <string id="Settings.About.NetworkInfo.Disconnected" value="S_A_NI_Disconnected" />
+  <string id="Settings.About.SystemResources.Data" value="S_A_SR_Data" />
+  <string id="Settings.About.SystemResources.Present" value="S_A_SR_Present" />
+  <string id="Settings.About.SystemResources.NotPresent" value="S_A_SR_NotPresent" />
+  <string id="Settings.About.SystemResources.MemoryFormatKBs" value="S_A_SR_MemoryFormatKBs" />
+  <string id="Settings.SignalStrength.Description" value="S_SS_Description" />
+  <string id="Settings.SignalStrength.DescriptionNoChannels" value="S_SS_DescriptionNoChannels" />
+  <string id="Settings.SignalStrength.Labels" value="S_SS_Labels" />
+  <string id="Settings.SignalStrength.Values" value="S_SS_Values" />
+  <string id="Settings.SignalStrength.NoValue" value="S_SS_NoValue" />
+  <string id="VOD.Downloads.Downloaded.NoItems" value="VOD_D_D_NoItems" />
+  <string id="VOD.Downloads.Scheduled.NoItems" value="VOD_D_S_NoItems" />
+  <string id="VOD.Downloads.State.WaitingToStart" value="VOD_D_S_WaitingToStart" />
+  <string id="VOD.Downloads.State.Downloading" value="VOD_D_S_Downloading" />
+  <string id="VOD.Downloads.State.Failed" value="VOD_D_S_Failed" />
+  <string id="VOD.Downloads.State.Incomplete" value="VOD_D_S_Incomplete" />
+  <string id="ProgramInfo.Downloads.AddConfirmation" value="PI_D_AddConfirmation" />
+  <string id="ProgramInfo.Downloads.AddConfirmationFree" value="PI_D_AddConfirmationFree" />
+  <string id="ProgramInfo.Downloads.CancelConfirmation" value="PI_D_CancelConfirmation" />
+  <string id="ProgramInfo.Downloads.DeleteConfirmation" value="PI_D_DeleteConfirmation" />
+  <string id="ProgramInfo.Downloads.MoveToTopConfirmation" value="PI_D_MoveToTopConfirmation" />
+  <string id="VOD.Downloads.Downloaded.State.Viewable" value="VOD_D_D_S_Viewable" />
+  <string id="VOD.Downloads.Downloaded.State.NotPurchased" value="VOD_D_D_S_NotPurchased" />
+  <string id="MediaSharing.Title" value="MS_Title" />
+  <string id="MediaSharing.Subtitle" value="MS_Subtitle" />
+  <string id="MediaSharing.ServerAuthorized.Description" value="MS_SA_Description" />
+  <string id="MediaSharing.ServerAuthorized.Details" value="MS_SA_Details" />
+  <string id="MediaSharing.ServerNotAuthorized.Description" value="MS_SNA_Description" />
+  <string id="MediaSharing.ServerNotAuthorized.Details" value="MS_SNA_Details" />
+  <string id="MediaSharing.Empty" value="MS_Empty" />
+  <string id="MediaSharing.SingleItemFormat" value="MS_SingleItemFormat" />
+ 
+  <string id="MediaSharing.NoServersYet.Description" value="MS_NSY_Description" />
+  <string id="MediaSharing.NoServersYet.Button" value="MS_NSY_Button" />
+  <string id="MediaSharing.NoServersFound.DelaySeconds" value="MS_NSF_DelaySeconds" /><!-- number of seconds before telling user we can't find anything -->
+  <string id="MediaSharing.NoServersFound.Description" value="MS_NSF_Description" />
+  <string id="MediaSharing.NoServersFound.Button" value="MS_NSF_Button" />
+ 
+  <string id="MediaSharing.Error.MusicPlaybackFailed.ProtectedContent" value="MS_E_MPF_ProtectedContent" />
+  
+  <string id="MediaSharing.Error.PhotosPlaybackFailed" value="MS_E_PhotosPlaybackFailed" />
+  <string id="UPnP.MenuContainer.0" value="UPP_MC_0" />
+  <string id="UPnP.MenuContainer.1" value="UPP_MC_1" />
+  <string id="UPnP.MenuContainer.2" value="UPP_MC_2" />
+  <string id="UPnP.MenuContainer.3" value="UPP_MC_3" />
+  <string id="UPnP.MenuContainer.4" value="UPP_MC_4" />
+  <string id="UPnP.MenuContainer.5" value="UPP_MC_5" />
+  <string id="UPnP.MenuContainer.6" value="UPP_MC_6" />
+  <string id="UPnP.MenuContainer.7" value="UPP_MC_7" />
+  <!-- <string id="UPnP.MenuContainer.8" value="UPP_MC_8" /> -->
+  <string id="Upgrade.SnoozeTimer" value="U_SnoozeTimer" />
+  <string id="Upgrade.SnoozeDialogTimeout" value="U_SnoozeDialogTimeout" />
+  <string id="CannotPlayVideoError" value="CannotPlayVideoError" />
+  <string id="Done" value="Done" />
+  <string id="Diag.Header" value="D_Header" />
+  <string id="BootstrapRetry.Message" value="BR_Message" />
+  <string id="BootstrapRetry.Header" value="BR_Header" />
+  <string id="BootstrapRetry.Diagnostics" value="BR_Diagnostics" />
+  <string id="HDMI.Plugged" value="HDMI_Plugged" />
+  <string id="HDMI.Unplugged" value="HDMI_Unplugged" />
+  <string id="HDMI.HDCP.Unsupported" value="HDMI_HDCP_Unsupported" />
+  <string id="HDMI.HDCP.Revoked" value="HDMI_HDCP_Revoked" />
+  <string id="HDMI.HDCP.LevelExceeded" value="HDMI_HDCP_LevelExceeded" />
+  <string id="HDMI.HDCP.StbNoKeys" value="HDMI_HDCP_StbNoKeys" />
+  <string id="HDMI.HDCP.LinkIntegrityFailed" value="HDMI_HDCP_LinkIntegrityFailed" />
+  <string id="HDMI.HDCP.NoReceiverConnected" value="HDMI_HDCP_NoReceiverConnected" />
+  <string id="HDMI.HDCP.TxAnWriteFailed" value="HDMI_HDCP_TxAnWriteFailed" />
+  <string id="HDMI.HDCP.TxAnReadFailed" value="HDMI_HDCP_TxAnReadFailed" />
+  <string id="HDMI.HDCP.RxAnWriteFailed" value="HDMI_HDCP_RxAnWriteFailed" />
+  <string id="HDMI.HDCP.InvalidAksvFormat" value="HDMI_HDCP_InvalidAksvFormat" />
+  <string id="HDMI.HDCP.AksvWriteFailed" value="HDMI_HDCP_AksvWriteFailed" />
+  <string id="HDMI.HDCP.BksvWriteFailed" value="HDMI_HDCP_BksvWriteFailed" />
+  <string id="HDMI.HDCP.InvalidBksvFormat" value="HDMI_HDCP_InvalidBksvFormat" />
+  <string id="DTT.Reconnected" value="DTT_Reconnected" />
+  <string id="DTT.Disconnected" value="DTT_Disconnected" />
+  <string id="DTT.Troubleshoot" value="DTT_Troubleshoot" />
+  <string id="Browser.LoadingPage" value="B_LoadingPage" />
+  <string id="MHEG.Unavailable" value="MHEG_Unavailable" />
+  <string id="Image.Icon.HD" value="I_I_HD" />
+  <string id="UnitTestingPipTuning.Description" value="UTPT_Description" />
+  <string id="UnitTestingPipTuning.Statistics" value="UTPT_Statistics" />
+  <string id="UnitTestingScreenModeSwitching.Description" value="UTSMS_Description" />
+  <string id="UnitTestingScreenModeSwitching.Stats" value="UTSMS_Stats" />
+  <string id="UnitTestingRightsPCON.Description" value="UTRPCON_Description" />
+  <string id="UnitTestingRightsPCON.Statistics" value="UTRPCON_Statistics" />
+  <string id="UnitTestingPageLoading.Description" value="UTPL_Description" />
+  <string id="UnitTestingPageLoading.Statistics" value="UTPL_Statistics" />
+
+  <string id="ParentalControl.PinDisabledMessage.Later" value="PC_PDM_Later" />
+  <string id="OptionsPanel.Guide" value="OP_Guide"/>
+  <string id="OptionsPanel.Search" value="OP_Search"/>
+  <string id="OptionsPanel.Default" value="OP_Default"/>
+  
+  <string id="TimeShift.ExitToLive.Description" value="TS_ETL_Description"/>
+  <string id="TimeShift.ExitToLive.WatchLive" value="TS_ETL_WatchLive"/>
+  <string id="TimeShift.ExitToLive.Cancel" value="TS_ETL_Cancel"/>
+  <string id="TimeShift.TimeShiftContentUnavailable" value="TS_TimeShiftContentUnavailable"/>
+  <string id="TimeShift.TimeShiftKeyringTrouble" value="TS_TimeShiftKeyringTrouble"/>
+  <string id="TimeShift.MustGoLiveToRecord" value="TS_MustGoLiveToRecord"/>
+  <string id="TimeShift.MustGoLiveToRecord.OK" value="TS_MGLTR_OK"/>
+  <string id="TimeShift.MustGoLiveToRecord.Cancel" value="TS_MGLTR_Cancel"/>
+  <string id="TimeShift.ProgramInfoPanel.Description.PotentialAvailable" value="TS_PIP_D_PotentialAvailable"/>
+  <string id="TimeShift.ProgramInfoPanel.Description.UnAvailable" value="TS_PIP_D_UnAvailable"/>
+  <string id="TimeShift.ProgramInfoPanel.Cancel" value="TS_PIP_Cancel"/>
+  <string id="TimeShift.ProgramInfoPanel.WatchLive" value="TS_PIP_WatchLive"/>
+
+  <string id="WatchNow" value="WatchNow"/>
+  <string id="Yesterday" value="Yesterday"/>
+  <string id="EarlierToday" value="EarlierToday"/>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Basic TextwithReplacementStrings.xml replacements already completed -->
+
+
+
+
+
+
+
+<string id="URL.PurchaseOffer.Adult" value="URL_PO_Adult {0} URL_PO_Adult {1} URL_PO_Adult {2} " />  
+<string id="ProgramInfo.AudioLanguages.Changed" value="PI_AL_Changed {0} " />
+  <string id="ProgramInfo.SubtitleLanguages.Changed" value="PI_SL_Changed {0} " />
+  
+  <string id="ProgramInfo.Series.RecordingConflictedMany" value="PI_S_RecordingConflictedMany {0} " />
+  <string id="ProgramInfo.Series.RecordingConflictedAll" value=" {0} PI_S_RecordingConflictedAll" />
+  <string id="ProgramInfo.Series.RecordingScheduledMany" value=" {0} PI_S_RecordingScheduledMany" />
+  <string id="ProgramInfo.Series.ExistingRecordingsMany" value=" {0} PI_S_ExistingRecordingsMany" />
+  <string id="ProgramInfo.VODAvailableUntil" value="PI_VODAvailableUntil {0} " />
+  
+  <string id="ProgramInfo.OriginalAirDateString" value="PI_OriginalAirDateString {0} " />
+  <string id="ProgramInfo.ReleasedString" value="PI_ReleasedString {0} " />
+  <string id="ProgramInfo.Download.Message" value="PI_D_Message {0} " />
+  <string id="ProgramInfo.CancelDownload.Message" value="PI_CD_Message {0} " />
+  <string id="ProgramInfo.EraseDownload.Message" value="PI_ED_Message {0} " />
+  <string id="ProgramInfo.MoveToTop.Message" value="PI_MTT_Message {0} " />
+  <string id="ParentalControl.ForbiddenPinListMessage" value="PC_ForbiddenPinListMessage {0} " />
+  <string id="ParentalControl.IncorrectPinMessage" value="PC_IncorrectPinMessage {0} " />
+  <string id="ParentalControl.PinRetryLimitExceeded.RetryLater" value="PC_PRLE_RetryLater {0} " />
+  <string id="ParentalControl.PinDisabledMessage" value="PC_PinDisabledMessage {0} " />
+  <string id="ParentalControl.ChoosePinMessage" value="PC_ChoosePinMessage {0} " />
+  <string id="ParentalControl.EnterPinMessage" value="PC_EnterPinMessage {0} " />
+  <string id="ParentalControl.EnterPinMessage.PinLengthChanged" value="PC_EPM_PinLengthChanged {0} PC_EPM_PinLengthChanged {1} PC_EPM_PinLengthChanged {0} " />
+  <string id="ParentalControl.ChooseANewPin" value="PC_ChooseANewPin {0} " />
+  <string id="ParentalControl.EnterPinFirstTime" value="PC_EnterPinFirstTime {0} " />
+  <string id="ParentalControl.EnterPin" value="PC_EnterPin {0} " />
+  <string id="ParentalControl.EnterPin.Purchase" value="PC_EP_Purchase {0} " />
+  <string id="ParentalControl.EnterPin.Unlock" value="PC_EP_Unlock {0} " />
+  <string id="ParentalControl.EnterPin.Unlock.Adult" value="PC_EP_U_Adult {0} " />
+  <string id="ParentalControl.EnterPin.Unlock.Stream" value="PC_EP_U_Stream {0} " />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase" value="PC_EP_UnlockForPurchase {0} " />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.Adult" value="PC_EP_UFP_Adult {0} " />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon" value="PC_EP_UFP_PCon {0} " />
+  <string id="ParentalControl.EnterPin.UnlockForPurchase.PCon.Adult" value="PC_EP_UFP_PC_Adult {0} " />
+  <string id="ParentalControl.EnterPin.UnlockForRecord" value="PC_EP_UnlockForRecord {0} " />
+  <string id="ParentalControl.EnterPin.IncorrectPin.PCon" value="PC_EP_IP_PCon {0} " />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Adult" value="PC_EP_IP_Adult {0} " />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Rental" value="PC_EP_IP_Rental {0} " />
+  <string id="ParentalControl.EnterPin.IncorrectPin.Undefined" value="PC_EP_IP_Undefined {0} " />
+  <string id="ParentalControl.EnterPin.RetryCount" value=" {0} PC_EP_RetryCount" />
+  <string id="ParentalControl.ConfirmPin" value="PC_ConfirmPin {0} " />
+  <string id="ParentalControl.PConPinLengthChanged" value="PC_PConPinLengthChanged {0} " />
+  <string id="ParentalControl.GotoParentalControlSettings" value="PC_GotoParentalControlSettings {0} " />
+  <string id="ParentalControl.RatingSystems.PresentableNameFormat" value=" {0} PC_RS_PresentableNameFormat" />
+  
+  <string id="ParentalControl.Dialog.ResetPCon" value="PC_D_ResetPCon {0} " />
+  <string id="ParentalControl.Dialog.ClearPurchasePIN" value="PC_D_ClearPurchasePIN {0} " />
+  <string id="ParentalControl.Notification.ProgramUnlocked" value="PC_N_ProgramUnlocked {0} " />
+  <string id="ParentalControl.MenuItemText.UnlockProgramming" value="PC_MIT_UnlockProgramming {0} " />
+  <string id="ParentalControl.Dialog.UnlockChoice" value="PC_D_UnlockChoice {0} " />
+  <string id="ParentalControl.Dialog.UnlockProgram" value="PC_D_UnlockProgram {0} " />
+  <string id="ParentalControl.Settings.LockPurchasing.RequirePin" value="PC_S_LP_RequirePin {0} " />
+  <string id="ParentalControl.Settings.LockAdultPrograms.Description" value="PC_S_LAP_Description {0} " />
+  <string id="ParentalControl.Settings.LockApplications.RequirePin" value="PC_S_LA_RequirePin {0} " />
+  <string id="ParentalControl.Adult.Unlocked" value="PC_A_Unlocked {0} " />
+  <string id="ParentalControl.PinRetry.Disabled" value="PC_PR_Disabled {0} " />
+  <string id="ParentalControl.PinRetry.Disabled.Adult" value="PC_PR_D_Adult {0} " />
+  <string id="Account.Disabled.NotificationDialogString" value="A_D_NotificationDialogString {0} " />
+  <string id="ClientUnprovisionedString" value="ClientUnprovisionedString {0} " />
+  <string id="Guide.Upcoming" value="G_Upcoming {0} " />
+  <string id="Guide.PPV" value="G_PPV {0} " />
+  <string id="Guide.ShowOnSoon" value="G_ShowOnSoon {0} " />
+  <string id="Guide.ShowOnLaterToday" value="G_ShowOnLaterToday {0} " />
+  <string id="Guide.ShowOnDaysLater" value="G_ShowOnDaysLater {0} " />
+  <string id="Guide.ShowStarted" value="G_ShowStarted {0} " />
+  <!-- {0}: channel number, {1}: call letters/station -->
+  <string id="Guide.Channel.Title" value="{0} G_C_Title {1}"/>
+  <string id="Guide.Options.HoursAgo" value="G_O_HoursAgo {0}"/>
+  <string id="Guide.Channel.PastPrograms" value="G_C_PastPrograms {0}"/>
+  
+  <string id="VideoFullScreen.StatusBar.StartPlaying" value="VFS_SB_StartPlaying {0} " />
+  <string id="VideoFullScreen.StatusBar.StartPlaying.Preview" value="VFS_SB_SP_Preview {0} " />
+  <string id="VideoFullScreen.StatusBar.SVOD" value="VFS_SB_SVOD {0} " />
+  
+  <string id="DVR.AboutToRecord" value="DVR_AboutToRecord {0} DVR_AboutToRecord {1} " />
+  <string id="DVR.StopRecording" value="DVR_StopRecording {0} " />
+  <string id="DVR.IsTVInUse.Seconds" value=" {0} DVR_ITVIU_Seconds" />
+  <string id="DVR.IsTVInUse.Second" value=" {0} DVR_ITVIU_Second" />
+  <string id="DVR.StreamChooser.Header.Plural" value=" {0} DVR_SC_H_Plural" />
+  <string id="DVR.StreamChooser.Header.Single" value=" {0} DVR_SC_H_Single" />
+  <string id="DVR.ChangeStream.LastActivity" value="DVR_CS_LastActivity {0} " />
+  <string id="DVR.ChangeStream.Uptime" value="DVR_CS_Uptime {0} " />
+  
+    <string id="DVR.RecordedGroup.RecordingCountFormatOne" value=" {0} DVR_RG_RecordingCountFormatOne" />
+    <string id="DVR.RecordedGroup.RecordingCountFormat" value=" {0} DVR_RG_RecordingCountFormat" />
+    
+  <string id="DVR.Keep.Date" value="DVR_K_Date {0} " />
+  <string id="DVR.Settings.Padding.XMinutesLate" value=" {0} DVR_S_P_XMinutesLate" />
+  <string id="DVR.Settings.Padding.XHoursLate" value=" {0} DVR_S_P_XHoursLate" />
+  <string id="DVR.Time.ThisTime" value="DVR_T_ThisTime {0} " />
+  <string id="DVR.KeepUpTo.XRecordings" value=" {0} DVR_KUT_XRecordings" />
+  <string id="DVR.KeepAtMost.FormatSingular" value=" {0} DVR_KAM_FormatSingular" />
+  <string id="DVR.KeepAtMost.FormatPlural" value=" {0} DVR_KAM_FormatPlural" />
+  
+  <string id="DVR.Conflict.Preamble" value=" {0} DVR_C_Preamble" />
+  <string id="DVR.Conflict.Choice2" value="DVR_C_Choice2 {0} " />
+  <string id="DVR.Conflict.Series.Preamble1" value="DVR_C_S_Preamble1 {0} " />
+  <string id="DVR.Conflict.Series.Preamble2" value=" {0} DVR_C_S_Preamble2 {1} " />
+  <string id="DVR.Conflict.Series.Choice1" value="DVR_C_S_Choice1 {0} " />
+  <string id="DVR.Conflict.MultiSubTitle" value=" {0} DVR_C_MultiSubTitle" />
+  
+  <string id="DVR.Conflict.Summary" value=" {0} DVR_C_Summary {1} " />
+  <string id="DVR.Conflict.Series.Summary" value="DVR_C_S_Summary {0} DVR_C_S_Summary {1} " />
+  
+  <string id="DVR.Conflict.InitSingle.SubTitle" value="DVR_C_IS_SubTitle {0} " />
+  <string id="DVR.Conflict.InitSeries.SubTitle" value="DVR_C_IS_SubTitle {0} " />
+  <string id="DVR.ManualLabel" value="DVR_ManualLabel {0} " />
+  <string id="DVR.QueryCancelSeries" value="DVR_QueryCancelSeries {0} " />
+  <string id="DVR.QueryCancelProgram" value="DVR_QueryCancelProgram {0} " />
+  <string id="DVR.QueryCancelEpisode" value="DVR_QueryCancelEpisode {0} " />
+  <string id="DVR.QueryErase" value="DVR_QueryErase {0} " />
+  <string id="DVR.SeriesInfoSummaryFormat" value=" {0} DVR_SeriesInfoSummaryFormat {1} " />
+  <string id="DVR.OneTimeSettingTimeFormat" value=" {0} DVR_OneTimeSettingTimeFormat {1} " />
+  <string id="DVR.EITVPS.AboutToExtend" value="DVR_EITVPS_AboutToExtend {0} DVR_EITVPS_AboutToExtend {1} " />
+  <string id="DVR.EITVPS.Recording" value="DVR_EITVPS_Recording {0} " />
+  <string id="DVR.EITVPS.Delayed" value="DVR_EITVPS_Delayed {0} " />
+  <string id="Stream.StayOnChannel" value="S_StayOnChannel {0} " />
+  <string id="Stream.UpcomingRecording" value="S_UpcomingRecording {0} S_UpcomingRecording {1} S_UpcomingRecording {2} " />
+  <string id="Settings.AspectRatio.NowViewing" value="S_AR_NowViewing {0} " />
+  <string id="Settings.AspectRatio.SaveSettingsToHighDef" value=" {0} S_AR_SaveSettingsToHighDef" />
+  <string id="Settings.AspectRatio.ReconfirmSettings" value="S_AR_ReconfirmSettings {0} " />
+  <string id="Settings.AspectRatio.ChangeTo" value="S_AR_ChangeTo {0} " />
+  <string id="Settings.AspectRatio.VideoIsHighDef" value="S_AR_VideoIsHighDef {0} " />
+  <string id="Settings.AspectRatio.VideoWasHighDef" value="S_AR_VideoWasHighDef {0} " />
+  <string id="Settings.AspectRatio.KeepHighDef" value="S_AR_KeepHighDef {0} " />
+  <string id="Settings.AspectRatio.ChangedToHighDef" value="S_AR_ChangedToHighDef {0} " />
+  
+  <string id="Settings.About.SystemResources.DiskAvailablePercent" value=" {0} S_A_SR_DiskAvailablePercent" />
+  <string id="Settings.CcChannels.Changed" value="S_CC_Changed {0} " />
+  <string id="Settings.RFOutputChannel.Confirm" value="S_RFOC_Confirm {0} " />
+  
+  <string id="VOD.Count.Many" value=" {0} VOD_C_Many" />
+  <string id="VOD.Category.Count.Many" value=" {0} VOD_C_C_Many" />
+  <string id="VOD.ExpiresToday" value="VOD_ExpiresToday {0} " />
+  <string id="VOD.LiveToVod.Title" value="{0}:{1} VOD_LTV_Title {2}"/>
+  <string id="VOD.ExpiresLater" value="VOD_ExpiresLater {0} " />
+  <string id="VOD.ExpiresLongToday" value="VOD_ExpiresLongToday {0} " />
+  <string id="VOD.ExpiresLongTomorrow" value="VOD_ExpiresLongTomorrow {0} " />
+  <string id="VOD.ExpiresLongInAWeek" value="VOD_ExpiresLongInAWeek {0} VOD_ExpiresLongInAWeek {1} " />
+  <string id="VOD.ExpiresLongLater" value="VOD_ExpiresLongLater {0} VOD_ExpiresLongLater {1} " />
+  <string id="VOD.PurchaseOffer" value="VOD_PurchaseOffer {0} VOD_PurchaseOffer {1} VOD_PurchaseOffer {2} " />
+  <string id="VOD.PurchaseOffer.Adult" value="VOD_PO_Adult {0} VOD_PO_Adult {1} VOD_PO_Adult {2} " />
+  <string id="VOD.PurchaseOffer.Package" value="VOD_PO_Package {0} VOD_PO_Package {1} VOD_PO_Package {2} " />
+  <string id="VOD.PurchaseOffer.Package.Adult" value="VOD_PO_P_Adult {0} VOD_PO_P_Adult {1} VOD_PO_P_Adult {2} " />
+  <string id="VOD.PurchaseOffer.NoWindow" value="VOD_PO_NoWindow {0} VOD_PO_NoWindow {1} " />
+  <string id="VOD.PurchaseOffer.NoWindow.Adult" value="VOD_PO_NW_Adult {0} VOD_PO_NW_Adult {1} " />
+  <string id="VOD.PurchaseOffer.NoWindow.Package" value="VOD_PO_NW_Package {0} VOD_PO_NW_Package {1} " />
+  <string id="VOD.PurchaseOffer.NoWindow.Package.Adult" value="VOD_PO_NW_P_Adult {0} VOD_PO_NW_P_Adult {1} " />
+  <string id="VOD.PurchaseOffer.Free" value=" {0} VOD_PO_Free {1} " />
+  <string id="VOD.PurchaseOffer.Free.Adult" value="VOD_PO_F_Adult {0} VOD_PO_F_Adult {1} " />
+  <string id="VOD.PurchaseOffer.Free.Package" value="VOD_PO_F_Package {0} VOD_PO_F_Package {1} " />
+  <string id="VOD.PurchaseOffer.Free.Package.Adult" value="VOD_PO_F_P_Adult {0} VOD_PO_F_P_Adult {1} " />
+  <string id="VOD.PurchaseOffer.Free.NoWindow" value=" {0} VOD_PO_F_NoWindow" />
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Adult" value=" {0} VOD_PO_F_NW_Adult" />
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package" value=" {0} VOD_PO_F_NW_Package" />
+  <string id="VOD.PurchaseOffer.Free.NoWindow.Package.Adult" value=" {0} VOD_PO_F_NW_P_Adult" />
+  <string id="VOD.CreditLimitExceeded.CanIncrease" value="VOD_CLE_CanIncrease {0} " />
+  <string id="VOD.RentAllPackage" value="VOD_RentAllPackage {0} " />
+  <string id="VOD.Preview" value="VOD_Preview {0} " />
+  <string id="SVOD.StatusBar.PressOK.RentalInfo" value="SVOD_SB_POK_RentalInfo {0} " />
+  <string id="PPV.StatusBar.RentedText" value="PPV_SB_RentedText {0} " />
+  <string id="VOD.StatusBar.RentedText" value="VOD_SB_RentedText {0} " />
+  <string id="PPV.StatusBar.PurchaseText" value=" {0} PPV_SB_PurchaseText {1} " />
+  <string id="VOD.StatusBar.PurchaseText" value=" {0} VOD_SB_PurchaseText {1} " />
+  <string id="SVOD.StatusBar.PurchaseText" value=" {0} SVOD_SB_PurchaseText" />
+  <string id="Default.StatusBar.PurchaseText" value=" {0} D_SB_PurchaseText {1} " />
+  <string id="URL.OkToRent" value="URL_OkToRent {0} URL_OkToRent {1} " />
+  <string id="VideoFullScreen.CanPurchase.Price" value=" {0} VFS_CP_Price {1} " />
+  <string id="DVR.MultiRoom.NeedRecordTuner" value="DVR_MR_NeedRecordTuner {0} DVR_MR_NeedRecordTuner {1} DVR_MR_NeedRecordTuner {2} " />
+<string id="DVR.Conflict.2Conflicts" value=" {0} DVR_C_2Conflicts {1} " />
+  <string id="DVR.Conflict.3Conflicts" value=" {0} DVR_C_3Conflicts {1} DVR_C_3Conflicts {2} " />
+  <string id="DVR.Conflict.4Conflicts" value=" {0} DVR_C_4Conflicts {1} DVR_C_4Conflicts {2} DVR_C_4Conflicts {3} " />
+  <string id="DVR.Conflict.5Conflicts" value=" {0} DVR_C_5Conflicts {1} DVR_C_5Conflicts {2} DVR_C_5Conflicts {3} " />
+<string id="PPV.PurchaseOffer.Adult" value="PPV_PO_Adult {0} PPV_PO_Adult {1} PPV_PO_Adult {2} " />
+
+
+<string id="Settings.About.SystemResources.DiskUsage" value=" {0} S_A_SR_DiskUsage {1} " />
+  <string id="VideoFullScreen.SeekPositionXofY" value=" {0} VFS_SeekPositionXofY {1} " />
+  <string id="SVOD.ProgramInfo.AcceptOffer" value=" {0} SVOD_PI_AcceptOffer" />
+  <string id="PPV.ProgramInfo.AcceptOffer.Button" value="PPV_PI_AO_Button {0} " />
+  <string id="VOD.ProgramInfo.AcceptOffer.Button" value="VOD_PI_AO_Button {0} " />
+  <string id="Default.ProgramInfo.AcceptOffer.Button" value="D_PI_AO_Button {0} " />
+  <string id="Default.PurchaseOffer.Free" value="D_PO_Free {0} " />
+  <string id="Default.PurchaseOffer.Free.Adult" value="D_PO_F_Adult {0} " />
+  <string id="Default.PurchaseOffer" value="D_PurchaseOffer {0} D_PurchaseOffer {1} D_PurchaseOffer {2} " />
+  <string id="Default.PurchaseOffer.Adult" value="D_PO_Adult {0} D_PO_Adult {1} D_PO_Adult {2} " />
+  <string id="ParentalControl.ListItemText.BlockedChannelsMultiple" value=" {0} PC_LIT_BlockedChannelsMultiple {1} PC_LIT_BlockedChannelsMultiple {2} " />
+  <string id="ParentalControl.ListItemText.BlockedChannelsDouble" value=" {0} PC_LIT_BlockedChannelsDouble {1} " />
+  <string id="PPV.PurchaseOffer" value="PPV_PurchaseOffer {0} PPV_PurchaseOffer {1} PPV_PurchaseOffer {2} " />
+  <string id="DVR.RecordedGroup.RecordingCountFormatOneWithTitle" value=" {0} DVR_RG_RecordingCountFormatOneWithTitle {1} " />
+    <string id="DVR.RecordedGroup.RecordingCountFormatWithTitle" value=" {0} DVR_RG_RecordingCountFormatWithTitle {1} " />
+  <string id="DVR.ChannelDisabledNotification" value="DVR_ChannelDisabledNotification {0} DVR_ChannelDisabledNotification {1} " />
+  <string id="DVR.ChannelPauseDisabledNotification" value=" {0} DVR_ChannelPauseDisabledNotification {1} " />
+  <string id="DVR.ChannelDisabled" value="DVR_ChannelDisabled {0} DVR_ChannelDisabled {1} " />
+  <string id="PPV.PurchaseOffer.Free" value="PPV_PO_Free {0} " />
+  <string id="PPV.PurchaseOffer.Free.Adult" value="PPV_PO_F_Adult {0} " />
+   <string id="PPV.ProgramInfo.Purchase" value=" {0} PPV_PI_Purchase" />
+  <string id="URL.OkToLaunch" value="URL_OkToLaunch {0} " />
+  <string id="URL.PurchaseOffer" value="URL_PurchaseOffer {0} URL_PurchaseOffer {1} URL_PurchaseOffer {2} " />
+  
+  <string id="URL.PurchaseOffer.NoWindow" value="URL_PO_NoWindow {0} URL_PO_NoWindow {1} " />
+  <string id="URL.PurchaseOffer.NoWindow.Adult" value="URL_PO_NW_Adult {0} URL_PO_NW_Adult {1} " />
+  <string id="SVOD.PurchaseOffer" value="SVOD_PurchaseOffer {0} SVOD_PurchaseOffer {2} " />
+  <string id="SVOD.PurchaseOffer.Adult" value="SVOD_PO_Adult {0} SVOD_PO_Adult {2} " />
+  <string id="SVOD.PurchaseOffer.Free" value=" {0} SVOD_PO_Free" />
+  <string id="SVOD.PurchaseOffer.Free.Adult" value="SVOD_PO_F_Adult {0} " />
+  <string id="Messages.Called" value="M_Called {0} " />
+  <string id="Messages.From" value="M_From {0} " />
+  <string id="Messages.Received" value="M_Received {0} " />
+  <string id="Photos.DateRangeFormat" value=" {0} P_DateRangeFormat {1} " />
+  <string id="Photos.AlbumCountFormat" value=" {0} P_AlbumCountFormat" />
+  <string id="Photos.Count.Many" value=" {0} P_C_Many" />
+  <string id="Photos.Count.SubFolders" value=" {0} P_C_SubFolders" />
+  <string id="Upgrade.Progress" value="U_Progress {0} " />
+  <string id="Upgrade.TimeLeft" value=" {0} U_TimeLeft" />
+  <string id="Upgrade.FileNotInList" value="U_FileNotInList {0} " />
+  <string id="Upgrade.PartTooBig" value="U_PartTooBig {0} U_PartTooBig {1} " />
+  <string id="Upgrade.PartSizeMismatch" value="U_PartSizeMismatch {0} U_PartSizeMismatch {1} " />
+  <string id="Upgrade.DecompPartSizeMismatch" value="U_DecompPartSizeMismatch {0} U_DecompPartSizeMismatch {1} " />
+  <string id="Upgrade.PackageSizeMismatch" value="U_PackageSizeMismatch {0} U_PackageSizeMismatch {1} " />
+  <string id="Upgrade.PackageTooBig" value="U_PackageTooBig {0} U_PackageTooBig {1} " />
+  <string id="Upgrade.PackageTooManyFiles" value="U_PackageTooManyFiles {0} U_PackageTooManyFiles {1} " />
+  <string id="DiskRepair.Progress" value=" {0} DR_Progress" />
+  <string id="DiskRepair.TimeLeft" value=" {0} DR_TimeLeft" />
+  <string id="Search.Grouped.Shows" value=" {0} S_G_Shows" />
+  
+  <string id="Search.NoResultsLine1" value="S_NoResultsLine1 {0} " />
+  
+  <string id="Search.ListCounter" value=" {0} S_ListCounter" />
+  
+  <string id="Duration.Seconds" value=" {0} D_Seconds" />
+  <string id="Duration.Minutes" value=" {0} D_Minutes" />
+  <!-- {0}: Minute (int) -->
+  <string id="Duration.Minute" value="{0} D_Minute"/>
+  <string id="Duration.Hour" value="{0} D_Hour"/>
+
+  <string id="Duration.Hours" value=" {0} D_Hours" />
+  <string id="Duration.Days" value=" {0} D_Days" />
+  <string id="Duration.TimeLeft" value=" {0} D_TimeLeft" />
+  
+  <string id="ListCounter" value=" {0} ListCounter {1} " />
+  
+  <string id="Shutdown.Reboot.CountDown" value="S_R_CountDown {0} " />
+  <string id="Content.Unavailable.AutoDetuned" value="C_U_AutoDetuned {0} " />
+  <string id="Content.Unavailable.PlaybackDisabled.EndTime" value="C_U_PD_EndTime {0} " />
+  <string id="DeadState.MessageFormat" value=" {0} DS_MessageFormat {1} " />
+  <string id="BootstrapRetry.CountDown" value="BR_CountDown {0} " />
+
+
+<string id="ProgramInfo.DownloadUntil" value="PI_DownloadUntil {0} " />
+  <string id="ProgramInfo.AvailableUntil" value="PI_AvailableUntil {0} " />
+  <string id="ProgramInfo.AvailableAt" value="PI_AvailableAt {0} " />  
+  <string id="ProgramInfo.RentedUntil" value="PI_RentedUntil {0} " />
+
+<string id="ProgramInfo.DownloadStatus.Percent" value="PI_DS_Percent {0} " />
+
+ <string id="MediaSharing.MultipleItemsFormat" value=" {0} MS_MultipleItemsFormat" />
+
+ <string id="MediaSharing.Error.MusicPlaybackFailed" value="MS_E_MusicPlaybackFailed {0} " />
+
+<string id="MediaSharing.Error.MusicPlaybackFailed.8007000" value="MS_E_MPF_8007000 {0} " />
+  <string id="MediaSharing.Error.MusicPlaybackFailed.8004022" value="MS_E_MPF_8004022 {0} " />
+
+<string id="TimeShift.Stopped.Message" value="TS_S_Message {0}"/>
+ <string id="StopPage.ChannelGuide" value="{0} SP_ChannelGuide {1}"/>
+
+
+  
+  
+
+
+
+
+
+
+<!-- Pure object replacements: Not touched -->
+
+
+
+
+
+
+
+  <string id="ProgramInfo.LongDescription" value="{0} {1} {2} {3}"/>
+  <string id="ProgramInfo.ChannelInfo" value="{0} {1}"/>
+  <string id="ProgramInfo.Series.ChannelInfo" value="{0} {1}"/>
+  <string id="ProgramStartTime" value="{0}"/>
+  
+  
+  <string id="ParentalControl.ListItemText.BlockedChannelsSingle" value="{0} {1}"/>
+    
+  <string id="DVR.SeriesInfoRecordOnFormat" value="{0} {1}, {2} {3}"/>
+  <string id="DVR.SeriesSettingRecordOnFormat" value="{0} {1}"/>
+  <string id="DVR.SeriesSettingHowOftenFormat" value="{0} {1}"/>
+  <string id="DVR.OneTimeSettingChannelFormat" value="{0} {1}"/>
+  <string id="ElementaryStream.DisplayNameFormat" value="{0} {1}"/>
+  <string id="AudioProgram.DisplayNameFormat" value="{0} {1}"/>
+  <string id="Duration.MinutesSeconds" value="{0} {1}"/>
+  <string id="Duration.HoursMinutes" value="{0} {1}"/>
+  <string id="Duration.HoursMinutesSeconds" value="{0} {1}"/>
+<string id="ProgramInfo.ChannelInfoAndTime" value="{0}{1}{2}"/>
+  <string id="ProgramInfo.Series.Time" value="{0}, {1}"/>
+<string id="ProgramInfo.DvrExtraInfo" value="{0}, {1}."/>
+<string id="ParentalControl.RatingSystems.DescriptionFormat" value="{0}&#13;{1}"/>
+<string id="Guide.ChannelRange" value="{0}-{1}"/>
+
+<string id="VideoFullScreen.SlideShowTitle" value="{0}/{1}"/>
+
+<string id="ZoomControl.ZoomText.CustomZoom" value="CUSTOM ZOOM ({0},{1},{2},{3})"/>
+
+<string id="DVR.RecordedBucketTitleFormat" value="{0} ({1})"/>
+    <string id="DVR.RecordedBucketCountFormat" value="({0})"/>
+
+<string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormat" value="&#8220;{0}&#8221; {1}"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeFormatEpisodeTitle" value="{0}"/>
+    <string id="DVR.RecordedGroup.Rollover.RecordedEpisodeConcatFormat" value="{0} &#0183; {1}"/>
+
+<string id="DVR.Preview.DurationFormat.Day" value="{0}&#0160;DAY"/>
+  <string id="DVR.Preview.DurationFormat.Day.LowerCase" value="{0}&#0160;day"/>
+  <string id="DVR.Preview.DurationFormat.Days.LowerCase" value="{0}&#0160;days"/>
+  <string id="DVR.Preview.DurationFormat.Hours" value="{0}&#0160;HR"/>
+  <string id="DVR.Preview.DurationFormat.Minutes" value="{0}&#0160;MIN"/>
+  <string id="DVR.Preview.DurationFormat.Hour.LowerCase" value="{0}&#0160;hour"/>
+  <string id="DVR.Preview.DurationFormat.Hours.LowerCase" value="{0}&#0160;hours"/>
+  <string id="DVR.Preview.DurationFormat.Minute.LowerCase" value="{0}&#0160;minute"/>
+  <string id="DVR.Preview.DurationFormat.Minutes.LowerCase" value="{0}&#0160;minutes"/>
+  <string id="DVR.Preview.ProgramInfoTime" value="{0}{1}{2}{3}{4}{5}"/>
+  <string id="DVR.Rollover.TimeAndKeep_old" value="{0}  &#0183;  {1}"/>
+  <string id="DVR.Rollover.TimeAndKeep" value="{0}"/>
+  <string id="DVR.Rollover.ChannelAndTime" value="{0}  &#0183;  {1}"/>
+  <string id="DVR.Count.Many" value="{0} RECORDINGS"/>
+  
+
+<string id="DVR.Conflict.GridHeader" value="CONFLICT {0}&#13;{1}"/>
+
+
+
+
+<string id="ElementaryStream.DescriptionFormat" value=" {0}"/>
+  <string id="AudioProgram.DescriptionFormat" value=" {0}"/>
+
+<string id="VOD.ExpiresInAWeek" value="RENTAL ENDS {0}&#0160;{1}"/>
+
+<string id="PPV.ProgramInfo.AcceptOffer" value="{0}"/>
+  <string id="VOD.ProgramInfo.AcceptOffer" value="{0}"/>
+
+<string id="PPV.Rental.PriceAndExpiration" value="{0}  &#0183;  RENT FOR {1}"/>
+  <string id="VOD.Rental.PriceAndExpiration" value="{0}  &#0183;  RENT FOR {1}"/>
+  <string id="SVOD.Rental.PriceAndExpiration" value="{0}  &#0183;  MONTHLY SUBSCRIPTION"/>
+  <string id="Default.Rental.PriceAndExpiration" value="{0}  &#0183;  RENT"/>
+
+
+
+
+<string id="PPV.PriceAndTime" value="{0} &#8226; {1}"/>
+ 
+
+<string id="Search.NoResultForPeopleFormat" value="{0} - {1}"/>
+
+<string id="Search.ByDateHeaderFormat" value="{0} - {1}"/>
+
+
+<string id="ProgramDateAndTime" value="{0}, {1}"/>
+  <string id="ProgramTime" value="{0}&#8211;{1}"/>
+  <string id="ProgramTimeAndRating" value="{0}&#8211;{1}"/>
+  <string id="TimeLeft" value="{0} LEFT"/>
+  <string id="Rental.Days" value="{0}&#0160;DAYS"/>
+  <string id="Rental.Days.Confirm" value="{0}&#0160;DAY"/>
+  <string id="Rental.Hours" value="{0}&#0160;HRS"/>
+  <string id="Rental.Hours.Confirm" value="{0}&#0160;HR"/>
+  <string id="Rental.Minutes" value="{0}&#0160;MINS"/>
+  <string id="Rental.Minutes.Confirm" value="{0}&#0160;MIN"/>
+
+<string id="EpisodeTitleAndDescription" value="&#8220;{0}&#8221; - {1}"/>
+  <string id="EpisodeTitle" value="&#8220;{0}&#8221;"/>
+  <string id="TitleAndEpisodeTitle" value="{0} - &#8220;{1}&#8221;"/>
+  <string id="TitleSansEpisode" value="{0}"/>
+  <string id="Episode" value="&#8220;{0}&#8221;"/>
+
+<string id="ParenthesizedString" value="({0})"/>
+
+<string id="BrowseBar.Summary.Ratings" value="{0} &#0183; " /><!-- first part of summary if we have ratings, eg: {0} replaced with PG13 -->
+  <string id="BrowseBar.Summary.Year" value="({0}) " /><!-- second part of summary, eg: {0} replaced with 2005 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Not changed Date Formats strings -->
+
+
+
+
+
+
+
+
+  <string id="StringFormatDefault" value="&#8226;"/>
+  <string id="ProgramInfo.ProgramDateFormatString" value="ddd M/d, "/>
+  <string id="ProgramInfo.ProgramDateNoDayFormatString" value="M/d, "/>
+  <string id="ProgramInfo.StartTimeFormatString" value="h:mm&#0160;tt"/>
+  <string id="ProgramInfo.StartTimeFollowedByEndTimeFormatString" value="t"/>
+  <string id="ProgramInfo.EndTimeFormatString" value="t"/>
+  <string id="ProgramInfo.AirDateFormatString" value="MMMM dd yyyy"/>
+  <string id="Guide.Options.JumpFormatString" value="dddd"/>
+  <string id="SeekBar.TimeFormat" value="h:mm&#0160;tt"/>
+  <string id="SeekBar.TimeFormatCurrent" value="h:mm:ss"/>
+  <string id="SeekBar.DVRTimeFormat" value="H:mm"/>
+  <string id="SeekBar.DVRCurrentPositionFormat" value="H:mm:ss"/>
+  <string id="DVR.UpcomingDateFormatString" value="ddd&#0160;M/d"/>
+  <string id="DVR.BucketRecordedDateOnlyFormatString" value="(ddd&#0160;M/d)"/>
+  <string id="DVR.BucketRecordedDateFormatString" value="(ddd&#0160;M/d)"/>
+  <string id="DVR.RecordedDateFormatString" value="M/d"/>
+  <string id="DVR.Keep.Date.Format" value="ddd M/d"/>
+  <string id="DVR.RecordDate.Format" value="ddd M/d"/>
+  <string id="DVR.Number.Format" value="D02"/>
+  <string id="DVR.Number.Format12Hour" value=""/>
+  <string id="DVR.Preview.StartTimeFormat" value="ddd&#0160;M/d"/>
+  <string id="DVR.SeriesTimeFormat" value="h:mm tt"/>
+  <string id="DVR.SeriesTimeFormat24" value="H:mm"/>
+  <string id="Search.UpcomingDateFormatString" value="ddd&#0160;M/d"/>
+  <string id="Search.TimeNotTodayFormat" value="M/d"/>
+  <string id="Search.TimeTodayFormat" value="h:mm&#0160;tt"/>
+  <string id="MiniTimeFormat" value="h:mm"/>
+  <string id="ShortTimeFormat" value=""/>
+  <string id="ShortTimeFormat.AmDesignator" value=""/>
+  <string id="ShortTimeFormat.PmDesignator" value=""/>
+  <string id="MicroDateFormat" value="M/d"/>
+  <string id="MiniDateFormat" value="ddd M/d"/>
+  <string id="ShortDateFormat" value="dddd M/d"/>
+  <string id="DayFormat" value="ddd"/>
+
+
+<string id="ProgramInfo.VODAvailableDate" value="h:mm&#0160;tt MMMM dd yyyy"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Not changed TripleTaps, ISO etc... -->
+
+
+
+
+  <string id="Image.Logo.VideoOnDemand" value="Logo_VideoOnDemand.png"/>
+  <string id="Image.BrandServiceBanner" value="Brand_Service_Banner.png"/>
+  <string id="Image.ScreenSaverLogo" value="ScreenSaverLogo.png"/>
+  <string id="Image.BrowseButton.OKlabel" value="BrowseButton.OKlabel.png"/>
+  <string id="Image.VideoStill.Future" value="VideoStill.Future.jpg"/>
+  <string id="Image.VideoStill.Past" value="VideoStill.Past.jpg"/>
+  <string id="Image.VideoStill.Locked" value="VideoStill.Locked.jpg"/>
+  <string id="Image.VideoStill.Locked.DRM" value="VideoStill.Locked.DRM.jpg"/>
+  <string id="Image.VideoStill.Locked.CA" value="VideoStill.Locked.CA.jpg"/>
+  <string id="Image.VideoStill.Locked.Encrypted" value="VideoStill.Locked.Encrypted.jpg"/>
+  <string id="Image.VideoStill.Locked.HDMI" value="VideoStill.Locked.HDMI.jpg"/>
+  <string id="Image.VideoStill.RecordedTV" value="VideoStill.RecordedTV.jpg"/>
+  <string id="Image.VideoStill.VOD" value="VideoStill.VOD.jpg"/>
+  <string id="Image.VideoStill.MyPictures" value="Browse_Poster_MyPictures.png"/>
+  <string id="Image.VideoStill.Live" value="VideoStill.Live.jpg"/>
+  <string id="Image.VideoStill.NoRights" value="VideoStill.NoRights.jpg"/>
+  <string id="Image.VideoStill.URL" value="VideoStill.URL.jpg"/>
+  <string id="Image.VideoStill.Adult" value="VideoStill.Adult.jpg"/>
+  <string id="Image.VideoStill.PlaybackDisabled" value="VideoStill.Locked.jpg"/>
+  <string id="ISO.af" value="Afrikaans"/>
+  <string id="ISO.ar" value="Arabic"/>
+  <string id="ISO.az" value="Azeri"/>
+  <string id="ISO.be" value="Belarusian"/>
+  <string id="ISO.bg" value="Bulgarian"/>
+  <string id="ISO.ca" value="Catalan"/>
+  <string id="ISO.cs" value="Czech"/>
+  <string id="ISO.cy" value="Welsh"/>
+  <string id="ISO.da" value="Danish"/>
+  <string id="ISO.de" value="German"/>
+  <string id="ISO.el" value="Greek"/>
+  <string id="ISO.en" value="English"/>
+  <string id="ISO.es" value="Spanish"/>
+  <string id="ISO.et" value="Estonian"/>
+  <string id="ISO.eu" value="Basque"/>
+  <string id="ISO.fa" value="Persian"/>
+  <string id="ISO.fi" value="Finnish"/>
+  <string id="ISO.fo" value="Faroese"/>
+  <string id="ISO.fr" value="French"/>
+  <string id="ISO.gd" value="Gaelic"/>
+  <string id="ISO.gl" value="Galician"/>
+  <string id="ISO.gu" value="Gujarati"/>
+  <string id="ISO.he" value="Hebrew"/>
+  <string id="ISO.hi" value="Hindi"/>
+  <string id="ISO.hr" value="Croatian"/>
+  <string id="ISO.hu" value="Hungarian"/>
+  <string id="ISO.hy" value="Armenian"/>
+  <string id="ISO.id" value="Indonesian"/>
+  <string id="ISO.is" value="Icelandic"/>
+  <string id="ISO.it" value="Italian"/>
+  <string id="ISO.ja" value="Japanese"/>
+  <string id="ISO.ka" value="Georgian"/>
+  <string id="ISO.kk" value="Kazakh"/>
+  <string id="ISO.kn" value="Kannada"/>
+  <string id="ISO.ko" value="Korean"/>
+  <string id="ISO.ky" value="Kyrgyz"/>
+  <string id="ISO.lt" value="Lithuanian"/>
+  <string id="ISO.lv" value="Latvian"/>
+  <string id="ISO.mk" value="Macedonian"/>
+  <string id="ISO.mn" value="Mongolian"/>
+  <string id="ISO.mr" value="Marathi"/>
+  <string id="ISO.ms" value="Malay"/>
+  <string id="ISO.nl" value="Dutch"/>
+  <string id="ISO.no" value="Norwegian"/>
+  <string id="ISO.pa" value="Punjabi"/>
+  <string id="ISO.pl" value="Polish"/>
+  <string id="ISO.pt" value="Portuguese"/>
+  <string id="ISO.ro" value="Romanian"/>
+  <string id="ISO.ru" value="Russian"/>
+  <string id="ISO.sa" value="Sanskrit"/>
+  <string id="ISO.sk" value="Slovak"/>
+  <string id="ISO.sl" value="Slovenian"/>
+  <string id="ISO.sq" value="Albanian"/>
+  <string id="ISO.sr" value="Serbian"/>
+  <string id="ISO.sv" value="Swedish"/>
+  <string id="ISO.sw" value="Swahili"/>
+  <string id="ISO.ta" value="Tamil"/>
+  <string id="ISO.te" value="Telugu"/>
+  <string id="ISO.th" value="Thai"/>
+  <string id="ISO.tr" value="Turkish"/>
+  <string id="ISO.tt" value="Tatar"/>
+  <string id="ISO.uk" value="Ukrainian"/>
+  <string id="ISO.ur" value="Urdu"/>
+  <string id="ISO.uz" value="Uzbek"/>
+  <string id="ISO.vi" value="Vietnamese"/>
+  <string id="ISO.zh" value="Chinese"/>
+  <string id="TripleTap.0" value=" 0"/>
+  <string id="TripleTap.1" value="1"/>
+  <string id="TripleTap.2" value="ABC2"/>
+  <string id="TripleTap.3" value="DEF3"/>
+  <string id="TripleTap.4" value="GHI4"/>
+  <string id="TripleTap.5" value="JKL5"/>
+  <string id="TripleTap.6" value="MNO6"/>
+  <string id="TripleTap.7" value="PQRS7"/>
+  <string id="TripleTap.8" value="TUV8"/>
+  <string id="TripleTap.9" value="WXYZ9"/>
+  <string id="TripleTapExtended.0" value=" 0)"/>
+  <string id="TripleTapExtended.1" value="1!"/>
+  <string id="TripleTapExtended.2" value="ABCabc2@"/>
+  <string id="TripleTapExtended.3" value="DEFdef3#"/>
+  <string id="TripleTapExtended.4" value="GHIghi4$"/>
+  <string id="TripleTapExtended.5" value="JKLjkl5%"/>
+  <string id="TripleTapExtended.6" value="MNOmno6^"/>
+  <string id="TripleTapExtended.7" value="PQRSpqrs7&#038;"/>
+  <string id="TripleTapExtended.8" value="TUVtuv8*"/>
+  <string id="TripleTapExtended.9" value="WXYZwxyz9("/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</stringtable>

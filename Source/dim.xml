@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uidescription>
+  <Page id="Dimmer" class="Page" showanimations="QuickFadeIn" hideanimations="QuickFadeOut" visible="false" background="argb(128, 0, 0, 0)" left="0" top="0" width="1280" height="720">
+    <Actions>
+      <Event type="#microsoft:mediaroom:event:dialog:dim" target="Dimmer" action="dim"/>
+      <Event type="#microsoft:mediaroom:event:dialog:undim" target="Dimmer" action="undim" />
+      <Action name="dim"   type="show" target="Dimmer" />
+      <Action name="undim" type="hide" target="Dimmer" />
+    </Actions>
+  </Page>
+</uidescription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <AudioDescriptionSettingsPage class="Page.Animated" initialFocus="_saveButton">
+        <Text class="Text.Clock">{Time}</Text>
+        <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+        <Text class="Text.SubheaderTitle">#Settings.AudioDescription</Text>
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+            <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+            <RadioButtonGroup class="RadioButtonGroup" id="_audioDescription">
+                <RadioButton class="RadioButton.Spaced" id="_audioDescriptionOnButton">#Settings.AudioDescription.On</RadioButton>
+                <RadioButton class="RadioButton.Spaced" id="_audioDescriptionOffButton">#Settings.AudioDescription.Off</RadioButton>
+            </RadioButtonGroup>
+            <EditButton class="EditButton.AudioDescriptionVolume" onClick="OnClick_Volume" id="_audioDescriptionVolumeButton"
+                titletext="#Settings.AudioDescription.VolumeButton.Title">#Settings.AudioDescription.VolumeButton.Change</EditButton>
+        </VerticalFlowPanel>
+    </AudioDescriptionSettingsPage>
+</uidescription>
+

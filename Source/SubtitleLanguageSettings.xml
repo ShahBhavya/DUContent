@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <SubtitleLanguageSettingsPage class="Page.Animated" initialFocus="_saveButton">
+
+    <Text class="Text.Clock">{Time}</Text>
+    <Text class="Text.HeaderTitle" id="_header">#SettingsString</Text>
+    <Text class="Text.SubheaderTitle">#Settings.SubtitleLanguage</Text>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Menu.Settings">
+      <Button class="Button.Vertical" onClick="OnClick_Save" id="_saveButton">#Settings.Save</Button>
+      <Button class="Button.Vertical" onClick="OnClick_DontSave" id="_dontSaveButton">#Settings.DontSave</Button>
+    </VerticalFlowPanel>
+
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.Settings">
+      <RadioButtonGroup id="_subtitlesOn" class="RadioButtonGroup">
+        <RadioButton class="RadioButton.Spaced">#Settings.SubtitleLanguage.On</RadioButton>
+        <RadioButton class="RadioButton.Spaced">#Settings.SubtitleLanguage.Off</RadioButton>
+      </RadioButtonGroup>
+
+      <Text class="Text.SettingsDescription">#Settings.SubtitleLanguage.Description</Text>
+        <SimpleRadioList class="List.SubtitleLanguages" id="_list" listCounterId="_listCounter" />
+      <Text class="Text.ListCounter.SubtitleLanguages" id="_listCounter" />
+    </VerticalFlowPanel>
+
+  </SubtitleLanguageSettingsPage>
+</uidescription>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <SearchResultsForAPersonPage class="Page.AnimatedNavBar">
+
+        <Text class="Text.HeaderTitle">#Search.Header</Text>		
+        <Text class="Text.Clock">{Time}</Text>
+		
+		<Panel class="Panel.MenuBackground" clipchildren="true">
+		    <Menu class="Menu.Top" id="_menu" containerID="_subpageContainer">
+   		        <MenuItem class="MenuItem" subMenuPath="SearchResultsForAPersonSub.xml" Tag="ByTitle">#Search.PeopleResultPageMenu.ByTitle</MenuItem>
+		        <MenuItem class="MenuItem" subMenuPath="SearchResultsForAPersonSub.xml" Tag="ByDate">#Search.PeopleResultPageMenu.ByDate</MenuItem>
+  		        <!-- <MenuItem class="MenuItem" subMenuPath="SearchResultsForAPersonSub.xml" Tag="ByStar">#Search.PeopleResultPageMenu.ByStar</MenuItem> -->
+		        <MenuItem class="MenuItem" subMenuPath="SearchResultsForAPersonSub.xml" Tag="ByRental">#Search.PeopleResultPageMenu.ByRental</MenuItem>
+		    </Menu> 
+		</Panel>		
+
+        <Panel class="Panel.SubpageContainer" id="_subpageContainer"/>
+
+    </SearchResultsForAPersonPage>
+</uidescription>

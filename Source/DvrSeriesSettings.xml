@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+    <DvrSeriesSettingsPage class="Page.Animated">
+
+        <Text class="Text.HeaderTitle" id="_pageTitle" />
+        <Text class="Text.SubheaderTitle" id="_title"></Text>
+        <Text class="Text.Clock">{Time}</Text>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Menu.DvrManualRecordPage">
+            <Button class="Button.Vertical" onClick="OnClick_Record" visible="false" id="_record" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.Record</Button>
+            <Button class="Button.Vertical" onClick="OnClick_Save" visible="false" id="_save" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.Save</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontSave" visible="false" href="action:back" id="_dontSave" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.DontSave</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontRecord" visible="false" id="_dontRecord" href="action:back" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.DontRecord</Button>
+            <Button class="Button.Vertical" onClick="OnClick_DontChange" visible="false" id="_dontChange" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">#DVR.Keep.DontChange</Button>
+        </VerticalFlowPanel>
+
+        <VerticalFlowPanel class="VerticalFlowPanel.Content.DvrManualRecordPage">
+            
+            <Panel class="" id="_changePanel" visible="false" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader" id="_listTitle" />
+                <SimpleRadioList class="List.RecordSettings" id="_list" listCounterId="_listCounter" />
+                <Text class="Text.ListCounter.DvrSettings" id="_listCounter" />
+            </Panel>
+
+          <Panel class="" id="_changeKeepAtMostPanel" visible="false" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+            <SimpleList class="List.KeepAtMostList" id="_keepAtMostList" listCounterId="_keepAtMostListCounter" />
+            <Text class="Text.ListCounter.DvrSettings" id="_keepAtMostListCounter" />
+          </Panel>
+          
+            <Panel class="" id="_stationPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.SeriesFrequencyLabel</Text>
+                <Text class="Text.NoSpinner" id="_station" />
+                <!--
+                <Button class="Button.RecordSettings" id="_stationButton" onClick="OnClick_Station" OnValueChange="StationChanged" />
+                -->
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_timePanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.FrequencyLabel</Text>
+                <Button class="Button.RecordSettings" id="_timeButton" onClick="OnClick_Time" OnValueChange="TimeChanged" />
+            </Panel>
+             
+            <Panel height="16"/>
+
+            <Panel class="" id="_typePanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.SeriesShowTypeLabel</Text>
+                <Button class="Button.RecordSettings" id="_showTypeButton" onClick="OnClick_Type" OnValueChange="ShowTypeChanged" />
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_stopPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.StopRecordingLabel</Text>
+                <Button class="Button.RecordSettings" id="_hardEndPaddingButton" onClick="OnClick_Padding" OnValueChange="HardEndPaddingChanged" />
+            </Panel>
+
+            <Panel height="16"/>
+
+            <Panel class="" id="_keepPanel" showAnimations="MediumFadeIn" hideAnimations="MediumFadeOut">
+                <Text class="Text.SpinnerHeader">#DVR.SeriesKeepAtMostLabel</Text>
+                <Button class="Button.RecordSettings" id="_keepAtMostButton" onClick="OnClick_Keep" />
+            </Panel>
+
+        </VerticalFlowPanel>
+
+    </DvrSeriesSettingsPage>
+</uidescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uidescription>
+  <PageLoadErrorPage class="Page.AnimatedNavBar" excludefromhistory="true">
+    <Text class="Text.HeaderTitle">#PageLoadError.VOD.Title</Text>
+    <Text class="Text.SubheaderTitle">#PageLoadError.VOD.PageName</Text>
+    <VerticalFlowPanel class="VerticalFlowPanel.Content.VOD.Error">
+      <TextBox class="TextBox.Errors.Text" id="_errorText">#PageLoadError.VOD.ErrorText</TextBox>
+    </VerticalFlowPanel>
+  </PageLoadErrorPage>
+</uidescription>
